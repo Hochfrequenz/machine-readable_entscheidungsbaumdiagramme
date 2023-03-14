@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "chapter": "Dummy Chapter",
+    "ebd_code": "E_0495",
+    "role": "MSB der Marktlokation",
+    "sub_chapter": "Dummy Subchapter"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist ein Fehler aufgetreten?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster \nAblehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster Zustimmung\nAntwort auf Bestellung der Zählzeitdefinitionen des LF ausgehend vom MSB versenden",
+          "result_code": "A01"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

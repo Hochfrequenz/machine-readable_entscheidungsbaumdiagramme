@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "chapter": "Dummy Chapter",
+    "ebd_code": "E_0019",
+    "role": "BIKO",
+    "sub_chapter": "Dummy Subchapter"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Erfolgt der Eingang der Prüfmitteilung nach Ablauf der Clearingfrist für die KBKA?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Fristüberschreitung",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "Ende"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
