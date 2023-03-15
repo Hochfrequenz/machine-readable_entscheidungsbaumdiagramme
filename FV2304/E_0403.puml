@@ -1,0 +1,114 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Dummy Chapter
+
+Dummy Subchapter
+
+
+
+end title
+:<b>E_0403</b>;
+note right
+<b><i>Prüfende Rolle: LF
+end note
+
+if (<b>1: </b> Besteht zum Folgetag des in der Abmeldeanfrage genannten Termins ein Vertragsverhältnis für diese Marktlokation?) then (ja)
+    if (<b>3: </b> Liegt in der Abmeldeanfrage der Transaktionsgrund Ein-/ Auszug (Umzug&#41; vor?) then (ja)
+        if (<b>4: </b> Ist der Kunde aus der Abmeldeanfrage identisch mit dem Kunden beim LFA?) then (ja)
+            :A32;
+            note left
+                Cluster: Ablehnung
+                Es handelt sich nicht um einen Einzug, da der Kun-de aus der Abmeldeanfrage identisch mit dem Kunden beim LFA ist.
+            endnote
+            kill;
+        else (nein)
+        endif
+        if (<b>5: </b> Hat der LFA Informationen darüber, dass sein Kunde nicht ausgezogen ist?) then (ja)
+            :A33;
+            note left
+                Cluster: Ablehnung
+                Der LFA hat die Information, dass der Kunde nicht ausgezogen ist.
+            endnote
+            kill;
+        else (nein)
+            :A34;
+            note left
+                Cluster: Zustimmung 
+                Der LFA beendet die Belieferung und teilt sein Lieferendedatum in der Antwort mit.
+            endnote
+            kill;
+        endif
+    else (nein)
+        if (<b>6: </b> Liegt in der Abmeldeanfrage der Transaktionsgrund Wechsel vor?) then (ja)
+            if (<b>7: </b> Bleibt das Vertragsverhältnis des LFA mit dem Kunden an dieser Marktlokation zum Tag nach dem Endedatum aus der Abmeldeanfrage bestehen?) then (ja)
+                :A35;
+                note left
+                    Cluster: Ablehnung
+                    Es besteht eine Vertragsbindung.
+                endnote
+                kill;
+            else (nein)
+                :A36;
+                note left
+                    Cluster: Zustimmung
+                    Vertragsverhältnis wurde zum angefragten oder davor liegenden Termin beendet.
+                endnote
+                kill;
+            endif
+        else (nein)
+            if (<b>8: </b> Befindet sich die Marktlokation zum Folgetag des Endedatums aus der Abmeldeanfrage in der Ersatz-versorgung?) then (ja)
+                :A38;
+                note left
+                    Cluster: Zustimmung
+                    Ersatzversorgung wurde zum angefragten Termin beendet.
+                endnote
+                kill;
+            else (nein)
+                :A37;
+                note left
+                    Cluster: Ablehnung
+                    Die Marktlokation befindet sich nicht in der Ersatzversorgung.
+                endnote
+                kill;
+            endif
+        endif
+    endif
+else (nein)
+    if (<b>2: </b> Liegt dem LFA bereits eine bestätigte Netzabmeldung vor?) then (ja)
+        :A30;
+        note left
+            Cluster: Ablehnung
+            Die Belieferung wurde zu dem angefragten Ter-min aus der Abmeldeanfrage bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde.
+        endnote
+        kill;
+    else (nein)
+        :A31;
+        note left
+            Cluster: Zustimmung
+            Zustimmung der Abmeldeanfrage zum in der bereits versendeten Abmeldung (welche noch nicht beantwortet wurde&#41; genannten Termin.
+        endnote
+        kill;
+    endif
+endif
+
+@enduml

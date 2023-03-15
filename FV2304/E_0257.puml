@@ -1,0 +1,117 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Dummy Chapter
+
+Dummy Subchapter
+
+
+
+end title
+:<b>E_0257</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>1: </b> Wurde die Bestellung des ESA durch den MSB bestätigt?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Die Bestellung des ESA wurde durch den MSB nicht bestätigt.
+    endnote
+    kill;
+endif
+if (<b>2: </b> Handelte es sich bei der Bestellung um ein turnusmäßige/regelmäßige Übermittlung (Abo&#41;?) then (ja)
+    if (<b>3: </b> Wurde die turnusmäßige/regelmäßige Übermittlung (Abo&#41; von Werten bereits begonnen?) then (ja)
+        :A02;
+        note left
+            Cluster: Ablehnung
+            Mit der Übermittlung von Werten aus dem Abo wurde bereits begonnen.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>5: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Cluster: Ablehnung
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.
+            Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+        :A04;
+        note left
+            Cluster: Zustimmung
+            Stornierung wird bestätigt.
+        endnote
+        kill;
+    endif
+else (nein)
+    if (<b>4: </b> Ist die einmalige Übermittlung von Werten bereits erfolgt?) then (ja)
+        :A03;
+        note left
+            Cluster: Ablehnung
+            Die einmalige Übermittlung der Werte ist bereits erfolgt.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>5: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Cluster: Ablehnung
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.
+            Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+        :A04;
+        note left
+            Cluster: Zustimmung
+            Stornierung wird bestätigt.
+        endnote
+        kill;
+    endif
+endif
+if (<b>5: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Cluster: Ablehnung
+        Sonstiges
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.
+        Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+    :A04;
+    note left
+        Cluster: Zustimmung
+        Stornierung wird bestätigt.
+    endnote
+    kill;
+endif
+
+@enduml

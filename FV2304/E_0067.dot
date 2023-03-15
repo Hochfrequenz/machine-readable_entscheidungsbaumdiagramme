@@ -1,0 +1,12 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">Dummy Chapter</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">Dummy Subchapter</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0067</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Erfolgt der Eingang der Zeitreihe vor Ablauf der Frist für die Clearingphase BKA (ohne KBKA)?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Abrechnungsdaten“<BR align="left"/></FONT>>];
+    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Abrechnungsdaten KBKA“<BR align="left"/></FONT>>];
+
+    "Start" -> "1";
+    "1" -> "A01" [label="Ja"];
+    "1" -> "A04" [label="Nein"];
+}

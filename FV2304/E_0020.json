@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "chapter": "Dummy Chapter",
+    "ebd_code": "E_0020",
+    "role": "NB",
+    "sub_chapter": "Dummy Subchapter"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Erfolgt die Aktivierung nach Ablauf der Clearingfrist für die KBKA?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFristüberschreitung",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Erfolgt die Aktivierung zum Monatsersten 00:00 Uhr?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nGewählter Zeitpunkt nicht zulässig",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "3"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird die ID bereits für die Identifikation eines Nicht-MaBiS-ZP verwendet?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nID bereits außerhalb MaBiS verwendet",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist genau eines der angegebenen Bilanzierungsgebiete das Bilanzierungsgebiet des Empfängers?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nBilanzierungsgebiet des benachbarten NB nicht gültig",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die richtige Regelzone angegeben?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nRegelzone falsch",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "6"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Empfänger zum Aktivierungsbeginn für eines der zwei angegebenen Bilanzierungsgebiete zuständig?",
+      "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nKeine Berechtigung",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "7"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Existiert bereits ein abweichendes Tupel unter der ID des MaBiS-ZP?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAbweichender MaBiS-ZP bereits vorhanden",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "8"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Existiert bereits für das genannte Tupel aus Bilanzierungsgebiet des verantwortlichen NB, Bilanzierungsgebiet des benachbarten NB und ZRT eine abweichende ID des MaBiS-ZP?",
+      "step_number": "8",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAbweichende ID zum MaBiS-ZP bereits vorhanden",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "9"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der NB zur Aktivierung des ZRT berechtigt?",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nZRT Aktivierung nicht berechtigt",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Passt die OBIS-Kennzahl zum ZRT?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nOBIS nicht passend",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "11"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der MaBiS-ZP zum Zeitpunkt der Aktivierung bereits aktiviert?",
+      "step_number": "11",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMaBiS-ZP bereits aktiviert",
+          "result_code": "A11"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nAktivierung durchgeführt",
+          "result_code": "A12"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

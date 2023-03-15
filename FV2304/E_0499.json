@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "chapter": "Dummy Chapter",
+    "ebd_code": "E_0499",
+    "role": "NB",
+    "sub_chapter": "Dummy Subchapter"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist die Entsperrung erfolgreich durchgeführt worden?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: erfolgreich\nMarktlokation ist entsperrt.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: gescheitert\nMarktlokation ist weiterhin gesperrt.\nHinweis: Die Gründe des Scheiterns sind zu übermitteln.",
+          "result_code": "A02"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

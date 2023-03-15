@@ -1,0 +1,124 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Dummy Chapter
+
+Dummy Subchapter
+
+
+
+end title
+:<b>E_0481</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>1: </b> Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Marktlokation befindet sich nicht in der messtechnischen Einordnung „iMS“.
+    endnote
+    kill;
+endif
+if (<b>2: </b> Entspricht der geplante Termin zur Änderung der Prognosegrundlage den Prozessfristvorgaben?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Fristüberschreitung
+    endnote
+    kill;
+endif
+if (<b>3: </b> Handelt es sich um eine verbrauchende Marktlokation?) then (ja)
+else (nein)
+    :A03;
+    note left
+        Erzeugende Marktlokationen mit iMS werden immer auf der Prognosegrundlage auf Basis von Werten bilanziert.
+    endnote
+    kill;
+endif
+if (<b>4: </b> Liegt eine Zuordnungsermächtigung für den sich aus der gewünschten Prognosegrundlage ergebenden ZRT vor?) then (ja)
+else (nein)
+    :A04;
+    note left
+        Zuordnungsermächtigung liegt nicht vor.
+    endnote
+    kill;
+endif
+if (<b>5: </b> Ist die gewünschte Prognosegrundlage auf Basis von Profilen angegeben?) then (ja)
+    if (<b>6: </b> Befindet sich die Marktlokation in einem Lokationsbündel, in welchem ebenfalls eine erzeugende Marktlokation vorhanden ist?) then (ja)
+        if (<b>7: </b> Entspricht die erzeugte Energiemenge der Marktlokation der gemessenen Energiemenge in der Flussrichtung Erzeugung an der Messlokation der Netzübergabe?) then (ja)
+        else (nein)
+            :A05;
+            note left
+                Keine Volleinspeisung, keine Prognosegrundlage auf Basis von Profilen möglich
+            endnote
+            kill;
+        endif
+        if (<b>8: </b> Besteht für die Marktlokation ein Wahlrecht zur Änderung der Prognosegrundlage durch den LF?) then (ja)
+        else (nein)
+            :A06;
+            note left
+                Kein Wahlrecht der Prognosegrundlage für die Marktlokation
+            endnote
+            kill;
+        endif
+        if (<b>9: </b> Ist die gewünschte Prognosegrundlage zum gewünschten Termin bereits umgesetzt?) then (ja)
+            :A07;
+            note left
+                Änderung zum gewünschten Termin bereits umgesetzt.
+            endnote
+            kill;
+        else (nein)
+            :A08;
+            note left
+                Bestellung an den MSB am Objekt Marktlokation weitergeleitet
+            endnote
+            kill;
+        endif
+    else (nein)
+    endif
+else (nein)
+endif
+if (<b>8: </b> Besteht für die Marktlokation ein Wahlrecht zur Änderung der Prognosegrundlage durch den LF?) then (ja)
+else (nein)
+    :A06;
+    note left
+        Kein Wahlrecht der Prognosegrundlage für die Marktlokation
+    endnote
+    kill;
+endif
+if (<b>9: </b> Ist die gewünschte Prognosegrundlage zum gewünschten Termin bereits umgesetzt?) then (ja)
+    :A07;
+    note left
+        Änderung zum gewünschten Termin bereits umgesetzt.
+    endnote
+    kill;
+else (nein)
+    :A08;
+    note left
+        Bestellung an den MSB am Objekt Marktlokation weitergeleitet
+    endnote
+    kill;
+endif
+
+@enduml

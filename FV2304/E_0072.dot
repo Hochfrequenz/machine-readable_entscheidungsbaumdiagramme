@@ -1,0 +1,32 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">Dummy Chapter</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">Dummy Subchapter</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0072</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Erfolgt die Deaktivierung nach Ablauf der Clearingfrist für die KBKA?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Fristüberschreitung<BR align="left"/></FONT>>];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Erfolgt die Deaktivierung zum Monatsersten 00:00 Uhr?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Gewählter Zeitpunkt nicht zulässig<BR align="left"/></FONT>>];
+    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Ist das Bilanzierungsgebiet zum Zeitpunkt der Deaktivierung in der Regelzone des BIKO gültig?<BR align="left"/>>];
+    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Bilanzierungsgebiet nicht gültig<BR align="left"/></FONT>>];
+    "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Ist der Redispatch-Bilanzkreis des ANB zum Zeitpunkt der Deaktivierung in der Regelzone des BIKO gültig?<BR align="left"/>>];
+    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Redispatch-Bilanzkreis des ANB nicht gültig<BR align="left"/></FONT>>];
+    "5" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>5: </B>Ist der MaBiS-ZP zum Zeitpunkt der Deaktivierung bereits deaktiviert?<BR align="left"/>>];
+    "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>MaBiS-ZP bereits deaktiviert<BR align="left"/></FONT>>];
+    "6" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>6: </B>Sind für den MaBiS-ZP Zeitreihen nach dem Zeitpunkt der Deaktivierung bereits vorhanden?<BR align="left"/>>];
+    "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Deaktivierung, Zeitreihen vorhanden<BR align="left"/></FONT>>];
+    "A07" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A07</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung <BR align="left"/>Deaktivierung durchgeführt<BR align="left"/></FONT>>];
+
+    "Start" -> "1";
+    "1" -> "A01" [label="Ja"];
+    "1" -> "2" [label="Nein"];
+    "2" -> "A02" [label="Nein"];
+    "2" -> "3" [label="Ja"];
+    "3" -> "A03" [label="Nein"];
+    "3" -> "4" [label="Ja"];
+    "4" -> "A04" [label="Nein"];
+    "4" -> "5" [label="Ja"];
+    "5" -> "A05" [label="Ja"];
+    "5" -> "6" [label="Nein"];
+    "6" -> "A06" [label="Ja"];
+    "6" -> "A07" [label="Nein"];
+}
