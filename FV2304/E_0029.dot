@@ -1,0 +1,28 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">Dummy Chapter</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">Dummy Subchapter</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0029</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Erfolgt der Eingang der Zeitreihe innerhalb der Clearingphase für DZÜ?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Eingang liegt nicht innerhalb der Clearingphase DZÜ<BR align="left"/></FONT>>];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Ist der MaBiS-ZP zum betrachteten Bilanzierungsmonat aktiv?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Gewählter Zeitraum nicht zulässig<BR align="left"/></FONT>>];
+    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Wird die Frist von 2 WT vor dem erforderlichen Versand der Zeitreihe nach der Aktivierung eingehalten?<BR align="left"/>>];
+    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Fristunterschreitung<BR align="left"/></FONT>>];
+    "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Liegt die Version der Zeitreihe des MaBiS-ZP für diesen Bilanzierungsmonat bereits vor?<BR align="left"/>>];
+    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Zeitreihe bereits vorhanden<BR align="left"/></FONT>>];
+    "5" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>5: </B>Ist die Version der Zeitreihe des MaBiS-ZP höher als die bisher höchste verarbeitete Version der Zeitreihe für diesen Bilanzierungsmonat und diesen MaBiS-ZP?<BR align="left"/>>];
+    "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Version nicht zugelassen<BR align="left"/></FONT>>];
+    "Ende" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label="Ende"];
+
+    "Start" -> "1";
+    "1" -> "A01" [label="Nein"];
+    "1" -> "2" [label="Ja"];
+    "2" -> "A02" [label="Nein"];
+    "2" -> "3" [label="Ja"];
+    "3" -> "A03" [label="Nein"];
+    "3" -> "4" [label="Ja"];
+    "4" -> "A04" [label="Ja"];
+    "4" -> "5" [label="Nein"];
+    "5" -> "A05" [label="Nein"];
+    "5" -> "Ende" [label="Ja"];
+}
