@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">Dummy Chapter</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">Dummy Subchapter</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.2.1: AD: Lieferende LF an NB</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0401</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Liegt ein Transaktionsgrund vor, der eine Abmeldung nur in die Zukunft zulässt?<BR align="left"/>Das ist bei den folgenden Transaktionsgründen der Fall:<BR align="left"/>Wechsel<BR align="left"/>Ende der ESV ohne Folgelieferung<BR align="left"/>Aufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis<BR align="left"/>>];
     "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Liegt ein Transaktionsgrund vor, welcher mitteilt, dass der Kunde vor Lieferbeginn ausgezogen ist, bzw. die Marktlokation vor Lieferbeginn stillgelegt wurde?<BR align="left"/>Das ist bei den folgenden Transaktionsgründen der Fall:<BR align="left"/>Aufhebung einer zukünftigen Zuordnung wegen Auszug des Kunden<BR align="left"/>Aufhebung einer zukünftigen Zuordnung wegen Stilllegung<BR align="left"/>>];

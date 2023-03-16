@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">Dummy Chapter</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">Dummy Subchapter</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.28.2: AD: Information über die Beendigung der Zuordnung einer Marktlokation zur Datenaggregation durch den ÜNB</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0450</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> ÜNB</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Sind Fehler im Rahmen der AHB-Prüfungen in den Stammdaten des NB festgestellt worden?<BR align="left"/>>];
     "A97" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A97</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Die Stammdaten des NB genügen nicht den AHB-Vorgaben.<BR align="left"/>Hinweis: Diese Prüfung ist auf alle Stammdaten des NB anzuwenden. Es sind die Fehlerorte aller dabei festgestellten Fehler in der Antwort zu benennen.<BR align="left"/>Eine Durchführung der nachfolgend in diesem EBD genannten Prüfungen erfolgt nicht.<BR align="left"/></FONT>>];
