@@ -27,4 +27,6 @@ digraph D {
     "6" -> "7" [label="Nein"];
     "7" -> "A03" [label="Ja"];
     "7" -> "A06" [label="Nein"];
+
+    bgcolor="transparent";
 }

@@ -45,4 +45,6 @@ digraph D {
     "9" -> "10" [label="Ja"];
     "10" -> "A10" [label="Ja"];
     "10" -> "A11" [label="Nein"];
+
+    bgcolor="transparent";
 }

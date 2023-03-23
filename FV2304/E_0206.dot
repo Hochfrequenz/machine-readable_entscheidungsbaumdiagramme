@@ -9,4 +9,6 @@ digraph D {
     "Start" -> "1";
     "1" -> "A01" [label="Nein"];
     "1" -> "A02" [label="Ja"];
+
+    bgcolor="transparent";
 }

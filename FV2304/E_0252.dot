@@ -40,4 +40,6 @@ digraph D {
     "8" -> "9" [label="Ja"];
     "9" -> "A99" [label="Ja"];
     "9" -> "Ende" [label="Nein"];
+
+    bgcolor="transparent";
 }

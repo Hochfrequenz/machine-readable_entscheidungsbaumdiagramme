@@ -23,4 +23,6 @@ digraph D {
     "4" -> "Ende" [label="Ja"];
     "5" -> "A03" [label="Ja"];
     "5" -> "Ende" [label="Nein"];
+
+    bgcolor="transparent";
 }
