@@ -7,8 +7,8 @@ digraph D {
     "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Hat der BKV für diesen Bilanzierungsmonat bereits mit-geteilt, dass die weiteren Prüfungen auf Ebene des BG stattfinden müssen?<BR align="left"/>>];
     "Ende" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label="Ende"];
     "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Erfolgt der Eingang der Zeitreihe vor Ablauf der Frist für den Erstaufschlag?<BR align="left"/>>];
-    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Abrechnungsdaten“<BR align="left"/></FONT>>];
-    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cca9ab", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Prüfdaten“<BR align="left"/></FONT>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Abrechnungsdaten“<BR align="left"/></FONT>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Prüfdaten“<BR align="left"/></FONT>>];
     "5" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>5: </B>Hat der BKV für diesen Bilanzierungsmonat bereits mit-geteilt, dass die weiteren Prüfungen auf Ebene des BG stattfinden müssen?<BR align="left"/>>];
     "6" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>6: </B>Erfolgt der Eingang der Zeitreihe vor Ablauf der Frist für den Erstaufschlag?<BR align="left"/>>];
     "7" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>7: </B>Hat die zugehörige Version auf der Aggregationsebene RZ den Datenstatus Abrechnungsdaten?<BR align="left"/>>];
