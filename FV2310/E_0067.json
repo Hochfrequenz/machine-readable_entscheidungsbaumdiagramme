@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "chapter": "MaBiS",
+    "ebd_code": "E_0067",
+    "role": "BIKO",
+    "sub_chapter": "7.7.2: AD: Übermittlung Datenstatus der Netzzeitreihe"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Erfolgt der Eingang der Zeitreihe vor Ablauf der Frist für die Clearingphase BKA (ohne KBKA)?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Datenstatus „Abrechnungsdaten“",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Datenstatus „Abrechnungsdaten KBKA“",
+          "result_code": "A04"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
