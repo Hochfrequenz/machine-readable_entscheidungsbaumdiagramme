@@ -29,7 +29,7 @@ GPKE
 end title
 :<b>E_0486</b>;
 note right
-<b><i>Prüfende Rolle: MSB der Marktlokation
+<b><i>Prüfende Rolle: MSB
 end note
 
 if (<b>1: </b> Handelt es sich bei der Bestellung um eine Abbestellung einer Zählzeit?) then (ja)
@@ -37,20 +37,32 @@ if (<b>1: </b> Handelt es sich bei der Bestellung um eine Abbestellung einer Zä
     else (nein)
         :A06;
         note left
+            Cluster: Ablehnung
             Eine Zählzeit des LF ist auf der Marktlokation nicht vorhanden
         endnote
         kill;
     endif
-    if (<b>7: </b> Ist ein nicht spezifizierter Fehler aufgetreten?) then (ja)
+    if (<b>9: </b> Wurde die Vorlauffristen zu der geplanten Änderung der Gerätekonfiguration eingehalten?) then (ja)
+    else (nein)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Fristüberschreitung
+        endnote
+        kill;
+    endif
+    if (<b>10: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
         :A99;
         note left
-            Ablehnung Sonstiges
+            Cluster: Ablehnung 
+            Sonstiges
             Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
         endnote
         kill;
     else (nein)
         :A05;
         note left
+            Cluster: Zustimmung 
             Bestellung wird an den MSB der Messlokation weitergeleitet
         endnote
         kill;
@@ -60,59 +72,104 @@ else (nein)
     else (nein)
         :A01;
         note left
+            Cluster: Ablehnung
             Marktlokation befindet sich nicht in der messtechnischen Einordnung „iMS“.
         endnote
         kill;
     endif
-    if (<b>4: </b> Ist die gewünschte Zählzeit zum Anwendungszeitpunkt Bestandteil der Übersicht der Zählzeitdefinition, welche zuvor vom LF übermittelt wurde?) then (ja)
+    if (<b>4: </b> Ist die Prognosegrundlage der Marktlokation auf Basis von Werten?) then (ja)
+    else (nein)
+        :A08;
+        note left
+            Cluster: Ablehnung
+            Prognosegrundlage der Marktlokation ist nicht auf Basis von Werten
+        endnote
+        kill;
+    endif
+    if (<b>5: </b> Ist die gewünschte Zählzeit zum Anwendungszeitpunkt Bestandteil der Übersicht der Zählzeitdefinition, welche zuvor vom LF übermittelt wurde?) then (ja)
     else (nein)
         :A02;
         note left
+            Cluster: Ablehnung
             Zählzeitdefinition zum Anwendungszeitpunkt nicht bekannt
         endnote
         kill;
     endif
-    if (<b>5: </b> Liegt zum Anwendungszeitpunkt die ausgerollte Zählzeit zur Zählzeitdefinition vor?) then (ja)
+    if (<b>6: </b> Liegt zum Anwendungszeitpunkt die ausgerollte Zählzeit zur Zählzeitdefinition vor?) then (ja)
     else (nein)
         :A03;
         note left
+            Cluster: Ablehnung
             Ausgerollte Zählzeit zur Zählzeitdefinition liegt zum Anwendungszeitpunkt nicht vor
         endnote
         kill;
     endif
-    if (<b>6: </b> Ist der bestellte Zustand bereits vorhanden?) then (ja)
+    if (<b>7: </b> Ist der bestellte Zustand bereits vorhanden?) then (ja)
         :A04;
         note left
+            Cluster: Ablehnung
             Bestellter Zustand bereits vorhanden
         endnote
         kill;
     else (nein)
     endif
-    if (<b>7: </b> Ist ein nicht spezifizierter Fehler aufgetreten?) then (ja)
+    if (<b>8: </b> Ist die gewünschte Konfiguration grundsätzlich möglich?) then (ja)
+    else (nein)
+        :A09;
+        note left
+            Cluster: Ablehnung 
+            Konfiguration technisch nicht möglich
+            Hinweis: z. B. Zählzeit bestellt und Eintarifzähler verbaut
+        endnote
+        kill;
+    endif
+    if (<b>9: </b> Wurde die Vorlauffristen zu der geplanten Änderung der Gerätekonfiguration eingehalten?) then (ja)
+    else (nein)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Fristüberschreitung
+        endnote
+        kill;
+    endif
+    if (<b>10: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
         :A99;
         note left
-            Ablehnung Sonstiges
+            Cluster: Ablehnung 
+            Sonstiges
             Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
         endnote
         kill;
     else (nein)
         :A05;
         note left
+            Cluster: Zustimmung 
             Bestellung wird an den MSB der Messlokation weitergeleitet
         endnote
         kill;
     endif
 endif
-if (<b>7: </b> Ist ein nicht spezifizierter Fehler aufgetreten?) then (ja)
+if (<b>9: </b> Wurde die Vorlauffristen zu der geplanten Änderung der Gerätekonfiguration eingehalten?) then (ja)
+else (nein)
+    :A07;
+    note left
+        Cluster: Ablehnung
+        Fristüberschreitung
+    endnote
+    kill;
+endif
+if (<b>10: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
     :A99;
     note left
-        Ablehnung Sonstiges
+        Cluster: Ablehnung 
+        Sonstiges
         Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
     endnote
     kill;
 else (nein)
     :A05;
     note left
+        Cluster: Zustimmung 
         Bestellung wird an den MSB der Messlokation weitergeleitet
     endnote
     kill;

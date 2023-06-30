@@ -65,7 +65,7 @@ else (nein)
     kill;
 endif
 if (<b>5: </b> Ist die gewünschte Prognosegrundlage auf Basis von Profilen angegeben?) then (ja)
-    if (<b>6: </b> Befindet sich die Marktlokation in einem Lokationsbündel, in welchem ebenfalls eine erzeugende Marktlokation vorhanden ist?) then (ja)
+    if (<b>6: </b> Befindet sich die Marktlokation in einem Lokationsbündel in welchem ebenfalls eine erzeugende Marktlokation vorhanden ist?) then (ja)
         if (<b>7: </b> Entspricht die erzeugte Energiemenge der Marktlokation der gemessenen Energiemenge in der Flussrichtung Erzeugung an der Messlokation der Netzübergabe?) then (ja)
         else (nein)
             :A05;
