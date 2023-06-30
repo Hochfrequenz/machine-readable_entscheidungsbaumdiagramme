@@ -22,7 +22,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "2"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -37,7 +37,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "3"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -45,7 +45,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "4"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -54,7 +54,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist die Marktlokation zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem ÜNB zur Datenaggregation zugeordnet?",
+      "description": "Ist die Marktlokation bzw. Tranche zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem ÜNB zur Datenaggregation zugeordnet?",
       "step_number": "3",
       "sub_rows": [
         {
@@ -68,7 +68,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "8"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -77,13 +77,13 @@
       "use_cases": null
     },
     {
-      "description": "Liegt eine Stilllegung der Marktlokation vor?",
+      "description": "Liegt eine Stilllegung der Marktlokation vor bzw. wurde die Marktlokation über das Netz des NB in ein anderes Übertragungsnetz eingebunden?",
       "step_number": "4",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "5"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -91,16 +91,16 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "6"
+            "subsequent_step_number": null
           },
-          "note": null,
+          "note": "Hinweis: Es liegt eine Änderung des Bilanzierungsverfahrens von Viertelstundenwerte auf Profile vor und die Aggregationsverantwortung liegt beim NB",
           "result_code": null
         }
       ],
       "use_cases": null
     },
     {
-      "description": "Ist die Marktlokation zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem ÜNB bekannt?",
+      "description": "Ist die Marktlokation bzw. Tranche zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem ÜNB bekannt?",
       "step_number": "5",
       "sub_rows": [
         {
@@ -114,7 +114,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "8"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -123,8 +123,31 @@
       "use_cases": null
     },
     {
-      "description": "Ist die Marktlokation zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem NB zur Datenaggregation zugeordnet?",
+      "description": "Liegt das im Vorgang unter \"Verwendung der Daten bis\" genannte Datum zum Zeitpunkt des Empfangs des Vorgangs beim ÜNB vor dem Beginn des Vormonats, in dem der Vorgang beim ÜNB eingeht?",
       "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Das Datum „Verwendung der Daten bis“ des Vor-gangs liegt vor dem Beginn des Vormonats, in dem der Vorgang beim ÜNB eingeht. \nHinweis: Eine Korrektur des Datums \"Verwendung der Daten bis\" auf den nächstmöglichen Zeitpunkt ist erforderlich.",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Marktlokation bzw. Tranche zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem NB zur Datenaggregation zugeordnet?",
+      "step_number": "7",
       "sub_rows": [
         {
           "check_result": {
@@ -137,7 +160,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "7"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -146,8 +169,8 @@
       "use_cases": null
     },
     {
-      "description": "Liegt die Marktlokation zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem ÜNB mit dem Bilanzierungsverfahren Bilanzierung auf Basis von Viertelstundenwerten vor?",
-      "step_number": "7",
+      "description": "Liegt die Marktlokation bzw. Tranche zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem ÜNB mit dem Bilanzierungsverfahren Bilanzierung auf Basis von Viertelstundenwerten vor?",
+      "step_number": "8",
       "sub_rows": [
         {
           "check_result": {
@@ -160,7 +183,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "8"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -169,21 +192,67 @@
       "use_cases": null
     },
     {
-      "description": "Ist die Marktlokation zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem im Vorgang angegebenen Netzbetreiber zugeordnet?",
-      "step_number": "8",
+      "description": "Liegt das im Vorgang unter \"Verwendung der Daten bis\" genannte Datum zum Zeitpunkt des Empfangs des Vorgangs beim ÜNB vor dem Beginn des Monats, in dem der Vorgang beim ÜNB eingeht?",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Das Datum „Verwendung der Daten bis“ des Vorgangs liegt vor dem Beginn des Monats, in dem der Vorgang beim ÜNB eingeht. \nHinweis: Eine Korrektur des Datums \"Verwendung der Daten bis\" auf den nächstmöglichen Zeitpunkt ist erforderlich.",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das im Vorgang unter \"Verwendung der Daten bis\" genannte Datum ein anderes Datum, als der Erste eines Monats?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Das Datum \"Verwendung der Daten bis\" ist nicht der Erste eines Monats. \nHinweis: Eine Korrektur des Datums \"Verwendung der Daten bis\" auf den Ersten eines Monats ist erforderlich.",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Marktlokation bzw. Tranche zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem im Vorgang angegebenen Netzbetreiber zugeordnet?",
+      "step_number": "11",
       "sub_rows": [
         {
           "check_result": {
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Angegebener Netzbetreiber ist zum angegebenen Zeitpunkt der Marktlokation bzw. Tranche nicht zugeordnet",
+          "note": "Angegebener Netzbetreiber ist zum angegebenen Zeitpunkt der Marktlokation bzw. Tranche nicht zugeordnet.",
           "result_code": "A06"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "9"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -193,7 +262,7 @@
     },
     {
       "description": "Ist der im Vorgang genannte LF identisch mit dem Absender der Nachricht?",
-      "step_number": "9",
+      "step_number": "12",
       "sub_rows": [
         {
           "check_result": {
@@ -206,7 +275,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "10"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -216,7 +285,7 @@
     },
     {
       "description": "Ist ein nicht spezifizierter Fehler aufgetreten?",
-      "step_number": "10",
+      "step_number": "13",
       "sub_rows": [
         {
           "check_result": {

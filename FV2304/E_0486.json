@@ -2,7 +2,7 @@
   "metadata": {
     "chapter": "GPKE",
     "ebd_code": "E_0486",
-    "role": "MSB der Marktlokation",
+    "role": "MSB",
     "sub_chapter": "6.34.1: AD: Bestellung Änderung Zählzeitdefinition des LF vom LF"
   },
   "multi_step_instructions": null,
@@ -14,7 +14,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "2"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -22,7 +22,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "3"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -39,13 +39,13 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Eine Zählzeit des LF ist auf der Marktlokation nicht vorhanden",
+          "note": "Cluster: Ablehnung\nEine Zählzeit des LF ist auf der Marktlokation nicht vorhanden",
           "result_code": "A06"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "7"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -62,13 +62,36 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Marktlokation befindet sich nicht in der messtechnischen Einordnung „iMS“.",
+          "note": "Cluster: Ablehnung\nMarktlokation befindet sich nicht in der messtechnischen Einordnung „iMS“.",
           "result_code": "A01"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "4"
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Prognosegrundlage der Marktlokation auf Basis von Werten?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nPrognosegrundlage der Marktlokation ist nicht auf Basis von Werten",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -78,20 +101,20 @@
     },
     {
       "description": "Ist die gewünschte Zählzeit zum Anwendungszeitpunkt Bestandteil der Übersicht der Zählzeitdefinition, welche zuvor vom LF übermittelt wurde?",
-      "step_number": "4",
+      "step_number": "5",
       "sub_rows": [
         {
           "check_result": {
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Zählzeitdefinition zum Anwendungszeitpunkt nicht bekannt",
+          "note": "Cluster: Ablehnung\nZählzeitdefinition zum Anwendungszeitpunkt nicht bekannt",
           "result_code": "A02"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "5"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -101,20 +124,20 @@
     },
     {
       "description": "Liegt zum Anwendungszeitpunkt die ausgerollte Zählzeit zur Zählzeitdefinition vor?",
-      "step_number": "5",
+      "step_number": "6",
       "sub_rows": [
         {
           "check_result": {
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Ausgerollte Zählzeit zur Zählzeitdefinition liegt zum Anwendungszeitpunkt nicht vor",
+          "note": "Cluster: Ablehnung\nAusgerollte Zählzeit zur Zählzeitdefinition liegt zum Anwendungszeitpunkt nicht vor",
           "result_code": "A03"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "6"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -124,20 +147,20 @@
     },
     {
       "description": "Ist der bestellte Zustand bereits vorhanden?",
-      "step_number": "6",
+      "step_number": "7",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Bestellter Zustand bereits vorhanden",
+          "note": "Cluster: Ablehnung\nBestellter Zustand bereits vorhanden",
           "result_code": "A04"
         },
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "7"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -146,15 +169,61 @@
       "use_cases": null
     },
     {
-      "description": "Ist ein nicht spezifizierter Fehler aufgetreten?",
-      "step_number": "7",
+      "description": "Ist die gewünschte Konfiguration grundsätzlich möglich?",
+      "step_number": "8",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "9"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung \nKonfiguration technisch nicht möglich\nHinweis: z. B. Zählzeit bestellt und Eintarifzähler verbaut",
+          "result_code": "A09"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Vorlauffristen zu der geplanten Änderung der Gerätekonfiguration eingehalten?",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFristüberschreitung",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "10",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Ablehnung Sonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr",
+          "note": "Cluster: Ablehnung \nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr",
           "result_code": "A99"
         },
         {
@@ -162,7 +231,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Bestellung wird an den MSB der Messlokation weitergeleitet",
+          "note": "Cluster: Zustimmung \nBestellung wird an den MSB der Messlokation weitergeleitet",
           "result_code": "A05"
         }
       ],

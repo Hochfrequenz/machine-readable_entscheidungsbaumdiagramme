@@ -3,7 +3,7 @@
     "chapter": "MaBiS",
     "ebd_code": "E_0042",
     "role": "BIKO",
-    "sub_chapter": "7.42.2: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an ÜNB und BKV"
+    "sub_chapter": "7.45.2: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an ÜNB und BKV"
   },
   "multi_step_instructions": [
     {
@@ -19,7 +19,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "2"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -27,7 +27,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "5"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -42,7 +42,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "4"
+            "subsequent_step_number": null
           },
           "note": "Setzen des Datenstatus für die Version des MaBiS-ZP auf der Aggregationsebene BG",
           "result_code": null
@@ -50,7 +50,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "3"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -65,7 +65,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "4"
+            "subsequent_step_number": null
           },
           "note": "Setzen des Datenstatus für die Version des MaBiS-ZP auf der Aggregationsebene BG",
           "result_code": null
@@ -73,7 +73,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "Ende"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -111,7 +111,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "Ende"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -119,7 +119,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "6"
+            "subsequent_step_number": null
           },
           "note": "Setzen des Datenstatus für die Version des MaBiS-ZP auf der Aggregationsebene RZ",
           "result_code": null
@@ -134,7 +134,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "7"
+            "subsequent_step_number": null
           },
           "note": "Datenstatus „Abrechnungsdaten“\nSetzen des Datenstatus für die der Version des MaBiS-ZP auf der Aggregationsebene RZ zugehörigen Version des MaBiS-ZP auf der Aggregationsebene BG",
           "result_code": "A01"
@@ -142,7 +142,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "7"
+            "subsequent_step_number": null
           },
           "note": "Datenstatus „Prüfdaten“\nSetzen des Datenstatus für die der Version des MaBiS-ZP auf der Aggregationsebene RZ zugehörigen Version des MaBiS-ZP auf der Aggregationsebene BG",
           "result_code": "A02"

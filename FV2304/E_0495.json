@@ -2,13 +2,13 @@
   "metadata": {
     "chapter": "GPKE",
     "ebd_code": "E_0495",
-    "role": "MSB der Marktlokation",
+    "role": "MSB",
     "sub_chapter": "6.34.2: AD: Bestellung Änderung Zählzeitdefinition des LF vom LF"
   },
   "multi_step_instructions": null,
   "rows": [
     {
-      "description": "Ist ein Fehler aufgetreten?",
+      "description": "Liegen alle notwendigen Änderungen der MSB an der Messlokation vor?",
       "step_number": "1",
       "sub_rows": [
         {
@@ -16,7 +16,53 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster \nAblehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEs liegen nicht alle Rückmeldungen der MSB der Messlokationen vor.",
+          "result_code": "A02"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurden die bestellten Parametrierungen durchgeführt?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nParametrierung der Messlokation wurde nicht wie bestellt durchgeführt.",
+          "result_code": "A03"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr",
           "result_code": "A99"
         },
         {
@@ -24,7 +70,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster Zustimmung\nAntwort auf Bestellung der Zählzeitdefinitionen des LF ausgehend vom MSB versenden",
+          "note": "Cluster: Zustimmung\nAntwort auf Bestellung der Zählzeitdefinitionen des LF ausgehend vom MSB versenden",
           "result_code": "A01"
         }
       ],

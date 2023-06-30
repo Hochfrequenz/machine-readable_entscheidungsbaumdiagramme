@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0443",
+    "role": "NB",
+    "sub_chapter": "6.42.1: AD: Geschäftsdatenanfrage von MSB an NB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist der MSB im angefragten Zeitraum der genannten Marktlokation, Messlokation bzw. Tranche zugeordnet?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Stammdaten versenden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der MSB für den angefragten Zeitraum z. B. aufgrund einer Vollmacht berechtigt die angefragten Stammdaten zu erhalten?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Keine Berechtigung",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Stammdaten versenden",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
