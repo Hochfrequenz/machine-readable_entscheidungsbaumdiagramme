@@ -1338,7 +1338,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "330"
+            "subsequent_step_number": "326"
           },
           "note": "Cluster: Ablehnung auf Positionsebene\nZu- oder Abschlag wurden nicht, wie in den Stammdaten ausgetauscht, berücksichtigt.",
           "result_code": "A32"
@@ -1346,7 +1346,76 @@
         {
           "check_result": {
             "result": true,
+            "subsequent_step_number": "326"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die zu prüfenden Artikel-ID zugehörig zu einer der folgenden Gruppenartikel-ID:\n1-10-4, 1-10-5, 1-10-6, 1-08-2-AGS-K und 1-08-5-AGS-KG?",
+      "step_number": "326",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "327"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
             "subsequent_step_number": "330"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es zu der prüfenden Artikel-ID mindestens eine weitere Resultierende mit einer Artikel-ID, die zu der Gruppenartikel-ID zugehörig ist?",
+      "step_number": "327",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "328"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "330"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die Summe der Mengen aus all den Resultierenden, die zu dieser Gruppenartikel-ID gebildet werden, der Mengen des Lieferscheins?\nHinweis: Dazu müssen alle Resultierenden der betroffenen Gruppenartikel-ID gebildet werden. Aus jeder dieser Resultierenden ist die Menge zu entnehmen. Diese Mengen sind zu summieren.",
+      "step_number": "328",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "335"
+          },
+          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung ab, da die Summe der Mengen nicht zum Lieferschein passt.",
+          "result_code": "AE2"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "335"
           },
           "note": null,
           "result_code": null
@@ -1907,31 +1976,8 @@
       "use_cases": null
     },
     {
-      "description": "Beginnt und endet der Zeitraum der Resultierenden in unterschiedlichen Kalendermonaten?\nHinweis: Ist das Enddatum der Monatserste 00:00 Uhr des Monates, der auf den der Monat folgt, in dem der Zeitpunkt liegt, zu dem der Zeitraum der Resultierenden beginnt, liegt im Sinne der obigen Fragestellung Beginn- und Endpunkt in einem Monat.",
-      "step_number": "455",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "458"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "470"
-          },
-          "note": "Hinweis: Umfasst die Resultierende maximal einen Kalendermonat, kann es zur Resultierenden keine korrespondierende Resultierende geben.",
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
       "description": "Ist die Menge der Resultierenden negativ?",
-      "step_number": "458",
+      "step_number": "455",
       "sub_rows": [
         {
           "check_result": {
@@ -1944,9 +1990,32 @@
         {
           "check_result": {
             "result": false,
+            "subsequent_step_number": "458"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Beginnt und endet der Zeitraum der Resultierenden in unterschiedlichen Kalendermonaten?\nHinweis: Ist das Enddatum der Monatserste 00:00 Uhr des Monates, der auf den der Monat folgt, in dem der Zeitpunkt liegt, zu dem der Zeitraum der Resultierenden beginnt, liegt im Sinne der obigen Fragestellung Beginn- und Endpunkt in einem Monat.",
+      "step_number": "458",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
             "subsequent_step_number": "460"
           },
           "note": "Hinweis: Zu der Resultierenden muss, um den Prüfschritt 460 durchführen zu können, auch die korrespondierende Resultierende gebildet werden.",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "470"
+          },
+          "note": "Hinweis: Umfasst die Resultierende maximal einen Kalendermonat, kann es zur Resultierenden keine korrespondierende Resultierende geben.",
           "result_code": null
         }
       ],
@@ -2764,7 +2833,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "660"
+            "subsequent_step_number": "651"
           },
           "note": null,
           "result_code": null
@@ -2773,6 +2842,75 @@
           "check_result": {
             "result": false,
             "subsequent_step_number": "680"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die zu prüfenden Artikel-ID zugehörig zu einer der folgenden Gruppenartikel-ID:\n1-10-4, 1-10-5, 1-10-6, 1-08-2-AGS-K und 1-08-5-AGS-KG?",
+      "step_number": "651",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "652"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "660"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es zu der prüfenden Artikel-ID mindestens eine weitere Resultierende mit einer Artikel-ID, die zu der Gruppenartikel-ID zugehörig ist?",
+      "step_number": "652",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "653"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "660"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die Summe der Mengen aus all den Resultierenden, die zu dieser Gruppenartikel-ID gebildet werden, der Mengen des Lieferscheins?\nHinweis: Dazu müssen alle Resultierenden der betroffenen Gruppenartikel-ID gebildet werden. Aus jeder dieser Resultierenden ist die Menge zu entnehmen. Diese Mengen sind zu summieren.",
+      "step_number": "653",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "665"
+          },
+          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung ab, da die Summe der Mengen nicht zum Lieferschein passt.",
+          "result_code": "AE4"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "665"
           },
           "note": null,
           "result_code": null
@@ -3477,7 +3615,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "791"
+            "subsequent_step_number": "794"
           },
           "note": null,
           "result_code": null
@@ -3563,13 +3701,82 @@
       "use_cases": null
     },
     {
-      "description": "Ist die Energiemenge der Resultierenden plausibel zur Energiemenge des Lieferscheins?",
-      "step_number": "790",
+      "description": "Ist die zu prüfenden Artikel-ID zugehörig zu einer der folgenden Gruppenartikel-ID:\n1-08-2-AGS-K und 1-08-5-AGS-KG?",
+      "step_number": "788",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "791"
+            "subsequent_step_number": "789"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "793"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es zu der prüfenden Artikel-ID mindestens eine weitere Resultierende mit einer Artikel-ID, die zu der Gruppenartikel-ID zugehörig ist?",
+      "step_number": "789",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "790"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "793"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die Summe der Mengen aus all den Resultierenden, die zu dieser Gruppenartikel-ID gebildet werden, der Mengen des Lieferscheins?\nHinweis: Dazu müssen alle Resultierenden der betroffenen Gruppenartikel-ID gebildet werden. Aus jeder dieser Resultierenden ist die Menge zu entnehmen. Diese Mengen sind zu summieren.",
+      "step_number": "790",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "795"
+          },
+          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung ab, da die Summe der Mengen nicht zum Lieferschein passt.",
+          "result_code": "AE5"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "795"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Energiemenge der Resultierenden plausibel zur Energiemenge des Lieferscheins?",
+      "step_number": "793",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "794"
           },
           "note": null,
           "result_code": null
@@ -3587,7 +3794,7 @@
     },
     {
       "description": "Ist die saldierte Energiemenge der Konzessionsabgabe passend zum Lieferschein?\nHinweis: Die saldierte abgerechnete Energiemenge ergibt sich durch Addition aller Energiemengen (unter Berücksichtigung derer Vorzeichen) aller Resultierenden zur Konzessionsabgabe dieser Rechnung.",
-      "step_number": "791",
+      "step_number": "794",
       "sub_rows": [
         {
           "check_result": {
