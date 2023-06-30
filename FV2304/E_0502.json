@@ -9,7 +9,7 @@
   "rows": [
     {
       "description": "Wurde bereits zum identischen Abmeldedatum für die in diesem Geschäftsvorfall genannte Marktlokation die Lieferende-Meldung positiv bestätigt?",
-      "step_number": "1",
+      "step_number": "10",
       "sub_rows": [
         {
           "check_result": {
@@ -22,7 +22,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "2"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -32,12 +32,12 @@
     },
     {
       "description": "Liegt der Transaktionsgrund Stilllegung vor?",
-      "step_number": "2",
+      "step_number": "20",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "3"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -45,9 +45,9 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "9"
+            "subsequent_step_number": null
           },
-          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor:\nAbmeldung wg. fehl. Zuordnungsermächtigung\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT",
+          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor:\nAbmeldung wg. fehl. Zuordnungsermächtigung aufgrund Deaktivierung vom BKV beim NB\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT",
           "result_code": null
         }
       ],
@@ -55,12 +55,12 @@
     },
     {
       "description": "Ist die Prognosegrundlage der Marktlokation auf Basis von Werten?",
-      "step_number": "3",
+      "step_number": "30",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "4"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -68,7 +68,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "6"
+            "subsequent_step_number": null
           },
           "note": "Hinweis: Prognosegrundlage auf Basis von Profilen",
           "result_code": null
@@ -78,7 +78,7 @@
     },
     {
       "description": "Liegt das Lieferende-Datum mindestens einen 1 WT nach dem Nachrichteneingang?",
-      "step_number": "4",
+      "step_number": "40",
       "sub_rows": [
         {
           "check_result": {
@@ -91,7 +91,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "5"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -101,7 +101,7 @@
     },
     {
       "description": "Ist das Datum „Bilanzierungsende“ identisch mit dem Datum „Lieferende“?",
-      "step_number": "5",
+      "step_number": "50",
       "sub_rows": [
         {
           "check_result": {
@@ -114,7 +114,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "8"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -123,8 +123,192 @@
       "use_cases": null
     },
     {
-      "description": "Liegt das Datum „Bilanzierungsende“ mindestens 3 WT nach dem Nachrichteneingang?",
-      "step_number": "6",
+      "description": "Wird ein Datum „Bilanzierungsende“ in der Abmeldung mitgeteilt?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat eine Bilanzierung stattgefunden?",
+      "step_number": "70",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEs wurde kein Bilanzierungsende mitgeteilt, obwohl eine Bilanzierung stattgefunden hat.",
+          "result_code": "A13"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat eine Bilanzierung stattgefunden?",
+      "step_number": "80",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEs wurde ein Bilanzierungsende mitgeteilt, obwohl keine Bilanzierung stattgefunden hat",
+          "result_code": "A18"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde bereits ein Lieferende zu einem späteren Termin durchgeführt?",
+      "step_number": "90",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das mitgeteilte Bilanzierungsende später als das zuvor mitgeteilte Bilanzierungsende?",
+      "step_number": "100",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nBilanzierungsende ist später als das zuvor mitgeteilte Bilanzierungsende.",
+          "result_code": "A14"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das mitgeteilte Bilanzierungsende identisch zu dem zuvor mitgeteilten Bilanzierungsende?",
+      "step_number": "110",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Anfrage nach dem 3. WT vor dem Monatsletzten eingegangen?",
+      "step_number": "120",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "130"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "140"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Bilanzierungsende ≤ dem Ende des Folgemonats (erster Tag des übernächsten Monats 00:00 Uhr)?",
+      "step_number": "130",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDas Bilanzierungsende liegt zu weit in der Zukunft. Das bisherige Bilanzierungsende muss angepasst werden.",
+          "result_code": "A20"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Bilanzierungsende ≤ dem Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr)?",
+      "step_number": "140",
       "sub_rows": [
         {
           "check_result": {
@@ -132,12 +316,12 @@
             "subsequent_step_number": null
           },
           "note": "Cluster: Ablehnung\nBilanzierungsfrist bei Marktlokationen mit Prognosegrundlage auf Basis von Profilen nicht eingehalten.",
-          "result_code": "A04"
+          "result_code": "A21"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "7"
+            "subsequent_step_number": "200"
           },
           "note": null,
           "result_code": null
@@ -146,21 +330,113 @@
       "use_cases": null
     },
     {
-      "description": "Liegt das Datum „Bilanzierungsende“ auf dem 1. eines Kalendermonates 0:00 Uhr?",
-      "step_number": "7",
+      "description": "Ist das Lieferendedatum ≤ dem Monatsersten des Folgemonats 00:00 Uhr, in welchem der Geschäftsvorfall eingegangen ist?",
+      "step_number": "150",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Anfrage nach dem 3. WT vor dem Monatsletzten eingegangen?",
+      "step_number": "160",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist als Bilanzierungsende das Ende des Folgemonats (erster Tag des übernächsten Monats 00:00 Uhr) angegeben?",
+      "step_number": "170",
       "sub_rows": [
         {
           "check_result": {
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nBilanzierungsende liegt nicht auf dem Monatswechsel",
-          "result_code": "A05"
+          "note": "Cluster: Ablehnung\nDas Bilanzierungsende ist zum angegebenen Termin nicht mehr möglich",
+          "result_code": "A15"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "8"
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist als Bilanzierungsende das Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr) angegeben?",
+      "step_number": "180",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDas Bilanzierungsende ist nicht der erste Tag des Folgemonats 00:00 Uhr",
+          "result_code": "A16"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist als Bilanzierungsende das Ende des Monats angeben, in welchem das Lieferende liegt? (erster Tag des Folgemonats 00:00 Uhr des Monats in welchem das Lieferende liegt).",
+      "step_number": "190",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDas Bilanzierungsende bei Lieferenden, welche in einem zukünftigen Monat liegen, muss zum Ablauf des gleichen Monats sein.",
+          "result_code": "A17"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -170,7 +446,7 @@
     },
     {
       "description": "Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?",
-      "step_number": "8",
+      "step_number": "200",
       "sub_rows": [
         {
           "check_result": {
@@ -183,7 +459,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "15"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -193,20 +469,20 @@
     },
     {
       "description": "Ist das Datum „Bilanzierungsende“ identisch mit dem Datum „Lieferende“?",
-      "step_number": "9",
+      "step_number": "210",
       "sub_rows": [
         {
           "check_result": {
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nLieferende und Bilanzierungsende müssen bei Lieferende von NB an LF aufgrund entfallender Zuordnungsermächtigung synchron sein",
+          "note": "Cluster: Ablehnung\nLieferende und Bilanzierungsende müssen bei Lieferende von NB an LF aufgrund entfallender Zuordnungsermächtigung synchron sein.",
           "result_code": "A11"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "10"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -216,7 +492,7 @@
     },
     {
       "description": "Liegt das übermittelte Datum „Lieferende“ nach dem Nachrichteneingang?",
-      "step_number": "10",
+      "step_number": "220",
       "sub_rows": [
         {
           "check_result": {
@@ -229,7 +505,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "11"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -239,7 +515,7 @@
     },
     {
       "description": "Ist das angegebene Datum „Lieferende“ der nächste 1. eines Kalendermonats 00:00 Uhr?",
-      "step_number": "11",
+      "step_number": "230",
       "sub_rows": [
         {
           "check_result": {
@@ -252,7 +528,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "12"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -262,12 +538,12 @@
     },
     {
       "description": "Liegt der Transaktionsgrund Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT vor?",
-      "step_number": "12",
+      "step_number": "240",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "13"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -275,7 +551,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "14"
+            "subsequent_step_number": null
           },
           "note": "Hinweis: Es liegt der Transaktionsgrund „Abmeldung wg. fehl. Zuordnungsermächtigung“ aufgrund Deaktivierung vom BKV beim NB vor",
           "result_code": null
@@ -285,7 +561,7 @@
     },
     {
       "description": "Wurde der Zeitreihentyp an der betreffenden Marktlokation in einen Zeitreihentyp geändert, für welchen keine Zuordnungsermächtigung besteht?",
-      "step_number": "13",
+      "step_number": "250",
       "sub_rows": [
         {
           "check_result": {
@@ -298,7 +574,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "15"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -308,7 +584,7 @@
     },
     {
       "description": "Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation zugeordnet ist, vorgenommen?",
-      "step_number": "14",
+      "step_number": "260",
       "sub_rows": [
         {
           "check_result": {
@@ -321,7 +597,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "15"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -331,7 +607,7 @@
     },
     {
       "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
-      "step_number": "15",
+      "step_number": "270",
       "sub_rows": [
         {
           "check_result": {

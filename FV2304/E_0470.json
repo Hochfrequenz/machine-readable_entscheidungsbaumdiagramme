@@ -8,7 +8,7 @@
   "multi_step_instructions": null,
   "rows": [
     {
-      "description": "Liegt für die Marktlokation im Zeitraum von 6 WT ab dem frühestmöglichen Sperrtermin bereits ein Sperrauftrag vor bzw. ist die Marktlokation bereits gesperrt?",
+      "description": "Ist die Marktlokation bereits gesperrt?",
       "step_number": "1",
       "sub_rows": [
         {
@@ -16,13 +16,59 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nSperrauftrag für Marktlokation liegt bereits vor bzw. ist bereits gesperrt.",
+          "note": "Cluster: Ablehnung\nMarktlokation ist bereits gesperrt.",
           "result_code": "A01"
         },
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "2"
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt für die Marktlokation im Zeitraum von 6 WT ab dem frühestmöglichen Sperrtermin bereits ein Sperrauftrag vor?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSperrauftrag für Marktlokation liegt bereits vor.",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist im gesamten Ausführungszeitraum des Sperrauftrags (= frühestmöglicher Sperrtermin bis frühestmöglicher Sperrtermin + 6 WT) der die Sperrung beauftragende LF der zu sperrenden Marktlokation zugeordnet?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nZukünftiger bestätigter Lieferbeginn liegt gegenüber anderem Lieferanten bereits vor.\nDie Ausführungsfrist der 6 WT ab dem frühestmöglichen Sperrtermin berührt das bestätigte Lieferbeginndatum gegenüber anderem Lieferanten.",
+          "result_code": "A11"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -32,7 +78,7 @@
     },
     {
       "description": "Ist im Zeitraum von 6 WT ab dem frühestmöglichen Sperrtermin an allen Messlokationen, welche der Marktlokation zugeordnet sind, der identische MSB zugeordnet, wie an der zu sperrenden Marktlokation?",
-      "step_number": "2",
+      "step_number": "4",
       "sub_rows": [
         {
           "check_result": {
@@ -45,7 +91,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "3"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -55,7 +101,7 @@
     },
     {
       "description": "Liegt die zu sperrende Marktlokation in der Niederspannung?",
-      "step_number": "3",
+      "step_number": "5",
       "sub_rows": [
         {
           "check_result": {
@@ -68,7 +114,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "4"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -78,7 +124,7 @@
     },
     {
       "description": "Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?",
-      "step_number": "4",
+      "step_number": "6",
       "sub_rows": [
         {
           "check_result": {
@@ -91,7 +137,30 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "5"
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt im gesamten Ausführungszeitraum ein bestätigter Lieferbeginn gegenüber dem beauftragenden LF vor?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nIm Ausführungszeitraum liegt bereits ein bestätigter Lieferbeginn gegenüber dem beauftragenden LF vor.",
+          "result_code": "A12"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -101,7 +170,7 @@
     },
     {
       "description": "Liegt ein Verhinderungsgrund einer Sperrung (z. B. Betrieb lebensnotwendiger Geräte) an der Marktlokation vor?",
-      "step_number": "5",
+      "step_number": "8",
       "sub_rows": [
         {
           "check_result": {
@@ -114,7 +183,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "6"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -124,12 +193,12 @@
     },
     {
       "description": "Ist der Sperrauftrag termingebunden?",
-      "step_number": "6",
+      "step_number": "9",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "7"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -137,7 +206,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "8"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -147,7 +216,7 @@
     },
     {
       "description": "Liegt der übermittelte Sperrtermin mindestens 12 WT nach dem Eingangsdatum der Nachricht des Sperrauftrags?",
-      "step_number": "7",
+      "step_number": "10",
       "sub_rows": [
         {
           "check_result": {
@@ -160,7 +229,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "9"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -170,7 +239,7 @@
     },
     {
       "description": "Liegt der übermittelte frühestmögliche Sperrtermin mindestens 6 WT nach dem Eingangsdatum der Nachricht des Sperrauftrags?",
-      "step_number": "8",
+      "step_number": "11",
       "sub_rows": [
         {
           "check_result": {
@@ -183,7 +252,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "9"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -193,7 +262,7 @@
     },
     {
       "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
-      "step_number": "9",
+      "step_number": "12",
       "sub_rows": [
         {
           "check_result": {
@@ -206,7 +275,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "10"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -216,7 +285,7 @@
     },
     {
       "description": "Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?",
-      "step_number": "10",
+      "step_number": "13",
       "sub_rows": [
         {
           "check_result": {

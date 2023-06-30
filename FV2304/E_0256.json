@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "chapter": "WiM Strom",
+    "ebd_code": "E_0256",
+    "role": "MSB",
+    "sub_chapter": "9.24.3: AD Anfrage und Bestellung von Werten durch den ESA"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist die Bindungsfrist des Angebots abgelaufen?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Akzeptiert der MSB die Bestellung auch bei abgelaufener Bindungsfrist?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Bindungsfrist des Angebots ist abgelaufen.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich bei der Bestellung um ein Abo?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Bietet der MSB das gewünschte Messprodukt zum Zeitraum / Zeitpunkt der Messwertermittlung als Abo an?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer MSB sieht für das gewünschte Messprodukt keine Übermittlung als Abo vor.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Bietet der MSB das gewünschte Messprodukt zum Zeitraum / Zeitpunkt der Messwertermittlung als einmalige Übermittlung an?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer MSB sieht für das gewünschte Messprodukt keine einmalige Übermittlung vor.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB zum Zeitraum / Zeitpunkt der Messwertermittlung noch gültig?",
+      "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie vertragliche Grundlage zwischen dem MSB und dem ESA ist nicht mehr gültig.",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der MSB für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung der entsprechenden Lokation zugeordnet?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer MSB ist der Lokation für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung nicht zugeordnet.",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die dem MSB vorliegende datenschutzrechtliche Einwilligung (wie z. B. das BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO - \nAnfrage und Übermittlung von Messprodukten \ngemäß BNetzA-Festlegung BK6-20-160“) zur Anfrage und Übermittlung von Messprodukten zum Zeitraum / Zeitpunkt der Messwertermittlung weiterhin gültig?",
+      "step_number": "8",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer Anschlussnutzer hat gegenüber dem ESA seine Einwilligung widerrufen oder ihre Gültigkeit ist abgelaufen.",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ermöglicht die vorhandene Gerätetechnik zum Zeitraum / Zeitpunkt der Messwertermittlung die Übermittlung der angefragten Werte entsprechend dem Messprodukt?",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Gerätetechnik misst die angeforderten Messwerte nicht.",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation zugeordneten Messlokationen auch der MSB der Messlokation?",
+      "step_number": "11",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer MSB der Marktlokation ist nicht zeitgleich der allen Messlokationen zugeordnete MSB.",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "12",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.\nNutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nBestellung ist angenommen.",
+          "result_code": "A11"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
