@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "chapter": "WiM Strom",
+    "ebd_code": "E_0240",
+    "role": "MSB",
+    "sub_chapter": "9.3.3: AD: Ende Messstellenbetrieb"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Liegt das gewünschte Änderungsdatum mindestens 20 WT nach dem Nachrichteneingangsdatum?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFrist nicht eingehalten",
+          "result_code": "A01"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Änderung in der Messlokation möglich?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nÄnderung kann durchgeführt werden.",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen\nNutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr",
+          "result_code": "A99"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

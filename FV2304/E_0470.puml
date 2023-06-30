@@ -32,16 +32,35 @@ note right
 <b><i>Prüfende Rolle: NB
 end note
 
-if (<b>1: </b> Liegt für die Marktlokation im Zeitraum von 6 WT ab dem frühestmöglichen Sperrtermin bereits ein Sperrauftrag vor bzw. ist die Marktlokation bereits gesperrt?) then (ja)
+if (<b>1: </b> Ist die Marktlokation bereits gesperrt?) then (ja)
     :A01;
     note left
         Cluster: Ablehnung
-        Sperrauftrag für Marktlokation liegt bereits vor bzw. ist bereits gesperrt.
+        Marktlokation ist bereits gesperrt.
     endnote
     kill;
 else (nein)
 endif
-if (<b>2: </b> Ist im Zeitraum von 6 WT ab dem frühestmöglichen Sperrtermin an allen Messlokationen, welche der Marktlokation zugeordnet sind, der identische MSB zugeordnet, wie an der zu sperrenden Marktlokation?) then (ja)
+if (<b>2: </b> Liegt für die Marktlokation im Zeitraum von 6 WT ab dem frühestmöglichen Sperrtermin bereits ein Sperrauftrag vor?) then (ja)
+    :A10;
+    note left
+        Cluster: Ablehnung
+        Sperrauftrag für Marktlokation liegt bereits vor.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>3: </b> Ist im gesamten Ausführungszeitraum des Sperrauftrags (= frühestmöglicher Sperrtermin bis frühestmöglicher Sperrtermin + 6 WT&#41; der die Sperrung beauftragende LF der zu sperrenden Marktlokation zugeordnet?) then (ja)
+else (nein)
+    :A11;
+    note left
+        Cluster: Ablehnung
+        Zukünftiger bestätigter Lieferbeginn liegt gegenüber anderem Lieferanten bereits vor.
+        Die Ausführungsfrist der 6 WT ab dem frühestmöglichen Sperrtermin berührt das bestätigte Lieferbeginndatum gegenüber anderem Lieferanten.
+    endnote
+    kill;
+endif
+if (<b>4: </b> Ist im Zeitraum von 6 WT ab dem frühestmöglichen Sperrtermin an allen Messlokationen, welche der Marktlokation zugeordnet sind, der identische MSB zugeordnet, wie an der zu sperrenden Marktlokation?) then (ja)
 else (nein)
     :A02;
     note left
@@ -50,7 +69,7 @@ else (nein)
     endnote
     kill;
 endif
-if (<b>3: </b> Liegt die zu sperrende Marktlokation in der Niederspannung?) then (ja)
+if (<b>5: </b> Liegt die zu sperrende Marktlokation in der Niederspannung?) then (ja)
 else (nein)
     :A03;
     note left
@@ -59,7 +78,7 @@ else (nein)
     endnote
     kill;
 endif
-if (<b>4: </b> Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?) then (ja)
+if (<b>6: </b> Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?) then (ja)
     :A04;
     note left
         Cluster: Ablehnung
@@ -68,7 +87,16 @@ if (<b>4: </b> Sind weitere Marktlokationen von der Sperrung betroffen, für die
     kill;
 else (nein)
 endif
-if (<b>5: </b> Liegt ein Verhinderungsgrund einer Sperrung (z. B. Betrieb lebensnotwendiger Geräte&#41; an der Marktlokation vor?) then (ja)
+if (<b>7: </b> Liegt im gesamten Ausführungszeitraum ein bestätigter Lieferbeginn gegenüber dem beauftragenden LF vor?) then (ja)
+    :A12;
+    note left
+        Cluster: Ablehnung
+        Im Ausführungszeitraum liegt bereits ein bestätigter Lieferbeginn gegenüber dem beauftragenden LF vor.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>8: </b> Liegt ein Verhinderungsgrund einer Sperrung (z. B. Betrieb lebensnotwendiger Geräte&#41; an der Marktlokation vor?) then (ja)
     :A05;
     note left
         Cluster: Ablehnung
@@ -79,8 +107,8 @@ if (<b>5: </b> Liegt ein Verhinderungsgrund einer Sperrung (z. B. Betrieb lebens
     kill;
 else (nein)
 endif
-if (<b>6: </b> Ist der Sperrauftrag termingebunden?) then (ja)
-    if (<b>7: </b> Liegt der übermittelte Sperrtermin mindestens 12 WT nach dem Eingangsdatum der Nachricht des Sperrauftrags?) then (ja)
+if (<b>9: </b> Ist der Sperrauftrag termingebunden?) then (ja)
+    if (<b>10: </b> Liegt der übermittelte Sperrtermin mindestens 12 WT nach dem Eingangsdatum der Nachricht des Sperrauftrags?) then (ja)
     else (nein)
         :A06;
         note left
@@ -89,7 +117,7 @@ if (<b>6: </b> Ist der Sperrauftrag termingebunden?) then (ja)
         endnote
         kill;
     endif
-    if (<b>9: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    if (<b>12: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
         :A99;
         note left
             Cluster: Ablehnung
@@ -101,7 +129,7 @@ if (<b>6: </b> Ist der Sperrauftrag termingebunden?) then (ja)
         kill;
     else (nein)
     endif
-    if (<b>10: </b> Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?) then (ja)
+    if (<b>13: </b> Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?) then (ja)
         :A08;
         note left
             Cluster: Zustimmung
@@ -117,7 +145,7 @@ if (<b>6: </b> Ist der Sperrauftrag termingebunden?) then (ja)
         kill;
     endif
 else (nein)
-    if (<b>8: </b> Liegt der übermittelte frühestmögliche Sperrtermin mindestens 6 WT nach dem Eingangsdatum der Nachricht des Sperrauftrags?) then (ja)
+    if (<b>11: </b> Liegt der übermittelte frühestmögliche Sperrtermin mindestens 6 WT nach dem Eingangsdatum der Nachricht des Sperrauftrags?) then (ja)
     else (nein)
         :A07;
         note left
@@ -126,7 +154,7 @@ else (nein)
         endnote
         kill;
     endif
-    if (<b>9: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    if (<b>12: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
         :A99;
         note left
             Cluster: Ablehnung
@@ -138,7 +166,7 @@ else (nein)
         kill;
     else (nein)
     endif
-    if (<b>10: </b> Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?) then (ja)
+    if (<b>13: </b> Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?) then (ja)
         :A08;
         note left
             Cluster: Zustimmung
@@ -154,7 +182,7 @@ else (nein)
         kill;
     endif
 endif
-if (<b>9: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+if (<b>12: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
     :A99;
     note left
         Cluster: Ablehnung
@@ -166,7 +194,7 @@ if (<b>9: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
     kill;
 else (nein)
 endif
-if (<b>10: </b> Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?) then (ja)
+if (<b>13: </b> Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?) then (ja)
     :A08;
     note left
         Cluster: Zustimmung

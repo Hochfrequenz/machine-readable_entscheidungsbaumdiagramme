@@ -1,0 +1,168 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+WiM Strom
+
+9.15.1: AD: Störungsbehebung in der Messlokation
+
+
+
+end title
+:<b>E_0217</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>1: </b> Ist die Lieferrichtung der Marktlokation korrekt angegeben?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Lieferrichtung der Marktlokation ist nicht korrekt.
+    endnote
+    kill;
+endif
+if (<b>2: </b> Ist im Geschäftsvorfall der Status der Berechnungsformel für die Marktlokation mit „Berechnungsformel muss beim Absender angefragt werden“ angegeben?) then (ja)
+    :A09;
+    note left
+        Cluster: Zustimmung
+        Berechnungsformel muss bilateral ausgetauscht werden.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>3: </b> Ist im Geschäftsvorfall der Status der Berechnungsformel für die Marktlokation mit „Berechnungsformel besitzt keine Rechenoperation“ angegeben?) then (ja)
+    if (<b>4: </b> Ist in den zuvor ausgetauschten Stammdatenmeldungen (z.B. Anmeldebestätigung, Stammdatenänderung (inklusive Lokationsbündelstrukturänderung&#41;&#41; gemäß dem „Gültig-Ab“ Datum genau eine Messlokation dieser Marktlokation zugeordnet?) then (ja)
+        :A11;
+        note left
+            Cluster: Zustimmung
+            Energiemenge der Marktlokation ist mit der Energiemenge der Messlokation identisch
+        endnote
+        kill;
+    else (nein)
+        :A10;
+        note left
+            Cluster: Ablehnung
+            Der Marktlokation ist nicht genau eine Messlokation zugeordnet
+        endnote
+        kill;
+    endif
+else (nein)
+    if (<b>5: </b> Liegt eine Änderung der Lokationsbündelstruktur durch den NB vor, die durch Stammdatenänderung übermittelt wurde?) then (ja)
+        if (<b>6: </b> Ist das „Gültig ab“-Datum der Berechnungsformel tagidentisch mit dem Datum der Strukturänderung des Lokationsbündels?) then (ja)
+        else (nein)
+            :A02;
+            note left
+                Cluster: Ablehnung
+                „Gültig ab“-Datum der Berechnungsformel unplausibel.
+            endnote
+            kill;
+        endif
+        if (<b>7: </b> Ist die Anzahl der gemeldeten / vorliegenden Mess-lokationen aus den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung&#41; gemäß dem „Gültig ab“-Datum kleiner als in der Berechnungsformel?) then (ja)
+            :A04;
+            note left
+                Cluster: Ablehnung
+                Es sind zu viele Messlokationen in der Berechnungsformel vorhanden.
+            endnote
+            kill;
+        else (nein)
+        endif
+        if (<b>8: </b> Ist die Anzahl gemäß der gemeldeten/vorliegenden Messlokationen aus den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung&#41; gemäß dem „Gültig ab“-Datum größer als in der Berechnungsformel?) then (ja)
+            :A05;
+            note left
+                Cluster: Ablehnung
+                Es fehlen Messlokationen in der Berechnungs-formel.
+            endnote
+            kill;
+        else (nein)
+        endif
+        if (<b>9: </b> Sind alle ID der Messlokationen in der Berechnungsformel mit den zuvor in den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung&#41; gemeldeten ID der Messlokationen identisch?) then (ja)
+        else (nein)
+            :A06;
+            note left
+                Cluster: Ablehnung
+                ID der Messlokationen stimmen nicht überein
+            endnote
+            kill;
+        endif
+        if (<b>10: </b> Existiert für jede Flussrichtung der in der Berechnungsformel vorhandenen Messlokationen mindestens eine zuvor in den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung&#41; ausgetauschte OBIS-Kennzahl* mit identischer Flussrichtung?) then (ja)
+            :A08;
+            note left
+                Cluster: Zustimmung
+                Zustimmung bei berechneter Marktlokation
+            endnote
+            kill;
+        else (nein)
+            :A07;
+            note left
+                Cluster: Ablehnung
+                Die Flussrichtung mindestens einer Messlokation ist nicht korrekt angegeben.
+            endnote
+            kill;
+        endif
+    else (nein)
+    endif
+    if (<b>7: </b> Ist die Anzahl der gemeldeten / vorliegenden Mess-lokationen aus den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung&#41; gemäß dem „Gültig ab“-Datum kleiner als in der Berechnungsformel?) then (ja)
+        :A04;
+        note left
+            Cluster: Ablehnung
+            Es sind zu viele Messlokationen in der Berechnungsformel vorhanden.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>8: </b> Ist die Anzahl gemäß der gemeldeten/vorliegenden Messlokationen aus den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung&#41; gemäß dem „Gültig ab“-Datum größer als in der Berechnungsformel?) then (ja)
+        :A05;
+        note left
+            Cluster: Ablehnung
+            Es fehlen Messlokationen in der Berechnungs-formel.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>9: </b> Sind alle ID der Messlokationen in der Berechnungsformel mit den zuvor in den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung&#41; gemeldeten ID der Messlokationen identisch?) then (ja)
+    else (nein)
+        :A06;
+        note left
+            Cluster: Ablehnung
+            ID der Messlokationen stimmen nicht überein
+        endnote
+        kill;
+    endif
+    if (<b>10: </b> Existiert für jede Flussrichtung der in der Berechnungsformel vorhandenen Messlokationen mindestens eine zuvor in den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung&#41; ausgetauschte OBIS-Kennzahl* mit identischer Flussrichtung?) then (ja)
+        :A08;
+        note left
+            Cluster: Zustimmung
+            Zustimmung bei berechneter Marktlokation
+        endnote
+        kill;
+    else (nein)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Die Flussrichtung mindestens einer Messlokation ist nicht korrekt angegeben.
+        endnote
+        kill;
+    endif
+endif
+
+@enduml

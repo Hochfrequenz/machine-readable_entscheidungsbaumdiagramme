@@ -19,7 +19,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "Ende"
           },
           "note": "Die Stammdaten des NB genügen nicht den AHB-Vorgaben.\nHinweis: Diese Prüfung ist auf alle Stammdaten des NB anzuwenden. Es sind die Fehlerorte aller dabei festgestellten Fehler in der Antwort zu benennen.\nEine Durchführung der nachfolgend in diesem EBD genannten Prüfungen erfolgt nicht.",
           "result_code": "A97"
@@ -27,7 +27,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "2"
           },
           "note": null,
           "result_code": null
@@ -42,7 +42,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "3"
           },
           "note": null,
           "result_code": null
@@ -50,7 +50,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "4"
           },
           "note": null,
           "result_code": null
@@ -65,7 +65,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "Ende"
           },
           "note": "Die Marktlokation bzw. Tranche ist für den genannten Zeitpunkt nicht dem ÜNB zur Aggregation gemeldet.",
           "result_code": "A19"
@@ -73,7 +73,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "4"
           },
           "note": null,
           "result_code": null
@@ -88,7 +88,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "5"
           },
           "note": "Die Stammdaten des LF genügen nicht den AHB-Vorgaben.\nHinweis: Diese Prüfung ist auf alle Stammdaten des LF anzuwenden. Es sind die Fehlerorte aller dabei festgestellten Fehler in der Antwort zu benennen.",
           "result_code": "A98"
@@ -96,7 +96,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "5"
           },
           "note": null,
           "result_code": null
@@ -111,7 +111,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "6"
           },
           "note": "Verarbeitungsnummer bereits verwendet",
           "result_code": "A20"
@@ -119,7 +119,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "6"
           },
           "note": null,
           "result_code": null
@@ -134,7 +134,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "7"
           },
           "note": "Regelzone falsch",
           "result_code": "A01"
@@ -142,7 +142,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "7"
           },
           "note": null,
           "result_code": null
@@ -157,7 +157,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "8"
           },
           "note": "Netzbetreiber nicht gültig",
           "result_code": "A02"
@@ -165,7 +165,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "8"
           },
           "note": null,
           "result_code": null
@@ -180,7 +180,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "9"
           },
           "note": "Bilanzierungsgebiet nicht gültig",
           "result_code": "A03"
@@ -188,7 +188,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "9"
           },
           "note": null,
           "result_code": null
@@ -203,7 +203,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "10"
           },
           "note": "Angegebener NB entspricht nicht dem zugeordneten NB des Bilanzierungsgebiets",
           "result_code": "A14"
@@ -211,7 +211,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "10"
           },
           "note": null,
           "result_code": null
@@ -226,7 +226,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "11"
           },
           "note": null,
           "result_code": null
@@ -234,7 +234,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "12"
           },
           "note": null,
           "result_code": null
@@ -249,7 +249,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "12"
           },
           "note": "Messstellenbetreiber nicht gültig",
           "result_code": "A15"
@@ -257,7 +257,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "12"
           },
           "note": null,
           "result_code": null
@@ -272,7 +272,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "13"
           },
           "note": "LF im Vorgang weicht vom Absender ab",
           "result_code": "A04"
@@ -280,7 +280,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "13"
           },
           "note": null,
           "result_code": null
@@ -295,7 +295,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "14"
           },
           "note": "Bilanzkreis nicht gültig",
           "result_code": "A05"
@@ -303,7 +303,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "14"
           },
           "note": null,
           "result_code": null
@@ -318,7 +318,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "15"
           },
           "note": "Prognosegrundlage passt nicht zum ZRT",
           "result_code": "A16"
@@ -326,7 +326,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "15"
           },
           "note": null,
           "result_code": null
@@ -341,7 +341,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "16"
           },
           "note": "OBIS nicht passend",
           "result_code": "A06"
@@ -349,7 +349,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "16"
           },
           "note": null,
           "result_code": null
@@ -364,7 +364,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "17"
           },
           "note": "Lieferrichtung nicht passend",
           "result_code": "A07"
@@ -372,7 +372,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "17"
           },
           "note": null,
           "result_code": null
@@ -387,7 +387,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "18"
           },
           "note": "Aggregationsverantwortlicher im Vorgang passt nicht zur Aggregationsverantwortung der Marktlokation im System des ÜNB",
           "result_code": "A17"
@@ -395,7 +395,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "18"
           },
           "note": null,
           "result_code": null
@@ -410,7 +410,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "19"
           },
           "note": null,
           "result_code": null
@@ -418,7 +418,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "20"
           },
           "note": null,
           "result_code": null
@@ -433,7 +433,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "20"
           },
           "note": "Falscher Aggregationsverantwortlicher",
           "result_code": "A18"
@@ -441,7 +441,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "20"
           },
           "note": null,
           "result_code": null
@@ -456,7 +456,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "21"
           },
           "note": null,
           "result_code": null
@@ -464,7 +464,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "27"
           },
           "note": null,
           "result_code": null
@@ -479,7 +479,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "22"
           },
           "note": "ZRT nicht passend",
           "result_code": "A08"
@@ -487,7 +487,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "22"
           },
           "note": null,
           "result_code": null
@@ -502,7 +502,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "23"
           },
           "note": "Bilanzierungsverfahren nicht gültig",
           "result_code": "A09"
@@ -510,7 +510,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "23"
           },
           "note": null,
           "result_code": null
@@ -525,7 +525,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "24"
           },
           "note": null,
           "result_code": null
@@ -533,7 +533,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "27"
           },
           "note": null,
           "result_code": null
@@ -548,7 +548,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "25"
           },
           "note": "Normiertes Profil liegt nicht vor",
           "result_code": "A10"
@@ -556,7 +556,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "25"
           },
           "note": null,
           "result_code": null
@@ -571,7 +571,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "26"
           },
           "note": "Normiertes Profil nicht SLP mit synthetischem Verfahren",
           "result_code": "A11"
@@ -579,7 +579,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "26"
           },
           "note": null,
           "result_code": null
@@ -594,7 +594,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": null
+            "subsequent_step_number": "27"
           },
           "note": "Unpassende Prognosegrundlage",
           "result_code": "A12"
@@ -602,7 +602,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "27"
           },
           "note": null,
           "result_code": null

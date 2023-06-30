@@ -1,0 +1,49 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.45.3: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an ÜNB und BKV</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0043</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Befindet sich der MaBiS-ZP auf der Aggregationsebene RZ?<BR align="left"/>>];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Hat der BKV für den BK dieses MaBiS-ZP in diesem Bilanzierungsmonat die Aggregationsebene RZ abbestellt?<BR align="left"/>>];
+    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Hat der BKV für diesen Bilanzierungsmonat bereits mit-geteilt, dass die weiteren Prüfungen auf Ebene des BG stattfinden müssen?<BR align="left"/>>];
+    "Ende" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label="Ende"];
+    "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Ist die eingegangene Prüfmitteilung positiv?<BR align="left"/>>];
+    "A**" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A**</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. Mögliche Codes sind:<BR align="left"/>A01	Datenstatus „Abrechnungsdaten“<BR align="left"/>A03	Datenstatus „Abgerechnete Daten“<BR align="left"/>A04	Datenstatus „Abrechnungsdaten KBKA“<BR align="left"/></FONT>>];
+    "5" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>5: </B>Liegt der Datenstatus „Prüfdaten“ vor?<BR align="left"/>>];
+    "6" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>6: </B>Erfolgt der Eingang der Prüfmitteilung vor Ablauf der Frist für die Clearingphase der BKA (ohne KBKA)?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Abrechnungsdaten“<BR align="left"/></FONT>>];
+    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>7: </B>Erfolgt der Eingang der Prüfmitteilung vor Ablauf der Frist für die Clearingphase KBKA?<BR align="left"/>>];
+    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Abrechnungsdaten KBKA“<BR align="left"/>Setzen des Datenstatus für die der Version des MaBiS-ZP auf der Aggregationsebene RZ zugehörigen Version des MaBiS-ZP auf der Aggregationsebene BG<BR align="left"/></FONT>>];
+    "8" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>8: </B>Hat der BKV für diesen Bilanzierungsmonat bereits mitgeteilt, dass die weiteren Prüfungen auf Ebene des BG stattfinden müssen?<BR align="left"/>>];
+    "9" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>9: </B>Ist die eingegangene Prüfmitteilung positiv?<BR align="left"/>>];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Liegt der Datenstatus „Prüfdaten“ vor?<BR align="left"/>>];
+    "11" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>11: </B>Erfolgt der Eingang der Prüfmitteilung vor Ablauf der Frist für die Clearingphase der BKA (ohne KBKA)?<BR align="left"/>>];
+    "12" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>12: </B>Hat die zugehörige Version auf der Aggregationsebene RZ den Datenstatus Abrechnungsdaten?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Prüfdaten“<BR align="left"/></FONT>>];
+
+    "Start" -> "1";
+    "1" -> "2" [label="Nein"];
+    "1" -> "8" [label="Ja"];
+    "2" -> "4" [label="Ja"];
+    "2" -> "3" [label="Nein"];
+    "3" -> "4" [label="Ja"];
+    "3" -> "Ende" [label="Nein"];
+    "4" -> "A**" [label="Nein"];
+    "4" -> "5" [label="Ja"];
+    "5" -> "A**" [label="Nein"];
+    "5" -> "6" [label="Ja"];
+    "6" -> "A01" [label="Ja"];
+    "6" -> "7" [label="Nein"];
+    "7" -> "A04" [label="Ja"];
+    "7" -> "Ende" [label="Nein"];
+    "8" -> "Ende" [label="Ja"];
+    "8" -> "9" [label="Nein"];
+    "9" -> "A**" [label="Nein"];
+    "9" -> "10" [label="Ja"];
+    "10" -> "A**" [label="Nein"];
+    "10" -> "11" [label="Ja"];
+    "11" -> "12" [label="Nein"];
+    "12" -> "A01" [label="Ja"];
+    "12" -> "A02" [label="Nein"];
+
+    bgcolor="transparent";
+}

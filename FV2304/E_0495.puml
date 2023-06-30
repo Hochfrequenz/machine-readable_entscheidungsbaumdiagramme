@@ -29,23 +29,40 @@ GPKE
 end title
 :<b>E_0495</b>;
 note right
-<b><i>Prüfende Rolle: MSB der Marktlokation
+<b><i>Prüfende Rolle: MSB
 end note
 
-if (<b>1: </b> Ist ein Fehler aufgetreten?) then (ja)
+if (<b>1: </b> Liegen alle notwendigen Änderungen der MSB an der Messlokation vor?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Cluster: Ablehnung
+        Es liegen nicht alle Rückmeldungen der MSB der Messlokationen vor.
+    endnote
+    kill;
+endif
+if (<b>2: </b> Wurden die bestellten Parametrierungen durchgeführt?) then (ja)
+else (nein)
+    :A03;
+    note left
+        Cluster: Ablehnung
+        Parametrierung der Messlokation wurde nicht wie bestellt durchgeführt.
+    endnote
+    kill;
+endif
+if (<b>3: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
     :A99;
     note left
-        Cluster 
-        Ablehnung
+        Cluster: Ablehnung
         Sonstiges
         Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-        Nutzungsmöglichkeit Ende: offen
+        Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
     endnote
     kill;
 else (nein)
     :A01;
     note left
-        Cluster Zustimmung
+        Cluster: Zustimmung
         Antwort auf Bestellung der Zählzeitdefinitionen des LF ausgehend vom MSB versenden
     endnote
     kill;

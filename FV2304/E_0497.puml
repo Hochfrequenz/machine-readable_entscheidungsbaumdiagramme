@@ -32,16 +32,35 @@ note right
 <b><i>Prüfende Rolle: NB
 end note
 
-if (<b>1: </b> Ist zum Zeitpunkt des Nachrichteneingangs die Marktlokation noch gesperrt?) then (ja)
+if (<b>1: </b> Wurde die Sperrung durch den UC "Unterbrechung der Anschlussnutzung (Sperren&#41; auf Anweisung des LF" ausgelöst?) then (ja)
 else (nein)
+    :A05;
+    note left
+        Cluster: Ablehnung
+        Marktlokation wurde nicht über den UC (Unterbrechung der Anschlussnutzung (Sperren&#41; auf Anweisung des LF&#41; gesperrt. 
+        Hinweis: Die Entsperrung muss auf konventionellem Weg erfolgen.
+    endnote
+    kill;
+endif
+if (<b>2: </b> Ist zum Zeitpunkt des Nachrichteneingangs die Marktlokation bereits entsperrt?) then (ja)
     :A01;
     note left
         Cluster: Ablehnung
         Marktlokation ist nicht gesperrt.
     endnote
     kill;
+else (nein)
 endif
-if (<b>2: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+if (<b>3: </b> Liegt bereits ein Entsperrauftrag vor?) then (ja)
+    :A04;
+    note left
+        Cluster: Ablehnung
+        Entsperrauftrag für die Marktlokation liegt bereits vor.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>4: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
     :A99;
     note left
         Cluster: Ablehnung
