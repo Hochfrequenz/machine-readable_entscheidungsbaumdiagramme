@@ -20,28 +20,32 @@ header
 endheader
 
 title
-MaBiS
+Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit
 
-7.27.1: AD: Übermittlung Datenstatus für die Bilanzierungsgebietssummenzeitreihe vom BIKO an ÜNB und NB
+18.2.1: AD: Abmeldung einer Marktlokation aus dem Modell 2 durch den NB (LPB)
 
 
 
 end title
-:<b>E_0053</b>;
+:<b>E_0512</b>;
 note right
-<b><i>Prüfende Rolle: BIKO
+<b><i>Prüfende Rolle: NB
 end note
 
-if (<b>1: </b> Ist die BKA (ohne KBKA&#41; erfolgt?) then (ja)
-    :A03;
+if (<b>1: </b> Ist ein Fehler aufgetreten?) then (ja)
+    :A99;
     note left
-        Datenstatus „Abgerechnete Daten“ für die höchste Version der BG-SZR mit dem Daten-status „Abrechnungsdaten“ in diesem Bilanzierungsmonat.
+        Cluster: Ablehnung
+        Sonstiges
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+        Nutzungsmöglichkeit Ende: 01.10.2024, 00:00 Uhr
     endnote
     kill;
 else (nein)
-    :A06;
+    :A01;
     note left
-        Datenstatus „Abgerechnete Daten KBKA“ für die höchste Version der BG-SZR mit dem Datenstatus „Abrechnungsdaten“, „Abgerechnete Daten“ oder „Abrechnungsdaten KBKA“ in diesem Bilanzierungsmonat.
+        Cluster: Zustimmung
+        Bestätigung der Abmeldung
     endnote
     kill;
 endif
