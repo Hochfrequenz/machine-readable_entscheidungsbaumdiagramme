@@ -1,0 +1,637 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0556",
+    "role": "ÜNB",
+    "sub_chapter": "6.16.3: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend"
+  },
+  "multi_step_instructions": [
+    {
+      "first_step_number_affected": "4",
+      "instruction_text": "Alle festgestellten Antworten sind anzugeben, soweit im Format möglich (maximal 8 Antwortcodes)*."
+    }
+  ],
+  "rows": [
+    {
+      "description": "Sind Fehler im Rahmen der AHB-Prüfungen in den Stammdaten des NB festgestellt worden?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "Ende"
+          },
+          "note": "Die Stammdaten des NB genügen nicht den AHB-Vorgaben.\nHinweis: Diese Prüfung ist auf alle Stammdaten des NB anzuwenden. Es sind die Fehlerorte aller dabei festgestellten Fehler in der Antwort zu benennen.\nEine Durchführung der nachfolgend in diesem EBD genannten Prüfungen erfolgt nicht.",
+          "result_code": "A97"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist als Aggregationsverantwortlicher der ÜNB im Vorgang angegeben?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "3"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die im Vorgang enthaltene Marktlokations-ID zum genannten Zeitpunkt dem ÜNB bereits zur Aggregation zugeordnet?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "Ende"
+          },
+          "note": "Die Marktlokation bzw. Tranche ist für den genannten Zeitpunkt nicht dem ÜNB zur Aggregation gemeldet.",
+          "result_code": "A19"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind Fehler im Rahmen der AHB-Prüfungen in den Stammdaten des LF festgestellt worden?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "5"
+          },
+          "note": "Die Stammdaten des LF genügen nicht den AHB-Vorgaben.\nHinweis: Diese Prüfung ist auf alle Stammdaten des LF anzuwenden. Es sind die Fehlerorte aller dabei festgestellten Fehler in der Antwort zu benennen.",
+          "result_code": "A98"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die angegebene Verarbeitungsnummer im Vorgang bereits für einen verarbeiteten Vorgang zu dieser Marktlokation verwendet?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "6"
+          },
+          "note": "Verarbeitungsnummer bereits verwendet",
+          "result_code": "A20"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "6"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die richtige Regelzone angegeben?",
+      "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "7"
+          },
+          "note": "Regelzone falsch",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "7"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der angegebene Netzbetreiber der Marktlokation in der Regelzone bekannt?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "8"
+          },
+          "note": "Netzbetreiber nicht gültig",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "8"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Bilanzierungsgebiet zum angegebenen Zeitpunkt in der Regelzone gültig?",
+      "step_number": "8",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "9"
+          },
+          "note": "Bilanzierungsgebiet nicht gültig",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "9"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der angegebene Netzbetreiber dem Bilanzierungsgebiet zugeordnet?",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "10"
+          },
+          "note": "Angegebener NB entspricht nicht dem zugeordneten NB des Bilanzierungsgebiets",
+          "result_code": "A14"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird die Marktlokation auf Grundlage von Werten bilanziert?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "11"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "12"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Messstellenbetreiber zum angegebenen Zeitpunkt in der BDEW-Codenummerndatenbank registriert?",
+      "step_number": "11",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "12"
+          },
+          "note": "Messstellenbetreiber nicht gültig",
+          "result_code": "A15"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "12"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der im Vorgang genannte LF identisch mit dem Absender der Nachricht?",
+      "step_number": "12",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "13"
+          },
+          "note": "LF im Vorgang weicht vom Absender ab",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "13"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Bilanzkreis zum angegebenen Zeitpunkt gültig?",
+      "step_number": "13",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "14"
+          },
+          "note": "Bilanzkreis nicht gültig",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "14"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Passt die Prognosegrundlage zum ZRT?",
+      "step_number": "14",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "15"
+          },
+          "note": "Prognosegrundlage passt nicht zum ZRT",
+          "result_code": "A16"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "15"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Passt die OBIS-Kennzahl zum ZRT?",
+      "step_number": "15",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "16"
+          },
+          "note": "OBIS nicht passend",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "16"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Passt die Lieferrichtung zum ZRT?",
+      "step_number": "16",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "17"
+          },
+          "note": "Lieferrichtung nicht passend",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "17"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Passt der angegebene Aggregationsverantwortliche in dem Vorgang zur Aggregationsverantwortung der Marktlokation im System des ÜNB, sofern die Marktlokation beim ÜNB schon bekannt ist?",
+      "step_number": "17",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "18"
+          },
+          "note": "Aggregationsverantwortlicher im Vorgang passt nicht zur Aggregationsverantwortung der Marktlokation im System des ÜNB",
+          "result_code": "A17"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "18"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Aggregationsverantwortung im Vorgang dem NB zugeordnet?",
+      "step_number": "18",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "19"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird die Marktlokation auf Grundlage von Profilen bilanziert?",
+      "step_number": "19",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": "Falscher Aggregationsverantwortlicher",
+          "result_code": "A18"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Aggregationsverantwortung im Vorgang dem ÜNB zugeordnet?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "21"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "27"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Zeitreihentyp (ZRT) den gültigen ZRT zur Datenaggregation beim ÜNB?",
+      "step_number": "21",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "22"
+          },
+          "note": "ZRT nicht passend",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "22"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht das Bilanzierungsverfahren dem gültigen Bilanzierungsverfahren zur Datenaggregation beim ÜNB?",
+      "step_number": "22",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "23"
+          },
+          "note": "Bilanzierungsverfahren nicht gültig",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "23"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird die Marktlokation auf Grundlage von Profilen bilanziert?",
+      "step_number": "23",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "24"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "27"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das angegebene normierte Profil zum angegebenen Zeitpunkt für das Bilanzierungsgebiet Bestandteil der Profildefinitionsliste des Netzbetreibers?",
+      "step_number": "24",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "25"
+          },
+          "note": "Normiertes Profil liegt nicht vor",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "25"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das angegebene normierte Profil zum angegebenen Zeitpunkt ein Profil aus der Gruppe SLP mit synthetischen Verfahren?",
+      "step_number": "25",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "26"
+          },
+          "note": "Normiertes Profil nicht SLP mit synthetischem Verfahren",
+          "result_code": "A11"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "26"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Prognosegrundlage der Marktlokation eine, für die der ÜNB die Aggregation durchführen darf?",
+      "step_number": "26",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "27"
+          },
+          "note": "Unpassende Prognosegrundlage",
+          "result_code": "A12"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "27"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat keine vorangegangene Prüfung zu einer Antwort geführt?",
+      "step_number": "27",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Stammdaten wurden widerspruchsfrei übernommen.",
+          "result_code": "A13"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Stammdaten wurden übernommen \nHinweis A**: Es werden alle gemerkten Antwortcodes der vorhergehenden Prüfschritte übermittelt.",
+          "result_code": "A**"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
