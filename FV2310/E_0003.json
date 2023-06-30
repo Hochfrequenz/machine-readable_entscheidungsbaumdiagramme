@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "chapter": "MaBiS",
+    "ebd_code": "E_0003",
+    "role": "ÜNB",
+    "sub_chapter": "7.42.1: AD: Bestellung der Aggregationsebene der Bilanzkreissummenzeitreihe auf Ebene der Regelzone"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Erfolgt der Eingang der Bestellung fristgerecht?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Fristüberschreitung",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Erfolgt die Bestellung zum Monatsersten 00:00 Uhr?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Gewählter Zeitpunkt nicht zulässig",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
