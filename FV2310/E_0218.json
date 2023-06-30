@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "chapter": "WiM Strom",
+    "ebd_code": "E_0218",
+    "role": "MSB",
+    "sub_chapter": "9.16.1: AD: Übermittlung der Berechnungsformel"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist die Lieferrichtung der Marktlokation korrekt angegeben?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nLieferrichtung der Marktlokation ist nicht korrekt.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist im Geschäftsvorfall der Status der Berechnungsformel für die Marktlokation mit „Berechnungsformel muss beim Absender angefragt werden“ angegeben?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nBerechnungsformel muss bilateral ausgetauscht werden.",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist im Geschäftsvorfall der Status der Berechnungsformel für die Marktlokation mit „Berechnungsformel besitzt keine Rechenoperation“ angegeben?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist in den zuvor ausgetauschten Stammdatenmeldungen (z.B. Anmeldebestätigung, Stammdatenänderung (inklusive Lokationsbündelstrukturänderung)) gemäß dem „Gültig-Ab“ Datum genau eine Messlokation dieser Marktlokation zugeordnet?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer Marktlokation ist nicht genau eine Messlokation zugeordnet",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nEnergiemenge der Marktlokation ist mit der Energiemenge der Messlokation identisch",
+          "result_code": "A11"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt eine Änderung der Lokationsbündelstruktur durch den NB vor, die durch Stammdatenänderung übermittelt wurde?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das „Gültig ab“-Datum der Berechnungsformel tagidentisch mit dem Datum der Strukturänderung des Lokationsbündels?",
+      "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\n„Gültig ab“-Datum der Berechnungsformel unplausibel.",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Anzahl der gemeldeten / vorliegenden Mess-lokationen aus den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung) gemäß dem „Gültig ab“-Datum kleiner als in der Berechnungsformel?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEs sind zu viele Messlokationen in der Berechnungsformel vorhanden.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Anzahl gemäß der gemeldeten/vorliegenden Messlokationen aus den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung) gemäß dem „Gültig ab“-Datum größer als in der Berechnungsformel?",
+      "step_number": "8",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEs fehlen Messlokationen in der Berechnungs-formel.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind alle ID der Messlokationen in der Berechnungsformel mit den zuvor in den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung) gemeldeten ID der Messlokationen identisch?",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nID der Messlokationen stimmen nicht überein",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Existiert für jede Flussrichtung der in der Berechnungsformel vorhandenen Messlokationen mindestens eine zuvor in den Stammdatenmeldungen (z. B. Anmeldebestätigung, Stammdatenänderung) ausgetauschte OBIS-Kennzahl* mit identischer Flussrichtung?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Flussrichtung mindestens einer Messlokation ist nicht korrekt angegeben.",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nZustimmung bei berechneter Marktlokation",
+          "result_code": "A08"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
