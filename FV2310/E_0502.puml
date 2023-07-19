@@ -71,22 +71,6 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
             kill;
         else (nein)
         endif
-        if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-            :A99;
-            note left
-                Cluster: Ablehnung Sonstiges 
-                Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-            endnote
-            kill;
-        else (nein)
-            :A10;
-            note left
-                Cluster: Zustimmung
-                Lieferende wird zugestimmt
-            endnote
-            kill;
-        endif
     else (nein)
         if (<b>60: </b> Wird ein Datum „Bilanzierungsende“ in der Abmeldung mitgeteilt?) then (ja)
             if (<b>80: </b> Hat eine Bilanzierung stattgefunden?) then (ja)
@@ -131,22 +115,6 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
                                 kill;
                             else (nein)
                             endif
-                            if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-                                :A99;
-                                note left
-                                    Cluster: Ablehnung Sonstiges 
-                                    Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                                    Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-                                endnote
-                                kill;
-                            else (nein)
-                                :A10;
-                                note left
-                                    Cluster: Zustimmung
-                                    Lieferende wird zugestimmt
-                                endnote
-                                kill;
-                            endif
                         else (nein)
                             if (<b>180: </b> Ist als Bilanzierungsende das Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr&#41; angegeben?) then (ja)
                             else (nein)
@@ -166,22 +134,6 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
                                 endnote
                                 kill;
                             else (nein)
-                            endif
-                            if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-                                :A99;
-                                note left
-                                    Cluster: Ablehnung Sonstiges 
-                                    Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                                    Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-                                endnote
-                                kill;
-                            else (nein)
-                                :A10;
-                                note left
-                                    Cluster: Zustimmung
-                                    Lieferende wird zugestimmt
-                                endnote
-                                kill;
                             endif
                         endif
                     else (nein)
@@ -203,22 +155,6 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
                             endnote
                             kill;
                         else (nein)
-                        endif
-                        if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-                            :A99;
-                            note left
-                                Cluster: Ablehnung Sonstiges 
-                                Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                                Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-                            endnote
-                            kill;
-                        else (nein)
-                            :A10;
-                            note left
-                                Cluster: Zustimmung
-                                Lieferende wird zugestimmt
-                            endnote
-                            kill;
                         endif
                     endif
                 endif
@@ -244,22 +180,6 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
                     kill;
                 else (nein)
                 endif
-                if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-                    :A99;
-                    note left
-                        Cluster: Ablehnung Sonstiges 
-                        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                        Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-                    endnote
-                    kill;
-                else (nein)
-                    :A10;
-                    note left
-                        Cluster: Zustimmung
-                        Lieferende wird zugestimmt
-                    endnote
-                    kill;
-                endif
             else (nein)
                 if (<b>140: </b> Ist das Bilanzierungsende ≤ dem Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr&#41;?) then (ja)
                 else (nein)
@@ -279,22 +199,6 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
                     endnote
                     kill;
                 else (nein)
-                endif
-                if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-                    :A99;
-                    note left
-                        Cluster: Ablehnung Sonstiges 
-                        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                        Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-                    endnote
-                    kill;
-                else (nein)
-                    :A10;
-                    note left
-                        Cluster: Zustimmung
-                        Lieferende wird zugestimmt
-                    endnote
-                    kill;
                 endif
             endif
         else (nein)
@@ -317,22 +221,6 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
                 kill;
             else (nein)
             endif
-            if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-                :A99;
-                note left
-                    Cluster: Ablehnung Sonstiges 
-                    Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                    Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-                endnote
-                kill;
-            else (nein)
-                :A10;
-                note left
-                    Cluster: Zustimmung
-                    Lieferende wird zugestimmt
-                endnote
-                kill;
-            endif
         endif
     endif
     if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
@@ -344,22 +232,6 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
         endnote
         kill;
     else (nein)
-    endif
-    if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-        :A99;
-        note left
-            Cluster: Ablehnung Sonstiges 
-            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-        endnote
-        kill;
-    else (nein)
-        :A10;
-        note left
-            Cluster: Zustimmung
-            Lieferende wird zugestimmt
-        endnote
-        kill;
     endif
 else (nein)
     if (<b>210: </b> Ist das Datum „Bilanzierungsende“ identisch mit dem Datum „Lieferende“?) then (ja)
@@ -408,22 +280,6 @@ else (nein)
             endnote
             kill;
         endif
-        if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-            :A99;
-            note left
-                Cluster: Ablehnung Sonstiges 
-                Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-            endnote
-            kill;
-        else (nein)
-            :A10;
-            note left
-                Cluster: Zustimmung
-                Lieferende wird zugestimmt
-            endnote
-            kill;
-        endif
     else (nein)
     endif
     if (<b>260: </b> Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation zugeordnet ist, vorgenommen?) then (ja)
@@ -435,38 +291,12 @@ else (nein)
         endnote
         kill;
     endif
-    if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-        :A99;
-        note left
-            Cluster: Ablehnung Sonstiges 
-            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-        endnote
-        kill;
-    else (nein)
-        :A10;
-        note left
-            Cluster: Zustimmung
-            Lieferende wird zugestimmt
-        endnote
-        kill;
-    endif
 endif
-if (<b>270: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
-    :A99;
-    note left
-        Cluster: Ablehnung Sonstiges 
-        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-        Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr
-    endnote
-    kill;
-else (nein)
-    :A10;
-    note left
-        Cluster: Zustimmung
-        Lieferende wird zugestimmt
-    endnote
-    kill;
-endif
+:A10;
+note left
+    Cluster: Zustimmung
+    Lieferende wird zugestimmt
+endnote
+kill;
 
 @enduml
