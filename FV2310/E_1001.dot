@@ -1,0 +1,26 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">Sperrprozesse Gas</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">19.2.2: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_1001</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Hat der MSB die generelle Zustimmung zur Durchführung einer Entsperrung/Sperrung dem NB erteilt?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Generelle Zustimmung des MSB für die Sperrung/Entsperrung liegt vor.<BR align="left"/></FONT>>];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>20: </B>Liegt ein Verhinderungsgrund einer Sperrung an der Marktlokation vor?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Verhinderungsgrund liegt vor.<BR align="left"/>Hinweis: Das identifizierte Problem ist in der<BR align="left"/> Antwort zu beschreiben/benennen.<BR align="left"/></FONT>>];
+    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>30: </B>Liegen dem MSB technische Gründe für eine Ablehnung der Sperrung vor?<BR align="left"/>>];
+    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Es liegt ein technischer Ablehnungsgrund vor.<BR align="left"/>Hinweis: Das identifizierte Problem ist in der<BR align="left"/> Antwort zu beschreiben/benennen.<BR align="left"/></FONT>>];
+    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>40: </B>Ist eine Mitwirkung des MSB bei Entsperrung/Sperrung vor Ort gewünscht?<BR align="left"/>>];
+    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>MSB hat Durchführung der Sperrung und Entsperrung unter Mitwirkung des MSB zugestimmt.<BR align="left"/></FONT>>];
+    "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>MSB hat Durchführung der Sperrung und Entsperrung durch NB zugestimmt.<BR align="left"/></FONT>>];
+
+    "Start" -> "10";
+    "10" -> "A01" [label="Ja"];
+    "10" -> "20" [label="Nein"];
+    "20" -> "A02" [label="Ja"];
+    "20" -> "30" [label="Nein"];
+    "30" -> "A03" [label="Ja"];
+    "30" -> "40" [label="Nein"];
+    "40" -> "A04" [label="Ja"];
+    "40" -> "A05" [label="Nein"];
+
+    bgcolor="transparent";
+}
