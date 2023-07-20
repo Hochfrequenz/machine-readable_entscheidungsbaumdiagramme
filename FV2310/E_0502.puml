@@ -93,56 +93,33 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
                 else (nein)
                 endif
                 if (<b>110: </b> Ist das mitgeteilte Bilanzierungsende identisch zu dem zuvor mitgeteilten Bilanzierungsende?) then (ja)
-                else (nein)
-                    if (<b>150: </b> Ist das Lieferendedatum ≤ dem Monatsersten des Folgemonats 00:00 Uhr, in welchem der Geschäftsvorfall eingegangen ist?) then (ja)
-                        if (<b>160: </b> Ist die Anfrage nach dem 3. WT vor dem Monatsletzten eingegangen?) then (ja)
-                            if (<b>170: </b> Ist als Bilanzierungsende das Ende des Folgemonats (erster Tag des übernächsten Monats 00:00 Uhr&#41; angegeben?) then (ja)
-                            else (nein)
-                                :A15;
-                                note left
-                                    Cluster: Ablehnung
-                                    Das Bilanzierungsende ist zum angegebenen Termin nicht mehr möglich
-                                endnote
-                                kill;
-                            endif
-                            if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
-                                :A06;
-                                note left
-                                    Cluster: Ablehnung
-                                    Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
-                                    Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
-                                endnote
-                                kill;
-                            else (nein)
-                            endif
+                    if (<b>120: </b> Ist die Anfrage nach dem 3. WT vor dem Monatsletzten eingegangen?) then (ja)
+                        if (<b>130: </b> Ist das Bilanzierungsende ≤ dem Ende des Folgemonats (erster Tag des übernächsten Monats 00:00 Uhr&#41;?) then (ja)
                         else (nein)
-                            if (<b>180: </b> Ist als Bilanzierungsende das Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr&#41; angegeben?) then (ja)
-                            else (nein)
-                                :A16;
-                                note left
-                                    Cluster: Ablehnung
-                                    Das Bilanzierungsende ist nicht der erste Tag des Folgemonats 00:00 Uhr
-                                endnote
-                                kill;
-                            endif
-                            if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
-                                :A06;
-                                note left
-                                    Cluster: Ablehnung
-                                    Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
-                                    Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
-                                endnote
-                                kill;
-                            else (nein)
-                            endif
-                        endif
-                    else (nein)
-                        if (<b>190: </b> Ist als Bilanzierungsende das Ende des Monats angeben, in welchem das Lieferende liegt? (erster Tag des Folgemonats 00:00 Uhr des Monats in welchem das Lieferende liegt&#41;.) then (ja)
-                        else (nein)
-                            :A17;
+                            :A20;
                             note left
                                 Cluster: Ablehnung
-                                Das Bilanzierungsende bei Lieferenden, welche in einem zukünftigen Monat liegen, muss zum Ablauf des gleichen Monats sein.
+                                Das Bilanzierungsende liegt zu weit in der Zukunft. Das bisherige Bilanzierungsende muss angepasst werden.
+                            endnote
+                            kill;
+                        endif
+                        if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                            :A06;
+                            note left
+                                Cluster: Ablehnung
+                                Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                                Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                            endnote
+                            kill;
+                        else (nein)
+                        endif
+                    else (nein)
+                        if (<b>140: </b> Ist das Bilanzierungsende ≤ dem Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr&#41;?) then (ja)
+                        else (nein)
+                            :A21;
+                            note left
+                                Cluster: Ablehnung
+                                Bilanzierungsfrist bei Marktlokationen mit Prognosegrundlage auf Basis von Profilen nicht eingehalten.
                             endnote
                             kill;
                         endif
@@ -157,36 +134,59 @@ if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
                         else (nein)
                         endif
                     endif
+                else (nein)
                 endif
             else (nein)
             endif
-            if (<b>120: </b> Ist die Anfrage nach dem 3. WT vor dem Monatsletzten eingegangen?) then (ja)
-                if (<b>130: </b> Ist das Bilanzierungsende ≤ dem Ende des Folgemonats (erster Tag des übernächsten Monats 00:00 Uhr&#41;?) then (ja)
+            if (<b>150: </b> Ist das Lieferendedatum ≤ dem Monatsersten des Folgemonats 00:00 Uhr, in welchem der Geschäftsvorfall eingegangen ist?) then (ja)
+                if (<b>160: </b> Ist die Anfrage nach dem 3. WT vor dem Monatsletzten eingegangen?) then (ja)
+                    if (<b>170: </b> Ist als Bilanzierungsende das Ende des Folgemonats (erster Tag des übernächsten Monats 00:00 Uhr&#41; angegeben?) then (ja)
+                    else (nein)
+                        :A15;
+                        note left
+                            Cluster: Ablehnung
+                            Das Bilanzierungsende ist zum angegebenen Termin nicht mehr möglich
+                        endnote
+                        kill;
+                    endif
+                    if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                        :A06;
+                        note left
+                            Cluster: Ablehnung
+                            Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                            Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                        endnote
+                        kill;
+                    else (nein)
+                    endif
                 else (nein)
-                    :A20;
-                    note left
-                        Cluster: Ablehnung
-                        Das Bilanzierungsende liegt zu weit in der Zukunft. Das bisherige Bilanzierungsende muss angepasst werden.
-                    endnote
-                    kill;
-                endif
-                if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
-                    :A06;
-                    note left
-                        Cluster: Ablehnung
-                        Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
-                        Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
-                    endnote
-                    kill;
-                else (nein)
+                    if (<b>180: </b> Ist als Bilanzierungsende das Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr&#41; angegeben?) then (ja)
+                    else (nein)
+                        :A16;
+                        note left
+                            Cluster: Ablehnung
+                            Das Bilanzierungsende ist nicht der erste Tag des Folgemonats 00:00 Uhr
+                        endnote
+                        kill;
+                    endif
+                    if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                        :A06;
+                        note left
+                            Cluster: Ablehnung
+                            Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                            Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                        endnote
+                        kill;
+                    else (nein)
+                    endif
                 endif
             else (nein)
-                if (<b>140: </b> Ist das Bilanzierungsende ≤ dem Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr&#41;?) then (ja)
+                if (<b>190: </b> Ist als Bilanzierungsende das Ende des Monats angeben, in welchem das Lieferende liegt? (erster Tag des Folgemonats 00:00 Uhr des Monats in welchem das Lieferende liegt&#41;.) then (ja)
                 else (nein)
-                    :A21;
+                    :A17;
                     note left
                         Cluster: Ablehnung
-                        Bilanzierungsfrist bei Marktlokationen mit Prognosegrundlage auf Basis von Profilen nicht eingehalten.
+                        Das Bilanzierungsende bei Lieferenden, welche in einem zukünftigen Monat liegen, muss zum Ablauf des gleichen Monats sein.
                     endnote
                     kill;
                 endif

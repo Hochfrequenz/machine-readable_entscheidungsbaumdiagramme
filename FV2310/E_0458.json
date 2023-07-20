@@ -3540,7 +3540,7 @@
       "use_cases": null
     },
     {
-      "description": "Gibt es weitere Artikel-ID für eine Konzessionsabgabe, die von dieser Artikel-ID abweicht, mit der sich somit eine weitere Resultierende bilden lässt?\nHinweis: In den Prüfschritten 775 bis 791 wird zur Reduzierung der Anzahl der beschriebenen Prüfungen vom Standard abgewichen, immer nur die zur Prüfung stehende Resultierende zu betrachten.",
+      "description": "Gibt es weitere Artikel-ID für eine Konzessionsabgabe, die von dieser Artikel-ID abweicht, mit der sich somit eine weitere Resultierende bilden lässt?\nHinweis: In den Prüfschritten 775 bis 794 wird zur Reduzierung der Anzahl der beschriebenen Prüfungen vom Standard abgewichen, immer nur die zur Prüfung stehende Resultierende zu betrachten.",
       "step_number": "775",
       "sub_rows": [
         {
@@ -3569,7 +3569,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "791"
+            "subsequent_step_number": "794"
           },
           "note": null,
           "result_code": null
@@ -3732,16 +3732,16 @@
             "result": true,
             "subsequent_step_number": "795"
           },
-          "note": null,
-          "result_code": null
+          "note": "Cluster: Ablehnung auf Positionsebene\nKonzessionsabgabe wird doppelt abgerechnet",
+          "result_code": "AD8"
         },
         {
           "check_result": {
             "result": false,
             "subsequent_step_number": "788"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nKonzessionsabgabe wird doppelt abgerechnet.",
-          "result_code": "AD8"
+          "note": null,
+          "result_code": null
         }
       ],
       "use_cases": null

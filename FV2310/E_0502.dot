@@ -65,7 +65,7 @@ digraph D {
     "80" -> "A18" [label="Nein"];
     "80" -> "90" [label="Ja"];
     "90" -> "100" [label="Ja"];
-    "90" -> "120" [label="Nein"];
+    "90" -> "150" [label="Nein"];
     "100" -> "A14" [label="Ja"];
     "100" -> "110" [label="Nein"];
     "110" -> "120" [label="Ja"];

@@ -62,7 +62,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Die Marktlokation bzw. Tranche ist zum genannten Zeitpunkt nicht dem ÜNB zur Aggregation zugeordnet",
+          "note": "Die Marktlokation bzw. Tranche ist zum genannten Zeitpunkt nicht dem ÜNB zur Aggregation zugeordnet.",
           "result_code": "A02"
         },
         {
@@ -93,7 +93,7 @@
             "result": false,
             "subsequent_step_number": "7"
           },
-          "note": "Hinweis: Es liegt eine Änderung des Bilanzierungsverfahrens von Viertelstundenwerte auf Profile vor und die Aggregationsverantwortung liegt beim NB",
+          "note": "Hinweis: Es liegt eine Änderung des Bilanzierungsverfahrens von Viertelstundenwerte auf Profile vor und die Aggregationsverantwortung liegt beim NB.",
           "result_code": null
         }
       ],
@@ -108,7 +108,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Die Marktlokation bzw. Tranche ist zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem ÜNB nicht bekannt",
+          "note": "Die Marktlokation bzw. Tranche ist zu dem im Vorgang unter „Verwendung der Daten bis“ genannten Zeitpunkt dem ÜNB nicht bekannt.",
           "result_code": "A03"
         },
         {
@@ -131,7 +131,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Das Datum „Verwendung der Daten bis“ des Vor-gangs liegt vor dem Beginn des Vormonats, in dem der Vorgang beim ÜNB eingeht. \nHinweis: Eine Korrektur des Datums \"Verwendung der Daten bis\" auf den nächstmöglichen Zeitpunkt ist erforderlich.",
+          "note": "Das Datum „Verwendung der Daten bis“ des Vor-gangs liegt vor dem Beginn des Vormonats, in dem der Vorgang beim ÜNB eingeht.\nHinweis: Eine Korrektur des Datums \"Verwendung der Daten bis\" auf den nächstmöglichen Zeitpunkt ist erforderlich.",
           "result_code": "A08"
         },
         {
@@ -154,7 +154,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Die Marktlokation bzw. Tranche ist zum genannten Zeitpunkt nicht dem NB zur Aggregation zugeordnet",
+          "note": "Die Marktlokation bzw. Tranche ist zum genannten Zeitpunkt nicht dem NB zur Aggregation zugeordnet.",
           "result_code": "A04"
         },
         {
@@ -177,7 +177,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Die Marktlokation bzw. Tranche liegt zum genannten Zeitpunkt dem ÜNB nicht mit dem Bilanzierungsverfahren Bilanzierung auf Basis von Viertelstundenwerten vor",
+          "note": "Die Marktlokation bzw. Tranche liegt zum genannten Zeitpunkt dem ÜNB nicht mit dem Bilanzierungsverfahren Bilanzierung auf Basis von Viertelstundenwerten vor.",
           "result_code": "A05"
         },
         {
@@ -269,7 +269,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "LF im Vorgang weicht vom Absender ab",
+          "note": "LF im Vorgang weicht vom Absender ab.",
           "result_code": "A07"
         },
         {

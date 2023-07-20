@@ -113,7 +113,7 @@
             "result": true,
             "subsequent_step_number": "6"
           },
-          "note": "Verarbeitungsnummer bereits verwendet",
+          "note": "Verarbeitungsnummer bereits verwendet.",
           "result_code": "A20"
         },
         {
@@ -136,7 +136,7 @@
             "result": false,
             "subsequent_step_number": "7"
           },
-          "note": "Regelzone falsch",
+          "note": "Regelzone falsch.",
           "result_code": "A01"
         },
         {
@@ -159,7 +159,7 @@
             "result": false,
             "subsequent_step_number": "8"
           },
-          "note": "Netzbetreiber nicht gültig",
+          "note": "Netzbetreiber nicht gültig.",
           "result_code": "A02"
         },
         {
@@ -182,7 +182,7 @@
             "result": false,
             "subsequent_step_number": "9"
           },
-          "note": "Bilanzierungsgebiet nicht gültig",
+          "note": "Bilanzierungsgebiet nicht gültig.",
           "result_code": "A03"
         },
         {
@@ -205,7 +205,7 @@
             "result": false,
             "subsequent_step_number": "10"
           },
-          "note": "Angegebener NB entspricht nicht dem zugeordneten NB des Bilanzierungsgebiets",
+          "note": "Angegebener NB entspricht nicht dem zugeordneten NB des Bilanzierungsgebiets.",
           "result_code": "A14"
         },
         {
@@ -251,7 +251,7 @@
             "result": false,
             "subsequent_step_number": "12"
           },
-          "note": "Messstellenbetreiber nicht gültig",
+          "note": "Messstellenbetreiber nicht gültig.",
           "result_code": "A15"
         },
         {
@@ -274,7 +274,7 @@
             "result": false,
             "subsequent_step_number": "13"
           },
-          "note": "LF im Vorgang weicht vom Absender ab",
+          "note": "LF im Vorgang weicht vom Absender ab.",
           "result_code": "A04"
         },
         {
@@ -297,7 +297,7 @@
             "result": false,
             "subsequent_step_number": "14"
           },
-          "note": "Bilanzkreis nicht gültig",
+          "note": "Bilanzkreis nicht gültig.",
           "result_code": "A05"
         },
         {
@@ -320,7 +320,7 @@
             "result": false,
             "subsequent_step_number": "15"
           },
-          "note": "Prognosegrundlage passt nicht zum ZRT",
+          "note": "Prognosegrundlage passt nicht zum ZRT.",
           "result_code": "A16"
         },
         {
@@ -343,7 +343,7 @@
             "result": false,
             "subsequent_step_number": "16"
           },
-          "note": "OBIS nicht passend",
+          "note": "OBIS nicht passend.",
           "result_code": "A06"
         },
         {
@@ -366,7 +366,7 @@
             "result": false,
             "subsequent_step_number": "17"
           },
-          "note": "Lieferrichtung nicht passend",
+          "note": "Lieferrichtung nicht passend.",
           "result_code": "A07"
         },
         {
@@ -389,7 +389,7 @@
             "result": false,
             "subsequent_step_number": "18"
           },
-          "note": "Aggregationsverantwortlicher im Vorgang passt nicht zur Aggregationsverantwortung der Marktlokation im System des ÜNB",
+          "note": "Aggregationsverantwortlicher im Vorgang passt nicht zur Aggregationsverantwortung der Marktlokation im System des ÜNB.",
           "result_code": "A17"
         },
         {
@@ -435,7 +435,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
-          "note": "Falscher Aggregationsverantwortlicher",
+          "note": "Falscher Aggregationsverantwortlicher.",
           "result_code": "A18"
         },
         {
@@ -481,7 +481,7 @@
             "result": false,
             "subsequent_step_number": "22"
           },
-          "note": "ZRT nicht passend",
+          "note": "ZRT nicht passend.",
           "result_code": "A08"
         },
         {
@@ -504,7 +504,7 @@
             "result": false,
             "subsequent_step_number": "23"
           },
-          "note": "Bilanzierungsverfahren nicht gültig",
+          "note": "Bilanzierungsverfahren nicht gültig.",
           "result_code": "A09"
         },
         {
@@ -550,7 +550,7 @@
             "result": false,
             "subsequent_step_number": "25"
           },
-          "note": "Normiertes Profil liegt nicht vor",
+          "note": "Normiertes Profil liegt nicht vor.",
           "result_code": "A10"
         },
         {
@@ -573,7 +573,7 @@
             "result": false,
             "subsequent_step_number": "26"
           },
-          "note": "Normiertes Profil nicht SLP mit synthetischem Verfahren",
+          "note": "Normiertes Profil - nicht SLP mit synthetischem Verfahren.",
           "result_code": "A11"
         },
         {
@@ -596,7 +596,7 @@
             "result": false,
             "subsequent_step_number": "27"
           },
-          "note": "Unpassende Prognosegrundlage",
+          "note": "Unpassende Prognosegrundlage.",
           "result_code": "A12"
         },
         {
