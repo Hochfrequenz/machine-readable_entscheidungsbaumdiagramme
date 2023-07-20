@@ -31,7 +31,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht der Code der Zählzeit einem Code aus der für den reklamierten Zeitraum gültigen Übersicht der Zählzeitdefinitionen?",
+      "description": "Entspricht der Code der Zählzeitdefinition einem Code aus der für den reklamierten Zeitraum gültigen Übersicht der Zählzeitdefinitionen?",
       "step_number": "20",
       "sub_rows": [
         {
@@ -39,7 +39,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Code der Zählzeit wird nicht verwendet",
+          "note": "Code der Zählzeitdefinition wird nicht verwendet",
           "result_code": "A01"
         },
         {
@@ -62,7 +62,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Ausgerollte Zählzeitdefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die Übersicht der Definition übermittelt wurde.",
+          "note": "Ausgerollte Zählzeitdefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Zählzeitdefinition übermittelt wurde.",
           "result_code": "A02"
         },
         {
@@ -100,7 +100,7 @@
       "use_cases": null
     },
     {
-      "description": "Wurde mit dem Code der Zählzeit bereits eine ausgerollte Zählzeitdefinition mit einer höheren Version versendet?",
+      "description": "Wurde mit dem Code der Zählzeitdefinition bereits eine ausgerollte Zählzeitdefinition mit einer höheren Version versendet?",
       "step_number": "50",
       "sub_rows": [
         {
@@ -108,7 +108,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Es wurde bereits eine ausgerollte Zählzeitdefinition für den Code der Zählzeit mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die Übersicht der Definition übermittelt wurde.",
+          "note": "Es wurde bereits eine ausgerollte Zählzeitdefinition für den Code der Zählzeitdefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Zählzeitdefinition übermittelt wurde.",
           "result_code": "A03"
         },
         {
@@ -200,7 +200,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Ausgerollte Schaltzeitdefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die Übersicht der Definition übermittelt wurde.",
+          "note": "Ausgerollte Schaltzeitdefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Schaltzeitdefinition übermittelt wurde.",
           "result_code": "A06"
         },
         {
@@ -246,7 +246,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Es wurde bereits eine ausgerollte Schaltzeitdefinition für den Code der Schaltzeitdefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die Übersicht der Definition übermittelt wurde.",
+          "note": "Es wurde bereits eine ausgerollte Schaltzeitdefinition für den Code der Schaltzeitdefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Schaltzeitdefinition übermittelt wurde.",
           "result_code": "A07"
         },
         {
@@ -338,7 +338,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Ausgerollte Leistungskurvendefinition wurde versendet\nEs ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die Übersicht der Definition übermittelt wurde.",
+          "note": "Ausgerollte Leistungskurvendefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Leistungskurvendefinition übermittelt wurde.",
           "result_code": "A10"
         },
         {
@@ -384,7 +384,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Es wurde bereits eine ausgerollte Leistungskurvendefinition für den Code der Leistungskurvendefinition mit einer höheren Version versendet\nEs ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die Übersicht der Definition übermittelt wurde.",
+          "note": "Es wurde bereits eine ausgerollte Leistungskurvendefinition für den Code der Leistungskurvendefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Leistungskurvendefinition übermittelt wurde.",
           "result_code": "A11"
         },
         {
