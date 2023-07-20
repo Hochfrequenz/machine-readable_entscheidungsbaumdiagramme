@@ -34,6 +34,7 @@ digraph D {
     "A17" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A17</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Das Bilanzierungsende bei Lieferenden, welche in einem zukünftigen Monat liegen, muss zum Ablauf des gleichen Monats sein.<BR align="left"/></FONT>>];
     "200" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>200: </B>Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?<BR align="left"/>>];
     "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.<BR align="left"/>Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.<BR align="left"/></FONT>>];
+    "A10" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A10</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Lieferende wird zugestimmt<BR align="left"/></FONT>>];
     "210" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>210: </B>Ist das Datum „Bilanzierungsende“ identisch mit dem Datum „Lieferende“?<BR align="left"/>>];
     "A11" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A11</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Lieferende und Bilanzierungsende müssen bei Lieferende von NB an LF aufgrund entfallender Zuordnungsermächtigung synchron sein.<BR align="left"/></FONT>>];
     "220" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>220: </B>Liegt das übermittelte Datum „Lieferende“ nach dem Nachrichteneingang?<BR align="left"/>>];
@@ -45,9 +46,6 @@ digraph D {
     "A12" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A12</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Es liegt keine Änderung des Zeitreihentyps vor, für welchen keine Zuordnungsermächtigung besteht.<BR align="left"/></FONT>>];
     "260" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>260: </B>Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation zugeordnet ist, vorgenommen?<BR align="left"/>>];
     "A09" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A09</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Deaktivierung der Zuordnungsermächtigung für den der Marktlokation zugeordneten ZRT hat nicht stattgefunden.<BR align="left"/></FONT>>];
-    "270" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>270: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>];
-    "A10" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A10</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Lieferende wird zugestimmt<BR align="left"/></FONT>>];
-    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung Sonstiges <BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr<BR align="left"/></FONT>>];
 
     "Start" -> "10";
     "10" -> "A01" [label="Ja"];
@@ -89,7 +87,7 @@ digraph D {
     "190" -> "A17" [label="Nein"];
     "190" -> "200" [label="Ja"];
     "200" -> "A06" [label="Ja"];
-    "200" -> "270" [label="Nein"];
+    "200" -> "A10" [label="Nein"];
     "210" -> "A11" [label="Nein"];
     "210" -> "220" [label="Ja"];
     "220" -> "A07" [label="Nein"];
@@ -101,9 +99,7 @@ digraph D {
     "250" -> "A12" [label="Nein"];
     "250" -> "260" [label="Ja"];
     "260" -> "A09" [label="Nein"];
-    "260" -> "270" [label="Ja"];
-    "270" -> "A10" [label="Nein"];
-    "270" -> "A99" [label="Ja"];
+    "260" -> "A10" [label="Ja"];
 
     bgcolor="transparent";
 }
