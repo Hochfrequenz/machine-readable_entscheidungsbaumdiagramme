@@ -2869,282 +2869,6 @@
       "use_cases": null
     },
     {
-      "description": "Gibt es mindestens eine weitere Position mit dieser Artikel-ID, aber größerer Positionsnummer?",
-      "step_number": "635",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "795"
-          },
-          "note": "Hinweis: Es wurde noch nicht die letzte Position mit dieser Artikel-ID erreicht und somit wird noch nicht die Resultierende ermittelt",
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "640"
-          },
-          "note": "Hinweis: Es wurde die letzte Position mit dieser Artikel-ID erreicht. Somit kann und wird nun die Resultierende dieser Artikel-ID ermittelt",
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Umfasst die ermittelte Resultierende genau einen lückenlosen Zeitraum?",
-      "step_number": "640",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "795"
-          },
-          "note": "Cluster: Ablehnung auf Positionsebene\nDie Ermittlung der Resultierenden mit dieser Artikel-ID ist gescheitert.",
-          "result_code": "AA9"
-        },
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "645"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Ist der Beginn des Zeitraums der Resultierenden kleiner als 01.01.2023 00:00 Uhr?",
-      "step_number": "645",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "795"
-          },
-          "note": "Cluster: Ablehnung auf Positionsebene\nResultierende beginnt vor dem 01.01.2023 00:00 Uhr.",
-          "result_code": "AB1"
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "650"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Ist die berechnete (fakturierte) Menge eine physikalische Arbeit?",
-      "step_number": "650",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "651"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "680"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Ist die zu prüfenden Artikel-ID zugehörig zu einer der folgenden Gruppenartikel-ID:\n1-10-4, 1-10-5, 1-10-6, 1-08-2-AGS-K und 1-08-5-AGS-KG?",
-      "step_number": "651",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "652"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "660"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Gibt es zu der prüfenden Artikel-ID mindestens eine weitere Resultierende mit einer Artikel-ID, die zu der Gruppenartikel-ID zugehörig ist?",
-      "step_number": "652",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "653"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "660"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Entspricht die Summe der Mengen aus all den Resultierenden, die zu dieser Gruppenartikel-ID gebildet werden, der Mengen des Lieferscheins?\nHinweis: Dazu müssen alle Resultierenden der betroffenen Gruppenartikel-ID gebildet werden. Aus jeder dieser Resultierenden ist die Menge zu entnehmen. Diese Mengen sind zu summieren.",
-      "step_number": "653",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "665"
-          },
-          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung ab, da die Summe der Mengen nicht zum Lieferschein passt.",
-          "result_code": "AE4"
-        },
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "665"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Entsprechen die einzelnen Positionen der Mengen des Lieferscheins dem Absolutbetrag der Menge der Resultierenden der Rechnung?",
-      "step_number": "660",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "665"
-          },
-          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht zu den Mengen auf dem übermittelten Lieferschein übereinstimmen. \nBefüllungshinweis Identifikation der Zeile/Position im Dokument: Der LF gibt die größte Positionsnummer der Artikel-ID mit, bei der die Resultierende der Rechnung nicht der Menge aus dem Lieferschein entspricht.",
-          "result_code": "A56"
-        },
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "665"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Liegen für den Zeitraum der Resultierenden die Lastgänge an der Marktlokation vom MSB oder bei einem unterjährigen Lieferantenwechsel die Energiemenge und bis zu zwei Leistungsmaxima vom NB vor?\nHinweis: Sollten die Lastgänge an der Marktlokation vom MSB für den Zeitraum der Resultierenden nicht vorliegen, müssen diese erst vom LF beim MSB reklamiert worden sein, bevor diese Frage mit nein beantwortet werden darf.",
-      "step_number": "665",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "680"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "670"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Fehlen für den Zeitraum der Resultierenden die Lastgänge an der Marktlokation vom MSB und wurde diese beim MSB reklamiert?",
-      "step_number": "670",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "675"
-          },
-          "note": "Cluster: Ablehnung auf Positionsebene\nEs fehlen Werte vom MSB bzw. es wurden fehlerhafte Werte vom MSB gesendet und diese wurden bereits per ORDERS reklamiert. \nHinweis: Der LF gibt die Geschäftsvorfallnummer der ORDERS an, mit der die fehlenden Werte bzw. fehlerhafte Werte reklamiert wurden.",
-          "result_code": "AB2"
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "675"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Fehlt für den Zeitraum der Resultierenden das Leistungsmaximum und die Energiemenge der Marktlokation für den Zeitraum des Jahres vor dem Lieferantenwechsel vom NB?",
-      "step_number": "675",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "680"
-          },
-          "note": "Cluster: Ablehnung auf Positionsebene\nAufgrund des unterjährigen Lieferantenwechsels fehlt das Leistungsmaximum und die Energiemenge für den Zeitraum des Jahres vor dem Lieferantenwechsel, die der NB hätte senden müssen.",
-          "result_code": "AB3"
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "680"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Ist die in der Position angegebene Leistung < 0?",
-      "step_number": "676",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "680"
-          },
-          "note": "Hinweis: Es handelt sich um eine Rücknahmeposition",
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "677"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
       "description": "Entspricht das in der Position angegebene Leistungsmaximum dem Leistungsmaximum des Lieferscheins?",
       "step_number": "677",
       "sub_rows": [
@@ -3605,7 +3329,7 @@
       "use_cases": null
     },
     {
-      "description": "Gibt es weitere Artikel-ID für eine Konzessionsabgabe, die von dieser Artikel-ID abweicht, mit der sich somit eine weitere Resultierende bilden lässt?\nHinweis: In den Prüfschritten 775 bis 791 wird zur Reduzierung der Anzahl der beschriebenen Prüfungen vom Standard abgewichen, immer nur die zur Prüfung stehende Resultierende zu betrachten.",
+      "description": "Gibt es weitere Artikel-ID für eine Konzessionsabgabe, die von dieser Artikel-ID abweicht, mit der sich somit eine weitere Resultierende bilden lässt?\nHinweis: In den Prüfschritten 775 bis 794 wird zur Reduzierung der Anzahl der beschriebenen Prüfungen vom Standard abgewichen, immer nur die zur Prüfung stehende Resultierende zu betrachten.",
       "step_number": "775",
       "sub_rows": [
         {
@@ -3634,7 +3358,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "791"
+            "subsequent_step_number": "794"
           },
           "note": null,
           "result_code": null
@@ -3797,16 +3521,16 @@
             "result": true,
             "subsequent_step_number": "795"
           },
-          "note": null,
-          "result_code": null
+          "note": "Cluster: Ablehnung auf Positionsebene\nKonzessionsabgabe wird doppelt abgerechnet",
+          "result_code": "AD8"
         },
         {
           "check_result": {
             "result": false,
             "subsequent_step_number": "788"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nKonzessionsabgabe wird doppelt abgerechnet.",
-          "result_code": "AD8"
+          "note": null,
+          "result_code": null
         }
       ],
       "use_cases": null
