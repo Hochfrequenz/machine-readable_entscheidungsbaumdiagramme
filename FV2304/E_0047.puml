@@ -1,0 +1,124 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+MaBiS
+
+7.14.2: AD: Austausch der Lieferantenclearingliste zwischen NB und LF (Einzelanforderung)
+
+
+
+end title
+:<b>E_0047</b>;
+note right
+<b><i>Prüfende Rolle: LF
+end note
+
+if (<b>1: </b> Entspricht die Gültigkeit (Monat&#41; dem angefragten Zeitraum?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Cluster: Ablehnung der gesamten Liste
+        Zeitraum nicht plausibel
+    endnote
+    kill;
+endif
+if (<b>2: </b> Entspricht der MaBiS-ZP dem angefragten MaBiS-ZP?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Cluster: Ablehnung der gesamten Liste 
+        MaBiS-ZP entspricht nicht dem angefragten MaBiS-ZP
+    endnote
+    kill;
+endif
+if (<b>3: </b> Entspricht die Versionsangabe in der LF-CL der Versionsangabe der LF-SZR (Kategorie A&#41;, zu der eine LF-CL angefordert wurde?) then (ja)
+else (nein)
+    :A03;
+    note left
+        Cluster: Ablehnung der gesamten Liste 
+        Version nicht zugelassen
+    endnote
+    kill;
+endif
+if (<b>4: </b> Ist eine erwartete Marktlokation in der LF-CL nicht enthalten?) then (ja)
+    :A04;
+    note left
+        Cluster: Korrekturliste wegen Ablehnung
+        Zusätzlicher Datensatz bzw. ergänzte Markt-lokation
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>5: </b> Ist in der LF-CL eine Marktlokation enthalten, die im Bilanzierungsmonat dem LF zur Bilanzierung nicht zugeordnet ist?) then (ja)
+    :A05;
+    note left
+        Cluster: Korrekturliste wegen Ablehnung
+        Marktlokation falschem LF zugeordnet
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>6: </b> Ist die in der LF-CL enthaltene Marktlokation dem MaBiS-ZP zugeordnet?) then (ja)
+else (nein)
+    :A06;
+    note left
+        Cluster: Korrekturliste wegen Ablehnung
+        Zu viele Marktlokationen enthalten / entfallene Marktlokation
+    endnote
+    kill;
+endif
+if (<b>7: </b> Entspricht das Bilanzierungsgebiet dem zwischen NB und LF ausgetauschten Bilanzierungsgebiet?) then (ja)
+    if (<b>8: </b> Entspricht der Bilanzkreis dem zwischen NB und LF ausgetauschten Bilanzkreis?) then (ja)
+        if (<b>9: </b> Entspricht der Bilanzierungsbeginn der Erwartung des LF?) then (ja)
+            if (<b>10: </b> Entspricht das Bilanzierungsende der Erwartung des LF?) then (ja)
+                if (<b>11: </b> Entspricht das normierte Profil dem zwischen NB und LF ausgetauschten normierten Profil?) then (ja)
+                    if (<b>12: </b> Entspricht die Versionsangabe des Profils der zwischen NB und LF ausgetauschten Version des Profils?) then (ja)
+                        if (<b>13: </b> Entspricht die veranschlagte Prognosemenge (JVP, spezifische Arbeit, usw.&#41; der zwischen NB und LF ausgetauschten Prognosemenge?) then (ja)
+                            if (<b>14: </b> Entspricht die tatsächlich bilanzierte Menge der erwarteten bilanzierten Menge (monatlich gemessene Menge auf Basis der Summe der 1/4-h-Werten&#41;?) then (ja)
+                                if (<b>15: </b> Entspricht der Zeitreihentyp dem zwischen NB und LF ausgetauschten?) then (ja)
+                                    end
+                                else (nein)
+                                endif
+                            else (nein)
+                            endif
+                        else (nein)
+                        endif
+                    else (nein)
+                    endif
+                else (nein)
+                endif
+            else (nein)
+            endif
+        else (nein)
+        endif
+    else (nein)
+    endif
+else (nein)
+endif
+:A07;
+note left
+    Cluster: Korrekturliste wegen Ablehnung
+    Bilanzierungsrel. Daten nicht korrekt / fehlen
+endnote
+kill;
+
+@enduml
