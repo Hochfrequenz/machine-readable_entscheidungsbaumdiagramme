@@ -1,0 +1,58 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.19.1: AD: Austausch der Lieferantenclearingliste zwischen ÜNB und LF (gültige Abonnierung)</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0004</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> LF</B></FONT><BR align="center"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Liegt für diesen MaBiS-ZP ein gültiges LF-CL Abonnement vor? Entspricht die Versionsangabe in der BG-CL der Versionsangabe der BG-SZR (Kategorie B), zu der eine BG-CL angefordert wurde?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung der gesamten Liste<BR align="left"/>Abonnement wurde nicht bestellt (bedeutet auch, dass ein Abonnement für diesen Zeitraum bereits beendet wurde).<BR align="left"/></FONT>>];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Entspricht die Versionsangabe in der LF-CL der Versionsangabe einer vorliegenden LF-SZR (Kategorie B)?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung der gesamten Liste<BR align="left"/>Version nicht zugelassen<BR align="left"/></FONT>>];
+    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Ist eine erwartete Marktlokation in der LF-CL nicht enthalten?<BR align="left"/>>];
+    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Korrekturliste wegen Ablehnung<BR align="left"/>Zusätzlicher Datensatz / ergänzte Marktlokation<BR align="left"/></FONT>>];
+    "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Ist in der LF-CL eine Marktlokation enthalten, die im Bilanzierungsmonat dem LF zur Bilanzierung nicht zugeordnet ist?<BR align="left"/>>];
+    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Korrekturliste wegen Ablehnung<BR align="left"/>Marktlokation falschem LF zugeordnet<BR align="left"/></FONT>>];
+    "5" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>5: </B>Ist die in der LF-CL enthaltene Marktlokation dem MaBiS-ZP zugeordnet?<BR align="left"/>>];
+    "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Korrekturliste wegen Ablehnung<BR align="left"/>Zu viele Marktlokationen enthalten / entfallene Marktlokation<BR align="left"/></FONT>>];
+    "6" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>6: </B>Entspricht das Bilanzierungsgebiet dem zwischen NB und LF ausgetauschten Bilanzierungsgebiet?<BR align="left"/>>];
+    "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Korrekturliste wegen Ablehnung<BR align="left"/>Bilanzierungsrel. Daten nicht korrekt / fehlen<BR align="left"/></FONT>>];
+    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>7: </B>Entspricht der Bilanzkreis dem zwischen NB und LF ausgetauschten Bilanzkreis?<BR align="left"/>>];
+    "8" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>8: </B>Entspricht der Bilanzierungsbeginn der Erwartung des LF?<BR align="left"/>>];
+    "9" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>9: </B>Entspricht das Bilanzierungsende der Erwartung des LF?<BR align="left"/>>];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Entspricht das normierte Profil dem zwischen NB und LF ausgetauschten normierten Profil?<BR align="left"/>>];
+    "11" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>11: </B>Entspricht die Versionsangabe des Profils der zwischen NB und LF ausgetauschten Version des Profils?<BR align="left"/>>];
+    "12" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>12: </B>Entspricht die veranschlagte Prognosemenge (JVP) der zwischen NB und LF ausgetauschten Prognosemenge?<BR align="left"/>>];
+    "13" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>13: </B>Entspricht die tatsächlich bilanzierte Menge der erwarteten bilanzierten Menge (monatlich gemessene Menge auf Basis der Summe der 1/4-h-Werten)?<BR align="left"/>>];
+    "14" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>14: </B>Entspricht der Zeitreihentyp dem zwischen NB und LF ausgetauschten?<BR align="left"/>>];
+    "Ende" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label="Ende"];
+
+    "Start" -> "1";
+    "1" -> "A01" [label="Nein"];
+    "1" -> "2" [label="Ja"];
+    "2" -> "A02" [label="Nein"];
+    "2" -> "3" [label="Ja"];
+    "3" -> "A03" [label="Ja"];
+    "3" -> "4" [label="Nein"];
+    "4" -> "A04" [label="Ja"];
+    "4" -> "5" [label="Nein"];
+    "5" -> "A05" [label="Nein"];
+    "5" -> "6" [label="Ja"];
+    "6" -> "A06" [label="Nein"];
+    "6" -> "7" [label="Ja"];
+    "7" -> "A06" [label="Nein"];
+    "7" -> "8" [label="Ja"];
+    "8" -> "A06" [label="Nein"];
+    "8" -> "9" [label="Ja"];
+    "9" -> "A06" [label="Nein"];
+    "9" -> "10" [label="Ja"];
+    "10" -> "A06" [label="Nein"];
+    "10" -> "11" [label="Ja"];
+    "11" -> "A06" [label="Nein"];
+    "11" -> "12" [label="Ja"];
+    "12" -> "A06" [label="Nein"];
+    "12" -> "13" [label="Ja"];
+    "13" -> "A06" [label="Nein"];
+    "13" -> "14" [label="Ja"];
+    "14" -> "A06" [label="Nein"];
+    "14" -> "Ende" [label="Ja"];
+
+    bgcolor="transparent";
+}
