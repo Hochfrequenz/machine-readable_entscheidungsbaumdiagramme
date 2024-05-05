@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0540",
+    "role": "MSB",
+    "sub_chapter": "6.39.1: AD Bestellung Beendigung einer Konfiguration vom LF an MSB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Wurden die Vorlauffristen eingehalten?\nHinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen.",
+      "step_number": "15",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Vorlauffrist wurde nicht eingehalten.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine kostenpflichtige Bestellung?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Bestellung, die beendet werden kann?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEs handelt sich um eine Bestellung, die nicht beendet werden kann.",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nBestätigung der Beendigung",
+          "result_code": "A03"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
