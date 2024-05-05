@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0468",
+    "role": "NB",
+    "sub_chapter": "6.11.1: AD: Stornieren der Unterbrechung und Wiederherstellung der Anschlussnutzung auf Anweisung des LF"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Wurde der Sperr- / Entsperrauftrag bereits durch den NB abgelehnt?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAuftrag wurde bereits abgelehnt und kann nicht mehr storniert werden",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Stornierung eines Entsperrauftrags?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "3"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "4"
+          },
+          "note": "Hinweis: Es handelt sich um eine Stornierung eines Sperrauftrags.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Stornierung vor der Durchführung der Entsperrung eingegangen?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nEntsperrauftrag ist storniert.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nStornierung des Entsperrauftrags nicht mehr möglich.",
+          "result_code": "A02"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Nachrichteneingang der Stornierung spätestens am Tag vor dem geplanten Ausführungstermin bzw. fixen Sperrtermin aus dem Sperrauftrag eingegangen?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nSperrauftrag ist bis zum Vortag der Sperrung storniert.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Stornierung vor der Durchführung der Sperrung eingegangen?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nSperrauftrag ist am Tag der Sperrung storniert.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nStornierung des Sperrauftrags nicht mehr möglich.",
+          "result_code": "A05"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

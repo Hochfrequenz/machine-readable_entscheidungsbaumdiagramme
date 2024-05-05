@@ -1,0 +1,376 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.34.2: AD: Geschäftsdatenanfrage von ÜNB
+
+
+
+end title
+:<b>E_0461</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>10: </b> Handelt es sich um eine kostenpflichtige Konfiguration?) then (ja)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Kostenpflichtige Konfiguration
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>20: </b> Handelt sich um eine Bestellung einer Konfiguration einer Änderung des Bilanzierungsverfahrens (Prognosegrundlage&#41;?) then (ja)
+    if (<b>40: </b> Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“ oder um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind?) then (ja)
+    else (nein)
+        :A02;
+        note left
+            Cluster: Ablehnung
+            Marktlokation befindet sich nicht in der messtechnischen Einordnung „iMS“ oder es handelt sich nicht um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind.
+        endnote
+        kill;
+    endif
+    if (<b>50: </b> Entspricht der geplante Termin zur Änderung der Prognosegrundlage den Prozessfristvorgaben?) then (ja)
+    else (nein)
+        :A03;
+        note left
+            Cluster: Ablehnung
+            Fristüberschreitung
+        endnote
+        kill;
+    endif
+    if (<b>60: </b> Handelt es sich um eine verbrauchende Marktlokation?) then (ja)
+    else (nein)
+        :A04;
+        note left
+            Cluster: Ablehnung
+            Erzeugende Marktlokationen mit iMS oder kME/ RLM werden immer auf der Prognosegrundlage auf Basis von Werten bilanziert.
+        endnote
+        kill;
+    endif
+    if (<b>70: </b> Liegt eine Zuordnungsermächtigung für den sich aus der gewünschten Prognosegrundlage ergebenden ZRT vor?) then (ja)
+    else (nein)
+        :A05;
+        note left
+            Cluster: Ablehnung
+            Zuordnungsermächtigung liegt nicht vor.
+        endnote
+        kill;
+    endif
+    if (<b>80: </b> Ist die gewünschte Prognosegrundlage auf Basis von Profilen angegeben?) then (ja)
+        if (<b>90: </b> Befindet sich die Marktlokation in einem Lokationsbündel, in welchem ebenfalls eine erzeugende Marktlokation vorhanden ist?) then (ja)
+            if (<b>100: </b> Entspricht die erzeugte Energiemenge der Marktlokation der gemessenen Energiemenge in der Flussrichtung Erzeugung an der Messlokation der Netzübergabe?) then (ja)
+            else (nein)
+                :A06;
+                note left
+                    Cluster: Ablehnung
+                    Keine Volleinspeisung, keine Prognosegrundlage auf Basis von Profilen möglich
+                endnote
+                kill;
+            endif
+            if (<b>110: </b> Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“?) then (ja)
+                if (<b>120: </b> Besteht für die Marktlokation ein Wahlrecht zur Änderung der Prognosegrundlage durch den LF?) then (ja)
+                else (nein)
+                    :A07;
+                    note left
+                        Cluster: Ablehnung
+                        Kein Wahlrecht der Prognosegrundlage für die Marktlokation
+                    endnote
+                    kill;
+                endif
+                if (<b>130: </b> Ist die gewünschte Prognosegrundlage zum gewünschten Termin bereits umgesetzt?) then (ja)
+                    :A08;
+                    note left
+                        Cluster: Ablehnung
+                        Änderung zum gewünschten Termin bereits umgesetzt.
+                    endnote
+                    kill;
+                else (nein)
+                endif
+                if (<b>220: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+                    :A99;
+                    note left
+                        Cluster: Ablehnung 
+                        Sonstiges
+                        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+                        Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
+                    endnote
+                    kill;
+                else (nein)
+                    :A17;
+                    note left
+                        Cluster: Zustimmung
+                        Bestellung wird an den MSB der Marktlokation weitergeleitet
+                    endnote
+                    kill;
+                endif
+            else (nein)
+            endif
+            if (<b>130: </b> Ist die gewünschte Prognosegrundlage zum gewünschten Termin bereits umgesetzt?) then (ja)
+                :A08;
+                note left
+                    Cluster: Ablehnung
+                    Änderung zum gewünschten Termin bereits umgesetzt.
+                endnote
+                kill;
+            else (nein)
+            endif
+            if (<b>220: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+                :A99;
+                note left
+                    Cluster: Ablehnung 
+                    Sonstiges
+                    Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+                    Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
+                endnote
+                kill;
+            else (nein)
+                :A17;
+                note left
+                    Cluster: Zustimmung
+                    Bestellung wird an den MSB der Marktlokation weitergeleitet
+                endnote
+                kill;
+            endif
+        else (nein)
+        endif
+    else (nein)
+    endif
+    if (<b>110: </b> Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“?) then (ja)
+        if (<b>120: </b> Besteht für die Marktlokation ein Wahlrecht zur Änderung der Prognosegrundlage durch den LF?) then (ja)
+        else (nein)
+            :A07;
+            note left
+                Cluster: Ablehnung
+                Kein Wahlrecht der Prognosegrundlage für die Marktlokation
+            endnote
+            kill;
+        endif
+        if (<b>130: </b> Ist die gewünschte Prognosegrundlage zum gewünschten Termin bereits umgesetzt?) then (ja)
+            :A08;
+            note left
+                Cluster: Ablehnung
+                Änderung zum gewünschten Termin bereits umgesetzt.
+            endnote
+            kill;
+        else (nein)
+        endif
+        if (<b>220: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+            :A99;
+            note left
+                Cluster: Ablehnung 
+                Sonstiges
+                Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+                Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
+            endnote
+            kill;
+        else (nein)
+            :A17;
+            note left
+                Cluster: Zustimmung
+                Bestellung wird an den MSB der Marktlokation weitergeleitet
+            endnote
+            kill;
+        endif
+    else (nein)
+    endif
+    if (<b>130: </b> Ist die gewünschte Prognosegrundlage zum gewünschten Termin bereits umgesetzt?) then (ja)
+        :A08;
+        note left
+            Cluster: Ablehnung
+            Änderung zum gewünschten Termin bereits umgesetzt.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>220: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Cluster: Ablehnung 
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+        :A17;
+        note left
+            Cluster: Zustimmung
+            Bestellung wird an den MSB der Marktlokation weitergeleitet
+        endnote
+        kill;
+    endif
+else (nein)
+    if (<b>30: </b> Handelt es sich um eine Bestellung einer Konfiguration einer Zählzeitdefinition) then (ja)
+        if (<b>140: </b> Handelt es sich bei der Marktlokation um eine verbrauchende Marktlokation?) then (ja)
+        else (nein)
+            :A10;
+            note left
+                Cluster: Ablehnung
+                Bestellungen sind nur für verbrauchende Marktlokationen möglich
+            endnote
+            kill;
+        endif
+        if (<b>150: </b> Handelt es sich bei der Bestellung um eine Rückkehr auf eine Eintariflogik?) then (ja)
+        else (nein)
+            if (<b>160: </b> Ist die gewünschte Zählzeit zum Anwendungszeitpunkt Bestandteil der Übersicht der Zählzeitdefinition, welche zuvor vom NB übermittelt wurde?) then (ja)
+            else (nein)
+                :A11;
+                note left
+                    Cluster: Ablehnung 
+                    Zählzeitdefinition zum Anwendungszeitpunkt nicht bekannt
+                endnote
+                kill;
+            endif
+            if (<b>170: </b> Ist die in der Bestellung genannte Zählzeit in der Übersicht der Zählzeitdefinition des NB als eine bestellbare Zählzeit gekennzeichnet?) then (ja)
+            else (nein)
+                :A12;
+                note left
+                    Cluster: Ablehnung 
+                    Zählzeit ist nicht bestallbar
+                endnote
+                kill;
+            endif
+            if (<b>180: </b> Liegt zum Anwendungszeitpunkt die ausgerollte Zählzeit zur Zählzeitdefinition vor?) then (ja)
+            else (nein)
+                :A13;
+                note left
+                    Cluster: Ablehnung 
+                    Ausgerollte Zählzeit zur Zählzeitdefinition liegt zum Anwendungszeitpunkt nicht vor
+                endnote
+                kill;
+            endif
+            if (<b>190: </b> Ist der bestellte Zustand bereits vorhanden?) then (ja)
+                :A14;
+                note left
+                    Cluster: Ablehnung
+                    Bestellter Zustand bereits vorhanden
+                endnote
+                kill;
+            else (nein)
+            endif
+            if (<b>200: </b> Ist die gewünschte Konfiguration grundsätzlich möglich?) then (ja)
+            else (nein)
+                :A15;
+                note left
+                    Cluster: Ablehnung 
+                    Konfiguration technisch nicht möglich
+                    Hinweis: z. B. Zählzeit bestellt und Eintarifzähler verbaut
+                endnote
+                kill;
+            endif
+            if (<b>210: </b> Wurde die Vorlauffristen zu der geplanten Änderung der Gerätekonfiguration eingehalten?) then (ja)
+            else (nein)
+                :A16;
+                note left
+                    Cluster: Ablehnung 
+                    Fristüberschreitung
+                endnote
+                kill;
+            endif
+            if (<b>220: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+                :A99;
+                note left
+                    Cluster: Ablehnung 
+                    Sonstiges
+                    Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+                    Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
+                endnote
+                kill;
+            else (nein)
+                :A17;
+                note left
+                    Cluster: Zustimmung
+                    Bestellung wird an den MSB der Marktlokation weitergeleitet
+                endnote
+                kill;
+            endif
+        endif
+    else (nein)
+    endif
+    if (<b>190: </b> Ist der bestellte Zustand bereits vorhanden?) then (ja)
+        :A14;
+        note left
+            Cluster: Ablehnung
+            Bestellter Zustand bereits vorhanden
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>200: </b> Ist die gewünschte Konfiguration grundsätzlich möglich?) then (ja)
+    else (nein)
+        :A15;
+        note left
+            Cluster: Ablehnung 
+            Konfiguration technisch nicht möglich
+            Hinweis: z. B. Zählzeit bestellt und Eintarifzähler verbaut
+        endnote
+        kill;
+    endif
+    if (<b>210: </b> Wurde die Vorlauffristen zu der geplanten Änderung der Gerätekonfiguration eingehalten?) then (ja)
+    else (nein)
+        :A16;
+        note left
+            Cluster: Ablehnung 
+            Fristüberschreitung
+        endnote
+        kill;
+    endif
+    if (<b>220: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Cluster: Ablehnung 
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+        :A17;
+        note left
+            Cluster: Zustimmung
+            Bestellung wird an den MSB der Marktlokation weitergeleitet
+        endnote
+        kill;
+    endif
+endif
+if (<b>220: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Cluster: Ablehnung 
+        Sonstiges
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+        Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+    :A17;
+    note left
+        Cluster: Zustimmung
+        Bestellung wird an den MSB der Marktlokation weitergeleitet
+    endnote
+    kill;
+endif
+
+@enduml

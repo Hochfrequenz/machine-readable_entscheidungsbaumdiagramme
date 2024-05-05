@@ -1,0 +1,78 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+WiM Strom
+
+9.26.1: AD: Beendigung der Übermittlung von Werten an ESA durch ESA
+
+
+
+end title
+:<b>E_0254</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>1: </b> Handelt es sich bei der Bestellung um eine Bestellung für turnusmäßige/regelmäßige Übermittlung (Abo&#41; von Werten an den ESA?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Es handelte sich bei der Bestellung um eine einmalige Übermittlung.
+    endnote
+    kill;
+endif
+if (<b>2: </b> Ist das gewünschte Beendigungsdatum größer als der Beginnzeitpunkt der turnusmäßigen/regelmäßigen Übermittlung (Abo&#41;?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Cluster: Ablehnung
+        Die Bestellung ist zu stornieren.
+    endnote
+    kill;
+endif
+if (<b>3: </b> Wurde die Übermittlung von Werten bereits zu einem früheren oder zu dem in der Beendigung genannten Zeitpunkt beendet?) then (ja)
+    :A03;
+    note left
+        Cluster: Ablehnung
+        Die Übermittlung wurde bereits zu einem früheren oder zu dem in der Beendigung genannten Zeitpunkt beendet.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>4: </b> Liegt das gewünschte Beendigungsdatum vor dem Zeitpunkt, für den die jüngsten Daten geliefert wurden?) then (ja)
+    :A04;
+    note left
+        Cluster: Ablehnung 
+        Es wurden bereits Daten nach dem gewünschten Beendigungsdatum übermittelt.
+    endnote
+    kill;
+else (nein)
+    :A05;
+    note left
+        Cluster: Zustimmung
+        Beendigung wird bestätigt
+    endnote
+    kill;
+endif
+
+@enduml

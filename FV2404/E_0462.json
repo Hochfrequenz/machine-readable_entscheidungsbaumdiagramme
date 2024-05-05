@@ -1,0 +1,579 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0462",
+    "role": "NB",
+    "sub_chapter": "6.4.1: AD: Lieferbeginn"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist in der Anmeldung die Angabe der Identifikationslogik mit dem Wert „Marktlokations-ID“ angegeben?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die im Geschäftsvorfall angegebene ID der Marktlokation im IT-System des Empfängers gefunden?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation ist nicht identifizierbar.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "3"
+          },
+          "note": "Hinweis: Bei dieser Prüfung hat der NB auch die Marktlokationen zu berücksichtigen, die in den letzten drei Jahren vor dem Eingang der Anfrage im Netzgebiet des NB waren.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Nimmt die Marktlokation zum Anmeldedatum an der Marktkommunikation teil?\n(Dies sind Marktlokationen, bei welchen ein Bilanzkreis und ein Lieferant zugeordnet ist. Z.B. stillgelegte Marktlokationen oder Marktlokationen einer Kundenanlage, welche vom Kundenanlagenbetreiber beliefert werden und somit keine Zuordnung zu einem Lieferanten haben, nehmen nicht an der Marktkommunikation teil.)",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation, die über Marktlokations-ID identifiziert wurde, nimmt nicht an der Marktkommunikation teil.",
+          "result_code": "A15"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mit allen zur Verfügung gestellten Informationen aus der Anmeldung unter Wahrung der gebotenen Sorgfalt genau eine Marktlokation ermittelt?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "6"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Nimmt die Marktlokation zum Anmeldedatum an der Marktkommunikation teil? \n(Dies sind Marktlokationen, bei welchen ein Bilanzkreis und ein Lieferant zugeordnet ist. Z.B. stillgelegte Marktlokationen oder Marktlokationen einer Kundenanlage, welche vom Kundenanlagenbetreiber beliefert werden und somit keine Zuordnung zu einem Lieferanten haben, nehmen nicht an der Marktkommunikation teil.)",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nIdentifizierte Marktlokation nimmt nicht an der Marktkommunikation teil.",
+          "result_code": "A16"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mit allen zur Verfügung gestellten Informationen aus der Anmeldung unter Wahrung der gebotenen Sorgfalt mehr als eine Marktlokation ermittelt?",
+      "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "7"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "9"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um einen „Einzug in Neuanlage“?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nKeine Identifizierung",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "8"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Anmeldung (der Neuanlage) vor mehr als 60 WT eingegangen?",
+      "step_number": "8",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nNeuangelegte Marktlokation konnte nicht identifiziert werden",
+          "result_code": "A18"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Nimmt von den identifizierten Marktlokationen exakt eine Marktlokation an der Marktkommunikation teil? \n(Die andere(n) Marktlokation(en) sind z.B. stillgelegte Marktlokation(en), Objekt(e) um einen Teil einer Kundenanlage.)",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMehrfachidentifizierung",
+          "result_code": "A17"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Marktlokation zum Eingangsdatum der Meldung dem Netzgebiet zugeordnet?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation befindet sich zum Eingangsdatum der Meldung nicht mehr im Netzgebiet des NB.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "11"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um einen Ein-/Auszug (Umzug)?",
+      "step_number": "11",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "14"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "12"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um einen „Einzug in Neuanlage“?",
+      "step_number": "12",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "14"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "13"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt der Transaktionsgrund zur Beendigung einer Ersatz-versorgung vor?\nDies ist bei dem folgenden Transaktionsgrund der Fall:\nLieferbeginn und Abmeldung aus der Ersatzversorgung",
+      "step_number": "13",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "15"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "18"
+          },
+          "note": "Hinweis: es liegt der Transaktionsgrund „Wechsel“ vor.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind bisheriger und neuer Anschlussnutzer identisch?",
+      "step_number": "14",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEs handelt sich nicht um einen Einzug, da zum genannten Datum kein Anschlussnutzerwechsel stattfand.",
+          "result_code": "A13"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "15"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Marktlokation, deren Messlokationen vollständig mit iMS ausgestattet sind oder/und deren Prognosegrundlage auf Basis von Werten erfolgt?",
+      "step_number": "15",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "16"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "17"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": [
+        "Einzug"
+      ]
+    },
+    {
+      "description": "Liegt das Lieferbeginndatum der Anmeldung mindestens einen Tag nach dem Eingangsdatum der Anmeldung?\nHinweis: Diese Prüfung enthält keine Aussage darüber, ob eine Verschiebung des Lieferbeginns notwendig ist.",
+      "step_number": "16",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEingangsfrist bei iMS / kME mit RLM nicht ein-gehalten",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "21"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": [
+        "Einzug",
+        "iMS/kME mit RLM"
+      ]
+    },
+    {
+      "description": "Liegt das Eingangsdatum der Anmeldung mehr als sechs Wochen nach dem Lieferbeginndatum der Anmeldung?",
+      "step_number": "17",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFristüberschreitung bei kME ohne RLM/mME/ Pauschalanlage",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "21"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": [
+        "Einzug",
+        "kME ohne RLM/mME/ Pauschalanlage"
+      ]
+    },
+    {
+      "description": "Ist in der Anmeldung die Angabe der Identifikationslogik mit dem Wert „Marktlokations-ID“ angegeben?",
+      "step_number": "18",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "19"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": [
+        "Lieferantenwechsel"
+      ]
+    },
+    {
+      "description": "Liegt das Lieferbeginndatum der Anmeldung mindestens 7 WT nach dem Eingangsdatum der Anmeldung?",
+      "step_number": "19",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFrist bei einem Lieferantenwechsel nicht ein-gehalten im Rahmen der schnellen Identifikation.",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "21"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": [
+        "Lieferantenwechsel",
+        "schnelle Identifikation"
+      ]
+    },
+    {
+      "description": "Liegt das Lieferbeginndatum der Anmeldung mindestens 10 WT nach dem Eingangsdatum der Anmeldung?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFrist bei einem Lieferantenwechsel nicht eingehalten im Rahmen der langsamen Identifikation.",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "21"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": [
+        "Lieferantenwechsel",
+        "langsame Identifikation"
+      ]
+    },
+    {
+      "description": "Liegt für diese Marktlokation bereits eine gerade in Arbeit befindliche und noch nicht beantwortete Anmeldung vor?",
+      "step_number": "21",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAndere Anmeldung in Bearbeitung.",
+          "result_code": "A11"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "22"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt die notwendige Zuordnungsermächtigung (Bilanzkreis/Bilanzierungsverfahren) vor?",
+      "step_number": "22",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nZuordnungsermächtigung fehlt.",
+          "result_code": "A12"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "23"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt der Transaktionsgrund „Lieferbeginn und Abmeldung aus der Ersatzversorgung“ vor?",
+      "step_number": "23",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0402_Prüfen, ob eine Abmeldeanfrage erforderlich",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "24"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der zum Anmeldedatum zugeordnete LF der GV?",
+      "step_number": "24",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nGrundversorger ist der Marktlokation nicht zu-geordnet.",
+          "result_code": "A14"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0402_Prüfen, ob eine Abmeldeanfrage erforderlich",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

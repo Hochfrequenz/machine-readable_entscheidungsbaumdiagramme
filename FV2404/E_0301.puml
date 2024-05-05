@@ -1,0 +1,89 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+MPES
+
+8.2.3: AD: Lieferbeginn
+
+
+
+end title
+:<b>E_0301</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>1: </b> Liegt das Abmeldedatum mindestens einen Tag nach dem Eingangsdatum der Abmeldung?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Fristüberschreitung bei Aufhebung einer zu-künftigen Zuordnung wegen Auszug oder Still-legung.
+    endnote
+    kill;
+endif
+if (<b>2: </b> Liegt das Eingangsdatum der Abmeldung mindestens 1 Monat vor dem Monatsletzten des gewünschten Abmeldedatums?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Cluster: Ablehnung
+        Fristüberschreitung bei Transaktionsgründen für eine Abmeldung in der Zukunft.
+        Hinweis: Abmeldedatum kann ausschließlich ein Monatsletzter sein.
+    endnote
+    kill;
+endif
+if (<b>3: </b> Erfolgt die Aufhebung einer zukünftigen Zuordnung zu dem gleichen Datum (Zeitpunkt&#41;, welcher dem Lieferanten im Lieferbeginn bestätigt wurde?) then (ja)
+else (nein)
+    :A03;
+    note left
+        Cluster: Ablehnung
+        Die Aufhebung einer zukünftigen Zuordnung muss zum Datum (Zeitpunkt&#41; angegeben werden, wie im Lieferbeginn bestätigt.
+    endnote
+    kill;
+endif
+if (<b>4: </b> Liegt bereits eine bestätigte Abmeldung vor?) then (ja)
+    :A04;
+    note left
+        Cluster: Ablehnung 
+        Lieferende zum Abmeldedatum wurde aus gleichem Grund bereits bestätigt.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>5: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Cluster: Ablehnung Sonstiges 
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+        Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+    :A05;
+    note left
+        Cluster: Zustimmung
+        Lieferende wird zugestimmt
+    endnote
+    kill;
+endif
+
+@enduml
