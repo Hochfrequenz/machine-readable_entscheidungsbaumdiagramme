@@ -1,0 +1,448 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0548",
+    "role": "NB",
+    "sub_chapter": "6.42.1: AD: Reklamation einer Definition des NB vom LF an NB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Reklamiert der Anfragende das Fehlen der ausgerollten Zählzeitdefinition?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Code der Zählzeitdefinition einem Code aus der für den reklamierten Zeitraum gültigen Übersicht der Zählzeitdefinitionen?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Code der Zählzeitdefinition wird nicht verwendet",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die ausgerollte Zählzeitdefinition an den Anfragenden versendet?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Ausgerollte Zählzeitdefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Zählzeitdefinition übermittelt wurde",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Reklamiert der Anfragende eine unplausible ausgerollte Zählzeitdefinition?",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "70"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mit dem Code der Zählzeitdefinition bereits eine ausgerollte Zählzeitdefinition mit einer höheren Version versendet?",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Es wurde bereits eine ausgerollte Zählzeitdefinition für den Code der Zählzeitdefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Zählzeitdefinition übermittelt wurde.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die versendete ausgerollte Zählzeitdefinition plausibel?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Ausgerollte Zählzeitdefinition ist plausibel",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Reklamiert der LF das Fehlen der ausgerollten Schaltzeitdefinition?",
+      "step_number": "70",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "80"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "100"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Code der Schaltzeitdefinition einem Code aus der für den reklamierten Zeitraum gültigen Übersicht der Schaltzeitdefinitionen?",
+      "step_number": "80",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Code der Schaltzeitdefinition wird nicht verwendet",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die ausgerollte Schaltzeitdefinition an den LF versendet?",
+      "step_number": "90",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Ausgerollte Schaltzeitdefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Schaltzeitdefinition übermittelt wurde",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Reklamiert der LF eine unplausible ausgerollte Schaltzeitdefinition?",
+      "step_number": "100",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "110"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "130"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mit dem Code der Schaltzeitdefinition bereits eine ausgerollte Schaltzeitdefinition mit einer höheren Version versendet?",
+      "step_number": "110",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Es wurde bereits eine ausgerollte Schaltzeitdefinition für den Code der Schaltzeitdefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Schaltzeitdefinition übermittelt wurde.",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die versendete ausgerollte Schaltzeitdefinition plausibel?",
+      "step_number": "120",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Ausgerollte Schaltzeitdefinition ist plausibel",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Reklamiert der LF das Fehlen der ausgerollten Leistungskurvendefinition?",
+      "step_number": "130",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "140"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "160"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Code der Leistungskurvendefinition einem Code aus der für den reklamierten Zeitraum gültigen Übersicht der Leistungskurvendefinition?",
+      "step_number": "140",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Code der Leistungskurvendefinition wird nicht verwendet",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "150"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die ausgerollte Leistungskurvendefinition an den LF versendet?",
+      "step_number": "150",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Ausgerollte Leistungskurvendefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Leistungskurvendefinition übermittelt wurde.",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Reklamiert der LF eine unplausible ausgerollte Leistungskurvendefinition?",
+      "step_number": "160",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "170"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mit dem Code der Leistungskurvendefinition bereits eine ausgerollte Leistungskurvendefinition mit einer höheren Version versendet?",
+      "step_number": "170",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Es wurde bereits eine ausgerollte Leistungskurvendefinition für den Code der Leistungskurvendefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Leistungskurvendefinition übermittelt wurde.",
+          "result_code": "A11"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "180"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die versendete ausgerollte Leistungskurvendefinition plausibel?",
+      "step_number": "180",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Ausgerollte Leistungskurvendefinition ist plausibel",
+          "result_code": "A12"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "200",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Ablehnung Sonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Korrektur der Definition und die erneute Übermittlung durchführen.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">8.25.5: AD: Anfrage und Bestellung von Werten durch den ESA</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0257</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Wurde die Bestellung des ESA durch den MSB bestätigt?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die Bestellung des ESA wurde durch den MSB nicht bestätigt.<BR align="left"/></FONT>>];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Handelte es sich bei der Bestellung um ein turnusmäßige/regelmäßige Übermittlung (Abo)?<BR align="left"/>>];
+    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Wurde die turnusmäßige/regelmäßige Übermittlung (Abo) von Werten bereits begonnen?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Mit der Übermittlung von Werten aus dem Abo wurde bereits begonnen.<BR align="left"/></FONT>>];
+    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Stornierung wird bestätigt.<BR align="left"/></FONT>>];
+    "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Ist die einmalige Übermittlung von Werten bereits erfolgt?<BR align="left"/>>];
+    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die einmalige Übermittlung der Werte ist bereits erfolgt.<BR align="left"/></FONT>>];
+
+    "Start" -> "1";
+    "1" -> "A01" [label="Nein"];
+    "1" -> "2" [label="Ja"];
+    "2" -> "3" [label="Ja"];
+    "2" -> "4" [label="Nein"];
+    "3" -> "A02" [label="Ja"];
+    "3" -> "A04" [label="Nein"];
+    "4" -> "A03" [label="Ja"];
+    "4" -> "A04" [label="Nein"];
+
+    bgcolor="transparent";
+}

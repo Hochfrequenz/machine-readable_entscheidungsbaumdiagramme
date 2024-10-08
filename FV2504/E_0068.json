@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "chapter": "MaBiS",
+    "ebd_code": "E_0068",
+    "role": "NB",
+    "sub_chapter": "7.31.1: AD: Anforderung und Übermittlung Bilanzkreiszuordnungsliste zwischen NB und BKV (Einzelanforderung)"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Sind in dem angefragten Gebiet (Bilanzierungsgebiet oder Regelzone) für diesen Bilanzkreis LF-SZR zum angegebenen Zeitpunkt gültig?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Kein Lieferant zugeordnet",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "Ende"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.14.1: AD: Stornieren der Unterbrechung und Wiederherstellung der Anschlussnutzung auf Anweisung des LF
+
+
+
+end title
+:<b>E_0468</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>1: </b> Wurde der Sperr- / Entsperrauftrag bereits durch den NB abgelehnt?) then (ja)
+    :A06;
+    note left
+        Cluster: Ablehnung
+        Auftrag wurde bereits abgelehnt und kann nicht mehr storniert werden
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>2: </b> Handelt es sich um eine Stornierung eines Entsperrauftrags?) then (ja)
+    if (<b>3: </b> Ist die Stornierung vor der Durchführung der Entsperrung eingegangen?) then (ja)
+        :A01;
+        note left
+            Cluster: Zustimmung
+            Entsperrauftrag ist storniert.
+        endnote
+        kill;
+    else (nein)
+        :A02;
+        note left
+            Cluster: Ablehnung
+            Stornierung des Entsperrauftrags nicht mehr möglich.
+        endnote
+        kill;
+    endif
+else (nein)
+    if (<b>4: </b> Ist der Nachrichteneingang der Stornierung spätestens am Tag vor dem geplanten Ausführungstermin bzw. fixen Sperrtermin aus dem Sperrauftrag eingegangen?) then (ja)
+        :A03;
+        note left
+            Cluster: Zustimmung
+            Sperrauftrag ist bis zum Vortag der Sperrung storniert.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>5: </b> Ist die Stornierung vor der Durchführung der Sperrung eingegangen?) then (ja)
+        :A04;
+        note left
+            Cluster: Zustimmung
+            Sperrauftrag ist am Tag der Sperrung storniert.
+        endnote
+        kill;
+    else (nein)
+        :A05;
+        note left
+            Cluster: Ablehnung
+            Stornierung des Sperrauftrags nicht mehr möglich.
+        endnote
+        kill;
+    endif
+endif
+
+@enduml
