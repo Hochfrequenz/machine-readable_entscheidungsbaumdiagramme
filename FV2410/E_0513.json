@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "chapter": "Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit",
+    "ebd_code": "E_0513",
+    "role": "NB",
+    "sub_chapter": "18.1.1: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist ein Fehler aufgetreten?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2024, 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "E_0514_Beendigung der Zuordnung prüfen",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

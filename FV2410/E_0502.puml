@@ -1,0 +1,302 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.3.1: AD: Lieferende von NB an LF
+
+
+
+end title
+:<b>E_0502</b>;
+note right
+<b><i>Prüfende Rolle: LF
+end note
+
+if (<b>10: </b> Wurde bereits zum identischen Abmeldedatum für die in diesem Geschäftsvorfall genannte Marktlokation die Lieferende-Meldung positiv bestätigt?) then (ja)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Lieferende zum Abmeldedatum wurde bereits bestätigt
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>20: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
+    if (<b>30: </b> Ist die Prognosegrundlage der Marktlokation auf Basis von Werten?) then (ja)
+        if (<b>40: </b> Liegt das Lieferende-Datum mindestens einen 1 WT nach dem Nachrichteneingang?) then (ja)
+        else (nein)
+            :A02;
+            note left
+                Cluster: Ablehnung
+                Eine Stilllegung einer Marktlokation mit Prognosegrundlage auf Basis von Werten kann nicht in die Vergangenheit gemeldet werden.
+            endnote
+            kill;
+        endif
+        if (<b>50: </b> Ist das Datum „Bilanzierungsende“ identisch mit dem Datum „Lieferende“?) then (ja)
+        else (nein)
+            :A03;
+            note left
+                Cluster: Ablehnung
+                Bei Marktlokation mit Prognosegrundlage auf Basis von Werten muss Bilanzierungsende und Lieferende identisch sein.
+            endnote
+            kill;
+        endif
+        if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+            :A06;
+            note left
+                Cluster: Ablehnung
+                Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+            endnote
+            kill;
+        else (nein)
+        endif
+    else (nein)
+        if (<b>60: </b> Wird ein Datum „Bilanzierungsende“ in der Abmeldung mitgeteilt?) then (ja)
+            if (<b>80: </b> Hat eine Bilanzierung stattgefunden?) then (ja)
+            else (nein)
+                :A18;
+                note left
+                    Cluster: Ablehnung
+                    Es wurde ein Bilanzierungsende mitgeteilt, obwohl keine Bilanzierung stattgefunden hat.
+                endnote
+                kill;
+            endif
+            if (<b>90: </b> Wurde bereits ein Lieferende zu einem späteren Termin durchgeführt?) then (ja)
+                if (<b>100: </b> Ist das mitgeteilte Bilanzierungsende später als das zuvor mitgeteilte Bilanzierungsende?) then (ja)
+                    :A14;
+                    note left
+                        Cluster: Ablehnung
+                        Bilanzierungsende ist später als das zuvor mitgeteilte Bilanzierungsende.
+                    endnote
+                    kill;
+                else (nein)
+                endif
+                if (<b>110: </b> Ist das mitgeteilte Bilanzierungsende identisch zu dem zuvor mitgeteilten Bilanzierungsende?) then (ja)
+                    if (<b>120: </b> Ist die Anfrage nach dem 3. WT vor dem Monatsletzten eingegangen?) then (ja)
+                        if (<b>130: </b> Ist das Bilanzierungsende ≤ dem Ende des Folgemonats (erster Tag des übernächsten Monats 00:00 Uhr&#41;?) then (ja)
+                        else (nein)
+                            :A20;
+                            note left
+                                Cluster: Ablehnung
+                                Das Bilanzierungsende liegt zu weit in der Zukunft. Das bisherige Bilanzierungsende muss angepasst werden.
+                            endnote
+                            kill;
+                        endif
+                        if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                            :A06;
+                            note left
+                                Cluster: Ablehnung
+                                Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                                Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                            endnote
+                            kill;
+                        else (nein)
+                        endif
+                    else (nein)
+                        if (<b>140: </b> Ist das Bilanzierungsende ≤ dem Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr&#41;?) then (ja)
+                        else (nein)
+                            :A21;
+                            note left
+                                Cluster: Ablehnung
+                                Bilanzierungsfrist bei Marktlokationen mit Prognosegrundlage auf Basis von Profilen nicht eingehalten.
+                            endnote
+                            kill;
+                        endif
+                        if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                            :A06;
+                            note left
+                                Cluster: Ablehnung
+                                Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                                Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                            endnote
+                            kill;
+                        else (nein)
+                        endif
+                    endif
+                else (nein)
+                endif
+            else (nein)
+            endif
+            if (<b>150: </b> Ist das Lieferendedatum ≤ dem Monatsersten des Folgemonats 00:00 Uhr, in welchem der Geschäftsvorfall eingegangen ist?) then (ja)
+                if (<b>160: </b> Ist die Anfrage nach dem 3. WT vor dem Monatsletzten eingegangen?) then (ja)
+                    if (<b>170: </b> Ist als Bilanzierungsende das Ende des Folgemonats (erster Tag des übernächsten Monats 00:00 Uhr&#41; angegeben?) then (ja)
+                    else (nein)
+                        :A15;
+                        note left
+                            Cluster: Ablehnung
+                            Das Bilanzierungsende ist zum angegebenen Termin nicht mehr möglich.
+                        endnote
+                        kill;
+                    endif
+                    if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                        :A06;
+                        note left
+                            Cluster: Ablehnung
+                            Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                            Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                        endnote
+                        kill;
+                    else (nein)
+                    endif
+                else (nein)
+                    if (<b>180: </b> Ist als Bilanzierungsende das Ende des aktuellen Monats (erster Tag des Folgemonats 00:00 Uhr&#41; angegeben?) then (ja)
+                    else (nein)
+                        :A16;
+                        note left
+                            Cluster: Ablehnung
+                            Das Bilanzierungsende ist nicht der erste Tag des Folgemonats 00:00 Uhr.
+                        endnote
+                        kill;
+                    endif
+                    if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                        :A06;
+                        note left
+                            Cluster: Ablehnung
+                            Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                            Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                        endnote
+                        kill;
+                    else (nein)
+                    endif
+                endif
+            else (nein)
+                if (<b>190: </b> Ist als Bilanzierungsende das Ende des Monats angeben, in welchem das Lieferende liegt? (erster Tag des Folgemonats 00:00 Uhr des Monats in welchem das Lieferende liegt&#41;.) then (ja)
+                else (nein)
+                    :A17;
+                    note left
+                        Cluster: Ablehnung
+                        Das Bilanzierungsende bei Lieferenden, welche in einem zukünftigen Monat liegen, muss zum Ablauf des gleichen Monats sein.
+                    endnote
+                    kill;
+                endif
+                if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                    :A06;
+                    note left
+                        Cluster: Ablehnung
+                        Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                        Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                    endnote
+                    kill;
+                else (nein)
+                endif
+            endif
+        else (nein)
+            if (<b>70: </b> Hat eine Bilanzierung stattgefunden?) then (ja)
+                :A13;
+                note left
+                    Cluster: Ablehnung
+                    Es wurde kein Bilanzierungsende mitgeteilt, obwohl eine Bilanzierung stattgefunden hat.
+                endnote
+                kill;
+            else (nein)
+            endif
+            if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                :A06;
+                note left
+                    Cluster: Ablehnung
+                    Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                    Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                endnote
+                kill;
+            else (nein)
+            endif
+        endif
+    endif
+    if (<b>200: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+        :A06;
+        note left
+            Cluster: Ablehnung
+            Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+            Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+        endnote
+        kill;
+    else (nein)
+    endif
+else (nein)
+    if (<b>210: </b> Ist das Datum „Bilanzierungsende“ identisch mit dem Datum „Lieferende“?) then (ja)
+    else (nein)
+        :A11;
+        note left
+            Cluster: Ablehnung
+            Lieferende und Bilanzierungsende müssen bei Lieferende von NB an LF aufgrund entfallender Zuordnungsermächtigung synchron sein.
+        endnote
+        kill;
+    endif
+    if (<b>220: </b> Liegt das übermittelte Datum „Lieferende“ nach dem Nachrichteneingang?) then (ja)
+    else (nein)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Lieferende bei entfallender Zuordnungsermächtigung muss in der Zukunft liegen.
+        endnote
+        kill;
+    endif
+    if (<b>230: </b> Ist das angegebene Datum „Lieferende“ der nächste 1. eines Kalendermonats 00:00 Uhr?) then (ja)
+    else (nein)
+        :A08;
+        note left
+            Cluster: Ablehnung
+            Das Lieferende bei Abmeldung wegen Deaktivierung der Zuordnungsermächtigung muss auf dem 1. eines Kalendermonats liegen.
+        endnote
+        kill;
+    endif
+    if (<b>240: </b> Liegt der Transaktionsgrund Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT vor?) then (ja)
+        if (<b>250: </b> Wurde der Zeitreihentyp an der betreffenden Marktlokation in einen Zeitreihentyp geändert, für welchen keine Zuordnungsermächtigung besteht?) then (ja)
+        else (nein)
+            :A12;
+            note left
+                Cluster: Ablehnung
+                Es liegt keine Änderung des Zeitreihentyps vor, für welchen keine Zuordnungsermächtigung besteht.
+            endnote
+            kill;
+        endif
+        if (<b>260: </b> Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation zugeordnet ist, vorgenommen?) then (ja)
+        else (nein)
+            :A09;
+            note left
+                Cluster: Ablehnung
+                Deaktivierung der Zuordnungsermächtigung für den der Marktlokation zugeordneten ZRT hat nicht stattgefunden.
+            endnote
+            kill;
+        endif
+    else (nein)
+    endif
+    if (<b>260: </b> Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation zugeordnet ist, vorgenommen?) then (ja)
+    else (nein)
+        :A09;
+        note left
+            Cluster: Ablehnung
+            Deaktivierung der Zuordnungsermächtigung für den der Marktlokation zugeordneten ZRT hat nicht stattgefunden.
+        endnote
+        kill;
+    endif
+endif
+:A10;
+note left
+    Cluster: Zustimmung
+    Lieferende wird zugestimmt
+endnote
+kill;
+
+@enduml

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "chapter": "Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit",
+    "ebd_code": "E_0510",
+    "role": "NB",
+    "sub_chapter": "18.1.3: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ging innerhalb der Antwortfrist eine Ablehnung des Lieferanten ein?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAblehnung der Abmeldung durch den Lieferanten.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein Fehler aufgetreten?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2024, 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nBestätigung der Anmeldung",
+          "result_code": "A02"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
