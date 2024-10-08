@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0516",
+    "role": "MSB",
+    "sub_chapter": "6.52.2: AD Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ergibt die Prüfung der abgelehnten Rechnung, dass die Ablehnung durch den Rechnungsempfänger gerechtfertigt war?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Die Rechnung wird als korrekt angesehen.\nHinweis: Es ist zu begründen, warum die Rechnung korrekt ist. \nNutzungsmöglichkeit Ende: offen",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
