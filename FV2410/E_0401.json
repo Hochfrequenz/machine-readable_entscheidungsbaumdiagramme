@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0401",
+    "role": "NB",
+    "sub_chapter": "6.2.1: AD: Lieferende von LF an NB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Liegt ein Transaktionsgrund vor, der eine Abmeldung nur in die Zukunft zulässt?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nEnde der ESV ohne Folgelieferung\nAufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "20"
+          },
+          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor:\nEin-/Auszug (Umzug)\nAuszug wegen Stilllegung\nAufhebung einer zukünftigen Zuordnung wegen Auszug des Kunden\nAufhebung einer zukünftigen Zuordnung wegen Stilllegung",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt ein Transaktionsgrund vor, welcher mitteilt, dass der Kunde vor Lieferbeginn ausgezogen ist, bzw. die Marktlokation vor Lieferbeginn stillgelegt wurde?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nAufhebung einer zukünftigen Zuordnung wegen Auszug des Kunden\nAufhebung einer zukünftigen Zuordnung wegen Stilllegung",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "80"
+          },
+          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor: \nEin-/Auszug (Umzug)\nAuszug wegen Stilllegung",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt das Abmeldedatum mindestens einen Tag nach dem Eingangsdatum der Abmeldung?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFristüberschreitung bei Aufhebung einer zu-künftigen Zuordnung wegen Auszug oder Still-legung.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "110"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt das Eingangsdatum mindestens 6 WT vor dem Abmeldedatum?",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFristüberschreitung bei Transaktionsgründen für eine Abmeldung in der Zukunft.",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt der Transaktionsgrund \nAufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis\nvor?",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "110"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor: \nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nEnde der ESV ohne Folgelieferung",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt der Transaktionsgrund \nEnde der ESV ohne Folgelieferung\nvor?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "70"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "120"
+          },
+          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor: \nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gab es an dieser Marktlokation eine bestätigte Anmeldung zur Ersatz- Grundversorgung mit einem Lieferbeginnzeitpunkt, welcher innerhalb 3 Monaten vom Endezeitpunkt der Belieferung aus dieser Abmeldung begonnen hat?\nHinweis: \nEine Lieferende mit dem Grund „Ende der ESV ohne Folgelieferung“ kann nur in dem Fall vorliegen, wenn diese Marktlokation innerhalb der letzten 3 Monate auch über den Use-Case „Beginn der Ersatz-/Grundversorgung“ vom NB beim LF angemeldet wurde.",
+      "step_number": "70",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Marklokation wurde nicht innerhalb der letzten 3 Monate zur Ersatz-/ Grundversorgung angemeldet. Somit kann es sich nicht um eine Beendigung einer ESV handeln.",
+          "result_code": "A11"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Marktlokation, deren Mess-lokationen vollständig mit iMS ausgestattet sind oder/und deren Prognosegrundlage auf Basis von Werten erfolgt?",
+      "step_number": "80",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "100"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt das Abmeldedatum mindestens einen Tag nach dem Eingangsdatum der Abmeldung?",
+      "step_number": "90",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEingangsfrist bei iMS/kME mit RLM nicht ein-gehalten.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt das Eingangsdatum der Abmeldung mehr als sechs Wochen nach dem Abmeldedatum der Abmeldung?",
+      "step_number": "100",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFristüberschreitung bei kME ohne RLM/mME/ Pauschalanlage.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Erfolgt die Aufhebung einer zukünftigen Zuordnung zu dem gleichen Datum (Zeitpunkt), welcher dem Lieferanten im Lieferbeginn bestätigt wurde?",
+      "step_number": "110",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Aufhebung einer zukünftigen Zuordnung muss zum Datum (Zeitpunkt) angegeben werden, wie im Lieferbeginn bestätigt.",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Zuordnung des anfragenden Lieferanten zur Marktlokation zum identischen Abmeldedatum bereits durch eine Bestätigung in den folgenden Prozessschritten beendet? Fall:\nSD: Lieferende von LF an NB, Prozessschritt 2 \"Antwort auf Abmeldung\"\nSD: Lieferende von NB an LF, Prozessschritt 2 \"Antwort auf Abmeldung\"\nSD: Lieferbeginn, Prozessschritt 4 \"Beantwortung der Abmeldeanfrage\" oder die Bestätigung erfolgt durch die Fristverstreichung",
+      "step_number": "120",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "130"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nBestätigung der Abmeldung",
+          "result_code": "A06"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der anfragende LF am Folgetag des Abmeldungsdatum der Marktlokation noch zugeordnet?",
+      "step_number": "130",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "140"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nBestätigung der Abmeldung",
+          "result_code": "A06"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt ein Transaktionsgrund vor, aus welchem hervorgeht, dass der Anschlussnutzer ausgezogen ist?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEin-/Auszug (Umzug)\nAuszug wegen Stilllegung",
+      "step_number": "140",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung \nLieferende zum Abmeldedatum wurde bereits bestätigt.",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "150"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt in der bereits bestätigten Abmeldung ein Transaktionsgrund vor, aus welchem nicht hervorgeht, dass der Anschlussnutzer ausgezogen ist?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nEnde der ESV ohne Folgelieferung\nAufhebung einer zukünftigen Zuordnung wegen\naufgehobenem Vertragsverhältnis\nAbmeldung wg. fehl. Zuordnungsermächtigung\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT\nLieferbeginn und Abmeldung aus der Ersatzversorgung",
+      "step_number": "150",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung \nLieferende zum Abmeldedatum wurde aus gleichem Grund bereits bestätigt.",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nErneute Bestätigung der Abmeldung aufgrund der Information, dass der Anschlussnutzer nicht mehr an der Marktlokation vorhanden ist.\nHinweis: Das bisher bestätigte Bilanzierungsende bleibt unverändert bestehen.",
+          "result_code": "A09"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

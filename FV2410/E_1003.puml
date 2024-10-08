@@ -1,0 +1,115 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Sperrprozesse Gas
+
+19.2.4: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF
+
+
+
+end title
+:<b>E_1003</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>10: </b> War eine Sperrung aus rechtlichen Gründen nicht möglich (z. B., wenn eine Einstweilige Verfügung vorlag&#41;?) then (ja)
+    :A01;
+    note left
+        Cluster: gescheitert
+        Marktlokation wurde nicht gesperrt, da ein rechtlicher Grund vor Ort erkannt wurde.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>20: </b> Wurde der Anschlussnutzer angetroffen?
+Hinweis: Es gab keine Anzeichen dafür, dass der Anschlussnutzer anwesend war.) then (ja)
+else (nein)
+    :A08;
+    note left
+        Cluster: gescheitert
+        Der Anschlussnutzer wurde nicht angetroffen. Es gab keine Anzeichen dafür, dass dieser anwesend war.
+    endnote
+    kill;
+endif
+if (<b>30: </b> War eine Sperrung aus dem Grund „aktive Zutrittsverweigerung“ nicht möglich?
+Hinweis: Unter „aktive Zutrittsverweigerung“ ist zu verstehen, dass der Anschlussnutzer angetroffen wurde und dieser den Zugang z. B. durch Drohungen, physische Angriffe, versperren des Zugangs zur Trennstelle unterbunden hat.) then (ja)
+    :A02;
+    note left
+        Cluster: gescheitert
+        Marktlokation wurde nicht gesperrt, da eine aktive Zutrittsverweigerung vorlag.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>40: </b> War eine Sperrung aus dem Grund „passive Zutrittsverweigerung“ nicht möglich?
+Hinweis: Unter „passiver Zutrittsverweigerung“ ist zu verstehen, dass eine Anwesenheit des Anschlussnutzers festgestellt wurde, dieser jedoch seine Anwesenheit verleugnet. (z.B. Anschlussnutzer wurden in der Wohnung gesichtet, öffnet aber die Tür nicht&#41;.) then (ja)
+    :A03;
+    note left
+        Cluster: gescheitert
+        Marktlokation wurde nicht gesperrt, da eine passive Zutrittsverweigerung vorlag.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>50: </b> War eine Sperrung wegen eines Verhinderungsgrundes nicht möglich?) then (ja)
+    :A04;
+    note left
+        Cluster: gescheitert
+        Marktlokation wurde nicht gesperrt, da ein Verhinderungsgrund vorlag.
+        Hinweis: Im Freitext muss der Verhinderungsgrund mitgeteilt werden.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>60: </b> War eine Sperrung aus einem tatsächlichen Grund nicht möglich?
+Unter tatsächliche Gründe fallen z. B.
+Marktlokation vor Ort nicht identifizierbar
+Zugang zur Marktlokation nicht möglich
+Kundenwechsel an der Marktlokation festgestellt) then (ja)
+    :A05;
+    note left
+        Cluster: gescheitert
+        Marktlokation wurde nicht gesperrt, da ein tatsächlicher Grund vorlag.
+        Hinweis: Im Freitext muss der tatsächliche Grund mitgeteilt werden.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>70: </b> War eine Sperrung aus einem technischen Grund nicht möglich?) then (ja)
+    :A06;
+    note left
+        Cluster: gescheitert
+        Marktlokation wurde nicht gesperrt, da ein technischer Grund vorlag.
+        Hinweis: Im Freitext muss der technische Grund mitgeteilt werden.
+    endnote
+    kill;
+else (nein)
+    :A07;
+    note left
+        Cluster: erfolgreich
+        Marktlokation wurde gesperrt.
+    endnote
+    kill;
+endif
+
+@enduml
