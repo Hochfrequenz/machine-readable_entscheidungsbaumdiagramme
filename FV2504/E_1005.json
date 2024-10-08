@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "chapter": "Sperrprozesse Gas",
+    "ebd_code": "E_1005",
+    "role": "NB",
+    "sub_chapter": "17.3.2: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist die Entsperrung erfolgreich durchgeführt worden?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: erfolgreich\nMarktlokation ist entsperrt.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: gescheitert\nMarktlokation ist weiterhin gesperrt.\nHinweis: Die Gründe des Scheiterns sind zu übermitteln.",
+          "result_code": "A02"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

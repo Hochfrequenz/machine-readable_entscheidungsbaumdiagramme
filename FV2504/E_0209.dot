@@ -1,0 +1,18 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">8.12.1: AD: Beendigung der Rechnungsabwicklung des Messstellenbetriebes über den LF durch den LF</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0209</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Besteht ein Vertragsverhältnis über die Rechnungsabwicklung über den LF?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>LF ist nicht Zahler des Messstellenbetriebs<BR align="left"/></FONT>>];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Liegt das Beendigungsdatum nach dem Stichtag, der wie folgt berechnet wird: Eingangsdatum der Nachricht - (6 Wochen + 5 WT)?<BR align="left"/>>];
+    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Frist nicht eingehalten<BR align="left"/></FONT>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Zustimmung<BR align="left"/></FONT>>];
+
+    "Start" -> "1";
+    "1" -> "A01" [label="Nein"];
+    "1" -> "2" [label="Ja"];
+    "2" -> "A04" [label="Nein"];
+    "2" -> "A02" [label="Ja"];
+
+    bgcolor="transparent";
+}

@@ -1,0 +1,57 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.8.2: AD: Abrechnungsdaten Netznutzungsabrechnung
+
+
+
+end title
+:<b>E_0620</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>10: </b> Hat der Berechtigte in der Qualitätsrückmeldung mitgeteilt, dass er die Stammdaten ohne Anmerkung übernommen hat?
+Hinweis:
+Dies ist für jeden in der Rückmeldung vorhandenen Verwendungszeitraum jeweils für den gesamten Zeitraum zu prüfen.) then (ja)
+    end
+else (nein)
+endif
+if (<b>20: </b> Leitet der Verantwortliche aufgrund der Qualitätsrückmeldung des Berechtigten ab, dass eine Anpassung seiner Stammdaten notwendig ist?) then (ja)
+    :A01;
+    note left
+        Cluster: Änderung der Daten
+        Der Verantwortliche teilt dem Berechtigten mit, dass er einen erneuten Versand der Stammdaten vornehmen wird.
+    endnote
+    kill;
+else (nein)
+    :A02;
+    note left
+        Cluster: Keine Änderung der Daten
+        Der Verantwortliche teilt mit, dass er seine Stammdaten für korrekt hält und keine Anpassung vornehmen wird.
+    endnote
+    kill;
+endif
+
+@enduml

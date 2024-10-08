@@ -1,0 +1,216 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Sperrprozesse Gas
+
+17.2.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF
+
+
+
+end title
+:<b>E_1000</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>10: </b> Ist die Marktlokation bereits gesperrt?) then (ja)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Marktlokation ist bereits gesperrt.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>20: </b> Liegt für die Marktlokation im Zeitraum von 6 WT ab dem frühestmöglichen Sperrtermin bereits ein Sperrauftrag vor?) then (ja)
+    :A10;
+    note left
+        Cluster: Ablehnung
+        Sperrauftrag für Marktlokation liegt bereits vor.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>30: </b> Ist im gesamten Ausführungszeitraum des Sperrauftrags 
+(= frühestmöglicher Sperrtermin bis frühestmöglicher Sperrtermin + 6 WT&#41; der die Sperrung beauftragende LF der zu sperrenden Marktlokation zugeordnet?) then (ja)
+else (nein)
+    :A11;
+    note left
+        Cluster: Ablehnung
+        Zukünftiger bestätigter Lieferbeginn liegt gegenüber anderem Lieferanten bereits vor.
+        Die Ausführungsfrist der 6 WT ab dem frühestmöglichen Sperrtermin berührt das bestätigte Lieferbeginndatum gegenüber anderem Lieferanten.
+    endnote
+    kill;
+endif
+if (<b>40: </b> Liegt an der zu sperrenden Marktlokation eine 1:1-Beziehung zwischen Marktlokation und Messlokation vor?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Cluster: Ablehnung
+        Keine 1:1-Beziehung zwischen Marktlokation und Messlokation.
+        Hinweis: Gasspezifische Frage
+    endnote
+    kill;
+endif
+if (<b>50: </b> Wird die zu sperrende Marktlokation auf Basis von Grund- und Arbeitspreis abgerechnet?) then (ja)
+else (nein)
+    :A03;
+    note left
+        Cluster: Ablehnung
+        Marktlokation wird nicht auf Basis von Grund- und Arbeitspreis abgerechnet.
+        Hinweis: Gasspezifische Frage
+    endnote
+    kill;
+endif
+if (<b>60: </b> Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?) then (ja)
+    :A04;
+    note left
+        Cluster: Ablehnung
+        Mindestens eine weitere Marktlokation ist von der Sperrung betroffen.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>70: </b> Liegt im gesamten Ausführungszeitraum ein bestätigter Lieferbeginn gegenüber dem beauftragenden LF vor?) then (ja)
+    :A12;
+    note left
+        Cluster: Ablehnung
+        Im Ausführungszeitraum liegt bereits ein bestätigter Lieferbeginn gegenüber dem beauftragenden LF vor.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>80: </b> Liegt ein Verhinderungsgrund einer Sperrung an der Marktlokation vor?) then (ja)
+    :A05;
+    note left
+        Cluster: Ablehnung
+        Verhinderungsgrund liegt vor.
+        Hinweis: Das identifizierte Problem ist in der
+         Antwort zu beschreiben/benennen.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>90: </b> Ist der Sperrauftrag termingebunden?) then (ja)
+    if (<b>100: </b> Liegt der übermittelte Sperrtermin mindestens 12 WT nach dem Eingangsdatum der Nachricht des Sperrauftrags?) then (ja)
+    else (nein)
+        :A06;
+        note left
+            Cluster: Ablehnung
+            Fristverletzung bei einem termingebundenen Sperrauftrag.
+        endnote
+        kill;
+    endif
+    if (<b>120: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Cluster: Ablehnung
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der 
+            Antwort zu beschreiben/benennen.
+            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>130: </b> Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?) then (ja)
+        :A08;
+        note left
+            Cluster: Zustimmung
+            Sperrung wird über das elektronische Preisblatt abgebildet.
+        endnote
+        kill;
+    else (nein)
+        :A09;
+        note left
+            Cluster: Zustimmung
+            Die individuellen Sperrkosten werden in der Nachricht ausgetauscht.
+        endnote
+        kill;
+    endif
+else (nein)
+    if (<b>110: </b> Liegt der übermittelte frühestmögliche Sperrtermin mindestens 6 WT nach dem Eingangsdatum der Nachricht des Sperrauftrags?) then (ja)
+    else (nein)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Fristverletzung bei einem nicht termingebundenen Sperrauftrag.
+        endnote
+        kill;
+    endif
+    if (<b>120: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Cluster: Ablehnung
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der 
+            Antwort zu beschreiben/benennen.
+            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>130: </b> Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?) then (ja)
+        :A08;
+        note left
+            Cluster: Zustimmung
+            Sperrung wird über das elektronische Preisblatt abgebildet.
+        endnote
+        kill;
+    else (nein)
+        :A09;
+        note left
+            Cluster: Zustimmung
+            Die individuellen Sperrkosten werden in der Nachricht ausgetauscht.
+        endnote
+        kill;
+    endif
+endif
+if (<b>120: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Cluster: Ablehnung
+        Sonstiges
+        Hinweis: Das identifizierte Problem ist in der 
+        Antwort zu beschreiben/benennen.
+        Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>130: </b> Kann der Sperrauftrag pauschal über das elektronische Preisblatt abgebildet werden?) then (ja)
+    :A08;
+    note left
+        Cluster: Zustimmung
+        Sperrung wird über das elektronische Preisblatt abgebildet.
+    endnote
+    kill;
+else (nein)
+    :A09;
+    note left
+        Cluster: Zustimmung
+        Die individuellen Sperrkosten werden in der Nachricht ausgetauscht.
+    endnote
+    kill;
+endif
+
+@enduml

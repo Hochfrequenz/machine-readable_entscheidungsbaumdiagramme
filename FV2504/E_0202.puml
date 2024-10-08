@@ -1,0 +1,51 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+WiM Strom
+
+8.3.1: AD: Ende Messstellenbetrieb
+
+
+
+end title
+:<b>E_0202</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>1: </b> Liegt das gewünschte Änderungsdatum mindestens 20 WT nach dem Nachrichteneingangsdatum?) then (ja)
+    :A02;
+    note left
+        Cluster: Zustimmung
+        Änderung kann durchgeführt werden.
+    endnote
+    kill;
+else (nein)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Frist nicht eingehalten
+    endnote
+    kill;
+endif
+
+@enduml

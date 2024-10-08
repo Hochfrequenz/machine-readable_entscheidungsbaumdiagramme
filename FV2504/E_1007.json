@@ -1,0 +1,724 @@
+{
+  "metadata": {
+    "chapter": "Sperrprozesse Gas",
+    "ebd_code": "E_1007",
+    "role": "LF",
+    "sub_chapter": "17.1.1: AD: Abrechnung einer sonstigen Leistung"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Handelt es sich um eine Rechnung von „Verzugskosten“?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die Rechnung den Anforderungen gem. §14 Abs. 4 UStG?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nRechnung entspricht nicht §14 UstG.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Rechnungsdatum ≤ dem Eingangsdatum?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nRechnungsdatum liegt in der Zukunft",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt vom Rechnungssteller die in dieser Rechnung verwendete Rechnungsnummer bereits vor?",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nRechnungsnummer wurde bereits verwendet.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt ein Rechenfehler in der Rechnung vor?",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nRechenfehler liegt vor.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "70"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Frist der Fälligkeit unterschritten?\nHinweis: Fälligkeit unterschritten bedeutet: Zahlungsziel ≤ 10 WT zum Rechnungseingangsdatum",
+      "step_number": "70",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDas Zahlungsziel ist unterschritten.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Rechnung von „Verzugskosten“?",
+      "step_number": "90",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "270"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "100"
+          },
+          "note": "Hinweis: Es handelt sich um eine Rechnung von Unterbrechung / Wiederherstellung der Anschlussnutzung.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Werden die Positionen mit dem korrekten Steuersatz abgerechnet?",
+      "step_number": "100",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMindestens eine der Positionen ist mit dem falschen Steuersatz abgerechnet",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt für den Abrechnungszeitpunkt ein gültiges Preisblatt „Preisblatt Sperren / Entsperren und Verzugskosten“ vor?",
+      "step_number": "120",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDem Lieferanten liegt kein gültiges Preisblatt „Preisblatt Sperren / Entsperren und Verzugskosten“ vor.",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "130"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant einen Sperrauftrag mit der in der Rechnung vorhandenen Auftragsnummer des Sperrauftrags bestellt?",
+      "step_number": "130",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer abzurechnende Sperrauftrag ist nicht bekannt.",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "140"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde der Sperrauftrag bereits abgerechnet?",
+      "step_number": "140",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "150"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "160"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde diese Rechnung zum Sperrauftrag wieder storniert?",
+      "step_number": "150",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer Sperrauftrag wurde bereits abgerechnet (doppelte Rechnung).",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "160"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der identifizierte Sperrauftrag storniert und die Stornierung bestätigt worden?",
+      "step_number": "160",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "170"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "190"
+          },
+          "note": "Hinweis: Der Sperrauftrag wurde nicht storniert oder die Stornierung erfolgte zu spät und wurde daher abgelehnt.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird in der Rechnung die Artikel-ID \n[2-01-7-004] (Stornierung eines Auftrags zur Unterbrechung der Anschlussnutzung bis zum Vortag der Sperrung) oder Artikel-ID \n[2-01-7-005] (Stornierung eines Auftrags zur Unterbrechung der Anschlussnutzung am Tag der Sperrung) abgerechnet?",
+      "step_number": "170",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer abgerechnete Artikel entspricht nicht der abzurechnenden Leistung für einen stornierten Auftrag zur Unterbrechung der Anschlussnutzung.",
+          "result_code": "A11"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "180"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Preis in der Rechnung dem Preis aus dem Preisblatt?",
+      "step_number": "180",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nPreis in der Rechnung passt nicht zum Preis „Stornierung eines Auftrags zur Unterbrechung der Anschlussnutzung“ des Preisblatts bzw. Artikel-ID ist im Preisblatt nicht genannt.",
+          "result_code": "A12"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "440"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "War die Sperrung aus dem Sperrauftrag erfolgreich?",
+      "step_number": "190",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "250"
+          },
+          "note": "Hinweis: Sperrung war nicht erfolgreich.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde von dem Lieferanten bereits die Wiederherstellung der Anschlussnutzung für die aus diesem Auftrag umgesetzte Unterbrechung der Anschlussnutzung beauftragt?",
+      "step_number": "200",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "210"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "220"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Entsperrung vom Lieferanten mit der Option „Entsperrung auch außerhalb der regulären Arbeitszeit“ beauftragt?",
+      "step_number": "210",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "230"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "220"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Werden in der Rechnung die beiden Artikel-IDs \n[2-01-7-001] (Unterbrechung der Anschlussnutzung in der regulären Arbeitszeit) und \n[2-01-7-002] (Wiederherstellung der Anschlussnutzung in der regulären Arbeitszeit) abgerechnet?",
+      "step_number": "220",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie abgerechnete(en) Artikel-ID entspricht nicht der abzurechnenden Leistung für eine Unterbrechung und Wiederherstellung der Anschlussnutzung.",
+          "result_code": "A13"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "240"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird in der Rechnung die Artikel-ID [2-01-7-001] (Unterbrechung der Anschlussnutzung in der regulären Arbeitszeit) und zusätzlich genau eine der beiden Artikel-ID \n[2-01-7-002] (Wiederherstellung der Anschlussnutzung in der regulären Arbeitszeit) oder \n[2-01-7-006] (Wiederherstellung der Anschlussnutzung außerhalb der regulären Arbeitszeit) abgerechnet?",
+      "step_number": "230",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie abgerechnete(en) Artikel-ID entspricht nicht der abzurechnenden Leistung für eine Unterbrechung und Wiederherstellung der Anschlussnutzung.",
+          "result_code": "A14"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "240"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entsprechen die Preise in der Rechnung den Preisen aus dem Preisblatt?",
+      "step_number": "240",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMindestens ein Preis in der Rechnung passt nicht zum Preis für eine Unterbrechung und Wiederherstellung der Anschlussnutzung auf dem Preisblatt bzw. mindestens eine Artikel-ID ist im Preisblatt nicht genannt",
+          "result_code": "A15"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "440"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird in der Rechnung die Artikel-ID \n[2-01-7-003] (Erfolglose Unterbrechung) abgerechnet?",
+      "step_number": "250",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer abgerechnete Artikel entspricht nicht der abzurechnenden Leistung für eine erfolglose Unterbrechung",
+          "result_code": "A16"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "260"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Preis in der Rechnung dem Preis aus dem Preisblatt?",
+      "step_number": "260",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nPreis in der Rechnung passt nicht zum Preis für eine erfolglose Unterbrechung auf dem Preisblatt bzw. Artikel-ID ist im Preisblatt nicht genannt",
+          "result_code": "A17"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "330"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt für den Abrechnungszeitpunkt ein gültiges Preisblatt „Preisblatt Sperren / Entsperren und Verzugskosten“ vor?",
+      "step_number": "270",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDem Lieferanten liegt kein gültiges Preisblatt für die Verzugskosten vor",
+          "result_code": "A18"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "280"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt dem Lieferanten die Rechnung vor, auf die sich die Verzugskostenrechnung bezieht?",
+      "step_number": "280",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Rechnung, auf die sich die Verzugskostenrechnung bezieht, ist nicht bekannt.",
+          "result_code": "A19"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "290"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird in der Rechnung die Artikel-ID \n[2-02-0-001] (Verzugskosten pauschal) oder Artikel-ID \n[2-02-0-002] (Verzugskosten variabel) abgerechnet?",
+      "step_number": "290",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer abgerechnete Artikel entspricht nicht der abzurechnenden Leistung für Verzugskosten",
+          "result_code": "A20"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "300"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Verzugskosten gerechtfertigt?",
+      "step_number": "300",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Verzugskosten sind nicht gerechtfertigt",
+          "result_code": "A21"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "310"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Werden die Verzugskosten pauschal mit der \nArtikel-ID [2-02-0-001] (Verzugskosten pauschal) abgerechnet?",
+      "step_number": "310",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "330"
+          },
+          "note": "Hinweis:\nDie Verzugskosten werden variabel mit der \nArtikel-ID [2-02-0-002] abgerechnet",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "320"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Preis in der Rechnung dem Preis aus dem Preisblatt?",
+      "step_number": "320",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nPreis in der Rechnung passt nicht zum Preis für Verzugskosten auf dem Preisblatt bzw. Artikel-ID ist im Preisblatt nicht genannt",
+          "result_code": "A22"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "440"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entsprechen die geltend gemachten Verzugskosten den gesetzlichen Regelungen?",
+      "step_number": "330",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nPreis ist in der Höhe nicht angemessen",
+          "result_code": "A23"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "440"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "440",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Zahlungsavis versenden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "result_code": "A99"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

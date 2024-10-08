@@ -1,0 +1,18 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">Redispatch 2.0</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">15.2.1: AD: Ermittlung und Abstimmung der abrechnungsrelevanten Ausfallarbeit – Planwertmodell</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0902</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Entsprechen die Energiemengen der Ausfallarbeitszeitreihe bzw. der Fahrplananteilzeitreihe den erwarteten Energiemengen?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Zustimmung<BR align="left"/></FONT>>];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Kann ein Gegenvorschlag erstellt werden?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Energiemengen falsch / nicht plausibel<BR align="left"/>Übermittlung Gegenvorschlag<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.<BR align="left"/></FONT>>];
+    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Energiemengen falsch / nicht plausibel inkl. Korrekturanforderung<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.<BR align="left"/></FONT>>];
+
+    "Start" -> "1";
+    "1" -> "A01" [label="Ja"];
+    "1" -> "2" [label="Nein"];
+    "2" -> "A02" [label="Ja"];
+    "2" -> "A03" [label="Nein"];
+
+    bgcolor="transparent";
+}

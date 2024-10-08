@@ -1,0 +1,62 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit
+
+16.1.3: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu
+
+
+
+end title
+:<b>E_0510</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>1: </b> Ging innerhalb der Antwortfrist eine Ablehnung des Lieferanten ein?) then (ja)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Ablehnung der Abmeldung durch den Lieferanten.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>2: </b> Ist ein Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Cluster: Ablehnung
+        Sonstiges
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+        Nutzungsmöglichkeit Ende: 01.04.2026, 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+    :A02;
+    note left
+        Cluster: Zustimmung
+        Bestätigung der Anmeldung
+    endnote
+    kill;
+endif
+
+@enduml

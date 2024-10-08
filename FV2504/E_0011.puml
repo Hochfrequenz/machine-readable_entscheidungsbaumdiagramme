@@ -1,0 +1,237 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+MaBiS
+
+7.36.1: AD: Aktivierung eines MaBiS-Zählpunkts für die Bilanzkreissummenzeitreihe vom ÜNB an BIKO und BKV
+
+
+
+end title
+:<b>E_0011</b>;
+note right
+<b><i>Prüfende Rolle: BIKO
+end note
+
+if (<b>1: </b> Erfolgt die Aktivierung nach Ablauf der Clearingfrist für die KBKA?) then (ja)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Fristüberschreitung
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>2: </b> Erfolgt die Aktivierung zum Monatsersten 00:00 Uhr?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Cluster: Ablehnung
+        Gewählter Zeitpunkt nicht zulässig
+    endnote
+    kill;
+endif
+if (<b>3: </b> Ist die richtige Regelzone angegeben?) then (ja)
+else (nein)
+    :A03;
+    note left
+        Cluster: Ablehnung
+        Regelzone falsch
+    endnote
+    kill;
+endif
+if (<b>4: </b> Erfolgt die Aktivierung des MaBiS-ZP auf Ebene des Bilanzierungsgebiet?) then (ja)
+    if (<b>5: </b> Ist das Bilanzierungsgebiet zum Aktivierungsbeginn in der Regelzone des BIKO gültig?) then (ja)
+    else (nein)
+        :A04;
+        note left
+            Cluster: Ablehnung
+            Bilanzierungsgebiet nicht gültig
+        endnote
+        kill;
+    endif
+    if (<b>6: </b> Existiert bereits ein abweichendes Tupel aus Aggregationsverantwortlicher, Bilanzierungsgebiet, Bilanzkreis und ZRT unter der ID des MaBiS-ZP?) then (ja)
+        :A05;
+        note left
+            Cluster: Ablehnung
+            Abweichender MaBiS-ZP bereits vorhanden
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>7: </b> Existiert bereits für das genannte Tupel aus Aggregationsverantwortlicher, Bilanzierungsgebiet, Bilanzkreis und ZRT eine abweichende ID des MaBiS-ZP?) then (ja)
+        :A06;
+        note left
+            Cluster: Ablehnung
+            Abweichende ID zum MaBiS-ZP bereits vorhanden
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>10: </b> Ist der Bilanzkreis zum Aktivierungsbeginn gültig?) then (ja)
+    else (nein)
+        :A09;
+        note left
+            Cluster: Ablehnung
+            Bilanzkreis nicht gültig
+        endnote
+        kill;
+    endif
+    if (<b>11: </b> Ist der ÜNB zur Aktivierung des ZRT berechtigt?) then (ja)
+    else (nein)
+        :A10;
+        note left
+            Cluster: Ablehnung
+            ZRT Aktivierung nicht berechtigt
+        endnote
+        kill;
+    endif
+    if (<b>12: </b> Passt die OBIS-Kennzahl zum ZRT?) then (ja)
+    else (nein)
+        :A11;
+        note left
+            Cluster: Ablehnung
+            OBIS nicht passend
+        endnote
+        kill;
+    endif
+    if (<b>13: </b> Ist der MaBiS-ZP zum Zeitpunkt der Aktivierung bereits aktiviert?) then (ja)
+        :A12;
+        note left
+            Cluster: Ablehnung
+            MaBiS-ZP bereits aktiviert
+        endnote
+        kill;
+    else (nein)
+        :A13;
+        note left
+            Cluster: Zustimmung 
+            Aktivierung durchgeführt
+        endnote
+        kill;
+    endif
+else (nein)
+    if (<b>8: </b> Existiert bereits ein abweichendes Tupel aus Aggregationsverantwortlicher, Regelzone, Bilanzkreis und ZRT unter der ID des MaBiS-ZP?) then (ja)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Abweichender MaBiS-ZP bereits vorhanden
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>9: </b> Existiert bereits für das genannte Tupel aus Aggregationsverantwortlicher, Regelzone, Bilanzkreis und ZRT eine abweichende ID des MaBiS-ZP?) then (ja)
+        :A08;
+        note left
+            Cluster: Ablehnung
+            Abweichende ID zum MaBiS-ZP bereits vor-handen
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>10: </b> Ist der Bilanzkreis zum Aktivierungsbeginn gültig?) then (ja)
+    else (nein)
+        :A09;
+        note left
+            Cluster: Ablehnung
+            Bilanzkreis nicht gültig
+        endnote
+        kill;
+    endif
+    if (<b>11: </b> Ist der ÜNB zur Aktivierung des ZRT berechtigt?) then (ja)
+    else (nein)
+        :A10;
+        note left
+            Cluster: Ablehnung
+            ZRT Aktivierung nicht berechtigt
+        endnote
+        kill;
+    endif
+    if (<b>12: </b> Passt die OBIS-Kennzahl zum ZRT?) then (ja)
+    else (nein)
+        :A11;
+        note left
+            Cluster: Ablehnung
+            OBIS nicht passend
+        endnote
+        kill;
+    endif
+    if (<b>13: </b> Ist der MaBiS-ZP zum Zeitpunkt der Aktivierung bereits aktiviert?) then (ja)
+        :A12;
+        note left
+            Cluster: Ablehnung
+            MaBiS-ZP bereits aktiviert
+        endnote
+        kill;
+    else (nein)
+        :A13;
+        note left
+            Cluster: Zustimmung 
+            Aktivierung durchgeführt
+        endnote
+        kill;
+    endif
+endif
+if (<b>10: </b> Ist der Bilanzkreis zum Aktivierungsbeginn gültig?) then (ja)
+else (nein)
+    :A09;
+    note left
+        Cluster: Ablehnung
+        Bilanzkreis nicht gültig
+    endnote
+    kill;
+endif
+if (<b>11: </b> Ist der ÜNB zur Aktivierung des ZRT berechtigt?) then (ja)
+else (nein)
+    :A10;
+    note left
+        Cluster: Ablehnung
+        ZRT Aktivierung nicht berechtigt
+    endnote
+    kill;
+endif
+if (<b>12: </b> Passt die OBIS-Kennzahl zum ZRT?) then (ja)
+else (nein)
+    :A11;
+    note left
+        Cluster: Ablehnung
+        OBIS nicht passend
+    endnote
+    kill;
+endif
+if (<b>13: </b> Ist der MaBiS-ZP zum Zeitpunkt der Aktivierung bereits aktiviert?) then (ja)
+    :A12;
+    note left
+        Cluster: Ablehnung
+        MaBiS-ZP bereits aktiviert
+    endnote
+    kill;
+else (nein)
+    :A13;
+    note left
+        Cluster: Zustimmung 
+        Aktivierung durchgeführt
+    endnote
+    kill;
+endif
+
+@enduml

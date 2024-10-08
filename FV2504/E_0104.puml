@@ -1,0 +1,45 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+MaBiS
+
+7.32.1: AD: Anforderung und Übermittlung Bilanzkreiszuordnungsliste zwischen NB und BKV (gültige Abonnierung)
+
+
+
+end title
+:<b>E_0104</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>1: </b> Sind in der Liste LF-SZR enthalten?) then (ja)
+    end
+else (nein)
+    :A01;
+    note left
+        Kein Lieferant zugeordnet
+    endnote
+    kill;
+endif
+
+@enduml
