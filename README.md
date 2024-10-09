@@ -36,7 +36,7 @@ Hochfrequenz garantiert weder für die Korrektheit noch die Vollständigkeit der
 
 Die hier bereitgestellten Daten sind wahrscheinlich nicht fehlerfrei und mit Sicherheit unvollständig.
 Probleme oder Fehler können gerne als [Issue](https://github.com/Hochfrequenz/machine-readable_entscheidungsbaumdiagramme/issues/new) gemeldet werden.
-Es ist jedoch nicht sinnvoll, Änderungen direkt hier an den Ergebnis-Daten vorzunehmen; Stattdessen sollten die den Problemen zu Grunde liegeneden Scrapingfehler im Paket [`ebddocx2table`](https://github.com/Hochfrequenz/ebddocx2table/) und Probleme beim Plotten bzw. Erstellen eines Graphen im Paket [`ebdtable2graph`](https://github.com/Hochfrequenz/ebdtable2graph/) adressiert werden.
+Es ist jedoch nicht sinnvoll, Änderungen direkt hier an den Ergebnis-Daten vorzunehmen; Stattdessen sollten die den Problemen zu Grunde liegeneden Scrapingfehler im Paket [`ebd_amame`](https://github.com/Hochfrequenz/ebdamame/) und Probleme beim Plotten bzw. Erstellen eines Graphen im Paket [`r_ebd_huhn`](https://github.com/Hochfrequenz/rebdhuhn/) adressiert werden.
 
 ## Weiterführendes Tooling
 
