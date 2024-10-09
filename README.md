@@ -8,7 +8,7 @@ Wir pflegen analog zu den hier abgelegten Daten auch:
 
 ## Unter der Haube
 
-Zur Erstellung der hier veröffentlichten Daten nutzen wir [`ebddocx2table`](https://github.com/Hochfrequenz/ebdamame/) und [`ebdtable2graph`](https://github.com/Hochfrequenz/rebdhuhn/), zwei Hochfrequenz Libraries zur Verarbeitung von EBDs.
+Zur Erstellung der hier veröffentlichten Daten nutzen wir [`ebd_amame`](https://github.com/Hochfrequenz/ebdamame/) und [`r_ebd_huhn`](https://github.com/Hochfrequenz/rebdhuhn/), zwei Hochfrequenz Libraries zur Verarbeitung von EBDs.
 
 ## Struktur & Datenformate
 
