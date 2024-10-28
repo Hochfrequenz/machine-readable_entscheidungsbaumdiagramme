@@ -62,6 +62,36 @@ if (<b>10: </b> Handelt es sich bei dem Anwendungsfall um eine Bestellung mittel
             kill;
         endif
     else (nein)
+        if (<b>18: </b> Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose?) then (ja)
+            if (<b>19: </b> Wurde die Vorlauffrist von mindestens 7 WT vor dem Änderungszeitpunkt eingehalten?) then (ja)
+            else (nein)
+                :A22;
+                note left
+                    Cluster: keine Änderung der Daten
+                    Die Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose wurde nicht eingehalten.
+                endnote
+                kill;
+            endif
+            if (<b>20: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
+                :A20;
+                note left
+                    Cluster: Änderung der Daten
+                    Der Bestellung der Stammdaten konnte zugestimmt werden.
+                    Hinweis: NB versendet neue Stammdaten
+                endnote
+                kill;
+            else (nein)
+                :A99;
+                note left
+                    Cluster: keine Änderung der Daten
+                    Der Bestellung der Stammdaten konnte nicht zugestimmt werden.
+                    Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+                    Nutzungsmöglichkeit Ende: offen
+                endnote
+                kill;
+            endif
+        else (nein)
+        endif
     endif
     if (<b>20: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
         :A20;

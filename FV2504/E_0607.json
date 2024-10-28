@@ -261,7 +261,7 @@
       "use_cases": null
     },
     {
-      "description": "Liegt in der bereits bestätigten Abmeldung ein Transaktionsgrund vor, aus welchem nicht hervorgeht, dass der Anschlussnutzer ausgezogen ist?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nEnde der ESV ohne Folgelieferung\nAufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis\nAbmeldung wg. fehl. Zuordnungsermächtigung\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT\nLieferbeginn und Abmeldung aus der Ersatzversorgung",
+      "description": "Liegt in der bereits bestätigten Abmeldung ein Transaktionsgrund vor, aus welchem nicht hervorgeht, dass der Anschlussnutzer ausgezogen ist?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nEnde der ESV ohne Folgelieferung\nAufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis\nAbmeldung wg. fehl. Zuordnungsermächtigung\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT",
       "step_number": "130",
       "sub_rows": [
         {
@@ -300,7 +300,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Zustimmung\nErneute Bestätigung der Abmeldung aufgrund der Information, dass der Anschlussnutzer nicht mehr an der Marktlokation vorhanden ist.\nHinweis: Das bisher bestätigte Bilanzierungsende bleibt unverändert bestehen.",
+          "note": "Cluster: Zustimmung\nBestätigung der Abmeldung",
           "result_code": "A11"
         }
       ],
@@ -330,7 +330,7 @@
       "use_cases": null
     },
     {
-      "description": "Liegt die Abmeldung einen Monat vor Zuordnungsende vor?",
+      "description": "Liegt die Abmeldung mindestens einen Monat vor Zuordnungsende vor?",
       "step_number": "520",
       "sub_rows": [
         {
@@ -537,7 +537,7 @@
       "use_cases": null
     },
     {
-      "description": "Liegt in der bereits bestätigten Abmeldung ein Transaktionsgrund vor, aus welchem nicht hervorgeht, dass der Anschlussnutzer ausgezogen ist?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nEnde der ESV ohne Folgelieferung\nAufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis\nAbmeldung wg. fehl. Zuordnungsermächtigung\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT\nLieferbeginn und Abmeldung aus der Ersatzversorgung",
+      "description": "Liegt in der bereits bestätigten Abmeldung ein Transaktionsgrund vor, aus welchem nicht hervorgeht, dass der Anschlussnutzer ausgezogen ist?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nEnde der ESV ohne Folgelieferung\nAufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis\nAbmeldung wg. fehl. Zuordnungsermächtigung\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT",
       "step_number": "610",
       "sub_rows": [
         {

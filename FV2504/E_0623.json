@@ -77,7 +77,7 @@
       "use_cases": null
     },
     {
-      "description": "Hat der LFA der Anfrage zur Beendigung der Zuordnung widersprochen?",
+      "description": "Hat der LFA der Anfrage zur Beendigung der Zuordnung widersprochen?\nHinweis: Im Fall der Zustimmung ist dem LFA, dem die Anfrage zur Beendigung der Zuordnung zugestellt wurde in jedem Fall eine \"Beendigung der Zuordnung des LFA zur Marktlokation bzw. Tranche\" zuzusenden.",
       "step_number": "40",
       "sub_rows": [
         {
@@ -215,21 +215,21 @@
       "use_cases": null
     },
     {
-      "description": "Hat der LFA der Anfrage zur Beendigung der Zuordnung widersprochen?",
+      "description": "Hat der LFA der Anfrage zur Beendigung der Zuordnung widersprochen?\nHinweis: Im Fall der Zustimmung ist dem LFA, dem die Anfrage zur Beendigung der Zuordnung zugestellt wurde in jedem Fall eine \"Beendigung der Zuordnung des LFA zur Marktlokation bzw. Tranche\" zuzusenden.",
       "step_number": "430",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "440"
           },
-          "note": "Cluster: Ablehnung\nDer Beendigung der Zuordnung wurde widersprochen.",
-          "result_code": "A52"
+          "note": null,
+          "result_code": null
         },
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "440"
+            "subsequent_step_number": "500"
           },
           "note": null,
           "result_code": null
@@ -238,7 +238,7 @@
       "use_cases": null
     },
     {
-      "description": "Wurde in der Beantwortung der Anfrage zur Beendigung der Zuordnung der Code A39 „Cluster: Ablehnung. Es besteht eine Vertragsbindung.“ verwendet?",
+      "description": "Wurde in der Beantwortung der Anfrage zur Beendigung der Zuordnung der Code A41 „Ablehnung: Die Belieferung wurde zu dem angefragten Termin aus der Anfrage zur Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde.“ verwendet?",
       "step_number": "440",
       "sub_rows": [
         {

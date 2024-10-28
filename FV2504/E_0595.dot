@@ -6,6 +6,9 @@ digraph D {
     "15" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>15: </B>Handelt es sich um eine Bestellung Änderung Netzentgelte aufgrund netzorientierter Steuerungsmöglichkeit?<BR align="left"/>>];
     "17" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>17: </B>Wurde die Vorlauffrist von mindestens 2 WT vor dem Änderungszeitpunkt eingehalten?<BR align="left"/>>];
     "A21" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A21</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: keine Änderung der Daten<BR align="left"/>Die Frist zur Änderung wurde nicht eingehalten<BR align="left"/></FONT>>];
+    "18" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>18: </B>Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose?<BR align="left"/>>];
+    "19" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>19: </B>Wurde die Vorlauffrist von mindestens 7 WT vor dem Änderungszeitpunkt eingehalten?<BR align="left"/>>];
+    "A22" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A22</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: keine Änderung der Daten<BR align="left"/>Die Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose wurde nicht eingehalten.<BR align="left"/></FONT>>];
     "20" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>20: </B>Konnte die Bestellung umgesetzt werden?<BR align="left"/>>];
     "A20" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A20</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Änderung der Daten<BR align="left"/>Der Bestellung der Stammdaten konnte zugestimmt werden.<BR align="left"/>Hinweis: NB versendet neue Stammdaten<BR align="left"/></FONT>>];
     "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: keine Änderung der Daten<BR align="left"/>Der Bestellung der Stammdaten konnte nicht zugestimmt werden.<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: offen<BR align="left"/></FONT>>];
@@ -25,9 +28,13 @@ digraph D {
     "10" -> "15" [label="Ja"];
     "10" -> "210" [label="Nein"];
     "15" -> "17" [label="Ja"];
-    "15" -> "20" [label="Nein"];
+    "15" -> "18" [label="Nein"];
     "17" -> "A21" [label="Nein"];
     "17" -> "20" [label="Ja"];
+    "18" -> "19" [label="Ja"];
+    "18" -> "20" [label="Nein"];
+    "19" -> "A22" [label="Nein"];
+    "19" -> "20" [label="Ja"];
     "20" -> "A20" [label="Ja"];
     "20" -> "A99" [label="Nein"];
     "210" -> "220" [label="Ja"];

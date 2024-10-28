@@ -2,9 +2,8 @@ digraph D {
     labelloc="t";
     label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">8.25.1: AD: Anfrage und Bestellung von Werten durch den ESA</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0252</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
-    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Wird die Übermittlung von Werten an die Marktrolle ESA grundsätzlich angeboten?<BR align="left"/>>];
-    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Der MSB bietet keine freiwillige Übermittlung von Werten an die Marktrolle ESA an.<BR align="left"/></FONT>>];
-    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Wird das vom ESA gewünschte Messprodukt entsprechend der Codeliste der Messprodukte angeboten?<BR align="left"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Ist das vom ESA gewünschte Messprodukt in der Codeliste der Konfigurationen als „Pflicht“ gekennzeichnet?<BR align="left"/>>];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Wird das vom ESA gewünschte Messprodukt entsprechend der Codeliste der Konfigurationen angeboten?<BR align="left"/>>];
     "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Das vom ESA gewünschte Messprodukt wird vom MSB nicht angeboten.<BR align="left"/></FONT>>];
     "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Liegt die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB vor?<BR align="left"/>>];
     "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Vertragliche Grundlage des ESA liegt nicht vor.<BR align="left"/></FONT>>];
@@ -14,14 +13,14 @@ digraph D {
     "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Vorliegende Einwilligung ist nicht plausibel oder vollständig.<BR align="left"/></FONT>>];
     "6" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>6: </B>Ermöglicht die vorhandene Gerätetechnik die Übermittlung der angefragten Werte entsprechend dem Messprodukt?<BR align="left"/>>];
     "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die Gerätetechnik misst die angeforderten Messwerte nicht.<BR align="left"/></FONT>>];
-    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>7: </B>Handelt es sich um eine Anfrage von Werten auf Ebene der Marktlokation / Netzlokation?<BR align="left"/>>];
+    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>7: </B>Handelt es sich um eine Anfrage von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?<BR align="left"/>>];
     "Ende" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label="Ende"];
-    "8" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>8: </B>Ist der MSB an allen der Marktlokation / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation(en)?<BR align="left"/>>];
+    "8" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>8: </B>Ist der MSB an allen der Marktlokation (inkl. Tranche) / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation(en)?<BR align="left"/>>];
     "A07" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A07</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Der MSB der Marktlokation / Netzlokation ist nicht zeitgleich der allen Messlokation(en) zugeordnete MSB.<BR align="left"/></FONT>>];
 
     "Start" -> "1";
-    "1" -> "A01" [label="Nein"];
-    "1" -> "2" [label="Ja"];
+    "1" -> "2" [label="Nein"];
+    "1" -> "3" [label="Ja"];
     "2" -> "A02" [label="Nein"];
     "2" -> "3" [label="Ja"];
     "3" -> "A03" [label="Nein"];
