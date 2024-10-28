@@ -9,6 +9,7 @@ Wir pflegen analog zu den hier abgelegten Daten auch:
 ## Unter der Haube
 
 Zur Erstellung der hier veröffentlichten Daten nutzen wir [`ebd_amame`](https://github.com/Hochfrequenz/ebdamame/) und [`r_ebd_huhn`](https://github.com/Hochfrequenz/rebdhuhn/), zwei Hochfrequenz Libraries zur Verarbeitung von EBDs.
+Konkret verwenden wir unsere [EBD Toolchain](https://github.com/Hochfrequenz/ebd_toolchain) mit der Datengrundlage aus dem [edi-energy-mirror](https://github.com/Hochfrequenz/edi_energy_mirror) in [einer Github Action](https://github.com/Hochfrequenz/edi_energy_mirror/blob/master/.github/workflows/ebdamame_rebdhuhn.yml).
 
 ## Struktur & Datenformate
 
