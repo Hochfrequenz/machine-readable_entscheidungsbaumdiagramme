@@ -215,7 +215,7 @@
       "use_cases": null
     },
     {
-      "description": "Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Netzlokation?",
+      "description": "Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?",
       "step_number": "10",
       "sub_rows": [
         {
@@ -238,7 +238,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation?",
+      "description": "Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation (inkl. Tranche) / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation?",
       "step_number": "11",
       "sub_rows": [
         {

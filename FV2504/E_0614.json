@@ -298,78 +298,9 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "510"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Handelt es sich um eine MaLo-ID einer Tranche?",
-      "step_number": "510",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "540"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "520"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Hält der LFA zu der Marktlokation der mitgeteilten MaLo-ID mindestens eine Tranche?",
-      "step_number": "520",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "530"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
             "subsequent_step_number": "550"
           },
           "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Ist die Summe der Tranche(n) gleich 100% der Marktlokation?",
-      "step_number": "530",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "550"
-          },
-          "note": "Weiter unter Verwendung der MaLo-ID der Marktlokation",
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "550"
-          },
-          "note": "Weiter unter Verwendung MaLo-ID der Tranchen sowie des Prozentsatzes der Tranchen",
           "result_code": null
         }
       ],
@@ -520,7 +451,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "630"
+            "subsequent_step_number": "620"
           },
           "note": null,
           "result_code": null
@@ -528,7 +459,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "620"
+            "subsequent_step_number": "610"
           },
           "note": "Hinweis:\nSolange die Vollmacht beim LFA nicht eingetroffen ist, wartet der Prozess an diesem Prüfschritt. Diese Prüfung ist regelmäßig erneut durchzuführen, bis die Vollmacht eingetroffen ist.",
           "result_code": null
