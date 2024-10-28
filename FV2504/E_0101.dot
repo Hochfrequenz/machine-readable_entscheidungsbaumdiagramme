@@ -1,0 +1,18 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.11.2: AD: Übermittlung von normierten Profilen und Profilscharen vom NB an LF bzw. ÜNB</FONT></B><BR/><BR/><BR/><BR/>>;
+    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0101</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> ÜNB</B></FONT><BR align="center"/>>];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Gehört das empfangene Profil zu einer zuvor abonnierten Profilgruppe aus der Liste der Profildefinitionen?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Empfangenes Profil gehört nicht zu einer zuvor abonnierten Profilgruppe<BR align="left"/></FONT>>];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Ist die übermittelte Version des Profils für den übermittelten Zeitraum höher als die bisher höchste verarbeitete Version des Profils des gleichen Zeitraums?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Version des Profils nicht zugelassen<BR align="left"/></FONT>>];
+    "Ende" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label="Ende"];
+
+    "Start" -> "1";
+    "1" -> "A01" [label="Nein"];
+    "1" -> "2" [label="Ja"];
+    "2" -> "A02" [label="Nein"];
+    "2" -> "Ende" [label="Ja"];
+
+    bgcolor="transparent";
+}
