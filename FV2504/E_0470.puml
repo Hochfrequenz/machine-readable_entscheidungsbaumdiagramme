@@ -22,7 +22,7 @@ endheader
 title
 GPKE
 
-6.12.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF
+6.13.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF
 
 
 
@@ -80,7 +80,8 @@ else (nein)
     endnote
     kill;
 endif
-if (<b>60: </b> Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?) then (ja)
+if (<b>60: </b> Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?
+Hinweis: „Ruhende Marktlokationen“ sind bei der Beantwortung der Frage nicht zu berücksichtigen.) then (ja)
     if (<b>65: </b> Handelt es sich bei der bzw. den weiteren Marktlokationen ausschließlich um erzeugende Marktlokation(en&#41;?) then (ja)
     else (nein)
         :A04;
