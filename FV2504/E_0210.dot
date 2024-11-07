@@ -1,6 +1,6 @@
 digraph D {
-    labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">8.13.1: AD: Abrechnung Messstellenbetrieb gegenüber dem LF</FONT></B><BR/><BR/><BR/><BR/>>;
+'    labelloc="t";
+label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">8.13.1: AD: Abrechnung Messstellenbetrieb gegenüber dem LF</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0210</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> LF</B></FONT><BR align="center"/>>];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Entspricht die Rechnung den Anforderungen gem. §14 Abs. 4 UStG?<BR align="left"/>>];
     "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung auf Kopfebene<BR align="left"/>Rechnung entspricht nicht §14 UstG<BR align="left"/></FONT>>];

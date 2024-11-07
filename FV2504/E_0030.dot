@@ -1,6 +1,6 @@
 digraph D {
-    labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.50.2: AD: Übermittlung Prüfmitteilung des Deltazeitreihenübertrags von NB über BIKO an ÜNB</FONT></B><BR/><BR/><BR/><BR/>>;
+'    labelloc="t";
+label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.50.2: AD: Übermittlung Prüfmitteilung des Deltazeitreihenübertrags von NB über BIKO an ÜNB</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0030</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Erfolgt der Eingang der Prüfmitteilung innerhalb der Clearingphase für DZÜ?<BR align="left"/>>];
     "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Eingang liegt nicht innerhalb der Clearingphase DZÜ<BR align="left"/></FONT>>];

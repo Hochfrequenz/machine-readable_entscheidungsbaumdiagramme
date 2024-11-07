@@ -1,6 +1,6 @@
 digraph D {
-    labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.45.1: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an ÜNB und BKV</FONT></B><BR/><BR/><BR/><BR/>>;
+'    labelloc="t";
+label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.45.1: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an ÜNB und BKV</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0026</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Befindet sich der MaBiS-ZP auf der Aggregationsebene RZ?<BR align="left"/>>];
     "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Hat der BKV für den BK dieses MaBiS-ZP in diesem Bilanzierungsmonat die Aggregationsebene RZ abbestellt?<BR align="left"/>>];

@@ -1,6 +1,6 @@
 digraph D {
-    labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.13.1: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF</FONT></B><BR/><BR/><BR/><BR/>>;
+'    labelloc="t";
+label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.13.1: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0497</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Wurde die Sperrung durch den UC "Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF" ausgelöst?<BR align="left"/>>];
     "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Marktlokation wurde nicht über den UC (Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF) gesperrt. <BR align="left"/>Hinweis: Die Entsperrung muss auf konventionellem Weg erfolgen.<BR align="left"/></FONT>>];
