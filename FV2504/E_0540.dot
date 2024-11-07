@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.32.1: AD: Bestellung Beendigung einer Konfiguration vom LF an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.33.1: AD: Bestellung Beendigung einer Konfiguration vom LF an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0540</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
     "15" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>15: </B>Wurden die Vorlauffristen eingehalten?<BR align="left"/>Hinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen.<BR align="left"/>>];
     "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die Vorlauffrist wurde nicht eingehalten.<BR align="left"/></FONT>>];

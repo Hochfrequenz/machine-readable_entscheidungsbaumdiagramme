@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.17.1: AD: Bestellung einer Änderung von Abrechnungsdaten von LF an NB</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.18.1: AD: Bestellung einer Änderung von Abrechnungsdaten von LF an NB</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0595</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Handelt es sich bei dem Anwendungsfall um eine Bestellung mittels ORDERS?<BR align="left"/>>];
     "15" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>15: </B>Handelt es sich um eine Bestellung Änderung Netzentgelte aufgrund netzorientierter Steuerungsmöglichkeit?<BR align="left"/>>];

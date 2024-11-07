@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.22.2: AD: Bestellung zur Stammdatenänderung an NB (verantwortlich)</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.23.2: AD: Bestellung zur Stammdatenänderung an NB (verantwortlich)</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0576</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Stimmen alle Stammdaten für Verwendungszeiträume, welche mit „Im System vorhandene Daten“ gekennzeichnet sind, sowie Verwendungszeiträume welche mit „Im System keine Daten vorhanden“ gekennzeichnet sind, mit dem beim Verantwortlichen vorliegenden Stammdaten überein?<BR align="left"/>Hinweis:<BR align="left"/>Dies ist für jeden in der Anfrage vorhandenen Verwendungszeitraum jeweils für den gesamten Zeitraum zu prüfen.<BR align="left"/>>];
     "20" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>20: </B>Sind in der Bestellung der Stammdatenänderung Verwendungszeiträume der Daten mit dem Code „Erwartete Daten“ und / oder „Keine Daten erwartet“ enthalten?<BR align="left"/>>];

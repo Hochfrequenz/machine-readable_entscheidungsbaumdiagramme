@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.54.2: AD: Stammdaten zur Bilanzkreistreue</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.55.2: AD: Stammdaten zur Bilanzkreistreue</FONT></B><BR/><BR/><BR/><BR/>>;
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0616</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> </B></FONT><BR align="center"/>>];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Hat der Berechtigte in der Qualitätsrückmeldung mitgeteilt, dass er die Stammdaten ohne Anmerkung übernommen hat?<BR align="left"/>>];
     "Ende" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label="Ende"];

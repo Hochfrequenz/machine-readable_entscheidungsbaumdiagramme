@@ -27,7 +27,7 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1767.25)">
 <title>D</title>
 <text text-anchor="start" x="2442.53" y="-1743.15" font-family="Times,serif" font-weight="bold" font-size="18.00">GPKE</text>
-<text text-anchor="start" x="2098.28" y="-1713.05" font-family="Times,serif" font-weight="bold" font-size="16.00">6.12.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF</text>
+<text text-anchor="start" x="2098.28" y="-1713.05" font-family="Times,serif" font-weight="bold" font-size="16.00">6.13.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF</text>
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
@@ -191,15 +191,16 @@
 <!-- 60 -->
 <g id="node12" class="node">
 <title>60</title>
-<path fill="#7aab8a" stroke="black" d="M3676.18,-993.88C3676.18,-993.88 2808.12,-993.88 2808.12,-993.88 2802.12,-993.88 2796.12,-987.88 2796.12,-981.88 2796.12,-981.88 2796.12,-969.88 2796.12,-969.88 2796.12,-963.88 2802.12,-957.88 2808.12,-957.88 2808.12,-957.88 3676.18,-957.88 3676.18,-957.88 3682.18,-957.88 3688.18,-963.88 3688.18,-969.88 3688.18,-969.88 3688.18,-981.88 3688.18,-981.88 3688.18,-987.88 3682.18,-993.88 3676.18,-993.88"/>
-<text text-anchor="start" x="2810.53" y="-972.2" font-family="Times,serif" font-weight="bold" font-size="14.00">60: </text>
-<text text-anchor="start" x="2839.78" y="-972.2" font-family="Times,serif" font-size="14.00">Sind weitere Marktlokationen von der Sperrung betroffen, f&#252;r die dieser Sperrauftrag keine Wirkung entfalten darf?</text>
+<path fill="#7aab8a" stroke="black" d="M3676.18,-998.52C3676.18,-998.52 2808.12,-998.52 2808.12,-998.52 2802.12,-998.52 2796.12,-992.52 2796.12,-986.52 2796.12,-986.52 2796.12,-965.24 2796.12,-965.24 2796.12,-959.24 2802.12,-953.24 2808.12,-953.24 2808.12,-953.24 3676.18,-953.24 3676.18,-953.24 3682.18,-953.24 3688.18,-959.24 3688.18,-965.24 3688.18,-965.24 3688.18,-986.52 3688.18,-986.52 3688.18,-992.52 3682.18,-998.52 3676.18,-998.52"/>
+<text text-anchor="start" x="2810.53" y="-977.58" font-family="Times,serif" font-weight="bold" font-size="14.00">60: </text>
+<text text-anchor="start" x="2839.78" y="-977.58" font-family="Times,serif" font-size="14.00">Sind weitere Marktlokationen von der Sperrung betroffen, f&#252;r die dieser Sperrauftrag keine Wirkung entfalten darf?</text>
+<text text-anchor="start" x="2810.53" y="-963.58" font-family="Times,serif" font-size="14.00">Hinweis: &#8222;Ruhende Marktlokationen&#8220; sind bei der Beantwortung der Frage nicht zu ber&#252;cksichtigen.</text>
 </g>
 <!-- 50&#45;&gt;60 -->
 <g id="edge11" class="edge">
 <title>50-&gt;60</title>
-<path fill="none" stroke="black" d="M2855.19,-1084.17C2937.43,-1061.37 3081.06,-1021.55 3168.3,-997.36"/>
-<polygon fill="black" stroke="black" points="3169.01,-1000.79 3177.71,-994.75 3167.14,-994.05 3169.01,-1000.79"/>
+<path fill="none" stroke="black" d="M2855.19,-1084.17C2932.32,-1062.78 3063.47,-1026.42 3151.43,-1002.03"/>
+<polygon fill="black" stroke="black" points="3152.31,-1005.42 3161.01,-999.38 3150.44,-998.68 3152.31,-1005.42"/>
 <text text-anchor="middle" x="3050.9" y="-1034.59" font-family="Times,serif" font-size="14.00">Ja</text>
 </g>
 <!-- 65 -->
@@ -212,8 +213,8 @@
 <!-- 60&#45;&gt;65 -->
 <g id="edge12" class="edge">
 <title>60-&gt;65</title>
-<path fill="none" stroke="black" d="M3187.21,-957.49C3128.63,-938.96 3035.88,-909.61 2973.33,-889.81"/>
-<polygon fill="black" stroke="black" points="2974.44,-886.49 2963.85,-886.81 2972.32,-893.17 2974.44,-886.49"/>
+<path fill="none" stroke="black" d="M3172.33,-952.79C3113.69,-934.23 3030.51,-907.91 2973.01,-889.71"/>
+<polygon fill="black" stroke="black" points="2974.26,-886.44 2963.67,-886.76 2972.15,-893.11 2974.26,-886.44"/>
 <text text-anchor="middle" x="3071.9" y="-907.82" font-family="Times,serif" font-size="14.00">Ja</text>
 </g>
 <!-- 70 -->
@@ -226,7 +227,7 @@
 <!-- 60&#45;&gt;70 -->
 <g id="edge13" class="edge">
 <title>60-&gt;70</title>
-<path fill="none" stroke="black" d="M3267.79,-957.48C3289.4,-941.44 3319.39,-915.64 3336.15,-885.87 3353.15,-855.67 3359.46,-815.82 3361.79,-789.32"/>
+<path fill="none" stroke="black" d="M3273.96,-952.81C3294.81,-936.65 3320.94,-912.9 3336.15,-885.87 3353.15,-855.67 3359.46,-815.82 3361.79,-789.32"/>
 <polygon fill="black" stroke="black" points="3365.26,-789.9 3362.5,-779.67 3358.28,-789.39 3365.26,-789.9"/>
 <text text-anchor="middle" x="3368.03" y="-863.19" font-family="Times,serif" font-size="14.00">Nein</text>
 </g>
