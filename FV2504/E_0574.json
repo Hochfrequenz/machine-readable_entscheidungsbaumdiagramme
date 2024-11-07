@@ -291,4 +291,297 @@
       "use_cases": null
     }
   ]
+}{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0574",
+    "ebd_name": "E_0574",
+    "remark": null,
+    "role": "ÜNB",
+    "section": "6.54.1: AD: Stammdaten zur Bilanzkreistreue"
+  },
+  "multi_step_instructions": [
+    {
+      "first_step_number_affected": "10",
+      "instruction_text": "Alle festgestellten Antworten sind anzugeben, soweit im Format möglich (maximal 8 Antwortcodes)*."
+    }
+  ],
+  "rows": [
+    {
+      "description": "Handelt es sich um einen Verwendungszeitraum mit der Qualität „keine Daten“?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "110"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Absender der Nachricht für diesen Verwendungszeitraum dem bisher im System des Empfängers zugeordneten Netzbetreiber?\nHinweis: Liegt keine bisherige Zuordnung vor, ist die Frage mit \"ja\" zu beantworten.",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "30"
+          },
+          "note": "Der Absender der Nachricht entspricht für diesen Verwendungszeitraum nicht dem bisherigen Netzbetreiber. Es wurde damit ein Netzbetreiberwechsel durchgeführt.",
+          "result_code": "A17"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Bilanzierungsgebiet zum angegebenen Zeitpunkt in der Regelzone gültig?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "40"
+          },
+          "note": "Bilanzierungsgebiet nicht gültig.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der angegebene Netzbetreiber dem Bilanzierungsgebiet zugeordnet?",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": "Angegebener NB entspricht nicht dem zugeordneten NB des Bilanzierungsgebiets.",
+          "result_code": "A14"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Messstellenbetreiber zum Zeitpunkt der Prüfung in der BDEW-Codenummerndatenbank registriert?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "70"
+          },
+          "note": "Messstellenbetreiber nicht gültig.",
+          "result_code": "A15"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "70"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Lieferant zum Zeitpunkt der Prüfung in der BDEW-Codenummerndatenbank registriert?",
+      "step_number": "70",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "80"
+          },
+          "note": "Lieferant nicht gültig.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "80"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Bilanzkreis zum angegebenen Zeitpunkt in der Regelzone gültig?",
+      "step_number": "80",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "90"
+          },
+          "note": "Bilanzkreis nicht gültig.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Passt die Prognosegrundlage zum ZRT?",
+      "step_number": "90",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "100"
+          },
+          "note": "Prognosegrundlage passt nicht zum ZRT.",
+          "result_code": "A16"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "100"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Passt die aus der Transaktionsgrundergänzung sich ableitende Lieferrichtung zum ZRT?",
+      "step_number": "100",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "110"
+          },
+          "note": "Lieferrichtung nicht passend.",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "110"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "110",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "120"
+          },
+          "note": "Sonstige Qualitätsrückmeldung\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat keine vorangegangene Prüfung zu einer Antwort geführt?",
+      "step_number": "120",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "130"
+          },
+          "note": "Stammdaten wurden für den angegebenen Verwendungszeitraum widerspruchsfrei übernommen.",
+          "result_code": "A13"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "130"
+          },
+          "note": "Stammdaten wurden übernommen \nHinweis A**: Es werden alle gemerkten Antwortcodes der vorhergehenden Prüfschritte für jeden fehlerhaft identifizierten Verwendungszeitraum der Daten unter Angabe der Zeitraum-ID übermittelt.",
+          "result_code": "A**"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind noch weitere Verwendungszeiträume zu prüfen?",
+      "step_number": "130",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "Ende"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
 }

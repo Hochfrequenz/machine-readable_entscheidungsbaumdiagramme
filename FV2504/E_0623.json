@@ -401,4 +401,407 @@
       "use_cases": null
     }
   ]
+}{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0623",
+    "ebd_name": "E_0623",
+    "remark": null,
+    "role": "NB",
+    "section": "6.6.4: AD: Lieferbeginn"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Wurde der Anwendungsfall für eine verbrauchende Marktlokation oder ruhende Marktlokation verwendet?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "400"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde eine Anfrage zur Beendigung der Zuordnung gestellt?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der LFA fristgerecht geantwortet?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der LFA der Anfrage zur Beendigung der Zuordnung widersprochen?\nHinweis: Im Fall der Zustimmung ist dem LFA, dem die Anfrage zur Beendigung der Zuordnung zugestellt wurde in jedem Fall eine \"Beendigung der Zuordnung des LFA zur Marktlokation bzw. Tranche\" zuzusenden.",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde in der Beantwortung der Anfrage zur Beendigung der Zuordnung der Code A30 „Ablehnung: Die Belieferung wurde zu dem angefragten Termin aus der Anfrage zur Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde.“ verwendet?",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer LFA hat der Anfrage zur Beendigung der Zuordnung widersprochen.",
+          "result_code": "A50"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung",
+          "result_code": "A51"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges \nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "result_code": "A99"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um Geschäftsvorfall 3?",
+      "step_number": "400",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "500"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "410"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde eine Anfrage zur Beendigung der Zuordnung gestellt?",
+      "step_number": "410",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "420"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "600"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der LFA fristgerecht geantwortet?",
+      "step_number": "420",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "430"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "600"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der LFA der Anfrage zur Beendigung der Zuordnung widersprochen?\nHinweis: Im Fall der Zustimmung ist dem LFA, dem die Anfrage zur Beendigung der Zuordnung zugestellt wurde in jedem Fall eine \"Beendigung der Zuordnung des LFA zur Marktlokation bzw. Tranche\" zuzusenden.",
+      "step_number": "430",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "440"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "500"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde in der Beantwortung der Anfrage zur Beendigung der Zuordnung der Code A41 „Ablehnung: Die Belieferung wurde zu dem angefragten Termin aus der Anfrage zur Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde.“ verwendet?",
+      "step_number": "440",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer LFA hat der Anfrage zur Beendigung der Zuordnung widersprochen.",
+          "result_code": "A57"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "500"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurden Anfragen zur Beendigung der Zuordnung an die zugeordneten Lieferanten der Tranchen, an der Marktlokation gestellt?",
+      "step_number": "500",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "510"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "600"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mindestens einer Anfrage zur Beendigung der Zuordnung zugestimmt?",
+      "step_number": "510",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "520"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer gewünschte Prozentsatz an der Marktlokation ist nicht frei",
+          "result_code": "A53"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein ausreichend großer Prozentsatz an der Marktlokation frei geworden?",
+      "step_number": "520",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "530"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDer gewünschte Prozentsatz an der Marktlokation ist nicht frei",
+          "result_code": "A54"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Verbleibt ein Anteil im Bilanzkreis des Netzbetreibers?",
+      "step_number": "530",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "540"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "600"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine direktvermarktungspflichtige Marktlokation?",
+      "step_number": "540",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nUnter Bildung einer neuen Tranche sowie Info über fehlende Anteile an der Marktlokation in der Bilanzierung\nHinweis: Trigger für Prozess: Herstellung einer 100% LF-Zuordnung zu einer Marktlokation beim NB",
+          "result_code": "A55"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "600"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "600",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nUnter Bildung einer neuen Tranche",
+          "result_code": "A56"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges \nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "result_code": "A99"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
 }

@@ -125,4 +125,131 @@
       "use_cases": null
     }
   ]
+}{
+  "metadata": {
+    "chapter": "MaBiS",
+    "ebd_code": "E_0103",
+    "ebd_name": "E_0103",
+    "remark": null,
+    "role": "NB",
+    "section": "7.9.1: AD: Beendigung der Zuordnung einer Netzgangzeitreihe zu einer Netzzeitreihe beim NB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Entspricht die Beendigung der Zuordnung der Netzgangzeitreihe zur Netzzeitreihe der Vereinbarung zur messtechnischen Abgrenzung der beiden benachbarten NB?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nBeendigung der Zuordnung passt nicht zur Vereinbarung",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Absender zum Zuordnungsende an der Netzzeitreihe beteiligt?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nKeine Berechtigung für die Netzzeitreihe",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "3"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Empfänger zum Zuordnungsende an der Netzzeitreihe beteiligt?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nKeine Beteiligung an der Netzzeitreihe",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Existiert zum Zuordnungsende eine Zuordnung der angegebenen Netzgangzeitreihe zu der angegebenen Netzzeitreihe?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nZuordnung nicht vorhanden",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nBeendigung der Zuordnung durchgeführt",
+          "result_code": "A05"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
 }

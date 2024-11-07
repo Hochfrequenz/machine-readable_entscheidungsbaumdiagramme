@@ -33,4 +33,39 @@
       "use_cases": null
     }
   ]
+}{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0603",
+    "ebd_name": "E_0603",
+    "remark": null,
+    "role": "LF",
+    "section": "6.50.1: AD: Fall 1: LF-Zuordnung bei EEG-Marktlokation ohne DV-Pflicht bzw. KWKG-Marktlokation ohne DV-Pflicht"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung \nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nZustimmung",
+          "result_code": "A01"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
 }

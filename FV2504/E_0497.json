@@ -125,4 +125,131 @@
       "use_cases": null
     }
   ]
+}{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0497",
+    "ebd_name": "E_0497",
+    "remark": null,
+    "role": "NB",
+    "section": "6.13.1: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Wurde die Sperrung durch den UC \"Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF\" ausgelöst?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation wurde nicht über den UC (Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF) gesperrt. \nHinweis: Die Entsperrung muss auf konventionellem Weg erfolgen.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wäre eine Wiederinbetriebnahme aufgrund eines technischen Verhinderungsrundes (z.B. entspricht nicht den geltenden Rechtsvorschriften, behördlichen Verfügungen, den anerkannten Regeln der Technik, DIN VDE Normen, Technischen Anschlussbedingungen (TAB) oder den sonstigen besonderen Vorschriften des NB) nicht möglich?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nWiederinbetriebnahme wäre technisch nicht möglich\nHinweis:\nDie Marktlokation bzw. die dazugehörigen elektrischen Anlagen kann gemäß NAV und TAB nicht wieder in Betrieb genommen werden. Sie entspricht nicht der geltenden Rechtsvorschriften und behördlichen Verfügungen sowie den anerkannten Regeln der Technik, insbesondere DIN VDE Normen, den Technischen Anschlussbedingungen (TAB) und den sonstigen besonderen Vorschriften des NB.",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "3"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist zum Zeitpunkt des Nachrichteneingangs die Marktlokation bereits entsperrt?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation ist nicht gesperrt.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt bereits ein Entsperrauftrag vor?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEntsperrauftrag für die Marktlokation liegt bereits vor.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nZustimmung",
+          "result_code": "A03"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
 }

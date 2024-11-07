@@ -263,4 +263,269 @@
       "use_cases": null
     }
   ]
+}{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0595",
+    "ebd_name": "E_0595",
+    "remark": null,
+    "role": "NB",
+    "section": "6.17.1: AD: Bestellung einer Änderung von Abrechnungsdaten von LF an NB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Handelt es sich bei dem Anwendungsfall um eine Bestellung mittels ORDERS?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "15"
+          },
+          "note": "Hinweis: Bestellung von Stammdaten mittels ORDERS",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "210"
+          },
+          "note": "Hinweis: Bestellung des Stammdaten -Clearing mittels UTILMD",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Bestellung Änderung Netzentgelte aufgrund netzorientierter Steuerungsmöglichkeit?",
+      "step_number": "15",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "17"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "18"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Vorlauffrist von mindestens 2 WT vor dem Änderungszeitpunkt eingehalten?",
+      "step_number": "17",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nDie Frist zur Änderung wurde nicht eingehalten",
+          "result_code": "A21"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose?",
+      "step_number": "18",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "19"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Vorlauffrist von mindestens 7 WT vor dem Änderungszeitpunkt eingehalten?",
+      "step_number": "19",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nDie Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose wurde nicht eingehalten.",
+          "result_code": "A22"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Konnte die Bestellung umgesetzt werden?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Änderung der Daten\nDer Bestellung der Stammdaten konnte zugestimmt werden.\nHinweis: NB versendet neue Stammdaten",
+          "result_code": "A20"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nDer Bestellung der Stammdaten konnte nicht zugestimmt werden.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "result_code": "A99"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Stimmen alle Stammdaten für Verwendungszeiträume, welche mit „Im System vorhandene Daten“ gekennzeichnet sind, sowie Verwendungszeiträume welche mit „Im System keine Daten vorhanden“ gekennzeichnet sind, mit dem beim Verantwortlichen vorliegenden Stammdaten überein?\nHinweis:\nDies ist für jeden in der Anfrage vorhandenen Verwendungszeitraum jeweils für den gesamten Zeitraum zu prüfen.",
+      "step_number": "210",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "220"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "240"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind in der Bestellung der Stammdatenänderung Verwendungszeiträume der Daten mit dem Code „Erwartete Daten“ und / oder „Keine Daten erwartet“ enthalten?",
+      "step_number": "220",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nDer Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit: \n- Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen überein. \n- Es wurden keine Stammdaten zur Änderung angegeben. \nEine Stammdatenänderung wird nicht versendet.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "230"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kommt der Verantwortliche zu dem Ergebnis, dass er Änderungen an seinen Stammdaten vornimmt?",
+      "step_number": "230",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Änderung der Daten\nDer Verantwortliche teilt in dem Bearbeitungstand der Stammdaten mit:\n- Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen überein.\n- Änderungen an den Stammdaten werden vorgenommen. \nEine Stammdatenänderung wird versendet.",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nDer Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit:\n- Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen überein.\n- Änderungen an den Stammdaten werden nicht vorgenommen.\nEine Stammdatenänderung wird nicht versendet.",
+          "result_code": "A03"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind in der Bestellung der Stammdatenänderung Verwendungszeiträume der Daten mit dem Code „Erwartete Daten“ und / oder „Keine Daten erwartet“ enthalten?",
+      "step_number": "240",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Änderung der Daten\nDer Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit: \n- Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen nicht überein. \n- Es wurden keine Stammdaten zur Änderung angegeben. \nEine Stammdatenänderung wird versendet.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "250"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kommt der Verantwortliche zu dem Ergebnis, dass er Änderungen an seinen Stammdaten vornimmt?",
+      "step_number": "250",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Änderung der Daten\nDer Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit:\n- Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen nicht überein.\n- Änderungen an den Stammdaten werden vorgenommen. \nEine Stammdatenänderung wird versendet.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Änderung der Daten\nDer Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit: \n- Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen nicht überein.\n- Änderungen an den Stammdaten werden nicht vornehmen\nEine Stammdatenänderung wird versendet.",
+          "result_code": "A06"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
 }

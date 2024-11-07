@@ -33,4 +33,39 @@
       "use_cases": null
     }
   ]
+}{
+  "metadata": {
+    "chapter": "MaBiS",
+    "ebd_code": "E_0030",
+    "ebd_name": "E_0030",
+    "remark": null,
+    "role": "BIKO",
+    "section": "7.50.2: AD: Übermittlung Prüfmitteilung des Deltazeitreihenübertrags von NB über BIKO an ÜNB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Erfolgt der Eingang der Prüfmitteilung innerhalb der Clearingphase für DZÜ?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Eingang liegt nicht innerhalb der Clearingphase DZÜ",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "Ende"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
 }
