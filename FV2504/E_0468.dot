@@ -1,6 +1,12 @@
 digraph D {
     labelloc="t";
     label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.15.1: AD: Stornieren der Unterbrechung und Wiederherstellung der Anschlussnutzung auf Anweisung des LF</FONT></B><BR/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0468</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Wurde der Sperr- / Entsperrauftrag bereits durch den NB abgelehnt?<BR align="left"/>>];
     "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Auftrag wurde bereits abgelehnt und kann nicht mehr storniert werden<BR align="left"/></FONT>>];

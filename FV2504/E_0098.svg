@@ -31,85 +31,85 @@
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<polygon fill="#7a8da1" stroke="black" points="484.71,-345.82 316.41,-345.82 316.41,-302.54 484.71,-302.54 484.71,-345.82"/>
-<text text-anchor="start" x="372.44" y="-324.88" font-family="Times,serif" font-weight="bold" font-size="14.00">E_0098</text>
-<text text-anchor="start" x="330.81" y="-312.78" font-family="Times,serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
-<text text-anchor="start" x="435.81" y="-312.78" font-family="Times,serif" font-weight="bold" font-size="12.00"> BKV</text>
+<polygon fill="#7a8da1" stroke="black" points="567.71,-345.82 399.41,-345.82 399.41,-302.54 567.71,-302.54 567.71,-345.82"/>
+<text text-anchor="start" x="455.44" y="-324.88" font-family="Times,serif" font-weight="bold" font-size="14.00">E_0098</text>
+<text text-anchor="start" x="413.81" y="-312.78" font-family="Times,serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
+<text text-anchor="start" x="518.81" y="-312.78" font-family="Times,serif" font-weight="bold" font-size="12.00"> BKV</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" d="M731.84,-265.54C731.84,-265.54 69.29,-265.54 69.29,-265.54 63.29,-265.54 57.29,-259.54 57.29,-253.54 57.29,-253.54 57.29,-241.54 57.29,-241.54 57.29,-235.54 63.29,-229.54 69.29,-229.54 69.29,-229.54 731.84,-229.54 731.84,-229.54 737.84,-229.54 743.84,-235.54 743.84,-241.54 743.84,-241.54 743.84,-253.54 743.84,-253.54 743.84,-259.54 737.84,-265.54 731.84,-265.54"/>
-<text text-anchor="start" x="71.69" y="-243.86" font-family="Times,serif" font-weight="bold" font-size="14.00">1: </text>
-<text text-anchor="start" x="91.19" y="-243.86" font-family="Times,serif" font-size="14.00">Liegt die Version der Zeitreihe des MaBiS-ZP f&#252;r diesen Bilanzierungsmonat bereits vor?</text>
+<path fill="#7aab8a" stroke="black" d="M814.84,-265.54C814.84,-265.54 152.29,-265.54 152.29,-265.54 146.29,-265.54 140.29,-259.54 140.29,-253.54 140.29,-253.54 140.29,-241.54 140.29,-241.54 140.29,-235.54 146.29,-229.54 152.29,-229.54 152.29,-229.54 814.84,-229.54 814.84,-229.54 820.84,-229.54 826.84,-235.54 826.84,-241.54 826.84,-241.54 826.84,-253.54 826.84,-253.54 826.84,-259.54 820.84,-265.54 814.84,-265.54"/>
+<text text-anchor="start" x="154.69" y="-243.86" font-family="Times,serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="174.19" y="-243.86" font-family="Times,serif" font-size="14.00">Liegt die Version der Zeitreihe des MaBiS-ZP f&#252;r diesen Bilanzierungsmonat bereits vor?</text>
 </g>
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M400.56,-302.39C400.56,-294.53 400.56,-285.45 400.56,-277.01"/>
-<polygon fill="black" stroke="black" points="404.06,-277.21 400.56,-267.21 397.06,-277.21 404.06,-277.21"/>
+<path fill="none" stroke="black" d="M483.56,-302.39C483.56,-294.53 483.56,-285.45 483.56,-277.01"/>
+<polygon fill="black" stroke="black" points="487.06,-277.21 483.56,-267.21 480.06,-277.21 487.06,-277.21"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<polygon fill="#cfb986" stroke="black" points="478.43,-176.29 286.7,-176.29 286.7,-114.77 478.43,-114.77 478.43,-176.29"/>
-<text text-anchor="start" x="367.56" y="-158.23" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
-<text text-anchor="start" x="298.94" y="-146.13" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="298.94" y="-134.13" font-family="Times,serif" font-size="12.00">Cluster: Abweisung</text>
-<text text-anchor="start" x="298.94" y="-122.13" font-family="Times,serif" font-size="12.00">Zeitreihe bereits vorhanden</text>
+<polygon fill="#cfb986" stroke="black" points="395.43,-176.29 203.7,-176.29 203.7,-114.77 395.43,-114.77 395.43,-176.29"/>
+<text text-anchor="start" x="284.56" y="-158.23" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="215.94" y="-146.13" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
+<text text-anchor="start" x="215.94" y="-134.13" font-family="Times,serif" font-size="12.00">Cluster: Abweisung</text>
+<text text-anchor="start" x="215.94" y="-122.13" font-family="Times,serif" font-size="12.00">Zeitreihe bereits vorhanden</text>
 </g>
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="black" d="M397.43,-229.12C395.38,-217.73 392.61,-202.34 390.01,-187.93"/>
-<polygon fill="black" stroke="black" points="393.47,-187.39 388.26,-178.17 386.58,-188.63 393.47,-187.39"/>
-<text text-anchor="middle" x="401.31" y="-198.24" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="black" d="M451.51,-229.12C427.65,-216.15 394.25,-197.99 364.84,-182.01"/>
+<polygon fill="black" stroke="black" points="366.82,-179.1 356.36,-177.4 363.48,-185.25 366.82,-179.1"/>
+<text text-anchor="middle" x="425.31" y="-198.24" font-family="Times,serif" font-size="14.00">Ja</text>
 </g>
 <!-- 2 -->
 <g id="node4" class="node">
 <title>2</title>
-<path fill="#7aab8a" stroke="black" d="M1082.21,-163.53C1082.21,-163.53 508.91,-163.53 508.91,-163.53 502.91,-163.53 496.91,-157.53 496.91,-151.53 496.91,-151.53 496.91,-139.53 496.91,-139.53 496.91,-133.53 502.91,-127.53 508.91,-127.53 508.91,-127.53 1082.21,-127.53 1082.21,-127.53 1088.21,-127.53 1094.21,-133.53 1094.21,-139.53 1094.21,-139.53 1094.21,-151.53 1094.21,-151.53 1094.21,-157.53 1088.21,-163.53 1082.21,-163.53"/>
-<text text-anchor="start" x="511.31" y="-141.85" font-family="Times,serif" font-weight="bold" font-size="14.00">2: </text>
-<text text-anchor="start" x="530.81" y="-141.85" font-family="Times,serif" font-size="14.00">Entsprechen die Energiemengen der AA&#220;Z den erwarteten Energiemengen?</text>
+<path fill="#7aab8a" stroke="black" d="M999.21,-163.53C999.21,-163.53 425.91,-163.53 425.91,-163.53 419.91,-163.53 413.91,-157.53 413.91,-151.53 413.91,-151.53 413.91,-139.53 413.91,-139.53 413.91,-133.53 419.91,-127.53 425.91,-127.53 425.91,-127.53 999.21,-127.53 999.21,-127.53 1005.21,-127.53 1011.21,-133.53 1011.21,-139.53 1011.21,-139.53 1011.21,-151.53 1011.21,-151.53 1011.21,-157.53 1005.21,-163.53 999.21,-163.53"/>
+<text text-anchor="start" x="428.31" y="-141.85" font-family="Times,serif" font-weight="bold" font-size="14.00">2: </text>
+<text text-anchor="start" x="447.81" y="-141.85" font-family="Times,serif" font-size="14.00">Entsprechen die Energiemengen der AA&#220;Z den erwarteten Energiemengen?</text>
 </g>
 <!-- 1&#45;&gt;2 -->
 <g id="edge3" class="edge">
 <title>1-&gt;2</title>
-<path fill="none" stroke="black" d="M469.37,-229.12C538.01,-211.74 643.39,-185.06 715.69,-166.75"/>
-<polygon fill="black" stroke="black" points="716.25,-170.22 725.09,-164.37 714.53,-163.44 716.25,-170.22"/>
-<text text-anchor="middle" x="615.44" y="-198.24" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="black" d="M523.45,-229.12C562,-212.28 620.53,-186.72 662.26,-168.5"/>
+<polygon fill="black" stroke="black" points="663.6,-171.73 671.36,-164.52 660.8,-165.32 663.6,-171.73"/>
+<text text-anchor="middle" x="614.44" y="-198.24" font-family="Times,serif" font-size="14.00">Nein</text>
 </g>
 <!-- A02 -->
 <g id="node5" class="node">
 <title>A02</title>
-<polygon fill="#cfb986" stroke="black" points="811.68,-61.52 561.45,-61.52 561.45,0 811.68,0 811.68,-61.52"/>
-<text text-anchor="start" x="671.56" y="-43.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A02</text>
-<text text-anchor="start" x="573.69" y="-31.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="573.69" y="-19.36" font-family="Times,serif" font-size="12.00">Cluster: Ablehnung</text>
-<text text-anchor="start" x="573.69" y="-7.36" font-family="Times,serif" font-size="12.00">Energiemenge falsch / nicht plausibel</text>
+<polygon fill="#cfb986" stroke="black" points="728.68,-61.52 478.45,-61.52 478.45,0 728.68,0 728.68,-61.52"/>
+<text text-anchor="start" x="588.56" y="-43.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="490.69" y="-31.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
+<text text-anchor="start" x="490.69" y="-19.36" font-family="Times,serif" font-size="12.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="490.69" y="-7.36" font-family="Times,serif" font-size="12.00">Energiemenge falsch / nicht plausibel</text>
 </g>
 <!-- 2&#45;&gt;A02 -->
 <g id="edge4" class="edge">
 <title>2-&gt;A02</title>
-<path fill="none" stroke="black" d="M779.01,-127.4C764.31,-112.2 742.31,-89.44 723.46,-69.93"/>
-<polygon fill="black" stroke="black" points="726.12,-67.65 716.65,-62.89 721.09,-72.51 726.12,-67.65"/>
-<text text-anchor="middle" x="765.44" y="-83.47" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="black" d="M696.01,-127.4C681.31,-112.2 659.31,-89.44 640.46,-69.93"/>
+<polygon fill="black" stroke="black" points="643.12,-67.65 633.65,-62.89 638.09,-72.51 643.12,-67.65"/>
+<text text-anchor="middle" x="681.44" y="-83.47" font-family="Times,serif" font-size="14.00">Nein</text>
 </g>
 <!-- A03 -->
 <g id="node6" class="node">
 <title>A03</title>
-<polygon fill="#cfb986" stroke="black" points="979.8,-61.52 829.32,-61.52 829.32,0 979.8,0 979.8,-61.52"/>
-<text text-anchor="start" x="889.56" y="-43.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A03</text>
-<text text-anchor="start" x="841.56" y="-31.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="841.56" y="-19.36" font-family="Times,serif" font-size="12.00">Cluster: Zustimmung</text>
-<text text-anchor="start" x="841.56" y="-7.36" font-family="Times,serif" font-size="12.00">Zeitreihe akzeptiert</text>
+<polygon fill="#cfb986" stroke="black" points="896.8,-61.52 746.32,-61.52 746.32,0 896.8,0 896.8,-61.52"/>
+<text text-anchor="start" x="806.56" y="-43.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="758.56" y="-31.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
+<text text-anchor="start" x="758.56" y="-19.36" font-family="Times,serif" font-size="12.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="758.56" y="-7.36" font-family="Times,serif" font-size="12.00">Zeitreihe akzeptiert</text>
 </g>
 <!-- 2&#45;&gt;A03 -->
 <g id="edge5" class="edge">
 <title>2-&gt;A03</title>
-<path fill="none" stroke="black" d="M812.12,-127.4C826.81,-112.2 848.81,-89.44 867.67,-69.93"/>
-<polygon fill="black" stroke="black" points="870.04,-72.51 874.47,-62.89 865.01,-67.65 870.04,-72.51"/>
-<text text-anchor="middle" x="863.31" y="-83.47" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="black" d="M729.12,-127.4C743.81,-112.2 765.81,-89.44 784.67,-69.93"/>
+<polygon fill="black" stroke="black" points="787.04,-72.51 791.47,-62.89 782.01,-67.65 787.04,-72.51"/>
+<text text-anchor="middle" x="780.31" y="-83.47" font-family="Times,serif" font-size="14.00">Ja</text>
 </g>
 </g>
 </svg>
