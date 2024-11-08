@@ -52,29 +52,29 @@
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<polygon fill="#cfb986" stroke="black" points="490.24,-49.52 345.76,-49.52 345.76,0 490.24,0 490.24,-49.52"/>
-<text text-anchor="start" x="403" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
-<text text-anchor="start" x="358" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="358" y="-7.36" font-family="Times,serif" font-size="12.00">Frist&#252;berschreitung</text>
+<polygon fill="#cfb986" stroke="black" points="489.24,-49.52 344.76,-49.52 344.76,0 489.24,0 489.24,-49.52"/>
+<text text-anchor="start" x="402" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="357" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
+<text text-anchor="start" x="357" y="-7.36" font-family="Times,serif" font-size="12.00">Frist&#252;berschreitung</text>
 </g>
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="black" d="M467.81,-102.53C459.97,-90.44 449.23,-73.89 439.73,-59.25"/>
-<polygon fill="black" stroke="black" points="442.91,-57.73 434.54,-51.24 437.04,-61.54 442.91,-57.73"/>
-<text text-anchor="middle" x="462.75" y="-71.47" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="black" d="M467.63,-102.53C459.66,-90.44 448.74,-73.89 439.09,-59.25"/>
+<polygon fill="black" stroke="black" points="442.23,-57.66 433.8,-51.24 436.39,-61.51 442.23,-57.66"/>
+<text text-anchor="middle" x="461.75" y="-71.47" font-family="Times,serif" font-size="14.00">Ja</text>
 </g>
 <!-- Ende -->
 <g id="node4" class="node">
 <title>Ende</title>
-<polygon fill="#7a8da1" stroke="black" points="573.77,-42.76 508.23,-42.76 508.23,-6.76 573.77,-6.76 573.77,-42.76"/>
-<text text-anchor="middle" x="541" y="-20.08" font-family="Times,serif" font-size="14.00">Ende</text>
+<polygon fill="#7a8da1" stroke="black" points="572.77,-42.76 507.23,-42.76 507.23,-6.76 572.77,-6.76 572.77,-42.76"/>
+<text text-anchor="middle" x="540" y="-20.08" font-family="Times,serif" font-size="14.00">Ende</text>
 </g>
 <!-- 1&#45;&gt;Ende -->
 <g id="edge3" class="edge">
 <title>1-&gt;Ende</title>
-<path fill="none" stroke="black" d="M490.37,-102.53C499.58,-88.57 512.71,-68.66 523.29,-52.62"/>
-<polygon fill="black" stroke="black" points="526.07,-54.75 528.66,-44.48 520.23,-50.9 526.07,-54.75"/>
+<path fill="none" stroke="black" d="M490.19,-102.53C499.25,-88.57 512.16,-68.66 522.57,-52.62"/>
+<polygon fill="black" stroke="black" points="525.34,-54.78 527.85,-44.48 519.47,-50.97 525.34,-54.78"/>
 <text text-anchor="middle" x="527.88" y="-71.47" font-family="Times,serif" font-size="14.00">Nein</text>
 </g>
 </g>

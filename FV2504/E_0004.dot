@@ -1,6 +1,12 @@
 digraph D {
     labelloc="t";
     label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.19.1: AD: Austausch der Lieferantenclearingliste zwischen ÜNB und LF (gültige Abonnierung)</FONT></B><BR/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0004</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> LF</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Liegt für diesen MaBiS-ZP ein gültiges LF-CL Abonnement vor? Entspricht die Versionsangabe in der BG-CL der Versionsangabe der BG-SZR (Kategorie B), zu der eine BG-CL angefordert wurde?<BR align="left"/>>];
     "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung der gesamten Liste<BR align="left"/>Abonnement wurde nicht bestellt (bedeutet auch, dass ein Abonnement für diesen Zeitraum bereits beendet wurde).<BR align="left"/></FONT>>];

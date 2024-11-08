@@ -1,6 +1,12 @@
 digraph D {
     labelloc="t";
     label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.7.3: AD: Lieferbeginn</FONT></B><BR/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0624</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> LF</B></FONT><BR align="center"/>>];
     "5" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>5: </B>Ist die Anfrage ausgehend vom ÜT der Lieferanmeldung bis 07:00 Uhr des nächsten Werktages eingegangen?<BR align="left"/>>];
     "A43" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A43</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Fristüberschreitung<BR align="left"/></FONT>>];
