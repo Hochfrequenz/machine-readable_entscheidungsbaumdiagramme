@@ -16,7 +16,7 @@ digraph D {
     "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Konfiguration kann trotz Bestellung nicht vorgenommen werden.<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen<BR align="left"/></FONT>>];
     "50" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>50: </B>Kann die Konfiguration sofort korrigiert werden?<BR align="left"/>>];
     "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Konfiguration wurde sofort angepasst.<BR align="left"/></FONT>>];
-    "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Konfiguration konnte nicht sofort korrigiert werden. <BR align="left"/>Hinweis: Geplanter Behebungszeitpunkt muss angegeben werden.<BR align="left"/></FONT>>];
+    "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Konfiguration konnte nicht sofort korrigiert werden.<BR align="left"/>Hinweis: Geplanter Behebungszeitpunkt muss angegeben werden.<BR align="left"/></FONT>>];
 
     "Start" -> "20";
     "20" -> "A02" [label="Nein"];
