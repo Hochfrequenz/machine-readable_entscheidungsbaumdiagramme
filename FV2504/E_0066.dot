@@ -9,8 +9,8 @@ digraph D {
     size="20,20";
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0066</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Ist die BKA (ohne KBKA) erfolgt?<BR align="left"/>>];
-    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Abgerechnete Daten“ für die höchste Version der NZR mit dem Datenstatus „Abrechnungsdaten“ in diesem Bilanzierungs-monat.<BR align="left"/></FONT>>];
-    "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus "Abgerechnete Daten KBKA" für die höchste Version der NZR mit dem Datenstatus "Abgerechnete Daten" oder "Abrechnungsdaten KBKA" in diesem Bilanzierungsmonat<BR align="left"/></FONT>>];
+    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus „Abgerechnete Daten“ für die höchste Version der NZR mit dem<BR align="left"/>Datenstatus „Abrechnungsdaten“ in diesem Bilanzierungs-monat.<BR align="left"/></FONT>>];
+    "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Datenstatus "Abgerechnete Daten KBKA" für die höchste Version der NZR mit dem<BR align="left"/>Datenstatus "Abgerechnete Daten" oder "Abrechnungsdaten KBKA" in diesem<BR align="left"/>Bilanzierungsmonat<BR align="left"/></FONT>>];
 
     "Start" -> "1";
     "1" -> "A03" [label="Ja"];

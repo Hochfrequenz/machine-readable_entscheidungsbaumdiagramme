@@ -13,7 +13,7 @@ digraph D {
     "20" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>20: </B>War eine Kommunikationsverbindung zur Steuerbox möglich?<BR align="left"/>>];
     "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Kommunikationsverbindung zur Steuerbox ist gestört.<BR align="left"/></FONT>>];
     "30" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>30: </B>War es prozessual möglich den Steuerbefehl umzusetzen?<BR align="left"/>>];
-    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Prozessual ist es derzeit nicht möglich die Anforderung umzusetzen (z.B. aufgrund von Wartungsarbeiten).<BR align="left"/></FONT>>];
+    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Prozessual ist es derzeit nicht möglich die Anforderung umzusetzen (z.B.<BR align="left"/>aufgrund von Wartungsarbeiten).<BR align="left"/></FONT>>];
     "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Der Steuerbefehl kann grundsätzlich umgesetzt werden.<BR align="left"/></FONT>>];
 
     "Start" -> "10";
