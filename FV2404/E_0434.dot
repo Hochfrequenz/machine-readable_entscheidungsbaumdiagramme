@@ -1,0 +1,15 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.25.3: AD: Anfrage zur Stammdatenänderung von NB an MSB (verantwortlich)</FONT></B><BR/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    "Empty" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0434</B><BR align="center"/><FONT point-size="12">S_0039_Antwort auf Änderung
+S_0019_Antwort auf Änderung vom MSB</FONT><BR align="center"/>>];
+
+
+    bgcolor="transparent";
+}
