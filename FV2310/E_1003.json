@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "Sperrprozesse Gas",
     "ebd_code": "E_1003",
+    "ebd_name": "E_1003_Prüfen, ob Sperrauftrag erfolgreich (Basiert auf Strom EBD: E_0472_Prüfen, ob Sperrauftrag erfolgreich)",
+    "remark": null,
     "role": "NB",
-    "sub_chapter": "19.2.4: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF"
+    "section": "19.2.4: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -39,7 +41,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Der Anschlussnutzer wurde nicht angetroffen. Es gab keine Anzeichen dafür, dass dieser anwesend war.",
+          "note": "Cluster: gescheitert\nDer Anschlussnutzer wurde nicht angetroffen. Es gab keine Anzeichen dafür, dass dieser anwesend war.",
           "result_code": "A08"
         },
         {
