@@ -12,13 +12,13 @@
   <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-16.541937,-55.305267)">
     <g id="g19" clip-path="url(#clipPath23)" transform="matrix(0.35277777,0,0,-0.35277777,0.01017023,243.73675)" style="opacity:0.2">
       <g id="g25" transform="translate(122.444,32.7195)">
-        <path d="m 0,0 h -56.104 c -11,0 -19.898,9.123 -19.463,20.115 10.594,267.191 231.277,481.302 501.029,481.302 v -56.02 c 0,-10.98 -8.688,-19.892 -19.658,-20.393 C 180.29,414.697 0,228.005 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path27"/>
+        <path d="m 0,0 h -56.104 c -11,0 -19.898,9.123 -19.463,20.115 10.594,267.191 231.277,481.302 501.029,481.302 v -56.02 c 0,-10.98 -8.688,-19.892 -19.658,-20.393 C 180.29,414.697 0,228.005 0,0" style="fill:#6ead83;fill-opacity:0.5;fill-rule:nonzero;stroke:none" id="path27"/>
       </g>
       <g id="g29" transform="translate(273.7828,32.7195)">
-        <path d="m 0,0 h -55.926 c -11.228,0 -20.091,9.482 -19.435,20.69 10.744,183.439 163.389,329.388 349.485,329.388 v -56.263 c 0,-10.709 -8.273,-19.617 -18.957,-20.35 C 112.819,263.696 0,144.774 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path31"/>
+        <path d="m 0,0 h -55.926 c -11.228,0 -20.091,9.482 -19.435,20.69 10.744,183.439 163.389,329.388 349.485,329.388 v -56.263 c 0,-10.709 -8.273,-19.617 -18.957,-20.35 C 112.819,263.696 0,144.774 0,0" style="fill:#6ead83;fill-opacity:0.5;fill-rule:nonzero;stroke:none" id="path31"/>
       </g>
       <g id="g33" transform="translate(425.7667,32.7195)">
-        <path d="m 0,0 h -55.445 c -11.653,0 -20.604,10.17 -19.334,21.753 10.866,99.032 95.031,176.341 196.919,176.341 v -57.011 c 0,-10.046 -7.283,-18.755 -17.229,-20.165 C 45.688,112.522 0,61.497 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path35"/>
+        <path d="m 0,0 h -55.445 c -11.653,0 -20.604,10.17 -19.334,21.753 10.866,99.032 95.031,176.341 196.919,176.341 v -57.011 c 0,-10.046 -7.283,-18.755 -17.229,-20.165 C 45.688,112.522 0,61.497 0,0" style="fill:#6ead83;fill-opacity:0.5;fill-rule:nonzero;stroke:none" id="path35"/>
       </g>
     </g>
   </g>
@@ -46,38 +46,38 @@
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M466.25,-175.62C466.25,-167.58 466.25,-158.26 466.25,-149.66"/>
-<polygon fill="black" stroke="black" points="469.75,-149.93 466.25,-139.93 462.75,-149.93 469.75,-149.93"/>
+<path fill="none" stroke="black" d="M466.25,-175.62C466.25,-167.76 466.25,-158.68 466.25,-150.24"/>
+<polygon fill="black" stroke="black" points="469.75,-150.44 466.25,-140.44 462.75,-150.44 469.75,-150.44"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<polygon fill="#cfb986" stroke="black" points="470.99,-49.52 245.51,-49.52 245.51,0 470.99,0 470.99,-49.52"/>
-<text text-anchor="start" x="343.25" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
-<text text-anchor="start" x="257.75" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="257.75" y="-7.36" font-family="Times,serif" font-size="12.00">Datenstatus &#8222;Abrechnungsdaten&#8220;</text>
+<polygon fill="#cfb986" stroke="black" points="469.99,-49.52 244.51,-49.52 244.51,0 469.99,0 469.99,-49.52"/>
+<text text-anchor="start" x="342.25" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="256.75" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
+<text text-anchor="start" x="256.75" y="-7.36" font-family="Times,serif" font-size="12.00">Datenstatus &#8222;Abrechnungsdaten&#8220;</text>
 </g>
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="black" d="M446.19,-102.31C431.62,-89.62 411.5,-72.11 394.18,-57.03"/>
-<polygon fill="black" stroke="black" points="396.78,-53.79 386.94,-49.86 392.18,-59.07 396.78,-53.79"/>
-<text text-anchor="middle" x="432" y="-71.47" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="black" d="M446,-102.31C431.29,-89.62 410.99,-72.11 393.51,-57.03"/>
+<polygon fill="black" stroke="black" points="396.2,-54.73 386.34,-50.85 391.63,-60.03 396.2,-54.73"/>
+<text text-anchor="middle" x="431" y="-71.47" font-family="Times,serif" font-size="14.00">Ja</text>
 </g>
 <!-- A02 -->
 <g id="node4" class="node">
 <title>A02</title>
-<polygon fill="#cfb986" stroke="black" points="661.37,-49.52 489.13,-49.52 489.13,0 661.37,0 661.37,-49.52"/>
-<text text-anchor="start" x="560.25" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A02</text>
-<text text-anchor="start" x="501.38" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="501.38" y="-7.36" font-family="Times,serif" font-size="12.00">Datenstatus &#8222;Pr&#252;fdaten&#8220;</text>
+<polygon fill="#cfb986" stroke="black" points="660.37,-49.52 488.13,-49.52 488.13,0 660.37,0 660.37,-49.52"/>
+<text text-anchor="start" x="559.25" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="500.38" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
+<text text-anchor="start" x="500.38" y="-7.36" font-family="Times,serif" font-size="12.00">Datenstatus &#8222;Pr&#252;fdaten&#8220;</text>
 </g>
 <!-- 1&#45;&gt;A02 -->
 <g id="edge3" class="edge">
 <title>1-&gt;A02</title>
-<path fill="none" stroke="black" d="M486.5,-102.31C501.21,-89.62 521.51,-72.11 538.99,-57.03"/>
-<polygon fill="black" stroke="black" points="541.02,-59.04 546.3,-49.86 536.45,-53.74 541.02,-59.04"/>
-<text text-anchor="middle" x="541.12" y="-71.47" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="black" d="M486.31,-102.31C500.88,-89.62 521,-72.11 538.32,-57.03"/>
+<polygon fill="black" stroke="black" points="540.17,-60.06 545.42,-50.86 535.58,-54.78 540.17,-60.06"/>
+<text text-anchor="middle" x="540.12" y="-71.47" font-family="Times,serif" font-size="14.00">Nein</text>
 </g>
 </g>
 </svg>

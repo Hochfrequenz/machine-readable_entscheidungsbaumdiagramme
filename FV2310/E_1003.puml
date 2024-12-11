@@ -46,6 +46,7 @@ Hinweis: Es gab keine Anzeichen dafür, dass der Anschlussnutzer anwesend war.) 
 else (nein)
     :A08;
     note left
+        Cluster: gescheitert
         Der Anschlussnutzer wurde nicht angetroffen. Es gab keine Anzeichen dafür, dass dieser anwesend war.
     endnote
     kill;

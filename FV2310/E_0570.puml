@@ -1,0 +1,51 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.30.1: AD: Bestellung Änderung Netzentgelte aufgrund netzorientierter Steuerungsmöglichkeit von LF an NB
+
+
+
+end title
+:<b>E_0570</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>10: </b> Ist die Änderung der Netzentgelte aufgrund netzorientierter Steuerungsmöglichkeit möglich?) then (ja)
+    :A01;
+    note left
+        Zustimmung
+    endnote
+    kill;
+else (nein)
+    :A99;
+    note left
+        Ablehnung Sonstiges 
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+        Nutzungsmöglichkeit: Ende offen
+    endnote
+    kill;
+endif
+
+@enduml

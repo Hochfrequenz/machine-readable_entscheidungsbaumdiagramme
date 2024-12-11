@@ -2,14 +2,12 @@
   "metadata": {
     "chapter": "GPKE",
     "ebd_code": "E_0406",
+    "ebd_name": "E_0406_Netznutzungsrechnung prüfen",
+    "remark": null,
     "role": "LF",
-    "sub_chapter": "6.7.1: AD: Netznutzungsabrechnung"
+    "section": "6.7.1: AD: Netznutzungsabrechnung"
   },
   "multi_step_instructions": [
-    {
-      "first_step_number_affected": "100",
-      "instruction_text": "Die nachfolgenden Prüfungen werden, beginnend mit der ersten Positionszeile, für jede Positionszeile durchgeführt. Tritt in einer Positionszeile der erste Fehler auf, so sind die weiteren Prüfungen, so dies noch möglich ist, auch durchzuführen. Alle im Positionsteil gefundenen Fehler sind, unter Nennung der jeweiligen Positionszeile, zu nennen."
-    },
     {
       "first_step_number_affected": "805",
       "instruction_text": "Die nachfolgende Prüfung erfolgt auf Summenebene des EBD, obwohl es sich um eine summarische Prüfung der Positionsebene handelt, da bei fehlenden Artikel-ID keine Positionsnummer genannt werden kann, muss zur Übermittlung des Fehlers die REMADV Struktur zur Übermittlung von Fehlern auf Summenebene genutzt werden."
@@ -2091,7 +2089,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist die zu prüfenden Artikel-ID zugehörig zu einer der folgenden Gruppenartikel-ID:\n1-10-4, 1-10-5, 1-10-6, 1-08-2-AGS-K und 1-08-5-AGS-KG?",
+      "description": "Ist die zu prüfenden Artikel-ID zugehörig zu einer der folgenden Gruppenartikel-ID:\n1-10-4, 1-10-5, 1-10-6, 1-08-2-AGS-KG und 1-08-5-AGS-KG?",
       "step_number": "471",
       "sub_rows": [
         {
@@ -3034,7 +3032,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist die zu prüfenden Artikel-ID zugehörig zu einer der folgenden Gruppenartikel-ID:\n1-10-4, 1-10-5, 1-10-6, 1-08-2-AGS-K und 1-08-5-AGS-KG?",
+      "description": "Ist die zu prüfenden Artikel-ID zugehörig zu einer der folgenden Gruppenartikel-ID:\n1-10-4, 1-10-5, 1-10-6, 1-08-2-AGS-KG und 1-08-5-AGS-KG?",
       "step_number": "651",
       "sub_rows": [
         {
@@ -3072,6 +3070,144 @@
           "check_result": {
             "result": false,
             "subsequent_step_number": "660"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die Summe der Mengen aus all den Resultierenden, die zu dieser Gruppenartikel-ID gebildet werden, der Mengen des Lieferscheins?\nHinweis: Dazu müssen alle Resultierenden der betroffenen Gruppenartikel-ID gebildet werden. Aus jeder dieser Resultierenden ist die Menge zu entnehmen. Diese Mengen sind zu summieren.",
+      "step_number": "653",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "665"
+          },
+          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung ab, da die Summe der Mengen nicht zum Lieferschein passt.",
+          "result_code": "AE4"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "665"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entsprechen die einzelnen Positionen der Mengen des Lieferscheins dem Absolutbetrag der Menge der Resultierenden der Rechnung?\nHinweis: Laut GPKE müssen die angegebenen Abrechnungsenergiemengen der Netznutzungsrechnung in ihrer Höhe und über den Zeitraum mit den vorher auf Ebene der Marktlokation vom NB im Lieferschein übermittelten Abrechnungsenergiemengen übereinstimmen.",
+      "step_number": "660",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "665"
+          },
+          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht zu den Mengen auf dem übermittelten Lieferschein übereinstimmen. \nBefüllungshinweis Identifikation der Zeile/Position im Dokument: Der LF gibt die größte Positionsnummer der Artikel-ID mit, bei der die Resultierende der Rechnung nicht der Menge aus dem Lieferschein entspricht.",
+          "result_code": "A56"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "665"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegen für den Zeitraum der Resultierenden die Lastgänge an der Marktlokation vom MSB oder bei einem unterjährigen Lieferantenwechsel die Energiemenge und bis zu zwei Leistungsmaxima vom NB vor?\nHinweis: Sollten die Lastgänge an der Marktlokation vom MSB für den Zeitraum der Resultierenden nicht vorliegen, müssen diese erst vom LF beim MSB reklamiert worden sein, bevor diese Frage mit nein beantwortet werden darf.",
+      "step_number": "665",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "680"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "670"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Fehlen für den Zeitraum der Resultierenden die Lastgänge an der Marktlokation vom MSB und wurde diese beim MSB reklamiert?",
+      "step_number": "670",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "675"
+          },
+          "note": "Cluster: Ablehnung auf Positionsebene\nEs fehlen Werte vom MSB bzw. es wurden fehlerhafte Werte vom MSB gesendet und diese wurden bereits per ORDERS reklamiert. \nHinweis: Der LF gibt die Geschäftsvorfallnummer der ORDERS an, mit der die fehlenden Werte bzw. fehlerhafte Werte reklamiert wurden.",
+          "result_code": "AB2"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "675"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Fehlt für den Zeitraum der Resultierenden das Leistungsmaximum und die Energiemenge der Marktlokation für den Zeitraum des Jahres vor dem Lieferantenwechsel vom NB?",
+      "step_number": "675",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "680"
+          },
+          "note": "Cluster: Ablehnung auf Positionsebene\nAufgrund des unterjährigen Lieferantenwechsels fehlt das Leistungsmaximum und die Energiemenge für den Zeitraum des Jahres vor dem Lieferantenwechsel, die der NB hätte senden müssen.",
+          "result_code": "AB3"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "680"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die in der Position angegebene Leistung < 0?",
+      "step_number": "676",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "680"
+          },
+          "note": "Hinweis: Es handelt sich um eine Rücknahmeposition",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "677"
           },
           "note": null,
           "result_code": null
@@ -4376,7 +4512,7 @@
             "result": true,
             "subsequent_step_number": "990"
           },
-          "note": "Cluster: Ablehnung auf Summenebene\nSonstiger Fehler in den Summenteil.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNetznutzungsmöglichkeit: Ende offen",
+          "note": "Cluster: Ablehnung auf Summenebene\nSonstiger Fehler in den Summenteil.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit: Ende offen",
           "result_code": "A96"
         },
         {
