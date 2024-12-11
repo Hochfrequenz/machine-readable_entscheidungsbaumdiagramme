@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "MaBiS",
     "ebd_code": "E_0049",
+    "ebd_name": "E_0049_Marktlokationen mit LF-CL abgleichen",
+    "remark": null,
     "role": "LF",
-    "sub_chapter": "7.15.1: AD: Austausch der Lieferantenclearingliste zwischen NB und LF (gültige Abonnierung)"
+    "section": "7.15.1: AD: Austausch der Lieferantenclearingliste zwischen NB und LF (gültige Abonnierung)"
   },
   "multi_step_instructions": [
     {
@@ -97,6 +99,236 @@
           "check_result": {
             "result": false,
             "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die in der LF-CL enthaltene Marktlokation dem MaBiS-ZP zugeordnet?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nZu viele Marktlokationen enthalten / entfallene Marktlokation",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "6"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht das Bilanzierungsgebiet dem zwischen NB und LF ausgetauschten Bilanzierungsgebiet?",
+      "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "7"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Bilanzkreis dem zwischen NB und LF ausgetauschten Bilanzkreis?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "8"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Bilanzierungsbeginn der Erwartung des LF?",
+      "step_number": "8",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "9"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht das Bilanzierungsende der Erwartung des LF?",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht das normierte Profil dem zwischen NB und LF ausgetauschten normierten Profil?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "11"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die Versionsangabe des Profils der zwischen NB und LF ausgetauschten Version des Profils?",
+      "step_number": "11",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "12"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die veranschlagte Prognosemenge (JVP, spezifische Arbeit, usw.) der zwischen NB und LF ausgetauschten Prognosemenge?",
+      "step_number": "12",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "13"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die tatsächlich bilanzierte Menge der erwarteten bilanzierten Menge (monatlich gemessene Menge auf Basis der Summe der 1/4-h-Werten)?",
+      "step_number": "13",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "14"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht der Zeitreihentyp dem zwischen NB und LF ausgetauschten?",
+      "step_number": "14",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "Ende"
           },
           "note": null,
           "result_code": null

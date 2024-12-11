@@ -75,7 +75,7 @@ if (<b>2: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
             note left
                 Cluster: Ablehnung Sonstiges 
                 Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                Nutzungsmöglichkeit Ende: 01.04.2024 00:00 Uhr
+                Nutzungsmöglichkeit Ende: 03.04.2024 00:00 Uhr
             endnote
             kill;
         else (nein)
@@ -119,7 +119,7 @@ if (<b>2: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
             note left
                 Cluster: Ablehnung Sonstiges 
                 Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                Nutzungsmöglichkeit Ende: 01.04.2024 00:00 Uhr
+                Nutzungsmöglichkeit Ende: 03.04.2024 00:00 Uhr
             endnote
             kill;
         else (nein)
@@ -145,7 +145,7 @@ if (<b>2: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
         note left
             Cluster: Ablehnung Sonstiges 
             Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2024 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 03.04.2024 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -191,7 +191,7 @@ else (nein)
         note left
             Cluster: Ablehnung Sonstiges 
             Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2024 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 03.04.2024 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -208,7 +208,7 @@ if (<b>12: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja
     note left
         Cluster: Ablehnung Sonstiges 
         Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-        Nutzungsmöglichkeit Ende: 01.04.2024 00:00 Uhr
+        Nutzungsmöglichkeit Ende: 03.04.2024 00:00 Uhr
     endnote
     kill;
 else (nein)

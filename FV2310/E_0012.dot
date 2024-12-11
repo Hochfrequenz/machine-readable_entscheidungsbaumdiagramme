@@ -1,12 +1,18 @@
 digraph D {
     labelloc="t";
     label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.37.1: AD: Deaktivierung eines MaBiS-Zählpunkts für die Bilanzkreissummenzeitreihe vom ÜNB an BIKO und BKV</FONT></B><BR/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0012</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Erfolgt die Deaktivierung nach Ablauf der Clearingfrist für die KBKA?<BR align="left"/>>];
     "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Fristüberschreitung<BR align="left"/></FONT>>];
     "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Erfolgt die Deaktivierung zum Monatsersten 00:00 Uhr?<BR align="left"/>>];
     "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Gewählter Zeitpunkt nicht zulässig<BR align="left"/></FONT>>];
-    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Ist das Bilanzierungsgebiet zum Zeitpunkt der Deaktivierung in der Regelzone des BIKO gültig?<BR align="left"/>>];
+    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Ist das Bilanzierungsgebiet zum Zeitpunkt der Deaktivierung in der Regelzone<BR align="left"/>des BIKO gültig?<BR align="left"/>>];
     "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Bilanzierungsgebiet nicht gültig<BR align="left"/></FONT>>];
     "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Ist der MaBiS-ZP zum Zeitpunkt der Deaktivierung bereits deaktiviert?<BR align="left"/>>];
     "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>MaBiS-ZP bereits deaktiviert<BR align="left"/></FONT>>];
