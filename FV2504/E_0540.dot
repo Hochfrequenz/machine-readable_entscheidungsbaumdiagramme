@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.33.1: AD: Bestellung Beendigung einer Konfiguration vom LF an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.39.1: AD Bestellung Beendigung einer Konfiguration vom LF an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
@@ -14,7 +14,7 @@ digraph D {
     "30" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>30: </B>Handelt es sich um eine Bestellung, die beendet werden kann?<BR align="left"/>>];
     "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Es handelt sich um eine Bestellung, die nicht beendet werden kann.<BR align="left"/></FONT>>];
     "40" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>40: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>];
-    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr<BR align="left"/></FONT>>];
+    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr<BR align="left"/></FONT>>];
     "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Bestätigung der Beendigung<BR align="left"/></FONT>>];
 
     "Start" -> "15";

@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">8.25.1: AD: Anfrage und Bestellung von Werten durch den ESA</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">9.25.1: AD Anfrage und Bestellung von Werten durch den ESA</FONT></B><BR/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
@@ -14,7 +14,7 @@ digraph D {
     "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Liegt die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und<BR align="left"/>Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB vor?<BR align="left"/>>];
     "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Vertragliche Grundlage des ESA liegt nicht vor.<BR align="left"/></FONT>>];
     "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Liegt dem MSB eine gültige datenschutzrechtliche Einwilligung (wie z. B. das<BR align="left"/>BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO -<BR align="left"/>Anfrage und Übermittlung von Messprodukten<BR align="left"/>gemäß BNetzA-Festlegung BK6-20-160“) zur Anfrage und Übermittlung von<BR align="left"/>Messprodukten vor?<BR align="left"/>>];
-    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die unterzeichnete Einwilligung für die Lokation liegt nicht vor.<BR align="left"/></FONT>>];
+    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die unterzeichnete Einwilligung des Anschlussnutzers für die Lokation liegt nicht vor<BR align="left"/></FONT>>];
     "5" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>5: </B>Sind die Daten in der Einwilligung plausibel und vollständig?<BR align="left"/>>];
     "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Vorliegende Einwilligung ist nicht plausibel oder vollständig.<BR align="left"/></FONT>>];
     "6" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>6: </B>Ermöglicht die vorhandene Gerätetechnik die Übermittlung der angefragten Werte<BR align="left"/>entsprechend dem Messprodukt?<BR align="left"/>>];

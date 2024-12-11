@@ -22,7 +22,7 @@ endheader
 title
 GPKE
 
-6.29.1: AD: Bestellung einer Konfiguration vom LF an NB
+6.36.1: AD Bestellung einer Konfiguration vom LF an NB
 
 
 
@@ -114,7 +114,7 @@ if (<b>20: </b> Handelt sich um eine Bestellung einer Konfiguration einer Änder
                         Cluster: Ablehnung 
                         Sonstiges
                         Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                        Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+                        Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
                     endnote
                     kill;
                 else (nein)
@@ -142,7 +142,7 @@ if (<b>20: </b> Handelt sich um eine Bestellung einer Konfiguration einer Änder
                     Cluster: Ablehnung 
                     Sonstiges
                     Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                    Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+                    Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
                 endnote
                 kill;
             else (nein)
@@ -182,7 +182,7 @@ if (<b>20: </b> Handelt sich um eine Bestellung einer Konfiguration einer Änder
                 Cluster: Ablehnung 
                 Sonstiges
                 Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+                Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
             endnote
             kill;
         else (nein)
@@ -210,7 +210,7 @@ if (<b>20: </b> Handelt sich um eine Bestellung einer Konfiguration einer Änder
             Cluster: Ablehnung 
             Sonstiges
             Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -295,7 +295,7 @@ else (nein)
                     Cluster: Ablehnung 
                     Sonstiges
                     Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                    Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+                    Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
                 endnote
                 kill;
             else (nein)
@@ -343,7 +343,7 @@ else (nein)
             Cluster: Ablehnung 
             Sonstiges
             Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -361,7 +361,7 @@ if (<b>220: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (j
         Cluster: Ablehnung 
         Sonstiges
         Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-        Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+        Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
     endnote
     kill;
 else (nein)

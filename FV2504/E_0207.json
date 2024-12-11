@@ -5,7 +5,7 @@
     "ebd_name": "E_0207_Anfrage prüfen",
     "remark": null,
     "role": "MSB",
-    "section": "8.11.1: AD: Anfrage zur Rechnungsabwicklung des Messtellenbetriebes über den LF durch den LF"
+    "section": "9.11.1: AD: Anfrage zur Rechnungsabwicklung des Messtellenbetriebes über den LF durch den LF"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -156,7 +156,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Entgelt wird durch erzeugende Marktlokation abgerechnet.",
+          "note": "Entgelt wird über die erzeugende Marktlokation entrichtet.",
           "result_code": "A05"
         },
         {
@@ -171,7 +171,7 @@
       "use_cases": null
     },
     {
-      "description": "Wird das Entgelt über eine andere Marktlokation entrichtet?",
+      "description": "Wird das Entgelt über den Lieferanten einer anderen Marktlokation entrichtet?",
       "step_number": "8",
       "sub_rows": [
         {
@@ -179,7 +179,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Entgelt wird über eine andere Marktlokation abgerechnet.",
+          "note": "Entgelt wird den Lieferanten einer anderen Marktlokation entrichtet.",
           "result_code": "A06"
         },
         {

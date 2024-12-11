@@ -5,7 +5,7 @@
     "ebd_name": "E_0568_erneut Rechnung Messtellenbetrieb mit iMS gegenüber dem NB prüfen",
     "remark": null,
     "role": "NB",
-    "section": "8.14.3: AD: Abrechnung Messstellenbetrieb gegenüber dem NB"
+    "section": "9.14.3: AD: Abrechnung Messstellenbetrieb gegenüber dem NB"
   },
   "multi_step_instructions": [
     {
@@ -395,7 +395,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung auf Kopfebene\nSonstiger Fehler auf Kopfebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "note": "Cluster: Ablehnung auf Kopfebene\nSonstiger Fehler auf Kopfebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A90"
         },
         {
@@ -625,7 +625,7 @@
             "result": true,
             "subsequent_step_number": "380"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene \nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "note": "Cluster: Ablehnung auf Positionsebene \nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A99"
         },
         {
@@ -717,7 +717,7 @@
             "result": false,
             "subsequent_step_number": "520"
           },
-          "note": "Cluster: Ablehnung auf Summenebene\nGenannte Besteuerungsgrundlage passt nicht zu der Summe der Einzelpositionen des Steuersatzes.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
+          "note": "Cluster: Ablehnung auf Summenebene\nGenannter Steuersatz passt nicht zu der Summe\nder Einzelpositionen des Steuersatzes.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "A22"
         },
         {
@@ -809,7 +809,7 @@
             "result": true,
             "subsequent_step_number": "560"
           },
-          "note": "Cluster: Ablehnung auf Summenebene\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "note": "Cluster: Ablehnung auf Summenebene\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A96"
         },
         {

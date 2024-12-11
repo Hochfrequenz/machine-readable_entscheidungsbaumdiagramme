@@ -5,7 +5,7 @@
     "ebd_name": "E_1007_Rechnung einer sonstigen Leistung prüfen (Basiert auf Strom EBD: E_0503_Rechnung einer sonstigen Leistung prüfen)",
     "remark": null,
     "role": "LF",
-    "section": "17.1.1: AD: Abrechnung einer sonstigen Leistung"
+    "section": "19.1.1: AD: Abrechnung einer sonstigen Leistung"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -116,9 +116,32 @@
         {
           "check_result": {
             "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Forderung?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
             "subsequent_step_number": "70"
           },
           "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "80"
+          },
+          "note": "Hinweis: Es handelt sich um eine Rückerstattung.",
           "result_code": null
         }
       ],
@@ -135,6 +158,29 @@
           },
           "note": "Cluster: Ablehnung\nDas Zahlungsziel ist unterschritten.",
           "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Frist der Fälligkeit überschritten?\nZahlungsziel > 10 WT zum Rechnungsdatum\nNach NNV/LRV § 8 Abrechnung, Zahlung und Verzug ist bei Rückerstattungen das Ausstellungsdatum der Rückerstattung entscheidend.",
+      "step_number": "80",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDas Zahlungsziel ist überschritten.",
+          "result_code": "A06"
         },
         {
           "check_result": {
@@ -716,7 +762,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A99"
         }
       ],

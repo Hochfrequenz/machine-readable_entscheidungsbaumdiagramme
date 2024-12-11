@@ -22,7 +22,7 @@ endheader
 title
 GPKE
 
-6.10.1: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung
+6.6.1: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung
 
 
 
@@ -104,7 +104,7 @@ Hinweis: Sollten die Energiemengen an der Marktlokation vom MSB für den korresp
         endif
         if (<b>10: </b> Entspricht die zuvor vom MSB übermittelte Summe der Energiemengen je OBIS-Kennzahl der Summe der Energiemengen der aus dem Lieferschein korrespondierenden OBIS-Kennzahl für den vom Lieferschein abgedeckten Zeitraum?) then (ja)
         else (nein)
-            if (<b>11: </b> Handelt es sich um eine Marktlokation, deren Netznutzung aufgrund vertraglicher Vereinbarungen abweichend zu den in GPKE Teil 2 Kapitel 3.2.2 beschriebenen Regelungen abgerechnet wird?) then (ja)
+            if (<b>11: </b> Handelt es sich um eine Marktlokation, deren Netznutzung aufgrund vertraglicher Vereinbarungen abweichend zu den in GPKE Kapitel II. 6.2 beschriebenen Regelungen abgerechnet wird?) then (ja)
                 if (<b>12: </b> Entspricht die im Lieferschein übermittelte Energiemenge der Energiemenge, welche sich auf Basis der vertraglichen Vereinbarungen ergibt?) then (ja)
                 else (nein)
                     :A09;
@@ -149,7 +149,7 @@ Hinweis: Sollten die Lastgänge an der Marktlokation vom MSB für den korrespond
             endnote
             kill;
         endif
-        if (<b>17: </b> Handelt es sich um eine Marktlokation, deren Netznutzung aufgrund vertraglicher Vereinbarungen abweichend zu den in GPKE Teil 2 Kapitel 3.2.2 beschriebenen Regelungen abgerechnet wird?) then (ja)
+        if (<b>17: </b> Handelt es sich um eine Marktlokation, deren Netznutzung aufgrund vertraglicher Vereinbarungen abweichend zu den in GPKE Kapitel II. 6.2 beschriebenen Regelungen abgerechnet wird?) then (ja)
             if (<b>18: </b> Entspricht die Energiemenge bzw. das Leistungsmaximum aus dem Lieferschein den bilateral vertraglichen Vereinbarungen?) then (ja)
             else (nein)
                 :A13;

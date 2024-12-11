@@ -22,7 +22,7 @@ endheader
 title
 WiM Strom
 
-8.25.1: AD: Anfrage und Bestellung von Werten durch den ESA
+9.25.1: AD Anfrage und Bestellung von Werten durch den ESA
 
 
 
@@ -59,7 +59,7 @@ gemäß BNetzA-Festlegung BK6-20-160“&#41; zur Anfrage und Übermittlung von M
         :A04;
         note left
             Cluster: Ablehnung
-            Die unterzeichnete Einwilligung für die Lokation liegt nicht vor.
+            Die unterzeichnete Einwilligung des Anschlussnutzers für die Lokation liegt nicht vor
         endnote
         kill;
     endif
@@ -111,7 +111,7 @@ else (nein)
     :A04;
     note left
         Cluster: Ablehnung
-        Die unterzeichnete Einwilligung für die Lokation liegt nicht vor.
+        Die unterzeichnete Einwilligung des Anschlussnutzers für die Lokation liegt nicht vor
     endnote
     kill;
 endif

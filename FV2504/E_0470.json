@@ -5,7 +5,7 @@
     "ebd_name": "E_0470_Sperrauftrag prüfen",
     "remark": null,
     "role": "NB",
-    "section": "6.13.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF"
+    "section": "6.9.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -125,7 +125,7 @@
       "use_cases": null
     },
     {
-      "description": "Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?\nHinweis: „Ruhende Marktlokationen“ sind bei der Beantwortung der Frage nicht zu berücksichtigen.",
+      "description": "Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?",
       "step_number": "60",
       "sub_rows": [
         {
@@ -156,7 +156,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nMindestens eine weitere verbrauchende Marktlokation ist von der Sperrung betroffen.\nHinweis: Stromspezifische Frage",
+          "note": "Cluster: Ablehnung\nMindestens eine weitere Marktlokation ist von der Sperrung betroffen.\nHinweis: Stromspezifische Frage",
           "result_code": "A04"
         },
         {
@@ -294,7 +294,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A99"
         },
         {

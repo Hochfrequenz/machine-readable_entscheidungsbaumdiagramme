@@ -5,7 +5,7 @@
     "ebd_name": "E_0252_Anfrage prüfen",
     "remark": null,
     "role": "MSB",
-    "section": "8.25.1: AD: Anfrage und Bestellung von Werten durch den ESA"
+    "section": "9.25.1: AD Anfrage und Bestellung von Werten durch den ESA"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -87,7 +87,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nDie unterzeichnete Einwilligung für die Lokation liegt nicht vor.",
+          "note": "Cluster: Ablehnung\nDie unterzeichnete Einwilligung des Anschlussnutzers für die Lokation liegt nicht vor",
           "result_code": "A04"
         },
         {

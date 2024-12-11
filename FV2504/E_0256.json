@@ -5,7 +5,7 @@
     "ebd_name": "E_0256_Bestellung prüfen",
     "remark": null,
     "role": "MSB",
-    "section": "8.25.3: AD: Anfrage und Bestellung von Werten durch den ESA"
+    "section": "9.25.3: AD Anfrage und Bestellung von Werten durch den ESA"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -217,7 +217,7 @@
       "use_cases": null
     },
     {
-      "description": "Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?",
+      "description": "Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation /Tranche / Netzlokation?",
       "step_number": "10",
       "sub_rows": [
         {

@@ -5,7 +5,7 @@
     "ebd_name": "E_0442_Geschäftsdatenanfrage zu Werten prüfen",
     "remark": null,
     "role": "MSB",
-    "section": "6.26.2: AD: Geschäftsdatenanfrage von LF"
+    "section": "6.31.2: AD: Geschäftsdatenanfrage von LF"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -33,7 +33,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist der LF für den angefragten Zeitraum berechtigt die angefragten Werte in der angefragten Granularität zu erhalten?\nAuflistung, siehe WiM Strom Teil 2, Kapitel „Darstellung der zu übermittelnden Werte“ in der jeweils gültigen Fassung.",
+      "description": "Ist der LF für den angefragten Zeitraum berechtigt die angefragten Werte in der angefragten Granularität zu erhalten?\nAuflistung, siehe WiM Strom, Kapitel „Zu übermittelnde Werte“ in der jeweils gültigen Fassung.",
       "step_number": "2",
       "sub_rows": [
         {

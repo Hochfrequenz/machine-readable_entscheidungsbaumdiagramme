@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.31.3: AD: Bestellung einer Konfiguration vom LF an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.38.3: AD Bestellung einer Konfiguration vom LF an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
@@ -23,7 +23,7 @@ digraph D {
     "80" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>80: </B>Handelt es sich um die Konfiguration einer Zählzeitdefinition,<BR align="left"/>Schaltzeitdefinition oder Leistungskurvendefinition, welche dem MSB zum<BR align="left"/>bestellten Zeitpunkt nicht bekannt ist?<BR align="left"/>>];
     "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Bestellte Konfiguration ist dem MSB nicht bekannt<BR align="left"/></FONT>>];
     "90" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>90: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>];
-    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr<BR align="left"/></FONT>>];
+    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr<BR align="left"/></FONT>>];
     "A07" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A07</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Die Einrichtung der Konfiguration ist grundsätzlich möglich<BR align="left"/></FONT>>];
 
     "Start" -> "10";

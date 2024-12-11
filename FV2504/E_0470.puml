@@ -22,7 +22,7 @@ endheader
 title
 GPKE
 
-6.13.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF
+6.9.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF
 
 
 
@@ -80,14 +80,13 @@ else (nein)
     endnote
     kill;
 endif
-if (<b>60: </b> Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?
-Hinweis: „Ruhende Marktlokationen“ sind bei der Beantwortung der Frage nicht zu berücksichtigen.) then (ja)
+if (<b>60: </b> Sind weitere Marktlokationen von der Sperrung betroffen, für die dieser Sperrauftrag keine Wirkung entfalten darf?) then (ja)
     if (<b>65: </b> Handelt es sich bei der bzw. den weiteren Marktlokationen ausschließlich um erzeugende Marktlokation(en&#41;?) then (ja)
     else (nein)
         :A04;
         note left
             Cluster: Ablehnung
-            Mindestens eine weitere verbrauchende Marktlokation ist von der Sperrung betroffen.
+            Mindestens eine weitere Marktlokation ist von der Sperrung betroffen.
             Hinweis: Stromspezifische Frage
         endnote
         kill;
@@ -129,7 +128,7 @@ Hinweis: „Ruhende Marktlokationen“ sind bei der Beantwortung der Frage nicht
                 Sonstiges
                 Hinweis: Das identifizierte Problem ist in der 
                 Antwort zu beschreiben/benennen.
-                Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+                Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
             endnote
             kill;
         else (nein)
@@ -166,7 +165,7 @@ Hinweis: „Ruhende Marktlokationen“ sind bei der Beantwortung der Frage nicht
                 Sonstiges
                 Hinweis: Das identifizierte Problem ist in der 
                 Antwort zu beschreiben/benennen.
-                Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+                Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
             endnote
             kill;
         else (nein)
@@ -194,7 +193,7 @@ Hinweis: „Ruhende Marktlokationen“ sind bei der Beantwortung der Frage nicht
             Sonstiges
             Hinweis: Das identifizierte Problem ist in der 
             Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -253,7 +252,7 @@ if (<b>90: </b> Ist der Sperrauftrag termingebunden?) then (ja)
             Sonstiges
             Hinweis: Das identifizierte Problem ist in der 
             Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -290,7 +289,7 @@ else (nein)
             Sonstiges
             Hinweis: Das identifizierte Problem ist in der 
             Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -318,7 +317,7 @@ if (<b>120: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (j
         Sonstiges
         Hinweis: Das identifizierte Problem ist in der 
         Antwort zu beschreiben/benennen.
-        Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+        Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
     endnote
     kill;
 else (nein)

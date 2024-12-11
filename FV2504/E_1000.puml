@@ -22,7 +22,7 @@ endheader
 title
 Sperrprozesse Gas
 
-17.2.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF
+19.2.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF
 
 
 
@@ -123,11 +123,10 @@ if (<b>90: </b> Ist der Sperrauftrag termingebunden?) then (ja)
     if (<b>120: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
         :A99;
         note left
-            Cluster: Ablehnung
-            Sonstiges
+            Cluster: Ablehnung Sonstiges
             Hinweis: Das identifizierte Problem ist in der 
             Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -160,11 +159,10 @@ else (nein)
     if (<b>120: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
         :A99;
         note left
-            Cluster: Ablehnung
-            Sonstiges
+            Cluster: Ablehnung Sonstiges
             Hinweis: Das identifizierte Problem ist in der 
             Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -188,11 +186,10 @@ endif
 if (<b>120: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
     :A99;
     note left
-        Cluster: Ablehnung
-        Sonstiges
+        Cluster: Ablehnung Sonstiges
         Hinweis: Das identifizierte Problem ist in der 
         Antwort zu beschreiben/benennen.
-        Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+        Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
     endnote
     kill;
 else (nein)

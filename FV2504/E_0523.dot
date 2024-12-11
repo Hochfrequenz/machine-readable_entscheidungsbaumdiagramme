@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.29.1: AD: Bestellung einer Konfiguration vom LF an NB</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.36.1: AD Bestellung einer Konfiguration vom LF an NB</FONT></B><BR/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
@@ -45,7 +45,7 @@ digraph D {
     "210" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>210: </B>Wurde die Vorlauffristen zu der geplanten Änderung der Gerätekonfiguration<BR align="left"/>eingehalten?<BR align="left"/>>];
     "A16" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A16</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung <BR align="left"/>Fristüberschreitung<BR align="left"/></FONT>>];
     "220" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>220: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>];
-    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr<BR align="left"/></FONT>>];
+    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr<BR align="left"/></FONT>>];
     "A17" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A17</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Bestellung wird an den MSB der Marktlokation weitergeleitet<BR align="left"/></FONT>>];
 
     "Start" -> "10";

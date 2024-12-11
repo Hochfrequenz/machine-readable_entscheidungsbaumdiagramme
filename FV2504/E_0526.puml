@@ -22,7 +22,7 @@ endheader
 title
 GPKE
 
-6.30.3: AD: Bestellung einer Konfiguration vom NB an MSB
+6.37.3: AD Bestellung einer Konfiguration vom NB an MSB
 
 
 
@@ -79,7 +79,7 @@ Hinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen) then (ja)
             Cluster: Ablehnung
             Sonstiges
             Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -140,7 +140,7 @@ Wenn bereits an der betreffenden Lokation eine Konfiguration von dem Anfragenden
                 Cluster: Ablehnung
                 Sonstiges
                 Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+                Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
             endnote
             kill;
         else (nein)
@@ -190,7 +190,7 @@ Wenn bereits an der betreffenden Lokation eine Konfiguration von dem Anfragenden
             Cluster: Ablehnung
             Sonstiges
             Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+            Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -229,7 +229,7 @@ if (<b>90: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja
         Cluster: Ablehnung
         Sonstiges
         Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-        Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+        Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr
     endnote
     kill;
 else (nein)

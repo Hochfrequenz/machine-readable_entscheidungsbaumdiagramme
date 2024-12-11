@@ -5,7 +5,7 @@
     "ebd_name": "E_0406_Netznutzungsrechnung prüfen",
     "remark": null,
     "role": "LF",
-    "section": "6.11.1: AD: Netznutzungsabrechnung"
+    "section": "6.7.1: AD: Netznutzungsabrechnung"
   },
   "multi_step_instructions": [
     {
@@ -121,52 +121,6 @@
           },
           "note": "Cluster: Ablehnung auf Kopfebene\nDer NB ist im gesamten Abrechnungszeitraum nicht der Marktlokation zugeordnet.",
           "result_code": "A05"
-        },
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "16"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Wurde ein unterjähriger Netzbetreiberwechsel an der Marktlokation im Leistungszeitraum durchgeführt?",
-      "step_number": "16",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "17"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "19"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Weicht der Absender (NAD+MS) von der Angabe im Segment Preise des Netzbetreibers (RFF+Z56) ab?",
-      "step_number": "17",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": null
-          },
-          "note": "Cluster: Ablehnung auf Kopfebene\nIm Leistungszeitraum fand ein unterjähriger Netzbetreiberwechsel an der Marktlokation statt und die Preise des NBA wurden nicht berücksichtigt.",
-          "result_code": "AF3"
         },
         {
           "check_result": {
@@ -554,7 +508,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "82"
+            "subsequent_step_number": "70"
           },
           "note": null,
           "result_code": null
@@ -625,7 +579,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung auf Kopfebene\nDer Lieferschein zur Rechnung wurde storniert.",
+          "note": "Cluster Ablehnung auf Kopfebene\nDer Lieferschein zur Rechnung wurde storniert.",
           "result_code": "A14"
         },
         {
@@ -732,7 +686,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht der Rechnungstyp (z. B. Turnusrechnung oder Monatsrechnung) der zu prüfenden Rechnung für den übermittelten Zeitraum der an der Marktlokation hinterlegten Netznutzungsabrechnungsvariante (Grund-/ Arbeitspreis bzw. Arbeits-/Leistungspreis)?\nFolgende Rechnungstypen sind bei der Netznutzungsabrechnungsvariante Grund-/ Arbeitspreis möglich:\nAbschlussrechnung (ABR)\nTurnusrechnung (JVR)\nZwischenabrechnung (ZVR)\nFolgende Rechnungstypen sind bei der Netznutzungsabrechnungsvariante Leistungs-/ Arbeitspreis möglich:\nMVR Monatsrechnung (MVR)\nIntegrierte 13. Rechnung (13I)\n13. Rechnung (13R)",
+      "description": "Entspricht der Rechnungstyp (z. B. Abschlagsrechnung oder Monatsrechnung) der zu prüfenden Rechnung für den übermittelten Zeitraum der an der Marktlokation hinterlegten Netznutzungsabrechnungsvariante (Grund-/ Arbeitspreis bzw. Arbeits-/Leistungspreis)?\nFolgende Rechnungstypen sind bei der Netznutzungsabrechnungsvariante Grund-/ Arbeitspreis möglich:\nAbschlussrechnung (ABR)\nAbschlagsrechnung (ABS)\nTurnusrechnung (JVR)\nZwischenabrechnung (ZVR)\nFolgende Rechnungstypen sind bei der Netznutzungsabrechnungsvariante Leistungs-/ Arbeitspreis möglich:\nMVR Monatsrechnung (MVR)\nIntegrierte 13. Rechnung (13I)\n13. Rechnung (13R)",
       "step_number": "70",
       "sub_rows": [
         {
@@ -778,7 +732,7 @@
       "use_cases": null
     },
     {
-      "description": "Liegt ein elektronisches Preisblatt Netznutzung vor in dem NAD+MS und RFF+Z56 identisch mit NAD+MS und RFF+Z56 der INVOIC sind?",
+      "description": "Liegt ein elektronisches Preisblatt Netznutzung vor?",
       "step_number": "76",
       "sub_rows": [
         {
@@ -824,7 +778,7 @@
       "use_cases": null
     },
     {
-      "description": "Handelt es sich bei dem Rechnungstyp um eine der folgenden:\nTurnusrechnung (JVR)\nZwischenrechnung (ZVR)\nAbschlussrechnung (ABR)\nMonatsrechnung (MVR)\nIntegrierte 13. Rechnung (13I)?",
+      "description": "Handelt es sich bei dem Rechnungstyp um eine der folgenden:\nTurnusrechnung (JVR)\nZwischenrechnung (ZVR)\nAbschlussrechnung (ABR)\nAbschlagsrechnung (ABS)\nMonatsrechnung (MVR)\nIntegrierte 13. Rechnung (13I)?",
       "step_number": "80",
       "sub_rows": [
         {
@@ -855,7 +809,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung auf Kopfebene\nSonstiger Fehler in den Kopfdaten.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "note": "Cluster: Ablehnung auf Kopfebene\nSonstiger Fehler in den Kopfdaten.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit: Ende offen",
           "result_code": "A90"
         },
         {
@@ -1246,7 +1200,7 @@
             "result": true,
             "subsequent_step_number": "230"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit: Ende offen",
           "result_code": "A99"
         },
         {
@@ -1706,7 +1660,7 @@
             "result": true,
             "subsequent_step_number": "399"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit: Ende offen",
           "result_code": "A99"
         },
         {
@@ -2258,7 +2212,7 @@
             "result": false,
             "subsequent_step_number": "480"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht zu den Mengen auf dem übermittelten Lieferschein übereinstimmen. \nBefüllungshinweis: „Identifikation der Zeile/Position im Dokument“: Der LF gibt die größte Positionsnummer der Artikel-ID mit, bei der die Resultierende der Rechnung nicht der Menge aus dem Lieferschein entspricht.",
+          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht zu den Mengen auf dem übermittelten Lieferschein übereinstimmen. \nBefüllungshinweis „Identifikation der Zeile/Position im Dokument“: Der LF gibt die größte Positionsnummer der Artikel-ID mit, bei der die Resultierende der Rechnung nicht der Menge aus dem Lieferschein entspricht.",
           "result_code": "A45"
         },
         {
@@ -2603,7 +2557,7 @@
             "result": true,
             "subsequent_step_number": "535"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nAbrechnungszeitraum der Resultierenden wird doppelt abgerechnet\nHinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der diese Position bereits abgerechnet wurde.",
+          "note": "Cluster: Ablehnung auf Positionsebene\nAbrechnungszeitraum der der Resultierenden wird doppelt abgerechnet\nHinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der diese Position bereits abgerechnet wurde.",
           "result_code": "A51"
         },
         {
@@ -2787,7 +2741,7 @@
             "result": true,
             "subsequent_step_number": "599"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit: Ende offen",
           "result_code": "A99"
         },
         {
@@ -3247,7 +3201,7 @@
             "result": false,
             "subsequent_step_number": "665"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht zu den Mengen auf dem übermittelten Lieferschein übereinstimmen. \nBefüllungshinweis: „Identifikation der Zeile/Position im Dokument“: Der LF gibt die größte Positionsnummer der Artikel-ID mit, bei der die Resultierende der Rechnung nicht der Menge aus dem Lieferschein entspricht.",
+          "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht zu den Mengen auf dem übermittelten Lieferschein übereinstimmen. \nBefüllungshinweis „Identifikation der Zeile/Position im Dokument“: Der LF gibt die größte Positionsnummer der Artikel-ID mit, bei der die Resultierende der Rechnung nicht der Menge aus dem Lieferschein entspricht.",
           "result_code": "A56"
         },
         {
@@ -3592,7 +3546,7 @@
             "result": true,
             "subsequent_step_number": "720"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nAbrechnungszeitraum der Resultierenden wird doppelt abgerechnet.\nHinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der diese Position bereits abgerechnet wurde.",
+          "note": "Cluster: Ablehnung auf Positionsebene\nAbrechnungszeitraum der der Resultierenden wird doppelt abgerechnet.\nHinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der diese Position bereits abgerechnet wurde.",
           "result_code": "A62"
         },
         {
@@ -3776,7 +3730,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nEs liegt eine der beiden Fehlersituationen vor:\n1) Es werden zu wenige bzw. zu viele Positionen aus den vorangegangenen MVR zurückgenommen.\n2) Es wurde die Artikel-ID für die falschen Benutzungsstunden abgerechnet.",
+          "note": "Cluster: Ablehnung auf Positionsebene\nEs werden zu wenige bzw. zu viele Positionen aus den vorangegangenen MVR zurückgenommen.",
           "result_code": "A63"
         },
         {
@@ -3860,7 +3814,7 @@
       "use_cases": null
     },
     {
-      "description": "Wird über diese Resultierende mit dieser Artikel-ID ein Zeitraum abgerechnet, der bereits in einer vorangegangenen, akzeptierten und nicht stornierten MVR mit dieser Artikel-ID abgerechnet und auch in keiner vorangegangenen, akzeptierten und nicht stornierten MVR zurückgenommen wurde?",
+      "description": "Wird über diese Resultierende mit dieser Artikel-ID ein Zeitraum abgerechnet, der bereits in einer vorangegangenen MVR mit dieser Artikel-ID abgerechnet wurde?",
       "step_number": "780",
       "sub_rows": [
         {
@@ -3998,7 +3952,7 @@
       "use_cases": null
     },
     {
-      "description": "Handelt es sich bei den Resultierenden um eine Artikel-ID für Tarifkunden-Konzessionsabgabe?",
+      "description": "Handelt es sich bei den Resultierenden um die Artikel-ID für Konzessionsabgabe in Schwachlast- oder Nicht-Schwachlastzeiten (oder um die gemeindespezifische Konzessionsabgabe für Schwachlast- oder Nicht-Schwachlastzeiten)?",
       "step_number": "786",
       "sub_rows": [
         {
@@ -4021,7 +3975,7 @@
       "use_cases": null
     },
     {
-      "description": "Wird in derselben Rechnung eine Konzessionsabgaben-Position mit einer Artikel-ID, die nicht einer Tarifkunden-Konzessionsabgabe entspricht, mit positiver Menge abgerechnet?",
+      "description": "Wird in derselben Rechnung eine Konzessionsabgaben- Position mit einer Artikel-ID, die nicht der Konzessionsabgabe in Schwachlast- oder Nicht-Schwachlastzeiten (oder die gemeindespezifische Konzessionsabgabe für Schwachlast- oder Nicht-Schwachlastzeiten) entspricht, mit positiver Menge abgerechnet?",
       "step_number": "787",
       "sub_rows": [
         {
@@ -4167,7 +4121,7 @@
             "result": true,
             "subsequent_step_number": "799"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit: Ende offen",
           "result_code": "A99"
         },
         {
@@ -4242,29 +4196,6 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "810"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Sind die Netzentgelte unter Berücksichtigung der pauschalen Netzentgeltreduzierung nach §14a EnWG richtig berechnet?",
-      "step_number": "810",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "Ende"
-          },
-          "note": "Cluster: Ablehnung auf Summenebene\nDie Netzentgelte unter Berücksichtigung der pauschalen Netzentgeltreduzierung nach §14a EnWG sind nicht richtig berechnet.",
-          "result_code": "AD2"
-        },
-        {
-          "check_result": {
-            "result": true,
             "subsequent_step_number": "815"
           },
           "note": null,
@@ -4282,7 +4213,7 @@
             "result": false,
             "subsequent_step_number": "816"
           },
-          "note": "Cluster: Ablehnung auf Summenebene\nGenannte Besteuerungsgrundlage passt nicht zu der Summe der Einzelpositionen des Steuersatzes.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
+          "note": "Cluster: Ablehnung auf Summenebene\nGenannter Steuersatz passt nicht zu der Summe der Einzelpositionen des Steuersatzes.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "A66"
         },
         {
@@ -4573,7 +4504,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist der vorausbezahlte Betrag identisch mit der Summe aller zuvor bezahlten Abschlagsrechnungen, deren Abrechnungszeitraum im Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) liegen?\nHinweis: Sobald aus dem Abrechnungszeitraum des Abschlages mindestens ein Tag in den Abrechnungszeitraum der Netznutzungsrechnung (JVR, ZVR, ABR) enthalten und bezahlt ist, muss dieser angerechnet werden, sofern die Abschlagsrechnung nicht bereits in einer anderen vom LF akzeptierten und nicht stornierten Rechnung berücksichtigt wurde.",
+      "description": "Ist der vorausbezahlte Betrag identisch mit der Summe aller zuvor bezahlten Abschlagsrechnungen, deren Abrechnungszeitraum im Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) liegen?\nHinweis: Sobald aus dem Abrechnungszeitraum des Abschlages mindestens ein Tag in den Abrechnungszeitraum der Netznutzungsrechnung (JVR, ZVR, ABR) enthalten und bezahlt ist, muss dieser angerechnet werden.",
       "step_number": "922",
       "sub_rows": [
         {
@@ -4596,7 +4527,7 @@
       "use_cases": null
     },
     {
-      "description": "Sind für den Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) alle Referenzen der zugehörigen und zuvor bezahlten Abschlagsrechnungen enthalten?\nHinweis: Sobald aus dem Abrechnungszeitraum des Abschlages mindestens ein Tag in den Abrechnungszeitraum der Netznutzungsrechnung (JVR, ZVR, ABR) enthalten und bezahlt ist, muss dieser angerechnet werden, sofern die Abschlagsrechnung nicht bereits in einer anderen vom LF akzeptierten und nicht stornierten Rechnung berücksichtigt wurde.",
+      "description": "Sind für den Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) alle Referenzen der zugehörigen und zuvor bezahlten Abschlagsrechnungen enthalten?\nHinweis: Sobald aus dem Abrechnungszeitraum des Abschlages mindestens ein Tag in den Abrechnungszeitraum der Netznutzungsrechnung (JVR, ZVR, ABR) enthalten und bezahlt ist, muss dieser angerechnet werden.",
       "step_number": "925",
       "sub_rows": [
         {
@@ -4696,7 +4627,7 @@
             "result": true,
             "subsequent_step_number": "990"
           },
-          "note": "Cluster: Ablehnung auf Summenebene\nSonstiger Fehler in den Summenteil.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
+          "note": "Cluster: Ablehnung auf Summenebene\nSonstiger Fehler in den Summenteil.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit: Ende offen",
           "result_code": "A96"
         },
         {
