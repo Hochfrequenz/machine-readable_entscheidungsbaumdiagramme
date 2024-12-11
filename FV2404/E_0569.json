@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "WiM Strom",
     "ebd_code": "E_0569",
+    "ebd_name": "E_0569_Prüfen, ob Antwort auf Stornierung erforderlich",
+    "remark": null,
     "role": "NB",
-    "sub_chapter": "9.14.4: AD: Abrechnung Messstellenbetrieb gegenüber dem NB"
+    "section": "9.14.4: AD: Abrechnung Messstellenbetrieb gegenüber dem NB"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -123,7 +125,7 @@
       "use_cases": null
     },
     {
-      "description": "Entsprechen die Beträge der Stornorechnung den Beträgen der ursprünglichen Rechnung?\n\nHinweis: Alle MOA-Segmente im Summenteil müssen unter Nutzung der Absolutbetragfunktion übereinstimmen.",
+      "description": "Sind die mit (-1) multiplizierten Beträge der Stornorechnung mit den Beträgen der ursprünglichen Rechnung identisch?\n\nHinweis:\nAls Betrag ist der jeweilige Wert des jeweiligen MOA-Segments zu verstehen.",
       "step_number": "50",
       "sub_rows": [
         {
@@ -131,7 +133,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Mindestens ein Betrag der Stornorechnung ist nicht identisch mit dem Betrag der ursprünglichen Rechnung.",
+          "note": "Mindestens ein Betrag der Stornorechnung passt nicht zu dem Betrag der ursprünglichen Rechnung.",
           "result_code": "A05"
         },
         {

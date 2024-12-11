@@ -1,6 +1,12 @@
 digraph D {
     labelloc="t";
     label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.36.1: AD: Aktivierung eines MaBiS-Zählpunkts für die Bilanzkreissummenzeitreihe vom ÜNB an BIKO und BKV</FONT></B><BR/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
     "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0011</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Erfolgt die Aktivierung nach Ablauf der Clearingfrist für die KBKA?<BR align="left"/>>];
     "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Fristüberschreitung<BR align="left"/></FONT>>];
@@ -11,13 +17,13 @@ digraph D {
     "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Erfolgt die Aktivierung des MaBiS-ZP auf Ebene des Bilanzierungsgebiet?<BR align="left"/>>];
     "5" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>5: </B>Ist das Bilanzierungsgebiet zum Aktivierungsbeginn in der Regelzone des BIKO gültig?<BR align="left"/>>];
     "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Bilanzierungsgebiet nicht gültig<BR align="left"/></FONT>>];
-    "6" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>6: </B>Existiert bereits ein abweichendes Tupel aus Aggregationsverantwortlicher, Bilanzierungsgebiet, Bilanzkreis und ZRT unter der ID des MaBiS-ZP?<BR align="left"/>>];
+    "6" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>6: </B>Existiert bereits ein abweichendes Tupel aus Aggregationsverantwortlicher,<BR align="left"/>Bilanzierungsgebiet, Bilanzkreis und ZRT unter der ID des MaBiS-ZP?<BR align="left"/>>];
     "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Abweichender MaBiS-ZP bereits vorhanden<BR align="left"/></FONT>>];
-    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>7: </B>Existiert bereits für das genannte Tupel aus Aggregationsverantwortlicher, Bilanzierungsgebiet, Bilanzkreis und ZRT eine abweichende ID des MaBiS-ZP?<BR align="left"/>>];
+    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>7: </B>Existiert bereits für das genannte Tupel aus Aggregationsverantwortlicher,<BR align="left"/>Bilanzierungsgebiet, Bilanzkreis und ZRT eine abweichende ID des MaBiS-ZP?<BR align="left"/>>];
     "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Abweichende ID zum MaBiS-ZP bereits vorhanden<BR align="left"/></FONT>>];
-    "8" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>8: </B>Existiert bereits ein abweichendes Tupel aus Aggregationsverantwortlicher, Regelzone, Bilanzkreis und ZRT unter der ID des MaBiS-ZP?<BR align="left"/>>];
+    "8" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>8: </B>Existiert bereits ein abweichendes Tupel aus Aggregationsverantwortlicher,<BR align="left"/>Regelzone, Bilanzkreis und ZRT unter der ID des MaBiS-ZP?<BR align="left"/>>];
     "A07" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A07</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Abweichender MaBiS-ZP bereits vorhanden<BR align="left"/></FONT>>];
-    "9" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>9: </B>Existiert bereits für das genannte Tupel aus Aggregationsverantwortlicher, Regelzone, Bilanzkreis und ZRT eine abweichende ID des MaBiS-ZP?<BR align="left"/>>];
+    "9" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>9: </B>Existiert bereits für das genannte Tupel aus Aggregationsverantwortlicher,<BR align="left"/>Regelzone, Bilanzkreis und ZRT eine abweichende ID des MaBiS-ZP?<BR align="left"/>>];
     "A08" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A08</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Abweichende ID zum MaBiS-ZP bereits vor-handen<BR align="left"/></FONT>>];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Ist der Bilanzkreis zum Aktivierungsbeginn gültig?<BR align="left"/>>];
     "A09" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A09</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Bilanzkreis nicht gültig<BR align="left"/></FONT>>];

@@ -1,30 +1,14 @@
 digraph D {
     labelloc="t";
     label=<<B><FONT POINT-SIZE="18">MPES</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">8.2.2: AD: Lieferbeginn</FONT></B><BR/><BR/><BR/><BR/>>;
-    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0300</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
-    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Liegt das Abmeldedatum mindestens einen Tag nach dem Eingangsdatum der Abmeldung?<BR align="left"/>>];
-    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Fristüberschreitung bei Aufhebung einer zu-künftigen Zuordnung wegen Auszug oder Still-legung.<BR align="left"/></FONT>>];
-    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Liegt das Eingangsdatum der Abmeldung mindestens 1 Monat vor dem Monatsletzten des gewünschten Abmeldedatums?<BR align="left"/>>];
-    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Fristüberschreitung bei Transaktionsgründen für eine Abmeldung in der Zukunft.<BR align="left"/>Hinweis: Abmeldedatum kann ausschließlich ein Monatsletzter sein.<BR align="left"/></FONT>>];
-    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>3: </B>Erfolgt die Aufhebung einer zukünftigen Zuordnung zu dem gleichen Datum (Zeitpunkt), welcher dem Lieferanten im Lieferbeginn bestätigt wurde?<BR align="left"/>>];
-    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die Aufhebung einer zukünftigen Zuordnung muss zum Datum (Zeitpunkt) angegeben werden, wie im Lieferbeginn bestätigt.<BR align="left"/></FONT>>];
-    "4" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>4: </B>Liegt bereits eine bestätigte Abmeldung vor?<BR align="left"/>>];
-    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung <BR align="left"/>Lieferende zum Abmeldedatum wurde aus gleichem Grund bereits bestätigt.<BR align="left"/></FONT>>];
-    "5" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>5: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>];
-    "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Lieferende wird zugestimmt<BR align="left"/></FONT>>];
-    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung Sonstiges <BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr<BR align="left"/></FONT>>];
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    "Empty" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0300</B><BR align="center"/><FONT point-size="12">Derzeit ist für diese Entscheidung kein Entscheidungsbaum notwendig, da keine Antwort gegeben wird.</FONT><BR align="center"/>>];
 
-    "Start" -> "1";
-    "1" -> "A01" [label="Nein"];
-    "1" -> "2" [label="Ja"];
-    "2" -> "A02" [label="Nein"];
-    "2" -> "3" [label="Ja"];
-    "3" -> "A03" [label="Nein"];
-    "3" -> "4" [label="Ja"];
-    "4" -> "A04" [label="Ja"];
-    "4" -> "5" [label="Nein"];
-    "5" -> "A05" [label="Nein"];
-    "5" -> "A99" [label="Ja"];
 
     bgcolor="transparent";
 }
