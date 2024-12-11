@@ -1,25 +1,14 @@
 digraph D {
     labelloc="t";
     label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.38.7: AD Bestellung einer Konfiguration vom LF an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
-    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0537</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
-    "15" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>15: </B>Wurden die Vorlauffristen eingehalten?<BR align="left"/>Hinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen.<BR align="left"/>>];
-    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die Vorlauffrist wurde nicht eingehalten.<BR align="left"/></FONT>>];
-    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>20: </B>Handelt es sich um eine kostenpflichtige Bestellung?<BR align="left"/>>];
-    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>30: </B>Handelt es sich um eine Bestellung, die beendet werden kann?<BR align="left"/>>];
-    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Es handelt sich um eine Bestellung, die nicht beendet werden kann.<BR align="left"/></FONT>>];
-    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>40: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>];
-    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr<BR align="left"/></FONT>>];
-    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Bestätigung der Beendigung<BR align="left"/></FONT>>];
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    "Empty" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0537</B><BR align="center"/><FONT point-size="12">Kein EBD erforderlich</FONT><BR align="center"/>>];
 
-    "Start" -> "15";
-    "15" -> "A04" [label="Nein"];
-    "15" -> "20" [label="Ja"];
-    "20" -> "30" [label="Nein"];
-    "20" -> "40" [label="Ja"];
-    "30" -> "A02" [label="Nein"];
-    "30" -> "40" [label="Ja"];
-    "40" -> "A99" [label="Ja"];
-    "40" -> "A03" [label="Nein"];
 
     bgcolor="transparent";
 }

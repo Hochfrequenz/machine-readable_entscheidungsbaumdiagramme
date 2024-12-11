@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "GPKE",
     "ebd_code": "E_0407",
+    "ebd_name": "E_0407_erneut Netznutzungsabrechnung prüfen",
+    "remark": null,
     "role": "LF",
-    "sub_chapter": "6.7.3: AD: Netznutzungsabrechnung"
+    "section": "6.7.3: AD: Netznutzungsabrechnung"
   },
   "multi_step_instructions": [
     {
@@ -4548,7 +4550,7 @@
       "use_cases": null
     },
     {
-      "description": "Sind für den Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) alle Referenzen der zugehörigen und zuvor bezahlten Abschlagsrechnungen enthalten?",
+      "description": "Sind für den Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) alle Referenzen der zugehörigen und zuvor bezahlten Abschlagsrechnungen enthalten?\nHinweis: Sobald aus dem Abrechnungszeitraum des Abschlages mindestens ein Tag in den Abrechnungszeitraum der Netznutzungsrechnung (JVR, ZVR, ABR) enthalten und bezahlt ist, muss dieser angerechnet werden.",
       "step_number": "925",
       "sub_rows": [
         {

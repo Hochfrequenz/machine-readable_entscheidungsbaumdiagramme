@@ -2,33 +2,11 @@
   "metadata": {
     "chapter": "",
     "ebd_code": "E_0904",
-    "role": "NB",
-    "sub_chapter": "17.1.1: AD: Anforderung der Ausfallarbeit durch den anfNB"
+    "ebd_name": "E_0904_Prüfung der Anforderung",
+    "remark": "Derzeit ist für diese Entscheidung kein Entscheidungsbaum notwendig, da keine Antwort gegeben wird.",
+    "role": "N/A",
+    "section": "17.1.1: AD: Anforderung der Ausfallarbeit durch den anfNB"
   },
   "multi_step_instructions": null,
-  "rows": [
-    {
-      "description": "Ist ein Fehler aufgetreten?",
-      "step_number": "1",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": null
-          },
-          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2025, 00:00 Uhr",
-          "result_code": "A99"
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": null
-          },
-          "note": "E_0514_Beendigung der Zuordnung prüfen",
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    }
-  ]
+  "rows": []
 }

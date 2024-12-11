@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "Prozesse zur Ermittlung und Abrechnung von Mehr-/Mindermengen Strom und Gas",
     "ebd_code": "E_0804",
+    "ebd_name": "E_0804_Prüfen, ob Antwort auf Stornierung erforderlich (Basiert auf Strom EBD: E_0506_Prüfen, ob Antwort auf Stornierung erforderlich)",
+    "remark": null,
     "role": "LF",
-    "sub_chapter": "11.3.2: AD: Mehr-/Mindermengenabrechnung zwischen NB und LF"
+    "section": "11.3.2: AD: Mehr-/Mindermengenabrechnung zwischen NB und LF"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -123,7 +125,7 @@
       "use_cases": null
     },
     {
-      "description": "Entsprechen die Beträge der Stornorechnung den Beträgen der ursprünglichen Rechnung?\n\nHinweis: Alle MOA-Segmente im Summenteil müssen unter Nutzung der Absolutbetragfunktion übereinstimmen.",
+      "description": "Sind die mit (-1) multiplizierten Beträge der Stornorechnung mit den Beträgen der ursprünglichen Rechnung identisch?\n\nHinweis:\nAls Betrag ist der jeweilige Wert des jeweiligen MOA-Segments zu verstehen.",
       "step_number": "50",
       "sub_rows": [
         {
@@ -131,7 +133,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Mindestens ein Betrag der Stornorechnung ist nicht identisch mit dem Betrag der ursprünglichen Rechnung.",
+          "note": "Mindestens ein Betrag der Stornorechnung passt nicht zu dem Betrag der ursprünglichen Rechnung.",
           "result_code": "A05"
         },
         {
