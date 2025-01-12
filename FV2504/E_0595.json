@@ -47,7 +47,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "18"
+            "subsequent_step_number": "30"
           },
           "note": null,
           "result_code": null
@@ -70,7 +70,168 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "20"
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Bestellung Änderung Konzessionsabgabe?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Marktlokation zum Zeitpunkt der bestellten Änderung die Sondervertragskunden-KA zugeordnet?\nHinweis: Wenn der Marktlokation zum Zeitpunkt der bestellten Änderung die Sondervertragskunden-KA zugeordnet ist und die Kriterien nach § 2 Abs. 7 KAV wurden nicht erreicht, so ist diese Frage mit „nein“ zu beantworten.",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nSondervertragskunden-KA gemäß § 2 Abs. 3 der Konzessionsabgabenverordnung, daher keine Änderung möglich.",
+          "result_code": "A23"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Marktlokation von der Konzessionsabgabe befreit?",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nÄnderung nicht möglich, da Marktlokation von Konzessionsabgabe befreit ist.",
+          "result_code": "A24"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "55"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der bestellte Zustand an der Marktlokation bereits vorhanden?",
+      "step_number": "55",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nDer gewünschte Zustand ist bereits an der Marktlokation hinterlegt.",
+          "result_code": "A25"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Bestellt der LF für eine Marktlokation den Wechsel auf eine Schwachlast-Konzessionsabgabe?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "200"
+          },
+          "note": "Stammdatenänderung NB (verantwortlich) ausgehend\nHinweis: Der LF beauftragt den NB die Schwachlast-Konzessionsabgabe an der Marktlokation nicht mehr ab dem angegebenen Zeitpunkt abzurechnen. Es soll die reguläre Konzessionsabgabe abgerechnet werden.",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "65"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Möchte der NB die Bestellung der rückwirkenden Änderung der Konzessionsabgabe aufgrund rechtlicher Fristen ablehnen?",
+      "step_number": "65",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nEine rückwirkende Änderung wird abgelehnt.",
+          "result_code": "A26"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "70"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Lässt die Gerätekonfiguration der Messlokationen der angefragten Marktlokation zum Umsetzungszeitpunkt die separate Erfassung der Energie in den Schwachlastzeiten zu, um die niedrige Konzessionsabgabe für diese Menge abrechnen zu können?",
+      "step_number": "70",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nAn der Marktlokation kann die Energie in den Schwachlastzeiten nicht zum angefragten Zeitpunkt separat erfasst werden.",
+          "result_code": "A27"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "200"
           },
           "note": null,
           "result_code": null
@@ -80,12 +241,12 @@
     },
     {
       "description": "Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose?",
-      "step_number": "18",
+      "step_number": "90",
       "sub_rows": [
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "19"
+            "subsequent_step_number": "100"
           },
           "note": null,
           "result_code": null
@@ -93,7 +254,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "20"
+            "subsequent_step_number": "200"
           },
           "note": null,
           "result_code": null
@@ -103,7 +264,7 @@
     },
     {
       "description": "Wurde die Vorlauffrist von mindestens 7 WT vor dem Änderungszeitpunkt eingehalten?",
-      "step_number": "19",
+      "step_number": "100",
       "sub_rows": [
         {
           "check_result": {
@@ -116,7 +277,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "20"
+            "subsequent_step_number": "110"
           },
           "note": null,
           "result_code": null
@@ -125,8 +286,54 @@
       "use_cases": null
     },
     {
+      "description": "Ist der Bilanzkreis zum angegebenen Zeitpunkt in der Regelzone gültig?",
+      "step_number": "110",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nBilanzkreis nicht gültig.",
+          "result_code": "A28"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Bilanzkreis und der erforderliche Zeitreihentyp in der Zuordnungsermächtigung aufgeführt?",
+      "step_number": "120",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "200"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: keine Änderung der Daten\nBilanzkreis und der erforderliche Zeitreihentyp ist in der Zuordnungsermächtigung nicht aufgeführt.",
+          "result_code": "A29"
+        }
+      ],
+      "use_cases": null
+    },
+    {
       "description": "Konnte die Bestellung umgesetzt werden?",
-      "step_number": "20",
+      "step_number": "200",
       "sub_rows": [
         {
           "check_result": {

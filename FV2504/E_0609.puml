@@ -105,14 +105,15 @@ vor?) then (ja)
                 kill;
             endif
             if (<b>80: </b> Liegt der Transaktionsgrund Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT vor?) then (ja)
-                if (<b>90: </b> Wurde der Zeitreihentyp an der betreffenden Marktlokation auf einen ZRT geändert, für welchen keine Zuordnungsermächtigung besteht?) then (ja)
-                else (nein)
+                if (<b>90: </b> Wurde der Zeitreihentyp an der betreffenden Marktlokation auf einen ZRT geändert, für welchen eine Zuordnungsermächtigung besteht?) then (ja)
                     :A06;
                     note left
                         Cluster: Zustimmung
-                        Es liegt keine Änderung auf einen Zeitreihentyp vor, für welchen keine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor&#41;
+                        Es liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor&#41;
+                        Hinweis: Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.
                     endnote
                     kill;
+                else (nein)
                 endif
                 if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
                 else (nein)
@@ -125,13 +126,13 @@ vor?) then (ja)
                 endif
             else (nein)
                 if (<b>100: </b> Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation zugeordnet ist, zum übermittelten Lieferende vorgenommen?) then (ja)
-                else (nein)
                     :A07;
                     note left
                         Cluster: Zustimmung
-                        Deaktivierung der Zuordnungsermächtigung für den der Marktlokation zugeordneten ZRT hat nicht stattgefunden.
+                        Deaktivierung der Zuordnungsermächtigung für den der Marktlokation zugeordneten ZRT hat stattgefunden.
                     endnote
                     kill;
+                else (nein)
                 endif
                 if (<b>110: </b> Hat die dem Lieferende zugrundeliegende Deaktivierung der Zuordnungsermächtigung ihre Gültigkeit weiter als einen Monat in die Zukunft?) then (ja)
                     :A08;
@@ -224,14 +225,15 @@ vor?) then (ja)
             kill;
         endif
         if (<b>80: </b> Liegt der Transaktionsgrund Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT vor?) then (ja)
-            if (<b>90: </b> Wurde der Zeitreihentyp an der betreffenden Marktlokation auf einen ZRT geändert, für welchen keine Zuordnungsermächtigung besteht?) then (ja)
-            else (nein)
+            if (<b>90: </b> Wurde der Zeitreihentyp an der betreffenden Marktlokation auf einen ZRT geändert, für welchen eine Zuordnungsermächtigung besteht?) then (ja)
                 :A06;
                 note left
                     Cluster: Zustimmung
-                    Es liegt keine Änderung auf einen Zeitreihentyp vor, für welchen keine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor&#41;
+                    Es liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor&#41;
+                    Hinweis: Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.
                 endnote
                 kill;
+            else (nein)
             endif
             if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
             else (nein)
@@ -244,13 +246,13 @@ vor?) then (ja)
             endif
         else (nein)
             if (<b>100: </b> Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation zugeordnet ist, zum übermittelten Lieferende vorgenommen?) then (ja)
-            else (nein)
                 :A07;
                 note left
                     Cluster: Zustimmung
-                    Deaktivierung der Zuordnungsermächtigung für den der Marktlokation zugeordneten ZRT hat nicht stattgefunden.
+                    Deaktivierung der Zuordnungsermächtigung für den der Marktlokation zugeordneten ZRT hat stattgefunden.
                 endnote
                 kill;
+            else (nein)
             endif
             if (<b>110: </b> Hat die dem Lieferende zugrundeliegende Deaktivierung der Zuordnungsermächtigung ihre Gültigkeit weiter als einen Monat in die Zukunft?) then (ja)
                 :A08;
@@ -340,14 +342,15 @@ else (nein)
             kill;
         endif
         if (<b>560: </b> Liegt der Transaktionsgrund Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT vor?) then (ja)
-            if (<b>570: </b> Wurde der Zeitreihentyp an der betreffenden Marktlokation bzw. Tranche auf einen ZRT geändert, für welchen keine Zuordnungsermächtigung besteht?) then (ja)
-            else (nein)
+            if (<b>570: </b> Wurde der Zeitreihentyp an der betreffenden Marktlokation bzw. Tranche auf einen ZRT geändert, für welchen eine Zuordnungsermächtigung besteht?) then (ja)
                 :A25;
                 note left
                     Cluster: Zustimmung
-                    Es liegt keine Änderung auf einen Zeitreihentyp vor, für welchen keine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor&#41;
+                    Es liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor&#41;
+                    Hinweis: Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.
                 endnote
                 kill;
+            else (nein)
             endif
             if (<b>610: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
             else (nein)
@@ -360,13 +363,13 @@ else (nein)
             endif
         else (nein)
             if (<b>580: </b> Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation bzw. Tranche zugeordnet ist, zum übermittelten Lieferende vorgenommen?) then (ja)
-            else (nein)
                 :A26;
                 note left
                     Cluster: Zustimmung
-                    Deaktivierung der Zuordnungsermächtigung für den der Marktlokation bzw. Tranche zugeordneten ZRT hat nicht stattgefunden.
+                    Deaktivierung der Zuordnungsermächtigung für den der Marktlokation bzw. Tranche zugeordneten ZRT hat stattgefunden.
                 endnote
                 kill;
+            else (nein)
             endif
             if (<b>590: </b> Hat die dem Lieferende zugrundeliegende Deaktivierung der Zuordnungsermächtigung ihre Gültigkeit weiter als einen Monat in die Zukunft?) then (ja)
                 :A27;
