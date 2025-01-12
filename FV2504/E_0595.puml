@@ -43,7 +43,7 @@ if (<b>10: </b> Handelt es sich bei dem Anwendungsfall um eine Bestellung mittel
             endnote
             kill;
         endif
-        if (<b>20: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
+        if (<b>200: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
             :A20;
             note left
                 Cluster: Änderung der Daten
@@ -62,38 +62,126 @@ if (<b>10: </b> Handelt es sich bei dem Anwendungsfall um eine Bestellung mittel
             kill;
         endif
     else (nein)
-        if (<b>18: </b> Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose?) then (ja)
-            if (<b>19: </b> Wurde die Vorlauffrist von mindestens 7 WT vor dem Änderungszeitpunkt eingehalten?) then (ja)
-            else (nein)
-                :A22;
+        if (<b>30: </b> Handelt es sich um eine Bestellung Änderung Konzessionsabgabe?) then (ja)
+            if (<b>40: </b> Ist der Marktlokation zum Zeitpunkt der bestellten Änderung die Sondervertragskunden-KA zugeordnet?
+Hinweis: Wenn der Marktlokation zum Zeitpunkt der bestellten Änderung die Sondervertragskunden-KA zugeordnet ist und die Kriterien nach § 2 Abs. 7 KAV wurden nicht erreicht, so ist diese Frage mit „nein“ zu beantworten.) then (ja)
+                :A23;
                 note left
                     Cluster: keine Änderung der Daten
-                    Die Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose wurde nicht eingehalten.
+                    Sondervertragskunden-KA gemäß § 2 Abs. 3 der Konzessionsabgabenverordnung, daher keine Änderung möglich.
                 endnote
                 kill;
+            else (nein)
             endif
-            if (<b>20: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
-                :A20;
+            if (<b>50: </b> Ist die Marktlokation von der Konzessionsabgabe befreit?) then (ja)
+                :A24;
                 note left
-                    Cluster: Änderung der Daten
-                    Der Bestellung der Stammdaten konnte zugestimmt werden.
-                    Hinweis: NB versendet neue Stammdaten
+                    Cluster: keine Änderung der Daten
+                    Änderung nicht möglich, da Marktlokation von Konzessionsabgabe befreit ist.
                 endnote
                 kill;
             else (nein)
-                :A99;
+            endif
+            if (<b>55: </b> Ist der bestellte Zustand an der Marktlokation bereits vorhanden?) then (ja)
+                :A25;
                 note left
                     Cluster: keine Änderung der Daten
-                    Der Bestellung der Stammdaten konnte nicht zugestimmt werden.
-                    Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                    Nutzungsmöglichkeit Ende: offen
+                    Der gewünschte Zustand ist bereits an der Marktlokation hinterlegt.
                 endnote
                 kill;
+            else (nein)
+            endif
+            if (<b>60: </b> Bestellt der LF für eine Marktlokation den Wechsel auf eine Schwachlast-Konzessionsabgabe?) then (ja)
+                if (<b>65: </b> Möchte der NB die Bestellung der rückwirkenden Änderung der Konzessionsabgabe aufgrund rechtlicher Fristen ablehnen?) then (ja)
+                    :A26;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        Eine rückwirkende Änderung wird abgelehnt.
+                    endnote
+                    kill;
+                else (nein)
+                endif
+                if (<b>70: </b> Lässt die Gerätekonfiguration der Messlokationen der angefragten Marktlokation zum Umsetzungszeitpunkt die separate Erfassung der Energie in den Schwachlastzeiten zu, um die niedrige Konzessionsabgabe für diese Menge abrechnen zu können?) then (ja)
+                else (nein)
+                    :A27;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        An der Marktlokation kann die Energie in den Schwachlastzeiten nicht zum angefragten Zeitpunkt separat erfasst werden.
+                    endnote
+                    kill;
+                endif
+                if (<b>200: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
+                    :A20;
+                    note left
+                        Cluster: Änderung der Daten
+                        Der Bestellung der Stammdaten konnte zugestimmt werden.
+                        Hinweis: NB versendet neue Stammdaten
+                    endnote
+                    kill;
+                else (nein)
+                    :A99;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        Der Bestellung der Stammdaten konnte nicht zugestimmt werden.
+                        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+                        Nutzungsmöglichkeit Ende: offen
+                    endnote
+                    kill;
+                endif
+            else (nein)
             endif
         else (nein)
+            if (<b>90: </b> Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose?) then (ja)
+                if (<b>100: </b> Wurde die Vorlauffrist von mindestens 7 WT vor dem Änderungszeitpunkt eingehalten?) then (ja)
+                else (nein)
+                    :A22;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        Die Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose wurde nicht eingehalten.
+                    endnote
+                    kill;
+                endif
+                if (<b>110: </b> Ist der Bilanzkreis zum angegebenen Zeitpunkt in der Regelzone gültig?) then (ja)
+                else (nein)
+                    :A28;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        Bilanzkreis nicht gültig.
+                    endnote
+                    kill;
+                endif
+                if (<b>120: </b> Ist der Bilanzkreis und der erforderliche Zeitreihentyp in der Zuordnungsermächtigung aufgeführt?) then (ja)
+                else (nein)
+                    :A29;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        Bilanzkreis und der erforderliche Zeitreihentyp ist in der Zuordnungsermächtigung nicht aufgeführt.
+                    endnote
+                    kill;
+                endif
+                if (<b>200: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
+                    :A20;
+                    note left
+                        Cluster: Änderung der Daten
+                        Der Bestellung der Stammdaten konnte zugestimmt werden.
+                        Hinweis: NB versendet neue Stammdaten
+                    endnote
+                    kill;
+                else (nein)
+                    :A99;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        Der Bestellung der Stammdaten konnte nicht zugestimmt werden.
+                        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+                        Nutzungsmöglichkeit Ende: offen
+                    endnote
+                    kill;
+                endif
+            else (nein)
+            endif
         endif
     endif
-    if (<b>20: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
+    if (<b>200: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
         :A20;
         note left
             Cluster: Änderung der Daten
