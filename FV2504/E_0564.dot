@@ -1,28 +1,28 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.50.1: AD: Steuerbefehl vom LF an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.50.1: AD: Steuerbefehl vom LF an MSB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0564</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
-    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Ist eine Verarbeitung im Backend des MSB grundsätzlich möglich?<BR align="left"/>>];
-    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Backend des MSB ist überlastet.<BR align="left"/></FONT>>];
-    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>20: </B>Ist eine Kommunikationsverbindung zur Steuerbox möglich?<BR align="left"/>>];
-    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Kommunikationsverbindung zur Steuerbox ist gestört.<BR align="left"/></FONT>>];
-    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>30: </B>Ist es prozessual möglich den Steuerbefehl umzusetzen?<BR align="left"/>>];
-    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Prozessual ist es derzeit nicht möglich die Anforderung umzusetzen (z.B.<BR align="left"/>aufgrund von Wartungsarbeiten).<BR align="left"/></FONT>>];
-    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Der Steuerbefehl kann grundsätzlich umgesetzt werden.<BR align="left"/></FONT>>];
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0564</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>10: </B>Ist eine Verarbeitung im Backend des MSB grundsätzlich möglich?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A01</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Backend des MSB ist überlastet.<BR align="left"/></FONT>>];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>20: </B>Ist eine Kommunikationsverbindung zur Steuerbox möglich?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A02</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Kommunikationsverbindung zur Steuerbox ist gestört.<BR align="left"/></FONT>>];
+    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>30: </B>Ist es prozessual möglich den Steuerbefehl umzusetzen?<BR align="left"/>>];
+    "A03" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A03</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Prozessual ist es derzeit nicht möglich die Anforderung umzusetzen (z.B.<BR align="left"/>aufgrund von Wartungsarbeiten).<BR align="left"/></FONT>>];
+    "A04" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A04</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Der Steuerbefehl kann grundsätzlich umgesetzt werden.<BR align="left"/></FONT>>];
 
     "Start" -> "10";
-    "10" -> "A01" [label="Nein"];
-    "10" -> "20" [label="Ja"];
-    "20" -> "A02" [label="Nein"];
-    "20" -> "30" [label="Ja"];
-    "30" -> "A03" [label="Nein"];
-    "30" -> "A04" [label="Ja"];
+    "10" -> "A01" [label=<<B>NEIN</B>>, color="#7aab8a"];
+    "10" -> "20" [label=<<B>JA</B>>, color="#7aab8a"];
+    "20" -> "A02" [label=<<B>NEIN</B>>, color="#7aab8a"];
+    "20" -> "30" [label=<<B>JA</B>>, color="#7aab8a"];
+    "30" -> "A03" [label=<<B>NEIN</B>>, color="#7aab8a"];
+    "30" -> "A04" [label=<<B>JA</B>>, color="#7aab8a"];
 
     bgcolor="transparent";
 }
