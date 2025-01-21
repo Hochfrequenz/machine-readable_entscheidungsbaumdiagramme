@@ -1,20 +1,20 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">Sperrprozesse Gas</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">17.3.2: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">Sperrprozesse Gas</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">17.3.2: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_1005</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
-    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Ist die Entsperrung erfolgreich durchgeführt worden?<BR align="left"/>>];
-    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: erfolgreich<BR align="left"/>Marktlokation ist entsperrt.<BR align="left"/></FONT>>];
-    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: gescheitert<BR align="left"/>Marktlokation ist weiterhin gesperrt.<BR align="left"/>Hinweis: Die Gründe des Scheiterns sind zu übermitteln.<BR align="left"/></FONT>>];
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_1005</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>10: </B>Ist die Entsperrung erfolgreich durchgeführt worden?<BR align="left"/>>];
+    "A01" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A01</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: erfolgreich<BR align="left"/>Marktlokation ist entsperrt.<BR align="left"/></FONT>>];
+    "A02" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A02</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: gescheitert<BR align="left"/>Marktlokation ist weiterhin gesperrt.<BR align="left"/>Hinweis: Die Gründe des Scheiterns sind zu übermitteln.<BR align="left"/></FONT>>];
 
     "Start" -> "10";
-    "10" -> "A01" [label="Ja"];
-    "10" -> "A02" [label="Nein"];
+    "10" -> "A01" [label=<<B>JA</B>>, color="#7aab8a"];
+    "10" -> "A02" [label=<<B>NEIN</B>>, color="#7aab8a"];
 
     bgcolor="transparent";
 }
