@@ -1,13 +1,13 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.19.2: AD: Anfrage zur Stammdatenänderung von LF an NB (verantwortlich)</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.19.2: AD: Anfrage zur Stammdatenänderung von LF an NB (verantwortlich)</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Empty" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0419</B><BR align="center"/><FONT point-size="12">S_0006_Antwort auf Änderung vom NB
+    "Empty" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0419</B><BR align="center"/><FONT point-size="12">S_0006_Antwort auf Änderung vom NB
 S_0008_Antwort auf Änderung vom NB
 S_0010_Antwort auf Änderung vom NB</FONT><BR align="center"/>>];
 
