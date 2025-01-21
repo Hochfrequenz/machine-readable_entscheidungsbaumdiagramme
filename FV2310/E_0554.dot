@@ -1,32 +1,32 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.44.1: AD Reklamation einer Konfiguration vom MSB</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.44.1: AD Reklamation einer Konfiguration vom MSB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0554</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
-    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>20: </B>Ist der Wirkungszeitraum bereits eingetreten?<BR align="left"/>>];
-    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Wirkungszeitraum noch nicht eingetreten<BR align="left"/></FONT>>];
-    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>30: </B>Ist die Reklamation der Konfiguration berechtigt?<BR align="left"/>>];
-    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Reklamation unbegründet. Bestellte Konfiguration ist eingerichtet<BR align="left"/></FONT>>];
-    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>40: </B>Kann die Konfiguration korrigiert werden?<BR align="left"/>>];
-    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Konfiguration kann trotz Bestellung nicht vorgenommen werden<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/></FONT>>];
-    "50" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>50: </B>Kann die Konfiguration sofort korrigiert werden?<BR align="left"/>>];
-    "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Konfiguration wurde sofort angepasst<BR align="left"/></FONT>>];
-    "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Konfiguration konnte nicht sofort korrigiert werden.<BR align="left"/>Hinweis: Geplanter Behebungszeitpunkt muss angegeben werden.<BR align="left"/></FONT>>];
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0554</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>20: </B>Ist der Wirkungszeitraum bereits eingetreten?<BR align="left"/>>];
+    "A02" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A02</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Wirkungszeitraum noch nicht eingetreten<BR align="left"/></FONT>>];
+    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>30: </B>Ist die Reklamation der Konfiguration berechtigt?<BR align="left"/>>];
+    "A03" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A03</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Reklamation unbegründet. Bestellte Konfiguration ist eingerichtet<BR align="left"/></FONT>>];
+    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>40: </B>Kann die Konfiguration korrigiert werden?<BR align="left"/>>];
+    "A04" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A04</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Konfiguration kann trotz Bestellung nicht vorgenommen werden<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/></FONT>>];
+    "50" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>50: </B>Kann die Konfiguration sofort korrigiert werden?<BR align="left"/>>];
+    "A05" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A05</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Konfiguration wurde sofort angepasst<BR align="left"/></FONT>>];
+    "A06" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A06</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Konfiguration konnte nicht sofort korrigiert werden.<BR align="left"/>Hinweis: Geplanter Behebungszeitpunkt muss angegeben werden.<BR align="left"/></FONT>>];
 
     "Start" -> "20";
-    "20" -> "A02" [label="Nein"];
-    "20" -> "30" [label="Ja"];
-    "30" -> "A03" [label="Nein"];
-    "30" -> "40" [label="Ja"];
-    "40" -> "A04" [label="Nein"];
-    "40" -> "50" [label="Ja"];
-    "50" -> "A05" [label="Ja"];
-    "50" -> "A06" [label="Nein"];
+    "20" -> "A02" [label=<<B>NEIN</B>>, color="#7aab8a"];
+    "20" -> "30" [label=<<B>JA</B>>, color="#7aab8a"];
+    "30" -> "A03" [label=<<B>NEIN</B>>, color="#7aab8a"];
+    "30" -> "40" [label=<<B>JA</B>>, color="#7aab8a"];
+    "40" -> "A04" [label=<<B>NEIN</B>>, color="#7aab8a"];
+    "40" -> "50" [label=<<B>JA</B>>, color="#7aab8a"];
+    "50" -> "A05" [label=<<B>JA</B>>, color="#7aab8a"];
+    "50" -> "A06" [label=<<B>NEIN</B>>, color="#7aab8a"];
 
     bgcolor="transparent";
 }
