@@ -3,108 +3,98 @@
   <g>
     <svg version="1.1" width="1326.6666666666667px" viewBox="0 0 1326.6666666666667 570.6666666666666" height="570.6666666666666px">
   <polygon fill="#f3f1f6" points="0,0 1326.6666666666667,0 1326.6666666666667,570.6666666666666 0,570.6666666666666"/><g>
-    <g transform="translate(435.2359870121026, 57.06666666666665) scale(1 1) translate(0, 0) scale(2.580906111361802 2.580906111361802) "><sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="namedview7" pagecolor="#ffffff" bordercolor="#999999" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="0.64052329" inkscape:cx="130.36216" inkscape:cy="412.163" inkscape:window-width="1512" inkscape:window-height="916" inkscape:window-x="3840" inkscape:window-y="136" inkscape:window-maximized="0" inkscape:current-layer="layer1"/>
-  <defs id="defs2">
-    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
-      <path d="M 0,568.156 H 579.236 V 0 H 0 Z" id="path21"/>
-    </clipPath>
+    <g transform="translate(430.6151131136769, 57.06666666666665) scale(1 1) translate(0, 0) scale(0.8035295222003191 0.8035295222003191) "><!-- note that I manually added the width and height attribute to the root node
+  https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
+  -->
+  <defs>
+    <style>.cls-1{fill:#fff;}</style>
   </defs>
-  <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-16.541937,-55.305267)">
-    <g id="g19" clip-path="url(#clipPath23)" transform="matrix(0.35277777,0,0,-0.35277777,0.01017023,243.73675)" style="opacity:0.2">
-      <g id="g25" transform="translate(122.444,32.7195)">
-        <path d="m 0,0 h -56.104 c -11,0 -19.898,9.123 -19.463,20.115 10.594,267.191 231.277,481.302 501.029,481.302 v -56.02 c 0,-10.98 -8.688,-19.892 -19.658,-20.393 C 180.29,414.697 0,228.005 0,0" style="fill:#6ead83;fill-opacity:0.5;fill-rule:nonzero;stroke:none" id="path27"/>
-      </g>
-      <g id="g29" transform="translate(273.7828,32.7195)">
-        <path d="m 0,0 h -55.926 c -11.228,0 -20.091,9.482 -19.435,20.69 10.744,183.439 163.389,329.388 349.485,329.388 v -56.263 c 0,-10.709 -8.273,-19.617 -18.957,-20.35 C 112.819,263.696 0,144.774 0,0" style="fill:#6ead83;fill-opacity:0.5;fill-rule:nonzero;stroke:none" id="path31"/>
-      </g>
-      <g id="g33" transform="translate(425.7667,32.7195)">
-        <path d="m 0,0 h -55.445 c -11.653,0 -20.604,10.17 -19.334,21.753 10.866,99.032 95.031,176.341 196.919,176.341 v -57.011 c 0,-10.046 -7.283,-18.755 -17.229,-20.165 C 45.688,112.522 0,61.497 0,0" style="fill:#6ead83;fill-opacity:0.5;fill-rule:nonzero;stroke:none" id="path35"/>
-      </g>
-    </g>
-  </g>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
 </g>
     <svg width="995pt" height="428pt" viewBox="0.00 0.00 995.25 427.82">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 423.82)">
 <title>D</title>
-<text text-anchor="start" x="460.25" y="-399.72" font-family="Times,serif" font-weight="bold" font-size="18.00">MaBiS</text>
+<text text-anchor="start" x="8" y="-399.72" font-family="Times,serif" font-weight="bold" font-size="18.00">MaBiS</text>
 <text text-anchor="start" x="8" y="-369.62" font-family="Times,serif" font-weight="bold" font-size="16.00">7.41.1: AD: Abbestellung der Aggregationsebene der Bilanzkreissummenzeitreihe auf Ebene der Regelzone</text>
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<polygon fill="#7a8da1" stroke="black" points="488.07,-321.82 317.52,-321.82 317.52,-278.54 488.07,-278.54 488.07,-321.82"/>
-<text text-anchor="start" x="374.67" y="-300.88" font-family="Times,serif" font-weight="bold" font-size="14.00">E_0022</text>
-<text text-anchor="start" x="331.92" y="-288.78" font-family="Times,serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
-<text text-anchor="start" x="436.92" y="-288.78" font-family="Times,serif" font-weight="bold" font-size="12.00"> &#220;NB</text>
+<path fill="#7a8da1" stroke="black" stroke-width="0" d="M480.07,-321.82C480.07,-321.82 333.52,-321.82 333.52,-321.82 327.52,-321.82 321.52,-315.82 321.52,-309.82 321.52,-309.82 321.52,-290.54 321.52,-290.54 321.52,-284.54 327.52,-278.54 333.52,-278.54 333.52,-278.54 480.07,-278.54 480.07,-278.54 486.07,-278.54 492.07,-284.54 492.07,-290.54 492.07,-290.54 492.07,-309.82 492.07,-309.82 492.07,-315.82 486.07,-321.82 480.07,-321.82"/>
+<text text-anchor="start" x="378.67" y="-300.88" font-family="Times,serif" font-weight="bold" font-size="14.00">E_0022</text>
+<text text-anchor="start" x="335.92" y="-288.78" font-family="Times,serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
+<text text-anchor="start" x="440.92" y="-288.78" font-family="Times,serif" font-weight="bold" font-size="12.00"> &#220;NB</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" d="M597.94,-241.54C597.94,-241.54 207.64,-241.54 207.64,-241.54 201.64,-241.54 195.64,-235.54 195.64,-229.54 195.64,-229.54 195.64,-217.54 195.64,-217.54 195.64,-211.54 201.64,-205.54 207.64,-205.54 207.64,-205.54 597.94,-205.54 597.94,-205.54 603.94,-205.54 609.94,-211.54 609.94,-217.54 609.94,-217.54 609.94,-229.54 609.94,-229.54 609.94,-235.54 603.94,-241.54 597.94,-241.54"/>
-<text text-anchor="start" x="210.04" y="-219.86" font-family="Times,serif" font-weight="bold" font-size="14.00">1: </text>
-<text text-anchor="start" x="229.54" y="-219.86" font-family="Times,serif" font-size="14.00">Erfolgt der Eingang der Abbestellung fristgerecht?</text>
+<path fill="#7aab8a" stroke="black" stroke-width="0" d="M601.95,-241.54C601.95,-241.54 211.64,-241.54 211.64,-241.54 205.64,-241.54 199.65,-235.54 199.65,-229.54 199.65,-229.54 199.65,-217.54 199.65,-217.54 199.65,-211.54 205.65,-205.54 211.65,-205.54 211.65,-205.54 601.95,-205.54 601.95,-205.54 607.95,-205.54 613.95,-211.54 613.95,-217.54 613.95,-217.54 613.95,-229.54 613.95,-229.54 613.95,-235.54 607.95,-241.54 601.95,-241.54"/>
+<text text-anchor="start" x="214.05" y="-219.86" font-family="Times,serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="233.55" y="-219.86" font-family="Times,serif" font-size="14.00">Erfolgt der Eingang der Abbestellung fristgerecht?</text>
 </g>
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M402.79,-278.39C402.79,-270.53 402.79,-261.45 402.79,-253.01"/>
-<polygon fill="black" stroke="black" points="406.3,-253.21 402.8,-243.21 399.3,-253.21 406.3,-253.21"/>
+<path fill="none" stroke="black" d="M406.8,-278.78C406.8,-270.71 406.8,-261.3 406.8,-252.61"/>
+<polygon fill="black" stroke="black" points="410.3,-252.9 406.8,-242.9 403.3,-252.9 410.3,-252.9"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<polygon fill="#cfb986" stroke="black" points="334.03,-152.29 189.55,-152.29 189.55,-102.77 334.03,-102.77 334.03,-152.29"/>
-<text text-anchor="start" x="246.79" y="-134.23" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
-<text text-anchor="start" x="201.79" y="-122.13" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="201.79" y="-110.13" font-family="Times,serif" font-size="12.00">Frist&#252;berschreitung</text>
+<path fill="#cfb986" stroke="black" stroke-width="0" d="M322.04,-152.29C322.04,-152.29 201.56,-152.29 201.56,-152.29 195.56,-152.29 189.56,-146.29 189.56,-140.29 189.56,-140.29 189.56,-114.77 189.56,-114.77 189.56,-108.77 195.56,-102.77 201.56,-102.77 201.56,-102.77 322.04,-102.77 322.04,-102.77 328.04,-102.77 334.04,-108.77 334.04,-114.77 334.04,-114.77 334.04,-140.29 334.04,-140.29 334.04,-146.29 328.04,-152.29 322.04,-152.29"/>
+<text text-anchor="start" x="201.8" y="-134.23" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="201.8" y="-122.13" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
+<text text-anchor="start" x="201.8" y="-110.13" font-family="Times,serif" font-size="12.00">Frist&#252;berschreitung</text>
 </g>
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="black" d="M376.6,-205.08C357.23,-192.16 330.35,-174.24 307.47,-158.98"/>
-<polygon fill="black" stroke="black" points="309.47,-156.11 299.2,-153.47 305.58,-161.93 309.47,-156.11"/>
-<text text-anchor="middle" x="365.67" y="-174.24" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#7aab8a" d="M380.87,-205.73C360.59,-192.58 331.88,-173.97 307.73,-158.31"/>
+<polygon fill="#7aab8a" stroke="#7aab8a" points="309.95,-155.58 299.66,-153.08 306.14,-161.45 309.95,-155.58"/>
+<text text-anchor="start" x="350.8" y="-175.24" font-family="Times,serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 2 -->
 <g id="node4" class="node">
 <title>2</title>
-<path fill="#7aab8a" stroke="black" d="M785.69,-145.53C785.69,-145.53 363.89,-145.53 363.89,-145.53 357.89,-145.53 351.89,-139.53 351.89,-133.53 351.89,-133.53 351.89,-121.53 351.89,-121.53 351.89,-115.53 357.89,-109.53 363.89,-109.53 363.89,-109.53 785.69,-109.53 785.69,-109.53 791.69,-109.53 797.69,-115.53 797.69,-121.53 797.69,-121.53 797.69,-133.53 797.69,-133.53 797.69,-139.53 791.69,-145.53 785.69,-145.53"/>
-<text text-anchor="start" x="366.29" y="-123.86" font-family="Times,serif" font-weight="bold" font-size="14.00">2: </text>
-<text text-anchor="start" x="385.79" y="-123.86" font-family="Times,serif" font-size="14.00">Erfolgt die Abbestellung zum Monatsersten 00:00 Uhr?</text>
+<path fill="#7aab8a" stroke="black" stroke-width="0" d="M785.7,-145.53C785.7,-145.53 363.9,-145.53 363.9,-145.53 357.9,-145.53 351.9,-139.53 351.9,-133.53 351.9,-133.53 351.9,-121.53 351.9,-121.53 351.9,-115.53 357.9,-109.53 363.9,-109.53 363.9,-109.53 785.7,-109.53 785.7,-109.53 791.7,-109.53 797.7,-115.53 797.7,-121.53 797.7,-121.53 797.7,-133.53 797.7,-133.53 797.7,-139.53 791.7,-145.53 785.7,-145.53"/>
+<text text-anchor="start" x="366.3" y="-123.86" font-family="Times,serif" font-weight="bold" font-size="14.00">2: </text>
+<text text-anchor="start" x="385.8" y="-123.86" font-family="Times,serif" font-size="14.00">Erfolgt die Abbestellung zum Monatsersten 00:00 Uhr?</text>
 </g>
 <!-- 1&#45;&gt;2 -->
 <g id="edge3" class="edge">
 <title>1-&gt;2</title>
-<path fill="none" stroke="black" d="M434.74,-205.08C462.5,-189.91 502.89,-167.83 533.17,-151.28"/>
-<polygon fill="black" stroke="black" points="534.59,-154.49 541.69,-146.62 531.24,-148.35 534.59,-154.49"/>
-<text text-anchor="middle" x="500.54" y="-174.24" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#7aab8a" d="M436.83,-205.73C464.13,-190.45 504.63,-167.79 534.69,-150.97"/>
+<polygon fill="#7aab8a" stroke="#7aab8a" points="536.12,-154.19 543.13,-146.25 532.7,-148.08 536.12,-154.19"/>
+<text text-anchor="start" x="495.8" y="-175.24" font-family="Times,serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A02 -->
 <g id="node5" class="node">
 <title>A02</title>
-<polygon fill="#cfb986" stroke="black" points="608.03,-49.52 373.55,-49.52 373.55,0 608.03,0 608.03,-49.52"/>
-<text text-anchor="start" x="475.79" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A02</text>
-<text text-anchor="start" x="385.79" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="385.79" y="-7.36" font-family="Times,serif" font-size="12.00">Gew&#228;hlter Zeitpunkt nicht zul&#228;ssig</text>
+<path fill="#cfb986" stroke="black" stroke-width="0" d="M596.03,-49.52C596.03,-49.52 385.56,-49.52 385.56,-49.52 379.56,-49.52 373.56,-43.52 373.56,-37.52 373.56,-37.52 373.56,-12 373.56,-12 373.56,-6 379.56,0 385.56,0 385.56,0 596.03,0 596.03,0 602.03,0 608.03,-6 608.03,-12 608.03,-12 608.03,-37.52 608.03,-37.52 608.03,-43.52 602.03,-49.52 596.03,-49.52"/>
+<text text-anchor="start" x="385.8" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="385.8" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
+<text text-anchor="start" x="385.8" y="-7.36" font-family="Times,serif" font-size="12.00">Gew&#228;hlter Zeitpunkt nicht zul&#228;ssig</text>
 </g>
 <!-- 2&#45;&gt;A02 -->
 <g id="edge4" class="edge">
 <title>2-&gt;A02</title>
-<path fill="none" stroke="black" d="M560.55,-109.44C548.91,-95.47 532.12,-75.34 517.93,-58.32"/>
-<polygon fill="black" stroke="black" points="520.85,-56.35 511.76,-50.91 515.48,-60.83 520.85,-56.35"/>
-<text text-anchor="middle" x="554.67" y="-71.47" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#7aab8a" d="M560.92,-109.89C549.18,-95.8 532,-75.19 517.59,-57.9"/>
+<polygon fill="#7aab8a" stroke="#7aab8a" points="520.4,-55.81 511.31,-50.37 515.03,-60.3 520.4,-55.81"/>
+<text text-anchor="start" x="537.8" y="-72.47" font-family="Times,serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- Ende -->
 <g id="node6" class="node">
 <title>Ende</title>
-<polygon fill="#7a8da1" stroke="black" points="691.57,-42.76 626.02,-42.76 626.02,-6.76 691.57,-6.76 691.57,-42.76"/>
-<text text-anchor="middle" x="658.79" y="-20.08" font-family="Times,serif" font-size="14.00">Ende</text>
+<path fill="#7a8da1" stroke="black" stroke-width="0" d="M679.57,-42.76C679.57,-42.76 638.02,-42.76 638.02,-42.76 632.02,-42.76 626.02,-36.76 626.02,-30.76 626.02,-30.76 626.02,-18.76 626.02,-18.76 626.02,-12.76 632.02,-6.76 638.02,-6.76 638.02,-6.76 679.57,-6.76 679.57,-6.76 685.57,-6.76 691.57,-12.76 691.57,-18.76 691.57,-18.76 691.57,-30.76 691.57,-30.76 691.57,-36.76 685.57,-42.76 679.57,-42.76"/>
+<text text-anchor="middle" x="658.8" y="-20.08" font-family="Times,serif" font-size="14.00">Ende</text>
 </g>
 <!-- 2&#45;&gt;Ende -->
 <g id="edge5" class="edge">
 <title>2-&gt;Ende</title>
-<path fill="none" stroke="black" d="M589.04,-109.44C602.32,-93.51 622.29,-69.56 637.46,-51.35"/>
-<polygon fill="black" stroke="black" points="639.79,-54.02 643.51,-44.1 634.42,-49.54 639.79,-54.02"/>
-<text text-anchor="middle" x="628.54" y="-71.47" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#7aab8a" d="M588.67,-109.89C601.98,-93.92 622.27,-69.57 637.61,-51.17"/>
+<polygon fill="#7aab8a" stroke="#7aab8a" points="640.22,-53.51 643.93,-43.59 634.84,-49.03 640.22,-53.51"/>
+<text text-anchor="start" x="621.8" y="-72.47" font-family="Times,serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 </g>
 </svg>

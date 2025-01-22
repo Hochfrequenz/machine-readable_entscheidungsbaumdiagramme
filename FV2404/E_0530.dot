@@ -1,13 +1,13 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.37.7: AD Bestellung einer Konfiguration vom NB an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.37.7: AD Bestellung einer Konfiguration vom NB an MSB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Empty" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0530</B><BR align="center"/><FONT point-size="12">Kein EBD erforderlich</FONT><BR align="center"/>>];
+    "Empty" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0530</B><BR align="center"/><FONT point-size="12">Kein EBD erforderlich</FONT><BR align="center"/>>];
 
 
     bgcolor="transparent";
