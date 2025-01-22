@@ -7,25 +7,26 @@ digraph D {
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0540</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
-    "15" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>15: </B>Wurden die Vorlauffristen eingehalten?<BR align="left"/>Hinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen.<BR align="left"/>>];
-    "A04" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A04</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die Vorlauffrist wurde nicht eingehalten.<BR align="left"/></FONT>>];
-    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>20: </B>Handelt es sich um eine kostenpflichtige Bestellung?<BR align="left"/>>];
-    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>30: </B>Handelt es sich um eine Bestellung, die beendet werden kann?<BR align="left"/>>];
-    "A02" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A02</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Es handelt sich um eine Bestellung, die nicht beendet werden kann.<BR align="left"/></FONT>>];
-    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>40: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>];
-    "A99" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A99</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr<BR align="left"/></FONT>>];
-    "A03" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A03</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Bestätigung der Beendigung<BR align="left"/></FONT>>];
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0540</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "15" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>15: </B>Wurden die Vorlauffristen eingehalten?<BR align="left"/>Hinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen.<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A04" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A04</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die Vorlauffrist wurde nicht eingehalten.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>20: </B>Handelt es sich um eine kostenpflichtige Bestellung?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>30: </B>Handelt es sich um eine Bestellung, die beendet werden kann?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A02</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Es handelt sich um eine Bestellung, die nicht beendet werden kann.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>40: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A99" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A99</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A03</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Bestätigung der Beendigung<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
 
     "Start" -> "15";
-    "15" -> "A04" [label=<<B>NEIN</B>>, color="#7aab8a"];
-    "15" -> "20" [label=<<B>JA</B>>, color="#7aab8a"];
-    "20" -> "30" [label=<<B>NEIN</B>>, color="#7aab8a"];
-    "20" -> "40" [label=<<B>JA</B>>, color="#7aab8a"];
-    "30" -> "A02" [label=<<B>NEIN</B>>, color="#7aab8a"];
-    "30" -> "40" [label=<<B>JA</B>>, color="#7aab8a"];
-    "40" -> "A99" [label=<<B>JA</B>>, color="#7aab8a"];
-    "40" -> "A03" [label=<<B>NEIN</B>>, color="#7aab8a"];
+    "15" -> "A04" [label=<<B>NEIN</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
+    "15" -> "20" [label=<<B>JA</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
+    "20" -> "30" [label=<<B>NEIN</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
+    "20" -> "40" [label=<<B>JA</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
+    "30" -> "A02" [label=<<B>NEIN</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
+    "30" -> "40" [label=<<B>JA</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
+    "40" -> "A99" [label=<<B>JA</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
+    "40" -> "A03" [label=<<B>NEIN</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
 
     bgcolor="transparent";
+fontname="Roboto, sans-serif";
 }
