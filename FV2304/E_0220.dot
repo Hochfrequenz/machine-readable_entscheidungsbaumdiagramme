@@ -1,13 +1,13 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">9.17.2: AD: Anforderung Wert vom NB</FONT></B><BR/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">9.17.2: AD: Anforderung Wert vom NB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Empty" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0220</B><BR align="center"/><FONT point-size="12">S_0074_ORDRSP Abl. der Anforderung</FONT><BR align="center"/>>];
+    "Empty" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0220</B><BR align="center"/><FONT point-size="12">S_0074_ORDRSP Abl. der Anforderung</FONT><BR align="center"/>>];
 
 
     bgcolor="transparent";
