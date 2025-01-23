@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1096.0px" viewBox="0 0 1096.0 465.3333333333333" height="465.3333333333333px">
   <g>
     <svg version="1.1" width="1096.0px" viewBox="0 0 1096.0 465.3333333333333" height="465.3333333333333px">
-  <polygon fill="#c2cee9" points="0,0 1096.0,0 1096.0,465.3333333333333 0,465.3333333333333"/><g>
+  <rect fill="#e7e6e5" x="0" y="0" width="1096.0" height="465.3333333333333" rx="20" ry="20"/><g>
     <g transform="translate(358.23677837228945, 46.533333333333324) scale(1 1) translate(0, 0) scale(0.6552144935698865 0.6552144935698865) "><!-- note that I manually added the width and height attribute to the root node
   https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
   -->
@@ -21,28 +21,28 @@
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M429.84,-243.05C429.84,-243.05 298.29,-243.05 298.29,-243.05 292.29,-243.05 286.29,-237.05 286.29,-231.05 286.29,-231.05 286.29,-211.77 286.29,-211.77 286.29,-205.77 292.29,-199.77 298.29,-199.77 298.29,-199.77 429.84,-199.77 429.84,-199.77 435.84,-199.77 441.84,-205.77 441.84,-211.77 441.84,-211.77 441.84,-231.05 441.84,-231.05 441.84,-237.05 435.84,-243.05 429.84,-243.05"/>
-<text text-anchor="start" x="336.31" y="-222.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0499</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M429.84,-243.05C429.84,-243.05 298.29,-243.05 298.29,-243.05 292.29,-243.05 286.29,-237.05 286.29,-231.05 286.29,-231.05 286.29,-211.77 286.29,-211.77 286.29,-205.77 292.29,-199.77 298.29,-199.77 298.29,-199.77 429.84,-199.77 429.84,-199.77 435.84,-199.77 441.84,-205.77 441.84,-211.77 441.84,-211.77 441.84,-231.05 441.84,-231.05 441.84,-237.05 435.84,-243.05 429.84,-243.05"/>
+<text text-anchor="start" x="300.69" y="-222.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0499</text>
 <text text-anchor="start" x="300.69" y="-210.01" font-family="Roboto, sans-serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
 <text text-anchor="start" x="404.19" y="-210.01" font-family="Roboto, sans-serif" font-weight="bold" font-size="12.00"> NB</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M561.84,-162.77C561.84,-162.77 166.29,-162.77 166.29,-162.77 160.29,-162.77 154.29,-156.77 154.29,-150.77 154.29,-150.77 154.29,-138.77 154.29,-138.77 154.29,-132.77 160.29,-126.77 166.29,-126.77 166.29,-126.77 561.84,-126.77 561.84,-126.77 567.84,-126.77 573.84,-132.77 573.84,-138.77 573.84,-138.77 573.84,-150.77 573.84,-150.77 573.84,-156.77 567.84,-162.77 561.84,-162.77"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M561.84,-162.77C561.84,-162.77 166.29,-162.77 166.29,-162.77 160.29,-162.77 154.29,-156.77 154.29,-150.77 154.29,-150.77 154.29,-138.77 154.29,-138.77 154.29,-132.77 160.29,-126.77 166.29,-126.77 166.29,-126.77 561.84,-126.77 561.84,-126.77 567.84,-126.77 573.84,-132.77 573.84,-138.77 573.84,-138.77 573.84,-150.77 573.84,-150.77 573.84,-156.77 567.84,-162.77 561.84,-162.77"/>
 <text text-anchor="start" x="168.69" y="-141.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
 <text text-anchor="start" x="188.19" y="-141.09" font-family="Roboto, sans-serif" font-size="14.00">Ist die Entsperrung erfolgreich durchgef&#252;hrt worden?</text>
 </g>
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M364.06,-200.01C364.06,-191.94 364.06,-182.53 364.06,-173.84"/>
-<polygon fill="black" stroke="black" points="367.56,-174.13 364.06,-164.13 360.56,-174.13 367.56,-174.13"/>
+<path fill="none" stroke="#88a0d6" d="M364.06,-200.01C364.06,-191.94 364.06,-182.53 364.06,-173.84"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="367.56,-174.13 364.06,-164.13 360.56,-174.13 367.56,-174.13"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M299.93,-67.52C299.93,-67.52 138.2,-67.52 138.2,-67.52 132.2,-67.52 126.2,-61.52 126.2,-55.52 126.2,-55.52 126.2,-18 126.2,-18 126.2,-12 132.2,-6 138.2,-6 138.2,-6 299.93,-6 299.93,-6 305.93,-6 311.93,-12 311.93,-18 311.93,-18 311.93,-55.52 311.93,-55.52 311.93,-61.52 305.93,-67.52 299.93,-67.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M299.93,-67.52C299.93,-67.52 138.2,-67.52 138.2,-67.52 132.2,-67.52 126.2,-61.52 126.2,-55.52 126.2,-55.52 126.2,-18 126.2,-18 126.2,-12 132.2,-6 138.2,-6 138.2,-6 299.93,-6 299.93,-6 305.93,-6 311.93,-12 311.93,-18 311.93,-18 311.93,-55.52 311.93,-55.52 311.93,-61.52 305.93,-67.52 299.93,-67.52"/>
 <text text-anchor="start" x="138.44" y="-49.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
 <text text-anchor="start" x="138.44" y="-37.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="138.44" y="-25.36" font-family="Roboto, sans-serif" font-size="12.00">Cluster: erfolgreich</text>
@@ -51,14 +51,14 @@
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="#7aab8a" d="M341.09,-126.97C321.76,-112.84 293.43,-92.13 268.93,-74.22"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="271.12,-71.48 260.98,-68.4 266.98,-77.13 271.12,-71.48"/>
+<path fill="none" stroke="#88a0d6" d="M341.09,-126.97C321.76,-112.84 293.43,-92.13 268.93,-74.22"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="271.12,-71.48 260.98,-68.4 266.98,-77.13 271.12,-71.48"/>
 <text text-anchor="start" x="312.06" y="-96.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A02 -->
 <g id="node4" class="node">
 <title>A02</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M675.8,-73.52C675.8,-73.52 342.32,-73.52 342.32,-73.52 336.32,-73.52 330.32,-67.52 330.32,-61.52 330.32,-61.52 330.32,-12 330.32,-12 330.32,-6 336.32,0 342.32,0 342.32,0 675.8,0 675.8,0 681.8,0 687.8,-6 687.8,-12 687.8,-12 687.8,-61.52 687.8,-61.52 687.8,-67.52 681.8,-73.52 675.8,-73.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M675.8,-73.52C675.8,-73.52 342.32,-73.52 342.32,-73.52 336.32,-73.52 330.32,-67.52 330.32,-61.52 330.32,-61.52 330.32,-12 330.32,-12 330.32,-6 336.32,0 342.32,0 342.32,0 675.8,0 675.8,0 681.8,0 687.8,-6 687.8,-12 687.8,-12 687.8,-61.52 687.8,-61.52 687.8,-67.52 681.8,-73.52 675.8,-73.52"/>
 <text text-anchor="start" x="342.56" y="-55.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
 <text text-anchor="start" x="342.56" y="-43.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="342.56" y="-31.36" font-family="Roboto, sans-serif" font-size="12.00">Cluster: gescheitert</text>
@@ -68,8 +68,8 @@
 <!-- 1&#45;&gt;A02 -->
 <g id="edge3" class="edge">
 <title>1-&gt;A02</title>
-<path fill="none" stroke="#7aab8a" d="M387.04,-126.97C404.3,-114.35 428.75,-96.48 451.23,-80.04"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="453.16,-82.97 459.16,-74.24 449.02,-77.32 453.16,-82.97"/>
+<path fill="none" stroke="#88a0d6" d="M387.04,-126.97C404.3,-114.35 428.75,-96.48 451.23,-80.04"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="453.16,-82.97 459.16,-74.24 449.02,-77.32 453.16,-82.97"/>
 <text text-anchor="start" x="432.06" y="-96.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 </g>

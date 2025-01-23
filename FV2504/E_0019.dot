@@ -7,14 +7,14 @@ digraph D {
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0019</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
-    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7aab8a", label=<<B>1: </B>Erfolgt der Eingang der Prüfmitteilung nach Ablauf der Clearingfrist für die KBKA?<BR align="left"/>>, fontname="Roboto, sans-serif"];
-    "A01" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#cfb986", label=<<B>A01</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Fristüberschreitung<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
-    "Ende" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label="Ende", fontname="Roboto, sans-serif"];
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0019</B><BR align="left"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BIKO</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>1: </B>Erfolgt der Eingang der Prüfmitteilung nach Ablauf der Clearingfrist für die KBKA?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Fristüberschreitung<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "Ende" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label="Ende", fontname="Roboto, sans-serif"];
 
-    "Start" -> "1";
-    "1" -> "A01" [label=<<B>JA</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
-    "1" -> "Ende" [label=<<B>NEIN</B>>, color="#7aab8a", fontname="Roboto, sans-serif"];
+    "Start" -> "1" [color="#88a0d6"];
+    "1" -> "A01" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "1" -> "Ende" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
 
     bgcolor="transparent";
 fontname="Roboto, sans-serif";
