@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1894.6666666666667px" viewBox="0 0 1894.6666666666667 1157.3333333333333" height="1157.3333333333333px">
   <g>
     <svg version="1.1" width="1894.6666666666667px" viewBox="0 0 1894.6666666666667 1157.3333333333333" height="1157.3333333333333px">
-  <polygon fill="#c2cee9" points="0,0 1894.6666666666667,0 1894.6666666666667,1157.3333333333333 0,1157.3333333333333"/><g>
+  <rect fill="#e7e6e5" x="0" y="0" width="1894.6666666666667" height="1157.3333333333333" rx="20" ry="20"/><g>
     <g transform="translate(475.3720829813198, 115.7333333333333) scale(1 1) translate(0, 0) scale(1.6295879095090586 1.6295879095090586) "><!-- note that I manually added the width and height attribute to the root node
   https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
   -->
@@ -21,15 +21,15 @@
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M358.05,-761.7C358.05,-761.7 229.5,-761.7 229.5,-761.7 223.5,-761.7 217.5,-755.7 217.5,-749.7 217.5,-749.7 217.5,-730.42 217.5,-730.42 217.5,-724.42 223.5,-718.42 229.5,-718.42 229.5,-718.42 358.05,-718.42 358.05,-718.42 364.05,-718.42 370.05,-724.42 370.05,-730.42 370.05,-730.42 370.05,-749.7 370.05,-749.7 370.05,-755.7 364.05,-761.7 358.05,-761.7"/>
-<text text-anchor="start" x="266.02" y="-740.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0100</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M358.05,-761.7C358.05,-761.7 229.5,-761.7 229.5,-761.7 223.5,-761.7 217.5,-755.7 217.5,-749.7 217.5,-749.7 217.5,-730.42 217.5,-730.42 217.5,-724.42 223.5,-718.42 229.5,-718.42 229.5,-718.42 358.05,-718.42 358.05,-718.42 364.05,-718.42 370.05,-724.42 370.05,-730.42 370.05,-730.42 370.05,-749.7 370.05,-749.7 370.05,-755.7 364.05,-761.7 358.05,-761.7"/>
+<text text-anchor="start" x="231.9" y="-740.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0100</text>
 <text text-anchor="start" x="231.9" y="-728.66" font-family="Roboto, sans-serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
 <text text-anchor="start" x="335.4" y="-728.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="12.00"> LF</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M575.55,-681.42C575.55,-681.42 12,-681.42 12,-681.42 6,-681.42 0,-675.42 0,-669.42 0,-669.42 0,-648.14 0,-648.14 0,-642.14 6,-636.14 12,-636.14 12,-636.14 575.55,-636.14 575.55,-636.14 581.55,-636.14 587.55,-642.14 587.55,-648.14 587.55,-648.14 587.55,-669.42 587.55,-669.42 587.55,-675.42 581.55,-681.42 575.55,-681.42"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M575.55,-681.42C575.55,-681.42 12,-681.42 12,-681.42 6,-681.42 0,-675.42 0,-669.42 0,-669.42 0,-648.14 0,-648.14 0,-642.14 6,-636.14 12,-636.14 12,-636.14 575.55,-636.14 575.55,-636.14 581.55,-636.14 587.55,-642.14 587.55,-648.14 587.55,-648.14 587.55,-669.42 587.55,-669.42 587.55,-675.42 581.55,-681.42 575.55,-681.42"/>
 <text text-anchor="start" x="14.4" y="-660.48" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
 <text text-anchor="start" x="33.9" y="-660.48" font-family="Roboto, sans-serif" font-size="14.00">Geh&#246;rt das empfangene Profil bzw. die Profilschar zu einer zuvor abonnierten</text>
 <text text-anchor="start" x="14.4" y="-646.48" font-family="Roboto, sans-serif" font-size="14.00">Profilgruppe aus der Liste der Profildefinitionen?</text>
@@ -37,13 +37,13 @@
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M293.77,-718.64C293.77,-710.67 293.77,-701.32 293.77,-692.46"/>
-<polygon fill="black" stroke="black" points="297.28,-692.75 293.78,-682.75 290.28,-692.75 297.28,-692.75"/>
+<path fill="none" stroke="#88a0d6" d="M293.77,-718.64C293.77,-710.67 293.77,-701.32 293.77,-692.46"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="297.28,-692.75 293.78,-682.75 290.28,-692.75 297.28,-692.75"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M484.26,-582.89C484.26,-582.89 41.28,-582.89 41.28,-582.89 35.28,-582.89 29.28,-576.89 29.28,-570.89 29.28,-570.89 29.28,-545.37 29.28,-545.37 29.28,-539.37 35.28,-533.37 41.28,-533.37 41.28,-533.37 484.26,-533.37 484.26,-533.37 490.26,-533.37 496.26,-539.37 496.26,-545.37 496.26,-545.37 496.26,-570.89 496.26,-570.89 496.26,-576.89 490.26,-582.89 484.26,-582.89"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M484.26,-582.89C484.26,-582.89 41.28,-582.89 41.28,-582.89 35.28,-582.89 29.28,-576.89 29.28,-570.89 29.28,-570.89 29.28,-545.37 29.28,-545.37 29.28,-539.37 35.28,-533.37 41.28,-533.37 41.28,-533.37 484.26,-533.37 484.26,-533.37 490.26,-533.37 496.26,-539.37 496.26,-545.37 496.26,-545.37 496.26,-570.89 496.26,-570.89 496.26,-576.89 490.26,-582.89 484.26,-582.89"/>
 <text text-anchor="start" x="41.52" y="-564.83" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
 <text text-anchor="start" x="41.52" y="-552.73" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="41.52" y="-540.73" font-family="Roboto, sans-serif" font-size="12.00">Profil bzw. Profilschar geh&#246;rt nicht zu einer zuvor abonnierten Profilgruppe</text>
@@ -51,28 +51,28 @@
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="#7aab8a" d="M287.05,-636.37C283.11,-623.85 278.06,-607.76 273.58,-593.5"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="276.93,-592.5 270.59,-584.01 270.25,-594.6 276.93,-592.5"/>
+<path fill="none" stroke="#88a0d6" d="M287.05,-636.37C283.11,-623.85 278.06,-607.76 273.58,-593.5"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="276.93,-592.5 270.59,-584.01 270.25,-594.6 276.93,-592.5"/>
 <text text-anchor="start" x="280.77" y="-605.84" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 2 -->
 <g id="node4" class="node">
 <title>2</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M797.67,-576.13C797.67,-576.13 525.88,-576.13 525.88,-576.13 519.88,-576.13 513.88,-570.13 513.88,-564.13 513.88,-564.13 513.88,-552.13 513.88,-552.13 513.88,-546.13 519.88,-540.13 525.88,-540.13 525.88,-540.13 797.67,-540.13 797.67,-540.13 803.67,-540.13 809.67,-546.13 809.67,-552.13 809.67,-552.13 809.67,-564.13 809.67,-564.13 809.67,-570.13 803.67,-576.13 797.67,-576.13"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M797.67,-576.13C797.67,-576.13 525.88,-576.13 525.88,-576.13 519.88,-576.13 513.88,-570.13 513.88,-564.13 513.88,-564.13 513.88,-552.13 513.88,-552.13 513.88,-546.13 519.88,-540.13 525.88,-540.13 525.88,-540.13 797.67,-540.13 797.67,-540.13 803.67,-540.13 809.67,-546.13 809.67,-552.13 809.67,-552.13 809.67,-564.13 809.67,-564.13 809.67,-570.13 803.67,-576.13 797.67,-576.13"/>
 <text text-anchor="start" x="528.27" y="-554.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">2: </text>
 <text text-anchor="start" x="547.77" y="-554.46" font-family="Roboto, sans-serif" font-size="14.00">Wurde eine Profilschar empfangen?</text>
 </g>
 <!-- 1&#45;&gt;2 -->
 <g id="edge3" class="edge">
 <title>1-&gt;2</title>
-<path fill="none" stroke="#7aab8a" d="M374.08,-636.25C437.62,-619.22 525.66,-595.62 587.56,-579.02"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="588.21,-582.48 596.96,-576.51 586.39,-575.71 588.21,-582.48"/>
+<path fill="none" stroke="#88a0d6" d="M374.08,-636.25C437.62,-619.22 525.66,-595.62 587.56,-579.02"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="588.21,-582.48 596.96,-576.51 586.39,-575.71 588.21,-582.48"/>
 <text text-anchor="start" x="499.77" y="-605.84" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 3 -->
 <g id="node5" class="node">
 <title>3</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M584.05,-473.12C584.05,-473.12 29.5,-473.12 29.5,-473.12 23.5,-473.12 17.5,-467.12 17.5,-461.12 17.5,-461.12 17.5,-439.84 17.5,-439.84 17.5,-433.84 23.5,-427.84 29.5,-427.84 29.5,-427.84 584.05,-427.84 584.05,-427.84 590.05,-427.84 596.05,-433.84 596.05,-439.84 596.05,-439.84 596.05,-461.12 596.05,-461.12 596.05,-467.12 590.05,-473.12 584.05,-473.12"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M584.05,-473.12C584.05,-473.12 29.5,-473.12 29.5,-473.12 23.5,-473.12 17.5,-467.12 17.5,-461.12 17.5,-461.12 17.5,-439.84 17.5,-439.84 17.5,-433.84 23.5,-427.84 29.5,-427.84 29.5,-427.84 584.05,-427.84 584.05,-427.84 590.05,-427.84 596.05,-433.84 596.05,-439.84 596.05,-439.84 596.05,-461.12 596.05,-461.12 596.05,-467.12 590.05,-473.12 584.05,-473.12"/>
 <text text-anchor="start" x="31.9" y="-452.18" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">3: </text>
 <text text-anchor="start" x="51.4" y="-452.18" font-family="Roboto, sans-serif" font-size="14.00">Ist die &#252;bermittelte Version des Profils f&#252;r den &#252;bermittelten Zeitraum h&#246;her</text>
 <text text-anchor="start" x="31.9" y="-438.18" font-family="Roboto, sans-serif" font-size="14.00">als die bisher h&#246;chste verarbeitete Version des Profils des gleichen Zeitraums?</text>
@@ -80,14 +80,14 @@
 <!-- 2&#45;&gt;3 -->
 <g id="edge4" class="edge">
 <title>2-&gt;3</title>
-<path fill="none" stroke="#7aab8a" d="M604.74,-540.16C546.72,-522.89 456.19,-495.95 390.13,-476.29"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="391.37,-473.01 380.79,-473.51 389.38,-479.71 391.37,-473.01"/>
+<path fill="none" stroke="#88a0d6" d="M604.74,-540.16C546.72,-522.89 456.19,-495.95 390.13,-476.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="391.37,-473.01 380.79,-473.51 389.38,-479.71 391.37,-473.01"/>
 <text text-anchor="start" x="515.77" y="-503.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 4 -->
 <g id="node8" class="node">
 <title>4</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1119.3,-480.12C1119.3,-480.12 626.25,-480.12 626.25,-480.12 620.25,-480.12 614.25,-474.12 614.25,-468.12 614.25,-468.12 614.25,-432.84 614.25,-432.84 614.25,-426.84 620.25,-420.84 626.25,-420.84 626.25,-420.84 1119.3,-420.84 1119.3,-420.84 1125.3,-420.84 1131.3,-426.84 1131.3,-432.84 1131.3,-432.84 1131.3,-468.12 1131.3,-468.12 1131.3,-474.12 1125.3,-480.12 1119.3,-480.12"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1119.3,-480.12C1119.3,-480.12 626.25,-480.12 626.25,-480.12 620.25,-480.12 614.25,-474.12 614.25,-468.12 614.25,-468.12 614.25,-432.84 614.25,-432.84 614.25,-426.84 620.25,-420.84 626.25,-420.84 626.25,-420.84 1119.3,-420.84 1119.3,-420.84 1125.3,-420.84 1131.3,-426.84 1131.3,-432.84 1131.3,-432.84 1131.3,-468.12 1131.3,-468.12 1131.3,-474.12 1125.3,-480.12 1119.3,-480.12"/>
 <text text-anchor="start" x="628.65" y="-459.18" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">4: </text>
 <text text-anchor="start" x="648.15" y="-459.18" font-family="Roboto, sans-serif" font-size="14.00">Ist die &#252;bermittelte Version der Profilschar f&#252;r den &#252;bermittelten</text>
 <text text-anchor="start" x="628.65" y="-445.18" font-family="Roboto, sans-serif" font-size="14.00">Beginnzeitpunkt h&#246;her als die bisher h&#246;chste verarbeitete Version der</text>
@@ -96,14 +96,14 @@
 <!-- 2&#45;&gt;4 -->
 <g id="edge5" class="edge">
 <title>2-&gt;4</title>
-<path fill="none" stroke="#7aab8a" d="M695.68,-540.16C725.28,-525.33 769.12,-503.38 805.78,-485.03"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="807.18,-488.24 814.55,-480.63 804.04,-481.98 807.18,-488.24"/>
+<path fill="none" stroke="#88a0d6" d="M695.68,-540.16C725.28,-525.33 769.12,-503.38 805.78,-485.03"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="807.18,-488.24 814.55,-480.63 804.04,-481.98 807.18,-488.24"/>
 <text text-anchor="start" x="772.77" y="-503.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A02 -->
 <g id="node6" class="node">
 <title>A02</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M275.39,-367.59C275.39,-367.59 64.16,-367.59 64.16,-367.59 58.16,-367.59 52.16,-361.59 52.16,-355.59 52.16,-355.59 52.16,-330.07 52.16,-330.07 52.16,-324.07 58.16,-318.07 64.16,-318.07 64.16,-318.07 275.39,-318.07 275.39,-318.07 281.39,-318.07 287.39,-324.07 287.39,-330.07 287.39,-330.07 287.39,-355.59 287.39,-355.59 287.39,-361.59 281.39,-367.59 275.39,-367.59"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M275.39,-367.59C275.39,-367.59 64.16,-367.59 64.16,-367.59 58.16,-367.59 52.16,-361.59 52.16,-355.59 52.16,-355.59 52.16,-330.07 52.16,-330.07 52.16,-324.07 58.16,-318.07 64.16,-318.07 64.16,-318.07 275.39,-318.07 275.39,-318.07 281.39,-318.07 287.39,-324.07 287.39,-330.07 287.39,-330.07 287.39,-355.59 287.39,-355.59 287.39,-361.59 281.39,-367.59 275.39,-367.59"/>
 <text text-anchor="start" x="64.4" y="-349.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
 <text text-anchor="start" x="64.4" y="-337.43" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="64.4" y="-325.43" font-family="Roboto, sans-serif" font-size="12.00">Version des Profils nicht zugelassen</text>
@@ -111,27 +111,27 @@
 <!-- 3&#45;&gt;A02 -->
 <g id="edge6" class="edge">
 <title>3-&gt;A02</title>
-<path fill="none" stroke="#7aab8a" d="M278.72,-427.85C258.63,-412.35 231.31,-391.28 209.05,-374.12"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="211.43,-371.53 201.37,-368.2 207.15,-377.07 211.43,-371.53"/>
+<path fill="none" stroke="#88a0d6" d="M278.72,-427.85C258.63,-412.35 231.31,-391.28 209.05,-374.12"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="211.43,-371.53 201.37,-368.2 207.15,-377.07 211.43,-371.53"/>
 <text text-anchor="start" x="241.77" y="-390.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- Ende -->
 <g id="node7" class="node">
 <title>Ende</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M591.8,-42.76C591.8,-42.76 551.75,-42.76 551.75,-42.76 545.75,-42.76 539.75,-36.76 539.75,-30.76 539.75,-30.76 539.75,-18.76 539.75,-18.76 539.75,-12.76 545.75,-6.76 551.75,-6.76 551.75,-6.76 591.8,-6.76 591.8,-6.76 597.8,-6.76 603.8,-12.76 603.8,-18.76 603.8,-18.76 603.8,-30.76 603.8,-30.76 603.8,-36.76 597.8,-42.76 591.8,-42.76"/>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M591.8,-42.76C591.8,-42.76 551.75,-42.76 551.75,-42.76 545.75,-42.76 539.75,-36.76 539.75,-30.76 539.75,-30.76 539.75,-18.76 539.75,-18.76 539.75,-12.76 545.75,-6.76 551.75,-6.76 551.75,-6.76 591.8,-6.76 591.8,-6.76 597.8,-6.76 603.8,-12.76 603.8,-18.76 603.8,-18.76 603.8,-30.76 603.8,-30.76 603.8,-36.76 597.8,-42.76 591.8,-42.76"/>
 <text text-anchor="middle" x="571.77" y="-20.08" font-family="Roboto, sans-serif" font-size="14.00">Ende</text>
 </g>
 <!-- 3&#45;&gt;Ende -->
 <g id="edge7" class="edge">
 <title>3-&gt;Ende</title>
-<path fill="none" stroke="#7aab8a" d="M309.67,-428.08C312.3,-406.77 315.77,-373.1 315.77,-343.83 315.77,-343.83 315.77,-343.83 315.77,-131.41 315.77,-40.36 455.86,-26.2 528.78,-25"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="528.39,-28.5 538.36,-24.92 528.33,-21.51 528.39,-28.5"/>
+<path fill="none" stroke="#88a0d6" d="M309.67,-428.08C312.3,-406.77 315.77,-373.1 315.77,-343.83 315.77,-343.83 315.77,-343.83 315.77,-131.41 315.77,-40.36 455.86,-26.2 528.78,-25"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="528.39,-28.5 538.36,-24.92 528.33,-21.51 528.39,-28.5"/>
 <text text-anchor="start" x="315.77" y="-236.38" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A03 -->
 <g id="node9" class="node">
 <title>A03</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M611.51,-367.59C611.51,-367.59 374.03,-367.59 374.03,-367.59 368.03,-367.59 362.03,-361.59 362.03,-355.59 362.03,-355.59 362.03,-330.07 362.03,-330.07 362.03,-324.07 368.03,-318.07 374.03,-318.07 374.03,-318.07 611.51,-318.07 611.51,-318.07 617.51,-318.07 623.51,-324.07 623.51,-330.07 623.51,-330.07 623.51,-355.59 623.51,-355.59 623.51,-361.59 617.51,-367.59 611.51,-367.59"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M611.51,-367.59C611.51,-367.59 374.03,-367.59 374.03,-367.59 368.03,-367.59 362.03,-361.59 362.03,-355.59 362.03,-355.59 362.03,-330.07 362.03,-330.07 362.03,-324.07 368.03,-318.07 374.03,-318.07 374.03,-318.07 611.51,-318.07 611.51,-318.07 617.51,-318.07 623.51,-324.07 623.51,-330.07 623.51,-330.07 623.51,-355.59 623.51,-355.59 623.51,-361.59 617.51,-367.59 611.51,-367.59"/>
 <text text-anchor="start" x="374.27" y="-349.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
 <text text-anchor="start" x="374.27" y="-337.43" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="374.27" y="-325.43" font-family="Roboto, sans-serif" font-size="12.00">Version der Profilschar nicht zugelassen</text>
@@ -139,14 +139,14 @@
 <!-- 4&#45;&gt;A03 -->
 <g id="edge8" class="edge">
 <title>4-&gt;A03</title>
-<path fill="none" stroke="#7aab8a" d="M769.94,-420.89C713.58,-405.22 644.16,-385.92 588.89,-370.55"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="590.07,-367.25 579.5,-367.94 588.19,-373.99 590.07,-367.25"/>
+<path fill="none" stroke="#88a0d6" d="M769.94,-420.89C713.58,-405.22 644.16,-385.92 588.89,-370.55"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="590.07,-367.25 579.5,-367.94 588.19,-373.99 590.07,-367.25"/>
 <text text-anchor="start" x="693.77" y="-390.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 5 -->
 <g id="node10" class="node">
 <title>5</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1214.42,-365.47C1214.42,-365.47 653.12,-365.47 653.12,-365.47 647.12,-365.47 641.12,-359.47 641.12,-353.47 641.12,-353.47 641.12,-332.19 641.12,-332.19 641.12,-326.19 647.12,-320.19 653.12,-320.19 653.12,-320.19 1214.42,-320.19 1214.42,-320.19 1220.42,-320.19 1226.42,-326.19 1226.42,-332.19 1226.42,-332.19 1226.42,-353.47 1226.42,-353.47 1226.42,-359.47 1220.42,-365.47 1214.42,-365.47"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1214.42,-365.47C1214.42,-365.47 653.12,-365.47 653.12,-365.47 647.12,-365.47 641.12,-359.47 641.12,-353.47 641.12,-353.47 641.12,-332.19 641.12,-332.19 641.12,-326.19 647.12,-320.19 653.12,-320.19 653.12,-320.19 1214.42,-320.19 1214.42,-320.19 1220.42,-320.19 1226.42,-326.19 1226.42,-332.19 1226.42,-332.19 1226.42,-353.47 1226.42,-353.47 1226.42,-359.47 1220.42,-365.47 1214.42,-365.47"/>
 <text text-anchor="start" x="655.52" y="-344.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">5: </text>
 <text text-anchor="start" x="675.02" y="-344.53" font-family="Roboto, sans-serif" font-size="14.00">Stimmt die angegebene Ma&#223;einheit der verwendeten OBIS-Kennzahl mit der</text>
 <text text-anchor="start" x="655.52" y="-330.53" font-family="Roboto, sans-serif" font-size="14.00">Ma&#223;einheit des Normierungsfaktors aus der Liste der Profildefinitionen &#252;berein?</text>
@@ -154,14 +154,14 @@
 <!-- 4&#45;&gt;5 -->
 <g id="edge9" class="edge">
 <title>4-&gt;5</title>
-<path fill="none" stroke="#7aab8a" d="M889.28,-420.89C897.48,-406.69 907.4,-389.51 915.79,-374.97"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="918.59,-377.12 920.56,-366.71 912.53,-373.62 918.59,-377.12"/>
+<path fill="none" stroke="#88a0d6" d="M889.28,-420.89C897.48,-406.69 907.4,-389.51 915.79,-374.97"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="918.59,-377.12 920.56,-366.71 912.53,-373.62 918.59,-377.12"/>
 <text text-anchor="start" x="907.77" y="-390.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A04 -->
 <g id="node11" class="node">
 <title>A04</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M755.01,-264.82C755.01,-264.82 442.53,-264.82 442.53,-264.82 436.53,-264.82 430.53,-258.82 430.53,-252.82 430.53,-252.82 430.53,-227.3 430.53,-227.3 430.53,-221.3 436.53,-215.3 442.53,-215.3 442.53,-215.3 755.01,-215.3 755.01,-215.3 761.01,-215.3 767.01,-221.3 767.01,-227.3 767.01,-227.3 767.01,-252.82 767.01,-252.82 767.01,-258.82 761.01,-264.82 755.01,-264.82"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M755.01,-264.82C755.01,-264.82 442.53,-264.82 442.53,-264.82 436.53,-264.82 430.53,-258.82 430.53,-252.82 430.53,-252.82 430.53,-227.3 430.53,-227.3 430.53,-221.3 436.53,-215.3 442.53,-215.3 442.53,-215.3 755.01,-215.3 755.01,-215.3 761.01,-215.3 767.01,-221.3 767.01,-227.3 767.01,-227.3 767.01,-252.82 767.01,-252.82 767.01,-258.82 761.01,-264.82 755.01,-264.82"/>
 <text text-anchor="start" x="442.77" y="-246.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
 <text text-anchor="start" x="442.77" y="-234.66" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="442.77" y="-222.66" font-family="Roboto, sans-serif" font-size="12.00">Ma&#223;einheit weicht von Liste der Profildefinitionen ab</text>
@@ -169,14 +169,14 @@
 <!-- 5&#45;&gt;A04 -->
 <g id="edge10" class="edge">
 <title>5-&gt;A04</title>
-<path fill="none" stroke="#7aab8a" d="M861.91,-320.21C811.19,-304.96 742.87,-284.41 688.56,-268.07"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="689.58,-264.72 679,-265.19 687.56,-271.42 689.58,-264.72"/>
+<path fill="none" stroke="#88a0d6" d="M861.91,-320.21C811.19,-304.96 742.87,-284.41 688.56,-268.07"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="689.58,-264.72 679,-265.19 687.56,-271.42 689.58,-264.72"/>
 <text text-anchor="start" x="785.77" y="-287.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 6 -->
 <g id="node12" class="node">
 <title>6</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1268.05,-262.7C1268.05,-262.7 797.5,-262.7 797.5,-262.7 791.5,-262.7 785.5,-256.7 785.5,-250.7 785.5,-250.7 785.5,-229.42 785.5,-229.42 785.5,-223.42 791.5,-217.42 797.5,-217.42 797.5,-217.42 1268.05,-217.42 1268.05,-217.42 1274.05,-217.42 1280.05,-223.42 1280.05,-229.42 1280.05,-229.42 1280.05,-250.7 1280.05,-250.7 1280.05,-256.7 1274.05,-262.7 1268.05,-262.7"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1268.05,-262.7C1268.05,-262.7 797.5,-262.7 797.5,-262.7 791.5,-262.7 785.5,-256.7 785.5,-250.7 785.5,-250.7 785.5,-229.42 785.5,-229.42 785.5,-223.42 791.5,-217.42 797.5,-217.42 797.5,-217.42 1268.05,-217.42 1268.05,-217.42 1274.05,-217.42 1280.05,-223.42 1280.05,-229.42 1280.05,-229.42 1280.05,-250.7 1280.05,-250.7 1280.05,-256.7 1274.05,-262.7 1268.05,-262.7"/>
 <text text-anchor="start" x="799.9" y="-241.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">6: </text>
 <text text-anchor="start" x="819.4" y="-241.76" font-family="Roboto, sans-serif" font-size="14.00">Entspricht die niedrigste Temperaturma&#223;zahl der Profilschar der</text>
 <text text-anchor="start" x="799.9" y="-227.76" font-family="Roboto, sans-serif" font-size="14.00">Begrenzungskonstante aus der Liste der Profildefinitionen?</text>
@@ -184,14 +184,14 @@
 <!-- 5&#45;&gt;6 -->
 <g id="edge11" class="edge">
 <title>5-&gt;6</title>
-<path fill="none" stroke="#7aab8a" d="M954.77,-320.46C969.08,-305.9 988.2,-286.43 1003.94,-270.41"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1006.24,-273.07 1010.75,-263.48 1001.24,-268.16 1006.24,-273.07"/>
+<path fill="none" stroke="#88a0d6" d="M954.77,-320.46C969.08,-305.9 988.2,-286.43 1003.94,-270.41"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1006.24,-273.07 1010.75,-263.48 1001.24,-268.16 1006.24,-273.07"/>
 <text text-anchor="start" x="988.77" y="-287.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A05 -->
 <g id="node13" class="node">
 <title>A05</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M786.26,-157.17C786.26,-157.17 355.28,-157.17 355.28,-157.17 349.28,-157.17 343.28,-151.17 343.28,-145.17 343.28,-145.17 343.28,-119.65 343.28,-119.65 343.28,-113.65 349.28,-107.65 355.28,-107.65 355.28,-107.65 786.26,-107.65 786.26,-107.65 792.26,-107.65 798.26,-113.65 798.26,-119.65 798.26,-119.65 798.26,-145.17 798.26,-145.17 798.26,-151.17 792.26,-157.17 786.26,-157.17"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M786.26,-157.17C786.26,-157.17 355.28,-157.17 355.28,-157.17 349.28,-157.17 343.28,-151.17 343.28,-145.17 343.28,-145.17 343.28,-119.65 343.28,-119.65 343.28,-113.65 349.28,-107.65 355.28,-107.65 355.28,-107.65 786.26,-107.65 786.26,-107.65 792.26,-107.65 798.26,-113.65 798.26,-119.65 798.26,-119.65 798.26,-145.17 798.26,-145.17 798.26,-151.17 792.26,-157.17 786.26,-157.17"/>
 <text text-anchor="start" x="355.52" y="-139.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
 <text text-anchor="start" x="355.52" y="-127.01" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="355.52" y="-115.01" font-family="Roboto, sans-serif" font-size="12.00">Niedrigste Temperaturma&#223;zahl weicht von Liste der Profildefinitionen ab</text>
@@ -199,14 +199,14 @@
 <!-- 6&#45;&gt;A05 -->
 <g id="edge12" class="edge">
 <title>6-&gt;A05</title>
-<path fill="none" stroke="#7aab8a" d="M938.17,-217.43C864.92,-200.68 763.18,-177.41 685.32,-159.61"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="686.51,-156.29 675.98,-157.47 684.95,-163.11 686.51,-156.29"/>
+<path fill="none" stroke="#88a0d6" d="M938.17,-217.43C864.92,-200.68 763.18,-177.41 685.32,-159.61"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="686.51,-156.29 675.98,-157.47 684.95,-163.11 686.51,-156.29"/>
 <text text-anchor="start" x="842.77" y="-185" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 7 -->
 <g id="node14" class="node">
 <title>7</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1401.43,-162.05C1401.43,-162.05 828.13,-162.05 828.13,-162.05 822.13,-162.05 816.13,-156.05 816.13,-150.05 816.13,-150.05 816.13,-114.77 816.13,-114.77 816.13,-108.77 822.13,-102.77 828.13,-102.77 828.13,-102.77 1401.43,-102.77 1401.43,-102.77 1407.43,-102.77 1413.43,-108.77 1413.43,-114.77 1413.43,-114.77 1413.43,-150.05 1413.43,-150.05 1413.43,-156.05 1407.43,-162.05 1401.43,-162.05"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1401.43,-162.05C1401.43,-162.05 828.13,-162.05 828.13,-162.05 822.13,-162.05 816.13,-156.05 816.13,-150.05 816.13,-150.05 816.13,-114.77 816.13,-114.77 816.13,-108.77 822.13,-102.77 828.13,-102.77 828.13,-102.77 1401.43,-102.77 1401.43,-102.77 1407.43,-102.77 1413.43,-108.77 1413.43,-114.77 1413.43,-114.77 1413.43,-150.05 1413.43,-150.05 1413.43,-156.05 1407.43,-162.05 1401.43,-162.05"/>
 <text text-anchor="start" x="830.53" y="-141.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">7: </text>
 <text text-anchor="start" x="850.03" y="-141.11" font-family="Roboto, sans-serif" font-size="14.00">Entspricht die Anzahl der Temperaturma&#223;zahlen der Profilschar der erwarteten</text>
 <text text-anchor="start" x="830.53" y="-127.11" font-family="Roboto, sans-serif" font-size="14.00">Anzahl der Temperaturma&#223;zahlen gem&#228;&#223; der Bezugstemperatur und der</text>
@@ -215,21 +215,21 @@
 <!-- 6&#45;&gt;7 -->
 <g id="edge13" class="edge">
 <title>6-&gt;7</title>
-<path fill="none" stroke="#7aab8a" d="M1049.57,-217.43C1059.99,-204 1073.65,-186.39 1085.78,-170.76"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1088.42,-173.08 1091.78,-163.03 1082.89,-168.79 1088.42,-173.08"/>
+<path fill="none" stroke="#88a0d6" d="M1049.57,-217.43C1059.99,-204 1073.65,-186.39 1085.78,-170.76"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1088.42,-173.08 1091.78,-163.03 1082.89,-168.79 1088.42,-173.08"/>
 <text text-anchor="start" x="1075.78" y="-185" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 7&#45;&gt;Ende -->
 <g id="edge15" class="edge">
 <title>7-&gt;Ende</title>
-<path fill="none" stroke="#7aab8a" d="M967.83,-102.82C849.08,-79.71 689.74,-48.71 614.51,-34.07"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="615.58,-30.72 605.09,-32.24 614.24,-37.59 615.58,-30.72"/>
+<path fill="none" stroke="#88a0d6" d="M967.83,-102.82C849.08,-79.71 689.74,-48.71 614.51,-34.07"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="615.58,-30.72 605.09,-32.24 614.24,-37.59 615.58,-30.72"/>
 <text text-anchor="start" x="858.77" y="-72.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A06 -->
 <g id="node15" class="node">
 <title>A06</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M1339.27,-49.52C1339.27,-49.52 890.29,-49.52 890.29,-49.52 884.29,-49.52 878.29,-43.52 878.29,-37.52 878.29,-37.52 878.29,-12 878.29,-12 878.29,-6 884.29,0 890.29,0 890.29,0 1339.27,0 1339.27,0 1345.27,0 1351.27,-6 1351.27,-12 1351.27,-12 1351.27,-37.52 1351.27,-37.52 1351.27,-43.52 1345.27,-49.52 1339.27,-49.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1339.27,-49.52C1339.27,-49.52 890.29,-49.52 890.29,-49.52 884.29,-49.52 878.29,-43.52 878.29,-37.52 878.29,-37.52 878.29,-12 878.29,-12 878.29,-6 884.29,0 890.29,0 890.29,0 1339.27,0 1339.27,0 1345.27,0 1351.27,-6 1351.27,-12 1351.27,-12 1351.27,-37.52 1351.27,-37.52 1351.27,-43.52 1345.27,-49.52 1339.27,-49.52"/>
 <text text-anchor="start" x="890.53" y="-31.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
 <text text-anchor="start" x="890.53" y="-19.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="890.53" y="-7.36" font-family="Roboto, sans-serif" font-size="12.00">Anzahl der Temperaturma&#223;zahlen weicht von Liste der Profildefinitionen ab</text>
@@ -237,8 +237,8 @@
 <!-- 7&#45;&gt;A06 -->
 <g id="edge14" class="edge">
 <title>7-&gt;A06</title>
-<path fill="none" stroke="#7aab8a" d="M1114.78,-102.82C1114.78,-89.87 1114.78,-74.44 1114.78,-60.8"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1118.28,-60.89 1114.78,-50.89 1111.28,-60.89 1118.28,-60.89"/>
+<path fill="none" stroke="#88a0d6" d="M1114.78,-102.82C1114.78,-89.87 1114.78,-74.44 1114.78,-60.8"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1118.28,-60.89 1114.78,-50.89 1111.28,-60.89 1118.28,-60.89"/>
 <text text-anchor="start" x="1114.78" y="-72.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 </g>
