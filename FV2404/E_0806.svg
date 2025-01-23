@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1898.6666666666667px" viewBox="0 0 1898.6666666666667 1605.3333333333333" height="1605.3333333333333px">
   <g>
     <svg version="1.1" width="1898.6666666666667px" viewBox="0 0 1898.6666666666667 1605.3333333333333" height="1605.3333333333333px">
-  <polygon fill="#c2cee9" points="0,0 1898.6666666666667,0 1898.6666666666667,1605.3333333333333 0,1605.3333333333333"/><g>
+  <rect fill="#e7e6e5" x="0" y="0" width="1898.6666666666667" height="1605.3333333333333" rx="20" ry="20"/><g>
     <g transform="translate(294.67740542570164, 160.5333333333333) scale(1 1) translate(0, 0) scale(2.260396132544823 2.260396132544823) "><!-- note that I manually added the width and height attribute to the root node
   https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
   -->
@@ -21,28 +21,28 @@
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M519.01,-1098.17C519.01,-1098.17 375.47,-1098.17 375.47,-1098.17 369.47,-1098.17 363.47,-1092.17 363.47,-1086.17 363.47,-1086.17 363.47,-1066.89 363.47,-1066.89 363.47,-1060.89 369.47,-1054.89 375.47,-1054.89 375.47,-1054.89 519.01,-1054.89 519.01,-1054.89 525.01,-1054.89 531.01,-1060.89 531.01,-1066.89 531.01,-1066.89 531.01,-1086.17 531.01,-1086.17 531.01,-1092.17 525.01,-1098.17 519.01,-1098.17"/>
-<text text-anchor="start" x="419.49" y="-1077.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0806</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M519.01,-1098.17C519.01,-1098.17 375.47,-1098.17 375.47,-1098.17 369.47,-1098.17 363.47,-1092.17 363.47,-1086.17 363.47,-1086.17 363.47,-1066.89 363.47,-1066.89 363.47,-1060.89 369.47,-1054.89 375.47,-1054.89 375.47,-1054.89 519.01,-1054.89 519.01,-1054.89 525.01,-1054.89 531.01,-1060.89 531.01,-1066.89 531.01,-1066.89 531.01,-1086.17 531.01,-1086.17 531.01,-1092.17 525.01,-1098.17 519.01,-1098.17"/>
+<text text-anchor="start" x="377.87" y="-1077.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0806</text>
 <text text-anchor="start" x="377.87" y="-1065.13" font-family="Roboto, sans-serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
 <text text-anchor="start" x="481.37" y="-1065.13" font-family="Roboto, sans-serif" font-weight="bold" font-size="12.00"> MGV</text>
 </g>
 <!-- 10 -->
 <g id="node2" class="node">
 <title>10</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M673.51,-1017.89C673.51,-1017.89 220.97,-1017.89 220.97,-1017.89 214.97,-1017.89 208.97,-1011.89 208.97,-1005.89 208.97,-1005.89 208.97,-993.89 208.97,-993.89 208.97,-987.89 214.97,-981.89 220.97,-981.89 220.97,-981.89 673.51,-981.89 673.51,-981.89 679.51,-981.89 685.51,-987.89 685.51,-993.89 685.51,-993.89 685.51,-1005.89 685.51,-1005.89 685.51,-1011.89 679.51,-1017.89 673.51,-1017.89"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M673.51,-1017.89C673.51,-1017.89 220.97,-1017.89 220.97,-1017.89 214.97,-1017.89 208.97,-1011.89 208.97,-1005.89 208.97,-1005.89 208.97,-993.89 208.97,-993.89 208.97,-987.89 214.97,-981.89 220.97,-981.89 220.97,-981.89 673.51,-981.89 673.51,-981.89 679.51,-981.89 685.51,-987.89 685.51,-993.89 685.51,-993.89 685.51,-1005.89 685.51,-1005.89 685.51,-1011.89 679.51,-1017.89 673.51,-1017.89"/>
 <text text-anchor="start" x="223.37" y="-996.21" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
 <text text-anchor="start" x="252.62" y="-996.21" font-family="Roboto, sans-serif" font-size="14.00">Ist die zu stornierende Rechnung beim Empf&#228;nger bekannt?</text>
 </g>
 <!-- Start&#45;&gt;10 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;10</title>
-<path fill="none" stroke="black" d="M447.24,-1055.13C447.24,-1047.06 447.24,-1037.65 447.24,-1028.96"/>
-<polygon fill="black" stroke="black" points="450.74,-1029.25 447.24,-1019.25 443.74,-1029.25 450.74,-1029.25"/>
+<path fill="none" stroke="#88a0d6" d="M447.24,-1055.13C447.24,-1047.06 447.24,-1037.65 447.24,-1028.96"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="450.74,-1029.25 447.24,-1019.25 443.74,-1029.25 450.74,-1029.25"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M312.48,-928.64C312.48,-928.64 12,-928.64 12,-928.64 6,-928.64 0,-922.64 0,-916.64 0,-916.64 0,-891.12 0,-891.12 0,-885.12 6,-879.12 12,-879.12 12,-879.12 312.48,-879.12 312.48,-879.12 318.48,-879.12 324.48,-885.12 324.48,-891.12 324.48,-891.12 324.48,-916.64 324.48,-916.64 324.48,-922.64 318.48,-928.64 312.48,-928.64"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M312.48,-928.64C312.48,-928.64 12,-928.64 12,-928.64 6,-928.64 0,-922.64 0,-916.64 0,-916.64 0,-891.12 0,-891.12 0,-885.12 6,-879.12 12,-879.12 12,-879.12 312.48,-879.12 312.48,-879.12 318.48,-879.12 324.48,-885.12 324.48,-891.12 324.48,-891.12 324.48,-916.64 324.48,-916.64 324.48,-922.64 318.48,-928.64 312.48,-928.64"/>
 <text text-anchor="start" x="12.24" y="-910.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
 <text text-anchor="start" x="12.24" y="-898.48" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="12.24" y="-886.48" font-family="Roboto, sans-serif" font-size="12.00">Die zu stornierende Rechnung ist nicht vorhanden.</text>
@@ -50,14 +50,14 @@
 <!-- 10&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>10-&gt;A01</title>
-<path fill="none" stroke="#7aab8a" d="M395.96,-981.97C354.02,-968.14 293.89,-948.31 245.12,-932.22"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="246.3,-928.92 235.7,-929.11 244.1,-935.57 246.3,-928.92"/>
+<path fill="none" stroke="#88a0d6" d="M395.96,-981.97C354.02,-968.14 293.89,-948.31 245.12,-932.22"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="246.3,-928.92 235.7,-929.11 244.1,-935.57 246.3,-928.92"/>
 <text text-anchor="start" x="338.24" y="-951.59" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 15 -->
 <g id="node4" class="node">
 <title>15</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M972.39,-926.52C972.39,-926.52 354.09,-926.52 354.09,-926.52 348.09,-926.52 342.09,-920.52 342.09,-914.52 342.09,-914.52 342.09,-893.24 342.09,-893.24 342.09,-887.24 348.09,-881.24 354.09,-881.24 354.09,-881.24 972.39,-881.24 972.39,-881.24 978.39,-881.24 984.39,-887.24 984.39,-893.24 984.39,-893.24 984.39,-914.52 984.39,-914.52 984.39,-920.52 978.39,-926.52 972.39,-926.52"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M972.39,-926.52C972.39,-926.52 354.09,-926.52 354.09,-926.52 348.09,-926.52 342.09,-920.52 342.09,-914.52 342.09,-914.52 342.09,-893.24 342.09,-893.24 342.09,-887.24 348.09,-881.24 354.09,-881.24 354.09,-881.24 972.39,-881.24 972.39,-881.24 978.39,-881.24 984.39,-887.24 984.39,-893.24 984.39,-893.24 984.39,-914.52 984.39,-914.52 984.39,-920.52 978.39,-926.52 972.39,-926.52"/>
 <text text-anchor="start" x="356.49" y="-905.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">15: </text>
 <text text-anchor="start" x="385.74" y="-905.58" font-family="Roboto, sans-serif" font-size="14.00">Liegt vom Rechnungssteller die in dieser Rechnung verwendete Rechnungsnummer</text>
 <text text-anchor="start" x="356.49" y="-891.58" font-family="Roboto, sans-serif" font-size="14.00">bereits vor?</text>
@@ -65,14 +65,14 @@
 <!-- 10&#45;&gt;15 -->
 <g id="edge3" class="edge">
 <title>10-&gt;15</title>
-<path fill="none" stroke="#7aab8a" d="M485.86,-982.08C518.47,-967.89 565.71,-947.33 603.25,-930.99"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="604.39,-934.31 612.17,-927.11 601.6,-927.89 604.39,-934.31"/>
+<path fill="none" stroke="#88a0d6" d="M485.86,-982.08C518.47,-967.89 565.71,-947.33 603.25,-930.99"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="604.39,-934.31 612.17,-927.11 601.6,-927.89 604.39,-934.31"/>
 <text text-anchor="start" x="561.24" y="-951.59" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A06 -->
 <g id="node5" class="node">
 <title>A06</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M456.11,-825.87C456.11,-825.87 186.38,-825.87 186.38,-825.87 180.38,-825.87 174.38,-819.87 174.38,-813.87 174.38,-813.87 174.38,-788.35 174.38,-788.35 174.38,-782.35 180.38,-776.35 186.38,-776.35 186.38,-776.35 456.11,-776.35 456.11,-776.35 462.11,-776.35 468.11,-782.35 468.11,-788.35 468.11,-788.35 468.11,-813.87 468.11,-813.87 468.11,-819.87 462.11,-825.87 456.11,-825.87"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M456.11,-825.87C456.11,-825.87 186.38,-825.87 186.38,-825.87 180.38,-825.87 174.38,-819.87 174.38,-813.87 174.38,-813.87 174.38,-788.35 174.38,-788.35 174.38,-782.35 180.38,-776.35 186.38,-776.35 186.38,-776.35 456.11,-776.35 456.11,-776.35 462.11,-776.35 468.11,-782.35 468.11,-788.35 468.11,-788.35 468.11,-813.87 468.11,-813.87 468.11,-819.87 462.11,-825.87 456.11,-825.87"/>
 <text text-anchor="start" x="186.62" y="-807.81" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
 <text text-anchor="start" x="186.62" y="-795.71" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="186.62" y="-783.71" font-family="Roboto, sans-serif" font-size="12.00">Rechnungsnummer wurde bereits verwendet</text>
@@ -80,28 +80,28 @@
 <!-- 15&#45;&gt;A06 -->
 <g id="edge4" class="edge">
 <title>15-&gt;A06</title>
-<path fill="none" stroke="#7aab8a" d="M589.87,-881.26C537.98,-865.97 468.06,-845.37 412.56,-829.02"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="413.69,-825.7 403.11,-826.23 411.71,-832.42 413.69,-825.7"/>
+<path fill="none" stroke="#88a0d6" d="M589.87,-881.26C537.98,-865.97 468.06,-845.37 412.56,-829.02"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="413.69,-825.7 403.11,-826.23 411.71,-832.42 413.69,-825.7"/>
 <text text-anchor="start" x="512.24" y="-848.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 20 -->
 <g id="node6" class="node">
 <title>20</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M912.01,-819.11C912.01,-819.11 498.47,-819.11 498.47,-819.11 492.47,-819.11 486.47,-813.11 486.47,-807.11 486.47,-807.11 486.47,-795.11 486.47,-795.11 486.47,-789.11 492.47,-783.11 498.47,-783.11 498.47,-783.11 912.01,-783.11 912.01,-783.11 918.01,-783.11 924.01,-789.11 924.01,-795.11 924.01,-795.11 924.01,-807.11 924.01,-807.11 924.01,-813.11 918.01,-819.11 912.01,-819.11"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M912.01,-819.11C912.01,-819.11 498.47,-819.11 498.47,-819.11 492.47,-819.11 486.47,-813.11 486.47,-807.11 486.47,-807.11 486.47,-795.11 486.47,-795.11 486.47,-789.11 492.47,-783.11 498.47,-783.11 498.47,-783.11 912.01,-783.11 912.01,-783.11 918.01,-783.11 924.01,-789.11 924.01,-795.11 924.01,-795.11 924.01,-807.11 924.01,-807.11 924.01,-813.11 918.01,-819.11 912.01,-819.11"/>
 <text text-anchor="start" x="500.87" y="-797.43" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
 <text text-anchor="start" x="530.12" y="-797.43" font-family="Roboto, sans-serif" font-size="14.00">Wurde die zu stornierende Rechnung bereits storniert?</text>
 </g>
 <!-- 15&#45;&gt;20 -->
 <g id="edge5" class="edge">
 <title>15-&gt;20</title>
-<path fill="none" stroke="#7aab8a" d="M672.15,-881.51C678.49,-866.3 687.05,-845.74 693.89,-829.35"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="697.09,-830.77 697.7,-820.19 690.63,-828.07 697.09,-830.77"/>
+<path fill="none" stroke="#88a0d6" d="M672.15,-881.51C678.49,-866.3 687.05,-845.74 693.89,-829.35"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="697.09,-830.77 697.7,-820.19 690.63,-828.07 697.09,-830.77"/>
 <text text-anchor="start" x="686.24" y="-848.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A02 -->
 <g id="node7" class="node">
 <title>A02</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M409.98,-723.1C409.98,-723.1 88.5,-723.1 88.5,-723.1 82.5,-723.1 76.5,-717.1 76.5,-711.1 76.5,-711.1 76.5,-685.58 76.5,-685.58 76.5,-679.58 82.5,-673.58 88.5,-673.58 88.5,-673.58 409.98,-673.58 409.98,-673.58 415.98,-673.58 421.98,-679.58 421.98,-685.58 421.98,-685.58 421.98,-711.1 421.98,-711.1 421.98,-717.1 415.98,-723.1 409.98,-723.1"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M409.98,-723.1C409.98,-723.1 88.5,-723.1 88.5,-723.1 82.5,-723.1 76.5,-717.1 76.5,-711.1 76.5,-711.1 76.5,-685.58 76.5,-685.58 76.5,-679.58 82.5,-673.58 88.5,-673.58 88.5,-673.58 409.98,-673.58 409.98,-673.58 415.98,-673.58 421.98,-679.58 421.98,-685.58 421.98,-685.58 421.98,-711.1 421.98,-711.1 421.98,-717.1 415.98,-723.1 409.98,-723.1"/>
 <text text-anchor="start" x="88.74" y="-705.04" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
 <text text-anchor="start" x="88.74" y="-692.94" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="88.74" y="-680.94" font-family="Roboto, sans-serif" font-size="12.00">Die zu stornierende Rechnung wurde bereits storniert.</text>
@@ -109,14 +109,14 @@
 <!-- 20&#45;&gt;A02 -->
 <g id="edge6" class="edge">
 <title>20-&gt;A02</title>
-<path fill="none" stroke="#7aab8a" d="M628.4,-783.13C557.06,-767.36 449.77,-743.66 367.51,-725.48"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="368.33,-722.07 357.81,-723.33 366.82,-728.91 368.33,-722.07"/>
+<path fill="none" stroke="#88a0d6" d="M628.4,-783.13C557.06,-767.36 449.77,-743.66 367.51,-725.48"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="368.33,-722.07 357.81,-723.33 366.82,-728.91 368.33,-722.07"/>
 <text text-anchor="start" x="504.24" y="-746.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 30 -->
 <g id="node8" class="node">
 <title>30</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1040.39,-720.98C1040.39,-720.98 452.09,-720.98 452.09,-720.98 446.09,-720.98 440.09,-714.98 440.09,-708.98 440.09,-708.98 440.09,-687.7 440.09,-687.7 440.09,-681.7 446.09,-675.7 452.09,-675.7 452.09,-675.7 1040.39,-675.7 1040.39,-675.7 1046.39,-675.7 1052.39,-681.7 1052.39,-687.7 1052.39,-687.7 1052.39,-708.98 1052.39,-708.98 1052.39,-714.98 1046.39,-720.98 1040.39,-720.98"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1040.39,-720.98C1040.39,-720.98 452.09,-720.98 452.09,-720.98 446.09,-720.98 440.09,-714.98 440.09,-708.98 440.09,-708.98 440.09,-687.7 440.09,-687.7 440.09,-681.7 446.09,-675.7 452.09,-675.7 452.09,-675.7 1040.39,-675.7 1040.39,-675.7 1046.39,-675.7 1052.39,-681.7 1052.39,-687.7 1052.39,-687.7 1052.39,-708.98 1052.39,-708.98 1052.39,-714.98 1046.39,-720.98 1040.39,-720.98"/>
 <text text-anchor="start" x="454.49" y="-700.04" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
 <text text-anchor="start" x="483.74" y="-700.04" font-family="Roboto, sans-serif" font-size="14.00">Ist der Rechnungstyp der Stornorechnung identisch mit dem Rechnungstyp der</text>
 <text text-anchor="start" x="454.49" y="-686.04" font-family="Roboto, sans-serif" font-size="14.00">urspr&#252;nglichen Rechnung?</text>
@@ -124,14 +124,14 @@
 <!-- 20&#45;&gt;30 -->
 <g id="edge7" class="edge">
 <title>20-&gt;30</title>
-<path fill="none" stroke="#7aab8a" d="M712.01,-783.47C717.77,-769.3 726.22,-748.55 733.28,-731.2"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="736.36,-732.91 736.89,-722.33 729.87,-730.28 736.36,-732.91"/>
+<path fill="none" stroke="#88a0d6" d="M712.01,-783.47C717.77,-769.3 726.22,-748.55 733.28,-731.2"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="736.36,-732.91 736.89,-722.33 729.87,-730.28 736.36,-732.91"/>
 <text text-anchor="start" x="727.24" y="-746.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A03 -->
 <g id="node9" class="node">
 <title>A03</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M521.23,-620.33C521.23,-620.33 39.25,-620.33 39.25,-620.33 33.25,-620.33 27.25,-614.33 27.25,-608.33 27.25,-608.33 27.25,-570.81 27.25,-570.81 27.25,-564.81 33.25,-558.81 39.25,-558.81 39.25,-558.81 521.23,-558.81 521.23,-558.81 527.23,-558.81 533.23,-564.81 533.23,-570.81 533.23,-570.81 533.23,-608.33 533.23,-608.33 533.23,-614.33 527.23,-620.33 521.23,-620.33"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M521.23,-620.33C521.23,-620.33 39.25,-620.33 39.25,-620.33 33.25,-620.33 27.25,-614.33 27.25,-608.33 27.25,-608.33 27.25,-570.81 27.25,-570.81 27.25,-564.81 33.25,-558.81 39.25,-558.81 39.25,-558.81 521.23,-558.81 521.23,-558.81 527.23,-558.81 533.23,-564.81 533.23,-570.81 533.23,-570.81 533.23,-608.33 533.23,-608.33 533.23,-614.33 527.23,-620.33 521.23,-620.33"/>
 <text text-anchor="start" x="39.49" y="-602.27" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
 <text text-anchor="start" x="39.49" y="-590.17" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="39.49" y="-578.17" font-family="Roboto, sans-serif" font-size="12.00">Der Rechnungstyp der Stornorechnung ist nicht identisch mit dem Rechnungstyp</text>
@@ -140,14 +140,14 @@
 <!-- 30&#45;&gt;A03 -->
 <g id="edge8" class="edge">
 <title>30-&gt;A03</title>
-<path fill="none" stroke="#7aab8a" d="M651.94,-675.73C585.53,-660.52 495.48,-639.88 420.64,-622.74"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="421.72,-619.4 411.19,-620.57 420.16,-626.22 421.72,-619.4"/>
+<path fill="none" stroke="#88a0d6" d="M651.94,-675.73C585.53,-660.52 495.48,-639.88 420.64,-622.74"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="421.72,-619.4 411.19,-620.57 420.16,-626.22 421.72,-619.4"/>
 <text text-anchor="start" x="554.24" y="-643.28" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 40 -->
 <g id="node10" class="node">
 <title>40</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1148.89,-619.21C1148.89,-619.21 563.59,-619.21 563.59,-619.21 557.59,-619.21 551.59,-613.21 551.59,-607.21 551.59,-607.21 551.59,-571.93 551.59,-571.93 551.59,-565.93 557.59,-559.93 563.59,-559.93 563.59,-559.93 1148.89,-559.93 1148.89,-559.93 1154.89,-559.93 1160.89,-565.93 1160.89,-571.93 1160.89,-571.93 1160.89,-607.21 1160.89,-607.21 1160.89,-613.21 1154.89,-619.21 1148.89,-619.21"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1148.89,-619.21C1148.89,-619.21 563.59,-619.21 563.59,-619.21 557.59,-619.21 551.59,-613.21 551.59,-607.21 551.59,-607.21 551.59,-571.93 551.59,-571.93 551.59,-565.93 557.59,-559.93 563.59,-559.93 563.59,-559.93 1148.89,-559.93 1148.89,-559.93 1154.89,-559.93 1160.89,-565.93 1160.89,-571.93 1160.89,-571.93 1160.89,-607.21 1160.89,-607.21 1160.89,-613.21 1154.89,-619.21 1148.89,-619.21"/>
 <text text-anchor="start" x="565.99" y="-598.27" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
 <text text-anchor="start" x="595.24" y="-598.27" font-family="Roboto, sans-serif" font-size="14.00">Ist der Abrechnungszeitraum bzw. das Ausf&#252;hrungsdatum der Stornorechnung</text>
 <text text-anchor="start" x="565.99" y="-584.27" font-family="Roboto, sans-serif" font-size="14.00">identisch mit dem Abrechnungszeitraum bzw. dem Ausf&#252;hrungsdatum der</text>
@@ -156,14 +156,14 @@
 <!-- 30&#45;&gt;40 -->
 <g id="edge9" class="edge">
 <title>30-&gt;40</title>
-<path fill="none" stroke="#7aab8a" d="M768.5,-675.73C782.96,-661.7 802.16,-643.06 818.92,-626.8"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="821.09,-629.56 825.83,-620.09 816.22,-624.54 821.09,-629.56"/>
+<path fill="none" stroke="#88a0d6" d="M768.5,-675.73C782.96,-661.7 802.16,-643.06 818.92,-626.8"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="821.09,-629.56 825.83,-620.09 816.22,-624.54 821.09,-629.56"/>
 <text text-anchor="start" x="804.24" y="-643.28" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A04 -->
 <g id="node11" class="node">
 <title>A04</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M605.73,-505.56C605.73,-505.56 102.75,-505.56 102.75,-505.56 96.75,-505.56 90.75,-499.56 90.75,-493.56 90.75,-493.56 90.75,-444.04 90.75,-444.04 90.75,-438.04 96.75,-432.04 102.75,-432.04 102.75,-432.04 605.73,-432.04 605.73,-432.04 611.73,-432.04 617.73,-438.04 617.73,-444.04 617.73,-444.04 617.73,-493.56 617.73,-493.56 617.73,-499.56 611.73,-505.56 605.73,-505.56"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M605.73,-505.56C605.73,-505.56 102.75,-505.56 102.75,-505.56 96.75,-505.56 90.75,-499.56 90.75,-493.56 90.75,-493.56 90.75,-444.04 90.75,-444.04 90.75,-438.04 96.75,-432.04 102.75,-432.04 102.75,-432.04 605.73,-432.04 605.73,-432.04 611.73,-432.04 617.73,-438.04 617.73,-444.04 617.73,-444.04 617.73,-493.56 617.73,-493.56 617.73,-499.56 611.73,-505.56 605.73,-505.56"/>
 <text text-anchor="start" x="102.99" y="-487.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
 <text text-anchor="start" x="102.99" y="-475.4" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="102.99" y="-463.4" font-family="Roboto, sans-serif" font-size="12.00">Der Abrechnungszeitraum bzw. des Ausf&#252;hrungsdatum der Stornorechnung ist nicht</text>
@@ -173,14 +173,14 @@
 <!-- 40&#45;&gt;A04 -->
 <g id="edge10" class="edge">
 <title>40-&gt;A04</title>
-<path fill="none" stroke="#7aab8a" d="M735.36,-559.97C669.54,-544.4 587.23,-524.92 515.96,-508.06"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="517.09,-504.73 506.55,-505.84 515.47,-511.54 517.09,-504.73"/>
+<path fill="none" stroke="#88a0d6" d="M735.36,-559.97C669.54,-544.4 587.23,-524.92 515.96,-508.06"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="517.09,-504.73 506.55,-505.84 515.47,-511.54 517.09,-504.73"/>
 <text text-anchor="start" x="649.24" y="-528.51" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 50 -->
 <g id="node12" class="node">
 <title>50</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1315.14,-498.44C1315.14,-498.44 647.34,-498.44 647.34,-498.44 641.34,-498.44 635.34,-492.44 635.34,-486.44 635.34,-486.44 635.34,-451.16 635.34,-451.16 635.34,-445.16 641.34,-439.16 647.34,-439.16 647.34,-439.16 1315.14,-439.16 1315.14,-439.16 1321.14,-439.16 1327.14,-445.16 1327.14,-451.16 1327.14,-451.16 1327.14,-486.44 1327.14,-486.44 1327.14,-492.44 1321.14,-498.44 1315.14,-498.44"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1315.14,-498.44C1315.14,-498.44 647.34,-498.44 647.34,-498.44 641.34,-498.44 635.34,-492.44 635.34,-486.44 635.34,-486.44 635.34,-451.16 635.34,-451.16 635.34,-445.16 641.34,-439.16 647.34,-439.16 647.34,-439.16 1315.14,-439.16 1315.14,-439.16 1321.14,-439.16 1327.14,-445.16 1327.14,-451.16 1327.14,-451.16 1327.14,-486.44 1327.14,-486.44 1327.14,-492.44 1321.14,-498.44 1315.14,-498.44"/>
 <text text-anchor="start" x="649.74" y="-477.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
 <text text-anchor="start" x="678.99" y="-477.5" font-family="Roboto, sans-serif" font-size="14.00">Entsprechen die Betr&#228;ge der Stornorechnung den Betr&#228;gen der urspr&#252;nglichen Rechnung?</text>
 <text text-anchor="start" x="649.74" y="-463.5" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Alle MOA-Segmente im Summenteil m&#252;ssen unter Nutzung der</text>
@@ -189,14 +189,14 @@
 <!-- 40&#45;&gt;50 -->
 <g id="edge11" class="edge">
 <title>40-&gt;50</title>
-<path fill="none" stroke="#7aab8a" d="M886.18,-560.12C903.22,-543.93 924.73,-523.49 942.98,-506.15"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="945.17,-508.9 950.01,-499.47 940.35,-503.82 945.17,-508.9"/>
+<path fill="none" stroke="#88a0d6" d="M886.18,-560.12C903.22,-543.93 924.73,-523.49 942.98,-506.15"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="945.17,-508.9 950.01,-499.47 940.35,-503.82 945.17,-508.9"/>
 <text text-anchor="start" x="922.24" y="-528.51" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A05 -->
 <g id="node13" class="node">
 <title>A05</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M875.48,-378.79C875.48,-378.79 389,-378.79 389,-378.79 383,-378.79 377,-372.79 377,-366.79 377,-366.79 377,-329.27 377,-329.27 377,-323.27 383,-317.27 389,-317.27 389,-317.27 875.48,-317.27 875.48,-317.27 881.48,-317.27 887.48,-323.27 887.48,-329.27 887.48,-329.27 887.48,-366.79 887.48,-366.79 887.48,-372.79 881.48,-378.79 875.48,-378.79"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M875.48,-378.79C875.48,-378.79 389,-378.79 389,-378.79 383,-378.79 377,-372.79 377,-366.79 377,-366.79 377,-329.27 377,-329.27 377,-323.27 383,-317.27 389,-317.27 389,-317.27 875.48,-317.27 875.48,-317.27 881.48,-317.27 887.48,-323.27 887.48,-329.27 887.48,-329.27 887.48,-366.79 887.48,-366.79 887.48,-372.79 881.48,-378.79 875.48,-378.79"/>
 <text text-anchor="start" x="389.24" y="-360.73" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
 <text text-anchor="start" x="389.24" y="-348.63" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="389.24" y="-336.63" font-family="Roboto, sans-serif" font-size="12.00">Mindestens ein Betrag der Stornorechnung ist nicht identisch mit dem Betrag der</text>
@@ -205,28 +205,28 @@
 <!-- 50&#45;&gt;A05 -->
 <g id="edge12" class="edge">
 <title>50-&gt;A05</title>
-<path fill="none" stroke="#7aab8a" d="M897.2,-439.2C846.91,-422.09 782.77,-400.26 730.19,-382.37"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="731.53,-379.12 720.93,-379.21 729.27,-385.75 731.53,-379.12"/>
+<path fill="none" stroke="#88a0d6" d="M897.2,-439.2C846.91,-422.09 782.77,-400.26 730.19,-382.37"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="731.53,-379.12 720.93,-379.21 729.27,-385.75 731.53,-379.12"/>
 <text text-anchor="start" x="816.24" y="-401.74" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 60 -->
 <g id="node14" class="node">
 <title>60</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1311.27,-366.03C1311.27,-366.03 917.22,-366.03 917.22,-366.03 911.22,-366.03 905.22,-360.03 905.22,-354.03 905.22,-354.03 905.22,-342.03 905.22,-342.03 905.22,-336.03 911.22,-330.03 917.22,-330.03 917.22,-330.03 1311.27,-330.03 1311.27,-330.03 1317.27,-330.03 1323.27,-336.03 1323.27,-342.03 1323.27,-342.03 1323.27,-354.03 1323.27,-354.03 1323.27,-360.03 1317.27,-366.03 1311.27,-366.03"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1311.27,-366.03C1311.27,-366.03 917.22,-366.03 917.22,-366.03 911.22,-366.03 905.22,-360.03 905.22,-354.03 905.22,-354.03 905.22,-342.03 905.22,-342.03 905.22,-336.03 911.22,-330.03 917.22,-330.03 917.22,-330.03 1311.27,-330.03 1311.27,-330.03 1317.27,-330.03 1323.27,-336.03 1323.27,-342.03 1323.27,-342.03 1323.27,-354.03 1323.27,-354.03 1323.27,-360.03 1317.27,-366.03 1311.27,-366.03"/>
 <text text-anchor="start" x="919.62" y="-344.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">60: </text>
 <text text-anchor="start" x="948.87" y="-344.35" font-family="Roboto, sans-serif" font-size="14.00">Ist ein zuvor nicht spezifizierter Fehler aufgetreten?</text>
 </g>
 <!-- 50&#45;&gt;60 -->
 <g id="edge13" class="edge">
 <title>50-&gt;60</title>
-<path fill="none" stroke="#7aab8a" d="M1013.1,-439.35C1035.66,-419.21 1065.6,-392.47 1087.04,-373.32"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1089.12,-376.16 1094.24,-366.89 1084.45,-370.94 1089.12,-376.16"/>
+<path fill="none" stroke="#88a0d6" d="M1013.1,-439.35C1035.66,-419.21 1065.6,-392.47 1087.04,-373.32"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1089.12,-376.16 1094.24,-366.89 1084.45,-370.94 1089.12,-376.16"/>
 <text text-anchor="start" x="1059.24" y="-401.74" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A99 -->
 <g id="node15" class="node">
 <title>A99</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M947.86,-264.02C947.86,-264.02 526.62,-264.02 526.62,-264.02 520.62,-264.02 514.62,-258.02 514.62,-252.02 514.62,-252.02 514.62,-190.5 514.62,-190.5 514.62,-184.5 520.62,-178.5 526.62,-178.5 526.62,-178.5 947.86,-178.5 947.86,-178.5 953.86,-178.5 959.86,-184.5 959.86,-190.5 959.86,-190.5 959.86,-252.02 959.86,-252.02 959.86,-258.02 953.86,-264.02 947.86,-264.02"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M947.86,-264.02C947.86,-264.02 526.62,-264.02 526.62,-264.02 520.62,-264.02 514.62,-258.02 514.62,-252.02 514.62,-252.02 514.62,-190.5 514.62,-190.5 514.62,-184.5 520.62,-178.5 526.62,-178.5 526.62,-178.5 947.86,-178.5 947.86,-178.5 953.86,-178.5 959.86,-184.5 959.86,-190.5 959.86,-190.5 959.86,-252.02 959.86,-252.02 959.86,-258.02 953.86,-264.02 947.86,-264.02"/>
 <text text-anchor="start" x="526.87" y="-245.96" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A99</text>
 <text text-anchor="start" x="526.87" y="-233.86" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="526.87" y="-221.86" font-family="Roboto, sans-serif" font-size="12.00">Ablehnung Sonstiges</text>
@@ -237,56 +237,56 @@
 <!-- 60&#45;&gt;A99 -->
 <g id="edge14" class="edge">
 <title>60-&gt;A99</title>
-<path fill="none" stroke="#7aab8a" d="M1063,-330.07C1014.56,-314.04 939.71,-289.27 873.97,-267.51"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="875.11,-264.2 864.51,-264.38 872.91,-270.85 875.11,-264.2"/>
+<path fill="none" stroke="#88a0d6" d="M1063,-330.07C1014.56,-314.04 939.71,-289.27 873.97,-267.51"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="875.11,-264.2 864.51,-264.38 872.91,-270.85 875.11,-264.2"/>
 <text text-anchor="start" x="959.24" y="-286.97" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 70 -->
 <g id="node16" class="node">
 <title>70</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1376.14,-239.26C1376.14,-239.26 990.34,-239.26 990.34,-239.26 984.34,-239.26 978.34,-233.26 978.34,-227.26 978.34,-227.26 978.34,-215.26 978.34,-215.26 978.34,-209.26 984.34,-203.26 990.34,-203.26 990.34,-203.26 1376.14,-203.26 1376.14,-203.26 1382.14,-203.26 1388.14,-209.26 1388.14,-215.26 1388.14,-215.26 1388.14,-227.26 1388.14,-227.26 1388.14,-233.26 1382.14,-239.26 1376.14,-239.26"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1376.14,-239.26C1376.14,-239.26 990.34,-239.26 990.34,-239.26 984.34,-239.26 978.34,-233.26 978.34,-227.26 978.34,-227.26 978.34,-215.26 978.34,-215.26 978.34,-209.26 984.34,-203.26 990.34,-203.26 990.34,-203.26 1376.14,-203.26 1376.14,-203.26 1382.14,-203.26 1388.14,-209.26 1388.14,-215.26 1388.14,-215.26 1388.14,-227.26 1388.14,-227.26 1388.14,-233.26 1382.14,-239.26 1376.14,-239.26"/>
 <text text-anchor="start" x="992.74" y="-217.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">70: </text>
 <text text-anchor="start" x="1021.99" y="-217.58" font-family="Roboto, sans-serif" font-size="14.00">Wurde der urspr&#252;nglichen Rechnung zugestimmt?</text>
 </g>
 <!-- 60&#45;&gt;70 -->
 <g id="edge15" class="edge">
 <title>60-&gt;70</title>
-<path fill="none" stroke="#7aab8a" d="M1123.55,-330.2C1135.07,-309.37 1154.84,-273.62 1168.45,-249.01"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1171.35,-250.99 1173.13,-240.54 1165.23,-247.6 1171.35,-250.99"/>
+<path fill="none" stroke="#88a0d6" d="M1123.55,-330.2C1135.07,-309.37 1154.84,-273.62 1168.45,-249.01"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1171.35,-250.99 1173.13,-240.54 1165.23,-247.6 1171.35,-250.99"/>
 <text text-anchor="start" x="1148.24" y="-286.97" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- Ende -->
 <g id="node17" class="node">
 <title>Ende</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M1032.27,-36C1032.27,-36 992.22,-36 992.22,-36 986.22,-36 980.22,-30 980.22,-24 980.22,-24 980.22,-12 980.22,-12 980.22,-6 986.22,0 992.22,0 992.22,0 1032.27,0 1032.27,0 1038.27,0 1044.27,-6 1044.27,-12 1044.27,-12 1044.27,-24 1044.27,-24 1044.27,-30 1038.27,-36 1032.27,-36"/>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M1032.27,-36C1032.27,-36 992.22,-36 992.22,-36 986.22,-36 980.22,-30 980.22,-24 980.22,-24 980.22,-12 980.22,-12 980.22,-6 986.22,0 992.22,0 992.22,0 1032.27,0 1032.27,0 1038.27,0 1044.27,-6 1044.27,-12 1044.27,-12 1044.27,-24 1044.27,-24 1044.27,-30 1038.27,-36 1032.27,-36"/>
 <text text-anchor="middle" x="1012.24" y="-13.32" font-family="Roboto, sans-serif" font-size="14.00">Ende</text>
 </g>
 <!-- 70&#45;&gt;Ende -->
 <g id="edge16" class="edge">
 <title>70-&gt;Ende</title>
-<path fill="none" stroke="#7aab8a" d="M1116.59,-203.34C1076.81,-189.43 1029.51,-165.32 1005.49,-125.25 991.33,-101.62 995.94,-69.5 1002.27,-46.78"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1005.59,-47.88 1005.2,-37.29 998.9,-45.82 1005.59,-47.88"/>
+<path fill="none" stroke="#88a0d6" d="M1116.59,-203.34C1076.81,-189.43 1029.51,-165.32 1005.49,-125.25 991.33,-101.62 995.94,-69.5 1002.27,-46.78"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1005.59,-47.88 1005.2,-37.29 998.9,-45.82 1005.59,-47.88"/>
 <text text-anchor="start" x="1005.24" y="-103.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 80 -->
 <g id="node18" class="node">
 <title>80</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1404.14,-125.25C1404.14,-125.25 1042.34,-125.25 1042.34,-125.25 1036.34,-125.25 1030.34,-119.25 1030.34,-113.25 1030.34,-113.25 1030.34,-101.25 1030.34,-101.25 1030.34,-95.25 1036.34,-89.25 1042.34,-89.25 1042.34,-89.25 1404.14,-89.25 1404.14,-89.25 1410.14,-89.25 1416.14,-95.25 1416.14,-101.25 1416.14,-101.25 1416.14,-113.25 1416.14,-113.25 1416.14,-119.25 1410.14,-125.25 1404.14,-125.25"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1404.14,-125.25C1404.14,-125.25 1042.34,-125.25 1042.34,-125.25 1036.34,-125.25 1030.34,-119.25 1030.34,-113.25 1030.34,-113.25 1030.34,-101.25 1030.34,-101.25 1030.34,-95.25 1036.34,-89.25 1042.34,-89.25 1042.34,-89.25 1404.14,-89.25 1404.14,-89.25 1410.14,-89.25 1416.14,-95.25 1416.14,-101.25 1416.14,-101.25 1416.14,-113.25 1416.14,-113.25 1416.14,-119.25 1410.14,-125.25 1404.14,-125.25"/>
 <text text-anchor="start" x="1044.74" y="-103.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">80: </text>
 <text text-anchor="start" x="1073.99" y="-103.58" font-family="Roboto, sans-serif" font-size="14.00">Wurde die urspr&#252;ngliche Rechnung abgelehnt?</text>
 </g>
 <!-- 70&#45;&gt;80 -->
 <g id="edge17" class="edge">
 <title>70-&gt;80</title>
-<path fill="none" stroke="#7aab8a" d="M1189.14,-203.73C1195.52,-185.88 1205.78,-157.15 1213.38,-135.86"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1216.61,-137.23 1216.67,-126.64 1210.01,-134.88 1216.61,-137.23"/>
+<path fill="none" stroke="#88a0d6" d="M1189.14,-203.73C1195.52,-185.88 1205.78,-157.15 1213.38,-135.86"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1216.61,-137.23 1216.67,-126.64 1210.01,-134.88 1216.61,-137.23"/>
 <text text-anchor="start" x="1210.24" y="-148.2" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 80&#45;&gt;Ende -->
 <g id="edge18" class="edge">
 <title>80-&gt;Ende</title>
-<path fill="none" stroke="#7aab8a" d="M1182.31,-89.32C1145.55,-74.12 1091.8,-51.9 1054.61,-36.52"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1056.09,-33.34 1045.51,-32.76 1053.41,-39.81 1056.09,-33.34"/>
+<path fill="none" stroke="#88a0d6" d="M1182.31,-89.32C1145.55,-74.12 1091.8,-51.9 1054.61,-36.52"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1056.09,-33.34 1045.51,-32.76 1053.41,-39.81 1056.09,-33.34"/>
 <text text-anchor="start" x="1136.24" y="-58.95" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 </g>
