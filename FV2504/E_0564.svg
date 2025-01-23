@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1181.3333333333333px" viewBox="0 0 1181.3333333333333 724.0" height="724.0px">
   <g>
     <svg version="1.1" width="1181.3333333333333px" viewBox="0 0 1181.3333333333333 724.0" height="724.0px">
-  <polygon fill="#c2cee9" points="0,0 1181.3333333333333,0 1181.3333333333333,724.0 0,724.0"/><g>
+  <rect fill="#e7e6e5" x="0" y="0" width="1181.3333333333333" height="724.0" rx="20" ry="20"/><g>
     <g transform="translate(295.41901811696226, 72.39999999999998) scale(1 1) translate(0, 0) scale(1.0194311461560126 1.0194311461560126) "><!-- note that I manually added the width and height attribute to the root node
   https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
   -->
@@ -21,28 +21,28 @@
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M346.64,-436.59C346.64,-436.59 203.84,-436.59 203.84,-436.59 197.84,-436.59 191.84,-430.59 191.84,-424.59 191.84,-424.59 191.84,-405.31 191.84,-405.31 191.84,-399.31 197.84,-393.31 203.84,-393.31 203.84,-393.31 346.64,-393.31 346.64,-393.31 352.64,-393.31 358.64,-399.31 358.64,-405.31 358.64,-405.31 358.64,-424.59 358.64,-424.59 358.64,-430.59 352.64,-436.59 346.64,-436.59"/>
-<text text-anchor="start" x="247.49" y="-415.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0564</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M346.64,-436.59C346.64,-436.59 203.84,-436.59 203.84,-436.59 197.84,-436.59 191.84,-430.59 191.84,-424.59 191.84,-424.59 191.84,-405.31 191.84,-405.31 191.84,-399.31 197.84,-393.31 203.84,-393.31 203.84,-393.31 346.64,-393.31 346.64,-393.31 352.64,-393.31 358.64,-399.31 358.64,-405.31 358.64,-405.31 358.64,-424.59 358.64,-424.59 358.64,-430.59 352.64,-436.59 346.64,-436.59"/>
+<text text-anchor="start" x="206.24" y="-415.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0564</text>
 <text text-anchor="start" x="206.24" y="-403.55" font-family="Roboto, sans-serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
 <text text-anchor="start" x="309.74" y="-403.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="12.00"> MSB</text>
 </g>
 <!-- 10 -->
 <g id="node2" class="node">
 <title>10</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M522.89,-356.31C522.89,-356.31 27.59,-356.31 27.59,-356.31 21.59,-356.31 15.59,-350.31 15.59,-344.31 15.59,-344.31 15.59,-332.31 15.59,-332.31 15.59,-326.31 21.59,-320.31 27.59,-320.31 27.59,-320.31 522.89,-320.31 522.89,-320.31 528.89,-320.31 534.89,-326.31 534.89,-332.31 534.89,-332.31 534.89,-344.31 534.89,-344.31 534.89,-350.31 528.89,-356.31 522.89,-356.31"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M522.89,-356.31C522.89,-356.31 27.59,-356.31 27.59,-356.31 21.59,-356.31 15.59,-350.31 15.59,-344.31 15.59,-344.31 15.59,-332.31 15.59,-332.31 15.59,-326.31 21.59,-320.31 27.59,-320.31 27.59,-320.31 522.89,-320.31 522.89,-320.31 528.89,-320.31 534.89,-326.31 534.89,-332.31 534.89,-332.31 534.89,-344.31 534.89,-344.31 534.89,-350.31 528.89,-356.31 522.89,-356.31"/>
 <text text-anchor="start" x="29.99" y="-334.63" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
 <text text-anchor="start" x="59.24" y="-334.63" font-family="Roboto, sans-serif" font-size="14.00">Ist eine Verarbeitung im Backend des MSB grunds&#228;tzlich m&#246;glich?</text>
 </g>
 <!-- Start&#45;&gt;10 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;10</title>
-<path fill="none" stroke="black" d="M275.24,-393.55C275.24,-385.48 275.24,-376.07 275.24,-367.38"/>
-<polygon fill="black" stroke="black" points="278.74,-367.67 275.24,-357.67 271.74,-367.67 278.74,-367.67"/>
+<path fill="none" stroke="#88a0d6" d="M275.24,-393.55C275.24,-385.48 275.24,-376.07 275.24,-367.38"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="278.74,-367.67 275.24,-357.67 271.74,-367.67 278.74,-367.67"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M204.48,-267.06C204.48,-267.06 12,-267.06 12,-267.06 6,-267.06 0,-261.06 0,-255.06 0,-255.06 0,-229.54 0,-229.54 0,-223.54 6,-217.54 12,-217.54 12,-217.54 204.48,-217.54 204.48,-217.54 210.48,-217.54 216.48,-223.54 216.48,-229.54 216.48,-229.54 216.48,-255.06 216.48,-255.06 216.48,-261.06 210.48,-267.06 204.48,-267.06"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M204.48,-267.06C204.48,-267.06 12,-267.06 12,-267.06 6,-267.06 0,-261.06 0,-255.06 0,-255.06 0,-229.54 0,-229.54 0,-223.54 6,-217.54 12,-217.54 12,-217.54 204.48,-217.54 204.48,-217.54 210.48,-217.54 216.48,-223.54 216.48,-229.54 216.48,-229.54 216.48,-255.06 216.48,-255.06 216.48,-261.06 210.48,-267.06 204.48,-267.06"/>
 <text text-anchor="start" x="12.24" y="-249" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
 <text text-anchor="start" x="12.24" y="-236.9" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="12.24" y="-224.9" font-family="Roboto, sans-serif" font-size="12.00">Backend des MSB ist &#252;berlastet.</text>
@@ -50,28 +50,28 @@
 <!-- 10&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>10-&gt;A01</title>
-<path fill="none" stroke="#7aab8a" d="M245.38,-320.5C221.82,-307.24 188.37,-288.41 160.41,-272.67"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="162.13,-269.62 151.7,-267.77 158.7,-275.72 162.13,-269.62"/>
+<path fill="none" stroke="#88a0d6" d="M245.38,-320.5C221.82,-307.24 188.37,-288.41 160.41,-272.67"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="162.13,-269.62 151.7,-267.77 158.7,-275.72 162.13,-269.62"/>
 <text text-anchor="start" x="211.24" y="-290.01" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 20 -->
 <g id="node4" class="node">
 <title>20</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M700.26,-260.3C700.26,-260.3 246.22,-260.3 246.22,-260.3 240.22,-260.3 234.22,-254.3 234.22,-248.3 234.22,-248.3 234.22,-236.3 234.22,-236.3 234.22,-230.3 240.22,-224.3 246.22,-224.3 246.22,-224.3 700.26,-224.3 700.26,-224.3 706.26,-224.3 712.26,-230.3 712.26,-236.3 712.26,-236.3 712.26,-248.3 712.26,-248.3 712.26,-254.3 706.26,-260.3 700.26,-260.3"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M700.26,-260.3C700.26,-260.3 246.22,-260.3 246.22,-260.3 240.22,-260.3 234.22,-254.3 234.22,-248.3 234.22,-248.3 234.22,-236.3 234.22,-236.3 234.22,-230.3 240.22,-224.3 246.22,-224.3 246.22,-224.3 700.26,-224.3 700.26,-224.3 706.26,-224.3 712.26,-230.3 712.26,-236.3 712.26,-236.3 712.26,-248.3 712.26,-248.3 712.26,-254.3 706.26,-260.3 700.26,-260.3"/>
 <text text-anchor="start" x="248.62" y="-238.62" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
 <text text-anchor="start" x="277.87" y="-238.62" font-family="Roboto, sans-serif" font-size="14.00">Ist eine Kommunikationsverbindung zur Steuerbox m&#246;glich?</text>
 </g>
 <!-- 10&#45;&gt;20 -->
 <g id="edge3" class="edge">
 <title>10-&gt;20</title>
-<path fill="none" stroke="#7aab8a" d="M310.64,-320.5C343.24,-305.02 391.79,-281.97 427.36,-265.09"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="428.58,-268.38 436.11,-260.93 425.58,-262.06 428.58,-268.38"/>
+<path fill="none" stroke="#88a0d6" d="M310.64,-320.5C343.24,-305.02 391.79,-281.97 427.36,-265.09"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="428.58,-268.38 436.11,-260.93 425.58,-262.06 428.58,-268.38"/>
 <text text-anchor="start" x="379.24" y="-290.01" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A02 -->
 <g id="node5" class="node">
 <title>A02</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M383.36,-164.29C383.36,-164.29 61.12,-164.29 61.12,-164.29 55.12,-164.29 49.12,-158.29 49.12,-152.29 49.12,-152.29 49.12,-126.77 49.12,-126.77 49.12,-120.77 55.12,-114.77 61.12,-114.77 61.12,-114.77 383.36,-114.77 383.36,-114.77 389.36,-114.77 395.36,-120.77 395.36,-126.77 395.36,-126.77 395.36,-152.29 395.36,-152.29 395.36,-158.29 389.36,-164.29 383.36,-164.29"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M383.36,-164.29C383.36,-164.29 61.12,-164.29 61.12,-164.29 55.12,-164.29 49.12,-158.29 49.12,-152.29 49.12,-152.29 49.12,-126.77 49.12,-126.77 49.12,-120.77 55.12,-114.77 61.12,-114.77 61.12,-114.77 383.36,-114.77 383.36,-114.77 389.36,-114.77 395.36,-120.77 395.36,-126.77 395.36,-126.77 395.36,-152.29 395.36,-152.29 395.36,-158.29 389.36,-164.29 383.36,-164.29"/>
 <text text-anchor="start" x="61.37" y="-146.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
 <text text-anchor="start" x="61.37" y="-134.13" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="61.37" y="-122.13" font-family="Roboto, sans-serif" font-size="12.00">Kommunikationsverbindung zur Steuerbox ist gest&#246;rt.</text>
@@ -79,28 +79,28 @@
 <!-- 20&#45;&gt;A02 -->
 <g id="edge4" class="edge">
 <title>20-&gt;A02</title>
-<path fill="none" stroke="#7aab8a" d="M430.95,-224.32C392.92,-209.05 336.34,-186.34 291.68,-168.41"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="293.18,-165.24 282.59,-164.76 290.57,-171.73 293.18,-165.24"/>
+<path fill="none" stroke="#88a0d6" d="M430.95,-224.32C392.92,-209.05 336.34,-186.34 291.68,-168.41"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="293.18,-165.24 282.59,-164.76 290.57,-171.73 293.18,-165.24"/>
 <text text-anchor="start" x="362.24" y="-187.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 30 -->
 <g id="node6" class="node">
 <title>30</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M856.64,-157.53C856.64,-157.53 425.84,-157.53 425.84,-157.53 419.84,-157.53 413.84,-151.53 413.84,-145.53 413.84,-145.53 413.84,-133.53 413.84,-133.53 413.84,-127.53 419.84,-121.53 425.84,-121.53 425.84,-121.53 856.64,-121.53 856.64,-121.53 862.64,-121.53 868.64,-127.53 868.64,-133.53 868.64,-133.53 868.64,-145.53 868.64,-145.53 868.64,-151.53 862.64,-157.53 856.64,-157.53"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M856.64,-157.53C856.64,-157.53 425.84,-157.53 425.84,-157.53 419.84,-157.53 413.84,-151.53 413.84,-145.53 413.84,-145.53 413.84,-133.53 413.84,-133.53 413.84,-127.53 419.84,-121.53 425.84,-121.53 425.84,-121.53 856.64,-121.53 856.64,-121.53 862.64,-121.53 868.64,-127.53 868.64,-133.53 868.64,-133.53 868.64,-145.53 868.64,-145.53 868.64,-151.53 862.64,-157.53 856.64,-157.53"/>
 <text text-anchor="start" x="428.24" y="-135.85" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
 <text text-anchor="start" x="457.49" y="-135.85" font-family="Roboto, sans-serif" font-size="14.00">Ist es prozessual m&#246;glich den Steuerbefehl umzusetzen?</text>
 </g>
 <!-- 20&#45;&gt;30 -->
 <g id="edge5" class="edge">
 <title>20-&gt;30</title>
-<path fill="none" stroke="#7aab8a" d="M501.36,-224.43C529.34,-207.65 572.47,-181.78 603.44,-163.21"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="604.96,-166.38 611.73,-158.23 601.35,-160.37 604.96,-166.38"/>
+<path fill="none" stroke="#88a0d6" d="M501.36,-224.43C529.34,-207.65 572.47,-181.78 603.44,-163.21"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="604.96,-166.38 611.73,-158.23 601.35,-160.37 604.96,-166.38"/>
 <text text-anchor="start" x="567.24" y="-187.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A03 -->
 <g id="node7" class="node">
 <title>A03</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M486.48,-61.52C486.48,-61.52 54,-61.52 54,-61.52 48,-61.52 42,-55.52 42,-49.52 42,-49.52 42,-12 42,-12 42,-6 48,0 54,0 54,0 486.48,0 486.48,0 492.48,0 498.48,-6 498.48,-12 498.48,-12 498.48,-49.52 498.48,-49.52 498.48,-55.52 492.48,-61.52 486.48,-61.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M486.48,-61.52C486.48,-61.52 54,-61.52 54,-61.52 48,-61.52 42,-55.52 42,-49.52 42,-49.52 42,-12 42,-12 42,-6 48,0 54,0 54,0 486.48,0 486.48,0 492.48,0 498.48,-6 498.48,-12 498.48,-12 498.48,-49.52 498.48,-49.52 498.48,-55.52 492.48,-61.52 486.48,-61.52"/>
 <text text-anchor="start" x="54.24" y="-43.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
 <text text-anchor="start" x="54.24" y="-31.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="54.24" y="-19.36" font-family="Roboto, sans-serif" font-size="12.00">Prozessual ist es derzeit nicht m&#246;glich die Anforderung umzusetzen (z.B.</text>
@@ -109,14 +109,14 @@
 <!-- 30&#45;&gt;A03 -->
 <g id="edge6" class="edge">
 <title>30-&gt;A03</title>
-<path fill="none" stroke="#7aab8a" d="M582.45,-121.61C529.42,-106.35 449.92,-83.47 384.42,-64.62"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="385.65,-61.33 375.07,-61.93 383.72,-68.06 385.65,-61.33"/>
+<path fill="none" stroke="#88a0d6" d="M582.45,-121.61C529.42,-106.35 449.92,-83.47 384.42,-64.62"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="385.65,-61.33 375.07,-61.93 383.72,-68.06 385.65,-61.33"/>
 <text text-anchor="start" x="488.24" y="-84.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A04 -->
 <g id="node8" class="node">
 <title>A04</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M866.23,-55.52C866.23,-55.52 528.25,-55.52 528.25,-55.52 522.25,-55.52 516.25,-49.52 516.25,-43.52 516.25,-43.52 516.25,-18 516.25,-18 516.25,-12 522.25,-6 528.25,-6 528.25,-6 866.23,-6 866.23,-6 872.23,-6 878.23,-12 878.23,-18 878.23,-18 878.23,-43.52 878.23,-43.52 878.23,-49.52 872.23,-55.52 866.23,-55.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M866.23,-55.52C866.23,-55.52 528.25,-55.52 528.25,-55.52 522.25,-55.52 516.25,-49.52 516.25,-43.52 516.25,-43.52 516.25,-18 516.25,-18 516.25,-12 522.25,-6 528.25,-6 528.25,-6 866.23,-6 866.23,-6 872.23,-6 878.23,-12 878.23,-18 878.23,-18 878.23,-43.52 878.23,-43.52 878.23,-49.52 872.23,-55.52 866.23,-55.52"/>
 <text text-anchor="start" x="528.49" y="-37.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
 <text text-anchor="start" x="528.49" y="-25.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="528.49" y="-13.36" font-family="Roboto, sans-serif" font-size="12.00">Der Steuerbefehl kann grunds&#228;tzlich umgesetzt werden.</text>
@@ -124,8 +124,8 @@
 <!-- 30&#45;&gt;A04 -->
 <g id="edge7" class="edge">
 <title>30-&gt;A04</title>
-<path fill="none" stroke="#7aab8a" d="M649.99,-121.85C657.88,-106.8 669.72,-84.22 679.58,-65.43"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="682.56,-67.28 684.11,-56.8 676.36,-64.03 682.56,-67.28"/>
+<path fill="none" stroke="#88a0d6" d="M649.99,-121.85C657.88,-106.8 669.72,-84.22 679.58,-65.43"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="682.56,-67.28 684.11,-56.8 676.36,-64.03 682.56,-67.28"/>
 <text text-anchor="start" x="670.24" y="-84.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 </g>

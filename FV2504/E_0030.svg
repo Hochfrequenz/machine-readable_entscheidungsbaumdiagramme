@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1182.6666666666667px" viewBox="0 0 1182.6666666666667 433.3333333333333" height="433.3333333333333px">
   <g>
     <svg version="1.1" width="1182.6666666666667px" viewBox="0 0 1182.6666666666667 433.3333333333333" height="433.3333333333333px">
-  <polygon fill="#c2cee9" points="0,0 1182.6666666666667,0 1182.6666666666667,433.3333333333333 0,433.3333333333333"/><g>
+  <rect fill="#e7e6e5" x="0" y="0" width="1182.6666666666667" height="433.3333333333333" rx="20" ry="20"/><g>
     <g transform="translate(414.6197315310242, 43.33333333333332) scale(1 1) translate(0, 0) scale(0.6101567633530461 0.6101567633530461) "><!-- note that I manually added the width and height attribute to the root node
   https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
   -->
@@ -21,28 +21,28 @@
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M512.15,-219.05C512.15,-219.05 366.35,-219.05 366.35,-219.05 360.35,-219.05 354.35,-213.05 354.35,-207.05 354.35,-207.05 354.35,-187.77 354.35,-187.77 354.35,-181.77 360.35,-175.77 366.35,-175.77 366.35,-175.77 512.15,-175.77 512.15,-175.77 518.15,-175.77 524.15,-181.77 524.15,-187.77 524.15,-187.77 524.15,-207.05 524.15,-207.05 524.15,-213.05 518.15,-219.05 512.15,-219.05"/>
-<text text-anchor="start" x="411.5" y="-198.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0030</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M512.15,-219.05C512.15,-219.05 366.35,-219.05 366.35,-219.05 360.35,-219.05 354.35,-213.05 354.35,-207.05 354.35,-207.05 354.35,-187.77 354.35,-187.77 354.35,-181.77 360.35,-175.77 366.35,-175.77 366.35,-175.77 512.15,-175.77 512.15,-175.77 518.15,-175.77 524.15,-181.77 524.15,-187.77 524.15,-187.77 524.15,-207.05 524.15,-207.05 524.15,-213.05 518.15,-219.05 512.15,-219.05"/>
+<text text-anchor="start" x="368.75" y="-198.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0030</text>
 <text text-anchor="start" x="368.75" y="-186.01" font-family="Roboto, sans-serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
 <text text-anchor="start" x="472.25" y="-186.01" font-family="Roboto, sans-serif" font-weight="bold" font-size="12.00"> BIKO</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M719.52,-138.77C719.52,-138.77 158.98,-138.77 158.98,-138.77 152.98,-138.77 146.98,-132.77 146.98,-126.77 146.98,-126.77 146.98,-114.77 146.98,-114.77 146.98,-108.77 152.98,-102.77 158.98,-102.77 158.98,-102.77 719.52,-102.77 719.52,-102.77 725.52,-102.77 731.52,-108.77 731.52,-114.77 731.52,-114.77 731.52,-126.77 731.52,-126.77 731.52,-132.77 725.52,-138.77 719.52,-138.77"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M719.52,-138.77C719.52,-138.77 158.98,-138.77 158.98,-138.77 152.98,-138.77 146.98,-132.77 146.98,-126.77 146.98,-126.77 146.98,-114.77 146.98,-114.77 146.98,-108.77 152.98,-102.77 158.98,-102.77 158.98,-102.77 719.52,-102.77 719.52,-102.77 725.52,-102.77 731.52,-108.77 731.52,-114.77 731.52,-114.77 731.52,-126.77 731.52,-126.77 731.52,-132.77 725.52,-138.77 719.52,-138.77"/>
 <text text-anchor="start" x="161.38" y="-117.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
 <text text-anchor="start" x="180.88" y="-117.09" font-family="Roboto, sans-serif" font-size="14.00">Erfolgt der Eingang der Pr&#252;fmitteilung innerhalb der Clearingphase f&#252;r DZ&#220;?</text>
 </g>
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M439.25,-176.01C439.25,-167.94 439.25,-158.53 439.25,-149.84"/>
-<polygon fill="black" stroke="black" points="442.75,-150.13 439.25,-140.13 435.75,-150.13 442.75,-150.13"/>
+<path fill="none" stroke="#88a0d6" d="M439.25,-176.01C439.25,-167.94 439.25,-158.53 439.25,-149.84"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="442.75,-150.13 439.25,-140.13 435.75,-150.13 442.75,-150.13"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M485.87,-49.52C485.87,-49.52 172.63,-49.52 172.63,-49.52 166.63,-49.52 160.63,-43.52 160.63,-37.52 160.63,-37.52 160.63,-12 160.63,-12 160.63,-6 166.63,0 172.63,0 172.63,0 485.87,0 485.87,0 491.87,0 497.87,-6 497.87,-12 497.87,-12 497.87,-37.52 497.87,-37.52 497.87,-43.52 491.87,-49.52 485.87,-49.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M485.87,-49.52C485.87,-49.52 172.63,-49.52 172.63,-49.52 166.63,-49.52 160.63,-43.52 160.63,-37.52 160.63,-37.52 160.63,-12 160.63,-12 160.63,-6 166.63,0 172.63,0 172.63,0 485.87,0 485.87,0 491.87,0 497.87,-6 497.87,-12 497.87,-12 497.87,-37.52 497.87,-37.52 497.87,-43.52 491.87,-49.52 485.87,-49.52"/>
 <text text-anchor="start" x="172.88" y="-31.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
 <text text-anchor="start" x="172.88" y="-19.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="172.88" y="-7.36" font-family="Roboto, sans-serif" font-size="12.00">Eingang liegt nicht innerhalb der Clearingphase DZ&#220;</text>
@@ -50,21 +50,21 @@
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="#7aab8a" d="M419.58,-102.96C404.61,-90.16 383.57,-72.18 365.57,-56.8"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="368.04,-54.3 358.16,-50.47 363.49,-59.63 368.04,-54.3"/>
+<path fill="none" stroke="#88a0d6" d="M419.58,-102.96C404.61,-90.16 383.57,-72.18 365.57,-56.8"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="368.04,-54.3 358.16,-50.47 363.49,-59.63 368.04,-54.3"/>
 <text text-anchor="start" x="397.25" y="-72.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- Ende -->
 <g id="node4" class="node">
 <title>Ende</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M568.27,-42.76C568.27,-42.76 528.23,-42.76 528.23,-42.76 522.23,-42.76 516.23,-36.76 516.23,-30.76 516.23,-30.76 516.23,-18.76 516.23,-18.76 516.23,-12.76 522.23,-6.76 528.23,-6.76 528.23,-6.76 568.27,-6.76 568.27,-6.76 574.27,-6.76 580.27,-12.76 580.27,-18.76 580.27,-18.76 580.27,-30.76 580.27,-30.76 580.27,-36.76 574.27,-42.76 568.27,-42.76"/>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M568.27,-42.76C568.27,-42.76 528.23,-42.76 528.23,-42.76 522.23,-42.76 516.23,-36.76 516.23,-30.76 516.23,-30.76 516.23,-18.76 516.23,-18.76 516.23,-12.76 522.23,-6.76 528.23,-6.76 528.23,-6.76 568.27,-6.76 568.27,-6.76 574.27,-6.76 580.27,-12.76 580.27,-18.76 580.27,-18.76 580.27,-30.76 580.27,-30.76 580.27,-36.76 574.27,-42.76 568.27,-42.76"/>
 <text text-anchor="middle" x="548.25" y="-20.08" font-family="Roboto, sans-serif" font-size="14.00">Ende</text>
 </g>
 <!-- 1&#45;&gt;Ende -->
 <g id="edge3" class="edge">
 <title>1-&gt;Ende</title>
-<path fill="none" stroke="#7aab8a" d="M458.74,-102.96C475.76,-88.28 500.68,-66.79 519.91,-50.2"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="522.13,-52.91 527.42,-43.73 517.56,-47.61 522.13,-52.91"/>
+<path fill="none" stroke="#88a0d6" d="M458.74,-102.96C475.76,-88.28 500.68,-66.79 519.91,-50.2"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="522.13,-52.91 527.42,-43.73 517.56,-47.61 522.13,-52.91"/>
 <text text-anchor="start" x="496.25" y="-72.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 </g>

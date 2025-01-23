@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1920.0px" viewBox="0 0 1920.0 520.0" height="520.0px">
   <g>
     <svg version="1.1" width="1920.0px" viewBox="0 0 1920.0 520.0" height="520.0px">
-  <polygon fill="#c2cee9" points="0,0 1920.0,0 1920.0,520.0 0,520.0"/><g>
+  <rect fill="#e7e6e5" x="0" y="0" width="1920.0" height="520.0" rx="20" ry="20"/><g>
     <g transform="translate(747.943677837229, 51.999999999999986) scale(1 1) translate(0, 0) scale(0.7321881160236553 0.7321881160236553) "><!-- note that I manually added the width and height attribute to the root node
   https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
   -->
@@ -21,15 +21,15 @@
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M1316.89,-595.63C1316.89,-595.63 1185.34,-595.63 1185.34,-595.63 1179.34,-595.63 1173.34,-589.63 1173.34,-583.63 1173.34,-583.63 1173.34,-564.35 1173.34,-564.35 1173.34,-558.35 1179.34,-552.35 1185.34,-552.35 1185.34,-552.35 1316.89,-552.35 1316.89,-552.35 1322.89,-552.35 1328.89,-558.35 1328.89,-564.35 1328.89,-564.35 1328.89,-583.63 1328.89,-583.63 1328.89,-589.63 1322.89,-595.63 1316.89,-595.63"/>
-<text text-anchor="start" x="1223.37" y="-574.69" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0613</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M1316.89,-595.63C1316.89,-595.63 1185.34,-595.63 1185.34,-595.63 1179.34,-595.63 1173.34,-589.63 1173.34,-583.63 1173.34,-583.63 1173.34,-564.35 1173.34,-564.35 1173.34,-558.35 1179.34,-552.35 1185.34,-552.35 1185.34,-552.35 1316.89,-552.35 1316.89,-552.35 1322.89,-552.35 1328.89,-558.35 1328.89,-564.35 1328.89,-564.35 1328.89,-583.63 1328.89,-583.63 1328.89,-589.63 1322.89,-595.63 1316.89,-595.63"/>
+<text text-anchor="start" x="1187.74" y="-574.69" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0613</text>
 <text text-anchor="start" x="1187.74" y="-562.59" font-family="Roboto, sans-serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
 <text text-anchor="start" x="1291.24" y="-562.59" font-family="Roboto, sans-serif" font-weight="bold" font-size="12.00"> NB</text>
 </g>
 <!-- 10 -->
 <g id="node2" class="node">
 <title>10</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1694.51,-515.35C1694.51,-515.35 807.72,-515.35 807.72,-515.35 801.72,-515.35 795.72,-509.35 795.72,-503.35 795.72,-503.35 795.72,-426.07 795.72,-426.07 795.72,-420.07 801.72,-414.07 807.72,-414.07 807.72,-414.07 1694.51,-414.07 1694.51,-414.07 1700.51,-414.07 1706.51,-420.07 1706.51,-426.07 1706.51,-426.07 1706.51,-503.35 1706.51,-503.35 1706.51,-509.35 1700.51,-515.35 1694.51,-515.35"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1694.51,-515.35C1694.51,-515.35 807.72,-515.35 807.72,-515.35 801.72,-515.35 795.72,-509.35 795.72,-503.35 795.72,-503.35 795.72,-426.07 795.72,-426.07 795.72,-420.07 801.72,-414.07 807.72,-414.07 807.72,-414.07 1694.51,-414.07 1694.51,-414.07 1700.51,-414.07 1706.51,-420.07 1706.51,-426.07 1706.51,-426.07 1706.51,-503.35 1706.51,-503.35 1706.51,-509.35 1700.51,-515.35 1694.51,-515.35"/>
 <text text-anchor="start" x="810.12" y="-494.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
 <text text-anchor="start" x="839.37" y="-494.41" font-family="Roboto, sans-serif" font-size="14.00">Stimmen alle Stammdaten f&#252;r Verwendungszeitr&#228;ume, welche mit &#8222;Im System</text>
 <text text-anchor="start" x="810.12" y="-480.41" font-family="Roboto, sans-serif" font-size="14.00">vorhandene Daten&#8220; gekennzeichnet sind, sowie Verwendungszeitr&#228;ume welche mit</text>
@@ -41,13 +41,13 @@
 <!-- Start&#45;&gt;10 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;10</title>
-<path fill="none" stroke="black" d="M1251.12,-552.56C1251.12,-544.95 1251.12,-535.88 1251.12,-526.5"/>
-<polygon fill="black" stroke="black" points="1254.62,-526.52 1251.12,-516.52 1247.62,-526.52 1254.62,-526.52"/>
+<path fill="none" stroke="#88a0d6" d="M1251.12,-552.56C1251.12,-544.95 1251.12,-535.88 1251.12,-526.5"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1254.62,-526.52 1251.12,-516.52 1247.62,-526.52 1254.62,-526.52"/>
 </g>
 <!-- 20 -->
 <g id="node3" class="node">
 <title>20</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1235.64,-353.82C1235.64,-353.82 616.59,-353.82 616.59,-353.82 610.59,-353.82 604.59,-347.82 604.59,-341.82 604.59,-341.82 604.59,-320.54 604.59,-320.54 604.59,-314.54 610.59,-308.54 616.59,-308.54 616.59,-308.54 1235.64,-308.54 1235.64,-308.54 1241.64,-308.54 1247.64,-314.54 1247.64,-320.54 1247.64,-320.54 1247.64,-341.82 1247.64,-341.82 1247.64,-347.82 1241.64,-353.82 1235.64,-353.82"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1235.64,-353.82C1235.64,-353.82 616.59,-353.82 616.59,-353.82 610.59,-353.82 604.59,-347.82 604.59,-341.82 604.59,-341.82 604.59,-320.54 604.59,-320.54 604.59,-314.54 610.59,-308.54 616.59,-308.54 616.59,-308.54 1235.64,-308.54 1235.64,-308.54 1241.64,-308.54 1247.64,-314.54 1247.64,-320.54 1247.64,-320.54 1247.64,-341.82 1247.64,-341.82 1247.64,-347.82 1241.64,-353.82 1235.64,-353.82"/>
 <text text-anchor="start" x="618.99" y="-332.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
 <text text-anchor="start" x="648.24" y="-332.88" font-family="Roboto, sans-serif" font-size="14.00">Sind in der Bestellung der Stammdaten&#228;nderung Verwendungszeitr&#228;ume der Daten</text>
 <text text-anchor="start" x="618.99" y="-318.88" font-family="Roboto, sans-serif" font-size="14.00">mit dem Code &#8222;Erwartete Daten&#8220; und / oder &#8222;Keine Daten erwartet&#8220; enthalten?</text>
@@ -55,14 +55,14 @@
 <!-- 10&#45;&gt;20 -->
 <g id="edge2" class="edge">
 <title>10-&gt;20</title>
-<path fill="none" stroke="#7aab8a" d="M1128.71,-414.17C1081.4,-395.03 1029.26,-373.93 989.73,-357.92"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="991.17,-354.73 980.59,-354.23 988.54,-361.22 991.17,-354.73"/>
+<path fill="none" stroke="#88a0d6" d="M1128.71,-414.17C1081.4,-395.03 1029.26,-373.93 989.73,-357.92"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="991.17,-354.73 980.59,-354.23 988.54,-361.22 991.17,-354.73"/>
 <text text-anchor="start" x="1078.12" y="-383.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 40 -->
 <g id="node8" class="node">
 <title>40</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1878.64,-360.82C1878.64,-360.82 1277.59,-360.82 1277.59,-360.82 1271.59,-360.82 1265.59,-354.82 1265.59,-348.82 1265.59,-348.82 1265.59,-313.54 1265.59,-313.54 1265.59,-307.54 1271.59,-301.54 1277.59,-301.54 1277.59,-301.54 1878.64,-301.54 1878.64,-301.54 1884.64,-301.54 1890.64,-307.54 1890.64,-313.54 1890.64,-313.54 1890.64,-348.82 1890.64,-348.82 1890.64,-354.82 1884.64,-360.82 1878.64,-360.82"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1878.64,-360.82C1878.64,-360.82 1277.59,-360.82 1277.59,-360.82 1271.59,-360.82 1265.59,-354.82 1265.59,-348.82 1265.59,-348.82 1265.59,-313.54 1265.59,-313.54 1265.59,-307.54 1271.59,-301.54 1277.59,-301.54 1277.59,-301.54 1878.64,-301.54 1878.64,-301.54 1884.64,-301.54 1890.64,-307.54 1890.64,-313.54 1890.64,-313.54 1890.64,-348.82 1890.64,-348.82 1890.64,-354.82 1884.64,-360.82 1878.64,-360.82"/>
 <text text-anchor="start" x="1279.99" y="-339.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
 <text text-anchor="start" x="1309.24" y="-339.88" font-family="Roboto, sans-serif" font-size="14.00">Sind in der Bestellung der Stammdaten&#228;nderung der Stammdaten&#228;nderung</text>
 <text text-anchor="start" x="1279.99" y="-325.88" font-family="Roboto, sans-serif" font-size="14.00">Verwendungszeitr&#228;ume der Daten mit dem Code &#8222;Erwartete Daten&#8220; und / oder &#8222;Keine</text>
@@ -71,14 +71,14 @@
 <!-- 10&#45;&gt;40 -->
 <g id="edge3" class="edge">
 <title>10-&gt;40</title>
-<path fill="none" stroke="#7aab8a" d="M1374.27,-414.17C1415.31,-397.66 1459.97,-379.7 1497,-364.81"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1497.85,-368.24 1505.83,-361.26 1495.24,-361.74 1497.85,-368.24"/>
+<path fill="none" stroke="#88a0d6" d="M1374.27,-414.17C1415.31,-397.66 1459.97,-379.7 1497,-364.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1497.85,-368.24 1505.83,-361.26 1495.24,-361.74 1497.85,-368.24"/>
 <text text-anchor="start" x="1453.12" y="-383.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A01 -->
 <g id="node4" class="node">
 <title>A01</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M610.23,-248.29C610.23,-248.29 18,-248.29 18,-248.29 12,-248.29 6,-242.29 6,-236.29 6,-236.29 6,-162.77 6,-162.77 6,-156.77 12,-150.77 18,-150.77 18,-150.77 610.23,-150.77 610.23,-150.77 616.23,-150.77 622.23,-156.77 622.23,-162.77 622.23,-162.77 622.23,-236.29 622.23,-236.29 622.23,-242.29 616.23,-248.29 610.23,-248.29"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M610.23,-248.29C610.23,-248.29 18,-248.29 18,-248.29 12,-248.29 6,-242.29 6,-236.29 6,-236.29 6,-162.77 6,-162.77 6,-156.77 12,-150.77 18,-150.77 18,-150.77 610.23,-150.77 610.23,-150.77 616.23,-150.77 622.23,-156.77 622.23,-162.77 622.23,-162.77 622.23,-236.29 622.23,-236.29 622.23,-242.29 616.23,-248.29 610.23,-248.29"/>
 <text text-anchor="start" x="18.24" y="-230.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
 <text text-anchor="start" x="18.24" y="-218.13" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="18.24" y="-206.13" font-family="Roboto, sans-serif" font-size="12.00">Cluster: keine &#196;nderung der Daten</text>
@@ -90,14 +90,14 @@
 <!-- 20&#45;&gt;A01 -->
 <g id="edge4" class="edge">
 <title>20-&gt;A01</title>
-<path fill="none" stroke="#7aab8a" d="M824.02,-308.55C749.52,-292.77 645.42,-270.72 550.69,-250.65"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="551.47,-247.24 540.96,-248.59 550.02,-254.08 551.47,-247.24"/>
+<path fill="none" stroke="#88a0d6" d="M824.02,-308.55C749.52,-292.77 645.42,-270.72 550.69,-250.65"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="551.47,-247.24 540.96,-248.59 550.02,-254.08 551.47,-247.24"/>
 <text text-anchor="start" x="692.12" y="-271.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 30 -->
 <g id="node5" class="node">
 <title>30</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1219.76,-222.17C1219.76,-222.17 652.47,-222.17 652.47,-222.17 646.47,-222.17 640.47,-216.17 640.47,-210.17 640.47,-210.17 640.47,-188.89 640.47,-188.89 640.47,-182.89 646.47,-176.89 652.47,-176.89 652.47,-176.89 1219.76,-176.89 1219.76,-176.89 1225.76,-176.89 1231.76,-182.89 1231.76,-188.89 1231.76,-188.89 1231.76,-210.17 1231.76,-210.17 1231.76,-216.17 1225.76,-222.17 1219.76,-222.17"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1219.76,-222.17C1219.76,-222.17 652.47,-222.17 652.47,-222.17 646.47,-222.17 640.47,-216.17 640.47,-210.17 640.47,-210.17 640.47,-188.89 640.47,-188.89 640.47,-182.89 646.47,-176.89 652.47,-176.89 652.47,-176.89 1219.76,-176.89 1219.76,-176.89 1225.76,-176.89 1231.76,-182.89 1231.76,-188.89 1231.76,-188.89 1231.76,-210.17 1231.76,-210.17 1231.76,-216.17 1225.76,-222.17 1219.76,-222.17"/>
 <text text-anchor="start" x="654.87" y="-201.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
 <text text-anchor="start" x="684.12" y="-201.23" font-family="Roboto, sans-serif" font-size="14.00">Kommt der Verantwortliche zu dem Ergebnis, dass er &#196;nderungen an seinen</text>
 <text text-anchor="start" x="654.87" y="-187.23" font-family="Roboto, sans-serif" font-size="14.00">Stammdaten vornimmt?</text>
@@ -105,14 +105,14 @@
 <!-- 20&#45;&gt;30 -->
 <g id="edge5" class="edge">
 <title>20-&gt;30</title>
-<path fill="none" stroke="#7aab8a" d="M927.77,-308.77C929.35,-288.22 931.77,-256.9 933.59,-233.23"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="937.07,-233.72 934.34,-223.48 930.09,-233.18 937.07,-233.72"/>
+<path fill="none" stroke="#88a0d6" d="M927.77,-308.77C929.35,-288.22 931.77,-256.9 933.59,-233.23"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="937.07,-233.72 934.34,-223.48 930.09,-233.18 937.07,-233.72"/>
 <text text-anchor="start" x="930.12" y="-271.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A02 -->
 <g id="node6" class="node">
 <title>A02</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M604.23,-97.52C604.23,-97.52 12,-97.52 12,-97.52 6,-97.52 0,-91.52 0,-85.52 0,-85.52 0,-12 0,-12 0,-6 6,0 12,0 12,0 604.23,0 604.23,0 610.23,0 616.23,-6 616.23,-12 616.23,-12 616.23,-85.52 616.23,-85.52 616.23,-91.52 610.23,-97.52 604.23,-97.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M604.23,-97.52C604.23,-97.52 12,-97.52 12,-97.52 6,-97.52 0,-91.52 0,-85.52 0,-85.52 0,-12 0,-12 0,-6 6,0 12,0 12,0 604.23,0 604.23,0 610.23,0 616.23,-6 616.23,-12 616.23,-12 616.23,-85.52 616.23,-85.52 616.23,-91.52 610.23,-97.52 604.23,-97.52"/>
 <text text-anchor="start" x="12.24" y="-79.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
 <text text-anchor="start" x="12.24" y="-67.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="12.24" y="-55.36" font-family="Roboto, sans-serif" font-size="12.00">Cluster: &#196;nderung der Daten</text>
@@ -124,14 +124,14 @@
 <!-- 30&#45;&gt;A02 -->
 <g id="edge6" class="edge">
 <title>30-&gt;A02</title>
-<path fill="none" stroke="#7aab8a" d="M844.8,-176.9C760.11,-156.83 630.88,-126.22 520.46,-100.06"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="521.51,-96.71 510.97,-97.82 519.89,-103.53 521.51,-96.71"/>
+<path fill="none" stroke="#88a0d6" d="M844.8,-176.9C760.11,-156.83 630.88,-126.22 520.46,-100.06"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="521.51,-96.71 510.97,-97.82 519.89,-103.53 521.51,-96.71"/>
 <text text-anchor="start" x="640.12" y="-120.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A03 -->
 <g id="node7" class="node">
 <title>A03</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M1238.23,-97.52C1238.23,-97.52 646,-97.52 646,-97.52 640,-97.52 634,-91.52 634,-85.52 634,-85.52 634,-12 634,-12 634,-6 640,0 646,0 646,0 1238.23,0 1238.23,0 1244.23,0 1250.23,-6 1250.23,-12 1250.23,-12 1250.23,-85.52 1250.23,-85.52 1250.23,-91.52 1244.23,-97.52 1238.23,-97.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1238.23,-97.52C1238.23,-97.52 646,-97.52 646,-97.52 640,-97.52 634,-91.52 634,-85.52 634,-85.52 634,-12 634,-12 634,-6 640,0 646,0 646,0 1238.23,0 1238.23,0 1244.23,0 1250.23,-6 1250.23,-12 1250.23,-12 1250.23,-85.52 1250.23,-85.52 1250.23,-91.52 1244.23,-97.52 1238.23,-97.52"/>
 <text text-anchor="start" x="646.24" y="-79.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
 <text text-anchor="start" x="646.24" y="-67.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="646.24" y="-55.36" font-family="Roboto, sans-serif" font-size="12.00">Cluster: keine &#196;nderung der Daten</text>
@@ -143,14 +143,14 @@
 <!-- 30&#45;&gt;A03 -->
 <g id="edge7" class="edge">
 <title>30-&gt;A03</title>
-<path fill="none" stroke="#7aab8a" d="M936.99,-176.9C937.71,-158.95 938.78,-132.56 939.75,-108.46"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="943.23,-108.88 940.14,-98.75 936.24,-108.6 943.23,-108.88"/>
+<path fill="none" stroke="#88a0d6" d="M936.99,-176.9C937.71,-158.95 938.78,-132.56 939.75,-108.46"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="943.23,-108.88 940.14,-98.75 936.24,-108.6 943.23,-108.88"/>
 <text text-anchor="start" x="939.12" y="-120.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A04 -->
 <g id="node9" class="node">
 <title>A04</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M1888.73,-248.29C1888.73,-248.29 1263.5,-248.29 1263.5,-248.29 1257.5,-248.29 1251.5,-242.29 1251.5,-236.29 1251.5,-236.29 1251.5,-162.77 1251.5,-162.77 1251.5,-156.77 1257.5,-150.77 1263.5,-150.77 1263.5,-150.77 1888.73,-150.77 1888.73,-150.77 1894.73,-150.77 1900.73,-156.77 1900.73,-162.77 1900.73,-162.77 1900.73,-236.29 1900.73,-236.29 1900.73,-242.29 1894.73,-248.29 1888.73,-248.29"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1888.73,-248.29C1888.73,-248.29 1263.5,-248.29 1263.5,-248.29 1257.5,-248.29 1251.5,-242.29 1251.5,-236.29 1251.5,-236.29 1251.5,-162.77 1251.5,-162.77 1251.5,-156.77 1257.5,-150.77 1263.5,-150.77 1263.5,-150.77 1888.73,-150.77 1888.73,-150.77 1894.73,-150.77 1900.73,-156.77 1900.73,-162.77 1900.73,-162.77 1900.73,-236.29 1900.73,-236.29 1900.73,-242.29 1894.73,-248.29 1888.73,-248.29"/>
 <text text-anchor="start" x="1263.74" y="-230.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
 <text text-anchor="start" x="1263.74" y="-218.13" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="1263.74" y="-206.13" font-family="Roboto, sans-serif" font-size="12.00">Cluster: &#196;nderung der Daten</text>
@@ -162,14 +162,14 @@
 <!-- 40&#45;&gt;A04 -->
 <g id="edge8" class="edge">
 <title>40-&gt;A04</title>
-<path fill="none" stroke="#7aab8a" d="M1577.68,-301.73C1577.48,-289.25 1577.25,-274.12 1577.02,-259.41"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1580.53,-259.74 1576.87,-249.8 1573.53,-259.85 1580.53,-259.74"/>
+<path fill="none" stroke="#88a0d6" d="M1577.68,-301.73C1577.48,-289.25 1577.25,-274.12 1577.02,-259.41"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1580.53,-259.74 1576.87,-249.8 1573.53,-259.85 1580.53,-259.74"/>
 <text text-anchor="start" x="1577.12" y="-271.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 50 -->
 <g id="node10" class="node">
 <title>50</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M2497.76,-222.17C2497.76,-222.17 1930.46,-222.17 1930.46,-222.17 1924.46,-222.17 1918.46,-216.17 1918.46,-210.17 1918.46,-210.17 1918.46,-188.89 1918.46,-188.89 1918.46,-182.89 1924.46,-176.89 1930.46,-176.89 1930.46,-176.89 2497.76,-176.89 2497.76,-176.89 2503.76,-176.89 2509.76,-182.89 2509.76,-188.89 2509.76,-188.89 2509.76,-210.17 2509.76,-210.17 2509.76,-216.17 2503.76,-222.17 2497.76,-222.17"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2497.76,-222.17C2497.76,-222.17 1930.46,-222.17 1930.46,-222.17 1924.46,-222.17 1918.46,-216.17 1918.46,-210.17 1918.46,-210.17 1918.46,-188.89 1918.46,-188.89 1918.46,-182.89 1924.46,-176.89 1930.46,-176.89 1930.46,-176.89 2497.76,-176.89 2497.76,-176.89 2503.76,-176.89 2509.76,-182.89 2509.76,-188.89 2509.76,-188.89 2509.76,-210.17 2509.76,-210.17 2509.76,-216.17 2503.76,-222.17 2497.76,-222.17"/>
 <text text-anchor="start" x="1932.86" y="-201.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
 <text text-anchor="start" x="1962.11" y="-201.23" font-family="Roboto, sans-serif" font-size="14.00">Kommt der Verantwortliche zu dem Ergebnis, dass er &#196;nderungen an seinen</text>
 <text text-anchor="start" x="1932.86" y="-187.23" font-family="Roboto, sans-serif" font-size="14.00">Stammdaten vornimmt?</text>
@@ -177,14 +177,14 @@
 <!-- 40&#45;&gt;50 -->
 <g id="edge9" class="edge">
 <title>40-&gt;50</title>
-<path fill="none" stroke="#7aab8a" d="M1718.48,-301.57C1832.06,-278.41 1990.17,-246.18 2097.03,-224.4"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="2097.59,-227.86 2106.69,-222.43 2096.19,-221 2097.59,-227.86"/>
+<path fill="none" stroke="#88a0d6" d="M1718.48,-301.57C1832.06,-278.41 1990.17,-246.18 2097.03,-224.4"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2097.59,-227.86 2106.69,-222.43 2096.19,-221 2097.59,-227.86"/>
 <text text-anchor="start" x="1876.12" y="-271.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A05 -->
 <g id="node11" class="node">
 <title>A05</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M1905.73,-97.52C1905.73,-97.52 1280.5,-97.52 1280.5,-97.52 1274.5,-97.52 1268.5,-91.52 1268.5,-85.52 1268.5,-85.52 1268.5,-12 1268.5,-12 1268.5,-6 1274.5,0 1280.5,0 1280.5,0 1905.73,0 1905.73,0 1911.73,0 1917.73,-6 1917.73,-12 1917.73,-12 1917.73,-85.52 1917.73,-85.52 1917.73,-91.52 1911.73,-97.52 1905.73,-97.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1905.73,-97.52C1905.73,-97.52 1280.5,-97.52 1280.5,-97.52 1274.5,-97.52 1268.5,-91.52 1268.5,-85.52 1268.5,-85.52 1268.5,-12 1268.5,-12 1268.5,-6 1274.5,0 1280.5,0 1280.5,0 1905.73,0 1905.73,0 1911.73,0 1917.73,-6 1917.73,-12 1917.73,-12 1917.73,-85.52 1917.73,-85.52 1917.73,-91.52 1911.73,-97.52 1905.73,-97.52"/>
 <text text-anchor="start" x="1280.74" y="-79.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
 <text text-anchor="start" x="1280.74" y="-67.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="1280.74" y="-55.36" font-family="Roboto, sans-serif" font-size="12.00">Cluster: &#196;nderung der Daten</text>
@@ -196,14 +196,14 @@
 <!-- 50&#45;&gt;A05 -->
 <g id="edge10" class="edge">
 <title>50-&gt;A05</title>
-<path fill="none" stroke="#7aab8a" d="M2123.82,-176.9C2040.15,-156.85 1912.54,-126.28 1803.43,-100.14"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1804.26,-96.74 1793.72,-97.82 1802.63,-103.55 1804.26,-96.74"/>
+<path fill="none" stroke="#88a0d6" d="M2123.82,-176.9C2040.15,-156.85 1912.54,-126.28 1803.43,-100.14"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1804.26,-96.74 1793.72,-97.82 1802.63,-103.55 1804.26,-96.74"/>
 <text text-anchor="start" x="1922.12" y="-120.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A06 -->
 <g id="node12" class="node">
 <title>A06</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M2572.73,-97.52C2572.73,-97.52 1947.5,-97.52 1947.5,-97.52 1941.5,-97.52 1935.5,-91.52 1935.5,-85.52 1935.5,-85.52 1935.5,-12 1935.5,-12 1935.5,-6 1941.5,0 1947.5,0 1947.5,0 2572.73,0 2572.73,0 2578.73,0 2584.73,-6 2584.73,-12 2584.73,-12 2584.73,-85.52 2584.73,-85.52 2584.73,-91.52 2578.73,-97.52 2572.73,-97.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2572.73,-97.52C2572.73,-97.52 1947.5,-97.52 1947.5,-97.52 1941.5,-97.52 1935.5,-91.52 1935.5,-85.52 1935.5,-85.52 1935.5,-12 1935.5,-12 1935.5,-6 1941.5,0 1947.5,0 1947.5,0 2572.73,0 2572.73,0 2578.73,0 2584.73,-6 2584.73,-12 2584.73,-12 2584.73,-85.52 2584.73,-85.52 2584.73,-91.52 2578.73,-97.52 2572.73,-97.52"/>
 <text text-anchor="start" x="1947.74" y="-79.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
 <text text-anchor="start" x="1947.74" y="-67.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="1947.74" y="-55.36" font-family="Roboto, sans-serif" font-size="12.00">Cluster: &#196;nderung der Daten</text>
@@ -215,8 +215,8 @@
 <!-- 50&#45;&gt;A06 -->
 <g id="edge11" class="edge">
 <title>50-&gt;A06</title>
-<path fill="none" stroke="#7aab8a" d="M2220.8,-176.9C2226.38,-158.87 2234.59,-132.32 2242.06,-108.14"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="2245.38,-109.27 2244.99,-98.68 2238.69,-107.2 2245.38,-109.27"/>
+<path fill="none" stroke="#88a0d6" d="M2220.8,-176.9C2226.38,-158.87 2234.59,-132.32 2242.06,-108.14"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2245.38,-109.27 2244.99,-98.68 2238.69,-107.2 2245.38,-109.27"/>
 <text text-anchor="start" x="2238.11" y="-120.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 </g>
