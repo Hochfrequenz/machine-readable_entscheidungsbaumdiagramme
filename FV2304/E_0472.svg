@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1896.0px" viewBox="0 0 1896.0 1293.3333333333333" height="1293.3333333333333px">
   <g>
     <svg version="1.1" width="1896.0px" viewBox="0 0 1896.0 1293.3333333333333" height="1293.3333333333333px">
-  <polygon fill="#c2cee9" points="0,0 1896.0,0 1896.0,1293.3333333333333 0,1293.3333333333333"/><g>
+  <rect fill="#e7e6e5" x="0" y="0" width="1896.0" height="1293.3333333333333" rx="20" ry="20"/><g>
     <g transform="translate(420.57786539003087, 129.3333333333333) scale(1 1) translate(0, 0) scale(1.8210832629306302 1.8210832629306302) "><!-- note that I manually added the width and height attribute to the root node
   https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
   -->
@@ -21,15 +21,15 @@
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M349.8,-863.94C349.8,-863.94 218.25,-863.94 218.25,-863.94 212.25,-863.94 206.25,-857.94 206.25,-851.94 206.25,-851.94 206.25,-832.66 206.25,-832.66 206.25,-826.66 212.25,-820.66 218.25,-820.66 218.25,-820.66 349.8,-820.66 349.8,-820.66 355.8,-820.66 361.8,-826.66 361.8,-832.66 361.8,-832.66 361.8,-851.94 361.8,-851.94 361.8,-857.94 355.8,-863.94 349.8,-863.94"/>
-<text text-anchor="start" x="256.27" y="-843" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0472</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M349.8,-863.94C349.8,-863.94 218.25,-863.94 218.25,-863.94 212.25,-863.94 206.25,-857.94 206.25,-851.94 206.25,-851.94 206.25,-832.66 206.25,-832.66 206.25,-826.66 212.25,-820.66 218.25,-820.66 218.25,-820.66 349.8,-820.66 349.8,-820.66 355.8,-820.66 361.8,-826.66 361.8,-832.66 361.8,-832.66 361.8,-851.94 361.8,-851.94 361.8,-857.94 355.8,-863.94 349.8,-863.94"/>
+<text text-anchor="start" x="220.65" y="-843" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0472</text>
 <text text-anchor="start" x="220.65" y="-830.9" font-family="Roboto, sans-serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
 <text text-anchor="start" x="324.15" y="-830.9" font-family="Roboto, sans-serif" font-weight="bold" font-size="12.00"> NB</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M556.05,-783.66C556.05,-783.66 12,-783.66 12,-783.66 6,-783.66 0,-777.66 0,-771.66 0,-771.66 0,-750.38 0,-750.38 0,-744.38 6,-738.38 12,-738.38 12,-738.38 556.05,-738.38 556.05,-738.38 562.05,-738.38 568.05,-744.38 568.05,-750.38 568.05,-750.38 568.05,-771.66 568.05,-771.66 568.05,-777.66 562.05,-783.66 556.05,-783.66"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M556.05,-783.66C556.05,-783.66 12,-783.66 12,-783.66 6,-783.66 0,-777.66 0,-771.66 0,-771.66 0,-750.38 0,-750.38 0,-744.38 6,-738.38 12,-738.38 12,-738.38 556.05,-738.38 556.05,-738.38 562.05,-738.38 568.05,-744.38 568.05,-750.38 568.05,-750.38 568.05,-771.66 568.05,-771.66 568.05,-777.66 562.05,-783.66 556.05,-783.66"/>
 <text text-anchor="start" x="14.4" y="-762.72" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
 <text text-anchor="start" x="33.9" y="-762.72" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus rechtlichen Gr&#252;nden nicht m&#246;glich (z.&#160;B. wenn eine</text>
 <text text-anchor="start" x="14.4" y="-748.72" font-family="Roboto, sans-serif" font-size="14.00">Einstweilige Verf&#252;gung vorlag)?</text>
@@ -37,13 +37,13 @@
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M284.02,-820.88C284.02,-812.91 284.02,-803.56 284.02,-794.7"/>
-<polygon fill="black" stroke="black" points="287.53,-794.99 284.03,-784.99 280.53,-794.99 287.53,-794.99"/>
+<path fill="none" stroke="#88a0d6" d="M284.02,-820.88C284.02,-812.91 284.02,-803.56 284.02,-794.7"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="287.53,-794.99 284.03,-784.99 280.53,-794.99 287.53,-794.99"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M520.51,-685.13C520.51,-685.13 17.53,-685.13 17.53,-685.13 11.53,-685.13 5.53,-679.13 5.53,-673.13 5.53,-673.13 5.53,-635.61 5.53,-635.61 5.53,-629.61 11.53,-623.61 17.53,-623.61 17.53,-623.61 520.51,-623.61 520.51,-623.61 526.51,-623.61 532.51,-629.61 532.51,-635.61 532.51,-635.61 532.51,-673.13 532.51,-673.13 532.51,-679.13 526.51,-685.13 520.51,-685.13"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M520.51,-685.13C520.51,-685.13 17.53,-685.13 17.53,-685.13 11.53,-685.13 5.53,-679.13 5.53,-673.13 5.53,-673.13 5.53,-635.61 5.53,-635.61 5.53,-629.61 11.53,-623.61 17.53,-623.61 17.53,-623.61 520.51,-623.61 520.51,-623.61 526.51,-623.61 532.51,-629.61 532.51,-635.61 532.51,-635.61 532.51,-673.13 532.51,-673.13 532.51,-679.13 526.51,-685.13 520.51,-685.13"/>
 <text text-anchor="start" x="17.77" y="-667.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
 <text text-anchor="start" x="17.77" y="-654.97" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="17.77" y="-642.97" font-family="Roboto, sans-serif" font-size="12.00">Cluster: gescheitert</text>
@@ -52,28 +52,28 @@
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="#7aab8a" d="M280.95,-738.59C279.21,-726.42 276.97,-710.77 274.9,-696.33"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="278.38,-696 273.5,-686.6 271.46,-697 278.38,-696"/>
+<path fill="none" stroke="#88a0d6" d="M280.95,-738.59C279.21,-726.42 276.97,-710.77 274.9,-696.33"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="278.38,-696 273.5,-686.6 271.46,-697 278.38,-696"/>
 <text text-anchor="start" x="278.02" y="-708.08" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 2 -->
 <g id="node4" class="node">
 <title>2</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1149.05,-672.37C1149.05,-672.37 563,-672.37 563,-672.37 557,-672.37 551,-666.37 551,-660.37 551,-660.37 551,-648.37 551,-648.37 551,-642.37 557,-636.37 563,-636.37 563,-636.37 1149.05,-636.37 1149.05,-636.37 1155.05,-636.37 1161.05,-642.37 1161.05,-648.37 1161.05,-648.37 1161.05,-660.37 1161.05,-660.37 1161.05,-666.37 1155.05,-672.37 1149.05,-672.37"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1149.05,-672.37C1149.05,-672.37 563,-672.37 563,-672.37 557,-672.37 551,-666.37 551,-660.37 551,-660.37 551,-648.37 551,-648.37 551,-642.37 557,-636.37 563,-636.37 563,-636.37 1149.05,-636.37 1149.05,-636.37 1155.05,-636.37 1161.05,-642.37 1161.05,-648.37 1161.05,-648.37 1161.05,-660.37 1161.05,-660.37 1161.05,-666.37 1155.05,-672.37 1149.05,-672.37"/>
 <text text-anchor="start" x="565.4" y="-650.7" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">2: </text>
 <text text-anchor="start" x="584.9" y="-650.7" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus dem Grund &#8222;aktive Zutrittsverweigerung&#8220; nicht m&#246;glich?</text>
 </g>
 <!-- 1&#45;&gt;2 -->
 <g id="edge3" class="edge">
 <title>1-&gt;2</title>
-<path fill="none" stroke="#7aab8a" d="M402.2,-738.4C505.36,-719.53 653.6,-692.4 752.26,-674.35"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="752.74,-677.82 761.95,-672.58 751.48,-670.94 752.74,-677.82"/>
+<path fill="none" stroke="#88a0d6" d="M402.2,-738.4C505.36,-719.53 653.6,-692.4 752.26,-674.35"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="752.74,-677.82 761.95,-672.58 751.48,-670.94 752.74,-677.82"/>
 <text text-anchor="start" x="587.02" y="-708.08" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A02 -->
 <g id="node5" class="node">
 <title>A02</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M648.01,-570.36C648.01,-570.36 172.03,-570.36 172.03,-570.36 166.03,-570.36 160.03,-564.36 160.03,-558.36 160.03,-558.36 160.03,-520.84 160.03,-520.84 160.03,-514.84 166.03,-508.84 172.03,-508.84 172.03,-508.84 648.01,-508.84 648.01,-508.84 654.01,-508.84 660.01,-514.84 660.01,-520.84 660.01,-520.84 660.01,-558.36 660.01,-558.36 660.01,-564.36 654.01,-570.36 648.01,-570.36"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M648.01,-570.36C648.01,-570.36 172.03,-570.36 172.03,-570.36 166.03,-570.36 160.03,-564.36 160.03,-558.36 160.03,-558.36 160.03,-520.84 160.03,-520.84 160.03,-514.84 166.03,-508.84 172.03,-508.84 172.03,-508.84 648.01,-508.84 648.01,-508.84 654.01,-508.84 660.01,-514.84 660.01,-520.84 660.01,-520.84 660.01,-558.36 660.01,-558.36 660.01,-564.36 654.01,-570.36 648.01,-570.36"/>
 <text text-anchor="start" x="172.27" y="-552.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
 <text text-anchor="start" x="172.27" y="-540.2" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="172.27" y="-528.2" font-family="Roboto, sans-serif" font-size="12.00">Cluster: gescheitert</text>
@@ -82,28 +82,28 @@
 <!-- 2&#45;&gt;A02 -->
 <g id="edge4" class="edge">
 <title>2-&gt;A02</title>
-<path fill="none" stroke="#7aab8a" d="M789.25,-636.49C723.27,-619.8 620.62,-593.85 538.75,-573.15"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="539.62,-569.76 529.07,-570.7 537.9,-576.54 539.62,-569.76"/>
+<path fill="none" stroke="#88a0d6" d="M789.25,-636.49C723.27,-619.8 620.62,-593.85 538.75,-573.15"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="539.62,-569.76 529.07,-570.7 537.9,-576.54 539.62,-569.76"/>
 <text text-anchor="start" x="659.02" y="-593.31" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 3 -->
 <g id="node6" class="node">
 <title>3</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1286.3,-557.6C1286.3,-557.6 689.75,-557.6 689.75,-557.6 683.75,-557.6 677.75,-551.6 677.75,-545.6 677.75,-545.6 677.75,-533.6 677.75,-533.6 677.75,-527.6 683.75,-521.6 689.75,-521.6 689.75,-521.6 1286.3,-521.6 1286.3,-521.6 1292.3,-521.6 1298.3,-527.6 1298.3,-533.6 1298.3,-533.6 1298.3,-545.6 1298.3,-545.6 1298.3,-551.6 1292.3,-557.6 1286.3,-557.6"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1286.3,-557.6C1286.3,-557.6 689.75,-557.6 689.75,-557.6 683.75,-557.6 677.75,-551.6 677.75,-545.6 677.75,-545.6 677.75,-533.6 677.75,-533.6 677.75,-527.6 683.75,-521.6 689.75,-521.6 689.75,-521.6 1286.3,-521.6 1286.3,-521.6 1292.3,-521.6 1298.3,-527.6 1298.3,-533.6 1298.3,-533.6 1298.3,-545.6 1298.3,-545.6 1298.3,-551.6 1292.3,-557.6 1286.3,-557.6"/>
 <text text-anchor="start" x="692.15" y="-535.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">3: </text>
 <text text-anchor="start" x="711.65" y="-535.93" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus dem Grund &#8222;passive Zutrittsverweigerung&#8220; nicht m&#246;glich?</text>
 </g>
 <!-- 2&#45;&gt;3 -->
 <g id="edge5" class="edge">
 <title>2-&gt;3</title>
-<path fill="none" stroke="#7aab8a" d="M875.79,-636.49C898.05,-617.47 934.41,-586.4 959.69,-564.81"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="961.65,-567.74 966.98,-558.58 957.1,-562.42 961.65,-567.74"/>
+<path fill="none" stroke="#88a0d6" d="M875.79,-636.49C898.05,-617.47 934.41,-586.4 959.69,-564.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="961.65,-567.74 966.98,-558.58 957.1,-562.42 961.65,-567.74"/>
 <text text-anchor="start" x="929.02" y="-593.31" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A03 -->
 <g id="node7" class="node">
 <title>A03</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M761.14,-455.59C761.14,-455.59 276.91,-455.59 276.91,-455.59 270.91,-455.59 264.91,-449.59 264.91,-443.59 264.91,-443.59 264.91,-406.07 264.91,-406.07 264.91,-400.07 270.91,-394.07 276.91,-394.07 276.91,-394.07 761.14,-394.07 761.14,-394.07 767.14,-394.07 773.14,-400.07 773.14,-406.07 773.14,-406.07 773.14,-443.59 773.14,-443.59 773.14,-449.59 767.14,-455.59 761.14,-455.59"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M761.14,-455.59C761.14,-455.59 276.91,-455.59 276.91,-455.59 270.91,-455.59 264.91,-449.59 264.91,-443.59 264.91,-443.59 264.91,-406.07 264.91,-406.07 264.91,-400.07 270.91,-394.07 276.91,-394.07 276.91,-394.07 761.14,-394.07 761.14,-394.07 767.14,-394.07 773.14,-400.07 773.14,-406.07 773.14,-406.07 773.14,-443.59 773.14,-443.59 773.14,-449.59 767.14,-455.59 761.14,-455.59"/>
 <text text-anchor="start" x="277.15" y="-437.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
 <text text-anchor="start" x="277.15" y="-425.43" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="277.15" y="-413.43" font-family="Roboto, sans-serif" font-size="12.00">Cluster: gescheitert</text>
@@ -112,14 +112,14 @@
 <!-- 3&#45;&gt;A03 -->
 <g id="edge6" class="edge">
 <title>3-&gt;A03</title>
-<path fill="none" stroke="#7aab8a" d="M917.56,-521.66C847.98,-504.93 739.81,-478.92 653.71,-458.22"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="654.54,-454.81 644,-455.88 652.9,-461.62 654.54,-454.81"/>
+<path fill="none" stroke="#88a0d6" d="M917.56,-521.66C847.98,-504.93 739.81,-478.92 653.71,-458.22"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="654.54,-454.81 644,-455.88 652.9,-461.62 654.54,-454.81"/>
 <text text-anchor="start" x="781.02" y="-478.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 4 -->
 <g id="node8" class="node">
 <title>4</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1307.18,-447.47C1307.18,-447.47 802.88,-447.47 802.88,-447.47 796.88,-447.47 790.88,-441.47 790.88,-435.47 790.88,-435.47 790.88,-414.19 790.88,-414.19 790.88,-408.19 796.88,-402.19 802.88,-402.19 802.88,-402.19 1307.18,-402.19 1307.18,-402.19 1313.18,-402.19 1319.18,-408.19 1319.18,-414.19 1319.18,-414.19 1319.18,-435.47 1319.18,-435.47 1319.18,-441.47 1313.18,-447.47 1307.18,-447.47"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1307.18,-447.47C1307.18,-447.47 802.88,-447.47 802.88,-447.47 796.88,-447.47 790.88,-441.47 790.88,-435.47 790.88,-435.47 790.88,-414.19 790.88,-414.19 790.88,-408.19 796.88,-402.19 802.88,-402.19 802.88,-402.19 1307.18,-402.19 1307.18,-402.19 1313.18,-402.19 1319.18,-408.19 1319.18,-414.19 1319.18,-414.19 1319.18,-435.47 1319.18,-435.47 1319.18,-441.47 1313.18,-447.47 1307.18,-447.47"/>
 <text text-anchor="start" x="805.28" y="-426.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">4: </text>
 <text text-anchor="start" x="824.78" y="-426.53" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung wegen eines Verhinderungsgrundes (z. B. Betrieb</text>
 <text text-anchor="start" x="805.28" y="-412.53" font-family="Roboto, sans-serif" font-size="14.00">lebensnotwendiger Ger&#228;te) nicht m&#246;glich?</text>
@@ -127,14 +127,14 @@
 <!-- 3&#45;&gt;4 -->
 <g id="edge7" class="edge">
 <title>3-&gt;4</title>
-<path fill="none" stroke="#7aab8a" d="M997.91,-521.96C1008.05,-504.9 1024.05,-477.97 1036.54,-456.94"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1039.48,-458.85 1041.58,-448.47 1033.46,-455.28 1039.48,-458.85"/>
+<path fill="none" stroke="#88a0d6" d="M997.91,-521.96C1008.05,-504.9 1024.05,-477.97 1036.54,-456.94"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1039.48,-458.85 1041.58,-448.47 1033.46,-455.28 1039.48,-458.85"/>
 <text text-anchor="start" x="1025.03" y="-478.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A04 -->
 <g id="node9" class="node">
 <title>A04</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M805.14,-333.94C805.14,-333.94 380.91,-333.94 380.91,-333.94 374.91,-333.94 368.91,-327.94 368.91,-321.94 368.91,-321.94 368.91,-272.42 368.91,-272.42 368.91,-266.42 374.91,-260.42 380.91,-260.42 380.91,-260.42 805.14,-260.42 805.14,-260.42 811.14,-260.42 817.14,-266.42 817.14,-272.42 817.14,-272.42 817.14,-321.94 817.14,-321.94 817.14,-327.94 811.14,-333.94 805.14,-333.94"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M805.14,-333.94C805.14,-333.94 380.91,-333.94 380.91,-333.94 374.91,-333.94 368.91,-327.94 368.91,-321.94 368.91,-321.94 368.91,-272.42 368.91,-272.42 368.91,-266.42 374.91,-260.42 380.91,-260.42 380.91,-260.42 805.14,-260.42 805.14,-260.42 811.14,-260.42 817.14,-266.42 817.14,-272.42 817.14,-272.42 817.14,-321.94 817.14,-321.94 817.14,-327.94 811.14,-333.94 805.14,-333.94"/>
 <text text-anchor="start" x="381.15" y="-315.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
 <text text-anchor="start" x="381.15" y="-303.78" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="381.15" y="-291.78" font-family="Roboto, sans-serif" font-size="12.00">Cluster: gescheitert</text>
@@ -144,14 +144,14 @@
 <!-- 4&#45;&gt;A04 -->
 <g id="edge8" class="edge">
 <title>4-&gt;A04</title>
-<path fill="none" stroke="#7aab8a" d="M975.6,-402.23C909.69,-384.3 814.3,-358.36 735.26,-336.86"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="736.25,-333.51 725.68,-334.26 734.41,-340.26 736.25,-333.51"/>
+<path fill="none" stroke="#88a0d6" d="M975.6,-402.23C909.69,-384.3 814.3,-358.36 735.26,-336.86"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="736.25,-333.51 725.68,-334.26 734.41,-340.26 736.25,-333.51"/>
 <text text-anchor="start" x="878.02" y="-363.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 5 -->
 <g id="node10" class="node">
 <title>5</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1328.55,-340.82C1328.55,-340.82 847.5,-340.82 847.5,-340.82 841.5,-340.82 835.5,-334.82 835.5,-328.82 835.5,-328.82 835.5,-265.54 835.5,-265.54 835.5,-259.54 841.5,-253.54 847.5,-253.54 847.5,-253.54 1328.55,-253.54 1328.55,-253.54 1334.55,-253.54 1340.55,-259.54 1340.55,-265.54 1340.55,-265.54 1340.55,-328.82 1340.55,-328.82 1340.55,-334.82 1334.55,-340.82 1328.55,-340.82"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1328.55,-340.82C1328.55,-340.82 847.5,-340.82 847.5,-340.82 841.5,-340.82 835.5,-334.82 835.5,-328.82 835.5,-328.82 835.5,-265.54 835.5,-265.54 835.5,-259.54 841.5,-253.54 847.5,-253.54 847.5,-253.54 1328.55,-253.54 1328.55,-253.54 1334.55,-253.54 1340.55,-259.54 1340.55,-265.54 1340.55,-265.54 1340.55,-328.82 1340.55,-328.82 1340.55,-334.82 1334.55,-340.82 1328.55,-340.82"/>
 <text text-anchor="start" x="849.9" y="-319.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">5: </text>
 <text text-anchor="start" x="869.4" y="-319.88" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus einem tats&#228;chlichen Grund nicht m&#246;glich?</text>
 <text text-anchor="start" x="849.9" y="-305.88" font-family="Roboto, sans-serif" font-size="14.00">Unter tats&#228;chliche Gr&#252;nde fallen z. B.</text>
@@ -162,14 +162,14 @@
 <!-- 4&#45;&gt;5 -->
 <g id="edge9" class="edge">
 <title>4-&gt;5</title>
-<path fill="none" stroke="#7aab8a" d="M1060.7,-402.23C1064.36,-388.28 1069.3,-369.49 1073.97,-351.71"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1077.29,-352.84 1076.44,-342.28 1070.52,-351.06 1077.29,-352.84"/>
+<path fill="none" stroke="#88a0d6" d="M1060.7,-402.23C1064.36,-388.28 1069.3,-369.49 1073.97,-351.71"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1077.29,-352.84 1076.44,-342.28 1070.52,-351.06 1077.29,-352.84"/>
 <text text-anchor="start" x="1071.03" y="-363.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A05 -->
 <g id="node11" class="node">
 <title>A05</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M766.26,-200.29C766.26,-200.29 345.78,-200.29 345.78,-200.29 339.78,-200.29 333.78,-194.29 333.78,-188.29 333.78,-188.29 333.78,-138.77 333.78,-138.77 333.78,-132.77 339.78,-126.77 345.78,-126.77 345.78,-126.77 766.26,-126.77 766.26,-126.77 772.26,-126.77 778.26,-132.77 778.26,-138.77 778.26,-138.77 778.26,-188.29 778.26,-188.29 778.26,-194.29 772.26,-200.29 766.26,-200.29"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M766.26,-200.29C766.26,-200.29 345.78,-200.29 345.78,-200.29 339.78,-200.29 333.78,-194.29 333.78,-188.29 333.78,-188.29 333.78,-138.77 333.78,-138.77 333.78,-132.77 339.78,-126.77 345.78,-126.77 345.78,-126.77 766.26,-126.77 766.26,-126.77 772.26,-126.77 778.26,-132.77 778.26,-138.77 778.26,-138.77 778.26,-188.29 778.26,-188.29 778.26,-194.29 772.26,-200.29 766.26,-200.29"/>
 <text text-anchor="start" x="346.02" y="-182.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
 <text text-anchor="start" x="346.02" y="-170.13" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="346.02" y="-158.13" font-family="Roboto, sans-serif" font-size="12.00">Cluster: gescheitert</text>
@@ -179,14 +179,14 @@
 <!-- 5&#45;&gt;A05 -->
 <g id="edge10" class="edge">
 <title>5-&gt;A05</title>
-<path fill="none" stroke="#7aab8a" d="M916.03,-253.62C850.17,-237.32 775.49,-218.84 711.28,-202.95"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="712.27,-199.59 701.72,-200.58 710.58,-206.38 712.27,-199.59"/>
+<path fill="none" stroke="#88a0d6" d="M916.03,-253.62C850.17,-237.32 775.49,-218.84 711.28,-202.95"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="712.27,-199.59 701.72,-200.58 710.58,-206.38 712.27,-199.59"/>
 <text text-anchor="start" x="837.02" y="-223.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 6 -->
 <g id="node12" class="node">
 <title>6</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M1402.18,-186.17C1402.18,-186.17 807.88,-186.17 807.88,-186.17 801.88,-186.17 795.88,-180.17 795.88,-174.17 795.88,-174.17 795.88,-152.89 795.88,-152.89 795.88,-146.89 801.88,-140.89 807.88,-140.89 807.88,-140.89 1402.18,-140.89 1402.18,-140.89 1408.18,-140.89 1414.18,-146.89 1414.18,-152.89 1414.18,-152.89 1414.18,-174.17 1414.18,-174.17 1414.18,-180.17 1408.18,-186.17 1402.18,-186.17"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1402.18,-186.17C1402.18,-186.17 807.88,-186.17 807.88,-186.17 801.88,-186.17 795.88,-180.17 795.88,-174.17 795.88,-174.17 795.88,-152.89 795.88,-152.89 795.88,-146.89 801.88,-140.89 807.88,-140.89 807.88,-140.89 1402.18,-140.89 1402.18,-140.89 1408.18,-140.89 1414.18,-146.89 1414.18,-152.89 1414.18,-152.89 1414.18,-174.17 1414.18,-174.17 1414.18,-180.17 1408.18,-186.17 1402.18,-186.17"/>
 <text text-anchor="start" x="810.28" y="-165.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">6: </text>
 <text text-anchor="start" x="829.78" y="-165.23" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus einem technischen Grund nicht m&#246;glich (z. B. eine weitere</text>
 <text text-anchor="start" x="810.28" y="-151.23" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation w&#228;re von der Sperrung betroffen gewesen)?</text>
@@ -194,14 +194,14 @@
 <!-- 5&#45;&gt;6 -->
 <g id="edge11" class="edge">
 <title>5-&gt;6</title>
-<path fill="none" stroke="#7aab8a" d="M1093.5,-253.8C1095.88,-235.36 1098.63,-214.09 1100.84,-196.94"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1104.27,-197.67 1102.08,-187.31 1097.33,-196.78 1104.27,-197.67"/>
+<path fill="none" stroke="#88a0d6" d="M1093.5,-253.8C1095.88,-235.36 1098.63,-214.09 1100.84,-196.94"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1104.27,-197.67 1102.08,-187.31 1097.33,-196.78 1104.27,-197.67"/>
 <text text-anchor="start" x="1098.03" y="-223.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A06 -->
 <g id="node13" class="node">
 <title>A06</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M1076.51,-73.52C1076.51,-73.52 663.53,-73.52 663.53,-73.52 657.53,-73.52 651.53,-67.52 651.53,-61.52 651.53,-61.52 651.53,-12 651.53,-12 651.53,-6 657.53,0 663.53,0 663.53,0 1076.51,0 1076.51,0 1082.51,0 1088.51,-6 1088.51,-12 1088.51,-12 1088.51,-61.52 1088.51,-61.52 1088.51,-67.52 1082.51,-73.52 1076.51,-73.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1076.51,-73.52C1076.51,-73.52 663.53,-73.52 663.53,-73.52 657.53,-73.52 651.53,-67.52 651.53,-61.52 651.53,-61.52 651.53,-12 651.53,-12 651.53,-6 657.53,0 663.53,0 663.53,0 1076.51,0 1076.51,0 1082.51,0 1088.51,-6 1088.51,-12 1088.51,-12 1088.51,-61.52 1088.51,-61.52 1088.51,-67.52 1082.51,-73.52 1076.51,-73.52"/>
 <text text-anchor="start" x="663.77" y="-55.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
 <text text-anchor="start" x="663.77" y="-43.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="663.77" y="-31.36" font-family="Roboto, sans-serif" font-size="12.00">Cluster: gescheitert</text>
@@ -211,14 +211,14 @@
 <!-- 6&#45;&gt;A06 -->
 <g id="edge12" class="edge">
 <title>6-&gt;A06</title>
-<path fill="none" stroke="#7aab8a" d="M1064.36,-140.94C1032.15,-123.84 986.21,-99.45 947.09,-78.68"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="949.11,-75.79 938.64,-74.19 945.83,-81.97 949.11,-75.79"/>
+<path fill="none" stroke="#88a0d6" d="M1064.36,-140.94C1032.15,-123.84 986.21,-99.45 947.09,-78.68"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="949.11,-75.79 938.64,-74.19 945.83,-81.97 949.11,-75.79"/>
 <text text-anchor="start" x="1001.02" y="-96.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A07 -->
 <g id="node14" class="node">
 <title>A07</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M1299.27,-67.52C1299.27,-67.52 1118.79,-67.52 1118.79,-67.52 1112.79,-67.52 1106.79,-61.52 1106.79,-55.52 1106.79,-55.52 1106.79,-18 1106.79,-18 1106.79,-12 1112.79,-6 1118.79,-6 1118.79,-6 1299.27,-6 1299.27,-6 1305.27,-6 1311.27,-12 1311.27,-18 1311.27,-18 1311.27,-55.52 1311.27,-55.52 1311.27,-61.52 1305.27,-67.52 1299.27,-67.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1299.27,-67.52C1299.27,-67.52 1118.79,-67.52 1118.79,-67.52 1112.79,-67.52 1106.79,-61.52 1106.79,-55.52 1106.79,-55.52 1106.79,-18 1106.79,-18 1106.79,-12 1112.79,-6 1118.79,-6 1118.79,-6 1299.27,-6 1299.27,-6 1305.27,-6 1311.27,-12 1311.27,-18 1311.27,-18 1311.27,-55.52 1311.27,-55.52 1311.27,-61.52 1305.27,-67.52 1299.27,-67.52"/>
 <text text-anchor="start" x="1119.03" y="-49.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A07</text>
 <text text-anchor="start" x="1119.03" y="-37.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="1119.03" y="-25.36" font-family="Roboto, sans-serif" font-size="12.00">Cluster: erfolgreich</text>
@@ -227,8 +227,8 @@
 <!-- 6&#45;&gt;A07 -->
 <g id="edge13" class="edge">
 <title>6-&gt;A07</title>
-<path fill="none" stroke="#7aab8a" d="M1122.9,-141.08C1137.74,-123.28 1159.22,-97.52 1177.01,-76.17"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="1179.7,-78.41 1183.41,-68.49 1174.32,-73.93 1179.7,-78.41"/>
+<path fill="none" stroke="#88a0d6" d="M1122.9,-141.08C1137.74,-123.28 1159.22,-97.52 1177.01,-76.17"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1179.7,-78.41 1183.41,-68.49 1174.32,-73.93 1179.7,-78.41"/>
 <text text-anchor="start" x="1163.03" y="-96.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 </g>
