@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1442.6666666666667px" viewBox="0 0 1442.6666666666667 465.3333333333333" height="465.3333333333333px">
   <g>
     <svg version="1.1" width="1442.6666666666667px" viewBox="0 0 1442.6666666666667 465.3333333333333" height="465.3333333333333px">
-  <polygon fill="#c2cee9" points="0,0 1442.6666666666667,0 1442.6666666666667,465.3333333333333 0,465.3333333333333"/><g>
+  <rect fill="#e7e6e5" x="0" y="0" width="1442.6666666666667" height="465.3333333333333" rx="20" ry="20"/><g>
     <g transform="translate(531.5701117056228, 46.533333333333324) scale(1 1) translate(0, 0) scale(0.6552144935698865 0.6552144935698865) "><!-- note that I manually added the width and height attribute to the root node
   https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
   -->
@@ -21,28 +21,28 @@
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<path fill="#7a8da1" stroke="black" stroke-width="0" d="M597.39,-243.05C597.39,-243.05 451.59,-243.05 451.59,-243.05 445.59,-243.05 439.59,-237.05 439.59,-231.05 439.59,-231.05 439.59,-211.77 439.59,-211.77 439.59,-205.77 445.59,-199.77 451.59,-199.77 451.59,-199.77 597.39,-199.77 597.39,-199.77 603.39,-199.77 609.39,-205.77 609.39,-211.77 609.39,-211.77 609.39,-231.05 609.39,-231.05 609.39,-237.05 603.39,-243.05 597.39,-243.05"/>
-<text text-anchor="start" x="496.74" y="-222.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0056</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M597.39,-243.05C597.39,-243.05 451.59,-243.05 451.59,-243.05 445.59,-243.05 439.59,-237.05 439.59,-231.05 439.59,-231.05 439.59,-211.77 439.59,-211.77 439.59,-205.77 445.59,-199.77 451.59,-199.77 451.59,-199.77 597.39,-199.77 597.39,-199.77 603.39,-199.77 609.39,-205.77 609.39,-211.77 609.39,-211.77 609.39,-231.05 609.39,-231.05 609.39,-237.05 603.39,-243.05 597.39,-243.05"/>
+<text text-anchor="start" x="453.99" y="-222.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0056</text>
 <text text-anchor="start" x="453.99" y="-210.01" font-family="Roboto, sans-serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
 <text text-anchor="start" x="557.49" y="-210.01" font-family="Roboto, sans-serif" font-weight="bold" font-size="12.00"> BIKO</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" stroke-width="0" d="M649.14,-162.77C649.14,-162.77 399.84,-162.77 399.84,-162.77 393.84,-162.77 387.84,-156.77 387.84,-150.77 387.84,-150.77 387.84,-138.77 387.84,-138.77 387.84,-132.77 393.84,-126.77 399.84,-126.77 399.84,-126.77 649.14,-126.77 649.14,-126.77 655.14,-126.77 661.14,-132.77 661.14,-138.77 661.14,-138.77 661.14,-150.77 661.14,-150.77 661.14,-156.77 655.14,-162.77 649.14,-162.77"/>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M649.14,-162.77C649.14,-162.77 399.84,-162.77 399.84,-162.77 393.84,-162.77 387.84,-156.77 387.84,-150.77 387.84,-150.77 387.84,-138.77 387.84,-138.77 387.84,-132.77 393.84,-126.77 399.84,-126.77 399.84,-126.77 649.14,-126.77 649.14,-126.77 655.14,-126.77 661.14,-132.77 661.14,-138.77 661.14,-138.77 661.14,-150.77 661.14,-150.77 661.14,-156.77 655.14,-162.77 649.14,-162.77"/>
 <text text-anchor="start" x="402.24" y="-141.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
 <text text-anchor="start" x="421.74" y="-141.09" font-family="Roboto, sans-serif" font-size="14.00">Ist die BKA (ohne KBKA) erfolgt?</text>
 </g>
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M524.49,-200.01C524.49,-191.94 524.49,-182.53 524.49,-173.84"/>
-<polygon fill="black" stroke="black" points="527.99,-174.13 524.49,-164.13 520.99,-174.13 527.99,-174.13"/>
+<path fill="none" stroke="#88a0d6" d="M524.49,-200.01C524.49,-191.94 524.49,-182.53 524.49,-173.84"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="527.99,-174.13 524.49,-164.13 520.99,-174.13 527.99,-174.13"/>
 </g>
 <!-- A03 -->
 <g id="node3" class="node">
 <title>A03</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M490.98,-67.52C490.98,-67.52 12,-67.52 12,-67.52 6,-67.52 0,-61.52 0,-55.52 0,-55.52 0,-18 0,-18 0,-12 6,-6 12,-6 12,-6 490.98,-6 490.98,-6 496.98,-6 502.98,-12 502.98,-18 502.98,-18 502.98,-55.52 502.98,-55.52 502.98,-61.52 496.98,-67.52 490.98,-67.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M490.98,-67.52C490.98,-67.52 12,-67.52 12,-67.52 6,-67.52 0,-61.52 0,-55.52 0,-55.52 0,-18 0,-18 0,-12 6,-6 12,-6 12,-6 490.98,-6 490.98,-6 496.98,-6 502.98,-12 502.98,-18 502.98,-18 502.98,-55.52 502.98,-55.52 502.98,-61.52 496.98,-67.52 490.98,-67.52"/>
 <text text-anchor="start" x="12.24" y="-49.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
 <text text-anchor="start" x="12.24" y="-37.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="12.24" y="-25.36" font-family="Roboto, sans-serif" font-size="12.00">Datenstatus &#8222;Abgerechnete Daten&#8220; f&#252;r die h&#246;chste Version der BK-SZR mit dem</text>
@@ -51,14 +51,14 @@
 <!-- 1&#45;&gt;A03 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A03</title>
-<path fill="none" stroke="#7aab8a" d="M480.93,-126.86C442.72,-112.02 386.02,-90 338.54,-71.56"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="339.93,-68.35 329.35,-67.99 337.4,-74.88 339.93,-68.35"/>
+<path fill="none" stroke="#88a0d6" d="M480.93,-126.86C442.72,-112.02 386.02,-90 338.54,-71.56"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="339.93,-68.35 329.35,-67.99 337.4,-74.88 339.93,-68.35"/>
 <text text-anchor="start" x="427.49" y="-96.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A06 -->
 <g id="node4" class="node">
 <title>A06</title>
-<path fill="#cfb986" stroke="black" stroke-width="0" d="M1062.11,-73.52C1062.11,-73.52 532.88,-73.52 532.88,-73.52 526.88,-73.52 520.88,-67.52 520.88,-61.52 520.88,-61.52 520.88,-12 520.88,-12 520.88,-6 526.88,0 532.88,0 532.88,0 1062.11,0 1062.11,0 1068.11,0 1074.11,-6 1074.11,-12 1074.11,-12 1074.11,-61.52 1074.11,-61.52 1074.11,-67.52 1068.11,-73.52 1062.11,-73.52"/>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1062.11,-73.52C1062.11,-73.52 532.88,-73.52 532.88,-73.52 526.88,-73.52 520.88,-67.52 520.88,-61.52 520.88,-61.52 520.88,-12 520.88,-12 520.88,-6 526.88,0 532.88,0 532.88,0 1062.11,0 1062.11,0 1068.11,0 1074.11,-6 1074.11,-12 1074.11,-12 1074.11,-61.52 1074.11,-61.52 1074.11,-67.52 1068.11,-73.52 1062.11,-73.52"/>
 <text text-anchor="start" x="533.12" y="-55.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
 <text text-anchor="start" x="533.12" y="-43.36" font-family="Roboto, sans-serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
 <text text-anchor="start" x="533.12" y="-31.36" font-family="Roboto, sans-serif" font-size="12.00">Datenstatus &#8222;Abgerechnete Daten KBKA&#8220; f&#252;r die h&#246;chste Version (der BK-SZR mit</text>
@@ -68,8 +68,8 @@
 <!-- 1&#45;&gt;A06 -->
 <g id="edge3" class="edge">
 <title>1-&gt;A06</title>
-<path fill="none" stroke="#7aab8a" d="M568.05,-126.86C602.12,-113.62 650.91,-94.68 694.74,-77.66"/>
-<polygon fill="#7aab8a" stroke="#7aab8a" points="696,-80.92 704.06,-74.04 693.47,-74.4 696,-80.92"/>
+<path fill="none" stroke="#88a0d6" d="M568.05,-126.86C602.12,-113.62 650.91,-94.68 694.74,-77.66"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="696,-80.92 704.06,-74.04 693.47,-74.4 696,-80.92"/>
 <text text-anchor="start" x="652.49" y="-96.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 </g>
