@@ -9,7 +9,7 @@ digraph D {
     size="20,20";
     "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0039</B><BR align="left"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> ÜNB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>1: </B>Sind in dem angefragten Gebiet (Bilanzierungsgebiet oder Regelzone) für diesen<BR align="left"/>Bilanzkreis LF-SZR zum angegebenen Zeitpunkt gültig?<BR align="left"/>>, fontname="Roboto, sans-serif"];
-    "A01" [margin="0.17,0.08", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Kein Lieferant zugeordnet<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Kein Lieferant zugeordnet<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
     "Ende" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label="Ende", fontname="Roboto, sans-serif"];
 
     "Start" -> "1" [color="#88a0d6"];
