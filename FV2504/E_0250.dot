@@ -7,15 +7,16 @@ digraph D {
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0250</B><BR align="left"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    fontsize=12;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0250</B><BR align="left"/><FONT>Prüfende Rolle: <B>MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Ist der LF der Marktlokation der genannten Lokation im gewünschten<BR align="left"/>Umsetzungszeitraum zugeordnet?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Liegt dem MSB eine Vollmacht des Letztverbrauchers bzw. Erzeugers vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
-    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Vollmacht des Letztverbrauchers bzw. Erzeugers liegt nicht vor.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Vollmacht des Letztverbrauchers bzw. Erzeugers liegt nicht vor.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
     "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>30: </B>Ist die Vollmacht plausibel und gültig?<BR align="left"/>>, fontname="Roboto, sans-serif"];
-    "A04" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A04</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Vollmacht ist nicht plausibel und gültig.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A04" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A04</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Vollmacht ist nicht plausibel und gültig.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
     "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>40: </B>Liegt das gewünschte Änderungsdatum mindestens 20 WT nach dem<BR align="left"/>Nachrichteneingangsdatum?<BR align="left"/>>, fontname="Roboto, sans-serif"];
-    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Frist nicht eingehalten<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
-    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Änderung kann durchgeführt werden.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Frist nicht eingehalten<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Cluster: Zustimmung<BR align="left"/>Änderung kann durchgeführt werden.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
 
     "Start" -> "10" [color="#88a0d6"];
     "10" -> "20" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];

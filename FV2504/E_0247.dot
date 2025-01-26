@@ -7,7 +7,8 @@ digraph D {
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Empty" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0247</B><BR align="center"/><FONT point-size="12">S_0067_ORDRSP Bestellbestätigung
+    fontsize=12;
+    "Empty" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_0247</B><BR align="center"/><FONT>S_0067_ORDRSP Bestellbestätigung
 S_0068_ORDRSP Abl. der Bestellung</FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
 
 
