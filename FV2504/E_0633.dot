@@ -7,12 +7,13 @@ digraph D {
     rankdir=TB;
     packmode="array";
     size="20,20";
-    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0633</B><BR align="left"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    fontsize=12;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0633</B><BR align="left"/><FONT>Prüfende Rolle: <B>MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Hat der Berechtigte in der Qualitätsrückmeldung mitgeteilt, dass er die Stammdaten ohne Anmerkung übernommen hat?<BR align="left"/>Hinweis:<BR align="left"/>Dies ist für jeden in der Rückmeldung vorhandenen Verwendungszeitraum jeweils<BR align="left"/>für den gesamten Zeitraum zu prüfen.<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "Ende" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label="Ende", fontname="Roboto, sans-serif"];
     "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Leitet der Verantwortliche aufgrund der Qualitätsrückmeldung des Berechtigten<BR align="left"/>ab, dass eine Anpassung seiner Stammdaten notwendig ist?<BR align="left"/>>, fontname="Roboto, sans-serif"];
-    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Änderung der Daten<BR align="left"/>Der Verantwortliche teilt dem Berechtigten mit, dass er einen erneuten Versand<BR align="left"/>der Stammdaten vornehmen wird.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
-    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Keine Änderung der Daten<BR align="left"/>Der Verantwortliche teilt mit, dass er seine Stammdaten für korrekt hält und<BR align="left"/>keine Anpassung vornehmen wird.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Cluster: Änderung der Daten<BR align="left"/>Der Verantwortliche teilt dem Berechtigten mit, dass er einen erneuten Versand<BR align="left"/>der Stammdaten vornehmen wird.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Cluster: Keine Änderung der Daten<BR align="left"/>Der Verantwortliche teilt mit, dass er seine Stammdaten für korrekt hält und<BR align="left"/>keine Anpassung vornehmen wird.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
 
     "Start" -> "10" [color="#88a0d6"];
     "10" -> "Ende" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
