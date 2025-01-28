@@ -1,0 +1,72 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.26.2: AD: Geschäftsdatenanfrage von LF
+
+
+
+end title
+:<b>E_0442</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>1: </b> Ist der LF im angefragten Zeitraum der genannten Marktlokation, Messlokation bzw. Tranche zugeordnet?) then (ja)
+    :A01;
+    note left
+        Falscher Prozess
+        Hinweis: WiM Geschäftsprozess „Reklamation von Werten beim MSB“ ist zu verwenden.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>2: </b> Ist der LF für den angefragten Zeitraum berechtigt die angefragten Werte in der angefragten Granularität zu erhalten?
+Auflistung, siehe WiM Strom Teil 2, Kapitel „Darstellung der zu übermittelnden Werte“ in der jeweils gültigen Fassung.) then (ja)
+else (nein)
+    :A02;
+    note left
+        Keine Berechtigung
+    endnote
+    kill;
+endif
+if (<b>3: </b> Mussten die angefragten Werte in Art und Umfang in der Vergangenheit erfasst werden?) then (ja)
+else (nein)
+    :A03;
+    note left
+        Es wurden Werte angefragt, die es auf der ge-nannten Marktlokation, Messlokation oder Tranche nicht geben kann.
+    endnote
+    kill;
+endif
+if (<b>4: </b> Wurden die angefragten Werte auf der genannten Marktlokation, Messlokation oder Tranche erfasst?) then (ja)
+    :Werte versenden;
+    kill;
+else (nein)
+    :A04;
+    note left
+        Die angefragten Werte sind nicht vorhanden.
+    endnote
+    kill;
+endif
+
+@enduml
