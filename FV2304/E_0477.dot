@@ -1,0 +1,45 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.40.1: AD: Bestellung Änderung Konzessionsabgabe vom LF</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0477</B><BR align="left"/><FONT>Prüfende Rolle: <B>NB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>1: </B>Ist der Marktlokation zum Zeitpunkt der bestellten Änderung die<BR align="left"/>Sondervertragskunden-KA zugeordnet?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Sondervertragskunden-KA gemäß § 2 Abs. 3 der Konzessionsabgabenverordnung,<BR align="left"/>daher keine Änderung möglich<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>2: </B>Ist die Marktlokation von der Konzessionsabgabe befreit?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Änderung nicht möglich, da Marktlokation von Konzessionsabgabe befreit.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>3: </B>Ist der bestellte Zustand an der Marktlokation bereits vorhanden?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Der gewünschte Zustand ist bereits an der Marktlokation hinterlegt.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "4" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>4: </B>Bestellt der LF für eine Marktlokation den Wechsel auf eine<BR align="left"/>Schwachlast-Konzessionsabgabe?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "5" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>5: </B>Möchte der NB die Bestellung der rückwirkenden Änderung der Konzessionsabgabe<BR align="left"/>aufgrund rechtlicher Fristen ablehnen?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A05" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A05</B><BR align="left"/><BR align="left"/><FONT>Eine rückwirkende Änderung wird abgelehnt<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "6" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>6: </B>Lässt die Gerätekonfiguration der Messlokationen der angefragten Marktlokation<BR align="left"/>zum Umsetzungszeitpunkt die separate Erfassung der Energie in den<BR align="left"/>Schwachlastzeiten zu, um die niedrige Konzessionsabgabe für diese Menge<BR align="left"/>abrechnen zu können?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A04" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A04</B><BR align="left"/><BR align="left"/><FONT>An der Marktlokation kann die Energie in den Schwachlastzeiten nicht zum<BR align="left"/>angefragten Zeitpunkt separat erfasst werden.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>7: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A99" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A99</B><BR align="left"/><BR align="left"/><FONT>Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.10.2023 00:00 Uhr<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "Stammdatenänderung NB (verantwortlich) ausgehend" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Stammdatenänderung NB (verantwortlich) ausgehend<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+
+    "Start" -> "1" [color="#88a0d6"];
+    "1" -> "A01" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "1" -> "2" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "2" -> "A02" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "2" -> "3" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "3" -> "A03" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "3" -> "4" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "4" -> "7" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "4" -> "5" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "5" -> "A05" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "5" -> "6" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "6" -> "A04" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "6" -> "7" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "7" -> "A99" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "7" -> "Stammdatenänderung NB (verantwortlich) ausgehend" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+
+    bgcolor="transparent";
+fontname="Roboto, sans-serif";
+}

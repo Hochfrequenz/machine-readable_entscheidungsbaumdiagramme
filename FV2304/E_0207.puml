@@ -1,0 +1,173 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+WiM Strom
+
+9.11.1: AD: Anfrage zur Rechnungsabwicklung des Messtellenbetriebes über den LF durch den LF
+
+
+
+end title
+:<b>E_0207</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>1: </b> Liegt ein gültiger Vertrag zwischen MSB und LF vor, der die Rechnungsabwicklung des Messstellenbetriebs an den LF regelt?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Kein gültiger Vertrag
+    endnote
+    kill;
+endif
+if (<b>2: </b> Liegt der angefragte Beginn der Übernahme der Abrechnung des Messstellenbetriebs im Zeitraum einer vom MSB bereits bestätigten Vereinbarung mit dem anfragenden LF zur Abwicklung des Messentgeltes?) then (ja)
+    :A08;
+    note left
+        Abwicklung des Messentgelts schon vollzogen
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>3: </b> Sind alle Messlokationen der angefragten Marktlokation mit kME ausgestattet?) then (ja)
+    :A02;
+    note left
+        Ausschließlich mit kME ausgestattet
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>4: </b> Besteht ein Vertrag mit dem Anschlussnehmer gemäß MsbG?) then (ja)
+    :A03;
+    note left
+        Vertragsverhältnis mit Anschlussnehmer lässt das nicht zu.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>5: </b> Besteht ein nicht konkludent geschlossener Vertrag für den Messstellenbetrieb mit dem Anschlussnutzer?) then (ja)
+    if (<b>6: </b> Ist eine Abrechnung über den LF durch den Vertrag ausgeschlossen?) then (ja)
+        :A04;
+        note left
+            Vertragsverhältnis mit dem Dritten lässt das nicht zu.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>7: </b> Wird das Entgelt bereits über die erzeugende Marktlokation entrichtet?) then (ja)
+        :A05;
+        note left
+            Entgelt wird über die erzeugende Marktlokation entrichtet.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>8: </b> Wird das Entgelt über den Lieferanten einer anderen Marktlokation entrichtet?) then (ja)
+        :A06;
+        note left
+            Entgelt wird den Lieferanten einer anderen Marktlokation entrichtet.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>9: </b> Möchte der MSB zum angefragten Termin kein Angebot erstellen und verzichtet auf die Erstellung und Versendung des Angebots?) then (ja)
+        if (<b>10: </b> Liegt bereits eine mit dem LF vereinbarte Rechnungsabwicklung für diese Marktlokation zu einem späteren Zeitpunkt vor?) then (ja)
+            :A09;
+            note left
+                Die vereinbarte Rechnungsabwicklung für diese Marktlokation bleibt erhalten. 
+                Für das Zeitintervall zwischen angefragtem Termin und vereinbarter Rechnungsabwicklung wird kein Messentgelt in Rechnung gestellt.
+            endnote
+            kill;
+        else (nein)
+            :A10;
+            note left
+                Der MSB erstellt zum angefragten Termin kein Angebot.
+                Hinweis: Möchte der MSB die Abrechnung zu einem späteren Zeitpunkt starten, so wird er gemäß Use-Case „Angebot zur Rechnungsabwicklung des Messstellenbetriebes über den LF durch den MSB“ ein Angebot zusenden.
+            endnote
+            kill;
+        endif
+    else (nein)
+        if (<b>11: </b> Liegt der angefragte Beginn der Übernahme der Abrechnung des Messstellenbetriebs in einem bereits vom MSB abgerechneten Zeitraum?) then (ja)
+            if (<b>12: </b> Hat der LF zum nächstmöglichen Termin angefragt?) then (ja)
+            else (nein)
+                :A07;
+                note left
+                    Beginndatum liegt im bereits abgerechneten Zeitraum.
+                endnote
+                kill;
+            endif
+        else (nein)
+        endif
+        :Angebot versenden;
+        kill;
+    endif
+else (nein)
+endif
+if (<b>7: </b> Wird das Entgelt bereits über die erzeugende Marktlokation entrichtet?) then (ja)
+    :A05;
+    note left
+        Entgelt wird über die erzeugende Marktlokation entrichtet.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>8: </b> Wird das Entgelt über den Lieferanten einer anderen Marktlokation entrichtet?) then (ja)
+    :A06;
+    note left
+        Entgelt wird den Lieferanten einer anderen Marktlokation entrichtet.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>9: </b> Möchte der MSB zum angefragten Termin kein Angebot erstellen und verzichtet auf die Erstellung und Versendung des Angebots?) then (ja)
+    if (<b>10: </b> Liegt bereits eine mit dem LF vereinbarte Rechnungsabwicklung für diese Marktlokation zu einem späteren Zeitpunkt vor?) then (ja)
+        :A09;
+        note left
+            Die vereinbarte Rechnungsabwicklung für diese Marktlokation bleibt erhalten. 
+            Für das Zeitintervall zwischen angefragtem Termin und vereinbarter Rechnungsabwicklung wird kein Messentgelt in Rechnung gestellt.
+        endnote
+        kill;
+    else (nein)
+        :A10;
+        note left
+            Der MSB erstellt zum angefragten Termin kein Angebot.
+            Hinweis: Möchte der MSB die Abrechnung zu einem späteren Zeitpunkt starten, so wird er gemäß Use-Case „Angebot zur Rechnungsabwicklung des Messstellenbetriebes über den LF durch den MSB“ ein Angebot zusenden.
+        endnote
+        kill;
+    endif
+else (nein)
+    if (<b>11: </b> Liegt der angefragte Beginn der Übernahme der Abrechnung des Messstellenbetriebs in einem bereits vom MSB abgerechneten Zeitraum?) then (ja)
+        if (<b>12: </b> Hat der LF zum nächstmöglichen Termin angefragt?) then (ja)
+        else (nein)
+            :A07;
+            note left
+                Beginndatum liegt im bereits abgerechneten Zeitraum.
+            endnote
+            kill;
+        endif
+    else (nein)
+    endif
+    :Angebot versenden;
+    kill;
+endif
+
+@enduml
