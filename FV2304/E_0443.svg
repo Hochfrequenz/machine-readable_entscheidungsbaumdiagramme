@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="957.3333333333334px" viewBox="0 0 957.3333333333334 582.6666666666666" height="582.6666666666666px">
+  <g>
+    <svg version="1.1" width="957.3333333333334px" viewBox="0 0 957.3333333333334 582.6666666666666" height="582.6666666666666px">
+  <rect fill="#e7e6e5" x="0" y="0" width="957.3333333333334" height="582.6666666666666" rx="20" ry="20"/><g>
+    <g transform="translate(241.05483901248476, 58.26666666666665) scale(1 1) translate(0, 0) scale(0.8204261710316343 0.8204261710316343) "><!-- note that I manually added the width and height attribute to the root node
+  https://chatgpt.com/share/678e3028-70cc-800b-a296-782714735772
+  -->
+  <defs>
+    <style>.cls-1{fill:#fff;}</style>
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="718pt" height="437pt" viewBox="0.00 0.00 718.30 436.62">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 432.62)">
+<title>D</title>
+<text text-anchor="start" x="126.77" y="-408.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">GPKE</text>
+<text text-anchor="start" x="126.77" y="-380.42" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">6.42.1: AD: Gesch&#228;ftsdatenanfrage von MSB an NB</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M374.55,-338.62C374.55,-338.62 237.75,-338.62 237.75,-338.62 231.75,-338.62 225.75,-332.62 225.75,-326.62 225.75,-326.62 225.75,-305.34 225.75,-305.34 225.75,-299.34 231.75,-293.34 237.75,-293.34 237.75,-293.34 374.55,-293.34 374.55,-293.34 380.55,-293.34 386.55,-299.34 386.55,-305.34 386.55,-305.34 386.55,-326.62 386.55,-326.62 386.55,-332.62 380.55,-338.62 374.55,-338.62"/>
+<text text-anchor="start" x="240.15" y="-317.68" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0443</text>
+<text text-anchor="start" x="240.15" y="-303.68" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="349.65" y="-303.68" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 1 -->
+<g id="node2" class="node">
+<title>1</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M600.3,-256.34C600.3,-256.34 12,-256.34 12,-256.34 6,-256.34 0,-250.34 0,-244.34 0,-244.34 0,-223.06 0,-223.06 0,-217.06 6,-211.06 12,-211.06 12,-211.06 600.3,-211.06 600.3,-211.06 606.3,-211.06 612.3,-217.06 612.3,-223.06 612.3,-223.06 612.3,-244.34 612.3,-244.34 612.3,-250.34 606.3,-256.34 600.3,-256.34"/>
+<text text-anchor="start" x="14.4" y="-235.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="33.9" y="-235.4" font-family="Roboto, sans-serif" font-size="14.00">Ist der MSB im angefragten Zeitraum der genannten Marktlokation, Messlokation</text>
+<text text-anchor="start" x="14.4" y="-221.4" font-family="Roboto, sans-serif" font-size="14.00">bzw. Tranche zugeordnet?</text>
+</g>
+<!-- Start&#45;&gt;1 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;1</title>
+<path fill="none" stroke="#88a0d6" d="M306.15,-293.47C306.15,-285.55 306.15,-276.39 306.15,-267.69"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="309.65,-267.79 306.15,-257.79 302.65,-267.79 309.65,-267.79"/>
+</g>
+<!-- Stammdaten versenden -->
+<g id="node3" class="node">
+<title>Stammdaten versenden</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M245.17,-47.64C245.17,-47.64 73.12,-47.64 73.12,-47.64 67.12,-47.64 61.12,-41.64 61.12,-35.64 61.12,-35.64 61.12,-23.64 61.12,-23.64 61.12,-17.64 67.12,-11.64 73.12,-11.64 73.12,-11.64 245.17,-11.64 245.17,-11.64 251.17,-11.64 257.17,-17.64 257.17,-23.64 257.17,-23.64 257.17,-35.64 257.17,-35.64 257.17,-41.64 251.17,-47.64 245.17,-47.64"/>
+<text text-anchor="start" x="75.52" y="-24.96" font-family="Roboto, sans-serif" font-size="14.00">Stammdaten versenden</text>
+</g>
+<!-- 1&#45;&gt;Stammdaten versenden -->
+<g id="edge2" class="edge">
+<title>1-&gt;Stammdaten versenden</title>
+<path fill="none" stroke="#88a0d6" d="M200.24,-211.24C171.85,-200.13 144.36,-183.3 127.4,-157.81 106.95,-127.07 125.18,-84.2 141.27,-56.94"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="144.15,-58.93 146.45,-48.59 138.2,-55.24 144.15,-58.93"/>
+<text text-anchor="start" x="127.15" y="-131.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 2 -->
+<g id="node4" class="node">
+<title>2</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M698.3,-157.81C698.3,-157.81 164,-157.81 164,-157.81 158,-157.81 152,-151.81 152,-145.81 152,-145.81 152,-124.53 152,-124.53 152,-118.53 158,-112.53 164,-112.53 164,-112.53 698.3,-112.53 698.3,-112.53 704.3,-112.53 710.3,-118.53 710.3,-124.53 710.3,-124.53 710.3,-145.81 710.3,-145.81 710.3,-151.81 704.3,-157.81 698.3,-157.81"/>
+<text text-anchor="start" x="166.4" y="-136.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">2: </text>
+<text text-anchor="start" x="185.9" y="-136.87" font-family="Roboto, sans-serif" font-size="14.00">Ist der MSB f&#252;r den angefragten Zeitraum z.&#160;B. aufgrund einer Vollmacht</text>
+<text text-anchor="start" x="166.4" y="-122.87" font-family="Roboto, sans-serif" font-size="14.00">berechtigt die angefragten Stammdaten zu erhalten?</text>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g id="edge3" class="edge">
+<title>1-&gt;2</title>
+<path fill="none" stroke="#88a0d6" d="M333.89,-211.28C351.77,-197.47 375.22,-179.36 394.62,-164.38"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="396.51,-167.34 402.29,-158.46 392.23,-161.8 396.51,-167.34"/>
+<text text-anchor="start" x="375.15" y="-180.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 2&#45;&gt;Stammdaten versenden -->
+<g id="edge5" class="edge">
+<title>2-&gt;Stammdaten versenden</title>
+<path fill="none" stroke="#88a0d6" d="M374.46,-112.59C327.37,-94.67 260.79,-69.33 214.17,-51.58"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="215.66,-48.4 205.07,-48.12 213.17,-54.95 215.66,-48.4"/>
+<text text-anchor="start" x="319.15" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A01 -->
+<g id="node5" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M501.05,-59.28C501.05,-59.28 361.25,-59.28 361.25,-59.28 355.25,-59.28 349.25,-53.28 349.25,-47.28 349.25,-47.28 349.25,-12 349.25,-12 349.25,-6 355.25,0 361.25,0 361.25,0 501.05,0 501.05,0 507.05,0 513.05,-6 513.05,-12 513.05,-12 513.05,-47.28 513.05,-47.28 513.05,-53.28 507.05,-59.28 501.05,-59.28"/>
+<text text-anchor="start" x="363.65" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="363.65" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Keine Berechtigung</text>
+</g>
+<!-- 2&#45;&gt;A01 -->
+<g id="edge4" class="edge">
+<title>2-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M431.15,-112.72C431.15,-100.47 431.15,-84.74 431.15,-70.32"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="434.65,-70.65 431.15,-60.65 427.65,-70.65 434.65,-70.65"/>
+<text text-anchor="start" x="431.15" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

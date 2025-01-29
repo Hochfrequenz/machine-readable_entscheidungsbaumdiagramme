@@ -1,0 +1,45 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">9.9.1: AD: Angebot zur Rechnungsabwicklung des Messstellenbetriebes über den LF durch den MSB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0205</B><BR align="left"/><FONT>Prüfende Rolle: <B>LF</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>1: </B>Liegt ein gültiger Vertrag zwischen MSB und LF vor, der die Rechnungsabwicklung<BR align="left"/>des Messstellenbetriebs an den LF regelt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Kein gültiger Vertrag<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>2: </B>Sind alle Messlokationen der angefragten Marktlokationen mit kME ausgestattet?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Ausschließlich mit kME ausgestattet<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>3: </B>Lässt das Vertragsverhältnis mit dem Kunden die Abrechnung des<BR align="left"/>Messstellenbetriebs zu?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Vertragsverhältnis mit Dritten lässt Abrechnung des Messstellenbetriebs nicht zu<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "4" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>4: </B>Lässt das Vertragsverhältnis mit dem Kunden das im Angebot benannte Beginndatum<BR align="left"/>zum Messstellenbetrieb zu?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A04" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A04</B><BR align="left"/><BR align="left"/><FONT>Vertragsverhältnis mit Dritten lässt das Beginn-datum nicht zu<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "5" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>5: </B>Handelt es sich um ein Angebot auf Basis eines Preisblattes?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "6" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>6: </B>Liegt dem LF das Preisblatt mit dem im Angebot an-gegebenen Preisschlüsselstamm vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A05" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A05</B><BR align="left"/><BR align="left"/><FONT>Kein Preisblatt vorhanden<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>7: </B>Entsprechen die angebotenen Positionen dem Vertragsverhältnis mit dem Kunden?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A06" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A06</B><BR align="left"/><BR align="left"/><FONT>Angebotspositionen abweichend zum Vertrags-verhältnis<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "Bestellung versenden" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Bestellung versenden<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+
+    "Start" -> "1" [color="#88a0d6"];
+    "1" -> "A01" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "1" -> "2" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "2" -> "A02" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "2" -> "3" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "3" -> "A03" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "3" -> "4" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "4" -> "A04" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "4" -> "5" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "5" -> "6" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "5" -> "7" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "6" -> "A05" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "6" -> "7" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "7" -> "A06" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "7" -> "Bestellung versenden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+
+    bgcolor="transparent";
+fontname="Roboto, sans-serif";
+}
