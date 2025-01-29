@@ -1,0 +1,44 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.29.1: AD: Bestellung Änderung Konzessionsabgabe vom LF</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0477</B><BR align="left"/><FONT>Prüfende Rolle: <B>NB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Ist der Marktlokation zum Zeitpunkt der bestellten Änderung die Sondervertragskunden-KA zugeordnet?<BR align="left"/>Hinweis: Wenn der Marktlokation zum Zeitpunkt der bestellten Änderung die<BR align="left"/>Sondervertragskunden-KA zugeordnet ist und die Kriterien nach § 2 Abs. 7 KAV<BR align="left"/>wurden nicht erreicht, so ist diese Frage mit „nein“ zu beantworten.<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Sondervertragskunden-KA gemäß § 2 Abs. 3 der Konzessionsabgabenverordnung,<BR align="left"/>daher keine Änderung möglich<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Ist die Marktlokation von der Konzessionsabgabe befreit?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Änderung nicht möglich, da Marktlokation von Konzessionsabgabe befreit.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>30: </B>Ist der bestellte Zustand an der Marktlokation bereits vorhanden?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Der gewünschte Zustand ist bereits an der Marktlokation hinterlegt.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>40: </B>Bestellt der LF für eine Marktlokation den Wechsel auf eine<BR align="left"/>Schwachlast-Konzessionsabgabe?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "Stammdatenänderung NB (verantwortlich) ausgehend
+Hinweis: Der LF beauftragt den NB die Schwachlast-Konzessionsabgabe an der Marktlokation nicht mehr ab dem angegebenen Zeitpunkt abzurechnen. Es soll die reguläre Konzessionsabgabe abgerechnet werden." [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Stammdatenänderung NB (verantwortlich) ausgehend<BR align="left"/>Hinweis: Der LF beauftragt den NB die Schwachlast-Konzessionsabgabe an der<BR align="left"/>Marktlokation nicht mehr ab dem angegebenen Zeitpunkt abzurechnen. Es soll die<BR align="left"/>reguläre Konzessionsabgabe abgerechnet werden.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "50" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>50: </B>Möchte der NB die Bestellung der rückwirkenden Änderung der Konzessionsabgabe<BR align="left"/>aufgrund rechtlicher Fristen ablehnen?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A05" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A05</B><BR align="left"/><BR align="left"/><FONT>Eine rückwirkende Änderung wird abgelehnt<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "60" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>60: </B>Lässt die Gerätekonfiguration der Messlokationen der angefragten Marktlokation<BR align="left"/>zum Umsetzungszeitpunkt die separate Erfassung der Energie in den<BR align="left"/>Schwachlastzeiten zu, um die niedrige Konzessionsabgabe für diese Menge<BR align="left"/>abrechnen zu können?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A04" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A04</B><BR align="left"/><BR align="left"/><FONT>An der Marktlokation kann die Energie in den Schwachlastzeiten nicht zum<BR align="left"/>angefragten Zeitpunkt separat erfasst werden.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "Stammdatenänderung NB (verantwortlich) ausgehend" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Stammdatenänderung NB (verantwortlich) ausgehend<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+
+    "Start" -> "10" [color="#88a0d6"];
+    "10" -> "A01" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "10" -> "20" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "A02" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "30" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "A03" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "40" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "Stammdatenänderung NB (verantwortlich) ausgehend
+Hinweis: Der LF beauftragt den NB die Schwachlast-Konzessionsabgabe an der Marktlokation nicht mehr ab dem angegebenen Zeitpunkt abzurechnen. Es soll die reguläre Konzessionsabgabe abgerechnet werden." [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "50" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "A05" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "60" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "60" -> "A04" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "60" -> "Stammdatenänderung NB (verantwortlich) ausgehend" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+
+    bgcolor="transparent";
+fontname="Roboto, sans-serif";
+}
