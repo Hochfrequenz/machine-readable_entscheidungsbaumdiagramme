@@ -1,0 +1,48 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.53.2: AD Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB
+
+
+
+end title
+:<b>E_0516</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>10: </b> Ergibt die Prüfung der abgelehnten Rechnung, dass die Ablehnung durch den Rechnungsempfänger gerechtfertigt war?) then (ja)
+    :Versand der Nachricht „Storno der ursprünglichen Rechnung“;
+    kill;
+else (nein)
+    :A99;
+    note left
+        Die Rechnung wird als korrekt angesehen.
+        Hinweis: Es ist zu begründen, warum die Rechnung korrekt ist. 
+        Nutzungsmöglichkeit Ende: offen
+    endnote
+    kill;
+endif
+
+@enduml
