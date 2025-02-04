@@ -8,6 +8,7 @@ digraph D {
     packmode="array";
     size="20,20";
     fontsize=12;
+    pad=0.25;
     "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0548</B><BR align="left"/><FONT>Prüfende Rolle: <B>NB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Reklamiert der Anfragende das Fehlen der ausgerollten Zählzeitdefinition?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Entspricht der Code der Zählzeitdefinition einem Code aus der für den<BR align="left"/>reklamierten Zeitraum gültigen Übersicht der Zählzeitdefinitionen?<BR align="left"/>>, fontname="Roboto, sans-serif"];
