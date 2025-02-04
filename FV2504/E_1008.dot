@@ -8,6 +8,7 @@ digraph D {
     packmode="array";
     size="20,20";
     fontsize=12;
+    pad=0.25;
     "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_1008</B><BR align="left"/><FONT>Prüfende Rolle: <B>NB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Bezieht sich das Nicht-Zahlungsavis auf eine Rechnung der Kategorie<BR align="left"/>„Unterbrechung der Anschlussnutzung (Sperren)“?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Bezieht sich das Nicht-Zahlungsavis auf eine Rechnung der Kategorie<BR align="left"/>„Verzugskosten“?<BR align="left"/>>, fontname="Roboto, sans-serif"];
