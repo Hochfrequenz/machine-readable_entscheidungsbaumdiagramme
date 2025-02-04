@@ -8,6 +8,7 @@ digraph D {
     packmode="array";
     size="20,20";
     fontsize=12;
+    pad=0.25;
     "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0250</B><BR align="left"/><FONT>Prüfende Rolle: <B>MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Ist der LF der Marktlokation der genannten Lokation im gewünschten<BR align="left"/>Umsetzungszeitraum zugeordnet?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Liegt dem MSB eine Vollmacht des Letztverbrauchers bzw. Erzeugers vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
