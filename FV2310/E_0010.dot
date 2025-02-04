@@ -8,6 +8,7 @@ digraph D {
     packmode="array";
     size="20,20";
     fontsize=12;
+    pad=0.25;
     "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0010</B><BR align="left"/><FONT>Prüfende Rolle: <B>NB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>1: </B>Erfolgt die Deaktivierung nach Ablauf der Clearingfrist für die KBKA?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Fristüberschreitung<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
