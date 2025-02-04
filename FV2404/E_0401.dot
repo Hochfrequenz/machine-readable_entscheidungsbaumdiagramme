@@ -8,6 +8,7 @@ digraph D {
     packmode="array";
     size="20,20";
     fontsize=12;
+    pad=0.25;
     "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0401</B><BR align="left"/><FONT>Prüfende Rolle: <B>NB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Liegt ein Transaktionsgrund vor, der eine Abmeldung nur in die Zukunft zulässt?<BR align="left"/>Das ist bei den folgenden Transaktionsgründen der Fall:<BR align="left"/>Ende wegen Kündigung durch LF<BR align="left"/>Ende wegen Kündigung durch Kunde/LFN<BR align="left"/>Ende der ESV ohne Folgelieferung<BR align="left"/>Aufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Liegt ein Transaktionsgrund vor, welcher mitteilt, dass der Kunde vor<BR align="left"/>Lieferbeginn ausgezogen ist, bzw. die Marktlokation vor Lieferbeginn stillgelegt wurde?<BR align="left"/>Das ist bei den folgenden Transaktionsgründen der Fall:<BR align="left"/>Aufhebung einer zukünftigen Zuordnung wegen Auszug des Kunden<BR align="left"/>Aufhebung einer zukünftigen Zuordnung wegen Stilllegung<BR align="left"/>>, fontname="Roboto, sans-serif"];

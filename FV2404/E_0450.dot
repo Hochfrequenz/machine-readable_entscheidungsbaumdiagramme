@@ -8,6 +8,7 @@ digraph D {
     packmode="array";
     size="20,20";
     fontsize=12;
+    pad=0.25;
     "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0450</B><BR align="left"/><FONT>Prüfende Rolle: <B>ÜNB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>1: </B>Sind Fehler im Rahmen der AHB-Prüfungen in den Stammdaten des NB festgestellt worden?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "A97" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A97</B><BR align="left"/><BR align="left"/><FONT>Die Stammdaten des NB genügen nicht den AHB-Vorgaben.<BR align="left"/>Hinweis: Diese Prüfung ist auf alle Stammdaten des NB anzuwenden. Es sind die<BR align="left"/>Fehlerorte aller dabei festgestellten Fehler in der Antwort zu benennen.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
