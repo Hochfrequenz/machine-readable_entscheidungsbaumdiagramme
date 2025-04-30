@@ -5,7 +5,7 @@
     "ebd_name": "E_0456_Lieferschein prüfen",
     "remark": null,
     "role": "LF",
-    "section": "6.10.1: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung"
+    "section": "6.9.1: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -56,7 +56,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht der Typ dieses Lieferscheins (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis) für den übermittelten Zeit-raum mit der an der Marktlokation hinterlegten Netznutzungsabrechnungsvariante (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis)?",
+      "description": "Entspricht der Typ dieses Lieferscheins (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis) für den übermittelten Zeit-raum der an der Marktlokation hinterlegten Netznutzungsabrechnungsvariante (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis), welche sich aus der Artikel-ID bzw. Gruppenartikel-ID ergibt, falls die Netznutzungsabrechnungsvariante nicht explizit über entsprechende Codes ausgetauscht wurde?",
       "step_number": "3",
       "sub_rows": [
         {

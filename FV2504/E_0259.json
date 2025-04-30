@@ -31,7 +31,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung auf Kopfebene\nRechnung entspricht nicht §14 UstG",
+          "note": "Cluster: Ablehnung auf Kopfebene\nRechnung entspricht nicht §14 UStG",
           "result_code": "A01"
         },
         {
@@ -207,7 +207,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist die Frist der Fälligkeit unterschritten?\n(Zahlungsziel < 10 WT zum Rechnungseingangsdatum)",
+      "description": "Ist die Frist der Fälligkeit unterschritten?\n(Zahlungsziel ≤ 10 WT zum Rechnungseingangsdatum)",
       "step_number": "90",
       "sub_rows": [
         {
