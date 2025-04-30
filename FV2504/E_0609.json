@@ -5,7 +5,7 @@
     "ebd_name": "E_0609_Abmeldung prüfen",
     "remark": null,
     "role": "LF",
-    "section": "6.5.1: AD: Lieferende von NB an LF"
+    "section": "6.4.1: AD: Lieferende von NB an LF"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -16,7 +16,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "20"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -24,7 +24,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "510"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -116,7 +116,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "40"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -125,7 +125,7 @@
       "use_cases": null
     },
     {
-      "description": "Wurde die Vorlauffrist eingehalten?",
+      "description": "Wurde die Vorlauffrist eingehalten?\nHinweis: \nEs ist die maximale und die minimale Vorlauffrist zu prüfen.",
       "step_number": "40",
       "sub_rows": [
         {
@@ -133,13 +133,13 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung:\nVorlauffrist wurde nicht eingehalten",
+          "note": "Cluster: Ablehnung\nVorlauffrist wurde nicht eingehalten",
           "result_code": "A03"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "50"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -154,7 +154,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "60"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -162,7 +162,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "70"
+            "subsequent_step_number": null
           },
           "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor:\nAbmeldung wg. fehl. Zuordnungsermächtigung aufgrund Deaktivierung vom BKV beim NB\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT",
           "result_code": null
@@ -185,7 +185,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "130"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -194,8 +194,31 @@
       "use_cases": null
     },
     {
+      "description": "Liegt der Transaktionsgrund \nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT \nvor?",
+      "step_number": "80",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Hinweis: Es liegt der Transaktionsgrund „Abmeldung wg. fehl. Zuordnungsermächtigung“ aufgrund Deaktivierung vom BKV beim NB vor.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
       "description": "Ist das angegebene Datum „Lieferende“ der nächste 1. eines Kalendermonats 00:00 Uhr?",
-      "step_number": "70",
+      "step_number": "85",
       "sub_rows": [
         {
           "check_result": {
@@ -208,39 +231,16 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "80"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Liegt der Transaktionsgrund Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT vor?",
-      "step_number": "80",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "90"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
             "subsequent_step_number": "100"
           },
-          "note": "Hinweis: Es liegt der Transaktionsgrund „Abmeldung wg. fehl. Zuordnungsermächtigung“ aufgrund Deaktivierung vom BKV beim NB vor.",
+          "note": null,
           "result_code": null
         }
       ],
       "use_cases": null
     },
     {
-      "description": "Wurde der Zeitreihentyp an der betreffenden Marktlokation auf einen ZRT geändert, für welchen eine Zuordnungsermächtigung besteht?",
+      "description": "Wurde der Zeitreihentyp an der betreffenden Marktlokation zum übermittelten Lieferende auf einen ZRT geändert, für welchen aus Sicht des LF dem NB eine Zuordnungsermächtigung vorliegen müsste?\nHinweise: \n- Es besteht voraussichtlich ein Datenschiefstand zur Zuordnungsermächtigung zwischen NB und LF.\n- Liegt keine Änderung des Zeitreihentyps zum übermittelten Lieferende vor, ist die Frage mit ja zu beantworten.",
       "step_number": "90",
       "sub_rows": [
         {
@@ -248,13 +248,13 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Zustimmung\nEs liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor)\nHinweis: Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.",
+          "note": "Cluster: Ablehnung\nEs liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung aus Sicht des LF besteht. \nHinweise:\n- Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.\n- Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB.",
           "result_code": "A06"
         },
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "130"
+            "subsequent_step_number": null
           },
           "note": "Hinweis: Der LF weiß, der BKV hat die notwendige Zuordnungsermächtigung nicht vergeben.",
           "result_code": null
@@ -268,39 +268,16 @@
       "sub_rows": [
         {
           "check_result": {
-            "result": true,
+            "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Zustimmung\nDeaktivierung der Zuordnungsermächtigung für den der Marktlokation zugeordneten ZRT hat stattgefunden.",
+          "note": "Cluster: Ablehnung\nAus Sicht des LF wurde die Zuordnungsermächtigung für den an der Marktlokation genannten ZRT nicht deaktiviert.\nHinweis: Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB.",
           "result_code": "A07"
         },
         {
           "check_result": {
-            "result": false,
-            "subsequent_step_number": "110"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Hat die dem Lieferende zugrundeliegende Deaktivierung der Zuordnungsermächtigung ihre Gültigkeit weiter als einen Monat in die Zukunft?",
-      "step_number": "110",
-      "sub_rows": [
-        {
-          "check_result": {
             "result": true,
             "subsequent_step_number": null
-          },
-          "note": "Cluster: Ablehnung \nFrist nicht eingehalten",
-          "result_code": "A08"
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "120"
           },
           "note": null,
           "result_code": null
@@ -323,7 +300,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "130"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -369,7 +346,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "520"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -378,7 +355,7 @@
       "use_cases": null
     },
     {
-      "description": "Wurde die Vorlauffrist eingehalten?",
+      "description": "Wurde die Vorlauffrist eingehalten? \nHinweis: \nEs ist die maximale und die minimale Vorlauffrist zu prüfen.",
       "step_number": "520",
       "sub_rows": [
         {
@@ -392,7 +369,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "530"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -407,7 +384,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "540"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -415,7 +392,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "550"
+            "subsequent_step_number": null
           },
           "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor:\nAbmeldung wg. fehl. Zuordnungsermächtigung aufgrund Deaktivierung vom BKV beim NB\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT",
           "result_code": null
@@ -438,7 +415,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "610"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -447,8 +424,31 @@
       "use_cases": null
     },
     {
-      "description": "Ist das angegebene Datum „Lieferende“ der 1. eines Kalendermonats 00:00 Uhr?",
-      "step_number": "550",
+      "description": "Liegt der Transaktionsgrund \nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT vor?",
+      "step_number": "560",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Hinweis: Es liegt der Transaktionsgrund „Abmeldung wg. fehl. Zuordnungsermächtigung“ aufgrund Deaktivierung vom BKV beim NB vor.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das angegebene Datum „Lieferende“ der nächste 1. eines Kalendermonats 00:00 Uhr?",
+      "step_number": "565",
       "sub_rows": [
         {
           "check_result": {
@@ -461,7 +461,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "560"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null
@@ -470,30 +470,7 @@
       "use_cases": null
     },
     {
-      "description": "Liegt der Transaktionsgrund Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT vor?",
-      "step_number": "560",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "570"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "580"
-          },
-          "note": "Hinweis: Es liegt der Transaktionsgrund „Abmeldung wg. fehl. Zuordnungsermächtigung“ aufgrund Deaktivierung vom BKV beim NB vor.",
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Wurde der Zeitreihentyp an der betreffenden Marktlokation bzw. Tranche auf einen ZRT geändert, für welchen eine Zuordnungsermächtigung besteht?",
+      "description": "Wurde der Zeitreihentyp zum übermittelten Lieferende an der betreffenden Marktlokation bzw. Tranche auf einen ZRT geändert, für welchen aus Sicht des LF dem NB eine Zuordnungsermächtigung vorliegen müsste?\nHinweise:\n- Es besteht voraussichtlich ein Datenschiefstand zur Zuordnungsermächtigung zwischen NB und LF.\n- Liegt keine Änderung des Zeitreihentyps zum übermittelten Lieferende vor, ist die Frage mit ja zu beantworten.",
       "step_number": "570",
       "sub_rows": [
         {
@@ -501,13 +478,13 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Zustimmung\nEs liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor)\nHinweis: Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.",
+          "note": "Cluster: Ablehnung\nEs liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung aus Sicht des LF besteht. \nHinweise:\n- Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.\n- Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB.",
           "result_code": "A25"
         },
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "610"
+            "subsequent_step_number": null
           },
           "note": "Hinweis: Der LF weiß, der BKV hat die notwendige Zuordnungsermächtigung nicht vergeben.",
           "result_code": null
@@ -521,39 +498,16 @@
       "sub_rows": [
         {
           "check_result": {
-            "result": true,
+            "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Zustimmung\nDeaktivierung der Zuordnungsermächtigung für den der Marktlokation bzw. Tranche zugeordneten ZRT hat stattgefunden.",
+          "note": "Cluster: Ablehnung\nAus Sicht des LF wurde die Zuordnungsermächtigung für den an der Marktlokation bzw. Tranche genannten ZRT nicht deaktiviert.\nHinweis: Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB",
           "result_code": "A26"
         },
         {
           "check_result": {
-            "result": false,
-            "subsequent_step_number": "590"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Hat die dem Lieferende zugrundeliegende Deaktivierung der Zuordnungsermächtigung ihre Gültigkeit weiter als einen Monat in die Zukunft?",
-      "step_number": "590",
-      "sub_rows": [
-        {
-          "check_result": {
             "result": true,
             "subsequent_step_number": null
-          },
-          "note": "Cluster: Ablehnung \nFrist nicht eingehalten",
-          "result_code": "A27"
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "600"
           },
           "note": null,
           "result_code": null
@@ -576,7 +530,7 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "610"
+            "subsequent_step_number": null
           },
           "note": null,
           "result_code": null

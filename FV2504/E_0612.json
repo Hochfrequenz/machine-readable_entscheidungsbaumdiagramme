@@ -5,7 +5,7 @@
     "ebd_name": "E_0612_Abrechnungsdaten Bilanzkreisabrechnung prüfen",
     "remark": null,
     "role": "ÜNB",
-    "section": "6.17.2: AD: Abrechnungsdaten Bilanzkreisabrechnung"
+    "section": "6.16.2: AD: Abrechnungsdaten Bilanzkreisabrechnung"
   },
   "multi_step_instructions": [
     {
@@ -222,7 +222,7 @@
       "use_cases": null
     },
     {
-      "description": "Passt die aus der Transaktionsgrundergänzung sich ableitende Lieferrichtung zum ZRT?",
+      "description": "Passt die aus dem Transaktionsgrund sich ableitende Lieferrichtung zum ZRT?",
       "step_number": "130",
       "sub_rows": [
         {

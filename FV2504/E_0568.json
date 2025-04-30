@@ -50,7 +50,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung auf Kopfebene\nRechnung entspricht nicht §14 UstG",
+          "note": "Cluster: Ablehnung auf Kopfebene\nRechnung entspricht nicht §14 UStG",
           "result_code": "A01"
         },
         {
@@ -433,7 +433,7 @@
       "use_cases": null
     },
     {
-      "description": "Darf aus Sicht des NB die Artikel-ID in dieser Rechnung nicht angegeben werden, da diese aus Sicht des NB für diese Marktlokation nicht passt?\nHinweis: Ggf. ist zu prüfen: \nder Mittelwert des Jahresstromverbrauchs der vorherigen drei Kalenderjahre\ndie Jahresverbrauchsprognose für die Marktlokation\ndie installierte Leistung",
+      "description": "Darf aus Sicht des NB die Artikel-ID in dieser Rechnung angegeben werden, da diese aus Sicht des NB für diese Marktlokation passt?\nHinweis: Ggf. ist zu prüfen: \nder Mittelwert des Jahresstromverbrauchs der vorherigen drei Kalenderjahre\ndie Jahresverbrauchsprognose für die Marktlokation\ndie installierte Leistung",
       "step_number": "302",
       "sub_rows": [
         {

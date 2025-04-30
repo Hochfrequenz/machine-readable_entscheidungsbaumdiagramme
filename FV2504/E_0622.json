@@ -5,7 +5,7 @@
     "ebd_name": "E_0622_Prüfen, ob Anmeldung direkt ablehnbar",
     "remark": null,
     "role": "NB",
-    "section": "6.7.1: AD: Lieferbeginn"
+    "section": "6.6.1: AD: Lieferbeginn"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -179,7 +179,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster Ablehnung\nDie zu integrierende Marktlokation befindet sich nicht hinter der /den gleichen Netzlokation(en) liegen, wie die Marktlokation der „Kundenanlage“ („Abbildung von § 20 Abs. 1d EnWG bzw. § 10c EEG“).",
+          "note": "Cluster: Ablehnung\nDie zu integrierende Marktlokation befindet sich nicht hinter der /den gleichen Netzlokation(en) liegen, wie die Marktlokation der „Kundenanlage“ („Abbildung von § 20 Abs. 1d EnWG bzw. § 10c EEG“).",
           "result_code": "A37"
         },
         {
@@ -248,7 +248,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung:\nAnforderungen können nicht erfüllt werden\nHinweis: die Abweichungen sind zu benennen",
+          "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: die Abweichungen sind zu benennen",
           "result_code": "A05"
         },
         {
@@ -340,7 +340,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung:\nAnforderungen können nicht erfüllt werden\nHinweis: die Abweichungen sind zu benennen",
+          "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: die Abweichungen sind zu benennen",
           "result_code": "A25"
         },
         {

@@ -32,7 +32,7 @@ note right
 <b><i>Prüfende Rolle: LF
 end note
 
-if (<b>1: </b> Liegt für diesen MaBiS-ZP ein gültiges LF-CL Abonnement vor? Entspricht die Versionsangabe in der BG-CL der Versionsangabe der BG-SZR (Kategorie B&#41;, zu der eine BG-CL angefordert wurde?) then (ja)
+if (<b>1: </b> Liegt für diesen MaBiS-ZP ein gültiges LF-CL Abonnement vor?) then (ja)
 else (nein)
     :A01;
     note left

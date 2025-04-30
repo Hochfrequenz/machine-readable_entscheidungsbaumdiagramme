@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.7.4: AD: Lieferbeginn</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.6.4: AD: Lieferbeginn</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
@@ -25,6 +25,8 @@ digraph D {
     "430" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>430: </B>Hat der LFA der Anfrage zur Beendigung der Zuordnung widersprochen?<BR align="left"/>Hinweis: Im Fall der Zustimmung ist dem LFA, dem die Anfrage zur Beendigung der<BR align="left"/>Zuordnung zugestellt wurde in jedem Fall eine "Beendigung der Zuordnung des LFA<BR align="left"/>zur Marktlokation bzw. Tranche" zuzusenden.<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "440" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>440: </B>Wurde in der Beantwortung der Anfrage zur Beendigung der Zuordnung der Code A41<BR align="left"/>„Ablehnung: Die Belieferung wurde zu dem angefragten Termin aus der Anfrage zur<BR align="left"/>Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits<BR align="left"/>versendet, die durch den NB bereits bestätigt wurde.“ verwendet?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "A57" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A57</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Der LFA hat der Anfrage zur Beendigung der Zuordnung widersprochen.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "450" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>450: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A58" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A58</B><BR align="left"/><BR align="left"/><FONT>Cluster: Zustimmung<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
     "500" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>500: </B>Wurden Anfragen zur Beendigung der Zuordnung an die zugeordneten Lieferanten<BR align="left"/>der Tranchen, an der Marktlokation gestellt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "510" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>510: </B>Wurde mindestens einer Anfrage zur Beendigung der Zuordnung zugestimmt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "A53" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A53</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Der gewünschte Prozentsatz an der Marktlokation ist nicht frei<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
@@ -52,13 +54,15 @@ digraph D {
     "400" -> "500" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "400" -> "410" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "410" -> "420" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "410" -> "600" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "410" -> "450" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "420" -> "430" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "420" -> "600" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "420" -> "450" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "430" -> "440" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "430" -> "500" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "430" -> "450" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "440" -> "A57" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "440" -> "500" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "440" -> "450" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "450" -> "A58" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "450" -> "A99" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "500" -> "510" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "500" -> "600" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "510" -> "520" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];

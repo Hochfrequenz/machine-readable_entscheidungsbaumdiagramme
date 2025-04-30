@@ -5,7 +5,7 @@
     "ebd_name": "E_0607_Abmeldung prüfen",
     "remark": null,
     "role": "NB",
-    "section": "6.4.1: AD: Lieferende von LF an NB"
+    "section": "6.3.1: AD: Lieferende von LF an NB"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -141,7 +141,7 @@
             "result": false,
             "subsequent_step_number": "100"
           },
-          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor: \nEin-/Auszug (Umzug)\nAuszug wegen Stilllegung\nEnde der ESV ohne Folgelieferung\nAufhebung einer zukünftigen Zuordnung wegen Auszug des Kunden\nAufhebung einer zukünftigen Zuordnung wegen Stilllegung\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN",
+          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor: \nEin-/Auszug (Umzug)\nAuszug wegen Stilllegung\nAufhebung einer zukünftigen Zuordnung wegen Auszug des Kunden\nAufhebung einer zukünftigen Zuordnung wegen Stilllegung\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN",
           "result_code": null
         }
       ],
@@ -407,7 +407,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "570"
+            "subsequent_step_number": "560"
           },
           "note": null,
           "result_code": null
@@ -438,9 +438,9 @@
         {
           "check_result": {
             "result": false,
-            "subsequent_step_number": "620"
+            "subsequent_step_number": "580"
           },
-          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor: \nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nEnde der ESV ohne Folgelieferung",
+          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor: \nAuszug wegen Stilllegung\nAufhebung einer zukünftigen Zuordnung wegen Stilllegung\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN",
           "result_code": null
         }
       ],
@@ -463,7 +463,7 @@
             "result": true,
             "subsequent_step_number": "580"
           },
-          "note": "Hinweis: Es liegt einer der folgenden Transaktionsgründe vor: \nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN",
+          "note": null,
           "result_code": null
         }
       ],
@@ -516,7 +516,7 @@
       "use_cases": null
     },
     {
-      "description": "Liegt ein Transaktionsgrund vor, aus welchem hervorgeht, dass der Anschlussnutzer ausgezogen ist?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEin-/Auszug (Umzug)\nAuszug wegen Stilllegung",
+      "description": "Liegt der Transaktionsgrund „Auszug wegen Stilllegung“ vor?",
       "step_number": "600",
       "sub_rows": [
         {
@@ -530,7 +530,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": null
+            "subsequent_step_number": "610"
           },
           "note": null,
           "result_code": null
@@ -539,7 +539,7 @@
       "use_cases": null
     },
     {
-      "description": "Liegt in der bereits bestätigten Abmeldung ein Transaktionsgrund vor, aus welchem nicht hervorgeht, dass der Anschlussnutzer ausgezogen ist?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nEnde der ESV ohne Folgelieferung\nAufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis\nAbmeldung wg. fehl. Zuordnungsermächtigung\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT",
+      "description": "Liegt in der bereits bestätigten Abmeldung ein Transaktionsgrund vor, aus welchem nicht hervorgeht, dass der Anschlussnutzer ausgezogen ist?\nDas ist bei den folgenden Transaktionsgründen der Fall:\nEnde wegen Kündigung durch LF\nEnde wegen Kündigung durch Kunde/LFN\nAufhebung einer zukünftigen Zuordnung wegen aufgehobenem Vertragsverhältnis\nAbmeldung wg. fehl. Zuordnungsermächtigung\nAbmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT",
       "step_number": "610",
       "sub_rows": [
         {

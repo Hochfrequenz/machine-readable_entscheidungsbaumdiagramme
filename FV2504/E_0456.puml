@@ -22,7 +22,7 @@ endheader
 title
 GPKE
 
-6.10.1: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung
+6.9.1: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung
 
 
 
@@ -50,7 +50,7 @@ if (<b>2: </b> Liegt das Endedatum des Zeitraums des Lieferscheins in der Zukunf
     kill;
 else (nein)
 endif
-if (<b>3: </b> Entspricht der Typ dieses Lieferscheins (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis&#41; für den übermittelten Zeit-raum mit der an der Marktlokation hinterlegten Netznutzungsabrechnungsvariante (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis&#41;?) then (ja)
+if (<b>3: </b> Entspricht der Typ dieses Lieferscheins (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis&#41; für den übermittelten Zeit-raum der an der Marktlokation hinterlegten Netznutzungsabrechnungsvariante (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis&#41;, welche sich aus der Artikel-ID bzw. Gruppenartikel-ID ergibt, falls die Netznutzungsabrechnungsvariante nicht explizit über entsprechende Codes ausgetauscht wurde?) then (ja)
 else (nein)
     :A03;
     note left
