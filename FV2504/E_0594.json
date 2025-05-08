@@ -1,0 +1,1357 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0594",
+    "ebd_name": "E_0594_Anfrage vom LF prüfen",
+    "remark": null,
+    "role": "NB",
+    "section": "6.1.1: AD: Ermittlung der MaLo-ID der Marktlokation"
+  },
+  "multi_step_instructions": [
+    {
+      "first_step_number_affected": "100",
+      "instruction_text": "Die nachfolgenden Prüfungen erfolgen auf Basis der Identifikationskriterien aus der Anfrage und dem gesamten Datenbestand im System."
+    },
+    {
+      "first_step_number_affected": "205",
+      "instruction_text": "Die nachfolgenden Prüfungen erfolgen auf Basis der Identifikationskriterien aus der Anfrage und der Trefferliste auf Basis eines Kriteriums aus den vorhergehenden Prüfungen. In der Trefferliste befinden sich Marktlokationen, bei denen mindestens eines der Identifikationskriterien mit einem Identifikationskriterium der Anfrage übereinstimmt."
+    },
+    {
+      "first_step_number_affected": "305",
+      "instruction_text": "Die nachfolgenden Prüfungen erfolgen auf Basis der Identifikationskriterien aus der Anfrage und der Trefferliste auf Basis von zwei Kriterien aus den vorhergehenden Prüfungen. In der Trefferliste befinden sich Marktlokationen, bei denen mindestens eine Kombination aus zwei Identifikationskriterien mit der Anfrage übereinstimmt."
+    },
+    {
+      "first_step_number_affected": "400",
+      "instruction_text": "Die nachfolgenden Prüfungen erfolgen auf Basis der Identifikationskriterien aus der Anfrage und der Trefferliste auf Basis von drei Kriterien aus den vorhergehenden Prüfungen. In der Trefferliste befinden sich Marktlokationen, bei denen mindestens eine Kombination aus drei Identifikationskriterien mit der Anfrage übereinstimmt."
+    }
+  ],
+  "rows": [
+    {
+      "description": "Ist das Identifikationskriterium „Marktlokations-ID“ in der Anfrage enthalten?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Identifikationskriterium „Tranchen-ID“ in der Anfrage enthalten?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "100"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die „Marktlokation-ID“ oder „Tranchen ID“ dem NB bekannt?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "705"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie „Marktlokation-ID“ oder „Tranchen ID“ ist dem NB nicht bekannt.",
+          "result_code": "A14"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Identifikationskriterium „Adresse“ in der Anfrage enthalten?",
+      "step_number": "100",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "105"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "110"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "[Adressprüfung] (Straße und PLZ oder geographische Koordinaten oder Flurstücknummer)\nHinweis:\nDas Weglassen der Hausnummer, trägt dem Umstand Rechnung, dass einige NB eher die Adresse des Geräts und nicht die Lieferadresse hinterlegt haben. Wenn der Zähler im Doppelhaus nebenan zu finden ist, weiß der Kunde das ggf. nicht. Das Weglassen des Ortes minimiert die Problematik von Tippfehlern, Ortsteilen und Ortszusätzen.",
+      "step_number": "105",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "110"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die folgenden Identifikationskriterien in der Anfrage vorhanden:\nVorname und/oder Nachname \noder\nFirmenname?",
+      "step_number": "110",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "115"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "[Namensprüfung] (Nachname oder Firmenname)",
+      "step_number": "115",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "120"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Identifikationskriterium „Gerätenummer“ in der Anfrage enthalten?",
+      "step_number": "120",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "125"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "130"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "[Gerätenummernprüfung]",
+      "step_number": "125",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "130"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Identifikationskriterium „MeLo-ID“ in der Anfrage enthalten?",
+      "step_number": "130",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "135"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "140"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "[MeLo-ID-Prüfung]",
+      "step_number": "135",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "140"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Identifikationskriterium „Kundennummer“ in der Anfrage enthalten?",
+      "step_number": "140",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "150"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "160"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "[Kundennummer-Prüfung]",
+      "step_number": "150",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "160"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis eines Kriteriums 1..n Treffer mit einem Identifikationskriterium?",
+      "step_number": "160",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMit einem Identifikationskriterium war keine Marktlokation ermittelbar.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "205"
+          },
+          "note": "Trefferliste auf Basis eines Kriteriums mit 1..n Treffern aus den vorangegangenen Prüfungen liegt vor",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „Adresse“ und „Vorname und/oder Nachname oder Firmenname“ in der Anfrage enthalten?",
+      "step_number": "205",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "210"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "215"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten oder Flurstücknummer) und [Namensprüfung] (Nachname oder Firmenname)",
+      "step_number": "210",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "215"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „Vorname und/oder Nachname oder Firmenname“ und „Gerätenummer“ in der Anfrage enthalten?",
+      "step_number": "215",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "220"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "225"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [Namensprüfung] (Nachname oder Firmenname) und [Gerätenummernprüfung]",
+      "step_number": "220",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "225"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „Gerätenummer“ und „Adresse“ in der Anfrage enthalten?",
+      "step_number": "225",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "230"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "235"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [Gerätenummernprüfung] und [Adressprüfung] (PLZ oder geographische Koordinaten oder Flurstücknummer)",
+      "step_number": "230",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "235"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „MeLo-ID“ und „Adresse“ in der Anfrage enthalten?",
+      "step_number": "235",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "240"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "245"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [MeLo-ID-Prüfung] und [Adressprüfung] (Straße und PLZ oder geographische Koordinaten oder Flurstücknummer)",
+      "step_number": "240",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "245"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „MeLo-ID“ und „Vorname und/oder Nachname oder Firmenname“ in der Anfrage enthalten?",
+      "step_number": "245",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "250"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "261"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [MeLo-ID-Prüfung] und [Namensprüfung] (Nachname oder Firmenname)",
+      "step_number": "250",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "261"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „Kundennummer“ und „Adresse“ in der Anfrage enthalten?",
+      "step_number": "261",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "262"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "263"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [Kundennummer-Prüfung] und [Adressprüfung] (Straße und PLZ oder geographische Koordinaten oder Flurstücknummer)",
+      "step_number": "262",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "263"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „Kundennummer“ und „Vorname und/oder Nachname \noder\nFirmenname“ in der Anfrage enthalten?",
+      "step_number": "263",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "264"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "265"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [Kundennummer-Prüfung] und [Namensprüfung] (Nachname oder Firmenname)",
+      "step_number": "264",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "265"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis der Kombinationen aus zwei Kriterien 1..n Treffer mit einer Kombination der Identifikationskriterien?",
+      "step_number": "265",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "270"
+          },
+          "note": "Hier wird die Möglichkeit geboten, allein anhand einer Adresse eine MaLo-ID zu identifizieren",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "305"
+          },
+          "note": "Trefferliste auf Basis von zwei Kriterien mit 1..n Treffern aus den vorangegangenen Prüfungen liegt vor",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Identifikationskriterium „Adresse“ in der Anfrage enthalten?",
+      "step_number": "270",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "275"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "280"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Vollständige [Adressprüfung]",
+      "step_number": "275",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "280"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis der alleinigen Adressprüfung",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis der alleinigen Adressprüfung genau einen Treffer mit dem Identifikationskriterium „Adresse“?",
+      "step_number": "280",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nIn der Kombination von zwei Identifikationskriterien war keine Marktlokation ermittelbar\nHinweis: Hier erfolgt die Ablehnung, wenn \nes keine Marktlokation gibt, bei der mindestens eine Kombination aus zwei Identifikationskriterien zutrifft\nmit der Adresse allein auch keine eindeutige Identifikation möglich ist",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "705"
+          },
+          "note": "Es konnte genau eine Marktlokation ermittelt werden",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „Adresse“, „Vorname und/oder Nachname oder Firmenname“ und „Gerätenummer“ in der Anfrage enthalten?",
+      "step_number": "305",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "310"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "315"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten oder Flurstücknummer), [Namensprüfung] (Nachname oder Firmenname) und [Gerätenummernprüfung]",
+      "step_number": "310",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "315"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von drei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „Adresse“, „Vorname und/oder Nachname oder Firmenname“ und „MeLo-ID“ in der Anfrage enthalten?",
+      "step_number": "315",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "320"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "343"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten oder Flurstücknummer), [Namensprüfung] (Nachname oder Firmenname) und [MeLo-ID-Prüfung]",
+      "step_number": "320",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "343"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von drei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind die Identifikationskriterien „Kundennummer“, „Vorname und/oder Nachname oder Firmenname“ und „Adresse“ in der Anfrage enthalten?",
+      "step_number": "343",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "344"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "345"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten oder Flurstücknummer), [Namensprüfung] (Nachname oder Firmenname) und [Kundennummer-Prüfung]",
+      "step_number": "344",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "345"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von drei Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis von drei Kriterien Treffer mit drei Identifikationskriterien?",
+      "step_number": "345",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "350"
+          },
+          "note": "Es gibt keinen Treffer mit drei Identifikationskriterien",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "400"
+          },
+          "note": "Es gibt 1..n Treffer aus den Kombinationen\nvon jeweils drei Identifikationskriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis von zwei Kriterien genau einen Treffer mit zwei Identifikationskriterien?",
+      "step_number": "350",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "705"
+          },
+          "note": "Es konnte genau eine Marktlokation ermittelt werden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "355"
+          },
+          "note": "Es gibt 2..n Treffer aus den Kombinationen\nvon jeweils zwei Identifikationskriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Identifikationskriterium „Adresse“ in der Anfrage enthalten?",
+      "step_number": "355",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "360"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "370"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Vollständige [Adressprüfung]",
+      "step_number": "360",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "365"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis der vollständigen Adressprüfung",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis der vollständigen Adressprüfung genau einen Treffer mit dem Identifikationskriterium „Adresse“?",
+      "step_number": "365",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "705"
+          },
+          "note": "Es konnte genau eine Marktlokation ermittelt werden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "385"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Identifikationskriterium „Vorname und/oder Nachname oder Firmenname“ in der Anfrage enthalten?",
+      "step_number": "370",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "375"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "385"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Vollständige [Namensprüfung]",
+      "step_number": "375",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "380"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis der vollständigen Namensprüfung",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis der vollständigen Namensprüfung genau einen Treffer mit dem Identifikationskriterium „Vorname und/oder Nachname oder Firmenname“",
+      "step_number": "380",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "705"
+          },
+          "note": "Es konnte genau eine Marktlokation ermittelt werden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "385"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegen 1..n MaLo aus der Trefferliste auf Basis von zwei Kriterien zum Anfragedatum im Netzgebiet des NB?",
+      "step_number": "385",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "390"
+          },
+          "note": "1..n der ermittelten MaLo liegen zum Anfragedatum im Netzgebiet des NB",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "395"
+          },
+          "note": "Keine der ermittelten MaLo liegt zum Anfragedatum im Netzgebiet des NB",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Nimmt nur eine der ermittelten Marktlokation zum Anfragedatum an der Marktkommunikation teil?",
+      "step_number": "390",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation nicht eindeutig bzw. nimmt nicht an der Marktkommunikation teil",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "720"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist nur eine MaLo in einem innerhalb der vergangenen drei Jahre abgegebenen Netzgebiet ermittelbar?",
+      "step_number": "395",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nErmittelte Marktlokation liegt in einem in den letzten drei Jahren abgegebenen Netzgebiet.\nHinweis: Angabe der MP-ID des NB, an den das Netzgebiet abgegeben wurde.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nIn der Kombination von zwei Identifikationskriterien war keine Marktlokation ermittelbar",
+          "result_code": "A05"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis von drei Kriterien genau einen Treffer, bei dem eine Kombination aus drei Identifikationskriterien zutrifft?",
+      "step_number": "400",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "705"
+          },
+          "note": "Es konnte genau eine Marktlokation ermittelt werden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "405"
+          },
+          "note": "Es gibt 2..n Treffer aus den Kombinationen\nvon jeweils drei Identifikationskriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind alle fünf Identifikationskriterien in der Anfrage enthalten?",
+      "step_number": "405",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "410"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "420"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten oder Flurstücknummer), [Namensprüfung] (Nachname oder Firmenname), [Gerätenummernprüfung] und [MeLo-ID-Prüfung], [Kundennummer-Prüfung]",
+      "step_number": "410",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "415"
+          },
+          "note": "Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von vier Kriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis von drei Kriterien genau einen Treffer mit vier oder mehr Identifikationskriterien?",
+      "step_number": "415",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "705"
+          },
+          "note": "Es konnte genau eine Marktlokation ermittelt werden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "420"
+          },
+          "note": "Es gibt 2..n Treffer aus vier Identifikationskriterien",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Vollständige [Adressprüfung]",
+      "step_number": "420",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "425"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis der vollständigen Adressprüfung",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis der vollständigen Adressprüfung genau einen Treffer mit dem Identifikationskriterium „Adresse“?",
+      "step_number": "425",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "705"
+          },
+          "note": "Es konnte genau eine Marktlokation ermittelt werden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "430"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Vollständige [Namensprüfung]",
+      "step_number": "430",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": null,
+            "subsequent_step_number": "435"
+          },
+          "note": "Aufnahme von 0..n Treffern in die Trefferliste auf Basis der vollständigen Namensprüfung",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Gibt es in der Trefferliste auf Basis der vollständigen Namensprüfung genau einen Treffer mit dem Identifikationskriterium „Vorname und/oder Nachname oder Firmenname“",
+      "step_number": "435",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "705"
+          },
+          "note": "Es konnte genau eine Marktlokation ermittelt werden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "440"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegen 1..n MaLo aus der Trefferliste auf Basis von drei Kriterien zum Anfragedatum im Netzgebiet des NB?",
+      "step_number": "440",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "445"
+          },
+          "note": "1..n der ermittelten MaLo liegen zum Anfragedatum im Netzgebiet des NB",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "450"
+          },
+          "note": "Keine der ermittelten MaLo liegt zum Anfragedatum im Netzgebiet des NB",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist nur eine der ermittelten Marktlokationen zum Anfragedatum nicht stillgelegt?",
+      "step_number": "445",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation nicht eindeutig bzw. nimmt nicht an der Marktkommunikation teil",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "720"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist nur eine MaLo in einem innerhalb der vergangenen drei Jahre abgegebenen Netzgebiet ermittelbar?",
+      "step_number": "450",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nErmittelte Marktlokation liegt in einem in den letzten drei Jahren abgegebenen Netzgebiet.\nHinweis: Angabe der MP-ID des NB, an den das Netzgebiet abgegeben wurde.",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nIn der Kombination von drei Identifikationskriterien war keine Marktlokation ermittelbar",
+          "result_code": "A08"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt die ermittelte Marktlokation zum Anfragedatum im Netzgebiet des NB?",
+      "step_number": "705",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nErmittelte Marktlokation liegt in einem in den letzten drei Jahren abgegebenen Netzgebiet.\nHinweis: Angabe der MP-ID des NB, an den das Netzgebiet abgegeben wurde.",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "710"
+          },
+          "note": "Marktlokation liegt im Netzgebiet",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich bei der identifizierten Marktlokation um eine stillgelegte Marktlokation?",
+      "step_number": "710",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nIdentifizierte Marktlokation ist stillgelegt",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "720"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde für die Identifizierung eine Vollmacht des Anfragenden vom Angefragten angefordert?",
+      "step_number": "720",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nÜbergabe der MaLo-ID der identifizierten Marktlokation. Es werden in der Antwort die MaLo-ID und der vollständige Datensatz, wie dieser beim NB gespeichert ist, zurückgegeben.\nHinweis: Bei einer positiven Antwort wird kein Antwortcode übermittelt",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "730"
+          },
+          "note": "Hinweis:\nDie Anforderung einer Vollmacht im begründeten Einzelfall ist auf bilateralem an den Anfragenden zu senden. Hierzu ist die E-Mailadresse aus dem SG4 NAD+Z13 Ansprechpartner Wechselprozesse des Kommunikationsdatenblatts des Anfragenden zu verwenden.\nDie Antwort des Angefragten wird an die E-Mailadresse aus dem SG4 NAD+Z13 Ansprechpartner Wechselprozesse des Kommunikationsdatenblatts des NB gesendet.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Vollmacht eingetroffen?",
+      "step_number": "730",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "740"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Hinweis:\nSolange die Vollmacht beim NB nicht eingetroffen ist, wartet der Prozess an diesem Prüfschritt. Diese Prüfung ist regelmäßig erneut durchzuführen, bis die Vollmacht eingetroffen ist.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hält der NB die Vollmacht für wirksam?",
+      "step_number": "740",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nÜbergabe der MaLo-ID der identifizierten Marktlokation. Es werden in der Antwort die MaLo-ID und der vollständige Datensatz, wie dieser beim NB gespeichert ist, zurückgegeben.\nHinweis: Bei einer positiven Antwort wird kein Antwortcode übermittelt",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie vom Anfragenden eingereichte Vollmacht wird als nicht wirksam betrachtet.\nHinweis: Der NB begründet die Ablehnung der fehlenden Wirksamkeit der Vollmacht",
+          "result_code": "A13"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
