@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1797.3333333333333px" viewBox="0 0 1797.3333333333333 1037.3333333333333" height="1037.3333333333333px">
+  <g>
+    <svg version="1.1" width="1797.3333333333333px" viewBox="0 0 1797.3333333333333 1037.3333333333333" height="1037.3333333333333px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1797.3333333333333" height="1037.3333333333333" rx="20" ry="20"/><g>
+    <g transform="translate(475.6414906599079, 103.7333333333333) scale(1 1) translate(0, 0) scale(1.4606214211959074 1.4606214211959074) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1348pt" height="778pt" viewBox="0.00 0.00 1348.30 778.40">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 760.4)">
+<title>D</title>
+<text text-anchor="start" x="384.65" y="-722.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">GPKE</text>
+<text text-anchor="start" x="384.65" y="-694.2" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">6.35.1: AD: Reklamation einer Konfiguration vom NB an MSB</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M263.18,-652.4C263.18,-652.4 114.38,-652.4 114.38,-652.4 108.38,-652.4 102.38,-646.4 102.38,-640.4 102.38,-640.4 102.38,-619.12 102.38,-619.12 102.38,-613.12 108.38,-607.12 114.38,-607.12 114.38,-607.12 263.18,-607.12 263.18,-607.12 269.18,-607.12 275.18,-613.12 275.18,-619.12 275.18,-619.12 275.18,-640.4 275.18,-640.4 275.18,-646.4 269.18,-652.4 263.18,-652.4"/>
+<text text-anchor="start" x="116.78" y="-631.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0552</text>
+<text text-anchor="start" x="116.78" y="-617.46" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="226.28" y="-617.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">MSB</text>
+</g>
+<!-- 20 -->
+<g id="node2" class="node">
+<title>20</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M365.55,-570.12C365.55,-570.12 12,-570.12 12,-570.12 6,-570.12 0,-564.12 0,-558.12 0,-558.12 0,-546.12 0,-546.12 0,-540.12 6,-534.12 12,-534.12 12,-534.12 365.55,-534.12 365.55,-534.12 371.55,-534.12 377.55,-540.12 377.55,-546.12 377.55,-546.12 377.55,-558.12 377.55,-558.12 377.55,-564.12 371.55,-570.12 365.55,-570.12"/>
+<text text-anchor="start" x="14.4" y="-548.44" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
+<text text-anchor="start" x="43.65" y="-548.44" font-family="Roboto, sans-serif" font-size="14.00">Ist der Wirkungszeitraum bereits eingetreten?</text>
+</g>
+<!-- Start&#45;&gt;20 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;20</title>
+<path fill="none" stroke="#88a0d6" d="M188.78,-607.29C188.78,-599.21 188.78,-589.91 188.78,-581.31"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="192.28,-581.35 188.78,-571.35 185.28,-581.35 192.28,-581.35"/>
+</g>
+<!-- A02 -->
+<g id="node3" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M312.18,-480.87C312.18,-480.87 19.38,-480.87 19.38,-480.87 13.38,-480.87 7.38,-474.87 7.38,-468.87 7.38,-468.87 7.38,-419.59 7.38,-419.59 7.38,-413.59 13.38,-407.59 19.38,-407.59 19.38,-407.59 312.18,-407.59 312.18,-407.59 318.18,-407.59 324.18,-413.59 324.18,-419.59 324.18,-419.59 324.18,-468.87 324.18,-468.87 324.18,-474.87 318.18,-480.87 312.18,-480.87"/>
+<text text-anchor="start" x="21.78" y="-459.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="21.78" y="-431.93" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="21.78" y="-417.93" font-family="Roboto, sans-serif" font-size="14.00">Wirkungszeitraum noch nicht eingetreten</text>
+</g>
+<!-- 20&#45;&gt;A02 -->
+<g id="edge2" class="edge">
+<title>20-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M185.18,-534.57C182.66,-522.97 179.16,-506.83 175.82,-491.47"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="179.3,-491 173.75,-481.97 172.46,-492.48 179.3,-491"/>
+<text text-anchor="start" x="179.78" y="-503.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 30 -->
+<g id="node4" class="node">
+<title>30</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M729.05,-462.23C729.05,-462.23 354.5,-462.23 354.5,-462.23 348.5,-462.23 342.5,-456.23 342.5,-450.23 342.5,-450.23 342.5,-438.23 342.5,-438.23 342.5,-432.23 348.5,-426.23 354.5,-426.23 354.5,-426.23 729.05,-426.23 729.05,-426.23 735.05,-426.23 741.05,-432.23 741.05,-438.23 741.05,-438.23 741.05,-450.23 741.05,-450.23 741.05,-456.23 735.05,-462.23 729.05,-462.23"/>
+<text text-anchor="start" x="356.9" y="-440.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="386.15" y="-440.55" font-family="Roboto, sans-serif" font-size="14.00">Ist die Reklamation der Konfiguration berechtigt?</text>
+</g>
+<!-- 20&#45;&gt;30 -->
+<g id="edge3" class="edge">
+<title>20-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M245.1,-534.22C307.51,-515.5 408.11,-485.33 474.59,-465.38"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="475.34,-468.81 483.91,-462.59 473.33,-462.11 475.34,-468.81"/>
+<text text-anchor="start" x="353.77" y="-503.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A03 -->
+<g id="node5" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M516.17,-354.34C516.17,-354.34 55.37,-354.34 55.37,-354.34 49.37,-354.34 43.37,-348.34 43.37,-342.34 43.37,-342.34 43.37,-293.06 43.37,-293.06 43.37,-287.06 49.37,-281.06 55.37,-281.06 55.37,-281.06 516.17,-281.06 516.17,-281.06 522.17,-281.06 528.17,-287.06 528.17,-293.06 528.17,-293.06 528.17,-342.34 528.17,-342.34 528.17,-348.34 522.17,-354.34 516.17,-354.34"/>
+<text text-anchor="start" x="57.77" y="-333.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="57.77" y="-305.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="57.77" y="-291.4" font-family="Roboto, sans-serif" font-size="14.00">Reklamation unbegr&#252;ndet. Bestellte Konfiguration ist eingerichtet</text>
+</g>
+<!-- 30&#45;&gt;A03 -->
+<g id="edge4" class="edge">
+<title>30-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M506.98,-426.31C471.7,-409.14 415.79,-381.95 369.01,-359.19"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="370.75,-356.14 360.23,-354.92 367.69,-362.44 370.75,-356.14"/>
+<text text-anchor="start" x="428.77" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 40 -->
+<g id="node6" class="node">
+<title>40</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M881.17,-335.7C881.17,-335.7 558.38,-335.7 558.38,-335.7 552.38,-335.7 546.38,-329.7 546.38,-323.7 546.38,-323.7 546.38,-311.7 546.38,-311.7 546.38,-305.7 552.38,-299.7 558.38,-299.7 558.38,-299.7 881.17,-299.7 881.17,-299.7 887.17,-299.7 893.17,-305.7 893.17,-311.7 893.17,-311.7 893.17,-323.7 893.17,-323.7 893.17,-329.7 887.17,-335.7 881.17,-335.7"/>
+<text text-anchor="start" x="560.77" y="-314.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
+<text text-anchor="start" x="590.02" y="-314.02" font-family="Roboto, sans-serif" font-size="14.00">Kann die Konfiguration korrigiert werden?</text>
+</g>
+<!-- 30&#45;&gt;40 -->
+<g id="edge5" class="edge">
+<title>30-&gt;40</title>
+<path fill="none" stroke="#88a0d6" d="M565.78,-426.44C596.83,-404.71 651.1,-366.75 686.22,-342.18"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="688.15,-345.09 694.34,-336.49 684.14,-339.36 688.15,-345.09"/>
+<text text-anchor="start" x="640.77" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A04 -->
+<g id="node7" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M743.8,-227.81C743.8,-227.81 187.75,-227.81 187.75,-227.81 181.75,-227.81 175.75,-221.81 175.75,-215.81 175.75,-215.81 175.75,-152.53 175.75,-152.53 175.75,-146.53 181.75,-140.53 187.75,-140.53 187.75,-140.53 743.8,-140.53 743.8,-140.53 749.8,-140.53 755.8,-146.53 755.8,-152.53 755.8,-152.53 755.8,-215.81 755.8,-215.81 755.8,-221.81 749.8,-227.81 743.8,-227.81"/>
+<text text-anchor="start" x="190.15" y="-206.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="190.15" y="-178.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="190.15" y="-164.87" font-family="Roboto, sans-serif" font-size="14.00">Konfiguration kann trotz Bestellung nicht vorgenommen werden.</text>
+<text text-anchor="start" x="190.15" y="-150.87" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen</text>
+</g>
+<!-- 40&#45;&gt;A04 -->
+<g id="edge6" class="edge">
+<title>40-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M687.09,-299.77C654.58,-282.94 603.17,-256.32 558.09,-232.97"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="559.81,-229.92 549.32,-228.43 556.59,-236.14 559.81,-229.92"/>
+<text text-anchor="start" x="614.77" y="-250.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 50 -->
+<g id="node8" class="node">
+<title>50</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1153.67,-202.17C1153.67,-202.17 785.88,-202.17 785.88,-202.17 779.88,-202.17 773.88,-196.17 773.88,-190.17 773.88,-190.17 773.88,-178.17 773.88,-178.17 773.88,-172.17 779.88,-166.17 785.88,-166.17 785.88,-166.17 1153.67,-166.17 1153.67,-166.17 1159.67,-166.17 1165.67,-172.17 1165.67,-178.17 1165.67,-178.17 1165.67,-190.17 1165.67,-190.17 1165.67,-196.17 1159.67,-202.17 1153.67,-202.17"/>
+<text text-anchor="start" x="788.27" y="-180.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
+<text text-anchor="start" x="817.52" y="-180.5" font-family="Roboto, sans-serif" font-size="14.00">Kann die Konfiguration sofort korrigiert werden?</text>
+</g>
+<!-- 40&#45;&gt;50 -->
+<g id="edge7" class="edge">
+<title>40-&gt;50</title>
+<path fill="none" stroke="#88a0d6" d="M751.95,-299.77C796.76,-276.2 878.05,-233.43 927.65,-207.33"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="929.17,-210.49 936.39,-202.74 925.91,-204.29 929.17,-210.49"/>
+<text text-anchor="start" x="851.77" y="-250.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A05 -->
+<g id="node9" class="node">
+<title>A05</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M789.3,-80.28C789.3,-80.28 518.25,-80.28 518.25,-80.28 512.25,-80.28 506.25,-74.28 506.25,-68.28 506.25,-68.28 506.25,-19 506.25,-19 506.25,-13 512.25,-7 518.25,-7 518.25,-7 789.3,-7 789.3,-7 795.3,-7 801.3,-13 801.3,-19 801.3,-19 801.3,-68.28 801.3,-68.28 801.3,-74.28 795.3,-80.28 789.3,-80.28"/>
+<text text-anchor="start" x="520.65" y="-59.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="520.65" y="-31.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="520.65" y="-17.34" font-family="Roboto, sans-serif" font-size="14.00">Konfiguration wurde sofort angepasst.</text>
+</g>
+<!-- 50&#45;&gt;A05 -->
+<g id="edge8" class="edge">
+<title>50-&gt;A05</title>
+<path fill="none" stroke="#88a0d6" d="M931.03,-166.18C885.07,-146.04 806.92,-111.78 745.29,-84.76"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="746.72,-81.56 736.15,-80.75 743.91,-87.97 746.72,-81.56"/>
+<text text-anchor="start" x="829.77" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A06 -->
+<g id="node10" class="node">
+<title>A06</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1300.3,-87.28C1300.3,-87.28 831.25,-87.28 831.25,-87.28 825.25,-87.28 819.25,-81.28 819.25,-75.28 819.25,-75.28 819.25,-12 819.25,-12 819.25,-6 825.25,0 831.25,0 831.25,0 1300.3,0 1300.3,0 1306.3,0 1312.3,-6 1312.3,-12 1312.3,-12 1312.3,-75.28 1312.3,-75.28 1312.3,-81.28 1306.3,-87.28 1300.3,-87.28"/>
+<text text-anchor="start" x="833.65" y="-66.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="833.65" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="833.65" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Konfiguration konnte nicht sofort korrigiert werden.</text>
+<text text-anchor="start" x="833.65" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Geplanter Behebungszeitpunkt muss angegeben werden.</text>
+</g>
+<!-- 50&#45;&gt;A06 -->
+<g id="edge9" class="edge">
+<title>50-&gt;A06</title>
+<path fill="none" stroke="#88a0d6" d="M981.55,-166.18C993.58,-148.82 1012.87,-120.98 1029.96,-96.33"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1032.7,-98.52 1035.51,-88.31 1026.94,-94.53 1032.7,-98.52"/>
+<text text-anchor="start" x="1022.78" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>
