@@ -1,22 +1,31 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.37.4: AD Bestellung einer Konfiguration vom NB an MSB</FONT></B><BR/><BR/><BR/><BR/>>;
-    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0527</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> MSB</B></FONT><BR align="center"/>>];
-    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Liegt die Bestellte Konfiguration zum bestellten Zeitpunkt an der / bzw. allen Lokationen bereits vor?<BR align="left"/>>];
-    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die bestellte Konfiguration liegt bereits vor<BR align="left"/></FONT>>];
-    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>20: </B>Erlaubt die vorhandene Gerätetechnik die Konfiguration zum bestellten Zeitpunkt?<BR align="left"/>>];
-    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Die vorhandene Gerätetechnik erlaubt die Konfiguration zum bestellten Zeitpunkt nicht.<BR align="left"/>Hinweis:<BR align="left"/>Wenn die Gerätetechnik eine detailliertere Auflösung als die bestellten Werte bereitstellt, kann diese nicht abgelehnt werden. <BR align="left"/>Beispiel: Messung bietet Lastgang 1/4h Auflösung. Geforderte Werte sind kumulierte Werte.<BR align="left"/></FONT>>];
-    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>30: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>];
-    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.10.2024 00:00 Uhr<BR align="left"/></FONT>>];
-    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Die Einrichtung der Konfiguration ist grundsätzlich möglich<BR align="left"/></FONT>>];
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.37.4: AD Bestellung einer Konfiguration vom NB an MSB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    pad=0.25;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0527</B><BR align="left"/><FONT>Prüfende Rolle: <B>MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Liegt die Bestellte Konfiguration zum bestellten Zeitpunkt an der / bzw. allen<BR align="left"/>Lokationen bereits vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Die bestellte Konfiguration liegt bereits vor<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Erlaubt die vorhandene Gerätetechnik die Konfiguration zum bestellten Zeitpunkt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Die vorhandene Gerätetechnik erlaubt die Konfiguration zum bestellten Zeitpunkt nicht.<BR align="left"/>Hinweis:<BR align="left"/>Wenn die Gerätetechnik eine detailliertere Auflösung als die bestellten Werte<BR align="left"/>bereitstellt, kann diese nicht abgelehnt werden.<BR align="left"/>Beispiel: Messung bietet Lastgang 1/4h Auflösung. Geforderte Werte sind<BR align="left"/>kumulierte Werte.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>30: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A99" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A99</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Cluster: Zustimmung<BR align="left"/>Die Einrichtung der Konfiguration ist grundsätzlich möglich<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
 
-    "Start" -> "10";
-    "10" -> "A01" [label="Ja"];
-    "10" -> "20" [label="Nein"];
-    "20" -> "A02" [label="Nein"];
-    "20" -> "30" [label="Ja"];
-    "30" -> "A99" [label="Ja"];
-    "30" -> "A03" [label="Nein"];
+    "Start" -> "10" [color="#88a0d6"];
+    "10" -> "A01" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "10" -> "20" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "A02" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "30" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "A99" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "A03" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
 
     bgcolor="transparent";
+fontname="Roboto, sans-serif";
 }

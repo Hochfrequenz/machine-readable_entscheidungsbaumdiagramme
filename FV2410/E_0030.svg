@@ -1,81 +1,72 @@
 <?xml version='1.0' encoding='ASCII' standalone='yes'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1210.6666666666667px" viewBox="0 0 1210.6666666666667 433.3333333333333" height="433.3333333333333px">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1220.0px" viewBox="0 0 1220.0 476.0" height="476.0px">
   <g>
-    <svg version="1.1" width="1210.6666666666667px" viewBox="0 0 1210.6666666666667 433.3333333333333" height="433.3333333333333px">
-  <polygon fill="#f3f1f6" points="0,0 1210.6666666666667,0 1210.6666666666667,433.3333333333333 0,433.3333333333333"/><g>
-    <g transform="translate(432.1285726922119, 43.33333333333332) scale(1 1) translate(0, 0) scale(1.9598002013845461 1.9598002013845461) "><sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="namedview7" pagecolor="#ffffff" bordercolor="#999999" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="0.64052329" inkscape:cx="130.36216" inkscape:cy="412.163" inkscape:window-width="1512" inkscape:window-height="916" inkscape:window-x="3840" inkscape:window-y="136" inkscape:window-maximized="0" inkscape:current-layer="layer1"/>
-  <defs id="defs2">
-    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
-      <path d="M 0,568.156 H 579.236 V 0 H 0 Z" id="path21"/>
-    </clipPath>
+    <svg version="1.1" width="1220.0px" viewBox="0 0 1220.0 476.0" height="476.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1220.0" height="476.0" rx="20" ry="20"/><g>
+    <g transform="translate(415.8869050971557, 47.59999999999999) scale(1 1) translate(0, 0) scale(0.6702337369754999 0.6702337369754999) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
   </defs>
-  <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-16.541937,-55.305267)">
-    <g id="g19" clip-path="url(#clipPath23)" transform="matrix(0.35277777,0,0,-0.35277777,0.01017023,243.73675)" style="opacity:0.2">
-      <g id="g25" transform="translate(122.444,32.7195)">
-        <path d="m 0,0 h -56.104 c -11,0 -19.898,9.123 -19.463,20.115 10.594,267.191 231.277,481.302 501.029,481.302 v -56.02 c 0,-10.98 -8.688,-19.892 -19.658,-20.393 C 180.29,414.697 0,228.005 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path27"/>
-      </g>
-      <g id="g29" transform="translate(273.7828,32.7195)">
-        <path d="m 0,0 h -55.926 c -11.228,0 -20.091,9.482 -19.435,20.69 10.744,183.439 163.389,329.388 349.485,329.388 v -56.263 c 0,-10.709 -8.273,-19.617 -18.957,-20.35 C 112.819,263.696 0,144.774 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path31"/>
-      </g>
-      <g id="g33" transform="translate(425.7667,32.7195)">
-        <path d="m 0,0 h -55.445 c -11.653,0 -20.604,10.17 -19.334,21.753 10.866,99.032 95.031,176.341 196.919,176.341 v -57.011 c 0,-10.046 -7.283,-18.755 -17.229,-20.165 C 45.688,112.522 0,61.497 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path35"/>
-      </g>
-    </g>
-  </g>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
 </g>
-    <svg width="908pt" height="325pt" viewBox="0.00 0.00 908.25 325.05">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 321.05)">
+    <svg width="915pt" height="357pt" viewBox="0.00 0.00 914.50 356.81">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 338.81)">
 <title>D</title>
-<text text-anchor="start" x="416.75" y="-296.95" font-family="Times,serif" font-weight="bold" font-size="18.00">MaBiS</text>
-<text text-anchor="start" x="8" y="-266.85" font-family="Times,serif" font-weight="bold" font-size="16.00">7.50.2: AD: &#220;bermittlung Pr&#252;fmitteilung des Deltazeitreihen&#252;bertrags von NB &#252;ber BIKO an &#220;NB</text>
+<text text-anchor="start" x="8" y="-300.71" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">MaBiS</text>
+<text text-anchor="start" x="8" y="-272.61" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">7.50.2: AD: &#220;bermittlung Pr&#252;fmitteilung des Deltazeitreihen&#252;bertrags von NB &#252;ber BIKO an &#220;NB</text>
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<polygon fill="#7a8da1" stroke="black" points="537.27,-219.05 362.98,-219.05 362.98,-175.77 537.27,-175.77 537.27,-219.05"/>
-<text text-anchor="start" x="422" y="-198.11" font-family="Times,serif" font-weight="bold" font-size="14.00">E_0030</text>
-<text text-anchor="start" x="377.38" y="-186.01" font-family="Times,serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
-<text text-anchor="start" x="482.38" y="-186.01" font-family="Times,serif" font-weight="bold" font-size="12.00"> BIKO</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M530.46,-230.81C530.46,-230.81 377.91,-230.81 377.91,-230.81 371.91,-230.81 365.91,-224.81 365.91,-218.81 365.91,-218.81 365.91,-197.53 365.91,-197.53 365.91,-191.53 371.91,-185.53 377.91,-185.53 377.91,-185.53 530.46,-185.53 530.46,-185.53 536.46,-185.53 542.46,-191.53 542.46,-197.53 542.46,-197.53 542.46,-218.81 542.46,-218.81 542.46,-224.81 536.46,-230.81 530.46,-230.81"/>
+<text text-anchor="start" x="380.31" y="-209.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0030</text>
+<text text-anchor="start" x="380.31" y="-195.87" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="489.81" y="-195.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">BIKO</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" d="M742.02,-138.77C742.02,-138.77 158.23,-138.77 158.23,-138.77 152.23,-138.77 146.23,-132.77 146.23,-126.77 146.23,-126.77 146.23,-114.77 146.23,-114.77 146.23,-108.77 152.23,-102.77 158.23,-102.77 158.23,-102.77 742.02,-102.77 742.02,-102.77 748.02,-102.77 754.02,-108.77 754.02,-114.77 754.02,-114.77 754.02,-126.77 754.02,-126.77 754.02,-132.77 748.02,-138.77 742.02,-138.77"/>
-<text text-anchor="start" x="160.62" y="-117.09" font-family="Times,serif" font-weight="bold" font-size="14.00">1: </text>
-<text text-anchor="start" x="180.12" y="-117.09" font-family="Times,serif" font-size="14.00">Erfolgt der Eingang der Pr&#252;fmitteilung innerhalb der Clearingphase f&#252;r DZ&#220;?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M734.46,-148.53C734.46,-148.53 173.91,-148.53 173.91,-148.53 167.91,-148.53 161.91,-142.53 161.91,-136.53 161.91,-136.53 161.91,-124.53 161.91,-124.53 161.91,-118.53 167.91,-112.53 173.91,-112.53 173.91,-112.53 734.46,-112.53 734.46,-112.53 740.46,-112.53 746.46,-118.53 746.46,-124.53 746.46,-124.53 746.46,-136.53 746.46,-136.53 746.46,-142.53 740.46,-148.53 734.46,-148.53"/>
+<text text-anchor="start" x="176.31" y="-126.86" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="195.81" y="-126.86" font-family="Roboto, sans-serif" font-size="14.00">Erfolgt der Eingang der Pr&#252;fmitteilung innerhalb der Clearingphase f&#252;r DZ&#220;?</text>
 </g>
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M450.12,-175.62C450.12,-167.76 450.12,-158.68 450.12,-150.24"/>
-<polygon fill="black" stroke="black" points="453.63,-150.44 450.13,-140.44 446.63,-150.44 453.63,-150.44"/>
+<path fill="none" stroke="#88a0d6" d="M454.19,-185.7C454.19,-177.62 454.19,-168.32 454.19,-159.72"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="457.69,-159.76 454.19,-149.76 450.69,-159.76 457.69,-159.76"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<polygon fill="#cfb986" stroke="black" points="511.24,-49.52 165.01,-49.52 165.01,0 511.24,0 511.24,-49.52"/>
-<text text-anchor="start" x="323.12" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
-<text text-anchor="start" x="177.25" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="177.25" y="-7.36" font-family="Times,serif" font-size="12.00">Eingang liegt nicht innerhalb der Clearingphase DZ&#220;</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M516.34,-59.28C516.34,-59.28 144.04,-59.28 144.04,-59.28 138.04,-59.28 132.04,-53.28 132.04,-47.28 132.04,-47.28 132.04,-12 132.04,-12 132.04,-6 138.04,0 144.04,0 144.04,0 516.34,0 516.34,0 522.34,0 528.34,-6 528.34,-12 528.34,-12 528.34,-47.28 528.34,-47.28 528.34,-53.28 522.34,-59.28 516.34,-59.28"/>
+<text text-anchor="start" x="146.44" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="146.44" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Eingang liegt nicht innerhalb der Clearingphase DZ&#220;</text>
 </g>
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="black" d="M429.32,-102.31C414.21,-89.62 393.34,-72.11 375.38,-57.03"/>
-<polygon fill="black" stroke="black" points="377.91,-54.58 368,-50.84 373.41,-59.95 377.91,-54.58"/>
-<text text-anchor="middle" x="425" y="-71.47" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M432.87,-112.53C416.9,-99.79 394.48,-81.91 374.66,-66.1"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="376.95,-63.46 366.95,-59.96 372.59,-68.93 376.95,-63.46"/>
+<text text-anchor="start" x="406.19" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- Ende -->
 <g id="node4" class="node">
 <title>Ende</title>
-<polygon fill="#7a8da1" stroke="black" points="594.9,-42.76 529.35,-42.76 529.35,-6.76 594.9,-6.76 594.9,-42.76"/>
-<text text-anchor="middle" x="562.12" y="-20.08" font-family="Times,serif" font-size="14.00">Ende</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M598.21,-47.64C598.21,-47.64 558.16,-47.64 558.16,-47.64 552.16,-47.64 546.16,-41.64 546.16,-35.64 546.16,-35.64 546.16,-23.64 546.16,-23.64 546.16,-17.64 552.16,-11.64 558.16,-11.64 558.16,-11.64 598.21,-11.64 598.21,-11.64 604.21,-11.64 610.21,-17.64 610.21,-23.64 610.21,-23.64 610.21,-35.64 610.21,-35.64 610.21,-41.64 604.21,-47.64 598.21,-47.64"/>
+<text text-anchor="middle" x="578.19" y="-24.96" font-family="Roboto, sans-serif" font-size="14.00">Ende</text>
 </g>
 <!-- 1&#45;&gt;Ende -->
 <g id="edge3" class="edge">
 <title>1-&gt;Ende</title>
-<path fill="none" stroke="black" d="M470.93,-102.31C488.3,-87.73 513.26,-66.78 532.68,-50.48"/>
-<polygon fill="black" stroke="black" points="534.86,-53.21 540.27,-44.1 530.36,-47.85 534.86,-53.21"/>
-<text text-anchor="middle" x="515.88" y="-71.47" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M475.5,-112.53C495.59,-96.51 525.87,-72.36 548.35,-54.44"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="550.33,-57.33 555.97,-48.36 545.97,-51.86 550.33,-57.33"/>
+<text text-anchor="start" x="516.19" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 </g>
 </svg>

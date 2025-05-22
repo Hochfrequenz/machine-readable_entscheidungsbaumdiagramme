@@ -1,179 +1,168 @@
 <?xml version='1.0' encoding='ASCII' standalone='yes'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="2833.3333333333335px" viewBox="0 0 2833.3333333333335 972.0" height="972.0px">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1730.6666666666667px" viewBox="0 0 1730.6666666666667 1106.6666666666667" height="1106.6666666666667px">
   <g>
-    <svg version="1.1" width="2833.3333333333335px" viewBox="0 0 2833.3333333333335 972.0" height="972.0px">
-  <polygon fill="#f3f1f6" points="0,0 2833.3333333333335,0 2833.3333333333335,972.0 0,972.0"/><g>
-    <g transform="translate(1028.155065105505, 97.19999999999997) scale(1 1) translate(0, 0) scale(4.395982605567182 4.395982605567182) "><sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="namedview7" pagecolor="#ffffff" bordercolor="#999999" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="0.64052329" inkscape:cx="130.36216" inkscape:cy="412.163" inkscape:window-width="1512" inkscape:window-height="916" inkscape:window-x="3840" inkscape:window-y="136" inkscape:window-maximized="0" inkscape:current-layer="layer1"/>
-  <defs id="defs2">
-    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
-      <path d="M 0,568.156 H 579.236 V 0 H 0 Z" id="path21"/>
-    </clipPath>
+    <svg version="1.1" width="1730.6666666666667px" viewBox="0 0 1730.6666666666667 1106.6666666666667" height="1106.6666666666667px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1730.6666666666667" height="1106.6666666666667" rx="20" ry="20"/><g>
+    <g transform="translate(414.0339810382051, 110.66666666666664) scale(1 1) translate(0, 0) scale(1.558246503332395 1.558246503332395) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
   </defs>
-  <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-16.541937,-55.305267)">
-    <g id="g19" clip-path="url(#clipPath23)" transform="matrix(0.35277777,0,0,-0.35277777,0.01017023,243.73675)" style="opacity:0.2">
-      <g id="g25" transform="translate(122.444,32.7195)">
-        <path d="m 0,0 h -56.104 c -11,0 -19.898,9.123 -19.463,20.115 10.594,267.191 231.277,481.302 501.029,481.302 v -56.02 c 0,-10.98 -8.688,-19.892 -19.658,-20.393 C 180.29,414.697 0,228.005 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path27"/>
-      </g>
-      <g id="g29" transform="translate(273.7828,32.7195)">
-        <path d="m 0,0 h -55.926 c -11.228,0 -20.091,9.482 -19.435,20.69 10.744,183.439 163.389,329.388 349.485,329.388 v -56.263 c 0,-10.709 -8.273,-19.617 -18.957,-20.35 C 112.819,263.696 0,144.774 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path31"/>
-      </g>
-      <g id="g33" transform="translate(425.7667,32.7195)">
-        <path d="m 0,0 h -55.445 c -11.653,0 -20.604,10.17 -19.334,21.753 10.866,99.032 95.031,176.341 196.919,176.341 v -57.011 c 0,-10.046 -7.283,-18.755 -17.229,-20.165 C 45.688,112.522 0,61.497 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path35"/>
-      </g>
-    </g>
-  </g>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
 </g>
-    <svg width="2125pt" height="729pt" viewBox="0.00 0.00 2125.02 729.36">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 725.36)">
+    <svg width="1298pt" height="830pt" viewBox="0.00 0.00 1298.43 829.68">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 811.68)">
 <title>D</title>
-<text text-anchor="start" x="1029.63" y="-701.26" font-family="Times,serif" font-weight="bold" font-size="18.00">GPKE</text>
-<text text-anchor="start" x="691.01" y="-671.16" font-family="Times,serif" font-weight="bold" font-size="16.00">6.9.2: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF</text>
+<text text-anchor="start" x="267.46" y="-773.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">GPKE</text>
+<text text-anchor="start" x="267.46" y="-745.48" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">6.9.2: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF</text>
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<polygon fill="#7a8da1" stroke="black" points="482.93,-623.36 311.63,-623.36 311.63,-580.08 482.93,-580.08 482.93,-623.36"/>
-<text text-anchor="start" x="369.15" y="-602.42" font-family="Times,serif" font-weight="bold" font-size="14.00">E_0488</text>
-<text text-anchor="start" x="326.03" y="-590.32" font-family="Times,serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
-<text text-anchor="start" x="431.03" y="-590.32" font-family="Times,serif" font-weight="bold" font-size="12.00"> MSB</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M485.8,-703.68C485.8,-703.68 337,-703.68 337,-703.68 331,-703.68 325,-697.68 325,-691.68 325,-691.68 325,-670.4 325,-670.4 325,-664.4 331,-658.4 337,-658.4 337,-658.4 485.8,-658.4 485.8,-658.4 491.8,-658.4 497.8,-664.4 497.8,-670.4 497.8,-670.4 497.8,-691.68 497.8,-691.68 497.8,-697.68 491.8,-703.68 485.8,-703.68"/>
+<text text-anchor="start" x="339.4" y="-682.74" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0488</text>
+<text text-anchor="start" x="339.4" y="-668.74" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="448.9" y="-668.74" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">MSB</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" d="M782.55,-543.08C782.55,-543.08 12,-543.08 12,-543.08 6,-543.08 0,-537.08 0,-531.08 0,-531.08 0,-519.08 0,-519.08 0,-513.08 6,-507.08 12,-507.08 12,-507.08 782.55,-507.08 782.55,-507.08 788.55,-507.08 794.55,-513.08 794.55,-519.08 794.55,-519.08 794.55,-531.08 794.55,-531.08 794.55,-537.08 788.55,-543.08 782.55,-543.08"/>
-<text text-anchor="start" x="14.4" y="-521.4" font-family="Times,serif" font-weight="bold" font-size="14.00">1: </text>
-<text text-anchor="start" x="33.9" y="-521.4" font-family="Times,serif" font-size="14.00">Hat der MSB die generelle Zustimmung zur Durchf&#252;hrung einer Entsperrung/Sperrung dem NB erteilt?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M645.17,-621.4C645.17,-621.4 177.62,-621.4 177.62,-621.4 171.62,-621.4 165.62,-615.4 165.62,-609.4 165.62,-609.4 165.62,-588.12 165.62,-588.12 165.62,-582.12 171.62,-576.12 177.62,-576.12 177.62,-576.12 645.17,-576.12 645.17,-576.12 651.17,-576.12 657.17,-582.12 657.17,-588.12 657.17,-588.12 657.17,-609.4 657.17,-609.4 657.17,-615.4 651.17,-621.4 645.17,-621.4"/>
+<text text-anchor="start" x="180.02" y="-600.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="199.52" y="-600.46" font-family="Roboto, sans-serif" font-size="14.00">Hat der MSB die generelle Zustimmung zur Durchf&#252;hrung einer</text>
+<text text-anchor="start" x="180.02" y="-586.46" font-family="Roboto, sans-serif" font-size="14.00">Entsperrung/Sperrung dem NB erteilt?</text>
 </g>
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M397.28,-579.93C397.28,-572.07 397.28,-562.99 397.28,-554.55"/>
-<polygon fill="black" stroke="black" points="400.78,-554.75 397.28,-544.75 393.78,-554.75 400.78,-554.75"/>
+<path fill="none" stroke="#88a0d6" d="M411.4,-658.53C411.4,-650.61 411.4,-641.45 411.4,-632.75"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="414.9,-632.85 411.4,-622.85 407.9,-632.85 414.9,-632.85"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<polygon fill="#cfb986" stroke="black" points="608.27,-453.83 150.29,-453.83 150.29,-392.31 608.27,-392.31 608.27,-453.83"/>
-<text text-anchor="start" x="364.28" y="-435.77" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
-<text text-anchor="start" x="162.53" y="-423.67" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="162.53" y="-411.67" font-family="Times,serif" font-size="12.00">Cluster: Zustimmung</text>
-<text text-anchor="start" x="162.53" y="-399.67" font-family="Times,serif" font-size="12.00">Generelle Zustimmung des MSB f&#252;r die Sperrung/Entsperrung liegt vor.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M514.8,-522.87C514.8,-522.87 12,-522.87 12,-522.87 6,-522.87 0,-516.87 0,-510.87 0,-510.87 0,-461.59 0,-461.59 0,-455.59 6,-449.59 12,-449.59 12,-449.59 514.8,-449.59 514.8,-449.59 520.8,-449.59 526.8,-455.59 526.8,-461.59 526.8,-461.59 526.8,-510.87 526.8,-510.87 526.8,-516.87 520.8,-522.87 514.8,-522.87"/>
+<text text-anchor="start" x="14.4" y="-501.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="14.4" y="-473.93" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="14.4" y="-459.93" font-family="Roboto, sans-serif" font-size="14.00">Generelle Zustimmung des MSB f&#252;r die Sperrung/Entsperrung liegt vor.</text>
 </g>
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="black" d="M394.14,-506.66C392.09,-495.27 389.32,-479.88 386.73,-465.47"/>
-<polygon fill="black" stroke="black" points="390.19,-464.93 384.97,-455.71 383.3,-466.17 390.19,-464.93"/>
-<text text-anchor="middle" x="398.03" y="-475.78" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M382.51,-576.19C364.7,-562.88 341.25,-545.37 319.87,-529.4"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="322.17,-526.75 312.07,-523.57 317.98,-532.36 322.17,-526.75"/>
+<text text-anchor="start" x="354.4" y="-545.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 2 -->
 <g id="node4" class="node">
 <title>2</title>
-<path fill="#7aab8a" stroke="black" d="M1181.93,-441.07C1181.93,-441.07 638.63,-441.07 638.63,-441.07 632.63,-441.07 626.63,-435.07 626.63,-429.07 626.63,-429.07 626.63,-417.07 626.63,-417.07 626.63,-411.07 632.63,-405.07 638.63,-405.07 638.63,-405.07 1181.93,-405.07 1181.93,-405.07 1187.93,-405.07 1193.93,-411.07 1193.93,-417.07 1193.93,-417.07 1193.93,-429.07 1193.93,-429.07 1193.93,-435.07 1187.93,-441.07 1181.93,-441.07"/>
-<text text-anchor="start" x="641.03" y="-419.39" font-family="Times,serif" font-weight="bold" font-size="14.00">2: </text>
-<text text-anchor="start" x="660.53" y="-419.39" font-family="Times,serif" font-size="14.00">Liegt ein Verhinderungsgrund einer Sperrung an der Marktlokation vor?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1079.55,-504.23C1079.55,-504.23 557.25,-504.23 557.25,-504.23 551.25,-504.23 545.25,-498.23 545.25,-492.23 545.25,-492.23 545.25,-480.23 545.25,-480.23 545.25,-474.23 551.25,-468.23 557.25,-468.23 557.25,-468.23 1079.55,-468.23 1079.55,-468.23 1085.55,-468.23 1091.55,-474.23 1091.55,-480.23 1091.55,-480.23 1091.55,-492.23 1091.55,-492.23 1091.55,-498.23 1085.55,-504.23 1079.55,-504.23"/>
+<text text-anchor="start" x="559.65" y="-482.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">2: </text>
+<text text-anchor="start" x="579.15" y="-482.55" font-family="Roboto, sans-serif" font-size="14.00">Liegt ein Verhinderungsgrund einer Sperrung an der Marktlokation vor?</text>
 </g>
 <!-- 1&#45;&gt;2 -->
 <g id="edge3" class="edge">
 <title>1-&gt;2</title>
-<path fill="none" stroke="black" d="M486.93,-506.6C577.04,-489.04 715.68,-462.01 809.54,-443.71"/>
-<polygon fill="black" stroke="black" points="810.13,-447.16 819.27,-441.81 808.79,-440.29 810.13,-447.16"/>
-<text text-anchor="middle" x="671.15" y="-475.78" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M490.84,-576.19C564.55,-556.17 673.39,-526.61 745.07,-507.14"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="745.62,-510.62 754.35,-504.62 743.78,-503.87 745.62,-510.62"/>
+<text text-anchor="start" x="614.4" y="-545.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A02 -->
 <g id="node5" class="node">
 <title>A02</title>
-<polygon fill="#cfb986" stroke="black" points="933.89,-339.06 638.66,-339.06 638.66,-253.54 933.89,-253.54 933.89,-339.06"/>
-<text text-anchor="start" x="771.28" y="-321" font-family="Times,serif" font-weight="bold" font-size="14.00">A02</text>
-<text text-anchor="start" x="650.9" y="-308.9" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="650.9" y="-296.9" font-family="Times,serif" font-size="12.00">Cluster: Ablehnung</text>
-<text text-anchor="start" x="650.9" y="-284.9" font-family="Times,serif" font-size="12.00">Verhinderungsgrund liegt vor.</text>
-<text text-anchor="start" x="650.9" y="-272.9" font-family="Times,serif" font-size="12.00">Hinweis: Das identifizierte Problem ist in der</text>
-<text text-anchor="start" x="650.9" y="-260.9" font-family="Times,serif" font-size="12.00"> Antwort zu beschreiben/benennen.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M593.55,-396.34C593.55,-396.34 281.25,-396.34 281.25,-396.34 275.25,-396.34 269.25,-390.34 269.25,-384.34 269.25,-384.34 269.25,-307.06 269.25,-307.06 269.25,-301.06 275.25,-295.06 281.25,-295.06 281.25,-295.06 593.55,-295.06 593.55,-295.06 599.55,-295.06 605.55,-301.06 605.55,-307.06 605.55,-307.06 605.55,-384.34 605.55,-384.34 605.55,-390.34 599.55,-396.34 593.55,-396.34"/>
+<text text-anchor="start" x="283.65" y="-375.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="283.65" y="-347.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="283.65" y="-333.4" font-family="Roboto, sans-serif" font-size="14.00">Verhinderungsgrund liegt vor.</text>
+<text text-anchor="start" x="283.65" y="-319.4" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der</text>
+<text text-anchor="start" x="283.65" y="-305.4" font-family="Roboto, sans-serif" font-size="14.00"> Antwort zu beschreiben/benennen.</text>
 </g>
 <!-- 2&#45;&gt;A02 -->
 <g id="edge4" class="edge">
 <title>2-&gt;A02</title>
-<path fill="none" stroke="black" d="M893.03,-404.72C878.29,-389.88 856.31,-367.77 836.12,-347.45"/>
-<polygon fill="black" stroke="black" points="838.79,-345.18 829.26,-340.56 833.83,-350.12 838.79,-345.18"/>
-<text text-anchor="middle" x="867.03" y="-361.01" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M771.68,-468.24C725.09,-451.3 651.08,-424.39 584.52,-400.19"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="585.92,-396.98 575.33,-396.85 583.53,-403.56 585.92,-396.98"/>
+<text text-anchor="start" x="661.4" y="-419.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 3 -->
 <g id="node6" class="node">
 <title>3</title>
-<path fill="#7aab8a" stroke="black" d="M1526.3,-314.3C1526.3,-314.3 964.25,-314.3 964.25,-314.3 958.25,-314.3 952.25,-308.3 952.25,-302.3 952.25,-302.3 952.25,-290.3 952.25,-290.3 952.25,-284.3 958.25,-278.3 964.25,-278.3 964.25,-278.3 1526.3,-278.3 1526.3,-278.3 1532.3,-278.3 1538.3,-284.3 1538.3,-290.3 1538.3,-290.3 1538.3,-302.3 1538.3,-302.3 1538.3,-308.3 1532.3,-314.3 1526.3,-314.3"/>
-<text text-anchor="start" x="966.65" y="-292.62" font-family="Times,serif" font-weight="bold" font-size="14.00">3: </text>
-<text text-anchor="start" x="986.15" y="-292.62" font-family="Times,serif" font-size="14.00">Liegen dem MSB technische Gr&#252;nde f&#252;r eine Ablehnung der Sperrung vor?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1181.55,-363.7C1181.55,-363.7 635.25,-363.7 635.25,-363.7 629.25,-363.7 623.25,-357.7 623.25,-351.7 623.25,-351.7 623.25,-339.7 623.25,-339.7 623.25,-333.7 629.25,-327.7 635.25,-327.7 635.25,-327.7 1181.55,-327.7 1181.55,-327.7 1187.55,-327.7 1193.55,-333.7 1193.55,-339.7 1193.55,-339.7 1193.55,-351.7 1193.55,-351.7 1193.55,-357.7 1187.55,-363.7 1181.55,-363.7"/>
+<text text-anchor="start" x="637.65" y="-342.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">3: </text>
+<text text-anchor="start" x="657.15" y="-342.02" font-family="Roboto, sans-serif" font-size="14.00">Liegen dem MSB technische Gr&#252;nde f&#252;r eine Ablehnung der Sperrung vor?</text>
 </g>
 <!-- 2&#45;&gt;3 -->
 <g id="edge5" class="edge">
 <title>2-&gt;3</title>
-<path fill="none" stroke="black" d="M957.21,-404.59C1017.68,-382.07 1122.74,-342.94 1187.89,-318.67"/>
-<polygon fill="black" stroke="black" points="1188.82,-322.06 1196.97,-315.29 1186.38,-315.5 1188.82,-322.06"/>
-<text text-anchor="middle" x="1095.15" y="-361.01" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M829.44,-468.24C844.9,-444.44 873.17,-400.93 891.35,-372.94"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="894.22,-374.95 896.73,-364.66 888.35,-371.14 894.22,-374.95"/>
+<text text-anchor="start" x="863.4" y="-419.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A03 -->
 <g id="node7" class="node">
 <title>A03</title>
-<polygon fill="#cfb986" stroke="black" points="1269.89,-200.29 968.66,-200.29 968.66,-114.77 1269.89,-114.77 1269.89,-200.29"/>
-<text text-anchor="start" x="1104.28" y="-182.23" font-family="Times,serif" font-weight="bold" font-size="14.00">A03</text>
-<text text-anchor="start" x="980.9" y="-170.13" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="980.9" y="-158.13" font-family="Times,serif" font-size="12.00">Cluster: Ablehnung</text>
-<text text-anchor="start" x="980.9" y="-146.13" font-family="Times,serif" font-size="12.00">Es liegt ein technischer Ablehnungsgrund vor.</text>
-<text text-anchor="start" x="980.9" y="-134.13" font-family="Times,serif" font-size="12.00">Hinweis: Das identifizierte Problem ist in der</text>
-<text text-anchor="start" x="980.9" y="-122.13" font-family="Times,serif" font-size="12.00"> Antwort zu beschreiben/benennen.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M645.67,-241.81C645.67,-241.81 319.12,-241.81 319.12,-241.81 313.12,-241.81 307.12,-235.81 307.12,-229.81 307.12,-229.81 307.12,-152.53 307.12,-152.53 307.12,-146.53 313.12,-140.53 319.12,-140.53 319.12,-140.53 645.67,-140.53 645.67,-140.53 651.67,-140.53 657.67,-146.53 657.67,-152.53 657.67,-152.53 657.67,-229.81 657.67,-229.81 657.67,-235.81 651.67,-241.81 645.67,-241.81"/>
+<text text-anchor="start" x="321.52" y="-220.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="321.52" y="-192.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="321.52" y="-178.87" font-family="Roboto, sans-serif" font-size="14.00">Es liegt ein technischer Ablehnungsgrund vor.</text>
+<text text-anchor="start" x="321.52" y="-164.87" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der</text>
+<text text-anchor="start" x="321.52" y="-150.87" font-family="Roboto, sans-serif" font-size="14.00"> Antwort zu beschreiben/benennen.</text>
 </g>
 <!-- 3&#45;&gt;A03 -->
 <g id="edge6" class="edge">
 <title>3-&gt;A03</title>
-<path fill="none" stroke="black" d="M1229.32,-277.98C1213.38,-260.68 1188.12,-233.26 1165.82,-209.05"/>
-<polygon fill="black" stroke="black" points="1168.45,-206.74 1159.1,-201.76 1163.3,-211.48 1168.45,-206.74"/>
-<text text-anchor="middle" x="1197.03" y="-222.24" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M861.18,-327.79C806.04,-308.05 712.09,-274.41 631.55,-245.57"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="632.81,-242.31 622.22,-242.23 630.45,-248.9 632.81,-242.31"/>
+<text text-anchor="start" x="707.4" y="-264.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 4 -->
 <g id="node8" class="node">
 <title>4</title>
-<path fill="#7aab8a" stroke="black" d="M1872.55,-175.53C1872.55,-175.53 1300,-175.53 1300,-175.53 1294,-175.53 1288,-169.53 1288,-163.53 1288,-163.53 1288,-151.53 1288,-151.53 1288,-145.53 1294,-139.53 1300,-139.53 1300,-139.53 1872.55,-139.53 1872.55,-139.53 1878.55,-139.53 1884.55,-145.53 1884.55,-151.53 1884.55,-151.53 1884.55,-163.53 1884.55,-163.53 1884.55,-169.53 1878.55,-175.53 1872.55,-175.53"/>
-<text text-anchor="start" x="1302.4" y="-153.85" font-family="Times,serif" font-weight="bold" font-size="14.00">4: </text>
-<text text-anchor="start" x="1321.9" y="-153.85" font-family="Times,serif" font-size="14.00">Ist eine Mitwirkung des MSB bei Entsperrung/Sperrung vor Ort gew&#252;nscht?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1235.3,-209.17C1235.3,-209.17 687.5,-209.17 687.5,-209.17 681.5,-209.17 675.5,-203.17 675.5,-197.17 675.5,-197.17 675.5,-185.17 675.5,-185.17 675.5,-179.17 681.5,-173.17 687.5,-173.17 687.5,-173.17 1235.3,-173.17 1235.3,-173.17 1241.3,-173.17 1247.3,-179.17 1247.3,-185.17 1247.3,-185.17 1247.3,-197.17 1247.3,-197.17 1247.3,-203.17 1241.3,-209.17 1235.3,-209.17"/>
+<text text-anchor="start" x="689.9" y="-187.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">4: </text>
+<text text-anchor="start" x="709.4" y="-187.5" font-family="Roboto, sans-serif" font-size="14.00">Ist eine Mitwirkung des MSB bei Entsperrung/Sperrung vor Ort gew&#252;nscht?</text>
 </g>
 <!-- 3&#45;&gt;4 -->
 <g id="edge7" class="edge">
 <title>3-&gt;4</title>
-<path fill="none" stroke="black" d="M1288.81,-277.84C1350.93,-252.92 1464.93,-207.2 1532.33,-180.17"/>
-<polygon fill="black" stroke="black" points="1533.35,-183.53 1541.33,-176.56 1530.74,-177.03 1533.35,-183.53"/>
-<text text-anchor="middle" x="1453.15" y="-222.24" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M914.27,-327.79C923.35,-301.68 940.86,-251.27 951.8,-219.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="955.03,-221.18 955,-210.58 948.41,-218.88 955.03,-221.18"/>
+<text text-anchor="start" x="936.4" y="-264.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A04 -->
 <g id="node9" class="node">
 <title>A04</title>
-<polygon fill="#cfb986" stroke="black" points="1603.52,-61.52 1003.04,-61.52 1003.04,0 1603.52,0 1603.52,-61.52"/>
-<text text-anchor="start" x="1288.28" y="-43.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A04</text>
-<text text-anchor="start" x="1015.28" y="-31.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="1015.28" y="-19.36" font-family="Times,serif" font-size="12.00">Cluster: Zustimmung</text>
-<text text-anchor="start" x="1015.28" y="-7.36" font-family="Times,serif" font-size="12.00">MSB hat Durchf&#252;hrung der Sperrung und Entsperrung unter Mitwirkung des MSB zugestimmt.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M663.92,-87.28C663.92,-87.28 92.88,-87.28 92.88,-87.28 86.88,-87.28 80.88,-81.28 80.88,-75.28 80.88,-75.28 80.88,-12 80.88,-12 80.88,-6 86.88,0 92.88,0 92.88,0 663.92,0 663.92,0 669.92,0 675.92,-6 675.92,-12 675.92,-12 675.92,-75.28 675.92,-75.28 675.92,-81.28 669.92,-87.28 663.92,-87.28"/>
+<text text-anchor="start" x="95.27" y="-66.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="95.27" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="95.27" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">MSB hat Durchf&#252;hrung der Sperrung und Entsperrung unter Mitwirkung des MSB</text>
+<text text-anchor="start" x="95.27" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">zugestimmt.</text>
 </g>
 <!-- 4&#45;&gt;A04 -->
 <g id="edge8" class="edge">
 <title>4-&gt;A04</title>
-<path fill="none" stroke="black" d="M1546.63,-139.05C1504.2,-120.34 1435.78,-90.18 1382.28,-66.59"/>
-<polygon fill="black" stroke="black" points="1383.74,-63.41 1373.18,-62.58 1380.92,-69.82 1383.74,-63.41"/>
-<text text-anchor="middle" x="1452.03" y="-83.47" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M893.38,-173.19C812.2,-152.93 673.22,-118.23 560.08,-89.99"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="561.24,-86.67 550.69,-87.65 559.54,-93.46 561.24,-86.67"/>
+<text text-anchor="start" x="686.4" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A05 -->
 <g id="node10" class="node">
 <title>A05</title>
-<polygon fill="#cfb986" stroke="black" points="2117.02,-61.52 1621.54,-61.52 1621.54,0 2117.02,0 2117.02,-61.52"/>
-<text text-anchor="start" x="1854.28" y="-43.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A05</text>
-<text text-anchor="start" x="1633.78" y="-31.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="1633.78" y="-19.36" font-family="Times,serif" font-size="12.00">Cluster: Zustimmung</text>
-<text text-anchor="start" x="1633.78" y="-7.36" font-family="Times,serif" font-size="12.00">MSB hat Durchf&#252;hrung der Sperrung und Entsperrung durch NB zugestimmt.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1250.42,-80.28C1250.42,-80.28 706.38,-80.28 706.38,-80.28 700.38,-80.28 694.38,-74.28 694.38,-68.28 694.38,-68.28 694.38,-19 694.38,-19 694.38,-13 700.38,-7 706.38,-7 706.38,-7 1250.42,-7 1250.42,-7 1256.42,-7 1262.42,-13 1262.42,-19 1262.42,-19 1262.42,-68.28 1262.42,-68.28 1262.42,-74.28 1256.42,-80.28 1250.42,-80.28"/>
+<text text-anchor="start" x="708.77" y="-59.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="708.77" y="-31.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="708.77" y="-17.34" font-family="Roboto, sans-serif" font-size="14.00">MSB hat Durchf&#252;hrung der Sperrung und Entsperrung durch NB zugestimmt.</text>
 </g>
 <!-- 4&#45;&gt;A05 -->
 <g id="edge9" class="edge">
 <title>4-&gt;A05</title>
-<path fill="none" stroke="black" d="M1625.92,-139.05C1668.35,-120.34 1736.77,-90.18 1790.27,-66.59"/>
-<polygon fill="black" stroke="black" points="1791.63,-69.82 1799.37,-62.58 1788.81,-63.41 1791.63,-69.82"/>
-<text text-anchor="middle" x="1770.15" y="-83.47" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M963.38,-173.19C965.72,-153.22 969.68,-119.25 972.96,-91.24"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="976.4,-91.9 974.09,-81.56 969.45,-91.09 976.4,-91.9"/>
+<text text-anchor="start" x="970.4" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 </g>
 </svg>

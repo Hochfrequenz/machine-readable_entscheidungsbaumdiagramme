@@ -1,43 +1,59 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">6.52.4: AD Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB</FONT></B><BR/><BR/><BR/><BR/>>;
-    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0518</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> NB</B></FONT><BR align="center"/>>];
-    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>10: </B>Ist die zu stornierende Rechnung beim Empfänger bekannt?<BR align="left"/>>];
-    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Die zu stornierende Rechnung ist nicht vorhanden.<BR align="left"/></FONT>>];
-    "15" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>15: </B>Liegt vom Rechnungssteller die in dieser Rechnung verwendete Rechnungsnummer bereits vor?<BR align="left"/>>];
-    "A06" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A06</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Rechnungsnummer wurde bereits verwendet.<BR align="left"/></FONT>>];
-    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>20: </B>Wurde die zu stornierende Rechnung bereits storniert?<BR align="left"/>>];
-    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Die zu stornierende Rechnung wurde bereits storniert.<BR align="left"/></FONT>>];
-    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>30: </B>Ist der Rechnungstyp der Stornorechnung identisch mit dem Rechnungstyp der ursprünglichen Rechnung?<BR align="left"/>>];
-    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Der Rechnungstyp der Stornorechnung ist nicht identisch mit dem Rechnungstyp der ursprünglichen Rechnung.<BR align="left"/></FONT>>];
-    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>40: </B>Ist der Abrechnungszeitraum bzw. das Ausführungsdatum der Stornorechnung identisch mit dem Abrechnungszeitraum bzw. dem Ausführungsdatum der ursprünglichen Rechnung?<BR align="left"/>>];
-    "A04" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A04</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Der Abrechnungszeitraum bzw. das Ausführungsdatum der Stornorechnung ist nicht identisch mit dem Abrechnungszeitraum bzw. dem Ausführungsdatum der ursprünglichen Rechnung.<BR align="left"/></FONT>>];
-    "50" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>50: </B>Entsprechen die Beträge der Stornorechnung den Beträgen der ursprünglichen Rechnung?<BR align="left"/><BR align="left"/>Hinweis: Alle MOA-Segmente im Summenteil müssen unter Nutzung der Absolutbetragfunktion übereinstimmen.<BR align="left"/>>];
-    "A05" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A05</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Mindestens ein Betrag der Stornorechnung ist nicht identisch mit dem Betrag der ursprünglichen Rechnung.<BR align="left"/></FONT>>];
-    "60" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>60: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>];
-    "A99" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A99</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Ablehnung Sonstiges<BR align="left"/><BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. <BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr<BR align="left"/></FONT>>];
-    "70" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>70: </B>Wurde der ursprünglichen Rechnung zugestimmt?<BR align="left"/>>];
-    "Ende" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label="Ende"];
-    "80" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>80: </B>Wurde die ursprüngliche Rechnung abgelehnt?<BR align="left"/>>];
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.53.4: AD Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    pad=0.25;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0518</B><BR align="left"/><FONT>Prüfende Rolle: <B>NB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Ist die zu stornierende Rechnung beim Empfänger bekannt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Die zu stornierende Rechnung ist nicht vorhanden.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "15" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>15: </B>Liegt vom Rechnungssteller die in dieser Rechnung verwendete Rechnungsnummer<BR align="left"/>bereits vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A06" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A06</B><BR align="left"/><BR align="left"/><FONT>Rechnungsnummer wurde bereits verwendet.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Wurde die zu stornierende Rechnung bereits storniert?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Die zu stornierende Rechnung wurde bereits storniert.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>30: </B>Ist der Rechnungstyp der Stornorechnung identisch mit dem Rechnungstyp der<BR align="left"/>ursprünglichen Rechnung?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Der Rechnungstyp der Stornorechnung ist nicht identisch mit dem Rechnungstyp<BR align="left"/>der ursprünglichen Rechnung.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>40: </B>Ist der Abrechnungszeitraum bzw. das Ausführungsdatum der Stornorechnung<BR align="left"/>identisch mit dem Abrechnungszeitraum bzw. dem Ausführungsdatum der<BR align="left"/>ursprünglichen Rechnung?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A04" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A04</B><BR align="left"/><BR align="left"/><FONT>Der Abrechnungszeitraum bzw. das Ausführungsdatum der Stornorechnung ist nicht<BR align="left"/>identisch mit dem Abrechnungszeitraum bzw. dem Ausführungsdatum der<BR align="left"/>ursprünglichen Rechnung.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "50" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>50: </B>Entsprechen die Beträge der Stornorechnung den Beträgen der ursprünglichen Rechnung?<BR align="left"/>Hinweis: Alle MOA-Segmente im Summenteil müssen unter Nutzung der<BR align="left"/>Absolutbetragfunktion übereinstimmen.<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A05" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A05</B><BR align="left"/><BR align="left"/><FONT>Mindestens ein Betrag der Stornorechnung ist nicht identisch mit dem Betrag der<BR align="left"/>ursprünglichen Rechnung.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "60" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>60: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A99" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A99</B><BR align="left"/><BR align="left"/><FONT>Ablehnung Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "70" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>70: </B>Wurde der ursprünglichen Rechnung zugestimmt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "Stornorechnung zustimmen und im Zahlungslauf berücksichtigen" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Stornorechnung zustimmen und im Zahlungslauf berücksichtigen<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "80" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>80: </B>Wurde die ursprüngliche Rechnung abgelehnt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "Hinweis: 
+Wurde die ursprüngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Hinweis:<BR align="left"/>Wurde die ursprüngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann<BR align="left"/>ist auf die Stornorechnung keine Antwort zu senden<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "Hinweis: 
+Wurde die ursprüngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden." [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Hinweis:<BR align="left"/>Wurde die ursprüngliche Rechnung noch nicht beantwortet, weder mit einem<BR align="left"/>Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung<BR align="left"/>noch auf die Stornorechnung eine Antwort zu senden.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
 
-    "Start" -> "10";
-    "10" -> "A01" [label="Nein"];
-    "10" -> "15" [label="Ja"];
-    "15" -> "A06" [label="Ja"];
-    "15" -> "20" [label="Nein"];
-    "20" -> "A02" [label="Ja"];
-    "20" -> "30" [label="Nein"];
-    "30" -> "A03" [label="Nein"];
-    "30" -> "40" [label="Ja"];
-    "40" -> "A04" [label="Nein"];
-    "40" -> "50" [label="Ja"];
-    "50" -> "A05" [label="Nein"];
-    "50" -> "60" [label="Ja"];
-    "60" -> "A99" [label="Ja"];
-    "60" -> "70" [label="Nein"];
-    "70" -> "Ende" [label="Ja"];
-    "70" -> "80" [label="Nein"];
-    "80" -> "Ende" [label="Nein"];
+    "Start" -> "10" [color="#88a0d6"];
+    "10" -> "A01" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "10" -> "15" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "15" -> "A06" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "15" -> "20" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "A02" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "30" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "A03" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "40" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "A04" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "50" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "A05" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "60" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "60" -> "A99" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "60" -> "70" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "70" -> "Stornorechnung zustimmen und im Zahlungslauf berücksichtigen" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "70" -> "80" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "80" -> "Hinweis: 
+Wurde die ursprüngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "80" -> "Hinweis: 
+Wurde die ursprüngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden." [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
 
     bgcolor="transparent";
+fontname="Roboto, sans-serif";
 }

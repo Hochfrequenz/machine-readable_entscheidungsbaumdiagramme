@@ -1,293 +1,319 @@
 <?xml version='1.0' encoding='ASCII' standalone='yes'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="5544.0px" viewBox="0 0 5544.0 1538.6666666666667" height="1538.6666666666667px">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1920.0px" viewBox="0 0 1920.0 1773.3333333333333" height="1773.3333333333333px">
   <g>
-    <svg version="1.1" width="5544.0px" viewBox="0 0 5544.0 1538.6666666666667" height="1538.6666666666667px">
-  <polygon fill="#f3f1f6" points="0,0 5544.0,0 5544.0,1538.6666666666667 0,1538.6666666666667"/><g>
-    <g transform="translate(2156.9898652927563, 153.86666666666665) scale(1 1) translate(0, 0) scale(6.958798253531588 6.958798253531588) "><sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="namedview7" pagecolor="#ffffff" bordercolor="#999999" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="0.64052329" inkscape:cx="130.36216" inkscape:cy="412.163" inkscape:window-width="1512" inkscape:window-height="916" inkscape:window-x="3840" inkscape:window-y="136" inkscape:window-maximized="0" inkscape:current-layer="layer1"/>
-  <defs id="defs2">
-    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
-      <path d="M 0,568.156 H 579.236 V 0 H 0 Z" id="path21"/>
-    </clipPath>
+    <svg version="1.1" width="1920.0px" viewBox="0 0 1920.0 1773.3333333333333" height="1773.3333333333333px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1920.0" height="1773.3333333333333" rx="20" ry="20"/><g>
+    <g transform="translate(236.8335680090114, 177.3333333333333) scale(1 1) translate(0, 0) scale(2.496949216183235 2.496949216183235) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
   </defs>
-  <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-16.541937,-55.305267)">
-    <g id="g19" clip-path="url(#clipPath23)" transform="matrix(0.35277777,0,0,-0.35277777,0.01017023,243.73675)" style="opacity:0.2">
-      <g id="g25" transform="translate(122.444,32.7195)">
-        <path d="m 0,0 h -56.104 c -11,0 -19.898,9.123 -19.463,20.115 10.594,267.191 231.277,481.302 501.029,481.302 v -56.02 c 0,-10.98 -8.688,-19.892 -19.658,-20.393 C 180.29,414.697 0,228.005 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path27"/>
-      </g>
-      <g id="g29" transform="translate(273.7828,32.7195)">
-        <path d="m 0,0 h -55.926 c -11.228,0 -20.091,9.482 -19.435,20.69 10.744,183.439 163.389,329.388 349.485,329.388 v -56.263 c 0,-10.709 -8.273,-19.617 -18.957,-20.35 C 112.819,263.696 0,144.774 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path31"/>
-      </g>
-      <g id="g33" transform="translate(425.7667,32.7195)">
-        <path d="m 0,0 h -55.445 c -11.653,0 -20.604,10.17 -19.334,21.753 10.866,99.032 95.031,176.341 196.919,176.341 v -57.011 c 0,-10.046 -7.283,-18.755 -17.229,-20.165 C 45.688,112.522 0,61.497 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path35"/>
-      </g>
-    </g>
-  </g>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
 </g>
-    <svg width="4158pt" height="1154pt" viewBox="0.00 0.00 4157.68 1153.93">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1149.93)">
+    <svg width="1440pt" height="1330pt" viewBox="0.00 0.00 1440.00 1329.95">
+<g id="graph0" class="graph" transform="scale(0.988977 0.988977) rotate(0) translate(18 1326.77)">
 <title>D</title>
-<text text-anchor="start" x="2045.96" y="-1125.83" font-family="Times,serif" font-weight="bold" font-size="18.00">GPKE</text>
-<text text-anchor="start" x="1910.59" y="-1095.73" font-family="Times,serif" font-weight="bold" font-size="16.00">6.7.4: AD: Netznutzungsabrechnung</text>
+<text text-anchor="start" x="547.28" y="-1288.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">GPKE</text>
+<text text-anchor="start" x="547.28" y="-1260.57" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">6.7.4: AD: Netznutzungsabrechnung</text>
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<polygon fill="#7a8da1" stroke="black" points="322.05,-1047.93 167.25,-1047.93 167.25,-1004.65 322.05,-1004.65 322.05,-1047.93"/>
-<text text-anchor="start" x="216.53" y="-1026.99" font-family="Times,serif" font-weight="bold" font-size="14.00">E_0459</text>
-<text text-anchor="start" x="181.65" y="-1014.89" font-family="Times,serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
-<text text-anchor="start" x="286.65" y="-1014.89" font-family="Times,serif" font-weight="bold" font-size="12.00"> LF</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M308.18,-1218.77C308.18,-1218.77 175.12,-1218.77 175.12,-1218.77 169.12,-1218.77 163.12,-1212.77 163.12,-1206.77 163.12,-1206.77 163.12,-1185.49 163.12,-1185.49 163.12,-1179.49 169.12,-1173.49 175.12,-1173.49 175.12,-1173.49 308.18,-1173.49 308.18,-1173.49 314.18,-1173.49 320.18,-1179.49 320.18,-1185.49 320.18,-1185.49 320.18,-1206.77 320.18,-1206.77 320.18,-1212.77 314.18,-1218.77 308.18,-1218.77"/>
+<text text-anchor="start" x="177.53" y="-1197.83" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0459</text>
+<text text-anchor="start" x="177.53" y="-1183.83" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="287.02" y="-1183.83" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">LF</text>
 </g>
 <!-- 10 -->
 <g id="node2" class="node">
 <title>10</title>
-<path fill="#7aab8a" stroke="black" d="M477.3,-967.65C477.3,-967.65 12,-967.65 12,-967.65 6,-967.65 0,-961.65 0,-955.65 0,-955.65 0,-943.65 0,-943.65 0,-937.65 6,-931.65 12,-931.65 12,-931.65 477.3,-931.65 477.3,-931.65 483.3,-931.65 489.3,-937.65 489.3,-943.65 489.3,-943.65 489.3,-955.65 489.3,-955.65 489.3,-961.65 483.3,-967.65 477.3,-967.65"/>
-<text text-anchor="start" x="14.4" y="-945.97" font-family="Times,serif" font-weight="bold" font-size="14.00">10: </text>
-<text text-anchor="start" x="43.65" y="-945.97" font-family="Times,serif" font-size="14.00">Ist die zu stornierende Rechnung beim Empf&#228;nger bekannt?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M467.93,-1136.49C467.93,-1136.49 15.38,-1136.49 15.38,-1136.49 9.38,-1136.49 3.38,-1130.49 3.38,-1124.49 3.38,-1124.49 3.38,-1112.49 3.38,-1112.49 3.38,-1106.49 9.38,-1100.49 15.38,-1100.49 15.38,-1100.49 467.93,-1100.49 467.93,-1100.49 473.93,-1100.49 479.93,-1106.49 479.93,-1112.49 479.93,-1112.49 479.93,-1124.49 479.93,-1124.49 479.93,-1130.49 473.93,-1136.49 467.93,-1136.49"/>
+<text text-anchor="start" x="17.78" y="-1114.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="47.03" y="-1114.82" font-family="Roboto, sans-serif" font-size="14.00">Ist die zu stornierende Rechnung beim Empf&#228;nger bekannt?</text>
 </g>
 <!-- Start&#45;&gt;10 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;10</title>
-<path fill="none" stroke="black" d="M244.65,-1004.5C244.65,-996.64 244.65,-987.56 244.65,-979.12"/>
-<polygon fill="black" stroke="black" points="248.15,-979.32 244.65,-969.32 241.15,-979.32 248.15,-979.32"/>
+<path fill="none" stroke="#88a0d6" d="M241.65,-1173.66C241.65,-1165.58 241.65,-1156.28 241.65,-1147.68"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="245.15,-1147.72 241.65,-1137.72 238.15,-1147.72 245.15,-1147.72"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<polygon fill="#cfb986" stroke="black" points="381.52,-878.4 51.79,-878.4 51.79,-828.88 381.52,-828.88 381.52,-878.4"/>
-<text text-anchor="start" x="201.65" y="-860.34" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
-<text text-anchor="start" x="64.03" y="-848.24" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="64.03" y="-836.24" font-family="Times,serif" font-size="12.00">Die zu stornierende Rechnung ist nicht vorhanden.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M369.3,-1047.24C369.3,-1047.24 12,-1047.24 12,-1047.24 6,-1047.24 0,-1041.24 0,-1035.24 0,-1035.24 0,-999.96 0,-999.96 0,-993.96 6,-987.96 12,-987.96 12,-987.96 369.3,-987.96 369.3,-987.96 375.3,-987.96 381.3,-993.96 381.3,-999.96 381.3,-999.96 381.3,-1035.24 381.3,-1035.24 381.3,-1041.24 375.3,-1047.24 369.3,-1047.24"/>
+<text text-anchor="start" x="14.4" y="-1026.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="14.4" y="-998.3" font-family="Roboto, sans-serif" font-size="14.00">Die zu stornierende Rechnung ist nicht vorhanden.</text>
 </g>
 <!-- 10&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>10-&gt;A01</title>
-<path fill="none" stroke="black" d="M239.51,-931.41C236.05,-919.78 231.36,-904.02 227.13,-889.81"/>
-<polygon fill="black" stroke="black" points="230.5,-888.89 224.29,-880.3 223.79,-890.89 230.5,-888.89"/>
-<text text-anchor="middle" x="251.53" y="-900.35" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M233,-1100.71C226.86,-1088.81 218.35,-1072.32 210.58,-1057.24"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="213.74,-1055.73 206.04,-1048.45 207.52,-1058.94 213.74,-1055.73"/>
+<text text-anchor="start" x="221.65" y="-1070.19" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 15 -->
 <g id="node4" class="node">
 <title>15</title>
-<path fill="#7aab8a" stroke="black" d="M1136.05,-871.64C1136.05,-871.64 411.25,-871.64 411.25,-871.64 405.25,-871.64 399.25,-865.64 399.25,-859.64 399.25,-859.64 399.25,-847.64 399.25,-847.64 399.25,-841.64 405.25,-835.64 411.25,-835.64 411.25,-835.64 1136.05,-835.64 1136.05,-835.64 1142.05,-835.64 1148.05,-841.64 1148.05,-847.64 1148.05,-847.64 1148.05,-859.64 1148.05,-859.64 1148.05,-865.64 1142.05,-871.64 1136.05,-871.64"/>
-<text text-anchor="start" x="413.65" y="-849.96" font-family="Times,serif" font-weight="bold" font-size="14.00">15: </text>
-<text text-anchor="start" x="442.9" y="-849.96" font-family="Times,serif" font-size="14.00">Liegt vom Rechnungssteller die in dieser Rechnung verwendete Rechnungsnummer bereits vor?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1029.8,-1040.24C1029.8,-1040.24 411.5,-1040.24 411.5,-1040.24 405.5,-1040.24 399.5,-1034.24 399.5,-1028.24 399.5,-1028.24 399.5,-1006.96 399.5,-1006.96 399.5,-1000.96 405.5,-994.96 411.5,-994.96 411.5,-994.96 1029.8,-994.96 1029.8,-994.96 1035.8,-994.96 1041.8,-1000.96 1041.8,-1006.96 1041.8,-1006.96 1041.8,-1028.24 1041.8,-1028.24 1041.8,-1034.24 1035.8,-1040.24 1029.8,-1040.24"/>
+<text text-anchor="start" x="413.9" y="-1019.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">15: </text>
+<text text-anchor="start" x="443.15" y="-1019.3" font-family="Roboto, sans-serif" font-size="14.00">Liegt vom Rechnungssteller die in dieser Rechnung verwendete Rechnungsnummer</text>
+<text text-anchor="start" x="413.9" y="-1005.3" font-family="Roboto, sans-serif" font-size="14.00">bereits vor?</text>
 </g>
 <!-- 10&#45;&gt;15 -->
 <g id="edge3" class="edge">
 <title>10-&gt;15</title>
-<path fill="none" stroke="black" d="M342.91,-931.19C434.07,-914.99 569.54,-890.91 664.14,-874.1"/>
-<polygon fill="black" stroke="black" points="664.74,-877.55 673.98,-872.35 663.52,-870.66 664.74,-877.55"/>
-<text text-anchor="middle" x="532.4" y="-900.35" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M323.99,-1100.49C401.38,-1084.51 517.97,-1060.44 604.74,-1042.53"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="605.4,-1045.97 614.49,-1040.52 603.99,-1039.11 605.4,-1045.97"/>
+<text text-anchor="start" x="480.65" y="-1070.19" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A06 -->
 <g id="node5" class="node">
 <title>A06</title>
-<polygon fill="#cfb986" stroke="black" points="815.77,-775.63 517.54,-775.63 517.54,-726.11 815.77,-726.11 815.77,-775.63"/>
-<text text-anchor="start" x="651.65" y="-757.57" font-family="Times,serif" font-weight="bold" font-size="14.00">A06</text>
-<text text-anchor="start" x="529.78" y="-745.47" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="529.78" y="-733.47" font-family="Times,serif" font-size="12.00">Rechnungsnummer wurde bereits verwendet.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M522.05,-934.71C522.05,-934.71 199.25,-934.71 199.25,-934.71 193.25,-934.71 187.25,-928.71 187.25,-922.71 187.25,-922.71 187.25,-887.43 187.25,-887.43 187.25,-881.43 193.25,-875.43 199.25,-875.43 199.25,-875.43 522.05,-875.43 522.05,-875.43 528.05,-875.43 534.05,-881.43 534.05,-887.43 534.05,-887.43 534.05,-922.71 534.05,-922.71 534.05,-928.71 528.05,-934.71 522.05,-934.71"/>
+<text text-anchor="start" x="201.65" y="-913.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="201.65" y="-885.77" font-family="Roboto, sans-serif" font-size="14.00">Rechnungsnummer wurde bereits verwendet.</text>
 </g>
 <!-- 15&#45;&gt;A06 -->
 <g id="edge4" class="edge">
 <title>15-&gt;A06</title>
-<path fill="none" stroke="black" d="M755.5,-835.55C740.4,-821.33 718.5,-800.71 700.23,-783.49"/>
-<polygon fill="black" stroke="black" points="702.9,-781.2 693.22,-776.9 698.1,-786.3 702.9,-781.2"/>
-<text text-anchor="middle" x="733.4" y="-797.58" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M650.38,-995.03C597.6,-978.82 524.47,-956.37 464.88,-938.07"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="465.95,-934.74 455.37,-935.15 463.9,-941.43 465.95,-934.74"/>
+<text text-anchor="start" x="561.65" y="-957.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 20 -->
 <g id="node6" class="node">
 <title>20</title>
-<path fill="#7aab8a" stroke="black" d="M1275.3,-768.87C1275.3,-768.87 846,-768.87 846,-768.87 840,-768.87 834,-762.87 834,-756.87 834,-756.87 834,-744.87 834,-744.87 834,-738.87 840,-732.87 846,-732.87 846,-732.87 1275.3,-732.87 1275.3,-732.87 1281.3,-732.87 1287.3,-738.87 1287.3,-744.87 1287.3,-744.87 1287.3,-756.87 1287.3,-756.87 1287.3,-762.87 1281.3,-768.87 1275.3,-768.87"/>
-<text text-anchor="start" x="848.4" y="-747.19" font-family="Times,serif" font-weight="bold" font-size="14.00">20: </text>
-<text text-anchor="start" x="877.65" y="-747.19" font-family="Times,serif" font-size="14.00">Wurde die zu stornierende Rechnung bereits storniert?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M977.42,-923.07C977.42,-923.07 563.88,-923.07 563.88,-923.07 557.88,-923.07 551.88,-917.07 551.88,-911.07 551.88,-911.07 551.88,-899.07 551.88,-899.07 551.88,-893.07 557.88,-887.07 563.88,-887.07 563.88,-887.07 977.42,-887.07 977.42,-887.07 983.42,-887.07 989.42,-893.07 989.42,-899.07 989.42,-899.07 989.42,-911.07 989.42,-911.07 989.42,-917.07 983.42,-923.07 977.42,-923.07"/>
+<text text-anchor="start" x="566.27" y="-901.39" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
+<text text-anchor="start" x="595.52" y="-901.39" font-family="Roboto, sans-serif" font-size="14.00">Wurde die zu stornierende Rechnung bereits storniert?</text>
 </g>
 <!-- 15&#45;&gt;20 -->
 <g id="edge5" class="edge">
 <title>15-&gt;20</title>
-<path fill="none" stroke="black" d="M823.31,-835.2C872.44,-817.95 947.7,-791.53 1000.26,-773.07"/>
-<polygon fill="black" stroke="black" points="1001.41,-776.38 1009.69,-769.76 999.09,-769.77 1001.41,-776.38"/>
-<text text-anchor="middle" x="951.53" y="-797.58" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M730.41,-995.03C738.39,-977.38 749.73,-952.32 758.33,-933.3"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="761.48,-934.83 762.42,-924.27 755.1,-931.94 761.48,-934.83"/>
+<text text-anchor="start" x="747.65" y="-957.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A02 -->
 <g id="node7" class="node">
 <title>A02</title>
-<polygon fill="#cfb986" stroke="black" points="1076.14,-672.86 723.16,-672.86 723.16,-623.34 1076.14,-623.34 1076.14,-672.86"/>
-<text text-anchor="start" x="884.65" y="-654.8" font-family="Times,serif" font-weight="bold" font-size="14.00">A02</text>
-<text text-anchor="start" x="735.4" y="-642.7" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="735.4" y="-630.7" font-family="Times,serif" font-size="12.00">Die zu stornierende Rechnung wurde bereits storniert.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M483.92,-822.18C483.92,-822.18 103.38,-822.18 103.38,-822.18 97.38,-822.18 91.37,-816.18 91.37,-810.18 91.37,-810.18 91.37,-774.9 91.37,-774.9 91.37,-768.9 97.37,-762.9 103.37,-762.9 103.37,-762.9 483.92,-762.9 483.92,-762.9 489.92,-762.9 495.92,-768.9 495.92,-774.9 495.92,-774.9 495.92,-810.18 495.92,-810.18 495.92,-816.18 489.92,-822.18 483.92,-822.18"/>
+<text text-anchor="start" x="105.77" y="-801.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="105.77" y="-773.24" font-family="Roboto, sans-serif" font-size="14.00">Die zu stornierende Rechnung wurde bereits storniert.</text>
 </g>
 <!-- 20&#45;&gt;A02 -->
 <g id="edge6" class="edge">
 <title>20-&gt;A02</title>
-<path fill="none" stroke="black" d="M1032.97,-732.55C1009.65,-717.95 975.74,-696.72 947.95,-679.33"/>
-<polygon fill="black" stroke="black" points="950.02,-676.5 939.69,-674.16 946.31,-682.43 950.02,-676.5"/>
-<text text-anchor="middle" x="997.4" y="-694.81" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M697.42,-887.1C625.92,-870.53 515.43,-844.93 428.09,-824.69"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="429.03,-821.32 418.49,-822.47 427.45,-828.14 429.03,-821.32"/>
+<text text-anchor="start" x="560.65" y="-845.13" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 30 -->
 <g id="node8" class="node">
 <title>30</title>
-<path fill="#7aab8a" stroke="black" d="M1907.3,-666.1C1907.3,-666.1 1106,-666.1 1106,-666.1 1100,-666.1 1094,-660.1 1094,-654.1 1094,-654.1 1094,-642.1 1094,-642.1 1094,-636.1 1100,-630.1 1106,-630.1 1106,-630.1 1907.3,-630.1 1907.3,-630.1 1913.3,-630.1 1919.3,-636.1 1919.3,-642.1 1919.3,-642.1 1919.3,-654.1 1919.3,-654.1 1919.3,-660.1 1913.3,-666.1 1907.3,-666.1"/>
-<text text-anchor="start" x="1108.4" y="-644.42" font-family="Times,serif" font-weight="bold" font-size="14.00">30: </text>
-<text text-anchor="start" x="1137.65" y="-644.42" font-family="Times,serif" font-size="14.00">Ist der Rechnungstyp der Stornorechnung identisch mit dem Rechnungstyp der urspr&#252;nglichen Rechnung?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1113.8,-815.18C1113.8,-815.18 525.5,-815.18 525.5,-815.18 519.5,-815.18 513.5,-809.18 513.5,-803.18 513.5,-803.18 513.5,-781.9 513.5,-781.9 513.5,-775.9 519.5,-769.9 525.5,-769.9 525.5,-769.9 1113.8,-769.9 1113.8,-769.9 1119.8,-769.9 1125.8,-775.9 1125.8,-781.9 1125.8,-781.9 1125.8,-803.18 1125.8,-803.18 1125.8,-809.18 1119.8,-815.18 1113.8,-815.18"/>
+<text text-anchor="start" x="527.9" y="-794.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="557.15" y="-794.24" font-family="Roboto, sans-serif" font-size="14.00">Ist der Rechnungstyp der Stornorechnung identisch mit dem Rechnungstyp der</text>
+<text text-anchor="start" x="527.9" y="-780.24" font-family="Roboto, sans-serif" font-size="14.00">urspr&#252;nglichen Rechnung?</text>
 </g>
 <!-- 20&#45;&gt;30 -->
 <g id="edge7" class="edge">
 <title>20-&gt;30</title>
-<path fill="none" stroke="black" d="M1138.08,-732.37C1216.19,-714.73 1336.6,-687.52 1418.37,-669.05"/>
-<polygon fill="black" stroke="black" points="1418.93,-672.51 1427.91,-666.89 1417.39,-665.68 1418.93,-672.51"/>
-<text text-anchor="middle" x="1327.53" y="-694.81" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M778.09,-887.28C785.35,-870.9 796.59,-845.57 805.54,-825.36"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="808.65,-826.99 809.5,-816.43 802.25,-824.16 808.65,-826.99"/>
+<text text-anchor="start" x="797.65" y="-845.13" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- A03 -->
 <g id="node9" class="node">
 <title>A03</title>
-<polygon fill="#cfb986" stroke="black" points="1580.02,-570.09 881.29,-570.09 881.29,-520.57 1580.02,-520.57 1580.02,-570.09"/>
-<text text-anchor="start" x="1215.65" y="-552.03" font-family="Times,serif" font-weight="bold" font-size="14.00">A03</text>
-<text text-anchor="start" x="893.53" y="-539.93" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="893.53" y="-527.93" font-family="Times,serif" font-size="12.00">Der Rechnungstyp der Stornorechnung ist nicht identisch mit dem Rechnungstyp der urspr&#252;nglichen Rechnung.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M613.17,-709.65C613.17,-709.65 42.12,-709.65 42.12,-709.65 36.12,-709.65 30.12,-703.65 30.12,-697.65 30.12,-697.65 30.12,-648.37 30.12,-648.37 30.12,-642.37 36.12,-636.37 42.12,-636.37 42.12,-636.37 613.17,-636.37 613.17,-636.37 619.17,-636.37 625.17,-642.37 625.17,-648.37 625.17,-648.37 625.17,-697.65 625.17,-697.65 625.17,-703.65 619.17,-709.65 613.17,-709.65"/>
+<text text-anchor="start" x="44.52" y="-688.71" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="44.52" y="-660.71" font-family="Roboto, sans-serif" font-size="14.00">Der Rechnungstyp der Stornorechnung ist nicht identisch mit dem Rechnungstyp</text>
+<text text-anchor="start" x="44.52" y="-646.71" font-family="Roboto, sans-serif" font-size="14.00">der urspr&#252;nglichen Rechnung.</text>
 </g>
 <!-- 30&#45;&gt;A03 -->
 <g id="edge8" class="edge">
 <title>30-&gt;A03</title>
-<path fill="none" stroke="black" d="M1458.89,-629.66C1417.29,-614.47 1356.22,-592.18 1307.71,-574.46"/>
-<polygon fill="black" stroke="black" points="1308.95,-571.19 1298.35,-571.05 1306.55,-577.77 1308.95,-571.19"/>
-<text text-anchor="middle" x="1402.53" y="-592.04" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M729.12,-769.91C661.66,-753.8 567.77,-731.37 487.75,-712.25"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="488.57,-708.85 478.03,-709.93 486.94,-715.66 488.57,-708.85"/>
+<text text-anchor="start" x="617.65" y="-732.6" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 40 -->
 <g id="node10" class="node">
 <title>40</title>
-<path fill="#7aab8a" stroke="black" d="M2941.05,-563.33C2941.05,-563.33 1610.25,-563.33 1610.25,-563.33 1604.25,-563.33 1598.25,-557.33 1598.25,-551.33 1598.25,-551.33 1598.25,-539.33 1598.25,-539.33 1598.25,-533.33 1604.25,-527.33 1610.25,-527.33 1610.25,-527.33 2941.05,-527.33 2941.05,-527.33 2947.05,-527.33 2953.05,-533.33 2953.05,-539.33 2953.05,-539.33 2953.05,-551.33 2953.05,-551.33 2953.05,-557.33 2947.05,-563.33 2941.05,-563.33"/>
-<text text-anchor="start" x="1612.65" y="-541.65" font-family="Times,serif" font-weight="bold" font-size="14.00">40: </text>
-<text text-anchor="start" x="1641.9" y="-541.65" font-family="Times,serif" font-size="14.00">Ist der Abrechnungszeitraum bzw. das Ausf&#252;hrungsdatum der Stornorechnung identisch mit dem Abrechnungszeitraum bzw. dem Ausf&#252;hrungsdatum der urspr&#252;nglichen Rechnung?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1240.3,-702.65C1240.3,-702.65 655,-702.65 655,-702.65 649,-702.65 643,-696.65 643,-690.65 643,-690.65 643,-655.37 643,-655.37 643,-649.37 649,-643.37 655,-643.37 655,-643.37 1240.3,-643.37 1240.3,-643.37 1246.3,-643.37 1252.3,-649.37 1252.3,-655.37 1252.3,-655.37 1252.3,-690.65 1252.3,-690.65 1252.3,-696.65 1246.3,-702.65 1240.3,-702.65"/>
+<text text-anchor="start" x="657.4" y="-681.71" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
+<text text-anchor="start" x="686.65" y="-681.71" font-family="Roboto, sans-serif" font-size="14.00">Ist der Abrechnungszeitraum bzw. das Ausf&#252;hrungsdatum der Stornorechnung</text>
+<text text-anchor="start" x="657.4" y="-667.71" font-family="Roboto, sans-serif" font-size="14.00">identisch mit dem Abrechnungszeitraum bzw. dem Ausf&#252;hrungsdatum der</text>
+<text text-anchor="start" x="657.4" y="-653.71" font-family="Roboto, sans-serif" font-size="14.00">urspr&#252;nglichen Rechnung?</text>
 </g>
 <!-- 30&#45;&gt;40 -->
 <g id="edge9" class="edge">
 <title>30-&gt;40</title>
-<path fill="none" stroke="black" d="M1640.16,-629.6C1777.2,-611.65 1989.78,-583.79 2130.81,-565.31"/>
-<polygon fill="black" stroke="black" points="2131.15,-568.8 2140.61,-564.03 2130.24,-561.85 2131.15,-568.8"/>
-<text text-anchor="middle" x="1944.4" y="-592.04" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M843.13,-769.98C861.35,-753.25 887.02,-729.68 908.36,-710.09"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="910.48,-712.89 915.48,-703.55 905.75,-707.73 910.48,-712.89"/>
+<text text-anchor="start" x="886.65" y="-732.6" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A04 -->
 <g id="node11" class="node">
 <title>A04</title>
-<polygon fill="#cfb986" stroke="black" points="2581.14,-462.44 1436.16,-462.44 1436.16,-412.92 2581.14,-412.92 2581.14,-462.44"/>
-<text text-anchor="start" x="1993.65" y="-444.38" font-family="Times,serif" font-weight="bold" font-size="14.00">A04</text>
-<text text-anchor="start" x="1448.4" y="-432.28" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="1448.4" y="-420.28" font-family="Times,serif" font-size="12.00">Der Abrechnungszeitraum bzw. des Ausf&#252;hrungsdatum der Stornorechnung ist nicht identisch mit dem Abrechnungszeitraum bzw. dem Ausf&#252;hrungsdatum der urspr&#252;nglichen Rechnung.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M651.55,-583.12C651.55,-583.12 55.75,-583.12 55.75,-583.12 49.75,-583.12 43.75,-577.12 43.75,-571.12 43.75,-571.12 43.75,-507.84 43.75,-507.84 43.75,-501.84 49.75,-495.84 55.75,-495.84 55.75,-495.84 651.55,-495.84 651.55,-495.84 657.55,-495.84 663.55,-501.84 663.55,-507.84 663.55,-507.84 663.55,-571.12 663.55,-571.12 663.55,-577.12 657.55,-583.12 651.55,-583.12"/>
+<text text-anchor="start" x="58.15" y="-562.18" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="58.15" y="-534.18" font-family="Roboto, sans-serif" font-size="14.00">Der Abrechnungszeitraum bzw. des Ausf&#252;hrungsdatum der Stornorechnung ist nicht</text>
+<text text-anchor="start" x="58.15" y="-520.18" font-family="Roboto, sans-serif" font-size="14.00">identisch mit dem Abrechnungszeitraum bzw. dem Ausf&#252;hrungsdatum der</text>
+<text text-anchor="start" x="58.15" y="-506.18" font-family="Roboto, sans-serif" font-size="14.00">urspr&#252;nglichen Rechnung.</text>
 </g>
 <!-- 40&#45;&gt;A04 -->
 <g id="edge10" class="edge">
 <title>40-&gt;A04</title>
-<path fill="none" stroke="black" d="M2231.56,-526.88C2190.53,-510.65 2128.63,-486.16 2080.47,-467.1"/>
-<polygon fill="black" stroke="black" points="2081.78,-463.85 2071.2,-463.43 2079.21,-470.36 2081.78,-463.85"/>
-<text text-anchor="middle" x="2183.53" y="-489.27" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M818.39,-643.39C742.05,-626.48 643.71,-604.71 557.17,-585.54"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="558.13,-582.17 547.61,-583.43 556.61,-589.01 558.13,-582.17"/>
+<text text-anchor="start" x="703.65" y="-606.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 50 -->
 <g id="node12" class="node">
 <title>50</title>
-<path fill="#7aab8a" stroke="black" d="M3427.8,-467.32C3427.8,-467.32 2611.5,-467.32 2611.5,-467.32 2605.5,-467.32 2599.5,-461.32 2599.5,-455.32 2599.5,-455.32 2599.5,-420.04 2599.5,-420.04 2599.5,-414.04 2605.5,-408.04 2611.5,-408.04 2611.5,-408.04 3427.8,-408.04 3427.8,-408.04 3433.8,-408.04 3439.8,-414.04 3439.8,-420.04 3439.8,-420.04 3439.8,-455.32 3439.8,-455.32 3439.8,-461.32 3433.8,-467.32 3427.8,-467.32"/>
-<text text-anchor="start" x="2613.9" y="-446.38" font-family="Times,serif" font-weight="bold" font-size="14.00">50: </text>
-<text text-anchor="start" x="2643.15" y="-446.38" font-family="Times,serif" font-size="14.00">Entsprechen die Betr&#228;ge der Stornorechnung den Betr&#228;gen der urspr&#252;nglichen Rechnung?</text>
-<text text-anchor="start" x="2613.9" y="-418.38" font-family="Times,serif" font-size="14.00">Hinweis: Alle MOA-Segmente im Summenteil m&#252;ssen unter Nutzung der Absolutbetragfunktion &#252;bereinstimmen.</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1361.55,-569.12C1361.55,-569.12 693.75,-569.12 693.75,-569.12 687.75,-569.12 681.75,-563.12 681.75,-557.12 681.75,-557.12 681.75,-521.84 681.75,-521.84 681.75,-515.84 687.75,-509.84 693.75,-509.84 693.75,-509.84 1361.55,-509.84 1361.55,-509.84 1367.55,-509.84 1373.55,-515.84 1373.55,-521.84 1373.55,-521.84 1373.55,-557.12 1373.55,-557.12 1373.55,-563.12 1367.55,-569.12 1361.55,-569.12"/>
+<text text-anchor="start" x="696.15" y="-548.18" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
+<text text-anchor="start" x="725.4" y="-548.18" font-family="Roboto, sans-serif" font-size="14.00">Entsprechen die Betr&#228;ge der Stornorechnung den Betr&#228;gen der urspr&#252;nglichen Rechnung?</text>
+<text text-anchor="start" x="696.15" y="-534.18" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Alle MOA-Segmente im Summenteil m&#252;ssen unter Nutzung der</text>
+<text text-anchor="start" x="696.15" y="-520.18" font-family="Roboto, sans-serif" font-size="14.00">Absolutbetragfunktion &#252;bereinstimmen.</text>
 </g>
 <!-- 40&#45;&gt;50 -->
 <g id="edge11" class="edge">
 <title>40-&gt;50</title>
-<path fill="none" stroke="black" d="M2398.51,-526.88C2508.4,-511.28 2671.98,-488.05 2803.69,-469.35"/>
-<polygon fill="black" stroke="black" points="2803.81,-472.86 2813.22,-467.99 2802.83,-465.93 2803.81,-472.86"/>
-<text text-anchor="middle" x="2677.4" y="-489.27" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M965.01,-643.47C976.54,-624.51 991.82,-599.4 1004.39,-578.71"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1007.33,-580.62 1009.54,-570.26 1001.35,-576.98 1007.33,-580.62"/>
+<text text-anchor="start" x="989.65" y="-606.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A05 -->
 <g id="node13" class="node">
 <title>A05</title>
-<polygon fill="#cfb986" stroke="black" points="3201.27,-354.79 2522.03,-354.79 2522.03,-305.27 3201.27,-305.27 3201.27,-354.79"/>
-<text text-anchor="start" x="2846.65" y="-336.73" font-family="Times,serif" font-weight="bold" font-size="14.00">A05</text>
-<text text-anchor="start" x="2534.28" y="-324.63" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="2534.28" y="-312.63" font-family="Times,serif" font-size="12.00">Mindestens ein Betrag der Stornorechnung ist nicht identisch mit dem Betrag der urspr&#252;nglichen Rechnung.</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M839.92,-442.59C839.92,-442.59 267.38,-442.59 267.38,-442.59 261.38,-442.59 255.38,-436.59 255.38,-430.59 255.38,-430.59 255.38,-381.31 255.38,-381.31 255.38,-375.31 261.38,-369.31 267.38,-369.31 267.38,-369.31 839.92,-369.31 839.92,-369.31 845.92,-369.31 851.92,-375.31 851.92,-381.31 851.92,-381.31 851.92,-430.59 851.92,-430.59 851.92,-436.59 845.92,-442.59 839.92,-442.59"/>
+<text text-anchor="start" x="269.77" y="-421.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="269.77" y="-393.65" font-family="Roboto, sans-serif" font-size="14.00">Mindestens ein Betrag der Stornorechnung ist nicht identisch mit dem Betrag der</text>
+<text text-anchor="start" x="269.77" y="-379.65" font-family="Roboto, sans-serif" font-size="14.00">urspr&#252;nglichen Rechnung.</text>
 </g>
 <!-- 50&#45;&gt;A05 -->
 <g id="edge12" class="edge">
 <title>50-&gt;A05</title>
-<path fill="none" stroke="black" d="M2976.48,-407.81C2954.99,-393.44 2929.01,-376.07 2907.2,-361.49"/>
-<polygon fill="black" stroke="black" points="2909.34,-358.71 2899.08,-356.06 2905.45,-364.53 2909.34,-358.71"/>
-<text text-anchor="middle" x="2962.53" y="-376.74" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M924.51,-509.86C856.63,-491.02 766.95,-466.14 692.79,-445.56"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="693.99,-442.26 683.42,-442.96 692.12,-449.01 693.99,-442.26"/>
+<text text-anchor="start" x="804.65" y="-465.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- 60 -->
 <g id="node14" class="node">
 <title>60</title>
-<path fill="#7aab8a" stroke="black" d="M3639.8,-348.03C3639.8,-348.03 3231.5,-348.03 3231.5,-348.03 3225.5,-348.03 3219.5,-342.03 3219.5,-336.03 3219.5,-336.03 3219.5,-324.03 3219.5,-324.03 3219.5,-318.03 3225.5,-312.03 3231.5,-312.03 3231.5,-312.03 3639.8,-312.03 3639.8,-312.03 3645.8,-312.03 3651.8,-318.03 3651.8,-324.03 3651.8,-324.03 3651.8,-336.03 3651.8,-336.03 3651.8,-342.03 3645.8,-348.03 3639.8,-348.03"/>
-<text text-anchor="start" x="3233.9" y="-326.35" font-family="Times,serif" font-weight="bold" font-size="14.00">60: </text>
-<text text-anchor="start" x="3263.15" y="-326.35" font-family="Times,serif" font-size="14.00">Ist ein zuvor nicht spezifizierter Fehler aufgetreten?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1275.68,-423.95C1275.68,-423.95 881.63,-423.95 881.63,-423.95 875.63,-423.95 869.63,-417.95 869.63,-411.95 869.63,-411.95 869.63,-399.95 869.63,-399.95 869.63,-393.95 875.63,-387.95 881.63,-387.95 881.63,-387.95 1275.68,-387.95 1275.68,-387.95 1281.68,-387.95 1287.68,-393.95 1287.68,-399.95 1287.68,-399.95 1287.68,-411.95 1287.68,-411.95 1287.68,-417.95 1281.68,-423.95 1275.68,-423.95"/>
+<text text-anchor="start" x="884.03" y="-402.27" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">60: </text>
+<text text-anchor="start" x="913.28" y="-402.27" font-family="Roboto, sans-serif" font-size="14.00">Ist ein zuvor nicht spezifizierter Fehler aufgetreten?</text>
 </g>
 <!-- 50&#45;&gt;60 -->
 <g id="edge13" class="edge">
 <title>50-&gt;60</title>
-<path fill="none" stroke="black" d="M3134.15,-407.6C3204.6,-389.71 3293.12,-367.23 3355.98,-351.26"/>
-<polygon fill="black" stroke="black" points="3356.72,-354.69 3365.55,-348.83 3354.99,-347.9 3356.72,-354.69"/>
-<text text-anchor="middle" x="3272.4" y="-376.74" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M1038.72,-509.94C1047.4,-487.55 1059.41,-456.58 1067.98,-434.46"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1071.22,-435.79 1071.57,-425.2 1064.7,-433.26 1071.22,-435.79"/>
+<text text-anchor="start" x="1057.65" y="-465.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- A99 -->
 <g id="node15" class="node">
 <title>A99</title>
-<polygon fill="#cfb986" stroke="black" points="3561.27,-252.02 3050.03,-252.02 3050.03,-178.5 3561.27,-178.5 3561.27,-252.02"/>
-<text text-anchor="start" x="3290.65" y="-233.96" font-family="Times,serif" font-weight="bold" font-size="14.00">A99</text>
-<text text-anchor="start" x="3062.28" y="-221.86" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="3062.28" y="-209.86" font-family="Times,serif" font-size="12.00">Ablehnung Sonstiges</text>
-<text text-anchor="start" x="3062.28" y="-197.86" font-family="Times,serif" font-size="12.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. </text>
-<text text-anchor="start" x="3062.28" y="-185.86" font-family="Times,serif" font-size="12.00">Nutzungsm&#246;glichkeit Ende: 01.04.2025 00:00 Uhr</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M857.92,-316.06C857.92,-316.06 297.38,-316.06 297.38,-316.06 291.38,-316.06 285.38,-310.06 285.38,-304.06 285.38,-304.06 285.38,-240.78 285.38,-240.78 285.38,-234.78 291.38,-228.78 297.38,-228.78 297.38,-228.78 857.92,-228.78 857.92,-228.78 863.92,-228.78 869.92,-234.78 869.92,-240.78 869.92,-240.78 869.92,-304.06 869.92,-304.06 869.92,-310.06 863.92,-316.06 857.92,-316.06"/>
+<text text-anchor="start" x="299.77" y="-295.12" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A99</text>
+<text text-anchor="start" x="299.77" y="-267.12" font-family="Roboto, sans-serif" font-size="14.00">Ablehnung Sonstiges</text>
+<text text-anchor="start" x="299.77" y="-253.12" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.</text>
+<text text-anchor="start" x="299.77" y="-239.12" font-family="Roboto, sans-serif" font-size="14.00">Nutzungsm&#246;glichkeit Ende: 01.04.2025 00:00 Uhr</text>
 </g>
 <!-- 60&#45;&gt;A99 -->
 <g id="edge14" class="edge">
 <title>60-&gt;A99</title>
-<path fill="none" stroke="black" d="M3415.62,-311.66C3399.66,-297.81 3376.6,-277.81 3355.71,-259.69"/>
-<polygon fill="black" stroke="black" points="3358.22,-257.23 3348.37,-253.32 3353.63,-262.52 3358.22,-257.23"/>
-<text text-anchor="middle" x="3393.4" y="-273.97" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M1013.92,-387.96C947.64,-370.56 841.75,-342.76 750.89,-318.9"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="751.91,-315.55 741.35,-316.4 750.13,-322.32 751.91,-315.55"/>
+<text text-anchor="start" x="872.65" y="-339.01" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 70 -->
 <g id="node16" class="node">
 <title>70</title>
-<path fill="#7aab8a" stroke="black" d="M3986.05,-233.26C3986.05,-233.26 3591.25,-233.26 3591.25,-233.26 3585.25,-233.26 3579.25,-227.26 3579.25,-221.26 3579.25,-221.26 3579.25,-209.26 3579.25,-209.26 3579.25,-203.26 3585.25,-197.26 3591.25,-197.26 3591.25,-197.26 3986.05,-197.26 3986.05,-197.26 3992.05,-197.26 3998.05,-203.26 3998.05,-209.26 3998.05,-209.26 3998.05,-221.26 3998.05,-221.26 3998.05,-227.26 3992.05,-233.26 3986.05,-233.26"/>
-<text text-anchor="start" x="3593.65" y="-211.58" font-family="Times,serif" font-weight="bold" font-size="14.00">70: </text>
-<text text-anchor="start" x="3622.9" y="-211.58" font-family="Times,serif" font-size="14.00">Wurde der urspr&#252;nglichen Rechnung zugestimmt?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1285.55,-290.42C1285.55,-290.42 899.75,-290.42 899.75,-290.42 893.75,-290.42 887.75,-284.42 887.75,-278.42 887.75,-278.42 887.75,-266.42 887.75,-266.42 887.75,-260.42 893.75,-254.42 899.75,-254.42 899.75,-254.42 1285.55,-254.42 1285.55,-254.42 1291.55,-254.42 1297.55,-260.42 1297.55,-266.42 1297.55,-266.42 1297.55,-278.42 1297.55,-278.42 1297.55,-284.42 1291.55,-290.42 1285.55,-290.42"/>
+<text text-anchor="start" x="902.15" y="-268.75" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">70: </text>
+<text text-anchor="start" x="931.4" y="-268.75" font-family="Roboto, sans-serif" font-size="14.00">Wurde der urspr&#252;nglichen Rechnung zugestimmt?</text>
 </g>
 <!-- 60&#45;&gt;70 -->
 <g id="edge15" class="edge">
 <title>60-&gt;70</title>
-<path fill="none" stroke="black" d="M3490.42,-311.53C3553.25,-291.46 3656.2,-258.57 3723.2,-237.17"/>
-<polygon fill="black" stroke="black" points="3724.14,-240.54 3732.6,-234.17 3722.01,-233.87 3724.14,-240.54"/>
-<text text-anchor="middle" x="3629.53" y="-273.97" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M1080.45,-388.02C1082.78,-366.12 1086.88,-327.67 1089.67,-301.39"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1093.12,-302.1 1090.7,-291.79 1086.16,-301.36 1093.12,-302.1"/>
+<text text-anchor="start" x="1085.65" y="-339.01" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
-<!-- Ende -->
+<!-- Stornorechnung zustimmen und im Zahlungslauf ber&#252;cksichtigen -->
 <g id="node17" class="node">
-<title>Ende</title>
-<polygon fill="#7a8da1" stroke="black" points="3772.43,-36 3706.88,-36 3706.88,0 3772.43,0 3772.43,-36"/>
-<text text-anchor="middle" x="3739.65" y="-13.32" font-family="Times,serif" font-size="14.00">Ende</text>
+<title>Stornorechnung zustimmen und im Zahlungslauf ber&#252;cksichtigen</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M893.8,-175.53C893.8,-175.53 431.5,-175.53 431.5,-175.53 425.5,-175.53 419.5,-169.53 419.5,-163.53 419.5,-163.53 419.5,-151.53 419.5,-151.53 419.5,-145.53 425.5,-139.53 431.5,-139.53 431.5,-139.53 893.8,-139.53 893.8,-139.53 899.8,-139.53 905.8,-145.53 905.8,-151.53 905.8,-151.53 905.8,-163.53 905.8,-163.53 905.8,-169.53 899.8,-175.53 893.8,-175.53"/>
+<text text-anchor="start" x="433.9" y="-152.85" font-family="Roboto, sans-serif" font-size="14.00">Stornorechnung zustimmen und im Zahlungslauf ber&#252;cksichtigen</text>
 </g>
-<!-- 70&#45;&gt;Ende -->
+<!-- 70&#45;&gt;Stornorechnung zustimmen und im Zahlungslauf ber&#252;cksichtigen -->
 <g id="edge16" class="edge">
-<title>70-&gt;Ende</title>
-<path fill="none" stroke="black" d="M3773.7,-196.95C3760.11,-179.99 3741.02,-152.74 3733.15,-125.25 3725.81,-99.62 3728.81,-69.13 3732.82,-47.4"/>
-<polygon fill="black" stroke="black" points="3736.21,-48.3 3734.8,-37.8 3729.36,-46.89 3736.21,-48.3"/>
-<text text-anchor="middle" x="3740.4" y="-102.58" font-family="Times,serif" font-size="14.00">Ja</text>
+<title>70-&gt;Stornorechnung zustimmen und im Zahlungslauf ber&#252;cksichtigen</title>
+<path fill="none" stroke="#88a0d6" d="M1028.27,-254.52C950.66,-234.14 820.42,-199.95 738.15,-178.35"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="739.14,-174.99 728.58,-175.84 737.36,-181.76 739.14,-174.99"/>
+<text text-anchor="start" x="851.65" y="-198.48" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 <!-- 80 -->
 <g id="node18" class="node">
 <title>80</title>
-<path fill="#7aab8a" stroke="black" d="M4137.68,-125.25C4137.68,-125.25 3767.62,-125.25 3767.62,-125.25 3761.62,-125.25 3755.62,-119.25 3755.62,-113.25 3755.62,-113.25 3755.62,-101.25 3755.62,-101.25 3755.62,-95.25 3761.62,-89.25 3767.62,-89.25 3767.62,-89.25 4137.68,-89.25 4137.68,-89.25 4143.68,-89.25 4149.68,-95.25 4149.68,-101.25 4149.68,-101.25 4149.68,-113.25 4149.68,-113.25 4149.68,-119.25 4143.68,-125.25 4137.68,-125.25"/>
-<text text-anchor="start" x="3770.03" y="-103.58" font-family="Times,serif" font-weight="bold" font-size="14.00">80: </text>
-<text text-anchor="start" x="3799.28" y="-103.58" font-family="Times,serif" font-size="14.00">Wurde die urspr&#252;ngliche Rechnung abgelehnt?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1297.55,-175.53C1297.55,-175.53 935.75,-175.53 935.75,-175.53 929.75,-175.53 923.75,-169.53 923.75,-163.53 923.75,-163.53 923.75,-151.53 923.75,-151.53 923.75,-145.53 929.75,-139.53 935.75,-139.53 935.75,-139.53 1297.55,-139.53 1297.55,-139.53 1303.55,-139.53 1309.55,-145.53 1309.55,-151.53 1309.55,-151.53 1309.55,-163.53 1309.55,-163.53 1309.55,-169.53 1303.55,-175.53 1297.55,-175.53"/>
+<text text-anchor="start" x="938.15" y="-153.85" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">80: </text>
+<text text-anchor="start" x="967.4" y="-153.85" font-family="Roboto, sans-serif" font-size="14.00">Wurde die urspr&#252;ngliche Rechnung abgelehnt?</text>
 </g>
 <!-- 70&#45;&gt;80 -->
 <g id="edge17" class="edge">
 <title>70-&gt;80</title>
-<path fill="none" stroke="black" d="M3815.36,-196.99C3842.8,-179.26 3885.69,-151.53 3916.23,-131.79"/>
-<polygon fill="black" stroke="black" points="3917.9,-134.88 3924.4,-126.51 3914.1,-129 3917.9,-134.88"/>
-<text text-anchor="middle" x="3911.53" y="-147.2" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M1096.19,-254.76C1100.02,-236.75 1106.19,-207.75 1110.75,-186.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1114.12,-187.25 1112.78,-176.74 1107.28,-185.79 1114.12,-187.25"/>
+<text text-anchor="start" x="1108.65" y="-198.48" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
-<!-- 80&#45;&gt;Ende -->
+<!-- Hinweis: 
+Wurde die urspr&#252;ngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden -->
+<g id="node19" class="node">
+<title>Hinweis: 
+Wurde die urspr&#252;ngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M785.05,-77.66C785.05,-77.66 210.25,-77.66 210.25,-77.66 204.25,-77.66 198.25,-71.66 198.25,-65.66 198.25,-65.66 198.25,-20.62 198.25,-20.62 198.25,-14.62 204.25,-8.62 210.25,-8.62 210.25,-8.62 785.05,-8.62 785.05,-8.62 791.05,-8.62 797.05,-14.62 797.05,-20.62 797.05,-20.62 797.05,-65.66 797.05,-65.66 797.05,-71.66 791.05,-77.66 785.05,-77.66"/>
+<text text-anchor="start" x="212.65" y="-55.72" font-family="Roboto, sans-serif" font-size="14.00">Hinweis:</text>
+<text text-anchor="start" x="212.65" y="-38.47" font-family="Roboto, sans-serif" font-size="14.00">Wurde die urspr&#252;ngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann</text>
+<text text-anchor="start" x="212.65" y="-21.21" font-family="Roboto, sans-serif" font-size="14.00">ist auf die Stornorechnung keine Antwort zu senden</text>
+</g>
+<!-- 80&#45;&gt;Hinweis: 
+Wurde die urspr&#252;ngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden -->
 <g id="edge18" class="edge">
-<title>80-&gt;Ende</title>
-<path fill="none" stroke="black" d="M3910.06,-88.8C3873.26,-73.73 3820.32,-52.04 3783.23,-36.85"/>
-<polygon fill="black" stroke="black" points="3784.73,-33.68 3774.15,-33.13 3782.08,-40.16 3784.73,-33.68"/>
-<text text-anchor="middle" x="3881.53" y="-57.95" font-family="Times,serif" font-size="14.00">Nein</text>
+<title>80-&gt;Hinweis: 
+Wurde die urspr&#252;ngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden</title>
+<path fill="none" stroke="#88a0d6" d="M1023.31,-139.58C936.29,-123.78 803.74,-99.72 693.51,-79.7"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="694.19,-76.27 683.73,-77.93 692.94,-83.16 694.19,-76.27"/>
+<text text-anchor="start" x="915.65" y="-109.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- Hinweis: 
+Wurde die urspr&#252;ngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden. -->
+<g id="node20" class="node">
+<title>Hinweis: 
+Wurde die urspr&#252;ngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden.</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1408.05,-86.28C1408.05,-86.28 827.25,-86.28 827.25,-86.28 821.25,-86.28 815.25,-80.28 815.25,-74.28 815.25,-74.28 815.25,-12 815.25,-12 815.25,-6 821.25,0 827.25,0 827.25,0 1408.05,0 1408.05,0 1414.05,0 1420.05,-6 1420.05,-12 1420.05,-12 1420.05,-74.28 1420.05,-74.28 1420.05,-80.28 1414.05,-86.28 1408.05,-86.28"/>
+<text text-anchor="start" x="829.65" y="-64.34" font-family="Roboto, sans-serif" font-size="14.00">Hinweis:</text>
+<text text-anchor="start" x="829.65" y="-47.09" font-family="Roboto, sans-serif" font-size="14.00">Wurde die urspr&#252;ngliche Rechnung noch nicht beantwortet, weder mit einem</text>
+<text text-anchor="start" x="829.65" y="-29.84" font-family="Roboto, sans-serif" font-size="14.00">Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung</text>
+<text text-anchor="start" x="829.65" y="-12.59" font-family="Roboto, sans-serif" font-size="14.00">noch auf die Stornorechnung eine Antwort zu senden.</text>
+</g>
+<!-- 80&#45;&gt;Hinweis: 
+Wurde die urspr&#252;ngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden. -->
+<g id="edge19" class="edge">
+<title>80-&gt;Hinweis: 
+Wurde die urspr&#252;ngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden.</title>
+<path fill="none" stroke="#88a0d6" d="M1116.8,-139.95C1116.9,-128.55 1117.04,-112.72 1117.18,-97.22"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1120.67,-97.59 1117.26,-87.56 1113.67,-97.53 1120.67,-97.59"/>
+<text text-anchor="start" x="1116.65" y="-109.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 </g>
 </svg>

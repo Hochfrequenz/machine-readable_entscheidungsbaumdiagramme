@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "Sperrprozesse Gas",
     "ebd_code": "E_1000",
+    "ebd_name": "E_1000_Sperrauftrag prüfen (Basiert auf Strom EBD: E_0470_Sperrauftrag prüfen)",
+    "remark": null,
     "role": "NB",
-    "sub_chapter": "19.2.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF"
+    "section": "19.2.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -269,7 +271,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung Sonstiges\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2024 00:00 Uhr",
+          "note": "Cluster: Ablehnung Sonstiges\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A99"
         },
         {

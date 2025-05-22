@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "GPKE",
     "ebd_code": "E_0503",
+    "ebd_name": "E_0503_Rechnung einer sonstigen Leistung prüfen",
+    "remark": null,
     "role": "LF",
-    "sub_chapter": "6.8.1: AD: Abrechnung einer sonstigen Leistung"
+    "section": "6.8.1: AD: Abrechnung einer sonstigen Leistung"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -767,7 +769,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist die Abrechnung der Blindarbeit zwischen Lieferanten und Netzbetreiber für diese Marktlokation für den abgerechneten Zeitraum vereinbart?",
+      "description": "Ist die Abrechnung der Blindarbeit zwischen Lieferanten und Netzbetreiber für diese Lokation für den abgerechneten Zeitraum vereinbart?",
       "step_number": "34",
       "sub_rows": [
         {
@@ -813,7 +815,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist der Empfänger der Rechnung für den genannten Abrechnungszeitraum der genannten Marktlokation mindestens einen Tag zugeordnet?",
+      "description": "Ist der Empfänger der Rechnung für den genannten Abrechnungszeitraum der genannten Lokation mindestens einen Tag zugeordnet?",
       "step_number": "36",
       "sub_rows": [
         {
@@ -821,7 +823,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nDer LF lehnt die Zahlung der Blindarbeitsrechnung ab. Der LF ist der Marktlokation nicht einen Tag des Abrechnungszeitraumes zugeordnet.",
+          "note": "Cluster: Ablehnung\nDer LF lehnt die Zahlung der Blindarbeitsrechnung ab. Der LF ist der Lokation nicht einen Tag des Abrechnungszeitraumes zugeordnet.",
           "result_code": "A26"
         },
         {
@@ -836,7 +838,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist der Empfänger der Rechnung für den gesamten genannten Abrechnungszeitraum der genannten Marktlokation zugeordnet?",
+      "description": "Ist der Empfänger der Rechnung für den gesamten genannten Abrechnungszeitraum der genannten Lokation zugeordnet?",
       "step_number": "37",
       "sub_rows": [
         {
@@ -1013,7 +1015,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2024 00:00 Uhr",
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A99"
         }
       ],

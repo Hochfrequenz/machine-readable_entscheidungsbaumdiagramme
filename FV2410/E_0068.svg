@@ -1,81 +1,73 @@
 <?xml version='1.0' encoding='ASCII' standalone='yes'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1416.0px" viewBox="0 0 1416.0 433.3333333333333" height="433.3333333333333px">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1422.6666666666667px" viewBox="0 0 1422.6666666666667 488.0" height="488.0px">
   <g>
-    <svg version="1.1" width="1416.0px" viewBox="0 0 1416.0 433.3333333333333" height="433.3333333333333px">
-  <polygon fill="#f3f1f6" points="0,0 1416.0,0 1416.0,433.3333333333333 0,433.3333333333333"/><g>
-    <g transform="translate(534.7952393588785, 43.33333333333332) scale(1 1) translate(0, 0) scale(1.9598002013845461 1.9598002013845461) "><sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="namedview7" pagecolor="#ffffff" bordercolor="#999999" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="0.64052329" inkscape:cx="130.36216" inkscape:cy="412.163" inkscape:window-width="1512" inkscape:window-height="916" inkscape:window-x="3840" inkscape:window-y="136" inkscape:window-maximized="0" inkscape:current-layer="layer1"/>
-  <defs id="defs2">
-    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
-      <path d="M 0,568.156 H 579.236 V 0 H 0 Z" id="path21"/>
-    </clipPath>
+    <svg version="1.1" width="1422.6666666666667px" viewBox="0 0 1422.6666666666667 488.0" height="488.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1422.6666666666667" height="488.0" rx="20" ry="20"/><g>
+    <g transform="translate(512.3266309959636, 48.79999999999999) scale(1 1) translate(0, 0) scale(0.6871303858068151 0.6871303858068151) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
   </defs>
-  <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-16.541937,-55.305267)">
-    <g id="g19" clip-path="url(#clipPath23)" transform="matrix(0.35277777,0,0,-0.35277777,0.01017023,243.73675)" style="opacity:0.2">
-      <g id="g25" transform="translate(122.444,32.7195)">
-        <path d="m 0,0 h -56.104 c -11,0 -19.898,9.123 -19.463,20.115 10.594,267.191 231.277,481.302 501.029,481.302 v -56.02 c 0,-10.98 -8.688,-19.892 -19.658,-20.393 C 180.29,414.697 0,228.005 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path27"/>
-      </g>
-      <g id="g29" transform="translate(273.7828,32.7195)">
-        <path d="m 0,0 h -55.926 c -11.228,0 -20.091,9.482 -19.435,20.69 10.744,183.439 163.389,329.388 349.485,329.388 v -56.263 c 0,-10.709 -8.273,-19.617 -18.957,-20.35 C 112.819,263.696 0,144.774 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path31"/>
-      </g>
-      <g id="g33" transform="translate(425.7667,32.7195)">
-        <path d="m 0,0 h -55.445 c -11.653,0 -20.604,10.17 -19.334,21.753 10.866,99.032 95.031,176.341 196.919,176.341 v -57.011 c 0,-10.046 -7.283,-18.755 -17.229,-20.165 C 45.688,112.522 0,61.497 0,0" style="fill:#6ead83;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path35"/>
-      </g>
-    </g>
-  </g>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
 </g>
-    <svg width="1062pt" height="325pt" viewBox="0.00 0.00 1062.00 325.05">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 321.05)">
+    <svg width="1067pt" height="366pt" viewBox="0.00 0.00 1066.75 366.09">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 348.09)">
 <title>D</title>
-<text text-anchor="start" x="493.62" y="-296.95" font-family="Times,serif" font-weight="bold" font-size="18.00">MaBiS</text>
-<text text-anchor="start" x="8" y="-266.85" font-family="Times,serif" font-weight="bold" font-size="16.00">7.31.1: AD: Anforderung und &#220;bermittlung Bilanzkreiszuordnungsliste zwischen NB und BKV (Einzelanforderung)</text>
+<text text-anchor="start" x="8" y="-309.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">MaBiS</text>
+<text text-anchor="start" x="8" y="-281.89" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">7.31.1: AD: Anforderung und &#220;bermittlung Bilanzkreiszuordnungsliste zwischen NB und BKV (Einzelanforderung)</text>
 <!-- Start -->
 <g id="node1" class="node">
 <title>Start</title>
-<polygon fill="#7a8da1" stroke="black" points="607.02,-219.05 446.98,-219.05 446.98,-175.77 607.02,-175.77 607.02,-219.05"/>
-<text text-anchor="start" x="498.88" y="-198.11" font-family="Times,serif" font-weight="bold" font-size="14.00">E_0068</text>
-<text text-anchor="start" x="461.38" y="-186.01" font-family="Times,serif" font-weight="bold" text-decoration="underline" font-size="12.00">Pr&#252;fende Rolle:</text>
-<text text-anchor="start" x="566.38" y="-186.01" font-family="Times,serif" font-weight="bold" font-size="12.00"> NB</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M583.77,-240.09C583.77,-240.09 446.98,-240.09 446.98,-240.09 440.98,-240.09 434.98,-234.09 434.98,-228.09 434.98,-228.09 434.98,-206.81 434.98,-206.81 434.98,-200.81 440.98,-194.81 446.98,-194.81 446.98,-194.81 583.77,-194.81 583.77,-194.81 589.77,-194.81 595.77,-200.81 595.77,-206.81 595.77,-206.81 595.77,-228.09 595.77,-228.09 595.77,-234.09 589.77,-240.09 583.77,-240.09"/>
+<text text-anchor="start" x="449.38" y="-219.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0068</text>
+<text text-anchor="start" x="449.38" y="-205.15" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="558.88" y="-205.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<path fill="#7aab8a" stroke="black" d="M1030.03,-138.77C1030.03,-138.77 23.97,-138.77 23.97,-138.77 17.97,-138.77 11.98,-132.77 11.98,-126.77 11.98,-126.77 11.98,-114.77 11.98,-114.77 11.98,-108.77 17.98,-102.77 23.98,-102.77 23.98,-102.77 1030.03,-102.77 1030.03,-102.77 1036.03,-102.77 1042.03,-108.77 1042.03,-114.77 1042.03,-114.77 1042.03,-126.77 1042.03,-126.77 1042.03,-132.77 1036.03,-138.77 1030.03,-138.77"/>
-<text text-anchor="start" x="26.38" y="-117.09" font-family="Times,serif" font-weight="bold" font-size="14.00">1: </text>
-<text text-anchor="start" x="45.88" y="-117.09" font-family="Times,serif" font-size="14.00">Sind in dem angefragten Gebiet (Bilanzierungsgebiet oder Regelzone) f&#252;r diesen Bilanzkreis LF-SZR zum angegebenen Zeitpunkt g&#252;ltig?</text>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M808.77,-157.81C808.77,-157.81 221.98,-157.81 221.98,-157.81 215.98,-157.81 209.98,-151.81 209.98,-145.81 209.98,-145.81 209.98,-124.53 209.98,-124.53 209.98,-118.53 215.98,-112.53 221.98,-112.53 221.98,-112.53 808.77,-112.53 808.77,-112.53 814.77,-112.53 820.77,-118.53 820.77,-124.53 820.77,-124.53 820.77,-145.81 820.77,-145.81 820.77,-151.81 814.77,-157.81 808.77,-157.81"/>
+<text text-anchor="start" x="224.38" y="-136.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="243.88" y="-136.87" font-family="Roboto, sans-serif" font-size="14.00">Sind in dem angefragten Gebiet (Bilanzierungsgebiet oder Regelzone) f&#252;r diesen</text>
+<text text-anchor="start" x="224.38" y="-122.87" font-family="Roboto, sans-serif" font-size="14.00">Bilanzkreis LF-SZR zum angegebenen Zeitpunkt g&#252;ltig?</text>
 </g>
 <!-- Start&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>Start-&gt;1</title>
-<path fill="none" stroke="black" d="M527,-175.62C527,-167.76 527,-158.68 527,-150.24"/>
-<polygon fill="black" stroke="black" points="530.5,-150.44 527,-140.44 523.5,-150.44 530.5,-150.44"/>
+<path fill="none" stroke="#88a0d6" d="M515.38,-194.94C515.38,-187.02 515.38,-177.86 515.38,-169.16"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="518.88,-169.26 515.38,-159.26 511.88,-169.26 518.88,-169.26"/>
 </g>
 <!-- A01 -->
 <g id="node3" class="node">
 <title>A01</title>
-<polygon fill="#cfb986" stroke="black" points="546.99,-49.52 365.01,-49.52 365.01,0 546.99,0 546.99,-49.52"/>
-<text text-anchor="start" x="441" y="-31.46" font-family="Times,serif" font-weight="bold" font-size="14.00">A01</text>
-<text text-anchor="start" x="377.25" y="-19.36" font-family="Times,serif" text-decoration="underline" font-size="12.00">Hinweis:</text>
-<text text-anchor="start" x="377.25" y="-7.36" font-family="Times,serif" font-size="12.00">Kein Lieferant zugeordnet</text>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M530.02,-59.28C530.02,-59.28 346.73,-59.28 346.73,-59.28 340.73,-59.28 334.73,-53.28 334.73,-47.28 334.73,-47.28 334.73,-12 334.73,-12 334.73,-6 340.73,0 346.73,0 346.73,0 530.02,0 530.02,0 536.02,0 542.02,-6 542.02,-12 542.02,-12 542.02,-47.28 542.02,-47.28 542.02,-53.28 536.02,-59.28 530.02,-59.28"/>
+<text text-anchor="start" x="349.12" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="349.12" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Kein Lieferant zugeordnet</text>
 </g>
 <!-- 1&#45;&gt;A01 -->
 <g id="edge2" class="edge">
 <title>1-&gt;A01</title>
-<path fill="none" stroke="black" d="M513.98,-102.53C504.76,-90.32 492.11,-73.57 480.98,-58.83"/>
-<polygon fill="black" stroke="black" points="484.02,-57.05 475.2,-51.18 478.43,-61.27 484.02,-57.05"/>
-<text text-anchor="middle" x="516.88" y="-71.47" font-family="Times,serif" font-size="14.00">Nein</text>
+<path fill="none" stroke="#88a0d6" d="M499.42,-112.72C489.86,-99.87 477.44,-83.17 466.3,-68.19"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="469.25,-66.29 460.47,-60.35 463.63,-70.46 469.25,-66.29"/>
+<text text-anchor="start" x="483.38" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
 </g>
 <!-- Ende -->
 <g id="node4" class="node">
 <title>Ende</title>
-<polygon fill="#7a8da1" stroke="black" points="630.77,-42.76 565.23,-42.76 565.23,-6.76 630.77,-6.76 630.77,-42.76"/>
-<text text-anchor="middle" x="598" y="-20.08" font-family="Times,serif" font-size="14.00">Ende</text>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M612.4,-47.64C612.4,-47.64 572.35,-47.64 572.35,-47.64 566.35,-47.64 560.35,-41.64 560.35,-35.64 560.35,-35.64 560.35,-23.64 560.35,-23.64 560.35,-17.64 566.35,-11.64 572.35,-11.64 572.35,-11.64 612.4,-11.64 612.4,-11.64 618.4,-11.64 624.4,-17.64 624.4,-23.64 624.4,-23.64 624.4,-35.64 624.4,-35.64 624.4,-41.64 618.4,-47.64 612.4,-47.64"/>
+<text text-anchor="middle" x="592.38" y="-24.96" font-family="Roboto, sans-serif" font-size="14.00">Ende</text>
 </g>
 <!-- 1&#45;&gt;Ende -->
 <g id="edge3" class="edge">
 <title>1-&gt;Ende</title>
-<path fill="none" stroke="black" d="M540.02,-102.53C550.66,-88.44 565.88,-68.28 578.06,-52.16"/>
-<polygon fill="black" stroke="black" points="580.67,-54.51 583.91,-44.42 575.09,-50.29 580.67,-54.51"/>
-<text text-anchor="middle" x="570.75" y="-71.47" font-family="Times,serif" font-size="14.00">Ja</text>
+<path fill="none" stroke="#88a0d6" d="M531.33,-112.72C543.45,-96.43 560.16,-73.95 573.04,-56.64"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="575.68,-58.95 578.84,-48.84 570.07,-54.77 575.68,-58.95"/>
+<text text-anchor="start" x="555.38" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
 </g>
 </g>
 </svg>

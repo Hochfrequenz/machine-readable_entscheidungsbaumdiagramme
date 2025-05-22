@@ -1,18 +1,27 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR/><BR/><B><FONT POINT-SIZE="16">7.34.1: AD: Übermittlung Prüfmitteilung für die Bilanzkreissummenzeitreihe vom BKV an BIKO und NB</FONT></B><BR/><BR/><BR/><BR/>>;
-    "Start" [margin="0.2,0.12", shape=box, style=filled, fillcolor="#7a8da1", label=<<B>E_0063</B><BR align="center"/><FONT point-size="12"><B><U>Prüfende Rolle:</U> BKV</B></FONT><BR align="center"/>>];
-    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>1: </B>Liegt die Version der Zeitreihe des MaBiS-ZP für diesen Bilanzierungsmonat bereits vor?<BR align="left"/>>];
-    "A01" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A01</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Abweisung<BR align="left"/>Zeitreihe bereits vorhanden<BR align="left"/></FONT>>];
-    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", fillcolor="#7aab8a", label=<<B>2: </B>Entsprechen die Energiemengen der BK-SZR (Kategorie A) den erwarteten Energiemengen?<BR align="left"/>>];
-    "A02" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A02</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Ablehnung<BR align="left"/>Energiemenge falsch / nicht plausibel<BR align="left"/></FONT>>];
-    "A03" [margin="0.17,0.08", shape=box, style=filled, fillcolor="#cfb986", label=<<B>A03</B><BR align="center"/><FONT point-size="12"><U>Hinweis:</U><BR align="left"/>Cluster: Zustimmung<BR align="left"/>Zeitreihe akzeptiert<BR align="left"/></FONT>>];
+    label=<<B><FONT POINT-SIZE="18">MaBiS</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">7.34.1: AD: Übermittlung Prüfmitteilung für die Bilanzkreissummenzeitreihe vom BKV an BIKO und NB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    pad=0.25;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0063</B><BR align="left"/><FONT>Prüfende Rolle: <B>BKV</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>1: </B>Liegt die Version der Zeitreihe des MaBiS-ZP für diesen Bilanzierungsmonat<BR align="left"/>bereits vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Cluster: Abweisung<BR align="left"/>Zeitreihe bereits vorhanden<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>2: </B>Entsprechen die Energiemengen der BK-SZR (Kategorie A) den erwarteten<BR align="left"/>Energiemengen?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Energiemenge falsch / nicht plausibel<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Cluster: Zustimmung<BR align="left"/>Zeitreihe akzeptiert<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
 
-    "Start" -> "1";
-    "1" -> "A01" [label="Ja"];
-    "1" -> "2" [label="Nein"];
-    "2" -> "A02" [label="Nein"];
-    "2" -> "A03" [label="Ja"];
+    "Start" -> "1" [color="#88a0d6"];
+    "1" -> "A01" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "1" -> "2" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "2" -> "A02" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "2" -> "A03" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
 
     bgcolor="transparent";
+fontname="Roboto, sans-serif";
 }

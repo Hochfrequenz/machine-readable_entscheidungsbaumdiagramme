@@ -1,0 +1,34 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">9.11.2: AD: Anfrage zur Rechnungsabwicklung des Messtellenbetriebes über den LF durch den LF</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    pad=0.25;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0208</B><BR align="left"/><FONT>Prüfende Rolle: <B>LF</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Lässt das Vertragsverhältnis mit dem Kunden das im Angebot benannte Beginndatum<BR align="left"/>zum Messstellenbetrieb zu?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Vertragsverhältnis mit Dritten lässt das Beginn-datum nicht zu.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Handelt es sich um ein Angebot auf Basis eines Preisblattes?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>40: </B>Liegt dem LF ein gültiges Preisblatt mit allen im Angebot angegebenen<BR align="left"/>Preisschlüsselstämmen bzw. mit allen im Angebot angegebenen Artikel-ID vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Kein Preisblatt vorhanden<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "50" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>50: </B>Entsprechen die angebotenen Positionen dem Vertrags-verhältnis?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Angebotspositionen abweichend zum Vertrags-verhältnis<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "Bestellung versenden" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Bestellung versenden<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+
+    "Start" -> "10" [color="#88a0d6"];
+    "10" -> "A01" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "10" -> "20" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "40" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "50" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "A02" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "50" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "A03" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "Bestellung versenden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+
+    bgcolor="transparent";
+fontname="Roboto, sans-serif";
+}

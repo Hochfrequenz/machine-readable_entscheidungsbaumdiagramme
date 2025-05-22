@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "GPKE",
     "ebd_code": "E_0515",
+    "ebd_name": "E_0515_Rechnung der Leistungen des Preisblatts A prüfen",
+    "remark": null,
     "role": "NB",
-    "sub_chapter": "6.52.1: AD Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB"
+    "section": "6.53.1: AD Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB"
   },
   "multi_step_instructions": [
     {
@@ -209,7 +211,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung auf Kopfebene\nSonstiger Fehler auf Kopfebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2024 00:00 Uhr",
+          "note": "Cluster: Ablehnung auf Kopfebene\nSonstiger Fehler auf Kopfebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A90"
         },
         {
@@ -416,7 +418,7 @@
             "result": true,
             "subsequent_step_number": "440"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene \nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2024 00:00 Uhr",
+          "note": "Cluster: Ablehnung auf Positionsebene \nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A99"
         },
         {
@@ -600,7 +602,7 @@
             "result": true,
             "subsequent_step_number": "560"
           },
-          "note": "Cluster: Ablehnung auf Summenebene\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2024 00:00 Uhr",
+          "note": "Cluster: Ablehnung auf Summenebene\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A96"
         },
         {

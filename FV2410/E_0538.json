@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "GPKE",
     "ebd_code": "E_0538",
+    "ebd_name": "E_0538_Bestellung Beendigung prüfen",
+    "remark": null,
     "role": "MSB",
-    "sub_chapter": "6.38.9: AD Bestellung einer Konfiguration vom LF an MSB"
+    "section": "6.38.9: AD Bestellung einer Konfiguration vom LF an MSB"
   },
   "multi_step_instructions": null,
   "rows": [
@@ -85,7 +87,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2024 00:00 Uhr",
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2025 00:00 Uhr",
           "result_code": "A99"
         },
         {

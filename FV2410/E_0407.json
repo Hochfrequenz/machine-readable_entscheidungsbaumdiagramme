@@ -2,8 +2,10 @@
   "metadata": {
     "chapter": "GPKE",
     "ebd_code": "E_0407",
+    "ebd_name": "E_0407_erneut Netznutzungsabrechnung prüfen",
+    "remark": null,
     "role": "LF",
-    "sub_chapter": "6.7.3: AD: Netznutzungsabrechnung"
+    "section": "6.7.3: AD: Netznutzungsabrechnung"
   },
   "multi_step_instructions": [
     {
@@ -1342,6 +1344,29 @@
         {
           "check_result": {
             "result": true,
+            "subsequent_step_number": "322"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um die Artikel-ID 1-02-0-015?",
+      "step_number": "322",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "345"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
             "subsequent_step_number": "325"
           },
           "note": null,
@@ -1818,6 +1843,29 @@
           "check_result": {
             "result": true,
             "subsequent_step_number": "427"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "424"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um die Artikel-ID 1-01-6-005 oder 1-01-9-001 oder 1-01-9-002 oder 1-07-4-001 oder um eine Artikel-ID, die der Gruppenartikel-ID 1-03-8 oder 1-03-9 zugehörig ist?",
+      "step_number": "424",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "430"
           },
           "note": null,
           "result_code": null
@@ -2446,7 +2494,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "530"
+            "subsequent_step_number": "528"
           },
           "note": null,
           "result_code": null
@@ -2492,6 +2540,29 @@
         {
           "check_result": {
             "result": true,
+            "subsequent_step_number": "528"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die berechnete (fakturierte) Menge eine physikalische Leistung?",
+      "step_number": "528",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "595"
+          },
+          "note": "Hinweis: Prüfung einer Position mit physikalischer Leistung",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
             "subsequent_step_number": "530"
           },
           "note": null,
@@ -2876,6 +2947,29 @@
           "check_result": {
             "result": true,
             "subsequent_step_number": "627"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "624"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um die Artikel-ID 1-01-6-005 oder 1-01-9-001 oder 1-01-9-002 oder 1-07-4-001 oder um eine Artikel-ID, die der Gruppenartikel-ID 1-03-8 oder 1-03-9 zugehörig ist?",
+      "step_number": "624",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "630"
           },
           "note": null,
           "result_code": null
@@ -3389,7 +3483,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "715"
+            "subsequent_step_number": "712"
           },
           "note": null,
           "result_code": null
@@ -3435,6 +3529,29 @@
         {
           "check_result": {
             "result": true,
+            "subsequent_step_number": "712"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die berechnete (fakturierte) Menge eine physikalische Leistung?",
+      "step_number": "712",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "795"
+          },
+          "note": "Hinweis: Prüfung einer Position mit physikalischer Leistung",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
             "subsequent_step_number": "715"
           },
           "note": null,
@@ -4410,7 +4527,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist der vorausbezahlte Betrag identisch mit der Summe aller zuvor bezahlten Abschlagsrechnungen, deren Abrechnungszeitraum im Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) liegen?\nHinweis: Sobald aus dem Abrechnungszeitraum des Abschlages mindestens ein Tag in den Abrechnungszeitraum der Netznutzungsrechnung (JVR,  ZVR, ABR) enthalten und bezahlt ist, muss dieser angerechnet werden.",
+      "description": "Ist der vorausbezahlte Betrag identisch mit der Summe aller zuvor bezahlten Abschlagsrechnungen, deren Abrechnungszeitraum im Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) liegen?\nHinweis: Sobald aus dem Abrechnungszeitraum des Abschlages mindestens ein Tag in den Abrechnungszeitraum der Netznutzungsrechnung (JVR, ZVR, ABR) enthalten und bezahlt ist, muss dieser angerechnet werden.",
       "step_number": "922",
       "sub_rows": [
         {
@@ -4433,7 +4550,7 @@
       "use_cases": null
     },
     {
-      "description": "Sind für den Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) alle Referenzen der zugehörigen und zuvor bezahlten Abschlagsrechnungen enthalten?",
+      "description": "Sind für den Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) alle Referenzen der zugehörigen und zuvor bezahlten Abschlagsrechnungen enthalten?\nHinweis: Sobald aus dem Abrechnungszeitraum des Abschlages mindestens ein Tag in den Abrechnungszeitraum der Netznutzungsrechnung (JVR, ZVR, ABR) enthalten und bezahlt ist, muss dieser angerechnet werden.",
       "step_number": "925",
       "sub_rows": [
         {
@@ -4533,7 +4650,7 @@
             "result": true,
             "subsequent_step_number": "990"
           },
-          "note": "Cluster: Ablehnung auf Summenebene\nSonstiger Fehler in den Summenteil.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNetznutzungsmöglichkeit: Ende offen",
+          "note": "Cluster: Ablehnung auf Summenebene\nSonstiger Fehler in den Summenteil.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit: Ende offen",
           "result_code": "A96"
         },
         {
