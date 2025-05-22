@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1653.3333333333333px" viewBox="0 0 1653.3333333333333 976.0" height="976.0px">
+  <g>
+    <svg version="1.1" width="1653.3333333333333px" viewBox="0 0 1653.3333333333333 976.0" height="976.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1653.3333333333333" height="976.0" rx="20" ry="20"/><g>
+    <g transform="translate(428.6532619919271, 97.59999999999998) scale(1 1) translate(0, 0) scale(1.3742607716136301 1.3742607716136301) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1240pt" height="732pt" viewBox="0.00 0.00 1239.68 731.68">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 713.68)">
+<title>D</title>
+<text text-anchor="start" x="311.59" y="-675.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">WiM Strom</text>
+<text text-anchor="start" x="311.59" y="-647.48" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">9.8.2: AD: Ersteinbau eines iMS in eine bestehende Messlokation</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M692.17,-605.68C692.17,-605.68 543.38,-605.68 543.38,-605.68 537.38,-605.68 531.38,-599.68 531.38,-593.68 531.38,-593.68 531.38,-572.4 531.38,-572.4 531.38,-566.4 537.38,-560.4 543.38,-560.4 543.38,-560.4 692.17,-560.4 692.17,-560.4 698.17,-560.4 704.17,-566.4 704.17,-572.4 704.17,-572.4 704.17,-593.68 704.17,-593.68 704.17,-599.68 698.17,-605.68 692.17,-605.68"/>
+<text text-anchor="start" x="545.77" y="-584.74" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0233</text>
+<text text-anchor="start" x="545.77" y="-570.74" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="655.27" y="-570.74" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">MSB</text>
+</g>
+<!-- 1 -->
+<g id="node2" class="node">
+<title>1</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M915.67,-523.4C915.67,-523.4 319.88,-523.4 319.88,-523.4 313.88,-523.4 307.88,-517.4 307.88,-511.4 307.88,-511.4 307.88,-490.12 307.88,-490.12 307.88,-484.12 313.88,-478.12 319.88,-478.12 319.88,-478.12 915.67,-478.12 915.67,-478.12 921.67,-478.12 927.67,-484.12 927.67,-490.12 927.67,-490.12 927.67,-511.4 927.67,-511.4 927.67,-517.4 921.67,-523.4 915.67,-523.4"/>
+<text text-anchor="start" x="322.27" y="-502.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="341.77" y="-502.46" font-family="Roboto, sans-serif" font-size="14.00">Liegt f&#252;r die f&#252;r den Rollout vorgesehene Messlokation ein Bestandsschutz gem&#228;&#223;</text>
+<text text-anchor="start" x="322.27" y="-488.46" font-family="Roboto, sans-serif" font-size="14.00">&#167;19 Abs. 5 MsbG vor?</text>
+</g>
+<!-- Start&#45;&gt;1 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;1</title>
+<path fill="none" stroke="#88a0d6" d="M617.77,-560.53C617.77,-552.61 617.77,-543.45 617.77,-534.75"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="621.28,-534.85 617.78,-524.85 614.28,-534.85 621.28,-534.85"/>
+</g>
+<!-- 2 -->
+<g id="node3" class="node">
+<title>2</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M651.17,-424.87C651.17,-424.87 100.38,-424.87 100.38,-424.87 94.38,-424.87 88.38,-418.87 88.38,-412.87 88.38,-412.87 88.38,-391.59 88.38,-391.59 88.38,-385.59 94.38,-379.59 100.38,-379.59 100.38,-379.59 651.17,-379.59 651.17,-379.59 657.17,-379.59 663.17,-385.59 663.17,-391.59 663.17,-391.59 663.17,-412.87 663.17,-412.87 663.17,-418.87 657.17,-424.87 651.17,-424.87"/>
+<text text-anchor="start" x="102.77" y="-403.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">2: </text>
+<text text-anchor="start" x="122.27" y="-403.93" font-family="Roboto, sans-serif" font-size="14.00">Wird auf den Bestandsschutz gem&#228;&#223; &#167; 19 Abs. 5 MsbG f&#252;r die Messlokation</text>
+<text text-anchor="start" x="102.77" y="-389.93" font-family="Roboto, sans-serif" font-size="14.00">verzichtet?</text>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g id="edge2" class="edge">
+<title>1-&gt;2</title>
+<path fill="none" stroke="#88a0d6" d="M563.77,-478.22C527.22,-463.64 478.77,-444.31 440.21,-428.93"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="441.61,-425.72 431.02,-425.27 439.02,-432.22 441.61,-425.72"/>
+<text text-anchor="start" x="510.77" y="-447.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 3 -->
+<g id="node5" class="node">
+<title>3</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M905.55,-307.7C905.55,-307.7 492,-307.7 492,-307.7 486,-307.7 480,-301.7 480,-295.7 480,-295.7 480,-283.7 480,-283.7 480,-277.7 486,-271.7 492,-271.7 492,-271.7 905.55,-271.7 905.55,-271.7 911.55,-271.7 917.55,-277.7 917.55,-283.7 917.55,-283.7 917.55,-295.7 917.55,-295.7 917.55,-301.7 911.55,-307.7 905.55,-307.7"/>
+<text text-anchor="start" x="494.4" y="-286.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">3: </text>
+<text text-anchor="start" x="513.9" y="-286.02" font-family="Roboto, sans-serif" font-size="14.00">Ist der Selbsteinbau eines iMS oder einer mME geplant?</text>
+</g>
+<!-- 1&#45;&gt;3 -->
+<g id="edge3" class="edge">
+<title>1-&gt;3</title>
+<path fill="none" stroke="#88a0d6" d="M637.02,-478.36C648.79,-464.15 663.18,-444.55 671.77,-424.87 686.93,-390.16 693.68,-346.65 696.62,-318.76"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="700.08,-319.28 697.54,-308.99 693.11,-318.62 700.08,-319.28"/>
+<text text-anchor="start" x="685.77" y="-398.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A01 -->
+<g id="node4" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M449.55,-326.34C449.55,-326.34 12,-326.34 12,-326.34 6,-326.34 0,-320.34 0,-314.34 0,-314.34 0,-265.06 0,-265.06 0,-259.06 6,-253.06 12,-253.06 12,-253.06 449.55,-253.06 449.55,-253.06 455.55,-253.06 461.55,-259.06 461.55,-265.06 461.55,-265.06 461.55,-314.34 461.55,-314.34 461.55,-320.34 455.55,-326.34 449.55,-326.34"/>
+<text text-anchor="start" x="14.4" y="-305.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="14.4" y="-277.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="14.4" y="-263.4" font-family="Roboto, sans-serif" font-size="14.00">Bestandsschutz gem&#228;&#223; &#167; 19 Abs. 5 MsbG f&#252;r die Messlokation</text>
+</g>
+<!-- 2&#45;&gt;A01 -->
+<g id="edge4" class="edge">
+<title>2-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M347.47,-379.66C330.1,-366.41 307.25,-348.99 286.38,-333.08"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="288.54,-330.34 278.47,-327.06 284.3,-335.9 288.54,-330.34"/>
+<text text-anchor="start" x="319.77" y="-349.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 2&#45;&gt;3 -->
+<g id="edge5" class="edge">
+<title>2-&gt;3</title>
+<path fill="none" stroke="#88a0d6" d="M438.82,-379.66C496.6,-359.88 581.57,-330.81 638.47,-311.34"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="639.34,-314.74 647.67,-308.19 637.08,-308.11 639.34,-314.74"/>
+<text text-anchor="start" x="536.77" y="-349.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A02 -->
+<g id="node6" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M581.3,-199.81C581.3,-199.81 244.25,-199.81 244.25,-199.81 238.25,-199.81 232.25,-193.81 232.25,-187.81 232.25,-187.81 232.25,-138.53 232.25,-138.53 232.25,-132.53 238.25,-126.53 244.25,-126.53 244.25,-126.53 581.3,-126.53 581.3,-126.53 587.3,-126.53 593.3,-132.53 593.3,-138.53 593.3,-138.53 593.3,-187.81 593.3,-187.81 593.3,-193.81 587.3,-199.81 581.3,-199.81"/>
+<text text-anchor="start" x="246.65" y="-178.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="246.65" y="-150.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="246.65" y="-136.87" font-family="Roboto, sans-serif" font-size="14.00">Selbsteinbau eines iMS oder einer mME geplant</text>
+</g>
+<!-- 3&#45;&gt;A02 -->
+<g id="edge6" class="edge">
+<title>3-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M659.91,-271.78C620.24,-254.51 557.24,-227.07 504.78,-204.23"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="506.39,-201.11 495.82,-200.33 503.59,-207.53 506.39,-201.11"/>
+<text text-anchor="start" x="572.77" y="-222.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 4 -->
+<g id="node7" class="node">
+<title>4</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1097.92,-181.17C1097.92,-181.17 623.62,-181.17 623.62,-181.17 617.62,-181.17 611.62,-175.17 611.62,-169.17 611.62,-169.17 611.62,-157.17 611.62,-157.17 611.62,-151.17 617.62,-145.17 623.62,-145.17 623.62,-145.17 1097.92,-145.17 1097.92,-145.17 1103.92,-145.17 1109.92,-151.17 1109.92,-157.17 1109.92,-157.17 1109.92,-169.17 1109.92,-169.17 1109.92,-175.17 1103.92,-181.17 1097.92,-181.17"/>
+<text text-anchor="start" x="626.02" y="-159.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">4: </text>
+<text text-anchor="start" x="645.52" y="-159.5" font-family="Roboto, sans-serif" font-size="14.00">Wird auf den Selbsteinbau eines iMS oder einer mME verzichtet?</text>
+</g>
+<!-- 3&#45;&gt;4 -->
+<g id="edge7" class="edge">
+<title>3-&gt;4</title>
+<path fill="none" stroke="#88a0d6" d="M720.62,-271.91C748.76,-250.27 797.85,-212.54 829.82,-187.96"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="831.76,-190.89 837.56,-182.02 827.49,-185.34 831.76,-190.89"/>
+<text text-anchor="start" x="788.77" y="-222.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A03 -->
+<g id="node8" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M595.67,-73.28C595.67,-73.28 179.88,-73.28 179.88,-73.28 173.88,-73.28 167.87,-67.28 167.87,-61.28 167.87,-61.28 167.87,-12 167.87,-12 167.87,-6 173.87,0 179.87,0 179.87,0 595.67,0 595.67,0 601.67,0 607.67,-6 607.67,-12 607.67,-12 607.67,-61.28 607.67,-61.28 607.67,-67.28 601.67,-73.28 595.67,-73.28"/>
+<text text-anchor="start" x="182.27" y="-52.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="182.27" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="182.27" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Auf Selbsteinbau eines iMS oder einer mME wird verzichtet</text>
+</g>
+<!-- 4&#45;&gt;A03 -->
+<g id="edge8" class="edge">
+<title>4-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M796.49,-145.25C729.33,-127.56 621.68,-99.22 533.72,-76.06"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="534.85,-72.74 524.29,-73.58 533.07,-79.51 534.85,-72.74"/>
+<text text-anchor="start" x="651.77" y="-96.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A04 -->
+<g id="node9" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1191.67,-73.28C1191.67,-73.28 637.88,-73.28 637.88,-73.28 631.88,-73.28 625.88,-67.28 625.88,-61.28 625.88,-61.28 625.88,-12 625.88,-12 625.88,-6 631.88,0 637.88,0 637.88,0 1191.67,0 1191.67,0 1197.67,0 1203.67,-6 1203.67,-12 1203.67,-12 1203.67,-61.28 1203.67,-61.28 1203.67,-67.28 1197.67,-73.28 1191.67,-73.28"/>
+<text text-anchor="start" x="640.27" y="-52.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="640.27" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="640.27" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Zum jetzigen Zeitpunkt noch keine Aussage hin-sichtlich Selbsteinbau m&#246;glich</text>
+</g>
+<!-- 4&#45;&gt;A04 -->
+<g id="edge9" class="edge">
+<title>4-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M868.06,-145.38C874.91,-129.57 885.49,-105.17 894.85,-83.59"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="897.95,-85.23 898.72,-74.66 891.53,-82.44 897.95,-85.23"/>
+<text text-anchor="start" x="890.77" y="-96.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+MaBiS
+
+7.58.1: AD: Austausch der Lieferantenausfallarbeitsclearingliste (gültige Abonnierung)
+
+
+
+end title
+:<b>E_0096</b>;
+note right
+<b><i>Prüfende Rolle: LF
+end note
+
+if (<b>1: </b> Liegt für diesen MaBiS-ZP ein gültiges LF-AACL Abonnement vor?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Cluster: Ablehnung der gesamten Liste
+        Zeitraum nicht plausibel
+    endnote
+    kill;
+endif
+if (<b>2: </b> Entspricht die Versionsangabe in der LF-AACL der Versionsangabe einer vorliegenden LF-AASZR?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Cluster: Ablehnung der gesamten Liste 
+        Version nicht zugelassen
+    endnote
+    kill;
+endif
+if (<b>3: </b> Ist eine erwartete Marktlokation in der LF-AACL nicht enthalten?) then (ja)
+    :A03;
+    note left
+        Cluster: Korrekturliste wegen Ablehnung
+        Zusätzlicher Datensatz / ergänzte Marktlokation
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>4: </b> Ist in der LF-AACL eine Marktlokation enthalten, die im Bilanzierungsmonat dem LF zur Bilanzierung nicht zugeordnet ist?) then (ja)
+    :A04;
+    note left
+        Cluster: Korrekturliste wegen Ablehnung
+        Marktlokation falschem LF zugeordnet
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>5: </b> Ist die in der LF-AACL enthaltene Marktlokation dem MaBiS-ZP zugeordnet?) then (ja)
+else (nein)
+    :A05;
+    note left
+        Cluster: Korrekturliste wegen Ablehnung
+        Zu viele Marktlokationen enthalten / entfallene Marktlokation
+    endnote
+    kill;
+endif
+if (<b>6: </b> Entspricht das Bilanzierungsgebiet dem zwischen NB und LF ausgetauschten Bilanzierungsgebiet?) then (ja)
+    if (<b>7: </b> Entspricht der Bilanzkreis dem zwischen NB und LF aus-getauschten Bilanzkreis?) then (ja)
+        if (<b>8: </b> Entspricht die tatsächliche Ausfallarbeitsmenge der er-warteten Ausfallarbeitsmenge?) then (ja)
+            end
+        else (nein)
+        endif
+    else (nein)
+    endif
+else (nein)
+endif
+:A06;
+note left
+    Cluster: Korrekturliste wegen Ablehnung
+    Bilanzierungsrel. Daten nicht korrekt / fehlen
+endnote
+kill;
+
+@enduml

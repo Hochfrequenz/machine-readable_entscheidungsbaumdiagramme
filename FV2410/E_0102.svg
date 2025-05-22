@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1489.3333333333333px" viewBox="0 0 1489.3333333333333 1406.6666666666667" height="1406.6666666666667px">
+  <g>
+    <svg version="1.1" width="1489.3333333333333px" viewBox="0 0 1489.3333333333333 1406.6666666666667" height="1406.6666666666667px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1489.3333333333333" height="1406.6666666666667" rx="20" ry="20"/><g>
+    <g transform="translate(171.02712850840123, 140.66666666666666) scale(1 1) translate(0, 0) scale(1.980662724115273 1.980662724115273) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1117pt" height="1055pt" viewBox="0.00 0.00 1117.43 1054.74">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 1036.74)">
+<title>D</title>
+<text text-anchor="start" x="194.21" y="-998.64" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">MaBiS</text>
+<text text-anchor="start" x="194.21" y="-970.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">7.8.1: AD: Zuordnung einer Netzgangzeitreihe zu einer Netzzeitreihe beim NB</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M497.92,-928.74C497.92,-928.74 361.12,-928.74 361.12,-928.74 355.12,-928.74 349.12,-922.74 349.12,-916.74 349.12,-916.74 349.12,-895.46 349.12,-895.46 349.12,-889.46 355.12,-883.46 361.12,-883.46 361.12,-883.46 497.92,-883.46 497.92,-883.46 503.92,-883.46 509.92,-889.46 509.92,-895.46 509.92,-895.46 509.92,-916.74 509.92,-916.74 509.92,-922.74 503.92,-928.74 497.92,-928.74"/>
+<text text-anchor="start" x="363.52" y="-907.8" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0102</text>
+<text text-anchor="start" x="363.52" y="-893.8" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="473.02" y="-893.8" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 1 -->
+<g id="node2" class="node">
+<title>1</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M678.3,-846.46C678.3,-846.46 180.75,-846.46 180.75,-846.46 174.75,-846.46 168.75,-840.46 168.75,-834.46 168.75,-834.46 168.75,-813.18 168.75,-813.18 168.75,-807.18 174.75,-801.18 180.75,-801.18 180.75,-801.18 678.3,-801.18 678.3,-801.18 684.3,-801.18 690.3,-807.18 690.3,-813.18 690.3,-813.18 690.3,-834.46 690.3,-834.46 690.3,-840.46 684.3,-846.46 678.3,-846.46"/>
+<text text-anchor="start" x="183.15" y="-825.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="202.65" y="-825.52" font-family="Roboto, sans-serif" font-size="14.00">Wird die ID der Netzgangzeitreihe bereits f&#252;r die Identifikation eines</text>
+<text text-anchor="start" x="183.15" y="-811.52" font-family="Roboto, sans-serif" font-size="14.00">Nicht-MaBiS-ZP verwendet?</text>
+</g>
+<!-- Start&#45;&gt;1 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;1</title>
+<path fill="none" stroke="#88a0d6" d="M429.52,-883.59C429.52,-875.67 429.52,-866.51 429.52,-857.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="433.03,-857.91 429.53,-847.91 426.03,-857.91 433.03,-857.91"/>
+</g>
+<!-- A01 -->
+<g id="node3" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M283.05,-747.93C283.05,-747.93 12,-747.93 12,-747.93 6,-747.93 0,-741.93 0,-735.93 0,-735.93 0,-686.65 0,-686.65 0,-680.65 6,-674.65 12,-674.65 12,-674.65 283.05,-674.65 283.05,-674.65 289.05,-674.65 295.05,-680.65 295.05,-686.65 295.05,-686.65 295.05,-735.93 295.05,-735.93 295.05,-741.93 289.05,-747.93 283.05,-747.93"/>
+<text text-anchor="start" x="14.4" y="-726.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="14.4" y="-698.99" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="14.4" y="-684.99" font-family="Roboto, sans-serif" font-size="14.00">ID bereits au&#223;erhalb MaBiS verwendet</text>
+</g>
+<!-- 1&#45;&gt;A01 -->
+<g id="edge2" class="edge">
+<title>1-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M374.48,-801.25C338.8,-787.26 291.23,-768.62 248.87,-752.01"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="250.22,-748.78 239.63,-748.39 247.66,-755.3 250.22,-748.78"/>
+<text text-anchor="start" x="321.52" y="-770.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 2 -->
+<g id="node4" class="node">
+<title>2</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M877.67,-733.93C877.67,-733.93 325.38,-733.93 325.38,-733.93 319.38,-733.93 313.38,-727.93 313.38,-721.93 313.38,-721.93 313.38,-700.65 313.38,-700.65 313.38,-694.65 319.38,-688.65 325.38,-688.65 325.38,-688.65 877.67,-688.65 877.67,-688.65 883.67,-688.65 889.67,-694.65 889.67,-700.65 889.67,-700.65 889.67,-721.93 889.67,-721.93 889.67,-727.93 883.67,-733.93 877.67,-733.93"/>
+<text text-anchor="start" x="327.77" y="-712.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">2: </text>
+<text text-anchor="start" x="347.27" y="-712.99" font-family="Roboto, sans-serif" font-size="14.00">Entspricht die Zuordnung der Netzgangzeitreihe zur Netzzeitreihe der</text>
+<text text-anchor="start" x="327.77" y="-698.99" font-family="Roboto, sans-serif" font-size="14.00">Vereinbarung zur messtechnischen Abgrenzung der beiden benachbarten NB?</text>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g id="edge3" class="edge">
+<title>1-&gt;2</title>
+<path fill="none" stroke="#88a0d6" d="M463.1,-801.25C490.33,-783.75 528.89,-758.96 558.41,-740"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="560.24,-742.98 566.76,-734.63 556.46,-737.09 560.24,-742.98"/>
+<text text-anchor="start" x="515.52" y="-770.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A02 -->
+<g id="node5" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M300.3,-621.4C300.3,-621.4 12.75,-621.4 12.75,-621.4 6.75,-621.4 0.75,-615.4 0.75,-609.4 0.75,-609.4 0.75,-560.12 0.75,-560.12 0.75,-554.12 6.75,-548.12 12.75,-548.12 12.75,-548.12 300.3,-548.12 300.3,-548.12 306.3,-548.12 312.3,-554.12 312.3,-560.12 312.3,-560.12 312.3,-609.4 312.3,-609.4 312.3,-615.4 306.3,-621.4 300.3,-621.4"/>
+<text text-anchor="start" x="15.15" y="-600.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="15.15" y="-572.46" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="15.15" y="-558.46" font-family="Roboto, sans-serif" font-size="14.00">Zuordnung passt nicht zur Vereinbarung</text>
+</g>
+<!-- 2&#45;&gt;A02 -->
+<g id="edge4" class="edge">
+<title>2-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M524.27,-688.67C461.17,-671.01 370.39,-645.61 294.81,-624.46"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="295.81,-621.1 285.24,-621.78 293.92,-627.84 295.81,-621.1"/>
+<text text-anchor="start" x="405.52" y="-644.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 3 -->
+<g id="node6" class="node">
+<title>3</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M867.17,-602.76C867.17,-602.76 341.88,-602.76 341.88,-602.76 335.88,-602.76 329.88,-596.76 329.88,-590.76 329.88,-590.76 329.88,-578.76 329.88,-578.76 329.88,-572.76 335.88,-566.76 341.88,-566.76 341.88,-566.76 867.17,-566.76 867.17,-566.76 873.17,-566.76 879.17,-572.76 879.17,-578.76 879.17,-578.76 879.17,-590.76 879.17,-590.76 879.17,-596.76 873.17,-602.76 867.17,-602.76"/>
+<text text-anchor="start" x="344.27" y="-581.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">3: </text>
+<text text-anchor="start" x="363.77" y="-581.09" font-family="Roboto, sans-serif" font-size="14.00">Ist der Absender zum Zuordnungsbeginn an der Netzzeitreihe beteiligt?</text>
+</g>
+<!-- 2&#45;&gt;3 -->
+<g id="edge5" class="edge">
+<title>2-&gt;3</title>
+<path fill="none" stroke="#88a0d6" d="M602.04,-688.88C602.54,-668.13 603.3,-636.55 603.85,-613.8"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="607.34,-614.1 604.09,-604.02 600.35,-613.93 607.34,-614.1"/>
+<text text-anchor="start" x="602.52" y="-644.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A03 -->
+<g id="node7" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M348.17,-494.87C348.17,-494.87 62.88,-494.87 62.88,-494.87 56.88,-494.87 50.87,-488.87 50.87,-482.87 50.87,-482.87 50.87,-433.59 50.87,-433.59 50.87,-427.59 56.87,-421.59 62.87,-421.59 62.87,-421.59 348.17,-421.59 348.17,-421.59 354.17,-421.59 360.17,-427.59 360.17,-433.59 360.17,-433.59 360.17,-482.87 360.17,-482.87 360.17,-488.87 354.17,-494.87 348.17,-494.87"/>
+<text text-anchor="start" x="65.27" y="-473.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="65.27" y="-445.93" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="65.27" y="-431.93" font-family="Roboto, sans-serif" font-size="14.00">Keine Berechtigung f&#252;r die Netzzeitreihe</text>
+</g>
+<!-- 3&#45;&gt;A03 -->
+<g id="edge6" class="edge">
+<title>3-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M550.3,-566.84C494.04,-549.28 404.13,-521.22 330.23,-498.15"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="331.48,-494.87 320.89,-495.24 329.39,-501.56 331.48,-494.87"/>
+<text text-anchor="start" x="428.52" y="-517.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 4 -->
+<g id="node8" class="node">
+<title>4</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M926.42,-476.23C926.42,-476.23 390.62,-476.23 390.62,-476.23 384.62,-476.23 378.62,-470.23 378.62,-464.23 378.62,-464.23 378.62,-452.23 378.62,-452.23 378.62,-446.23 384.62,-440.23 390.62,-440.23 390.62,-440.23 926.42,-440.23 926.42,-440.23 932.42,-440.23 938.42,-446.23 938.42,-452.23 938.42,-452.23 938.42,-464.23 938.42,-464.23 938.42,-470.23 932.42,-476.23 926.42,-476.23"/>
+<text text-anchor="start" x="393.02" y="-454.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">4: </text>
+<text text-anchor="start" x="412.52" y="-454.55" font-family="Roboto, sans-serif" font-size="14.00">Ist der Empf&#228;nger zum Zuordnungsbeginn an der Netzzeitreihe beteiligt?</text>
+</g>
+<!-- 3&#45;&gt;4 -->
+<g id="edge7" class="edge">
+<title>3-&gt;4</title>
+<path fill="none" stroke="#88a0d6" d="M611.81,-566.97C620.75,-546.35 636.02,-511.13 646.66,-486.59"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="649.82,-488.11 650.58,-477.54 643.39,-485.33 649.82,-488.11"/>
+<text text-anchor="start" x="634.52" y="-517.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A04 -->
+<g id="node9" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M479.67,-368.34C479.67,-368.34 209.38,-368.34 209.38,-368.34 203.38,-368.34 197.37,-362.34 197.37,-356.34 197.37,-356.34 197.37,-307.06 197.37,-307.06 197.37,-301.06 203.37,-295.06 209.37,-295.06 209.37,-295.06 479.67,-295.06 479.67,-295.06 485.67,-295.06 491.67,-301.06 491.67,-307.06 491.67,-307.06 491.67,-356.34 491.67,-356.34 491.67,-362.34 485.67,-368.34 479.67,-368.34"/>
+<text text-anchor="start" x="211.77" y="-347.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="211.77" y="-319.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="211.77" y="-305.4" font-family="Roboto, sans-serif" font-size="14.00">Keine Beteiligung an der Netzzeitreihe</text>
+</g>
+<!-- 4&#45;&gt;A04 -->
+<g id="edge8" class="edge">
+<title>4-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M615.85,-440.31C572.12,-422.96 502.56,-395.37 444.81,-372.47"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="446.17,-369.25 435.58,-368.81 443.59,-375.75 446.17,-369.25"/>
+<text text-anchor="start" x="519.52" y="-391.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 5 -->
+<g id="node10" class="node">
+<title>5</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1069.42,-354.34C1069.42,-354.34 521.62,-354.34 521.62,-354.34 515.62,-354.34 509.62,-348.34 509.62,-342.34 509.62,-342.34 509.62,-321.06 509.62,-321.06 509.62,-315.06 515.62,-309.06 521.62,-309.06 521.62,-309.06 1069.42,-309.06 1069.42,-309.06 1075.42,-309.06 1081.42,-315.06 1081.42,-321.06 1081.42,-321.06 1081.42,-342.34 1081.42,-342.34 1081.42,-348.34 1075.42,-354.34 1069.42,-354.34"/>
+<text text-anchor="start" x="524.02" y="-333.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">5: </text>
+<text text-anchor="start" x="543.52" y="-333.4" font-family="Roboto, sans-serif" font-size="14.00">Existiert zum Zuordnungsbeginn bereits eine Zuordnung der angegebenen</text>
+<text text-anchor="start" x="524.02" y="-319.4" font-family="Roboto, sans-serif" font-size="14.00">Netzgangzeitreihe zu einer Netzzeitreihe?</text>
+</g>
+<!-- 4&#45;&gt;5 -->
+<g id="edge9" class="edge">
+<title>4-&gt;5</title>
+<path fill="none" stroke="#88a0d6" d="M677,-440.44C699.15,-420.31 736.62,-386.24 763.51,-361.8"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="765.67,-364.57 770.72,-355.25 760.96,-359.39 765.67,-364.57"/>
+<text text-anchor="start" x="734.52" y="-391.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A05 -->
+<g id="node11" class="node">
+<title>A05</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M666.42,-241.81C666.42,-241.81 178.62,-241.81 178.62,-241.81 172.62,-241.81 166.62,-235.81 166.62,-229.81 166.62,-229.81 166.62,-166.53 166.62,-166.53 166.62,-160.53 172.62,-154.53 178.62,-154.53 178.62,-154.53 666.42,-154.53 666.42,-154.53 672.42,-154.53 678.42,-160.53 678.42,-166.53 678.42,-166.53 678.42,-229.81 678.42,-229.81 678.42,-235.81 672.42,-241.81 666.42,-241.81"/>
+<text text-anchor="start" x="181.02" y="-220.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="181.02" y="-192.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="181.02" y="-178.87" font-family="Roboto, sans-serif" font-size="14.00">Zuordnung bereits vorhanden</text>
+<text text-anchor="start" x="181.02" y="-164.87" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: In der Antwort ist die zugeordnete Netzzeitreihe anzugeben.</text>
+</g>
+<!-- 5&#45;&gt;A05 -->
+<g id="edge10" class="edge">
+<title>5-&gt;A05</title>
+<path fill="none" stroke="#88a0d6" d="M734.35,-309.13C685.51,-291.9 615.32,-267.15 553.89,-245.49"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="555.35,-242.3 544.75,-242.27 553.02,-248.9 555.35,-242.3"/>
+<text text-anchor="start" x="641.52" y="-264.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 6 -->
+<g id="node12" class="node">
+<title>6</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1048.92,-216.17C1048.92,-216.17 708.12,-216.17 708.12,-216.17 702.12,-216.17 696.12,-210.17 696.12,-204.17 696.12,-204.17 696.12,-192.17 696.12,-192.17 696.12,-186.17 702.12,-180.17 708.12,-180.17 708.12,-180.17 1048.92,-180.17 1048.92,-180.17 1054.92,-180.17 1060.92,-186.17 1060.92,-192.17 1060.92,-192.17 1060.92,-204.17 1060.92,-204.17 1060.92,-210.17 1054.92,-216.17 1048.92,-216.17"/>
+<text text-anchor="start" x="710.52" y="-194.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">6: </text>
+<text text-anchor="start" x="730.02" y="-194.5" font-family="Roboto, sans-serif" font-size="14.00">Ist ein nicht spezifizierter Fehler aufgetreten?</text>
+</g>
+<!-- 5&#45;&gt;6 -->
+<g id="edge11" class="edge">
+<title>5-&gt;6</title>
+<path fill="none" stroke="#88a0d6" d="M809.05,-309.27C823.5,-286.37 846.43,-250.03 861.96,-225.43"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="864.73,-227.59 867.1,-217.27 858.81,-223.86 864.73,-227.59"/>
+<text text-anchor="start" x="838.52" y="-264.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A99 -->
+<g id="node13" class="node">
+<title>A99</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M775.3,-101.28C775.3,-101.28 205.75,-101.28 205.75,-101.28 199.75,-101.28 193.75,-95.28 193.75,-89.28 193.75,-89.28 193.75,-12 193.75,-12 193.75,-6 199.75,0 205.75,0 205.75,0 775.3,0 775.3,0 781.3,0 787.3,-6 787.3,-12 787.3,-12 787.3,-89.28 787.3,-89.28 787.3,-95.28 781.3,-101.28 775.3,-101.28"/>
+<text text-anchor="start" x="208.15" y="-80.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A99</text>
+<text text-anchor="start" x="208.15" y="-52.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="208.15" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Sonstiges</text>
+<text text-anchor="start" x="208.15" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.</text>
+<text text-anchor="start" x="208.15" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Nutzungsm&#246;glichkeit Ende: 01.04.2025 00:00 Uhr</text>
+</g>
+<!-- 6&#45;&gt;A99 -->
+<g id="edge12" class="edge">
+<title>6-&gt;A99</title>
+<path fill="none" stroke="#88a0d6" d="M833.26,-180.19C784.29,-161.82 703.73,-131.61 633.01,-105.08"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="634.67,-101.97 624.07,-101.73 632.21,-108.52 634.67,-101.97"/>
+<text text-anchor="start" x="707.52" y="-124.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A06 -->
+<g id="node14" class="node">
+<title>A06</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M995.55,-87.28C995.55,-87.28 817.5,-87.28 817.5,-87.28 811.5,-87.28 805.5,-81.28 805.5,-75.28 805.5,-75.28 805.5,-26 805.5,-26 805.5,-20 811.5,-14 817.5,-14 817.5,-14 995.55,-14 995.55,-14 1001.55,-14 1007.55,-20 1007.55,-26 1007.55,-26 1007.55,-75.28 1007.55,-75.28 1007.55,-81.28 1001.55,-87.28 995.55,-87.28"/>
+<text text-anchor="start" x="819.9" y="-66.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="819.9" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="819.9" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Zuordnung durchgef&#252;hrt</text>
+</g>
+<!-- 6&#45;&gt;A06 -->
+<g id="edge13" class="edge">
+<title>6-&gt;A06</title>
+<path fill="none" stroke="#88a0d6" d="M881.79,-180.19C885.63,-160.22 892.17,-126.25 897.56,-98.24"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="900.97,-99.02 899.42,-88.54 894.1,-97.7 900.97,-99.02"/>
+<text text-anchor="start" x="892.52" y="-124.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">WiM Strom</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">9.25.1: AD Anfrage und Bestellung von Werten durch den ESA</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    pad=0.25;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0252</B><BR align="left"/><FONT>Prüfende Rolle: <B>MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>1: </B>Ist das vom ESA gewünschte Messprodukt in der Codeliste der Konfigurationen als<BR align="left"/>„Pflicht“ gekennzeichnet?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "2" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>2: </B>Wird das vom ESA gewünschte Messprodukt entsprechend der Codeliste der<BR align="left"/>Konfigurationen angeboten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Das vom ESA gewünschte Messprodukt wird vom MSB nicht angeboten.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "3" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>3: </B>Liegt die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und<BR align="left"/>Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Vertragliche Grundlage des ESA liegt nicht vor.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "4" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>4: </B>Liegt dem MSB eine gültige datenschutzrechtliche Einwilligung (wie z. B. das<BR align="left"/>BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO -<BR align="left"/>Anfrage und Übermittlung von Messprodukten<BR align="left"/>gemäß BNetzA-Festlegung BK6-20-160“) zur Anfrage und Übermittlung von<BR align="left"/>Messprodukten vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A04" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A04</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Die unterzeichnete Einwilligung des Anschlussnutzers für die Lokation liegt nicht vor<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "5" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>5: </B>Sind die Daten in der Einwilligung plausibel und vollständig?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A05" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A05</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Vorliegende Einwilligung ist nicht plausibel oder vollständig.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "6" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>6: </B>Ermöglicht die vorhandene Gerätetechnik die Übermittlung der angefragten Werte<BR align="left"/>entsprechend dem Messprodukt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A06" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A06</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Die Gerätetechnik misst die angeforderten Messwerte nicht.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>7: </B>Handelt es sich um eine Anfrage von Werten auf Ebene der Marktlokation /<BR align="left"/>Tranche / Netzlokation?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "Ende" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label="Ende", fontname="Roboto, sans-serif"];
+    "8" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>8: </B>Ist der MSB an allen der Marktlokation (inkl. Tranche) / Netzlokation<BR align="left"/>zugeordneten Messlokationen auch der MSB der Messlokation(en)?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A07" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A07</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung<BR align="left"/>Der MSB der Marktlokation / Netzlokation ist nicht zeitgleich der allen<BR align="left"/>Messlokation(en) zugeordnete MSB.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+
+    "Start" -> "1" [color="#88a0d6"];
+    "1" -> "2" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "1" -> "3" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "2" -> "A02" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "2" -> "3" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "3" -> "A03" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "3" -> "4" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "4" -> "A04" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "4" -> "5" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "5" -> "A05" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "5" -> "6" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "6" -> "A06" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "6" -> "7" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "7" -> "8" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "7" -> "Ende" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "8" -> "A07" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "8" -> "Ende" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+
+    bgcolor="transparent";
+fontname="Roboto, sans-serif";
+}

@@ -1,0 +1,23 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.53.2: AD Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    pad=0.25;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0516</B><BR align="left"/><FONT>Prüfende Rolle: <B>MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Ergibt die Prüfung der abgelehnten Rechnung, dass die Ablehnung durch den<BR align="left"/>Rechnungsempfänger gerechtfertigt war?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A99" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A99</B><BR align="left"/><BR align="left"/><FONT>Die Rechnung wird als korrekt angesehen.<BR align="left"/>Hinweis: Es ist zu begründen, warum die Rechnung korrekt ist.<BR align="left"/>Nutzungsmöglichkeit Ende: offen<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "Versand der Nachricht „Storno der ursprünglichen Rechnung“" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Versand der Nachricht „Storno der ursprünglichen Rechnung“<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+
+    "Start" -> "10" [color="#88a0d6"];
+    "10" -> "A99" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "10" -> "Versand der Nachricht „Storno der ursprünglichen Rechnung“" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+
+    bgcolor="transparent";
+fontname="Roboto, sans-serif";
+}

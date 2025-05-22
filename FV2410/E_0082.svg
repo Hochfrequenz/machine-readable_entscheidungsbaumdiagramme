@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1650.6666666666667px" viewBox="0 0 1650.6666666666667 513.3333333333334" height="513.3333333333334px">
+  <g>
+    <svg version="1.1" width="1650.6666666666667px" viewBox="0 0 1650.6666666666667 513.3333333333334" height="513.3333333333334px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1650.6666666666667" height="513.3333333333334" rx="20" ry="20"/><g>
+    <g transform="translate(615.9956819675209, 51.33333333333333) scale(1 1) translate(0, 0) scale(0.722801088895147 0.722801088895147) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1238pt" height="385pt" viewBox="0.00 0.00 1238.43 384.81">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 366.81)">
+<title>D</title>
+<text text-anchor="start" x="40.59" y="-328.71" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">MaBiS</text>
+<text text-anchor="start" x="40.59" y="-300.61" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">7.69.1: AD: &#220;bermittlung Datenstatus f&#252;r die monatliche Ausfallarbeits&#252;berf&#252;hrungszeitreihe (AA&#220;Z) an NB und BKV (anfNB)</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M667.17,-258.81C667.17,-258.81 514.62,-258.81 514.62,-258.81 508.62,-258.81 502.62,-252.81 502.62,-246.81 502.62,-246.81 502.62,-225.53 502.62,-225.53 502.62,-219.53 508.62,-213.53 514.62,-213.53 514.62,-213.53 667.17,-213.53 667.17,-213.53 673.17,-213.53 679.17,-219.53 679.17,-225.53 679.17,-225.53 679.17,-246.81 679.17,-246.81 679.17,-252.81 673.17,-258.81 667.17,-258.81"/>
+<text text-anchor="start" x="517.02" y="-237.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0082</text>
+<text text-anchor="start" x="517.02" y="-223.87" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="626.52" y="-223.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">BIKO</text>
+</g>
+<!-- 1 -->
+<g id="node2" class="node">
+<title>1</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M715.55,-176.53C715.55,-176.53 466.25,-176.53 466.25,-176.53 460.25,-176.53 454.25,-170.53 454.25,-164.53 454.25,-164.53 454.25,-152.53 454.25,-152.53 454.25,-146.53 460.25,-140.53 466.25,-140.53 466.25,-140.53 715.55,-140.53 715.55,-140.53 721.55,-140.53 727.55,-146.53 727.55,-152.53 727.55,-152.53 727.55,-164.53 727.55,-164.53 727.55,-170.53 721.55,-176.53 715.55,-176.53"/>
+<text text-anchor="start" x="468.65" y="-154.85" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="488.15" y="-154.85" font-family="Roboto, sans-serif" font-size="14.00">Ist die BKA (ohne KBKA) erfolgt?</text>
+</g>
+<!-- Start&#45;&gt;1 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;1</title>
+<path fill="none" stroke="#88a0d6" d="M590.9,-213.7C590.9,-205.62 590.9,-196.32 590.9,-187.72"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="594.4,-187.76 590.9,-177.76 587.4,-187.76 594.4,-187.76"/>
+</g>
+<!-- A03 -->
+<g id="node3" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M559.8,-80.28C559.8,-80.28 12,-80.28 12,-80.28 6,-80.28 0,-74.28 0,-68.28 0,-68.28 0,-19 0,-19 0,-13 6,-7 12,-7 12,-7 559.8,-7 559.8,-7 565.8,-7 571.8,-13 571.8,-19 571.8,-19 571.8,-68.28 571.8,-68.28 571.8,-74.28 565.8,-80.28 559.8,-80.28"/>
+<text text-anchor="start" x="14.4" y="-59.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="14.4" y="-31.34" font-family="Roboto, sans-serif" font-size="14.00">Datenstatus &#8222;Abgerechnete Daten&#8220; f&#252;r die h&#246;chste Version der AA&#220;Z mit dem</text>
+<text text-anchor="start" x="14.4" y="-17.34" font-family="Roboto, sans-serif" font-size="14.00">Datenstatus &#8222;Abrechnungsdaten&#8220; in diesem Bilanzierungsmonat.</text>
+</g>
+<!-- 1&#45;&gt;A03 -->
+<g id="edge2" class="edge">
+<title>1-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M545.24,-140.63C505.05,-125.75 444.97,-103.52 392.75,-84.19"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="394.09,-80.95 383.5,-80.76 391.66,-87.52 394.09,-80.95"/>
+<text text-anchor="start" x="491.9" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A06 -->
+<g id="node4" class="node">
+<title>A06</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1190.42,-87.28C1190.42,-87.28 601.38,-87.28 601.38,-87.28 595.38,-87.28 589.38,-81.28 589.38,-75.28 589.38,-75.28 589.38,-12 589.38,-12 589.38,-6 595.38,0 601.38,0 601.38,0 1190.42,0 1190.42,0 1196.42,0 1202.42,-6 1202.42,-12 1202.42,-12 1202.42,-75.28 1202.42,-75.28 1202.42,-81.28 1196.42,-87.28 1190.42,-87.28"/>
+<text text-anchor="start" x="603.77" y="-66.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="603.77" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Datenstatus &#8222;Abgerechnete Daten KBKA&#8220; f&#252;r die h&#246;chste Version der AA&#220;Z mit dem</text>
+<text text-anchor="start" x="603.77" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Datenstatus &#8222;Abrechnungsdaten&#8220;, &#8222;Abgerechnete Daten&#8220; oder &#8222;Abrechnungsdaten</text>
+<text text-anchor="start" x="603.77" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">KBKA&#8220; in diesem Bilanzierungsmonat.</text>
+</g>
+<!-- 1&#45;&gt;A06 -->
+<g id="edge3" class="edge">
+<title>1-&gt;A06</title>
+<path fill="none" stroke="#88a0d6" d="M636.56,-140.63C672.02,-127.51 722.96,-108.65 770.32,-91.12"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="771.42,-94.45 779.58,-87.69 768.99,-87.88 771.42,-94.45"/>
+<text text-anchor="start" x="724.9" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

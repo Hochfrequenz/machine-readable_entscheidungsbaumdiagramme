@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1920.0px" viewBox="0 0 1920.0 1228.0" height="1228.0px">
+  <g>
+    <svg version="1.1" width="1920.0px" viewBox="0 0 1920.0 1228.0" height="1228.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1920.0" height="1228.0" rx="20" ry="20"/><g>
+    <g transform="translate(459.22083920022516, 122.79999999999997) scale(1 1) translate(0, 0) scale(1.729090397071248 1.729090397071248) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1440pt" height="921pt" viewBox="0.00 0.00 1440.00 921.47">
+<g id="graph0" class="graph" transform="scale(0.910355 0.910355) rotate(0) translate(18 994.21)">
+<title>D</title>
+<text text-anchor="start" x="373.9" y="-956.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">Sperrprozesse Gas</text>
+<text text-anchor="start" x="373.9" y="-928.01" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">19.3.1: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M717.17,-886.21C717.17,-886.21 580.38,-886.21 580.38,-886.21 574.38,-886.21 568.38,-880.21 568.38,-874.21 568.38,-874.21 568.38,-852.93 568.38,-852.93 568.38,-846.93 574.38,-840.93 580.38,-840.93 580.38,-840.93 717.17,-840.93 717.17,-840.93 723.17,-840.93 729.17,-846.93 729.17,-852.93 729.17,-852.93 729.17,-874.21 729.17,-874.21 729.17,-880.21 723.17,-886.21 717.17,-886.21"/>
+<text text-anchor="start" x="582.77" y="-865.27" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_1004</text>
+<text text-anchor="start" x="582.77" y="-851.27" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="692.27" y="-851.27" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 10 -->
+<g id="node2" class="node">
+<title>10</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M958.3,-803.93C958.3,-803.93 339.25,-803.93 339.25,-803.93 333.25,-803.93 327.25,-797.93 327.25,-791.93 327.25,-791.93 327.25,-770.65 327.25,-770.65 327.25,-764.65 333.25,-758.65 339.25,-758.65 339.25,-758.65 958.3,-758.65 958.3,-758.65 964.3,-758.65 970.3,-764.65 970.3,-770.65 970.3,-770.65 970.3,-791.93 970.3,-791.93 970.3,-797.93 964.3,-803.93 958.3,-803.93"/>
+<text text-anchor="start" x="341.65" y="-782.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="370.9" y="-782.99" font-family="Roboto, sans-serif" font-size="14.00">Wurde die Sperrung durch den UC "Unterbrechung der Anschlussnutzung (Sperren)</text>
+<text text-anchor="start" x="341.65" y="-768.99" font-family="Roboto, sans-serif" font-size="14.00">auf Anweisung des LF" ausgel&#246;st?</text>
+</g>
+<!-- Start&#45;&gt;10 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;10</title>
+<path fill="none" stroke="#88a0d6" d="M648.77,-841.06C648.77,-833.14 648.77,-823.98 648.77,-815.28"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="652.28,-815.38 648.78,-805.38 645.28,-815.38 652.28,-815.38"/>
+</g>
+<!-- A05 -->
+<g id="node3" class="node">
+<title>A05</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M863.55,-705.4C863.55,-705.4 12,-705.4 12,-705.4 6,-705.4 0,-699.4 0,-693.4 0,-693.4 0,-630.12 0,-630.12 0,-624.12 6,-618.12 12,-618.12 12,-618.12 863.55,-618.12 863.55,-618.12 869.55,-618.12 875.55,-624.12 875.55,-630.12 875.55,-630.12 875.55,-693.4 875.55,-693.4 875.55,-699.4 869.55,-705.4 863.55,-705.4"/>
+<text text-anchor="start" x="14.4" y="-684.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="14.4" y="-656.46" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="14.4" y="-642.46" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation wurde nicht &#252;ber den UC (Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF) gesperrt.</text>
+<text text-anchor="start" x="14.4" y="-628.46" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Die Entsperrung muss auf konventionellem Weg erfolgen.</text>
+</g>
+<!-- 10&#45;&gt;A05 -->
+<g id="edge2" class="edge">
+<title>10-&gt;A05</title>
+<path fill="none" stroke="#88a0d6" d="M610.07,-758.73C586.02,-745.34 554.11,-727.56 524.28,-710.95"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="526.02,-707.91 515.59,-706.1 522.62,-714.03 526.02,-707.91"/>
+<text text-anchor="start" x="573.77" y="-728.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 20 -->
+<g id="node4" class="node">
+<title>20</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1533.8,-705.4C1533.8,-705.4 905.75,-705.4 905.75,-705.4 899.75,-705.4 893.75,-699.4 893.75,-693.4 893.75,-693.4 893.75,-630.12 893.75,-630.12 893.75,-624.12 899.75,-618.12 905.75,-618.12 905.75,-618.12 1533.8,-618.12 1533.8,-618.12 1539.8,-618.12 1545.8,-624.12 1545.8,-630.12 1545.8,-630.12 1545.8,-693.4 1545.8,-693.4 1545.8,-699.4 1539.8,-705.4 1533.8,-705.4"/>
+<text text-anchor="start" x="908.15" y="-684.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
+<text text-anchor="start" x="937.4" y="-684.46" font-family="Roboto, sans-serif" font-size="14.00">W&#228;re eine Wiederinbetriebnahme aufgrund eines technischen Verhinderungsgrundes</text>
+<text text-anchor="start" x="908.15" y="-670.46" font-family="Roboto, sans-serif" font-size="14.00">(z.B. entspricht nicht den geltenden Rechtsvorschriften, beh&#246;rdlichen</text>
+<text text-anchor="start" x="908.15" y="-656.46" font-family="Roboto, sans-serif" font-size="14.00">Verf&#252;gungen, den anerkannten Regeln der Technik, DVGW Technischen</text>
+<text text-anchor="start" x="908.15" y="-642.46" font-family="Roboto, sans-serif" font-size="14.00">Anschlussbedingungen (TAB) oder den sonstigen besonderen Vorschriften des NB)</text>
+<text text-anchor="start" x="908.15" y="-628.46" font-family="Roboto, sans-serif" font-size="14.00">nicht m&#246;glich?</text>
+</g>
+<!-- 10&#45;&gt;20 -->
+<g id="edge3" class="edge">
+<title>10-&gt;20</title>
+<path fill="none" stroke="#88a0d6" d="M753.84,-758.66C823.19,-744.39 916.61,-725.16 1001.6,-707.67"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1002.15,-711.13 1011.24,-705.68 1000.74,-704.27 1002.15,-711.13"/>
+<text text-anchor="start" x="916.77" y="-728.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A06 -->
+<g id="node5" class="node">
+<title>A06</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M899.67,-564.87C899.67,-564.87 303.88,-564.87 303.88,-564.87 297.88,-564.87 291.88,-558.87 291.88,-552.87 291.88,-552.87 291.88,-419.59 291.88,-419.59 291.88,-413.59 297.88,-407.59 303.88,-407.59 303.88,-407.59 899.67,-407.59 899.67,-407.59 905.67,-407.59 911.67,-413.59 911.67,-419.59 911.67,-419.59 911.67,-552.87 911.67,-552.87 911.67,-558.87 905.67,-564.87 899.67,-564.87"/>
+<text text-anchor="start" x="306.27" y="-543.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="306.27" y="-515.93" font-family="Roboto, sans-serif" font-size="14.00">Cluster Ablehnung</text>
+<text text-anchor="start" x="306.27" y="-501.93" font-family="Roboto, sans-serif" font-size="14.00">Wiederinbetriebnahme w&#228;re technisch nicht m&#246;glich</text>
+<text text-anchor="start" x="306.27" y="-487.93" font-family="Roboto, sans-serif" font-size="14.00">Hinweis:</text>
+<text text-anchor="start" x="306.27" y="-473.93" font-family="Roboto, sans-serif" font-size="14.00">Die Marktlokation bzw. die dazugeh&#246;rigen elektrischen Anlagen kann gem&#228;&#223; NAV</text>
+<text text-anchor="start" x="306.27" y="-459.93" font-family="Roboto, sans-serif" font-size="14.00">und TAB nicht wieder in Betrieb genommen werden. Sie entspricht nicht der</text>
+<text text-anchor="start" x="306.27" y="-445.93" font-family="Roboto, sans-serif" font-size="14.00">geltenden Rechtsvorschriften und beh&#246;rdlichen Verf&#252;gungen sowie den anerkannten</text>
+<text text-anchor="start" x="306.27" y="-431.93" font-family="Roboto, sans-serif" font-size="14.00">Regeln der Technik, DVGW, den Technischen Anschlussbedingungen (TAB) und den</text>
+<text text-anchor="start" x="306.27" y="-417.93" font-family="Roboto, sans-serif" font-size="14.00">sonstigen besonderen Vorschriften des NB.</text>
+</g>
+<!-- 20&#45;&gt;A06 -->
+<g id="edge4" class="edge">
+<title>20-&gt;A06</title>
+<path fill="none" stroke="#88a0d6" d="M1068.2,-618.2C1013.89,-602.95 950.74,-585.22 888.77,-567.82"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="890.06,-564.54 879.48,-565.21 888.17,-571.28 890.06,-564.54"/>
+<text text-anchor="start" x="1001.77" y="-587.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 30 -->
+<g id="node6" class="node">
+<title>30</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1527.43,-504.23C1527.43,-504.23 942.13,-504.23 942.13,-504.23 936.13,-504.23 930.13,-498.23 930.13,-492.23 930.13,-492.23 930.13,-480.23 930.13,-480.23 930.13,-474.23 936.13,-468.23 942.13,-468.23 942.13,-468.23 1527.43,-468.23 1527.43,-468.23 1533.43,-468.23 1539.43,-474.23 1539.43,-480.23 1539.43,-480.23 1539.43,-492.23 1539.43,-492.23 1539.43,-498.23 1533.43,-504.23 1527.43,-504.23"/>
+<text text-anchor="start" x="944.53" y="-482.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="973.78" y="-482.55" font-family="Roboto, sans-serif" font-size="14.00">Ist zum Zeitpunkt des Nachrichteneingangs die Marktlokation bereits gesperrt?</text>
+</g>
+<!-- 20&#45;&gt;30 -->
+<g id="edge5" class="edge">
+<title>20-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M1223.44,-618.31C1226.21,-586.32 1229.92,-543.34 1232.33,-515.47"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1235.81,-515.94 1233.18,-505.68 1228.83,-515.34 1235.81,-515.94"/>
+<text text-anchor="start" x="1225.78" y="-587.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A01 -->
+<g id="node7" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1109.8,-354.34C1109.8,-354.34 883.75,-354.34 883.75,-354.34 877.75,-354.34 871.75,-348.34 871.75,-342.34 871.75,-342.34 871.75,-293.06 871.75,-293.06 871.75,-287.06 877.75,-281.06 883.75,-281.06 883.75,-281.06 1109.8,-281.06 1109.8,-281.06 1115.8,-281.06 1121.8,-287.06 1121.8,-293.06 1121.8,-293.06 1121.8,-342.34 1121.8,-342.34 1121.8,-348.34 1115.8,-354.34 1109.8,-354.34"/>
+<text text-anchor="start" x="886.15" y="-333.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="886.15" y="-305.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="886.15" y="-291.4" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation ist nicht gesperrt.</text>
+</g>
+<!-- 30&#45;&gt;A01 -->
+<g id="edge6" class="edge">
+<title>30-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M1210.64,-468.35C1174.9,-443.33 1106.73,-395.64 1056.94,-360.8"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1058.99,-357.96 1048.79,-355.1 1054.98,-363.7 1058.99,-357.96"/>
+<text text-anchor="start" x="1093.78" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 40 -->
+<g id="node8" class="node">
+<title>40</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1445.55,-335.7C1445.55,-335.7 1152,-335.7 1152,-335.7 1146,-335.7 1140,-329.7 1140,-323.7 1140,-323.7 1140,-311.7 1140,-311.7 1140,-305.7 1146,-299.7 1152,-299.7 1152,-299.7 1445.55,-299.7 1445.55,-299.7 1451.55,-299.7 1457.55,-305.7 1457.55,-311.7 1457.55,-311.7 1457.55,-323.7 1457.55,-323.7 1457.55,-329.7 1451.55,-335.7 1445.55,-335.7"/>
+<text text-anchor="start" x="1154.4" y="-314.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
+<text text-anchor="start" x="1183.65" y="-314.02" font-family="Roboto, sans-serif" font-size="14.00">Liegt bereits ein Entsperrauftrag vor?</text>
+</g>
+<!-- 30&#45;&gt;40 -->
+<g id="edge7" class="edge">
+<title>30-&gt;40</title>
+<path fill="none" stroke="#88a0d6" d="M1241.26,-468.35C1252.33,-439.54 1274.96,-380.68 1288.29,-345.98"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1291.41,-347.63 1291.73,-337.04 1284.87,-345.12 1291.41,-347.63"/>
+<text text-anchor="start" x="1277.78" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A04 -->
+<g id="node9" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1091.3,-227.81C1091.3,-227.81 712.25,-227.81 712.25,-227.81 706.25,-227.81 700.25,-221.81 700.25,-215.81 700.25,-215.81 700.25,-166.53 700.25,-166.53 700.25,-160.53 706.25,-154.53 712.25,-154.53 712.25,-154.53 1091.3,-154.53 1091.3,-154.53 1097.3,-154.53 1103.3,-160.53 1103.3,-166.53 1103.3,-166.53 1103.3,-215.81 1103.3,-215.81 1103.3,-221.81 1097.3,-227.81 1091.3,-227.81"/>
+<text text-anchor="start" x="714.65" y="-206.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="714.65" y="-178.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="714.65" y="-164.87" font-family="Roboto, sans-serif" font-size="14.00">Entsperrauftrag f&#252;r die Marktlokation liegt bereits vor.</text>
+</g>
+<!-- 40&#45;&gt;A04 -->
+<g id="edge8" class="edge">
+<title>40-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M1244.82,-299.78C1188.85,-282.22 1099.38,-254.16 1025.85,-231.09"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1027.16,-227.83 1016.57,-228.18 1025.06,-234.51 1027.16,-227.83"/>
+<text text-anchor="start" x="1123.78" y="-250.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 50 -->
+<g id="node10" class="node">
+<title>50</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1527.8,-209.17C1527.8,-209.17 1133.75,-209.17 1133.75,-209.17 1127.75,-209.17 1121.75,-203.17 1121.75,-197.17 1121.75,-197.17 1121.75,-185.17 1121.75,-185.17 1121.75,-179.17 1127.75,-173.17 1133.75,-173.17 1133.75,-173.17 1527.8,-173.17 1527.8,-173.17 1533.8,-173.17 1539.8,-179.17 1539.8,-185.17 1539.8,-185.17 1539.8,-197.17 1539.8,-197.17 1539.8,-203.17 1533.8,-209.17 1527.8,-209.17"/>
+<text text-anchor="start" x="1136.15" y="-187.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
+<text text-anchor="start" x="1165.4" y="-187.5" font-family="Roboto, sans-serif" font-size="14.00">Ist ein zuvor nicht spezifizierter Fehler aufgetreten?</text>
+</g>
+<!-- 40&#45;&gt;50 -->
+<g id="edge9" class="edge">
+<title>40-&gt;50</title>
+<path fill="none" stroke="#88a0d6" d="M1303.09,-299.91C1308.34,-279.48 1317.28,-244.7 1323.57,-220.19"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1326.95,-221.12 1326.05,-210.56 1320.17,-219.38 1326.95,-221.12"/>
+<text text-anchor="start" x="1315.78" y="-250.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A99 -->
+<g id="node11" class="node">
+<title>A99</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1276.05,-101.28C1276.05,-101.28 715.5,-101.28 715.5,-101.28 709.5,-101.28 703.5,-95.28 703.5,-89.28 703.5,-89.28 703.5,-12 703.5,-12 703.5,-6 709.5,0 715.5,0 715.5,0 1276.05,0 1276.05,0 1282.05,0 1288.05,-6 1288.05,-12 1288.05,-12 1288.05,-89.28 1288.05,-89.28 1288.05,-95.28 1282.05,-101.28 1276.05,-101.28"/>
+<text text-anchor="start" x="717.9" y="-80.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A99</text>
+<text text-anchor="start" x="717.9" y="-52.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="717.9" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Sonstiges</text>
+<text text-anchor="start" x="717.9" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.</text>
+<text text-anchor="start" x="717.9" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Nutzungsm&#246;glichkeit Ende: 01.04.2025 00:00 Uhr</text>
+</g>
+<!-- 50&#45;&gt;A99 -->
+<g id="edge10" class="edge">
+<title>50-&gt;A99</title>
+<path fill="none" stroke="#88a0d6" d="M1289.7,-173.18C1248.99,-156.35 1184.46,-129.66 1126.22,-105.58"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1127.78,-102.44 1117.2,-101.85 1125.1,-108.91 1127.78,-102.44"/>
+<text text-anchor="start" x="1192.78" y="-124.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A03 -->
+<g id="node12" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1469.68,-87.28C1469.68,-87.28 1317.88,-87.28 1317.88,-87.28 1311.88,-87.28 1305.88,-81.28 1305.88,-75.28 1305.88,-75.28 1305.88,-26 1305.88,-26 1305.88,-20 1311.88,-14 1317.88,-14 1317.88,-14 1469.68,-14 1469.68,-14 1475.68,-14 1481.68,-20 1481.68,-26 1481.68,-26 1481.68,-75.28 1481.68,-75.28 1481.68,-81.28 1475.68,-87.28 1469.68,-87.28"/>
+<text text-anchor="start" x="1320.28" y="-66.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="1320.28" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="1320.28" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Zustimmung</text>
+</g>
+<!-- 50&#45;&gt;A03 -->
+<g id="edge11" class="edge">
+<title>50-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M1338.5,-173.18C1347.02,-154.45 1361.08,-123.52 1372.89,-97.55"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1376.05,-99.08 1377,-88.52 1369.68,-96.18 1376.05,-99.08"/>
+<text text-anchor="start" x="1361.78" y="-124.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

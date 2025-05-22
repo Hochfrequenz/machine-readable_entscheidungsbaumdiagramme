@@ -1,0 +1,189 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Sperrprozesse Gas
+
+19.1.2: AD: Abrechnung einer sonstigen Leistung
+
+
+
+end title
+:<b>E_1008</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>10: </b> Bezieht sich das Nicht-Zahlungsavis auf eine Rechnung der Kategorie „Unterbrechung der Anschlussnutzung (Sperren&#41;“?) then (ja)
+    if (<b>30: </b> Hat der Lieferant wegen fehlendem Preisblatt „Preisblatt Sperren / Entsperren und Verzugskosten“ abgelehnt?) then (ja)
+        if (<b>40: </b> Wurde dem Lieferanten ein für die Rechnung gültiges Preisblatt versendet?) then (ja)
+            :A01;
+            note left
+                Ein gültiges Preisblatt wurde versendet.
+                Hinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung des an ihm versandten, für die Rechnung gültigen Preisblatts.
+            endnote
+            kill;
+        else (nein)
+        endif
+    else (nein)
+        if (<b>50: </b> Hat der Lieferant wegen unbekanntem Sperrauftrag abgelehnt?) then (ja)
+            if (<b>60: </b> Liegt ein bestätigter Sperrauftrag mit der angegebenen Referenz auf den Sperrauftrag des Lieferanten vor?) then (ja)
+                :A02;
+                note left
+                    Gültiger Sperrauftrag ist vorhanden
+                    Hinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung des Sperrauftrags.
+                endnote
+                kill;
+            else (nein)
+            endif
+        else (nein)
+            if (<b>70: </b> Hat der Lieferant die Rechnung wegen Angabe einer falschen Artikel-ID abgelehnt?) then (ja)
+                if (<b>80: </b> Hat der LF den Sperrauftrag storniert und wurde diese Stornierung vom NB bestätigt?) then (ja)
+                    if (<b>90: </b> Wurde die korrekte Artikel-ID entsprechend eines stornierten Sperrauftrags in der Rechnung angegeben?) then (ja)
+                        :A15;
+                        note left
+                            Korrekte Artikel-ID für die Abrechnung eines stornierten Sperrauftrags wurde in der Rechnung angegeben
+                            Hinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung aus der Stornierung.
+                        endnote
+                        kill;
+                    else (nein)
+                    endif
+                else (nein)
+                    if (<b>100: </b> Wurde die korrekte Artikel-ID entsprechend des Ergebnisses des Sperrauftrags in der Rechnung angegeben?) then (ja)
+                        :A03;
+                        note left
+                            Korrekte Artikel-ID wurde in der Rechnung angegeben
+                            Hinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung aus dem Ergebnis des Sperrauftrags.
+                        endnote
+                        kill;
+                    else (nein)
+                    endif
+                endif
+            else (nein)
+                if (<b>110: </b> Hat der Lieferant die Rechnung abgelehnt, da auf der Rechnung ein, zum Preisblatt abweichender Preis angegeben wurde?) then (ja)
+                    if (<b>120: </b> Wurde in der Rechnung der im Preisblatt angegebene Preis abgerechnet?) then (ja)
+                        :A04;
+                        note left
+                            Korrekter Preis zum gültigen Preisblatt wurde in der Rechnung angegeben
+                            Hinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung des Preisblatts
+                        endnote
+                        kill;
+                    else (nein)
+                    endif
+                else (nein)
+                    if (<b>130: </b> Ergibt die Prüfung der abgelehnten Rechnung, dass die Ablehnung durch den Lieferanten gerechtfertigt war?) then (ja)
+                    else (nein)
+                        :A05;
+                        note left
+                            Die Rechnung wird als korrekt angesehen
+                            Hinweis: Es ist zu begründen, warum die Rechnung korrekt war.
+                        endnote
+                        kill;
+                    endif
+                endif
+            endif
+        endif
+    endif
+else (nein)
+    if (<b>20: </b> Bezieht sich das Nicht-Zahlungsavis auf eine Rechnung der Kategorie „Verzugskosten“?) then (ja)
+    else (nein)
+        :A16;
+        note left
+            Abrechnung „Blindarbeit“ für Sparte Gas nicht relevant.
+        endnote
+        kill;
+    endif
+    if (<b>140: </b> Hat der Lieferant wegen fehlendem Preisblatt „Preisblatt Sperren / Entsperren und Verzugskosten“ abgelehnt?) then (ja)
+        if (<b>150: </b> Wurde dem Lieferanten ein für die Rechnung gültiges Preisblatt fristgerecht versendet?) then (ja)
+            :A06;
+            note left
+                Gültiges Preisblatt wurde versendet.
+                Hinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung
+            endnote
+            kill;
+        else (nein)
+        endif
+    else (nein)
+        if (<b>160: </b> Hat der Lieferant wegen unbekannter Rechnung, auf die sich die Verzugskostenrechnung bezieht, abgelehnt?) then (ja)
+            if (<b>170: </b> Wurde die Rechnung, auf die sich die Verzugskostenrechnung bezieht, dem Lieferanten zugestellt?) then (ja)
+                if (<b>180: </b> Wurde die Rechnung, auf die sich die Verzugskostenrechnung bezieht, storniert?) then (ja)
+                else (nein)
+                    :A07;
+                    note left
+                        Gültige Rechnung ist vorhanden
+                        Hinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung der Rechnung, auf die sich die Verzugskostenrechnung bezieht.
+                    endnote
+                    kill;
+                endif
+            else (nein)
+            endif
+        else (nein)
+            if (<b>190: </b> Hat der Lieferant die Rechnung wegen Angabe einer falschen Artikel-ID abgelehnt?) then (ja)
+                if (<b>200: </b> Wurde genau eine der beiden Artikel-ID für Verzugskosten in der Rechnung angegeben?) then (ja)
+                    :A08;
+                    note left
+                        Es wurde für die Verzugskosten eine der beiden Artikel-ID verwendet
+                    endnote
+                    kill;
+                else (nein)
+                endif
+            else (nein)
+                if (<b>210: </b> Hat der Lieferant die Rechnung abgelehnt, da auf der Rechnung ein zum Preisblatt abweichender Preis angeben wurde?) then (ja)
+                    if (<b>220: </b> Wurde in der Rechnung die Artikel-ID 2-02-0-001 (Verzugskosten pauschal&#41; angegeben?) then (ja)
+                        if (<b>230: </b> Ist der angegeben Preis in der Rechnung identisch mit dem Preis für die Artikel-ID 2-02-0-001 (Verzugskosten pauschal&#41; aus dem Preisblatt?) then (ja)
+                            :A09;
+                            note left
+                                Korrekter Preis wurde in der Rechnung abgerechnet
+                                Hinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung des Preisblatts
+                            endnote
+                            kill;
+                        else (nein)
+                        endif
+                    else (nein)
+                        if (<b>240: </b> Ist der Preis, der in der Rechnung für die Artikel-ID 2-02-0-002 (Verzugskosten variabel&#41; in Rechnung gestellt wurde für die der Verzugsrechnung zugrundeliegende, nicht bezahlte Rechnung angemessen?) then (ja)
+                            :A10;
+                            note left
+                                Die Rechnung wird als korrekt angesehen
+                                Hinweis: Es ist zu begründen, warum die Rechnung korrekt war.
+                            endnote
+                            kill;
+                        else (nein)
+                        endif
+                    endif
+                else (nein)
+                    if (<b>250: </b> Ergibt die Prüfung der abgelehnten Rechnung, dass die Ablehnung durch den Lieferanten gerechtfertigt war?) then (ja)
+                    else (nein)
+                        :A11;
+                        note left
+                            Die Rechnung wird als korrekt angesehen
+                            Hinweis: Es ist zu begründen, warum die Rechnung korrekt war.
+                        endnote
+                        kill;
+                    endif
+                endif
+            endif
+        endif
+    endif
+endif
+:Versand der Nachricht „Storno der ursprünglichen Rechnung“;
+kill;
+
+@enduml

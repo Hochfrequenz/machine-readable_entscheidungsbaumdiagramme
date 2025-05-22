@@ -1,0 +1,33 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.32.1: AD: Geschäftsdatenanfrage von MSB an NB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    pad=0.25;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0443</B><BR align="left"/><FONT>Prüfende Rolle: <B>NB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Handelt es sich um einen MSB aus der Sparte Gas?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Ist der MSB im angefragten Zeitraum der genannten Marktlokation, Messlokation<BR align="left"/>bzw. Tranche zugeordnet?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "Stammdaten versenden" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Stammdaten versenden<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>30: </B>Ist der MSB für den angefragten Zeitraum z. B. aufgrund einer Vollmacht<BR align="left"/>berechtigt die angefragten Stammdaten zu erhalten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Keine Berechtigung<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>40: </B>Ist an der genannten Messlokation ein iMS verbaut?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Kein iMS verbaut<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+
+    "Start" -> "10" [color="#88a0d6"];
+    "10" -> "40" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "10" -> "20" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "Stammdaten versenden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "30" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "A01" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "Stammdaten versenden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "Stammdaten versenden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "A02" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+
+    bgcolor="transparent";
+fontname="Roboto, sans-serif";
+}
