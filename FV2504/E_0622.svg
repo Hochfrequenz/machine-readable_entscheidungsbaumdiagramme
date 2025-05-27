@@ -1,0 +1,1027 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1920.0px" viewBox="0 0 1920.0 801.3333333333334" height="801.3333333333334px">
+  <g>
+    <svg version="1.1" width="1920.0px" viewBox="0 0 1920.0 801.3333333333334" height="801.3333333333334px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1920.0" height="801.3333333333334" rx="20" ry="20"/><g>
+    <g transform="translate(633.2157702055758, 80.13333333333333) scale(1 1) translate(0, 0) scale(1.12832066084671 1.12832066084671) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1440pt" height="601pt" viewBox="0.00 0.00 1440.00 601.39">
+<g id="graph0" class="graph" transform="scale(0.302717 0.302717) rotate(0) translate(18 1968.64)">
+<title>D</title>
+<text text-anchor="start" x="2256.21" y="-1930.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">GPKE</text>
+<text text-anchor="start" x="2256.21" y="-1902.44" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">6.6.1: AD: Lieferbeginn</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M1533.05,-1860.64C1533.05,-1860.64 1396.25,-1860.64 1396.25,-1860.64 1390.25,-1860.64 1384.25,-1854.64 1384.25,-1848.64 1384.25,-1848.64 1384.25,-1827.36 1384.25,-1827.36 1384.25,-1821.36 1390.25,-1815.36 1396.25,-1815.36 1396.25,-1815.36 1533.05,-1815.36 1533.05,-1815.36 1539.05,-1815.36 1545.05,-1821.36 1545.05,-1827.36 1545.05,-1827.36 1545.05,-1848.64 1545.05,-1848.64 1545.05,-1854.64 1539.05,-1860.64 1533.05,-1860.64"/>
+<text text-anchor="start" x="1398.65" y="-1839.7" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0622</text>
+<text text-anchor="start" x="1398.65" y="-1825.7" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="1508.15" y="-1825.7" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 10 -->
+<g id="node2" class="node">
+<title>10</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1759.18,-1778.36C1759.18,-1778.36 1170.12,-1778.36 1170.12,-1778.36 1164.12,-1778.36 1158.12,-1772.36 1158.12,-1766.36 1158.12,-1766.36 1158.12,-1745.08 1158.12,-1745.08 1158.12,-1739.08 1164.12,-1733.08 1170.12,-1733.08 1170.12,-1733.08 1759.18,-1733.08 1759.18,-1733.08 1765.18,-1733.08 1771.18,-1739.08 1771.18,-1745.08 1771.18,-1745.08 1771.18,-1766.36 1771.18,-1766.36 1771.18,-1772.36 1765.18,-1778.36 1759.18,-1778.36"/>
+<text text-anchor="start" x="1172.53" y="-1757.42" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="1201.78" y="-1757.42" font-family="Roboto, sans-serif" font-size="14.00">Wurde der Anwendungsfall f&#252;r eine verbrauchende Marktlokation oder ruhende</text>
+<text text-anchor="start" x="1172.53" y="-1743.42" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation verwendet?</text>
+</g>
+<!-- Start&#45;&gt;10 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;10</title>
+<path fill="none" stroke="#88a0d6" d="M1464.65,-1815.49C1464.65,-1807.57 1464.65,-1798.41 1464.65,-1789.71"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1468.15,-1789.81 1464.65,-1779.81 1461.15,-1789.81 1468.15,-1789.81"/>
+</g>
+<!-- 15 -->
+<g id="node3" class="node">
+<title>15</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1305.93,-1679.83C1305.93,-1679.83 1027.38,-1679.83 1027.38,-1679.83 1021.38,-1679.83 1015.38,-1673.83 1015.38,-1667.83 1015.38,-1667.83 1015.38,-1655.83 1015.38,-1655.83 1015.38,-1649.83 1021.38,-1643.83 1027.38,-1643.83 1027.38,-1643.83 1305.93,-1643.83 1305.93,-1643.83 1311.93,-1643.83 1317.93,-1649.83 1317.93,-1655.83 1317.93,-1655.83 1317.93,-1667.83 1317.93,-1667.83 1317.93,-1673.83 1311.93,-1679.83 1305.93,-1679.83"/>
+<text text-anchor="start" x="1029.78" y="-1658.16" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">15: </text>
+<text text-anchor="start" x="1059.03" y="-1658.16" font-family="Roboto, sans-serif" font-size="14.00">Wurde die Vorlauffrist eingehalten?</text>
+</g>
+<!-- 10&#45;&gt;15 -->
+<g id="edge2" class="edge">
+<title>10-&gt;15</title>
+<path fill="none" stroke="#88a0d6" d="M1394.78,-1733.18C1345.79,-1718.07 1280.71,-1698 1232.6,-1683.17"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1233.71,-1679.85 1223.13,-1680.25 1231.65,-1686.54 1233.71,-1679.85"/>
+<text text-anchor="start" x="1332.65" y="-1702.78" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 220 -->
+<g id="node24" class="node">
+<title>220</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2049.18,-1590.58C2049.18,-1590.58 1502.12,-1590.58 1502.12,-1590.58 1496.12,-1590.58 1490.12,-1584.58 1490.12,-1578.58 1490.12,-1578.58 1490.12,-1529.3 1490.12,-1529.3 1490.12,-1523.3 1496.12,-1517.3 1502.12,-1517.3 1502.12,-1517.3 2049.18,-1517.3 2049.18,-1517.3 2055.18,-1517.3 2061.18,-1523.3 2061.18,-1529.3 2061.18,-1529.3 2061.18,-1578.58 2061.18,-1578.58 2061.18,-1584.58 2055.18,-1590.58 2049.18,-1590.58"/>
+<text text-anchor="start" x="1504.53" y="-1569.64" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">220: </text>
+<text text-anchor="start" x="1543.53" y="-1569.64" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich um einen &#8222;Einzug in Neuanlage&#8220;?</text>
+<text text-anchor="start" x="1504.53" y="-1555.64" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Dies sind Marktlokationen, bei denen der NB den Identifikator schon</text>
+<text text-anchor="start" x="1504.53" y="-1541.64" font-family="Roboto, sans-serif" font-size="14.00">vergeben hat, deren Inbetriebnahme aber noch in der Zukunft liegt (somit ein</text>
+<text text-anchor="start" x="1504.53" y="-1527.64" font-family="Roboto, sans-serif" font-size="14.00">Lieferbeginn noch nicht feststeht).</text>
+</g>
+<!-- 10&#45;&gt;220 -->
+<g id="edge3" class="edge">
+<title>10-&gt;220</title>
+<path fill="none" stroke="#88a0d6" d="M1498.23,-1733.15C1548.98,-1700.55 1646.16,-1638.12 1710.96,-1596.5"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1712.48,-1599.68 1719,-1591.33 1708.69,-1593.79 1712.48,-1599.68"/>
+<text text-anchor="start" x="1635.65" y="-1658.16" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A07 -->
+<g id="node4" class="node">
+<title>A07</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M831.17,-1590.58C831.17,-1590.58 578.12,-1590.58 578.12,-1590.58 572.12,-1590.58 566.12,-1584.58 566.12,-1578.58 566.12,-1578.58 566.12,-1529.3 566.12,-1529.3 566.12,-1523.3 572.12,-1517.3 578.12,-1517.3 578.12,-1517.3 831.17,-1517.3 831.17,-1517.3 837.17,-1517.3 843.17,-1523.3 843.17,-1529.3 843.17,-1529.3 843.17,-1578.58 843.17,-1578.58 843.17,-1584.58 837.17,-1590.58 831.17,-1590.58"/>
+<text text-anchor="start" x="580.52" y="-1569.64" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A07</text>
+<text text-anchor="start" x="580.52" y="-1541.64" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="580.52" y="-1527.64" font-family="Roboto, sans-serif" font-size="14.00">Vorlauffrist wurde nicht eingehalten</text>
+</g>
+<!-- 15&#45;&gt;A07 -->
+<g id="edge4" class="edge">
+<title>15-&gt;A07</title>
+<path fill="none" stroke="#88a0d6" d="M1089.15,-1643.86C1028.15,-1630.42 940.71,-1610.96 854.01,-1590.88"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="854.9,-1587.5 844.37,-1588.65 853.32,-1594.32 854.9,-1587.5"/>
+<text text-anchor="start" x="1006.65" y="-1613.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 16 -->
+<g id="node5" class="node">
+<title>16</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1459.68,-1576.58C1459.68,-1576.58 873.63,-1576.58 873.63,-1576.58 867.63,-1576.58 861.63,-1570.58 861.63,-1564.58 861.63,-1564.58 861.63,-1543.3 861.63,-1543.3 861.63,-1537.3 867.63,-1531.3 873.63,-1531.3 873.63,-1531.3 1459.68,-1531.3 1459.68,-1531.3 1465.68,-1531.3 1471.68,-1537.3 1471.68,-1543.3 1471.68,-1543.3 1471.68,-1564.58 1471.68,-1564.58 1471.68,-1570.58 1465.68,-1576.58 1459.68,-1576.58"/>
+<text text-anchor="start" x="876.03" y="-1555.64" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">16: </text>
+<text text-anchor="start" x="905.28" y="-1555.64" font-family="Roboto, sans-serif" font-size="14.00">Ist in dem Anwendungsfall in der Erg&#228;nzung zum Transaktionsgrund &#8222;Ruhende</text>
+<text text-anchor="start" x="876.03" y="-1541.64" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation&#8220; angegeben?</text>
+</g>
+<!-- 15&#45;&gt;16 -->
+<g id="edge5" class="edge">
+<title>15-&gt;16</title>
+<path fill="none" stroke="#88a0d6" d="M1166.65,-1644.28C1166.65,-1629.23 1166.65,-1606.57 1166.65,-1587.83"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1170.15,-1588.01 1166.65,-1578.01 1163.15,-1588.01 1170.15,-1588.01"/>
+<text text-anchor="start" x="1166.65" y="-1613.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 17 -->
+<g id="node6" class="node">
+<title>17</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1187.67,-1450.05C1187.67,-1450.05 631.62,-1450.05 631.62,-1450.05 625.62,-1450.05 619.62,-1444.05 619.62,-1438.05 619.62,-1438.05 619.62,-1416.77 619.62,-1416.77 619.62,-1410.77 625.62,-1404.77 631.62,-1404.77 631.62,-1404.77 1187.67,-1404.77 1187.67,-1404.77 1193.67,-1404.77 1199.67,-1410.77 1199.67,-1416.77 1199.67,-1416.77 1199.67,-1438.05 1199.67,-1438.05 1199.67,-1444.05 1193.67,-1450.05 1187.67,-1450.05"/>
+<text text-anchor="start" x="634.02" y="-1429.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">17: </text>
+<text text-anchor="start" x="663.27" y="-1429.11" font-family="Roboto, sans-serif" font-size="14.00">Ist die &#8222;ruhende Marktlokation&#8220; (SG5 LOC+Z22) messtechnisch mittels iMS</text>
+<text text-anchor="start" x="634.02" y="-1415.11" font-family="Roboto, sans-serif" font-size="14.00">erfasst? (Messtechnische Einordung der Marktlokation = iMS)</text>
+</g>
+<!-- 16&#45;&gt;17 -->
+<g id="edge7" class="edge">
+<title>16-&gt;17</title>
+<path fill="none" stroke="#88a0d6" d="M1122.18,-1531.39C1078.37,-1510.16 1011.36,-1477.69 964.32,-1454.9"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="965.9,-1451.77 955.37,-1450.56 962.84,-1458.07 965.9,-1451.77"/>
+<text text-anchor="start" x="1052.65" y="-1487" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 30 -->
+<g id="node15" class="node">
+<title>30</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1218.17,-698.4C1218.17,-698.4 635.12,-698.4 635.12,-698.4 629.12,-698.4 623.12,-692.4 623.12,-686.4 623.12,-686.4 623.12,-623.12 623.12,-623.12 623.12,-617.12 629.12,-611.12 635.12,-611.12 635.12,-611.12 1218.17,-611.12 1218.17,-611.12 1224.17,-611.12 1230.17,-617.12 1230.17,-623.12 1230.17,-623.12 1230.17,-686.4 1230.17,-686.4 1230.17,-692.4 1224.17,-698.4 1218.17,-698.4"/>
+<text text-anchor="start" x="637.52" y="-677.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="666.77" y="-677.46" font-family="Roboto, sans-serif" font-size="14.00">Nimmt die Marktlokation zum Anmeldedatum an der Marktkommunikation teil?</text>
+<text text-anchor="start" x="637.52" y="-663.46" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Marktlokationen, die nicht an der Marktkommunikation teilnehmen, sind</text>
+<text text-anchor="start" x="637.52" y="-649.46" font-family="Roboto, sans-serif" font-size="14.00">Marktlokationen, die stillgelegt sind bzw. Marktlokationen, die dem " Modell 2</text>
+<text text-anchor="start" x="637.52" y="-635.46" font-family="Roboto, sans-serif" font-size="14.00">zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsm&#246;glichkeit "</text>
+<text text-anchor="start" x="637.52" y="-621.46" font-family="Roboto, sans-serif" font-size="14.00">zugeordnet sind.</text>
+</g>
+<!-- 16&#45;&gt;30 -->
+<g id="edge6" class="edge">
+<title>16-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M1198.14,-1531.41C1226.47,-1509.23 1263.65,-1471.85 1263.65,-1428.41 1263.65,-1428.41 1263.65,-1428.41 1263.65,-1082.09 1263.65,-964.39 1274.01,-934.22 1260.65,-817.29"/>
+<text text-anchor="start" x="1263.65" y="-1149.68" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A36 -->
+<g id="node7" class="node">
+<title>A36</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M567.92,-1337.52C567.92,-1337.52 91.37,-1337.52 91.37,-1337.52 85.37,-1337.52 79.37,-1331.52 79.37,-1325.52 79.37,-1325.52 79.37,-1262.24 79.37,-1262.24 79.37,-1256.24 85.37,-1250.24 91.37,-1250.24 91.37,-1250.24 567.92,-1250.24 567.92,-1250.24 573.92,-1250.24 579.92,-1256.24 579.92,-1262.24 579.92,-1262.24 579.92,-1325.52 579.92,-1325.52 579.92,-1331.52 573.92,-1337.52 567.92,-1337.52"/>
+<text text-anchor="start" x="93.77" y="-1316.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A36</text>
+<text text-anchor="start" x="93.77" y="-1288.58" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="93.77" y="-1274.58" font-family="Roboto, sans-serif" font-size="14.00">Die genannte Marktlokation entspricht nicht den Anforderungen, da</text>
+<text text-anchor="start" x="93.77" y="-1260.58" font-family="Roboto, sans-serif" font-size="14.00">messtechnische Einordung nicht iMS.</text>
+</g>
+<!-- 17&#45;&gt;A36 -->
+<g id="edge8" class="edge">
+<title>17-&gt;A36</title>
+<path fill="none" stroke="#88a0d6" d="M814.52,-1404.84C737.16,-1387.29 625.36,-1361.94 528.61,-1340"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="529.5,-1336.61 518.97,-1337.81 527.95,-1343.44 529.5,-1336.61"/>
+<text text-anchor="start" x="670.65" y="-1360.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 18 -->
+<g id="node8" class="node">
+<title>18</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1209.8,-1316.52C1209.8,-1316.52 609.5,-1316.52 609.5,-1316.52 603.5,-1316.52 597.5,-1310.52 597.5,-1304.52 597.5,-1304.52 597.5,-1283.24 597.5,-1283.24 597.5,-1277.24 603.5,-1271.24 609.5,-1271.24 609.5,-1271.24 1209.8,-1271.24 1209.8,-1271.24 1215.8,-1271.24 1221.8,-1277.24 1221.8,-1283.24 1221.8,-1283.24 1221.8,-1304.52 1221.8,-1304.52 1221.8,-1310.52 1215.8,-1316.52 1209.8,-1316.52"/>
+<text text-anchor="start" x="611.9" y="-1295.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">18: </text>
+<text text-anchor="start" x="641.15" y="-1295.58" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich bei der &#8222;ruhenden Marktlokation&#8220; (SG5 LOC+Z22) im System des</text>
+<text text-anchor="start" x="611.9" y="-1281.58" font-family="Roboto, sans-serif" font-size="14.00">Empf&#228;ngers um eine verbrauchende Marktlokation?</text>
+</g>
+<!-- 17&#45;&gt;18 -->
+<g id="edge9" class="edge">
+<title>17-&gt;18</title>
+<path fill="none" stroke="#88a0d6" d="M909.65,-1404.98C909.65,-1384.06 909.65,-1351.93 909.65,-1327.77"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="913.15,-1327.81 909.65,-1317.81 906.15,-1327.81 913.15,-1327.81"/>
+<text text-anchor="start" x="909.65" y="-1360.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A09 -->
+<g id="node9" class="node">
+<title>A09</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M561.67,-1196.99C561.67,-1196.99 23.62,-1196.99 23.62,-1196.99 17.62,-1196.99 11.62,-1190.99 11.62,-1184.99 11.62,-1184.99 11.62,-1121.71 11.62,-1121.71 11.62,-1115.71 17.62,-1109.71 23.62,-1109.71 23.62,-1109.71 561.67,-1109.71 561.67,-1109.71 567.67,-1109.71 573.67,-1115.71 573.67,-1121.71 573.67,-1121.71 573.67,-1184.99 573.67,-1184.99 573.67,-1190.99 567.67,-1196.99 561.67,-1196.99"/>
+<text text-anchor="start" x="26.02" y="-1176.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A09</text>
+<text text-anchor="start" x="26.02" y="-1148.05" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="26.02" y="-1134.05" font-family="Roboto, sans-serif" font-size="14.00">Bei der angemeldeten ruhenden Marktlokation handelt es sich nicht um eine</text>
+<text text-anchor="start" x="26.02" y="-1120.05" font-family="Roboto, sans-serif" font-size="14.00">verbrauchende Marktlokation</text>
+</g>
+<!-- 18&#45;&gt;A09 -->
+<g id="edge10" class="edge">
+<title>18-&gt;A09</title>
+<path fill="none" stroke="#88a0d6" d="M813.58,-1271.31C728.28,-1252.16 600.85,-1223.55 493.38,-1199.42"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="494.38,-1196.06 483.86,-1197.28 492.85,-1202.89 494.38,-1196.06"/>
+<text text-anchor="start" x="637.65" y="-1219.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 19 -->
+<g id="node10" class="node">
+<title>19</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1215.8,-1175.99C1215.8,-1175.99 603.5,-1175.99 603.5,-1175.99 597.5,-1175.99 591.5,-1169.99 591.5,-1163.99 591.5,-1163.99 591.5,-1142.71 591.5,-1142.71 591.5,-1136.71 597.5,-1130.71 603.5,-1130.71 603.5,-1130.71 1215.8,-1130.71 1215.8,-1130.71 1221.8,-1130.71 1227.8,-1136.71 1227.8,-1142.71 1227.8,-1142.71 1227.8,-1163.99 1227.8,-1163.99 1227.8,-1169.99 1221.8,-1175.99 1215.8,-1175.99"/>
+<text text-anchor="start" x="605.9" y="-1155.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">19: </text>
+<text text-anchor="start" x="635.15" y="-1155.05" font-family="Roboto, sans-serif" font-size="14.00">Soll die angegebene Marktlokation zu einer Neubildung einer Kundenanlage f&#252;hren</text>
+<text text-anchor="start" x="605.9" y="-1141.05" font-family="Roboto, sans-serif" font-size="14.00">(Produktcode: 9991 00000 276 9, Code der Produkteigenschaft: 9991 00000 293 3)?</text>
+</g>
+<!-- 18&#45;&gt;19 -->
+<g id="edge11" class="edge">
+<title>18-&gt;19</title>
+<path fill="none" stroke="#88a0d6" d="M909.65,-1271.54C909.65,-1249.03 909.65,-1213.28 909.65,-1187.18"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="913.15,-1187.46 909.65,-1177.46 906.15,-1187.46 913.15,-1187.46"/>
+<text text-anchor="start" x="909.65" y="-1219.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 25 -->
+<g id="node11" class="node">
+<title>25</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1185.55,-1014.46C1185.55,-1014.46 559.75,-1014.46 559.75,-1014.46 553.75,-1014.46 547.75,-1008.46 547.75,-1002.46 547.75,-1002.46 547.75,-981.18 547.75,-981.18 547.75,-975.18 553.75,-969.18 559.75,-969.18 559.75,-969.18 1185.55,-969.18 1185.55,-969.18 1191.55,-969.18 1197.55,-975.18 1197.55,-981.18 1197.55,-981.18 1197.55,-1002.46 1197.55,-1002.46 1197.55,-1008.46 1191.55,-1014.46 1185.55,-1014.46"/>
+<text text-anchor="start" x="562.15" y="-993.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">25: </text>
+<text text-anchor="start" x="591.4" y="-993.52" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich bei der im Anwendungsfall genannten Marktlokation (im SG5</text>
+<text text-anchor="start" x="562.15" y="-979.52" font-family="Roboto, sans-serif" font-size="14.00">LOC+Z16) um eine Marktlokation &#8222;Kundenanlage&#8220; (&#167; 20 Abs. 1d EnWG bzw. &#167; 10 c EEG)?</text>
+</g>
+<!-- 19&#45;&gt;25 -->
+<g id="edge13" class="edge">
+<title>19-&gt;25</title>
+<path fill="none" stroke="#88a0d6" d="M904.66,-1130.84C898.35,-1103.64 887.44,-1056.59 880.13,-1025.09"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="883.63,-1024.67 877.96,-1015.72 876.81,-1026.25 883.63,-1024.67"/>
+<text text-anchor="start" x="894.65" y="-1079.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 19&#45;&gt;30 -->
+<g id="edge12" class="edge">
+<title>19-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M1082.21,-1130.75C1128.83,-1116.71 1175.06,-1093.78 1206.65,-1056.46 1254.4,-1000.04 1206.09,-961.55 1230.9,-891.93 1234.03,-883.15 1237.76,-882.4 1241.65,-873.93 1252.74,-849.81 1258.09,-843.72 1260.65,-817.29"/>
+<path fill="none" stroke="#88a0d6" d="M1260.65,-815.29C1265.33,-762.25 1232,-726.83 1184.76,-703.19"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1186.38,-700.08 1175.85,-698.97 1183.39,-706.41 1186.38,-700.08"/>
+<text text-anchor="start" x="1230.65" y="-896.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A08 -->
+<g id="node12" class="node">
+<title>A08</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M591.3,-873.93C591.3,-873.93 12,-873.93 12,-873.93 6,-873.93 0,-867.93 0,-861.93 0,-861.93 0,-770.65 0,-770.65 0,-764.65 6,-758.65 12,-758.65 12,-758.65 591.3,-758.65 591.3,-758.65 597.3,-758.65 603.3,-764.65 603.3,-770.65 603.3,-770.65 603.3,-861.93 603.3,-861.93 603.3,-867.93 597.3,-873.93 591.3,-873.93"/>
+<text text-anchor="start" x="14.4" y="-852.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A08</text>
+<text text-anchor="start" x="14.4" y="-824.99" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="14.4" y="-810.99" font-family="Roboto, sans-serif" font-size="14.00">Bei der in der Anmeldung genannten Marktlokation (im SG5 LOC+Z16) handelt es</text>
+<text text-anchor="start" x="14.4" y="-796.99" font-family="Roboto, sans-serif" font-size="14.00">sich nicht um eine &#8222;Kundenanlage&#8220;. Somit kann die zu integrierende</text>
+<text text-anchor="start" x="14.4" y="-782.99" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation (im SG5 LOC+Z22) nicht der Marktlokation &#8222;Kundenanlage&#8220; (im SG5</text>
+<text text-anchor="start" x="14.4" y="-768.99" font-family="Roboto, sans-serif" font-size="14.00">LOC+Z16) zugeordnet werden.</text>
+</g>
+<!-- 25&#45;&gt;A08 -->
+<g id="edge14" class="edge">
+<title>25-&gt;A08</title>
+<path fill="none" stroke="#88a0d6" d="M801.49,-969.19C726.05,-946.27 603.56,-909.04 498.73,-877.18"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="500.02,-873.92 489.44,-874.36 497.99,-880.62 500.02,-873.92"/>
+<text text-anchor="start" x="586.65" y="-896.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 26 -->
+<g id="node13" class="node">
+<title>26</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1220.42,-838.93C1220.42,-838.93 632.88,-838.93 632.88,-838.93 626.88,-838.93 620.88,-832.93 620.88,-826.93 620.88,-826.93 620.88,-805.65 620.88,-805.65 620.88,-799.65 626.88,-793.65 632.88,-793.65 632.88,-793.65 1220.42,-793.65 1220.42,-793.65 1226.42,-793.65 1232.42,-799.65 1232.42,-805.65 1232.42,-805.65 1232.42,-826.93 1232.42,-826.93 1232.42,-832.93 1226.42,-838.93 1220.42,-838.93"/>
+<text text-anchor="start" x="635.27" y="-817.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">26: </text>
+<text text-anchor="start" x="664.52" y="-817.99" font-family="Roboto, sans-serif" font-size="14.00">Befindet sich die &#8222;ruhende Marktlokation (SG5 LOC+Z22) hinter der (den)</text>
+<text text-anchor="start" x="635.27" y="-803.99" font-family="Roboto, sans-serif" font-size="14.00">gleichen Netzlokation(en) wie die Marktlokation der Kundenanlage (SG5 LOC+Z16)?</text>
+</g>
+<!-- 25&#45;&gt;26 -->
+<g id="edge15" class="edge">
+<title>25-&gt;26</title>
+<path fill="none" stroke="#88a0d6" d="M879.38,-969.19C888.74,-939.11 905.77,-884.39 916.63,-849.49"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="919.84,-850.95 919.47,-840.36 913.16,-848.87 919.84,-850.95"/>
+<text text-anchor="start" x="902.65" y="-896.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A37 -->
+<g id="node14" class="node">
+<title>A37</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M592.92,-705.4C592.92,-705.4 38.38,-705.4 38.38,-705.4 32.38,-705.4 26.38,-699.4 26.38,-693.4 26.38,-693.4 26.38,-616.12 26.38,-616.12 26.38,-610.12 32.38,-604.12 38.38,-604.12 38.38,-604.12 592.92,-604.12 592.92,-604.12 598.92,-604.12 604.92,-610.12 604.92,-616.12 604.92,-616.12 604.92,-693.4 604.92,-693.4 604.92,-699.4 598.92,-705.4 592.92,-705.4"/>
+<text text-anchor="start" x="40.77" y="-684.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A37</text>
+<text text-anchor="start" x="40.77" y="-656.46" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="40.77" y="-642.46" font-family="Roboto, sans-serif" font-size="14.00">Die zu integrierende Marktlokation befindet sich nicht hinter der /den gleichen</text>
+<text text-anchor="start" x="40.77" y="-628.46" font-family="Roboto, sans-serif" font-size="14.00">Netzlokation(en) liegen, wie die Marktlokation der &#8222;Kundenanlage&#8220; (&#8222;Abbildung</text>
+<text text-anchor="start" x="40.77" y="-614.46" font-family="Roboto, sans-serif" font-size="14.00">von &#167; 20 Abs. 1d EnWG bzw. &#167; 10c EEG&#8220;).</text>
+</g>
+<!-- 26&#45;&gt;A37 -->
+<g id="edge16" class="edge">
+<title>26-&gt;A37</title>
+<path fill="none" stroke="#88a0d6" d="M843.93,-793.69C760.32,-771.86 627.93,-737.29 516.6,-708.23"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="517.57,-704.86 507.01,-705.72 515.8,-711.64 517.57,-704.86"/>
+<text text-anchor="start" x="638.65" y="-728.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 26&#45;&gt;30 -->
+<g id="edge17" class="edge">
+<title>26-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M926.65,-793.78C926.65,-772.23 926.65,-738.21 926.65,-709.34"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="930.15,-709.67 926.65,-699.67 923.15,-709.67 930.15,-709.67"/>
+<text text-anchor="start" x="926.65" y="-728.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A02 -->
+<g id="node16" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M563.92,-550.87C563.92,-550.87 27.38,-550.87 27.38,-550.87 21.38,-550.87 15.38,-544.87 15.38,-538.87 15.38,-538.87 15.38,-475.59 15.38,-475.59 15.38,-469.59 21.38,-463.59 27.38,-463.59 27.38,-463.59 563.92,-463.59 563.92,-463.59 569.92,-463.59 575.92,-469.59 575.92,-475.59 575.92,-475.59 575.92,-538.87 575.92,-538.87 575.92,-544.87 569.92,-550.87 563.92,-550.87"/>
+<text text-anchor="start" x="29.77" y="-529.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="29.77" y="-501.93" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="29.77" y="-487.93" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation, die &#252;ber Marktlokations-ID identifiziert wurde, nimmt nicht an</text>
+<text text-anchor="start" x="29.77" y="-473.93" font-family="Roboto, sans-serif" font-size="14.00">der Marktkommunikation teil.</text>
+</g>
+<!-- 30&#45;&gt;A02 -->
+<g id="edge18" class="edge">
+<title>30-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M742.02,-611.18C663.34,-593.03 571.46,-571.84 491.58,-553.42"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="492.4,-550.02 481.87,-551.18 490.83,-556.84 492.4,-550.02"/>
+<text text-anchor="start" x="629.65" y="-573.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 50 -->
+<g id="node17" class="node">
+<title>50</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1157.42,-543.87C1157.42,-543.87 605.88,-543.87 605.88,-543.87 599.88,-543.87 593.88,-537.87 593.88,-531.87 593.88,-531.87 593.88,-482.59 593.88,-482.59 593.88,-476.59 599.88,-470.59 605.88,-470.59 605.88,-470.59 1157.42,-470.59 1157.42,-470.59 1163.42,-470.59 1169.42,-476.59 1169.42,-482.59 1169.42,-482.59 1169.42,-531.87 1169.42,-531.87 1169.42,-537.87 1163.42,-543.87 1157.42,-543.87"/>
+<text text-anchor="start" x="608.27" y="-522.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
+<text text-anchor="start" x="637.52" y="-522.93" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich um eine Anmeldung f&#252;r eine Neuanlage?</text>
+<text text-anchor="start" x="608.27" y="-508.93" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Dies sind Marktlokationen, bei denen der NB den Identifikator schon</text>
+<text text-anchor="start" x="608.27" y="-494.93" font-family="Roboto, sans-serif" font-size="14.00">vergeben hat, deren Inbetriebnahme aber noch in der Zukunft liegt. (somit ein</text>
+<text text-anchor="start" x="608.27" y="-480.93" font-family="Roboto, sans-serif" font-size="14.00">Lieferbeginn noch nicht feststeht).</text>
+</g>
+<!-- 30&#45;&gt;50 -->
+<g id="edge19" class="edge">
+<title>30-&gt;50</title>
+<path fill="none" stroke="#88a0d6" d="M913.51,-611.28C908.01,-593.49 901.61,-572.77 895.98,-554.59"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="899.35,-553.61 893.05,-545.09 892.66,-555.68 899.35,-553.61"/>
+<text text-anchor="start" x="904.65" y="-573.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A04 -->
+<g id="node18" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M420.8,-403.34C420.8,-403.34 282.5,-403.34 282.5,-403.34 276.5,-403.34 270.5,-397.34 270.5,-391.34 270.5,-391.34 270.5,-342.06 270.5,-342.06 270.5,-336.06 276.5,-330.06 282.5,-330.06 282.5,-330.06 420.8,-330.06 420.8,-330.06 426.8,-330.06 432.8,-336.06 432.8,-342.06 432.8,-342.06 432.8,-391.34 432.8,-391.34 432.8,-397.34 426.8,-403.34 420.8,-403.34"/>
+<text text-anchor="start" x="284.9" y="-382.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="284.9" y="-354.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="284.9" y="-340.4" font-family="Roboto, sans-serif" font-size="14.00">Falscher Prozess</text>
+</g>
+<!-- 50&#45;&gt;A04 -->
+<g id="edge20" class="edge">
+<title>50-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M671.66,-470.62C597.94,-455.46 515.19,-435.41 441.65,-410.34 438.93,-409.41 436.18,-408.43 433.42,-407.39"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="434.76,-404.15 424.17,-403.74 432.19,-410.67 434.76,-404.15"/>
+<text text-anchor="start" x="559.65" y="-433.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 60 -->
+<g id="node19" class="node">
+<title>60</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M934.3,-403.34C934.3,-403.34 463,-403.34 463,-403.34 457,-403.34 451,-397.34 451,-391.34 451,-391.34 451,-342.06 451,-342.06 451,-336.06 457,-330.06 463,-330.06 463,-330.06 934.3,-330.06 934.3,-330.06 940.3,-330.06 946.3,-336.06 946.3,-342.06 946.3,-342.06 946.3,-391.34 946.3,-391.34 946.3,-397.34 940.3,-403.34 934.3,-403.34"/>
+<text text-anchor="start" x="465.4" y="-382.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">60: </text>
+<text text-anchor="start" x="494.65" y="-382.4" font-family="Roboto, sans-serif" font-size="14.00">Sind alle zwingend notwendigen Anforderungen des LF erf&#252;llt?</text>
+<text text-anchor="start" x="465.4" y="-368.4" font-family="Roboto, sans-serif" font-size="14.00">Hinweis:</text>
+<text text-anchor="start" x="465.4" y="-354.4" font-family="Roboto, sans-serif" font-size="14.00">Insbesondere die notwendige Zuordnungserm&#228;chtigung</text>
+<text text-anchor="start" x="465.4" y="-340.4" font-family="Roboto, sans-serif" font-size="14.00">(Bilanzkreis/Bilanzierungsverfahren) ist vorhanden</text>
+</g>
+<!-- 50&#45;&gt;60 -->
+<g id="edge21" class="edge">
+<title>50-&gt;60</title>
+<path fill="none" stroke="#88a0d6" d="M835,-470.91C810.46,-452.34 780.21,-429.44 754.45,-409.94"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="756.83,-407.35 746.74,-404.11 752.6,-412.93 756.83,-407.35"/>
+<text text-anchor="start" x="800.65" y="-433.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A05 -->
+<g id="node20" class="node">
+<title>A05</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M337.17,-269.81C337.17,-269.81 12.12,-269.81 12.12,-269.81 6.12,-269.81 0.12,-263.81 0.12,-257.81 0.12,-257.81 0.12,-194.53 0.12,-194.53 0.12,-188.53 6.12,-182.53 12.12,-182.53 12.12,-182.53 337.17,-182.53 337.17,-182.53 343.17,-182.53 349.17,-188.53 349.17,-194.53 349.17,-194.53 349.17,-257.81 349.17,-257.81 349.17,-263.81 343.17,-269.81 337.17,-269.81"/>
+<text text-anchor="start" x="14.52" y="-248.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="14.52" y="-220.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="14.52" y="-206.87" font-family="Roboto, sans-serif" font-size="14.00">Anforderungen k&#246;nnen nicht erf&#252;llt werden</text>
+<text text-anchor="start" x="14.52" y="-192.87" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: die Abweichungen sind zu benennen</text>
+</g>
+<!-- 60&#45;&gt;A05 -->
+<g id="edge22" class="edge">
+<title>60-&gt;A05</title>
+<path fill="none" stroke="#88a0d6" d="M564.05,-330.12C497.85,-312.62 417.32,-291.32 346.71,-272.66"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="347.94,-269.36 337.38,-270.19 346.15,-276.13 347.94,-269.36"/>
+<text text-anchor="start" x="467.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 70 -->
+<g id="node21" class="node">
+<title>70</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M926.17,-248.81C926.17,-248.81 379.12,-248.81 379.12,-248.81 373.12,-248.81 367.12,-242.81 367.12,-236.81 367.12,-236.81 367.12,-215.53 367.12,-215.53 367.12,-209.53 373.12,-203.53 379.12,-203.53 379.12,-203.53 926.17,-203.53 926.17,-203.53 932.17,-203.53 938.17,-209.53 938.17,-215.53 938.17,-215.53 938.17,-236.81 938.17,-236.81 938.17,-242.81 932.17,-248.81 926.17,-248.81"/>
+<text text-anchor="start" x="381.52" y="-227.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">70: </text>
+<text text-anchor="start" x="410.77" y="-227.87" font-family="Roboto, sans-serif" font-size="14.00">Liegt f&#252;r diese Marktlokation bereits eine gerade in Arbeit befindliche und</text>
+<text text-anchor="start" x="381.52" y="-213.87" font-family="Roboto, sans-serif" font-size="14.00">noch nicht beantwortete Anmeldung vor?</text>
+</g>
+<!-- 60&#45;&gt;70 -->
+<g id="edge23" class="edge">
+<title>60-&gt;70</title>
+<path fill="none" stroke="#88a0d6" d="M686.92,-330.38C679.66,-308.5 670.4,-280.62 663.34,-259.35"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="666.72,-258.42 660.24,-250.03 660.07,-260.63 666.72,-258.42"/>
+<text text-anchor="start" x="677.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A06 -->
+<g id="node22" class="node">
+<title>A06</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M946.8,-129.28C946.8,-129.28 358.5,-129.28 358.5,-129.28 352.5,-129.28 346.5,-123.28 346.5,-117.28 346.5,-117.28 346.5,-12 346.5,-12 346.5,-6 352.5,0 358.5,0 358.5,0 946.8,0 946.8,0 952.8,0 958.8,-6 958.8,-12 958.8,-12 958.8,-117.28 958.8,-117.28 958.8,-123.28 952.8,-129.28 946.8,-129.28"/>
+<text text-anchor="start" x="360.9" y="-108.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="360.9" y="-80.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="360.9" y="-66.34" font-family="Roboto, sans-serif" font-size="14.00">Andere Anmeldung in Bearbeitung.</text>
+<text text-anchor="start" x="360.9" y="-52.34" font-family="Roboto, sans-serif" font-size="14.00">Hinweis:</text>
+<text text-anchor="start" x="360.9" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Der Zuordnungsbeginn der derzeit in Bearbeitung befindlichen Anmeldung und der</text>
+<text text-anchor="start" x="360.9" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Zeitpunkt, ab welchem der NB wieder Anmeldungen f&#252;r diese Marktlokation</text>
+<text text-anchor="start" x="360.9" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">entgegennimmt werden &#252;bermittelt.</text>
+</g>
+<!-- 70&#45;&gt;A06 -->
+<g id="edge24" class="edge">
+<title>70-&gt;A06</title>
+<path fill="none" stroke="#88a0d6" d="M652.65,-203.66C652.65,-187.21 652.65,-163.5 652.65,-140.36"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="656.15,-140.6 652.65,-130.6 649.15,-140.6 656.15,-140.6"/>
+<text text-anchor="start" x="652.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich -->
+<g id="node23" class="node">
+<title>EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2889.05,-82.64C2889.05,-82.64 2350.25,-82.64 2350.25,-82.64 2344.25,-82.64 2338.25,-76.64 2338.25,-70.64 2338.25,-70.64 2338.25,-58.64 2338.25,-58.64 2338.25,-52.64 2344.25,-46.64 2350.25,-46.64 2350.25,-46.64 2889.05,-46.64 2889.05,-46.64 2895.05,-46.64 2901.05,-52.64 2901.05,-58.64 2901.05,-58.64 2901.05,-70.64 2901.05,-70.64 2901.05,-76.64 2895.05,-82.64 2889.05,-82.64"/>
+<text text-anchor="start" x="2352.65" y="-59.97" font-family="Roboto, sans-serif" font-size="14.00">EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</text>
+</g>
+<!-- 70&#45;&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich -->
+<g id="edge25" class="edge">
+<title>70-&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</title>
+<path fill="none" stroke="#88a0d6" d="M710.41,-203.53C764.22,-184.56 847.11,-158.34 921.65,-147.28 1231.18,-101.35 2018.78,-165 2329.65,-129.28 2405.3,-120.59 2490.21,-100.73 2548.5,-85.5"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2549.19,-88.93 2557.97,-83 2547.41,-82.17 2549.19,-88.93"/>
+<text text-anchor="start" x="921.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A21 -->
+<g id="node25" class="node">
+<title>A21</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1808.8,-1464.05C1808.8,-1464.05 1670.5,-1464.05 1670.5,-1464.05 1664.5,-1464.05 1658.5,-1458.05 1658.5,-1452.05 1658.5,-1452.05 1658.5,-1402.77 1658.5,-1402.77 1658.5,-1396.77 1664.5,-1390.77 1670.5,-1390.77 1670.5,-1390.77 1808.8,-1390.77 1808.8,-1390.77 1814.8,-1390.77 1820.8,-1396.77 1820.8,-1402.77 1820.8,-1402.77 1820.8,-1452.05 1820.8,-1452.05 1820.8,-1458.05 1814.8,-1464.05 1808.8,-1464.05"/>
+<text text-anchor="start" x="1672.9" y="-1443.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A21</text>
+<text text-anchor="start" x="1672.9" y="-1415.11" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="1672.9" y="-1401.11" font-family="Roboto, sans-serif" font-size="14.00">Falscher Prozess</text>
+</g>
+<!-- 220&#45;&gt;A21 -->
+<g id="edge26" class="edge">
+<title>220-&gt;A21</title>
+<path fill="none" stroke="#88a0d6" d="M1765.43,-1517.59C1761.59,-1504.31 1757.17,-1489.01 1753.08,-1474.88"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1756.46,-1473.94 1750.32,-1465.3 1749.73,-1475.88 1756.46,-1473.94"/>
+<text text-anchor="start" x="1759.65" y="-1487" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 250 -->
+<g id="node26" class="node">
+<title>250</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2290.93,-1450.05C2290.93,-1450.05 1850.38,-1450.05 1850.38,-1450.05 1844.38,-1450.05 1838.38,-1444.05 1838.38,-1438.05 1838.38,-1438.05 1838.38,-1416.77 1838.38,-1416.77 1838.38,-1410.77 1844.38,-1404.77 1850.38,-1404.77 1850.38,-1404.77 2290.93,-1404.77 2290.93,-1404.77 2296.93,-1404.77 2302.93,-1410.77 2302.93,-1416.77 2302.93,-1416.77 2302.93,-1438.05 2302.93,-1438.05 2302.93,-1444.05 2296.93,-1450.05 2290.93,-1450.05"/>
+<text text-anchor="start" x="1852.78" y="-1429.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">250: </text>
+<text text-anchor="start" x="1891.78" y="-1429.11" font-family="Roboto, sans-serif" font-size="14.00">Erfolgt die Bilanzierung auf Basis von Werten?</text>
+<text text-anchor="start" x="1852.78" y="-1415.11" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: In viertelst&#252;ndlicher Aufl&#246;sung (verpflichtend lt. EEG)</text>
+</g>
+<!-- 220&#45;&gt;250 -->
+<g id="edge27" class="edge">
+<title>220-&gt;250</title>
+<path fill="none" stroke="#88a0d6" d="M1859.79,-1517.42C1907.46,-1497.3 1966.03,-1472.57 2009.34,-1454.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2010.48,-1457.61 2018.33,-1450.5 2007.75,-1451.16 2010.48,-1457.61"/>
+<text text-anchor="start" x="1940.65" y="-1487" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A24 -->
+<g id="node27" class="node">
+<title>A24</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2175.55,-1330.52C2175.55,-1330.52 1837.75,-1330.52 1837.75,-1330.52 1831.75,-1330.52 1825.75,-1324.52 1825.75,-1318.52 1825.75,-1318.52 1825.75,-1269.24 1825.75,-1269.24 1825.75,-1263.24 1831.75,-1257.24 1837.75,-1257.24 1837.75,-1257.24 2175.55,-1257.24 2175.55,-1257.24 2181.55,-1257.24 2187.55,-1263.24 2187.55,-1269.24 2187.55,-1269.24 2187.55,-1318.52 2187.55,-1318.52 2187.55,-1324.52 2181.55,-1330.52 2175.55,-1330.52"/>
+<text text-anchor="start" x="1840.15" y="-1309.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A24</text>
+<text text-anchor="start" x="1840.15" y="-1281.58" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="1840.15" y="-1267.58" font-family="Roboto, sans-serif" font-size="14.00">Bilanzierung erfolgt nicht auf Basis von Werten.</text>
+</g>
+<!-- 250&#45;&gt;A24 -->
+<g id="edge28" class="edge">
+<title>250-&gt;A24</title>
+<path fill="none" stroke="#88a0d6" d="M2048.06,-1404.95C2039.58,-1395.78 2030.57,-1384.49 2024.65,-1372.77 2019.72,-1363.03 2016.13,-1351.91 2013.51,-1341.2"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2016.99,-1340.74 2011.44,-1331.72 2010.15,-1342.24 2016.99,-1340.74"/>
+<text text-anchor="start" x="2024.65" y="-1360.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 260 -->
+<g id="node28" class="node">
+<title>260</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2698.18,-1323.52C2698.18,-1323.52 2217.12,-1323.52 2217.12,-1323.52 2211.12,-1323.52 2205.12,-1317.52 2205.12,-1311.52 2205.12,-1311.52 2205.12,-1276.24 2205.12,-1276.24 2205.12,-1270.24 2211.12,-1264.24 2217.12,-1264.24 2217.12,-1264.24 2698.18,-1264.24 2698.18,-1264.24 2704.18,-1264.24 2710.18,-1270.24 2710.18,-1276.24 2710.18,-1276.24 2710.18,-1311.52 2710.18,-1311.52 2710.18,-1317.52 2704.18,-1323.52 2698.18,-1323.52"/>
+<text text-anchor="start" x="2219.53" y="-1302.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">260: </text>
+<text text-anchor="start" x="2258.53" y="-1302.58" font-family="Roboto, sans-serif" font-size="14.00">Sind alle zwingend notwendigen Anforderungen des LF erf&#252;llt?</text>
+<text text-anchor="start" x="2219.53" y="-1288.58" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Insbesondere die notwendige Zuordnungserm&#228;chtigung</text>
+<text text-anchor="start" x="2219.53" y="-1274.58" font-family="Roboto, sans-serif" font-size="14.00">(Bilanzkreis/Bilanzierungsverfahren) ist vorhanden</text>
+</g>
+<!-- 250&#45;&gt;260 -->
+<g id="edge29" class="edge">
+<title>250-&gt;260</title>
+<path fill="none" stroke="#88a0d6" d="M2134.12,-1404.84C2196.23,-1383.73 2291.6,-1351.32 2362.73,-1327.14"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2363.7,-1330.51 2372.05,-1323.97 2361.45,-1323.88 2363.7,-1330.51"/>
+<text text-anchor="start" x="2275.65" y="-1360.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A25 -->
+<g id="node29" class="node">
+<title>A25</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2580.18,-1196.99C2580.18,-1196.99 2255.12,-1196.99 2255.12,-1196.99 2249.12,-1196.99 2243.12,-1190.99 2243.12,-1184.99 2243.12,-1184.99 2243.12,-1121.71 2243.12,-1121.71 2243.12,-1115.71 2249.12,-1109.71 2255.12,-1109.71 2255.12,-1109.71 2580.18,-1109.71 2580.18,-1109.71 2586.18,-1109.71 2592.18,-1115.71 2592.18,-1121.71 2592.18,-1121.71 2592.18,-1184.99 2592.18,-1184.99 2592.18,-1190.99 2586.18,-1196.99 2580.18,-1196.99"/>
+<text text-anchor="start" x="2257.53" y="-1176.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A25</text>
+<text text-anchor="start" x="2257.53" y="-1148.05" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="2257.53" y="-1134.05" font-family="Roboto, sans-serif" font-size="14.00">Anforderungen k&#246;nnen nicht erf&#252;llt werden</text>
+<text text-anchor="start" x="2257.53" y="-1120.05" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: die Abweichungen sind zu benennen</text>
+</g>
+<!-- 260&#45;&gt;A25 -->
+<g id="edge30" class="edge">
+<title>260-&gt;A25</title>
+<path fill="none" stroke="#88a0d6" d="M2440.47,-1264.46C2435.23,-1254.58 2429.97,-1243.22 2426.65,-1232.24 2424.35,-1224.62 2422.62,-1216.43 2421.34,-1208.31"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2424.82,-1207.89 2420,-1198.45 2417.88,-1208.83 2424.82,-1207.89"/>
+<text text-anchor="start" x="2426.65" y="-1219.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 270 -->
+<g id="node30" class="node">
+<title>270</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3179.05,-1175.99C3179.05,-1175.99 2622.25,-1175.99 2622.25,-1175.99 2616.25,-1175.99 2610.25,-1169.99 2610.25,-1163.99 2610.25,-1163.99 2610.25,-1142.71 2610.25,-1142.71 2610.25,-1136.71 2616.25,-1130.71 2622.25,-1130.71 2622.25,-1130.71 3179.05,-1130.71 3179.05,-1130.71 3185.05,-1130.71 3191.05,-1136.71 3191.05,-1142.71 3191.05,-1142.71 3191.05,-1163.99 3191.05,-1163.99 3191.05,-1169.99 3185.05,-1175.99 3179.05,-1175.99"/>
+<text text-anchor="start" x="2624.65" y="-1155.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">270: </text>
+<text text-anchor="start" x="2663.65" y="-1155.05" font-family="Roboto, sans-serif" font-size="14.00">Liegt f&#252;r diese Marktlokation bereits eine gerade in Arbeit befindliche und</text>
+<text text-anchor="start" x="2624.65" y="-1141.05" font-family="Roboto, sans-serif" font-size="14.00">noch nicht beantwortete Anmeldung vor?</text>
+</g>
+<!-- 260&#45;&gt;270 -->
+<g id="edge31" class="edge">
+<title>260-&gt;270</title>
+<path fill="none" stroke="#88a0d6" d="M2549.17,-1264.26C2629.22,-1239.23 2744.33,-1203.23 2820.73,-1179.34"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2821.77,-1182.68 2830.27,-1176.36 2819.68,-1176 2821.77,-1182.68"/>
+<text text-anchor="start" x="2705.65" y="-1219.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A45 -->
+<g id="node31" class="node">
+<title>A45</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M3171.8,-1056.46C3171.8,-1056.46 2583.5,-1056.46 2583.5,-1056.46 2577.5,-1056.46 2571.5,-1050.46 2571.5,-1044.46 2571.5,-1044.46 2571.5,-939.18 2571.5,-939.18 2571.5,-933.18 2577.5,-927.18 2583.5,-927.18 2583.5,-927.18 3171.8,-927.18 3171.8,-927.18 3177.8,-927.18 3183.8,-933.18 3183.8,-939.18 3183.8,-939.18 3183.8,-1044.46 3183.8,-1044.46 3183.8,-1050.46 3177.8,-1056.46 3171.8,-1056.46"/>
+<text text-anchor="start" x="2585.9" y="-1035.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A45</text>
+<text text-anchor="start" x="2585.9" y="-1007.52" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="2585.9" y="-993.52" font-family="Roboto, sans-serif" font-size="14.00">Andere Anmeldung in Bearbeitung.</text>
+<text text-anchor="start" x="2585.9" y="-979.52" font-family="Roboto, sans-serif" font-size="14.00">Hinweis:</text>
+<text text-anchor="start" x="2585.9" y="-965.52" font-family="Roboto, sans-serif" font-size="14.00">Der Zuordnungsbeginn der derzeit in Bearbeitung befindlichen Anmeldung und der</text>
+<text text-anchor="start" x="2585.9" y="-951.52" font-family="Roboto, sans-serif" font-size="14.00">Zeitpunkt, ab welchem der NB wieder Anmeldungen f&#252;r diese Marktlokation</text>
+<text text-anchor="start" x="2585.9" y="-937.52" font-family="Roboto, sans-serif" font-size="14.00">entgegennimmt.</text>
+</g>
+<!-- 270&#45;&gt;A45 -->
+<g id="edge32" class="edge">
+<title>270-&gt;A45</title>
+<path fill="none" stroke="#88a0d6" d="M2894.08,-1130.94C2890.8,-1119.42 2887.08,-1104.91 2884.9,-1091.71 2883.62,-1083.98 2882.57,-1075.86 2881.7,-1067.75"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2885.19,-1067.45 2880.74,-1057.83 2878.22,-1068.12 2885.19,-1067.45"/>
+<text text-anchor="start" x="2884.65" y="-1079.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 300 -->
+<g id="node32" class="node">
+<title>300</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3527.93,-1009.82C3527.93,-1009.82 3213.38,-1009.82 3213.38,-1009.82 3207.38,-1009.82 3201.38,-1003.82 3201.38,-997.82 3201.38,-997.82 3201.38,-985.82 3201.38,-985.82 3201.38,-979.82 3207.38,-973.82 3213.38,-973.82 3213.38,-973.82 3527.93,-973.82 3527.93,-973.82 3533.93,-973.82 3539.93,-979.82 3539.93,-985.82 3539.93,-985.82 3539.93,-997.82 3539.93,-997.82 3539.93,-1003.82 3533.93,-1009.82 3527.93,-1009.82"/>
+<text text-anchor="start" x="3215.78" y="-988.14" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">300: </text>
+<text text-anchor="start" x="3254.78" y="-988.14" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich um Gesch&#228;ftsvorfall 1?</text>
+</g>
+<!-- 270&#45;&gt;300 -->
+<g id="edge33" class="edge">
+<title>270-&gt;300</title>
+<path fill="none" stroke="#88a0d6" d="M2968.08,-1130.76C3027.37,-1111.64 3115.93,-1082.77 3192.65,-1056.46 3233.3,-1042.52 3278.94,-1026.19 3313.83,-1013.56"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3314.66,-1016.98 3322.87,-1010.28 3312.28,-1010.4 3314.66,-1016.98"/>
+<text text-anchor="start" x="3136.65" y="-1079.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 310 -->
+<g id="node33" class="node">
+<title>310</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3092.93,-834.29C3092.93,-834.29 2778.38,-834.29 2778.38,-834.29 2772.38,-834.29 2766.38,-828.29 2766.38,-822.29 2766.38,-822.29 2766.38,-810.29 2766.38,-810.29 2766.38,-804.29 2772.38,-798.29 2778.38,-798.29 2778.38,-798.29 3092.93,-798.29 3092.93,-798.29 3098.93,-798.29 3104.93,-804.29 3104.93,-810.29 3104.93,-810.29 3104.93,-822.29 3104.93,-822.29 3104.93,-828.29 3098.93,-834.29 3092.93,-834.29"/>
+<text text-anchor="start" x="2780.78" y="-812.62" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">310: </text>
+<text text-anchor="start" x="2819.78" y="-812.62" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich um Gesch&#228;ftsvorfall 2?</text>
+</g>
+<!-- 300&#45;&gt;310 -->
+<g id="edge35" class="edge">
+<title>300-&gt;310</title>
+<path fill="none" stroke="#88a0d6" d="M3328.15,-973.87C3248.21,-941.98 3075.7,-873.16 2988.46,-838.36"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2989.99,-835.2 2979.41,-834.75 2987.4,-841.7 2989.99,-835.2"/>
+<text text-anchor="start" x="3152.65" y="-896.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 400 -->
+<g id="node34" class="node">
+<title>400</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3989.8,-838.93C3989.8,-838.93 3365.5,-838.93 3365.5,-838.93 3359.5,-838.93 3353.5,-832.93 3353.5,-826.93 3353.5,-826.93 3353.5,-805.65 3353.5,-805.65 3353.5,-799.65 3359.5,-793.65 3365.5,-793.65 3365.5,-793.65 3989.8,-793.65 3989.8,-793.65 3995.8,-793.65 4001.8,-799.65 4001.8,-805.65 4001.8,-805.65 4001.8,-826.93 4001.8,-826.93 4001.8,-832.93 3995.8,-838.93 3989.8,-838.93"/>
+<text text-anchor="start" x="3367.9" y="-817.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">400: </text>
+<text text-anchor="start" x="3406.9" y="-817.99" font-family="Roboto, sans-serif" font-size="14.00">Ver&#228;ndert sich die im Gesch&#228;ftsvorfall angegebene Ver&#228;u&#223;erungsform zum Tag des</text>
+<text text-anchor="start" x="3367.9" y="-803.99" font-family="Roboto, sans-serif" font-size="14.00">gew&#252;nschten Zuordnungsbeginns (Ver&#228;u&#223;erungsformwechsel)?</text>
+</g>
+<!-- 300&#45;&gt;400 -->
+<g id="edge34" class="edge">
+<title>300-&gt;400</title>
+<path fill="none" stroke="#88a0d6" d="M3400.65,-973.87C3453.92,-943.75 3565.47,-880.7 3629.57,-844.47"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3631.13,-847.6 3638.11,-839.64 3627.69,-841.51 3631.13,-847.6"/>
+<text text-anchor="start" x="3541.65" y="-896.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 600 -->
+<g id="node45" class="node">
+<title>600</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2578.8,-677.4C2578.8,-677.4 1954.5,-677.4 1954.5,-677.4 1948.5,-677.4 1942.5,-671.4 1942.5,-665.4 1942.5,-665.4 1942.5,-644.12 1942.5,-644.12 1942.5,-638.12 1948.5,-632.12 1954.5,-632.12 1954.5,-632.12 2578.8,-632.12 2578.8,-632.12 2584.8,-632.12 2590.8,-638.12 2590.8,-644.12 2590.8,-644.12 2590.8,-665.4 2590.8,-665.4 2590.8,-671.4 2584.8,-677.4 2578.8,-677.4"/>
+<text text-anchor="start" x="1956.9" y="-656.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">600: </text>
+<text text-anchor="start" x="1995.9" y="-656.46" font-family="Roboto, sans-serif" font-size="14.00">Ver&#228;ndert sich die im Gesch&#228;ftsvorfall angegebene Ver&#228;u&#223;erungsform zum Tag des</text>
+<text text-anchor="start" x="1956.9" y="-642.46" font-family="Roboto, sans-serif" font-size="14.00">gew&#252;nschten Zuordnungsbeginns (Ver&#228;u&#223;erungsformwechsel)?</text>
+</g>
+<!-- 310&#45;&gt;600 -->
+<g id="edge36" class="edge">
+<title>310-&gt;600</title>
+<path fill="none" stroke="#88a0d6" d="M2864.37,-798.29C2745.13,-769.86 2504.86,-712.56 2368.05,-679.94"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2369.18,-676.61 2358.64,-677.7 2367.55,-683.42 2369.18,-676.61"/>
+<text text-anchor="start" x="2620.65" y="-728.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 800 -->
+<g id="node53" class="node">
+<title>800</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3247.05,-672.76C3247.05,-672.76 2624.25,-672.76 2624.25,-672.76 2618.25,-672.76 2612.25,-666.76 2612.25,-660.76 2612.25,-660.76 2612.25,-648.76 2612.25,-648.76 2612.25,-642.76 2618.25,-636.76 2624.25,-636.76 2624.25,-636.76 3247.05,-636.76 3247.05,-636.76 3253.05,-636.76 3259.05,-642.76 3259.05,-648.76 3259.05,-648.76 3259.05,-660.76 3259.05,-660.76 3259.05,-666.76 3253.05,-672.76 3247.05,-672.76"/>
+<text text-anchor="start" x="2626.65" y="-651.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">800: </text>
+<text text-anchor="start" x="2665.65" y="-651.09" font-family="Roboto, sans-serif" font-size="14.00">Ist das angegebene Datum &#8222;Lieferbeginn&#8220; der 1. eines Kalendermonats 00:00 Uhr?</text>
+</g>
+<!-- 310&#45;&gt;800 -->
+<g id="edge37" class="edge">
+<title>310-&gt;800</title>
+<path fill="none" stroke="#88a0d6" d="M2935.65,-798.52C2935.65,-771.16 2935.65,-716.65 2935.65,-683.48"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2939.15,-683.82 2935.65,-673.82 2932.15,-683.82 2939.15,-683.82"/>
+<text text-anchor="start" x="2935.65" y="-728.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 405 -->
+<g id="node35" class="node">
+<title>405</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3911.8,-672.76C3911.8,-672.76 3443.5,-672.76 3443.5,-672.76 3437.5,-672.76 3431.5,-666.76 3431.5,-660.76 3431.5,-660.76 3431.5,-648.76 3431.5,-648.76 3431.5,-642.76 3437.5,-636.76 3443.5,-636.76 3443.5,-636.76 3911.8,-636.76 3911.8,-636.76 3917.8,-636.76 3923.8,-642.76 3923.8,-648.76 3923.8,-648.76 3923.8,-660.76 3923.8,-660.76 3923.8,-666.76 3917.8,-672.76 3911.8,-672.76"/>
+<text text-anchor="start" x="3445.9" y="-651.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">405: </text>
+<text text-anchor="start" x="3484.9" y="-651.09" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich um eine &#8222;Nicht-EEG-/- KWKG&#8220;-Marktlokation?</text>
+</g>
+<!-- 400&#45;&gt;405 -->
+<g id="edge39" class="edge">
+<title>400-&gt;405</title>
+<path fill="none" stroke="#88a0d6" d="M3677.65,-793.78C3677.65,-765.39 3677.65,-715.38 3677.65,-683.99"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3681.15,-684.08 3677.65,-674.08 3674.15,-684.08 3681.15,-684.08"/>
+<text text-anchor="start" x="3677.65" y="-728.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 410 -->
+<g id="node38" class="node">
+<title>410</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M4465.3,-525.23C4465.3,-525.23 3838,-525.23 3838,-525.23 3832,-525.23 3826,-519.23 3826,-513.23 3826,-513.23 3826,-501.23 3826,-501.23 3826,-495.23 3832,-489.23 3838,-489.23 3838,-489.23 4465.3,-489.23 4465.3,-489.23 4471.3,-489.23 4477.3,-495.23 4477.3,-501.23 4477.3,-501.23 4477.3,-513.23 4477.3,-513.23 4477.3,-519.23 4471.3,-525.23 4465.3,-525.23"/>
+<text text-anchor="start" x="3840.4" y="-503.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">410: </text>
+<text text-anchor="start" x="3879.4" y="-503.56" font-family="Roboto, sans-serif" font-size="14.00">Ist das angegebene Datum &#8222;Lieferbeginn&#8220; der 1. eines Kalendermonats, 00:00 Uhr?</text>
+</g>
+<!-- 400&#45;&gt;410 -->
+<g id="edge38" class="edge">
+<title>400-&gt;410</title>
+<path fill="none" stroke="#88a0d6" d="M3743.44,-793.67C3796.74,-774.61 3872.58,-743.9 3932.65,-705.4 4012.51,-654.22 4091.56,-573.76 4129.09,-533.27"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="4131.45,-535.88 4135.64,-526.15 4126.29,-531.14 4131.45,-535.88"/>
+<text text-anchor="start" x="4056.65" y="-651.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 406 -->
+<g id="node36" class="node">
+<title>406</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3796.05,-529.87C3796.05,-529.87 3245.25,-529.87 3245.25,-529.87 3239.25,-529.87 3233.25,-523.87 3233.25,-517.87 3233.25,-517.87 3233.25,-496.59 3233.25,-496.59 3233.25,-490.59 3239.25,-484.59 3245.25,-484.59 3245.25,-484.59 3796.05,-484.59 3796.05,-484.59 3802.05,-484.59 3808.05,-490.59 3808.05,-496.59 3808.05,-496.59 3808.05,-517.87 3808.05,-517.87 3808.05,-523.87 3802.05,-529.87 3796.05,-529.87"/>
+<text text-anchor="start" x="3247.65" y="-508.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">406: </text>
+<text text-anchor="start" x="3286.65" y="-508.93" font-family="Roboto, sans-serif" font-size="14.00">Ist der &#220;bertragungstag sp&#228;testens der Tag vor dem letzten WT vor dem</text>
+<text text-anchor="start" x="3247.65" y="-494.93" font-family="Roboto, sans-serif" font-size="14.00">Zuordnungsbeginn?</text>
+</g>
+<!-- 405&#45;&gt;406 -->
+<g id="edge40" class="edge">
+<title>405-&gt;406</title>
+<path fill="none" stroke="#88a0d6" d="M3659.33,-636.78C3633.05,-612.42 3584.26,-567.2 3552.13,-537.41"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3554.76,-535.08 3545.05,-530.85 3550,-540.21 3554.76,-535.08"/>
+<text text-anchor="start" x="3603.65" y="-573.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 405&#45;&gt;410 -->
+<g id="edge41" class="edge">
+<title>405-&gt;410</title>
+<path fill="none" stroke="#88a0d6" d="M3732.95,-636.78C3820.69,-609.84 3991.46,-557.41 4085.53,-528.53"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="4086.36,-531.94 4094.89,-525.66 4084.3,-525.25 4086.36,-531.94"/>
+<text text-anchor="start" x="3942.65" y="-573.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 406&#45;&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich -->
+<g id="edge42" class="edge">
+<title>406-&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</title>
+<path fill="none" stroke="#88a0d6" d="M3500.72,-484.71C3468.75,-447.57 3413.67,-370.84 3455.65,-323.06 3576.93,-185.01 3744.37,-407.86 3865.65,-269.81 3891.25,-240.67 3891.72,-211.25 3865.65,-182.53 3811.18,-122.52 3583.53,-152.43 3502.65,-147.28 3239.51,-130.53 3171.33,-161.68 2909.65,-129.28 2834.56,-119.98 2750.24,-100.42 2691.95,-85.43"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2693.04,-82.09 2682.49,-82.97 2691.29,-88.87 2693.04,-82.09"/>
+<text text-anchor="start" x="3845.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A34 -->
+<g id="node37" class="node">
+<title>A34</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M3988.18,-410.34C3988.18,-410.34 3477.12,-410.34 3477.12,-410.34 3471.12,-410.34 3465.12,-404.34 3465.12,-398.34 3465.12,-398.34 3465.12,-335.06 3465.12,-335.06 3465.12,-329.06 3471.12,-323.06 3477.12,-323.06 3477.12,-323.06 3988.18,-323.06 3988.18,-323.06 3994.18,-323.06 4000.18,-329.06 4000.18,-335.06 4000.18,-335.06 4000.18,-398.34 4000.18,-398.34 4000.18,-404.34 3994.18,-410.34 3988.18,-410.34"/>
+<text text-anchor="start" x="3479.53" y="-389.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A34</text>
+<text text-anchor="start" x="3479.53" y="-361.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="3479.53" y="-347.4" font-family="Roboto, sans-serif" font-size="14.00">Die Vorlauffrist f&#252;r eine &#8222;Nicht-EEG-/ - KWKG&#8220;- Marktlokation wurde nicht</text>
+<text text-anchor="start" x="3479.53" y="-333.4" font-family="Roboto, sans-serif" font-size="14.00">eingehalten.</text>
+</g>
+<!-- 406&#45;&gt;A34 -->
+<g id="edge43" class="edge">
+<title>406-&gt;A34</title>
+<path fill="none" stroke="#88a0d6" d="M3553.31,-484.89C3581.14,-466.7 3622.19,-439.88 3658,-416.48"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3659.74,-419.52 3666.2,-411.12 3655.91,-413.66 3659.74,-419.52"/>
+<text text-anchor="start" x="3638.65" y="-433.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A27 -->
+<g id="node39" class="node">
+<title>A27</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M4263.05,-403.34C4263.05,-403.34 4030.25,-403.34 4030.25,-403.34 4024.25,-403.34 4018.25,-397.34 4018.25,-391.34 4018.25,-391.34 4018.25,-342.06 4018.25,-342.06 4018.25,-336.06 4024.25,-330.06 4030.25,-330.06 4030.25,-330.06 4263.05,-330.06 4263.05,-330.06 4269.05,-330.06 4275.05,-336.06 4275.05,-342.06 4275.05,-342.06 4275.05,-391.34 4275.05,-391.34 4275.05,-397.34 4269.05,-403.34 4263.05,-403.34"/>
+<text text-anchor="start" x="4032.65" y="-382.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A27</text>
+<text text-anchor="start" x="4032.65" y="-354.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="4032.65" y="-340.4" font-family="Roboto, sans-serif" font-size="14.00">Vorgaben EEG nicht eingehalten.</text>
+</g>
+<!-- 410&#45;&gt;A27 -->
+<g id="edge45" class="edge">
+<title>410-&gt;A27</title>
+<path fill="none" stroke="#88a0d6" d="M4151.04,-489.24C4150.37,-470.76 4149.27,-440.4 4148.34,-414.65"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="4151.84,-414.59 4147.99,-404.72 4144.85,-414.84 4151.84,-414.59"/>
+<text text-anchor="start" x="4148.65" y="-433.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 420 -->
+<g id="node40" class="node">
+<title>420</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M4708.55,-389.34C4708.55,-389.34 4304.75,-389.34 4304.75,-389.34 4298.75,-389.34 4292.75,-383.34 4292.75,-377.34 4292.75,-377.34 4292.75,-356.06 4292.75,-356.06 4292.75,-350.06 4298.75,-344.06 4304.75,-344.06 4304.75,-344.06 4708.55,-344.06 4708.55,-344.06 4714.55,-344.06 4720.55,-350.06 4720.55,-356.06 4720.55,-356.06 4720.55,-377.34 4720.55,-377.34 4720.55,-383.34 4714.55,-389.34 4708.55,-389.34"/>
+<text text-anchor="start" x="4307.15" y="-368.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">420: </text>
+<text text-anchor="start" x="4346.15" y="-368.4" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich um einen verk&#252;rzten Wechsel?</text>
+<text text-anchor="start" x="4307.15" y="-354.4" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Vorgabe nach EEG: 5 WT vor Zuordnungsbeginn</text>
+</g>
+<!-- 410&#45;&gt;420 -->
+<g id="edge44" class="edge">
+<title>410-&gt;420</title>
+<path fill="none" stroke="#88a0d6" d="M4195.18,-489.24C4256.55,-465.29 4369.01,-421.41 4440.69,-393.44"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="4441.93,-396.71 4449.98,-389.81 4439.39,-390.19 4441.93,-396.71"/>
+<text text-anchor="start" x="4349.65" y="-433.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 430 -->
+<g id="node41" class="node">
+<title>430</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M4310.17,-244.17C4310.17,-244.17 3925.12,-244.17 3925.12,-244.17 3919.12,-244.17 3913.12,-238.17 3913.12,-232.17 3913.12,-232.17 3913.12,-220.17 3913.12,-220.17 3913.12,-214.17 3919.12,-208.17 3925.12,-208.17 3925.12,-208.17 4310.17,-208.17 4310.17,-208.17 4316.17,-208.17 4322.17,-214.17 4322.17,-220.17 4322.17,-220.17 4322.17,-232.17 4322.17,-232.17 4322.17,-238.17 4316.17,-244.17 4310.17,-244.17"/>
+<text text-anchor="start" x="3927.52" y="-222.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">430: </text>
+<text text-anchor="start" x="3966.52" y="-222.5" font-family="Roboto, sans-serif" font-size="14.00">Ist die Vorlauffrist von einem Monat eingehalten?</text>
+</g>
+<!-- 420&#45;&gt;430 -->
+<g id="edge47" class="edge">
+<title>420-&gt;430</title>
+<path fill="none" stroke="#88a0d6" d="M4446.3,-344.21C4372.61,-317.97 4248.85,-273.89 4176.06,-247.97"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="4177.29,-244.69 4166.69,-244.64 4174.94,-251.29 4177.29,-244.69"/>
+<text text-anchor="start" x="4334.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 440 -->
+<g id="node43" class="node">
+<title>440</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M4708.92,-248.81C4708.92,-248.81 4352.38,-248.81 4352.38,-248.81 4346.38,-248.81 4340.38,-242.81 4340.38,-236.81 4340.38,-236.81 4340.38,-215.53 4340.38,-215.53 4340.38,-209.53 4346.38,-203.53 4352.38,-203.53 4352.38,-203.53 4708.92,-203.53 4708.92,-203.53 4714.92,-203.53 4720.92,-209.53 4720.92,-215.53 4720.92,-215.53 4720.92,-236.81 4720.92,-236.81 4720.92,-242.81 4714.92,-248.81 4708.92,-248.81"/>
+<text text-anchor="start" x="4354.77" y="-227.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">440: </text>
+<text text-anchor="start" x="4393.77" y="-227.87" font-family="Roboto, sans-serif" font-size="14.00">Ist die Vorlauffrist eingehalten?</text>
+<text text-anchor="start" x="4354.77" y="-213.87" font-family="Roboto, sans-serif" font-size="14.00">(Eingang sp&#228;testens 5 WT vor Zuordnungsbeginn)</text>
+</g>
+<!-- 420&#45;&gt;440 -->
+<g id="edge46" class="edge">
+<title>420-&gt;440</title>
+<path fill="none" stroke="#88a0d6" d="M4510.35,-344.36C4514.25,-321.85 4520.44,-286.1 4524.96,-260"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="4528.39,-260.71 4526.65,-250.26 4521.49,-259.51 4528.39,-260.71"/>
+<text text-anchor="start" x="4519.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 430&#45;&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich -->
+<g id="edge48" class="edge">
+<title>430-&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</title>
+<path fill="none" stroke="#88a0d6" d="M4074.68,-208.25C4020.61,-187.29 3930.62,-153.57 3895.65,-147.28 3679.96,-108.51 3127.3,-154.89 2909.65,-129.28 2834.14,-120.39 2749.38,-100.62 2691.09,-85.46"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2692.18,-82.13 2681.62,-82.97 2690.4,-88.9 2692.18,-82.13"/>
+<text text-anchor="start" x="3954.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A28 -->
+<g id="node42" class="node">
+<title>A28</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M4107.18,-108.28C4107.18,-108.28 3566.12,-108.28 3566.12,-108.28 3560.12,-108.28 3554.12,-102.28 3554.12,-96.28 3554.12,-96.28 3554.12,-33 3554.12,-33 3554.12,-27 3560.12,-21 3566.12,-21 3566.12,-21 4107.18,-21 4107.18,-21 4113.18,-21 4119.18,-27 4119.18,-33 4119.18,-33 4119.18,-96.28 4119.18,-96.28 4119.18,-102.28 4113.18,-108.28 4107.18,-108.28"/>
+<text text-anchor="start" x="3568.53" y="-87.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A28</text>
+<text text-anchor="start" x="3568.53" y="-59.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="3568.53" y="-45.34" font-family="Roboto, sans-serif" font-size="14.00">Die Vorlauffrist f&#252;r EEG-/KWKG-Marktlokationen im Gesch&#228;ftsvorfall 1 wurden</text>
+<text text-anchor="start" x="3568.53" y="-31.34" font-family="Roboto, sans-serif" font-size="14.00">nicht eingehalten (Frist&#252;berschreitung).</text>
+</g>
+<!-- 430&#45;&gt;A28 -->
+<g id="edge49" class="edge">
+<title>430-&gt;A28</title>
+<path fill="none" stroke="#88a0d6" d="M4087.84,-208.25C4048.6,-185.97 3977.99,-145.88 3921.6,-113.87"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3923.35,-110.84 3912.92,-108.94 3919.89,-116.92 3923.35,-110.84"/>
+<text text-anchor="start" x="4009.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 440&#45;&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich -->
+<g id="edge50" class="edge">
+<title>440-&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</title>
+<path fill="none" stroke="#88a0d6" d="M4437.83,-203.56C4404.47,-196.25 4366.48,-188.45 4331.65,-182.53 4208.43,-161.58 4177.32,-156.11 4052.65,-147.28 3799.25,-129.33 3161.98,-158.65 2909.65,-129.28 2834.13,-120.49 2749.37,-100.7 2691.08,-85.51"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2692.18,-82.18 2681.62,-83.02 2690.4,-88.95 2692.18,-82.18"/>
+<text text-anchor="start" x="4220.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A29 -->
+<g id="node44" class="node">
+<title>A29</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M4708.55,-108.28C4708.55,-108.28 4148.75,-108.28 4148.75,-108.28 4142.75,-108.28 4136.75,-102.28 4136.75,-96.28 4136.75,-96.28 4136.75,-33 4136.75,-33 4136.75,-27 4142.75,-21 4148.75,-21 4148.75,-21 4708.55,-21 4708.55,-21 4714.55,-21 4720.55,-27 4720.55,-33 4720.55,-33 4720.55,-96.28 4720.55,-96.28 4720.55,-102.28 4714.55,-108.28 4708.55,-108.28"/>
+<text text-anchor="start" x="4151.15" y="-87.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A29</text>
+<text text-anchor="start" x="4151.15" y="-59.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="4151.15" y="-45.34" font-family="Roboto, sans-serif" font-size="14.00">Die verk&#252;rzte Vorlauffrist f&#252;r EEG-/KWKG- Marktlokationen im Gesch&#228;ftsvorfall 1</text>
+<text text-anchor="start" x="4151.15" y="-31.34" font-family="Roboto, sans-serif" font-size="14.00">wurden nicht eingehalten (Frist&#252;berschreitung).</text>
+</g>
+<!-- 440&#45;&gt;A29 -->
+<g id="edge51" class="edge">
+<title>440-&gt;A29</title>
+<path fill="none" stroke="#88a0d6" d="M4516.89,-203.66C4502.87,-181.73 4480.59,-146.88 4461.93,-117.69"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="4464.91,-115.85 4456.57,-109.31 4459.01,-119.62 4464.91,-115.85"/>
+<text text-anchor="start" x="4491.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 605 -->
+<g id="node46" class="node">
+<title>605</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2218.55,-525.23C2218.55,-525.23 1754.75,-525.23 1754.75,-525.23 1748.75,-525.23 1742.75,-519.23 1742.75,-513.23 1742.75,-513.23 1742.75,-501.23 1742.75,-501.23 1742.75,-495.23 1748.75,-489.23 1754.75,-489.23 1754.75,-489.23 2218.55,-489.23 2218.55,-489.23 2224.55,-489.23 2230.55,-495.23 2230.55,-501.23 2230.55,-501.23 2230.55,-513.23 2230.55,-513.23 2230.55,-519.23 2224.55,-525.23 2218.55,-525.23"/>
+<text text-anchor="start" x="1757.15" y="-503.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">605: </text>
+<text text-anchor="start" x="1796.15" y="-503.56" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich um eine &#8222;Nicht-EEG-/-KWKG&#8220;-Marktlokation?</text>
+</g>
+<!-- 600&#45;&gt;605 -->
+<g id="edge53" class="edge">
+<title>600-&gt;605</title>
+<path fill="none" stroke="#88a0d6" d="M2225.03,-632.13C2172.48,-604.81 2082.51,-558.05 2029.41,-530.46"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2031.14,-527.41 2020.65,-525.9 2027.91,-533.62 2031.14,-527.41"/>
+<text text-anchor="start" x="2134.65" y="-573.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 620 -->
+<g id="node49" class="node">
+<title>620</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2350.05,-384.7C2350.05,-384.7 1727.25,-384.7 1727.25,-384.7 1721.25,-384.7 1715.25,-378.7 1715.25,-372.7 1715.25,-372.7 1715.25,-360.7 1715.25,-360.7 1715.25,-354.7 1721.25,-348.7 1727.25,-348.7 1727.25,-348.7 2350.05,-348.7 2350.05,-348.7 2356.05,-348.7 2362.05,-354.7 2362.05,-360.7 2362.05,-360.7 2362.05,-372.7 2362.05,-372.7 2362.05,-378.7 2356.05,-384.7 2350.05,-384.7"/>
+<text text-anchor="start" x="1729.65" y="-363.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">620: </text>
+<text text-anchor="start" x="1768.65" y="-363.02" font-family="Roboto, sans-serif" font-size="14.00">Ist das angegebene Datum &#8222;Lieferbeginn&#8220; der 1. eines Kalendermonats 00:00 Uhr?</text>
+</g>
+<!-- 600&#45;&gt;620 -->
+<g id="edge52" class="edge">
+<title>600-&gt;620</title>
+<path fill="none" stroke="#88a0d6" d="M2269.7,-632.24C2273.88,-594.26 2277.05,-514.53 2239.65,-463.59 2212.03,-425.97 2165.76,-402.51 2124.58,-388.22"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2125.71,-384.9 2115.11,-385.08 2123.5,-391.55 2125.71,-384.9"/>
+<text text-anchor="start" x="2269.65" y="-503.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 610 -->
+<g id="node47" class="node">
+<title>610</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1573.05,-389.34C1573.05,-389.34 1022.25,-389.34 1022.25,-389.34 1016.25,-389.34 1010.25,-383.34 1010.25,-377.34 1010.25,-377.34 1010.25,-356.06 1010.25,-356.06 1010.25,-350.06 1016.25,-344.06 1022.25,-344.06 1022.25,-344.06 1573.05,-344.06 1573.05,-344.06 1579.05,-344.06 1585.05,-350.06 1585.05,-356.06 1585.05,-356.06 1585.05,-377.34 1585.05,-377.34 1585.05,-383.34 1579.05,-389.34 1573.05,-389.34"/>
+<text text-anchor="start" x="1024.65" y="-368.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">610: </text>
+<text text-anchor="start" x="1063.65" y="-368.4" font-family="Roboto, sans-serif" font-size="14.00">Ist der &#220;bertragungstag sp&#228;testens der Tag vor dem letzten WT vor dem</text>
+<text text-anchor="start" x="1024.65" y="-354.4" font-family="Roboto, sans-serif" font-size="14.00">Zuordnungsbeginn?</text>
+</g>
+<!-- 605&#45;&gt;610 -->
+<g id="edge54" class="edge">
+<title>605-&gt;610</title>
+<path fill="none" stroke="#88a0d6" d="M1902.17,-489.24C1780.32,-464.75 1554.74,-419.39 1416.26,-391.55"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1417.18,-388.16 1406.68,-389.62 1415.8,-395.02 1417.18,-388.16"/>
+<text text-anchor="start" x="1682.65" y="-433.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 605&#45;&gt;620 -->
+<g id="edge55" class="edge">
+<title>605-&gt;620</title>
+<path fill="none" stroke="#88a0d6" d="M1993.03,-489.24C2001.85,-465.75 2017.87,-423.07 2028.38,-395.05"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2031.61,-396.4 2031.85,-385.81 2025.06,-393.94 2031.61,-396.4"/>
+<text text-anchor="start" x="2015.65" y="-433.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 610&#45;&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich -->
+<g id="edge56" class="edge">
+<title>610-&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</title>
+<path fill="none" stroke="#88a0d6" d="M1176.96,-344.13C1098.9,-327.44 1007.57,-301.8 983.9,-269.81 960.82,-238.63 957.02,-210.5 983.9,-182.53 1035.75,-128.59 2255.44,-138.82 2329.65,-129.28 2404.46,-119.67 2488.49,-100.25 2546.76,-85.38"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2547.42,-88.83 2556.23,-82.94 2545.67,-82.05 2547.42,-88.83"/>
+<text text-anchor="start" x="983.65" y="-222.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A30 -->
+<g id="node48" class="node">
+<title>A30</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1574.55,-269.81C1574.55,-269.81 1020.75,-269.81 1020.75,-269.81 1014.75,-269.81 1008.75,-263.81 1008.75,-257.81 1008.75,-257.81 1008.75,-194.53 1008.75,-194.53 1008.75,-188.53 1014.75,-182.53 1020.75,-182.53 1020.75,-182.53 1574.55,-182.53 1574.55,-182.53 1580.55,-182.53 1586.55,-188.53 1586.55,-194.53 1586.55,-194.53 1586.55,-257.81 1586.55,-257.81 1586.55,-263.81 1580.55,-269.81 1574.55,-269.81"/>
+<text text-anchor="start" x="1023.15" y="-248.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A30</text>
+<text text-anchor="start" x="1023.15" y="-220.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="1023.15" y="-206.87" font-family="Roboto, sans-serif" font-size="14.00">Die Vorlauffrist f&#252;r eine &#8222;Nicht-EEG-/-KWKG&#8220;- Marktlokation im Gesch&#228;ftsvorfall</text>
+<text text-anchor="start" x="1023.15" y="-192.87" font-family="Roboto, sans-serif" font-size="14.00">2 wurde nicht eingehalten (Frist&#252;berschreitung).</text>
+</g>
+<!-- 610&#45;&gt;A30 -->
+<g id="edge57" class="edge">
+<title>610-&gt;A30</title>
+<path fill="none" stroke="#88a0d6" d="M1297.65,-344.36C1297.65,-327.49 1297.65,-303.18 1297.65,-281.08"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1301.15,-281.28 1297.65,-271.28 1294.15,-281.28 1301.15,-281.28"/>
+<text text-anchor="start" x="1297.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A31 -->
+<g id="node50" class="node">
+<title>A31</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2112.68,-262.81C2112.68,-262.81 1616.62,-262.81 1616.62,-262.81 1610.62,-262.81 1604.62,-256.81 1604.62,-250.81 1604.62,-250.81 1604.62,-201.53 1604.62,-201.53 1604.62,-195.53 1610.62,-189.53 1616.62,-189.53 1616.62,-189.53 2112.68,-189.53 2112.68,-189.53 2118.68,-189.53 2124.68,-195.53 2124.68,-201.53 2124.68,-201.53 2124.68,-250.81 2124.68,-250.81 2124.68,-256.81 2118.68,-262.81 2112.68,-262.81"/>
+<text text-anchor="start" x="1619.03" y="-241.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A31</text>
+<text text-anchor="start" x="1619.03" y="-213.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="1619.03" y="-199.87" font-family="Roboto, sans-serif" font-size="14.00">Das Lieferbeginn darf nur der 1. eines Kalendermonats 00:00 Uhr sein</text>
+</g>
+<!-- 620&#45;&gt;A31 -->
+<g id="edge58" class="edge">
+<title>620-&gt;A31</title>
+<path fill="none" stroke="#88a0d6" d="M2017.31,-348.71C1992.74,-329.15 1951.45,-296.28 1918.01,-269.65"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1920.43,-267.11 1910.43,-263.62 1916.07,-272.59 1920.43,-267.11"/>
+<text text-anchor="start" x="1961.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 630 -->
+<g id="node51" class="node">
+<title>630</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2540.18,-244.17C2540.18,-244.17 2155.12,-244.17 2155.12,-244.17 2149.12,-244.17 2143.12,-238.17 2143.12,-232.17 2143.12,-232.17 2143.12,-220.17 2143.12,-220.17 2143.12,-214.17 2149.12,-208.17 2155.12,-208.17 2155.12,-208.17 2540.18,-208.17 2540.18,-208.17 2546.18,-208.17 2552.18,-214.17 2552.18,-220.17 2552.18,-220.17 2552.18,-232.17 2552.18,-232.17 2552.18,-238.17 2546.18,-244.17 2540.18,-244.17"/>
+<text text-anchor="start" x="2157.53" y="-222.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">630: </text>
+<text text-anchor="start" x="2196.53" y="-222.5" font-family="Roboto, sans-serif" font-size="14.00">Ist die Vorlauffrist von einem Monat eingehalten?</text>
+</g>
+<!-- 620&#45;&gt;630 -->
+<g id="edge59" class="edge">
+<title>620-&gt;630</title>
+<path fill="none" stroke="#88a0d6" d="M2076.54,-348.71C2132.75,-323.51 2238.21,-276.23 2299.72,-248.66"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2300.86,-251.98 2308.55,-244.7 2298,-245.59 2300.86,-251.98"/>
+<text text-anchor="start" x="2211.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 630&#45;&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich -->
+<g id="edge60" class="edge">
+<title>630-&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</title>
+<path fill="none" stroke="#88a0d6" d="M2376.5,-208.25C2425.67,-179.41 2525.72,-120.73 2580.92,-88.35"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2582.52,-91.47 2589.38,-83.39 2578.98,-85.43 2582.52,-91.47"/>
+<text text-anchor="start" x="2474.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A32 -->
+<g id="node52" class="node">
+<title>A32</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2308.18,-108.28C2308.18,-108.28 1767.12,-108.28 1767.12,-108.28 1761.12,-108.28 1755.12,-102.28 1755.12,-96.28 1755.12,-96.28 1755.12,-33 1755.12,-33 1755.12,-27 1761.12,-21 1767.12,-21 1767.12,-21 2308.18,-21 2308.18,-21 2314.18,-21 2320.18,-27 2320.18,-33 2320.18,-33 2320.18,-96.28 2320.18,-96.28 2320.18,-102.28 2314.18,-108.28 2308.18,-108.28"/>
+<text text-anchor="start" x="1769.53" y="-87.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A32</text>
+<text text-anchor="start" x="1769.53" y="-59.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="1769.53" y="-45.34" font-family="Roboto, sans-serif" font-size="14.00">Die Vorlauffrist f&#252;r EEG-/KWKG-Marktlokationen im Gesch&#228;ftsvorfall 2 wurden</text>
+<text text-anchor="start" x="1769.53" y="-31.34" font-family="Roboto, sans-serif" font-size="14.00">nicht eingehalten (Frist&#252;berschreitung).</text>
+</g>
+<!-- 630&#45;&gt;A32 -->
+<g id="edge61" class="edge">
+<title>630-&gt;A32</title>
+<path fill="none" stroke="#88a0d6" d="M2314.77,-208.25C2271.21,-185.83 2192.61,-145.38 2130.21,-113.27"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2132.18,-110.35 2121.69,-108.89 2128.98,-116.58 2132.18,-110.35"/>
+<text text-anchor="start" x="2228.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 805 -->
+<g id="node54" class="node">
+<title>805</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3151.55,-525.23C3151.55,-525.23 2687.75,-525.23 2687.75,-525.23 2681.75,-525.23 2675.75,-519.23 2675.75,-513.23 2675.75,-513.23 2675.75,-501.23 2675.75,-501.23 2675.75,-495.23 2681.75,-489.23 2687.75,-489.23 2687.75,-489.23 3151.55,-489.23 3151.55,-489.23 3157.55,-489.23 3163.55,-495.23 3163.55,-501.23 3163.55,-501.23 3163.55,-513.23 3163.55,-513.23 3163.55,-519.23 3157.55,-525.23 3151.55,-525.23"/>
+<text text-anchor="start" x="2690.15" y="-503.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">805: </text>
+<text text-anchor="start" x="2729.15" y="-503.56" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich um eine &#8222;Nicht-EEG-/-KWKG&#8220;-Marktlokation?</text>
+</g>
+<!-- 800&#45;&gt;805 -->
+<g id="edge62" class="edge">
+<title>800-&gt;805</title>
+<path fill="none" stroke="#88a0d6" d="M2933.78,-636.78C2931.07,-612.13 2926.02,-566.15 2922.75,-536.38"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2926.24,-536.16 2921.67,-526.61 2919.28,-536.93 2926.24,-536.16"/>
+<text text-anchor="start" x="2927.65" y="-573.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 810 -->
+<g id="node57" class="node">
+<title>810</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3396.18,-384.7C3396.18,-384.7 3011.12,-384.7 3011.12,-384.7 3005.12,-384.7 2999.12,-378.7 2999.12,-372.7 2999.12,-372.7 2999.12,-360.7 2999.12,-360.7 2999.12,-354.7 3005.12,-348.7 3011.12,-348.7 3011.12,-348.7 3396.18,-348.7 3396.18,-348.7 3402.18,-348.7 3408.18,-354.7 3408.18,-360.7 3408.18,-360.7 3408.18,-372.7 3408.18,-372.7 3408.18,-378.7 3402.18,-384.7 3396.18,-384.7"/>
+<text text-anchor="start" x="3013.53" y="-363.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">810: </text>
+<text text-anchor="start" x="3052.53" y="-363.02" font-family="Roboto, sans-serif" font-size="14.00">Ist die Vorlauffrist von einem Monat eingehalten?</text>
+</g>
+<!-- 800&#45;&gt;810 -->
+<g id="edge63" class="edge">
+<title>800-&gt;810</title>
+<path fill="none" stroke="#88a0d6" d="M3025.54,-636.8C3076.37,-622.49 3136.76,-596.69 3172.65,-550.87 3207.99,-505.75 3209.2,-435.02 3206.64,-395.97"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3210.15,-395.9 3205.86,-386.21 3203.17,-396.46 3210.15,-395.9"/>
+<text text-anchor="start" x="3204.65" y="-503.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 806 -->
+<g id="node55" class="node">
+<title>806</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2969.05,-389.34C2969.05,-389.34 2418.25,-389.34 2418.25,-389.34 2412.25,-389.34 2406.25,-383.34 2406.25,-377.34 2406.25,-377.34 2406.25,-356.06 2406.25,-356.06 2406.25,-350.06 2412.25,-344.06 2418.25,-344.06 2418.25,-344.06 2969.05,-344.06 2969.05,-344.06 2975.05,-344.06 2981.05,-350.06 2981.05,-356.06 2981.05,-356.06 2981.05,-377.34 2981.05,-377.34 2981.05,-383.34 2975.05,-389.34 2969.05,-389.34"/>
+<text text-anchor="start" x="2420.65" y="-368.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">806: </text>
+<text text-anchor="start" x="2459.65" y="-368.4" font-family="Roboto, sans-serif" font-size="14.00">Ist der &#220;bertragungstag sp&#228;testens der Tag vor dem letzten WT vor dem</text>
+<text text-anchor="start" x="2420.65" y="-354.4" font-family="Roboto, sans-serif" font-size="14.00">Zuordnungsbeginn?</text>
+</g>
+<!-- 805&#45;&gt;806 -->
+<g id="edge64" class="edge">
+<title>805-&gt;806</title>
+<path fill="none" stroke="#88a0d6" d="M2891.94,-489.24C2853.61,-465.75 2784,-423.08 2738.29,-395.06"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2740.28,-392.18 2729.93,-389.94 2736.62,-398.15 2740.28,-392.18"/>
+<text text-anchor="start" x="2819.65" y="-433.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 805&#45;&gt;810 -->
+<g id="edge65" class="edge">
+<title>805-&gt;810</title>
+<path fill="none" stroke="#88a0d6" d="M2954.47,-489.24C3005.93,-464.15 3102.26,-417.15 3158.89,-389.53"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3160.17,-392.8 3167.63,-385.27 3157.1,-386.51 3160.17,-392.8"/>
+<text text-anchor="start" x="3078.65" y="-433.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 806&#45;&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich -->
+<g id="edge66" class="edge">
+<title>806-&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</title>
+<path fill="none" stroke="#88a0d6" d="M2661.67,-344.31C2639.13,-327.17 2610.76,-300.9 2597.9,-269.81 2573.35,-210.47 2594.12,-133.55 2608.58,-93.17"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2611.8,-94.57 2612.02,-83.98 2605.24,-92.12 2611.8,-94.57"/>
+<text text-anchor="start" x="2597.65" y="-222.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A35 -->
+<g id="node56" class="node">
+<title>A35</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M3136.68,-269.81C3136.68,-269.81 2634.62,-269.81 2634.62,-269.81 2628.62,-269.81 2622.62,-263.81 2622.62,-257.81 2622.62,-257.81 2622.62,-194.53 2622.62,-194.53 2622.62,-188.53 2628.62,-182.53 2634.62,-182.53 2634.62,-182.53 3136.68,-182.53 3136.68,-182.53 3142.68,-182.53 3148.68,-188.53 3148.68,-194.53 3148.68,-194.53 3148.68,-257.81 3148.68,-257.81 3148.68,-263.81 3142.68,-269.81 3136.68,-269.81"/>
+<text text-anchor="start" x="2637.03" y="-248.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A35</text>
+<text text-anchor="start" x="2637.03" y="-220.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="2637.03" y="-206.87" font-family="Roboto, sans-serif" font-size="14.00">Die Vorlauffrist f&#252;r eine &#8222;Nicht-EEG-/-KWKG&#8220;- Marktlokation wurde nicht</text>
+<text text-anchor="start" x="2637.03" y="-192.87" font-family="Roboto, sans-serif" font-size="14.00">eingehalten.</text>
+</g>
+<!-- 806&#45;&gt;A35 -->
+<g id="edge67" class="edge">
+<title>806-&gt;A35</title>
+<path fill="none" stroke="#88a0d6" d="M2723.23,-344.36C2748.32,-326.25 2785.3,-299.58 2817.63,-276.25"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2819.32,-279.34 2825.39,-270.65 2815.23,-273.66 2819.32,-279.34"/>
+<text text-anchor="start" x="2800.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A44 -->
+<g id="node58" class="node">
+<title>A44</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M3318.55,-262.81C3318.55,-262.81 3178.75,-262.81 3178.75,-262.81 3172.75,-262.81 3166.75,-256.81 3166.75,-250.81 3166.75,-250.81 3166.75,-201.53 3166.75,-201.53 3166.75,-195.53 3172.75,-189.53 3178.75,-189.53 3178.75,-189.53 3318.55,-189.53 3318.55,-189.53 3324.55,-189.53 3330.55,-195.53 3330.55,-201.53 3330.55,-201.53 3330.55,-250.81 3330.55,-250.81 3330.55,-256.81 3324.55,-262.81 3318.55,-262.81"/>
+<text text-anchor="start" x="3181.15" y="-241.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A44</text>
+<text text-anchor="start" x="3181.15" y="-213.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="3181.15" y="-199.87" font-family="Roboto, sans-serif" font-size="14.00">Frist&#252;berschreitung</text>
+</g>
+<!-- 810&#45;&gt;A44 -->
+<g id="edge68" class="edge">
+<title>810-&gt;A44</title>
+<path fill="none" stroke="#88a0d6" d="M3209.17,-348.71C3215.23,-330.06 3225.21,-299.33 3233.62,-273.43"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3236.89,-274.71 3236.65,-264.12 3230.23,-272.55 3236.89,-274.71"/>
+<text text-anchor="start" x="3228.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 830 -->
+<g id="node59" class="node">
+<title>830</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3845.05,-244.17C3845.05,-244.17 3360.25,-244.17 3360.25,-244.17 3354.25,-244.17 3348.25,-238.17 3348.25,-232.17 3348.25,-232.17 3348.25,-220.17 3348.25,-220.17 3348.25,-214.17 3354.25,-208.17 3360.25,-208.17 3360.25,-208.17 3845.05,-208.17 3845.05,-208.17 3851.05,-208.17 3857.05,-214.17 3857.05,-220.17 3857.05,-220.17 3857.05,-232.17 3857.05,-232.17 3857.05,-238.17 3851.05,-244.17 3845.05,-244.17"/>
+<text text-anchor="start" x="3362.65" y="-222.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">830: </text>
+<text text-anchor="start" x="3401.65" y="-222.5" font-family="Roboto, sans-serif" font-size="14.00">Ist der angegebene Prozentsatz an der Marktlokation noch frei?</text>
+</g>
+<!-- 810&#45;&gt;830 -->
+<g id="edge69" class="edge">
+<title>810-&gt;830</title>
+<path fill="none" stroke="#88a0d6" d="M3252.58,-348.71C3325.91,-323.25 3464.15,-275.26 3543.2,-247.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3544.22,-251.16 3552.52,-244.57 3541.92,-244.55 3544.22,-251.16"/>
+<text text-anchor="start" x="3426.65" y="-292.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 830&#45;&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich -->
+<g id="edge71" class="edge">
+<title>830-&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</title>
+<path fill="none" stroke="#88a0d6" d="M3503.5,-208.19C3454.29,-200 3393.91,-190.29 3339.65,-182.53 3149.02,-155.28 3099.46,-161.79 2909.65,-129.28 2838.06,-117.02 2757.41,-98.97 2699.37,-85.23"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2700.45,-81.89 2689.91,-82.97 2698.83,-88.69 2700.45,-81.89"/>
+<text text-anchor="start" x="3190.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich
+Hinweis: Anfrage zur Beendigung der Zuordnung muss zwingend an alle LFA und an den Anmeldenden versendet werden! -->
+<g id="node60" class="node">
+<title>EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich
+Hinweis: Anfrage zur Beendigung der Zuordnung muss zwingend an alle LFA und an den Anmeldenden versendet werden!</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M3524.43,-99.16C3524.43,-99.16 2930.88,-99.16 2930.88,-99.16 2924.88,-99.16 2918.88,-93.16 2918.88,-87.16 2918.88,-87.16 2918.88,-42.12 2918.88,-42.12 2918.88,-36.12 2924.88,-30.12 2930.88,-30.12 2930.88,-30.12 3524.43,-30.12 3524.43,-30.12 3530.43,-30.12 3536.43,-36.12 3536.43,-42.12 3536.43,-42.12 3536.43,-87.16 3536.43,-87.16 3536.43,-93.16 3530.43,-99.16 3524.43,-99.16"/>
+<text text-anchor="start" x="2933.28" y="-77.22" font-family="Roboto, sans-serif" font-size="14.00">EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich</text>
+<text text-anchor="start" x="2933.28" y="-59.97" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Anfrage zur Beendigung der Zuordnung muss zwingend an alle LFA und an</text>
+<text text-anchor="start" x="2933.28" y="-42.72" font-family="Roboto, sans-serif" font-size="14.00">den Anmeldenden versendet werden!</text>
+</g>
+<!-- 830&#45;&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich
+Hinweis: Anfrage zur Beendigung der Zuordnung muss zwingend an alle LFA und an den Anmeldenden versendet werden! -->
+<g id="edge70" class="edge">
+<title>830-&gt;EBD E_0621_Pr&#252;fen, ob Anfrage zur Beendigung der Zuordnung erforderlich
+Hinweis: Anfrage zur Beendigung der Zuordnung muss zwingend an alle LFA und an den Anmeldenden versendet werden!</title>
+<path fill="none" stroke="#88a0d6" d="M3562.87,-208.25C3504.6,-183.46 3394.5,-136.62 3316.39,-103.39"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3318.04,-100.29 3307.47,-99.6 3315.3,-106.73 3318.04,-100.29"/>
+<text text-anchor="start" x="3459.65" y="-152.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>
