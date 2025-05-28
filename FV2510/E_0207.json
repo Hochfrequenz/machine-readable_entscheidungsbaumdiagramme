@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "chapter": "WiM Strom",
+    "ebd_code": "E_0207",
+    "ebd_name": "E_0207_Anfrage prüfen",
+    "remark": null,
+    "role": "MSB",
+    "section": "8.11.1: AD: Anfrage zur Rechnungsabwicklung des Messtellenbetriebes über den LF durch den LF"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Liegt ein gültiger Vertrag zwischen MSB und LF vor, der die Rechnungsabwicklung des Messstellenbetriebs an den LF regelt?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Kein gültiger Vertrag",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt der angefragte Beginn der Übernahme der Abrechnung des Messstellenbetriebs im Zeitraum einer vom MSB bereits bestätigten Vereinbarung mit dem anfragenden LF zur Abwicklung des Messentgeltes?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Abwicklung des Messentgelts schon vollzogen",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "3"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind alle Messlokationen der angefragten Marktlokation mit kME ausgestattet?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Ausschließlich mit kME ausgestattet",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Besteht ein Vertrag mit dem Anschlussnehmer gemäß MsbG?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Vertragsverhältnis mit Anschlussnehmer lässt das nicht zu.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Besteht ein nicht konkludent geschlossener Vertrag für den Messstellenbetrieb mit dem Anschlussnutzer?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "6"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "7"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist eine Abrechnung über den LF durch den Vertrag ausgeschlossen?",
+      "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Vertragsverhältnis mit dem Dritten lässt das nicht zu.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "7"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird das Entgelt bereits über die erzeugende Marktlokation entrichtet?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Entgelt wird durch erzeugende Marktlokation abgerechnet.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "8"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wird das Entgelt über eine andere Marktlokation entrichtet?",
+      "step_number": "8",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Entgelt wird über eine andere Marktlokation abgerechnet.",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "9"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Möchte der MSB zum angefragten Termin kein Angebot erstellen und verzichtet auf die Erstellung und Versendung des Angebots?",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "11"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt bereits eine mit dem LF vereinbarte Rechnungsabwicklung für diese Marktlokation zu einem späteren Zeitpunkt vor?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Die vereinbarte Rechnungsabwicklung für diese Marktlokation bleibt erhalten. \nFür das Zeitintervall zwischen angefragtem Termin und vereinbarter Rechnungsabwicklung wird kein Messentgelt in Rechnung gestellt.",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Der MSB erstellt zum angefragten Termin kein Angebot.\nHinweis: Möchte der MSB die Abrechnung zu einem späteren Zeitpunkt starten, so wird er gemäß Use-Case „Angebot zur Rechnungsabwicklung des Messstellenbetriebes über den LF durch den MSB“ ein Angebot zusenden.",
+          "result_code": "A10"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt der angefragte Beginn der Übernahme der Abrechnung des Messstellenbetriebs in einem bereits vom MSB abgerechneten Zeitraum?",
+      "step_number": "11",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Angebot versenden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "12"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der LF zum nächstmöglichen Termin angefragt?",
+      "step_number": "12",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Beginndatum liegt im bereits abgerechneten Zeitraum.",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Angebot versenden",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

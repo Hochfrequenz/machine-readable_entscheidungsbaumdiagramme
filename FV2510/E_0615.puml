@@ -1,0 +1,79 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.7.1: AD: Beginn der Ersatz-/Grundversorgung
+
+
+
+end title
+:<b>E_0615</b>;
+note right
+<b><i>Prüfende Rolle: LF
+end note
+
+if (<b>20: </b> Befindet sich die Marktlokation im Grundversorgungsgebiet des Empfängers oder besteht für die Marktlokation eine vertragliche Vereinbarung zur Ersatzbelieferung?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Cluster: Ablehnung
+        Keine Zuständigkeit
+    endnote
+    kill;
+endif
+if (<b>40: </b> Wurde der angefragte Geschäftsvorfall dem Anfragenden bereits zum gleichen Zeitpunkt mit einer früheren Meldung bestätigt?) then (ja)
+    :A04;
+    note left
+        Cluster: Ablehnung
+        Doppelmeldung
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>50: </b> Besteht eine gesetzliche oder vertragliche Pflicht zur Grund- oder Ersatzversorgung bzw. zur Ersatzbelieferung?) then (ja)
+else (nein)
+    :A05;
+    note left
+        Cluster: Ablehnung 
+        kein Grund-/Ersatzversorgungsfall bzw. Ersatzbelieferung
+        Der Absender lehnt die weitere Bearbeitung der Transaktion ab, da es sich um keinen Ersatzversorgungsfall handelt und daher die Fristen und Prozessschritte der normalen Regelprozesse eingehalten werden müssen
+    endnote
+    kill;
+endif
+if (<b>90: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Cluster: Ablehnung
+        Sonstiges 
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+    :A09;
+    note left
+        Cluster: Zustimmung
+    endnote
+    kill;
+endif
+
+@enduml

@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0610",
+    "ebd_name": "E_0610_Abrechnungsdaten Netznutzungsabrechnung prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "remark": null,
+    "role": "LF",
+    "section": "6.8.1: AD: Abrechnungsdaten Netznutzungsabrechnung"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ergibt sich aus der Prüfung, dass der Empfänger in der Qualitätsrückmeldung seine Sicht der Stammdaten mitteilen möchte?\nHinweis:\nDies ist für jeden in der Änderung vorhandenen Verwendungszeitraum der Daten jeweils für den gesamten Zeitraum zu prüfen.",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "30"
+          },
+          "note": "Der Empfänger übernimmt die Stammdaten.\nEr teilt in der Qualitätsrückmeldung mit, dass er die Stammdaten ohne Anmerkung übernommen hat.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": "Der Empfänger übernimmt die Stammdaten.\nEr teilt mit der Qualitätsrückmeldung mit, dass diese Stammdaten aus seiner Sicht nicht korrekt sind. Er gibt die aus seiner Sicht korrekten Stammdaten als Qualitätsrückmeldung zurück.",
+          "result_code": "A02"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind noch weitere Verwendungszeiträume zu prüfen?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "Ende"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

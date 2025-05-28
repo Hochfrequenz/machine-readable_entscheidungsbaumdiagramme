@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1640.0px" viewBox="0 0 1640.0 1018.6666666666666" height="1018.6666666666666px">
+  <g>
+    <svg version="1.1" width="1640.0px" viewBox="0 0 1640.0 1018.6666666666666" height="1018.6666666666666px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1640.0" height="1018.6666666666666" rx="20" ry="20"/><g>
+    <g transform="translate(404.58710222472536, 101.86666666666665) scale(1 1) translate(0, 0) scale(1.434337745236084 1.434337745236084) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1230pt" height="764pt" viewBox="0.00 0.00 1230.18 764.40">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 746.4)">
+<title>D</title>
+<text text-anchor="start" x="148.59" y="-708.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">Redispatch 2.0</text>
+<text text-anchor="start" x="148.59" y="-680.2" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">16.1.2: AD: Ermittlung und Abstimmung der abrechnungsrelevanten Ausfallarbeit &#8211; Prognosemodell</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M453.8,-638.4C453.8,-638.4 317,-638.4 317,-638.4 311,-638.4 305,-632.4 305,-626.4 305,-626.4 305,-605.12 305,-605.12 305,-599.12 311,-593.12 317,-593.12 317,-593.12 453.8,-593.12 453.8,-593.12 459.8,-593.12 465.8,-599.12 465.8,-605.12 465.8,-605.12 465.8,-626.4 465.8,-626.4 465.8,-632.4 459.8,-638.4 453.8,-638.4"/>
+<text text-anchor="start" x="319.4" y="-617.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0901</text>
+<text text-anchor="start" x="319.4" y="-603.46" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="428.9" y="-603.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 1 -->
+<g id="node2" class="node">
+<title>1</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M625.92,-556.12C625.92,-556.12 144.88,-556.12 144.88,-556.12 138.88,-556.12 132.87,-550.12 132.87,-544.12 132.87,-544.12 132.87,-532.12 132.87,-532.12 132.87,-526.12 138.87,-520.12 144.87,-520.12 144.87,-520.12 625.92,-520.12 625.92,-520.12 631.92,-520.12 637.92,-526.12 637.92,-532.12 637.92,-532.12 637.92,-544.12 637.92,-544.12 637.92,-550.12 631.92,-556.12 625.92,-556.12"/>
+<text text-anchor="start" x="147.27" y="-534.44" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="166.77" y="-534.44" font-family="Roboto, sans-serif" font-size="14.00">Liegt f&#252;r die Ausfallarbeitszeitreihe bereits eine Zustimmung vor?</text>
+</g>
+<!-- Start&#45;&gt;1 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;1</title>
+<path fill="none" stroke="#88a0d6" d="M385.4,-593.29C385.4,-585.21 385.4,-575.91 385.4,-567.31"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="388.9,-567.35 385.4,-557.35 381.9,-567.35 388.9,-567.35"/>
+</g>
+<!-- A01 -->
+<g id="node3" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M340.8,-466.87C340.8,-466.87 12,-466.87 12,-466.87 6,-466.87 0,-460.87 0,-454.87 0,-454.87 0,-405.59 0,-405.59 0,-399.59 6,-393.59 12,-393.59 12,-393.59 340.8,-393.59 340.8,-393.59 346.8,-393.59 352.8,-399.59 352.8,-405.59 352.8,-405.59 352.8,-454.87 352.8,-454.87 352.8,-460.87 346.8,-466.87 340.8,-466.87"/>
+<text text-anchor="start" x="14.4" y="-445.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="14.4" y="-417.93" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="14.4" y="-403.93" font-family="Roboto, sans-serif" font-size="14.00">Ausfallarbeitszeitreihe wurde bereits best&#228;tigt.</text>
+</g>
+<!-- 1&#45;&gt;A01 -->
+<g id="edge2" class="edge">
+<title>1-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M352.28,-520.34C326.62,-507.34 289.96,-488.77 256.75,-471.94"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="258.42,-468.86 247.91,-467.46 255.25,-475.1 258.42,-468.86"/>
+<text text-anchor="start" x="311.4" y="-489.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 2 -->
+<g id="node4" class="node">
+<title>2</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M956.42,-452.87C956.42,-452.87 382.38,-452.87 382.38,-452.87 376.38,-452.87 370.38,-446.87 370.38,-440.87 370.38,-440.87 370.38,-419.59 370.38,-419.59 370.38,-413.59 376.38,-407.59 382.38,-407.59 382.38,-407.59 956.42,-407.59 956.42,-407.59 962.42,-407.59 968.42,-413.59 968.42,-419.59 968.42,-419.59 968.42,-440.87 968.42,-440.87 968.42,-446.87 962.42,-452.87 956.42,-452.87"/>
+<text text-anchor="start" x="384.77" y="-431.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">2: </text>
+<text text-anchor="start" x="404.27" y="-431.93" font-family="Roboto, sans-serif" font-size="14.00">Ist der Gegenvorschlag zur Ausfallarbeitszeitreihe innerhalb der vorgegebenen</text>
+<text text-anchor="start" x="384.77" y="-417.93" font-family="Roboto, sans-serif" font-size="14.00">Frist eingegangen?</text>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g id="edge3" class="edge">
+<title>1-&gt;2</title>
+<path fill="none" stroke="#88a0d6" d="M430.71,-520.22C476.57,-503.13 548.05,-476.48 600.84,-456.79"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="601.91,-460.13 610.05,-453.36 599.46,-453.57 601.91,-460.13"/>
+<text text-anchor="start" x="518.4" y="-489.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A02 -->
+<g id="node5" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M525.3,-340.34C525.3,-340.34 385.5,-340.34 385.5,-340.34 379.5,-340.34 373.5,-334.34 373.5,-328.34 373.5,-328.34 373.5,-279.06 373.5,-279.06 373.5,-273.06 379.5,-267.06 385.5,-267.06 385.5,-267.06 525.3,-267.06 525.3,-267.06 531.3,-267.06 537.3,-273.06 537.3,-279.06 537.3,-279.06 537.3,-328.34 537.3,-328.34 537.3,-334.34 531.3,-340.34 525.3,-340.34"/>
+<text text-anchor="start" x="387.9" y="-319.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="387.9" y="-291.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="387.9" y="-277.4" font-family="Roboto, sans-serif" font-size="14.00">Frist&#252;berschreitung</text>
+</g>
+<!-- 2&#45;&gt;A02 -->
+<g id="edge4" class="edge">
+<title>2-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M632.61,-407.82C603.45,-390.85 561.82,-366.63 526.24,-345.92"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="528.09,-342.95 517.69,-340.95 524.57,-349 528.09,-342.95"/>
+<text text-anchor="start" x="574.4" y="-363.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 3 -->
+<g id="node6" class="node">
+<title>3</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1039.8,-321.7C1039.8,-321.7 567,-321.7 567,-321.7 561,-321.7 555,-315.7 555,-309.7 555,-309.7 555,-297.7 555,-297.7 555,-291.7 561,-285.7 567,-285.7 567,-285.7 1039.8,-285.7 1039.8,-285.7 1045.8,-285.7 1051.8,-291.7 1051.8,-297.7 1051.8,-297.7 1051.8,-309.7 1051.8,-309.7 1051.8,-315.7 1045.8,-321.7 1039.8,-321.7"/>
+<text text-anchor="start" x="569.4" y="-300.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">3: </text>
+<text text-anchor="start" x="588.9" y="-300.02" font-family="Roboto, sans-serif" font-size="14.00">Liegt bereits ein Gegenvorschlag zur Ausfallarbeitszeitreihe vor?</text>
+</g>
+<!-- 2&#45;&gt;3 -->
+<g id="edge5" class="edge">
+<title>2-&gt;3</title>
+<path fill="none" stroke="#88a0d6" d="M692.44,-407.82C716,-385.93 752.55,-351.96 777.2,-329.05"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="779.33,-331.85 784.27,-322.48 774.56,-326.72 779.33,-331.85"/>
+<text text-anchor="start" x="744.4" y="-363.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A03 -->
+<g id="node7" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M576.55,-213.81C576.55,-213.81 90.25,-213.81 90.25,-213.81 84.25,-213.81 78.25,-207.81 78.25,-201.81 78.25,-201.81 78.25,-138.53 78.25,-138.53 78.25,-132.53 84.25,-126.53 90.25,-126.53 90.25,-126.53 576.55,-126.53 576.55,-126.53 582.55,-126.53 588.55,-132.53 588.55,-138.53 588.55,-138.53 588.55,-201.81 588.55,-201.81 588.55,-207.81 582.55,-213.81 576.55,-213.81"/>
+<text text-anchor="start" x="92.65" y="-192.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="92.65" y="-164.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="92.65" y="-150.87" font-family="Roboto, sans-serif" font-size="14.00">Gegenvorschlag liegt bereits vor</text>
+<text text-anchor="start" x="92.65" y="-136.87" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Ein weiterer Gegenvorschlag kann nicht eingereicht werden.</text>
+</g>
+<!-- 3&#45;&gt;A03 -->
+<g id="edge6" class="edge">
+<title>3-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M742.92,-285.77C680.92,-268.42 581.8,-240.69 496.61,-216.84"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="497.79,-213.54 487.22,-214.22 495.9,-220.28 497.79,-213.54"/>
+<text text-anchor="start" x="610.4" y="-236.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 4 -->
+<g id="node8" class="node">
+<title>4</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1182.17,-192.81C1182.17,-192.81 618.62,-192.81 618.62,-192.81 612.62,-192.81 606.62,-186.81 606.62,-180.81 606.62,-180.81 606.62,-159.53 606.62,-159.53 606.62,-153.53 612.62,-147.53 618.62,-147.53 618.62,-147.53 1182.17,-147.53 1182.17,-147.53 1188.17,-147.53 1194.17,-153.53 1194.17,-159.53 1194.17,-159.53 1194.17,-180.81 1194.17,-180.81 1194.17,-186.81 1188.17,-192.81 1182.17,-192.81"/>
+<text text-anchor="start" x="621.02" y="-171.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">4: </text>
+<text text-anchor="start" x="640.52" y="-171.87" font-family="Roboto, sans-serif" font-size="14.00">K&#246;nnen die Energiemengen des Gegenvorschlages zur Ausfallarbeitszeitreihe</text>
+<text text-anchor="start" x="621.02" y="-157.87" font-family="Roboto, sans-serif" font-size="14.00">akzeptiert werden?</text>
+</g>
+<!-- 3&#45;&gt;4 -->
+<g id="edge7" class="edge">
+<title>3-&gt;4</title>
+<path fill="none" stroke="#88a0d6" d="M815.88,-285.77C831.56,-264.52 858.74,-227.66 878.04,-201.49"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="880.74,-203.72 883.86,-193.6 875.11,-199.57 880.74,-203.72"/>
+<text text-anchor="start" x="854.4" y="-236.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A04 -->
+<g id="node9" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M909.8,-73.28C909.8,-73.28 635,-73.28 635,-73.28 629,-73.28 623,-67.28 623,-61.28 623,-61.28 623,-12 623,-12 623,-6 629,0 635,0 635,0 909.8,0 909.8,0 915.8,0 921.8,-6 921.8,-12 921.8,-12 921.8,-61.28 921.8,-61.28 921.8,-67.28 915.8,-73.28 909.8,-73.28"/>
+<text text-anchor="start" x="637.4" y="-52.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="637.4" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="637.4" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Energiemengen falsch / nicht plausibel</text>
+</g>
+<!-- 4&#45;&gt;A04 -->
+<g id="edge8" class="edge">
+<title>4-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M879.55,-147.74C862.07,-129.79 836.56,-103.57 814.82,-81.23"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="817.53,-79 808.05,-74.27 812.52,-83.88 817.53,-79"/>
+<text text-anchor="start" x="839.4" y="-96.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A05 -->
+<g id="node10" class="node">
+<title>A05</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1103.3,-73.28C1103.3,-73.28 951.5,-73.28 951.5,-73.28 945.5,-73.28 939.5,-67.28 939.5,-61.28 939.5,-61.28 939.5,-12 939.5,-12 939.5,-6 945.5,0 951.5,0 951.5,0 1103.3,0 1103.3,0 1109.3,0 1115.3,-6 1115.3,-12 1115.3,-12 1115.3,-61.28 1115.3,-61.28 1115.3,-67.28 1109.3,-73.28 1103.3,-73.28"/>
+<text text-anchor="start" x="953.9" y="-52.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="953.9" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="953.9" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Zustimmung</text>
+</g>
+<!-- 4&#45;&gt;A05 -->
+<g id="edge9" class="edge">
+<title>4-&gt;A05</title>
+<path fill="none" stroke="#88a0d6" d="M921.09,-147.74C938.43,-129.79 963.74,-103.57 985.32,-81.23"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="987.59,-83.9 992.02,-74.28 982.56,-79.04 987.59,-83.9"/>
+<text text-anchor="start" x="974.4" y="-96.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

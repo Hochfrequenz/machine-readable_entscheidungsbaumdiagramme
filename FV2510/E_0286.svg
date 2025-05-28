@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1708.0px" viewBox="0 0 1708.0 1518.6666666666667" height="1518.6666666666667px">
+  <g>
+    <svg version="1.1" width="1708.0px" viewBox="0 0 1708.0 1518.6666666666667" height="1518.6666666666667px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1708.0" height="1518.6666666666667" rx="20" ry="20"/><g>
+    <g transform="translate(234.6867924528301, 151.86666666666665) scale(1 1) translate(0, 0) scale(2.1383647798742142 2.1383647798742142) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1281pt" height="1139pt" viewBox="0.00 0.00 1281.30 1138.74">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 1120.74)">
+<title>D</title>
+<text text-anchor="start" x="371.4" y="-1082.64" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">Prozesse zur &#196;nderung der Technik an Lokationen</text>
+<text text-anchor="start" x="371.4" y="-1054.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">9.1.3: AD: Messlokations&#228;nderung vom NB an MSB</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M506.17,-1012.74C506.17,-1012.74 357.38,-1012.74 357.38,-1012.74 351.38,-1012.74 345.38,-1006.74 345.38,-1000.74 345.38,-1000.74 345.38,-979.46 345.38,-979.46 345.38,-973.46 351.38,-967.46 357.38,-967.46 357.38,-967.46 506.17,-967.46 506.17,-967.46 512.17,-967.46 518.17,-973.46 518.17,-979.46 518.17,-979.46 518.17,-1000.74 518.17,-1000.74 518.17,-1006.74 512.17,-1012.74 506.17,-1012.74"/>
+<text text-anchor="start" x="359.77" y="-991.8" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0286</text>
+<text text-anchor="start" x="359.77" y="-977.8" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="469.27" y="-977.8" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">MSB</text>
+</g>
+<!-- 10 -->
+<g id="node2" class="node">
+<title>10</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M725.17,-930.46C725.17,-930.46 138.38,-930.46 138.38,-930.46 132.38,-930.46 126.38,-924.46 126.38,-918.46 126.38,-918.46 126.38,-897.18 126.38,-897.18 126.38,-891.18 132.38,-885.18 138.38,-885.18 138.38,-885.18 725.17,-885.18 725.17,-885.18 731.17,-885.18 737.17,-891.18 737.17,-897.18 737.17,-897.18 737.17,-918.46 737.17,-918.46 737.17,-924.46 731.17,-930.46 725.17,-930.46"/>
+<text text-anchor="start" x="140.77" y="-909.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="170.02" y="-909.52" font-family="Roboto, sans-serif" font-size="14.00">Ist der Zugang zur Lokation f&#252;r den Monteur, um die &#196;nderung an der Lokation</text>
+<text text-anchor="start" x="140.77" y="-895.52" font-family="Roboto, sans-serif" font-size="14.00">durchzuf&#252;hren, gegeben?</text>
+</g>
+<!-- Start&#45;&gt;10 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;10</title>
+<path fill="none" stroke="#88a0d6" d="M431.77,-967.59C431.77,-959.67 431.77,-950.51 431.77,-941.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="435.28,-941.91 431.78,-931.91 428.28,-941.91 435.28,-941.91"/>
+</g>
+<!-- A01 -->
+<g id="node3" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M468.42,-831.93C468.42,-831.93 147.12,-831.93 147.12,-831.93 141.12,-831.93 135.12,-825.93 135.12,-819.93 135.12,-819.93 135.12,-770.65 135.12,-770.65 135.12,-764.65 141.12,-758.65 147.12,-758.65 147.12,-758.65 468.42,-758.65 468.42,-758.65 474.42,-758.65 480.42,-764.65 480.42,-770.65 480.42,-770.65 480.42,-819.93 480.42,-819.93 480.42,-825.93 474.42,-831.93 468.42,-831.93"/>
+<text text-anchor="start" x="149.52" y="-810.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="149.52" y="-782.99" font-family="Roboto, sans-serif" font-size="14.00">Gescheitert</text>
+<text text-anchor="start" x="149.52" y="-768.99" font-family="Roboto, sans-serif" font-size="14.00">Der Monteur hat keinen Zugang zur Lokation.</text>
+</g>
+<!-- 10&#45;&gt;A01 -->
+<g id="edge2" class="edge">
+<title>10-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M407.57,-885.25C392.91,-872.18 373.7,-855.05 356.05,-839.32"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="358.46,-836.78 348.66,-832.74 353.8,-842 358.46,-836.78"/>
+<text text-anchor="start" x="383.77" y="-854.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 20 -->
+<g id="node4" class="node">
+<title>20</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M975.05,-817.93C975.05,-817.93 510.5,-817.93 510.5,-817.93 504.5,-817.93 498.5,-811.93 498.5,-805.93 498.5,-805.93 498.5,-784.65 498.5,-784.65 498.5,-778.65 504.5,-772.65 510.5,-772.65 510.5,-772.65 975.05,-772.65 975.05,-772.65 981.05,-772.65 987.05,-778.65 987.05,-784.65 987.05,-784.65 987.05,-805.93 987.05,-805.93 987.05,-811.93 981.05,-817.93 975.05,-817.93"/>
+<text text-anchor="start" x="512.9" y="-796.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
+<text text-anchor="start" x="542.15" y="-796.99" font-family="Roboto, sans-serif" font-size="14.00">Ist f&#252;r die Ausf&#252;hrung der Bestellung der Aufbau einer neuen</text>
+<text text-anchor="start" x="512.9" y="-782.99" font-family="Roboto, sans-serif" font-size="14.00">Kommunikationsverbindung notwendig?</text>
+</g>
+<!-- 10&#45;&gt;20 -->
+<g id="edge3" class="edge">
+<title>10-&gt;20</title>
+<path fill="none" stroke="#88a0d6" d="M492.48,-885.25C543.77,-867.02 617.31,-840.88 671.41,-821.65"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="672.28,-825.06 680.53,-818.41 669.94,-818.46 672.28,-825.06"/>
+<text text-anchor="start" x="586.77" y="-854.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 30 -->
+<g id="node5" class="node">
+<title>30</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M789.67,-705.4C789.67,-705.4 187.88,-705.4 187.88,-705.4 181.88,-705.4 175.88,-699.4 175.88,-693.4 175.88,-693.4 175.88,-672.12 175.88,-672.12 175.88,-666.12 181.88,-660.12 187.88,-660.12 187.88,-660.12 789.67,-660.12 789.67,-660.12 795.67,-660.12 801.67,-666.12 801.67,-672.12 801.67,-672.12 801.67,-693.4 801.67,-693.4 801.67,-699.4 795.67,-705.4 789.67,-705.4"/>
+<text text-anchor="start" x="190.27" y="-684.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="219.52" y="-684.46" font-family="Roboto, sans-serif" font-size="14.00">Kann die Kommunikationsverbindung hergestellt werden, so dass die Ausf&#252;hrung</text>
+<text text-anchor="start" x="190.27" y="-670.46" font-family="Roboto, sans-serif" font-size="14.00">der Bestellung m&#246;glich ist?</text>
+</g>
+<!-- 20&#45;&gt;30 -->
+<g id="edge5" class="edge">
+<title>20-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M693.2,-772.72C651.76,-754.69 592.55,-728.92 548.51,-709.75"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="550.18,-706.66 539.61,-705.88 547.39,-713.08 550.18,-706.66"/>
+<text text-anchor="start" x="615.77" y="-728.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 40 -->
+<g id="node7" class="node">
+<title>40</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1112.42,-581.23C1112.42,-581.23 563.12,-581.23 563.12,-581.23 557.12,-581.23 551.12,-575.23 551.12,-569.23 551.12,-569.23 551.12,-557.23 551.12,-557.23 551.12,-551.23 557.12,-545.23 563.12,-545.23 563.12,-545.23 1112.42,-545.23 1112.42,-545.23 1118.42,-545.23 1124.42,-551.23 1124.42,-557.23 1124.42,-557.23 1124.42,-569.23 1124.42,-569.23 1124.42,-575.23 1118.42,-581.23 1112.42,-581.23"/>
+<text text-anchor="start" x="565.52" y="-559.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
+<text text-anchor="start" x="594.77" y="-559.56" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich bei der &#196;nderung um eine Bestellung f&#252;r eine Steuerung?</text>
+</g>
+<!-- 20&#45;&gt;40 -->
+<g id="edge4" class="edge">
+<title>20-&gt;40</title>
+<path fill="none" stroke="#88a0d6" d="M763.87,-772.8C779.25,-755.87 799.34,-730.94 810.77,-705.4 827.28,-668.53 833.71,-621.85 836.2,-592.5"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="839.69,-592.8 836.94,-582.57 832.71,-592.28 839.69,-592.8"/>
+<text text-anchor="start" x="824.77" y="-679.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A02 -->
+<g id="node6" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M521.55,-606.87C521.55,-606.87 12,-606.87 12,-606.87 6,-606.87 0,-600.87 0,-594.87 0,-594.87 0,-531.59 0,-531.59 0,-525.59 6,-519.59 12,-519.59 12,-519.59 521.55,-519.59 521.55,-519.59 527.55,-519.59 533.55,-525.59 533.55,-531.59 533.55,-531.59 533.55,-594.87 533.55,-594.87 533.55,-600.87 527.55,-606.87 521.55,-606.87"/>
+<text text-anchor="start" x="14.4" y="-585.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="14.4" y="-557.93" font-family="Roboto, sans-serif" font-size="14.00">Gescheitert</text>
+<text text-anchor="start" x="14.4" y="-543.93" font-family="Roboto, sans-serif" font-size="14.00">Die &#196;nderung der Technik an der Lokation ist aufgrund einer fehlenden /</text>
+<text text-anchor="start" x="14.4" y="-529.93" font-family="Roboto, sans-serif" font-size="14.00">mangelhaften Kommunikationsverbindung nicht m&#246;glich.</text>
+</g>
+<!-- 30&#45;&gt;A02 -->
+<g id="edge6" class="edge">
+<title>30-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M448.06,-660.2C422.64,-646.75 388.88,-628.87 357.38,-612.2"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="359.06,-609.13 348.59,-607.54 355.79,-615.32 359.06,-609.13"/>
+<text text-anchor="start" x="409.77" y="-629.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 30&#45;&gt;40 -->
+<g id="edge7" class="edge">
+<title>30-&gt;40</title>
+<path fill="none" stroke="#88a0d6" d="M552.79,-660.2C616.69,-638.68 714.16,-605.86 776.92,-584.72"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="777.66,-588.17 786.02,-581.66 775.43,-581.53 777.66,-588.17"/>
+<text text-anchor="start" x="652.77" y="-629.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 50 -->
+<g id="node8" class="node">
+<title>50</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M874.42,-466.34C874.42,-466.34 277.12,-466.34 277.12,-466.34 271.12,-466.34 265.12,-460.34 265.12,-454.34 265.12,-454.34 265.12,-307.06 265.12,-307.06 265.12,-301.06 271.12,-295.06 277.12,-295.06 277.12,-295.06 874.42,-295.06 874.42,-295.06 880.42,-295.06 886.42,-301.06 886.42,-307.06 886.42,-307.06 886.42,-454.34 886.42,-454.34 886.42,-460.34 880.42,-466.34 874.42,-466.34"/>
+<text text-anchor="start" x="279.52" y="-445.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
+<text text-anchor="start" x="308.77" y="-445.4" font-family="Roboto, sans-serif" font-size="14.00">Ist das Mapping der SR/NeLo zu TR umsetzbar?</text>
+<text text-anchor="start" x="279.52" y="-431.4" font-family="Roboto, sans-serif" font-size="14.00">Hinweis:</text>
+<text text-anchor="start" x="279.52" y="-417.4" font-family="Roboto, sans-serif" font-size="14.00">Dies ist beispielweise dann nicht m&#246;glich, wenn die bestellte Entit&#228;t zwischen</text>
+<text text-anchor="start" x="279.52" y="-403.4" font-family="Roboto, sans-serif" font-size="14.00">SR/NeLo und TR sich Aufgrund der Vorort vorkommenden Anschlussstation der</text>
+<text text-anchor="start" x="279.52" y="-389.4" font-family="Roboto, sans-serif" font-size="14.00">Steuerung nicht umsetzen l&#228;sst. Dies kann z.B. sein, dass eine SR f&#252;r mehrere</text>
+<text text-anchor="start" x="279.52" y="-375.4" font-family="Roboto, sans-serif" font-size="14.00">TR bestellt wurde, vor Ort sind aber nur digitale Schnittstellen an den TR</text>
+<text text-anchor="start" x="279.52" y="-361.4" font-family="Roboto, sans-serif" font-size="14.00">vorhanden, welche somit nur in einer 1zu1 Beziehung technisch abbildbar sind,</text>
+<text text-anchor="start" x="279.52" y="-347.4" font-family="Roboto, sans-serif" font-size="14.00">oder umgekehrt, dass der NB eine 1zu1 Beziehung der SR zur TR bestellt hat aber</text>
+<text text-anchor="start" x="279.52" y="-333.4" font-family="Roboto, sans-serif" font-size="14.00">vor Ort mehrere TR analog zu einer SR verdrahtet sind. Ebenso kann vorkommen,</text>
+<text text-anchor="start" x="279.52" y="-319.4" font-family="Roboto, sans-serif" font-size="14.00">dass der Kunde ein Home Energy Management System (HEMS) vor Ort hat und keine</text>
+<text text-anchor="start" x="279.52" y="-305.4" font-family="Roboto, sans-serif" font-size="14.00">SR/TR Umsetzung m&#246;glich ist, sondern lediglich eine NeLo/TR (bzw. umgekehrt).</text>
+</g>
+<!-- 40&#45;&gt;50 -->
+<g id="edge9" class="edge">
+<title>40-&gt;50</title>
+<path fill="none" stroke="#88a0d6" d="M813.13,-545.25C788.37,-528.19 748.2,-500.51 707.9,-472.74"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="709.95,-469.9 699.73,-467.11 705.98,-475.67 709.95,-469.9"/>
+<text text-anchor="start" x="744.77" y="-489.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 60 -->
+<g id="node10" class="node">
+<title>60</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1119.8,-216.17C1119.8,-216.17 725.75,-216.17 725.75,-216.17 719.75,-216.17 713.75,-210.17 713.75,-204.17 713.75,-204.17 713.75,-192.17 713.75,-192.17 713.75,-186.17 719.75,-180.17 725.75,-180.17 725.75,-180.17 1119.8,-180.17 1119.8,-180.17 1125.8,-180.17 1131.8,-186.17 1131.8,-192.17 1131.8,-192.17 1131.8,-204.17 1131.8,-204.17 1131.8,-210.17 1125.8,-216.17 1119.8,-216.17"/>
+<text text-anchor="start" x="728.15" y="-194.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">60: </text>
+<text text-anchor="start" x="757.4" y="-194.5" font-family="Roboto, sans-serif" font-size="14.00">Ist ein zuvor nicht spezifizierter Fehler aufgetreten?</text>
+</g>
+<!-- 40&#45;&gt;60 -->
+<g id="edge8" class="edge">
+<title>40-&gt;60</title>
+<path fill="none" stroke="#88a0d6" d="M851.2,-545.37C864.96,-527.07 885.73,-496.42 895.77,-466.34 923.69,-382.77 925.1,-276.99 923.93,-227.33"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="927.43,-227.37 923.64,-217.48 920.44,-227.58 927.43,-227.37"/>
+<text text-anchor="start" x="922.77" y="-377.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A03 -->
+<g id="node9" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M683.55,-241.81C683.55,-241.81 126,-241.81 126,-241.81 120,-241.81 114,-235.81 114,-229.81 114,-229.81 114,-166.53 114,-166.53 114,-160.53 120,-154.53 126,-154.53 126,-154.53 683.55,-154.53 683.55,-154.53 689.55,-154.53 695.55,-160.53 695.55,-166.53 695.55,-166.53 695.55,-229.81 695.55,-229.81 695.55,-235.81 689.55,-241.81 683.55,-241.81"/>
+<text text-anchor="start" x="128.4" y="-220.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="128.4" y="-192.87" font-family="Roboto, sans-serif" font-size="14.00">Gescheitert</text>
+<text text-anchor="start" x="128.4" y="-178.87" font-family="Roboto, sans-serif" font-size="14.00">Die bestellte Zuordnung der genannten TR zur SR/NeLo l&#228;sst sich aufgrund der</text>
+<text text-anchor="start" x="128.4" y="-164.87" font-family="Roboto, sans-serif" font-size="14.00">Situation vor Ort nicht realisieren.</text>
+</g>
+<!-- 50&#45;&gt;A03 -->
+<g id="edge10" class="edge">
+<title>50-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M495.78,-295.25C481.1,-279.75 466.21,-264.03 452.84,-249.91"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="455.61,-247.75 446.19,-242.9 450.53,-252.56 455.61,-247.75"/>
+<text text-anchor="start" x="474.77" y="-264.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 50&#45;&gt;60 -->
+<g id="edge11" class="edge">
+<title>50-&gt;60</title>
+<path fill="none" stroke="#88a0d6" d="M738.35,-295.12C790.64,-267.91 844.26,-240.02 880.11,-221.37"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="881.59,-224.54 888.85,-216.82 878.36,-218.33 881.59,-224.54"/>
+<text text-anchor="start" x="799.77" y="-264.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A99 -->
+<g id="node11" class="node">
+<title>A99</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M656.05,-101.28C656.05,-101.28 95.5,-101.28 95.5,-101.28 89.5,-101.28 83.5,-95.28 83.5,-89.28 83.5,-89.28 83.5,-12 83.5,-12 83.5,-6 89.5,0 95.5,0 95.5,0 656.05,0 656.05,0 662.05,0 668.05,-6 668.05,-12 668.05,-12 668.05,-89.28 668.05,-89.28 668.05,-95.28 662.05,-101.28 656.05,-101.28"/>
+<text text-anchor="start" x="97.9" y="-80.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A99</text>
+<text text-anchor="start" x="97.9" y="-52.34" font-family="Roboto, sans-serif" font-size="14.00">Gescheitert</text>
+<text text-anchor="start" x="97.9" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Sonstiges</text>
+<text text-anchor="start" x="97.9" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.</text>
+<text text-anchor="start" x="97.9" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Nutzungsm&#246;glichkeit Ende: 01.10.2026 00:00 Uhr</text>
+</g>
+<!-- 60&#45;&gt;A99 -->
+<g id="edge12" class="edge">
+<title>60-&gt;A99</title>
+<path fill="none" stroke="#88a0d6" d="M858.96,-180.19C789.14,-161.62 673.77,-130.92 573.28,-104.19"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="574.38,-100.86 563.82,-101.67 572.58,-107.62 574.38,-100.86"/>
+<text text-anchor="start" x="681.77" y="-124.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- Stammdaten&#228;nderung vom MSB (verantwortlich) ausgehend versenden.
+Ggf. Aufbereitung und &#220;bermittlung von Werten vom MSB der Messlokation. -->
+<g id="node12" class="node">
+<title>Stammdaten&#228;nderung vom MSB (verantwortlich) ausgehend versenden.
+Ggf. Aufbereitung und &#220;bermittlung von Werten vom MSB der Messlokation.</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1233.3,-76.53C1233.3,-76.53 698.25,-76.53 698.25,-76.53 692.25,-76.53 686.25,-70.53 686.25,-64.53 686.25,-64.53 686.25,-36.75 686.25,-36.75 686.25,-30.75 692.25,-24.75 698.25,-24.75 698.25,-24.75 1233.3,-24.75 1233.3,-24.75 1239.3,-24.75 1245.3,-30.75 1245.3,-36.75 1245.3,-36.75 1245.3,-64.53 1245.3,-64.53 1245.3,-70.53 1239.3,-76.53 1233.3,-76.53"/>
+<text text-anchor="start" x="700.65" y="-54.59" font-family="Roboto, sans-serif" font-size="14.00">Stammdaten&#228;nderung vom MSB (verantwortlich) ausgehend versenden.</text>
+<text text-anchor="start" x="700.65" y="-37.34" font-family="Roboto, sans-serif" font-size="14.00">Ggf. Aufbereitung und &#220;bermittlung von Werten vom MSB der Messlokation.</text>
+</g>
+<!-- 60&#45;&gt;Stammdaten&#228;nderung vom MSB (verantwortlich) ausgehend versenden.
+Ggf. Aufbereitung und &#220;bermittlung von Werten vom MSB der Messlokation. -->
+<g id="edge13" class="edge">
+<title>60-&gt;Stammdaten&#228;nderung vom MSB (verantwortlich) ausgehend versenden.
+Ggf. Aufbereitung und &#220;bermittlung von Werten vom MSB der Messlokation.</title>
+<path fill="none" stroke="#88a0d6" d="M927.79,-180.19C934.49,-157.52 946.52,-116.79 955.26,-87.24"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="958.52,-88.56 957.99,-77.98 951.8,-86.57 958.52,-88.56"/>
+<text text-anchor="start" x="944.77" y="-124.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

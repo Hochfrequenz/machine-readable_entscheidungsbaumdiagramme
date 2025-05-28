@@ -1,0 +1,170 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.30.1: AD: Bestellung einer Konfiguration vom LF an MSB
+
+
+
+end title
+:<b>E_0531</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>10: </b> Liegt die bestellte Konfiguration zum bestellten Zeitpunkt an der / bzw. allen Lokationen bereits vor?) then (ja)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Die bestellte Konfiguration liegt bereits vor
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>20: </b> Handelt es sich um eine kostenpflichtige Konfiguration, welche im Preisblatt A des MSB aufgeführt ist?) then (ja)
+else (nein)
+    :A02;
+    note left
+        Cluster: Ablehnung
+        Nicht kostenpflichtige Konfiguration
+    endnote
+    kill;
+endif
+if (<b>30: </b> Liegt bereits eine kostenpflichtige Konfiguration vom Anfragenden an der betroffenen Lokation vor?) then (ja)
+    if (<b>40: </b> Ist in dieser Bestellung die Bestellnummer der Bestellung enthalten, mit der die bestehende kostenpflichtige Konfiguration bestellt wurde?
+Hinweis:
+Wenn bereits an der betreffenden Lokation eine Konfiguration von dem Anfragenden besteht, muss diese Konfiguration beendet werden. Aus diesem Grund gibt der Anfragende die Referenz der bislang geltenden Konfiguration an, da zu einem Zeitpunkt immer nur eine Konfiguration vorhanden sein kann.) then (ja)
+    else (nein)
+        :A03;
+        note left
+            Cluster: Ablehnung
+            Es besteht an der Lokation bereits eine Konfiguration. In der Bestellung ist die Bestellnummer zur bestehenden Konfiguration nicht enthalten.
+        endnote
+        kill;
+    endif
+    if (<b>50: </b> Sind die in der Anfrage enthaltenen Artikel auch im Preisblatt des MSB zum angefragten Zeitpunkt gültig) then (ja)
+    else (nein)
+        :A04;
+        note left
+            Cluster: Ablehnung
+            Es ist mindestens ein Artikel in der Anfrage, welcher vom MSB nicht angeboten wird
+        endnote
+        kill;
+    endif
+    if (<b>60: </b> Ist der MSB bei allen betroffenen Lokationen aktiver MSB?) then (ja)
+    else (nein)
+        :A05;
+        note left
+            Cluster: Ablehnung
+            Der MSB ist nicht an allen Lokationen der zugeordnete MSB
+        endnote
+        kill;
+    endif
+    if (<b>70: </b> Ist die bestellte Konfiguration an der betroffenen Lokation möglich?) then (ja)
+    else (nein)
+        :A06;
+        note left
+            Cluster: Ablehnung
+            Konfiguration ist an der betroffenen Lokation nicht möglich
+        endnote
+        kill;
+    endif
+    if (<b>75: </b> Wurden die Vorlauffristen eingehalten?
+
+Hinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen) then (ja)
+    else (nein)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Die Vorlauffrist wurde nicht eingehalten.
+        endnote
+        kill;
+    endif
+    if (<b>80: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Cluster: Ablehnung
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+            Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+        :Angebot versenden;
+        kill;
+    endif
+else (nein)
+endif
+if (<b>50: </b> Sind die in der Anfrage enthaltenen Artikel auch im Preisblatt des MSB zum angefragten Zeitpunkt gültig) then (ja)
+else (nein)
+    :A04;
+    note left
+        Cluster: Ablehnung
+        Es ist mindestens ein Artikel in der Anfrage, welcher vom MSB nicht angeboten wird
+    endnote
+    kill;
+endif
+if (<b>60: </b> Ist der MSB bei allen betroffenen Lokationen aktiver MSB?) then (ja)
+else (nein)
+    :A05;
+    note left
+        Cluster: Ablehnung
+        Der MSB ist nicht an allen Lokationen der zugeordnete MSB
+    endnote
+    kill;
+endif
+if (<b>70: </b> Ist die bestellte Konfiguration an der betroffenen Lokation möglich?) then (ja)
+else (nein)
+    :A06;
+    note left
+        Cluster: Ablehnung
+        Konfiguration ist an der betroffenen Lokation nicht möglich
+    endnote
+    kill;
+endif
+if (<b>75: </b> Wurden die Vorlauffristen eingehalten?
+
+Hinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen) then (ja)
+else (nein)
+    :A07;
+    note left
+        Cluster: Ablehnung
+        Die Vorlauffrist wurde nicht eingehalten.
+    endnote
+    kill;
+endif
+if (<b>80: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Cluster: Ablehnung
+        Sonstiges
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+        Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+    :Angebot versenden;
+    kill;
+endif
+
+@enduml

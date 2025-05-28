@@ -1,0 +1,156 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Prozesse zur Änderung der Technik an Lokationen
+
+9.2.1: AD: Messlokationsänderung vom LF an MSB
+
+
+
+end title
+:<b>E_0281</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>10: </b> Ist der LF der Marktlokation der genannten Lokation im gewünschten Umsetzungszeitraum zugeordnet?) then (ja)
+else (nein)
+    if (<b>20: </b> Liegt dem MSB eine Vollmacht des Letztverbrauchers bzw. Erzeugers vor?
+Hinweis: Die Vollmacht kann auch als Link in der Anfrage des Angebots zur Änderung der Technik übermittelt worden sein.) then (ja)
+    else (nein)
+        :A01;
+        note left
+            Cluster: Ablehnung
+            Vollmacht des Letztverbrauchers bzw. Erzeugers liegt nicht vor.
+        endnote
+        kill;
+    endif
+    if (<b>30: </b> Ist die Vollmacht plausibel und gültig?) then (ja)
+    else (nein)
+        :A02;
+        note left
+            Cluster: Ablehnung
+            Vollmacht ist nicht plausibel und gültig.
+        endnote
+        kill;
+    endif
+    if (<b>40: </b> Bietet der MSB die Leistungen gemäß Preisblatt an?) then (ja)
+    else (nein)
+        :A05;
+        note left
+            Cluster: Ablehnung
+            Der MSB bietet die Leistung nicht an.
+        endnote
+        kill;
+    endif
+    if (<b>50: </b> Ist der LF berechtigt dieses Produkt anzufragen?) then (ja)
+    else (nein)
+        :A06;
+        note left
+            Cluster: Ablehnung
+            Der LF hat keine Berechtigung dieses Produkt anzufragen.
+        endnote
+        kill;
+    endif
+    if (<b>60: </b> Liegt die angefragte Technik an der Lokation bereits vor?) then (ja)
+        :A03;
+        note left
+            Cluster: Ablehnung
+            Bestellte Technik liegt bereits vor.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>70: </b> Ist die angefragte Technik an der betroffenen Lokation grundsätzlich möglich?) then (ja)
+    else (nein)
+        :A04;
+        note left
+            Cluster: Ablehnung
+            Gewünschte Technik ist an der betroffenen Lokation nicht möglich.
+        endnote
+        kill;
+    endif
+    if (<b>80: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Cluster: Ablehnung
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+            Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+        :Angebot versenden;
+        kill;
+    endif
+endif
+if (<b>40: </b> Bietet der MSB die Leistungen gemäß Preisblatt an?) then (ja)
+else (nein)
+    :A05;
+    note left
+        Cluster: Ablehnung
+        Der MSB bietet die Leistung nicht an.
+    endnote
+    kill;
+endif
+if (<b>50: </b> Ist der LF berechtigt dieses Produkt anzufragen?) then (ja)
+else (nein)
+    :A06;
+    note left
+        Cluster: Ablehnung
+        Der LF hat keine Berechtigung dieses Produkt anzufragen.
+    endnote
+    kill;
+endif
+if (<b>60: </b> Liegt die angefragte Technik an der Lokation bereits vor?) then (ja)
+    :A03;
+    note left
+        Cluster: Ablehnung
+        Bestellte Technik liegt bereits vor.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>70: </b> Ist die angefragte Technik an der betroffenen Lokation grundsätzlich möglich?) then (ja)
+else (nein)
+    :A04;
+    note left
+        Cluster: Ablehnung
+        Gewünschte Technik ist an der betroffenen Lokation nicht möglich.
+    endnote
+    kill;
+endif
+if (<b>80: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Cluster: Ablehnung
+        Sonstiges
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+        Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+    :Angebot versenden;
+    kill;
+endif
+
+@enduml

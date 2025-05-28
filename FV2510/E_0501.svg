@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1232.0px" viewBox="0 0 1232.0 506.6666666666667" height="506.6666666666667px">
+  <g>
+    <svg version="1.1" width="1232.0px" viewBox="0 0 1232.0 506.6666666666667" height="506.6666666666667px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1232.0" height="506.6666666666667" rx="20" ry="20"/><g>
+    <g transform="translate(409.3810194311461, 50.66666666666666) scale(1 1) translate(0, 0) scale(0.7134140617666386 0.7134140617666386) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="924pt" height="380pt" viewBox="0.00 0.00 924.30 380.09">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 362.09)">
+<title>D</title>
+<text text-anchor="start" x="74.78" y="-323.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">GPKE</text>
+<text text-anchor="start" x="74.78" y="-295.89" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">6.12.3: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M624.17,-254.09C624.17,-254.09 487.38,-254.09 487.38,-254.09 481.38,-254.09 475.38,-248.09 475.38,-242.09 475.38,-242.09 475.38,-220.81 475.38,-220.81 475.38,-214.81 481.38,-208.81 487.38,-208.81 487.38,-208.81 624.17,-208.81 624.17,-208.81 630.17,-208.81 636.17,-214.81 636.17,-220.81 636.17,-220.81 636.17,-242.09 636.17,-242.09 636.17,-248.09 630.17,-254.09 624.17,-254.09"/>
+<text text-anchor="start" x="489.77" y="-233.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0501</text>
+<text text-anchor="start" x="489.77" y="-219.15" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="599.27" y="-219.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 10 -->
+<g id="node2" class="node">
+<title>10</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M843.55,-171.81C843.55,-171.81 268,-171.81 268,-171.81 262,-171.81 256,-165.81 256,-159.81 256,-159.81 256,-138.53 256,-138.53 256,-132.53 262,-126.53 268,-126.53 268,-126.53 843.55,-126.53 843.55,-126.53 849.55,-126.53 855.55,-132.53 855.55,-138.53 855.55,-138.53 855.55,-159.81 855.55,-159.81 855.55,-165.81 849.55,-171.81 843.55,-171.81"/>
+<text text-anchor="start" x="270.4" y="-150.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="299.65" y="-150.87" font-family="Roboto, sans-serif" font-size="14.00">Teilt der NB (ggf. nach erfolgtem Clearing mit dem MSB) die Ansicht des MSB,</text>
+<text text-anchor="start" x="270.4" y="-136.87" font-family="Roboto, sans-serif" font-size="14.00">dass keine Sperrung erfolgen darf/kann?</text>
+</g>
+<!-- Start&#45;&gt;10 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;10</title>
+<path fill="none" stroke="#88a0d6" d="M555.77,-208.94C555.77,-201.02 555.77,-191.86 555.77,-183.16"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="559.28,-183.26 555.78,-173.26 552.28,-183.26 559.28,-183.26"/>
+</g>
+<!-- A01 -->
+<g id="node3" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M647.55,-73.28C647.55,-73.28 12,-73.28 12,-73.28 6,-73.28 0,-67.28 0,-61.28 0,-61.28 0,-12 0,-12 0,-6 6,0 12,0 12,0 647.55,0 647.55,0 653.55,0 659.55,-6 659.55,-12 659.55,-12 659.55,-61.28 659.55,-61.28 659.55,-67.28 653.55,-73.28 647.55,-73.28"/>
+<text text-anchor="start" x="14.4" y="-52.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="14.4" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="14.4" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Der Antwortgrund des MSB aus &#8222;E_0488_Anfrage pr&#252;fen&#8220; muss dem LF mitgeteilt werden.</text>
+</g>
+<!-- 10&#45;&gt;A01 -->
+<g id="edge2" class="edge">
+<title>10-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M511.66,-126.6C483.49,-112.82 446.08,-94.52 412.52,-78.11"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="414.12,-74.99 403.6,-73.74 411.04,-81.28 414.12,-74.99"/>
+<text text-anchor="start" x="468.77" y="-96.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- Sperrauftrag durchf&#252;hren. -->
+<g id="node4" class="node">
+<title>Sperrauftrag durchf&#252;hren.</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M876.3,-54.64C876.3,-54.64 689.25,-54.64 689.25,-54.64 683.25,-54.64 677.25,-48.64 677.25,-42.64 677.25,-42.64 677.25,-30.64 677.25,-30.64 677.25,-24.64 683.25,-18.64 689.25,-18.64 689.25,-18.64 876.3,-18.64 876.3,-18.64 882.3,-18.64 888.3,-24.64 888.3,-30.64 888.3,-30.64 888.3,-42.64 888.3,-42.64 888.3,-48.64 882.3,-54.64 876.3,-54.64"/>
+<text text-anchor="start" x="691.65" y="-31.96" font-family="Roboto, sans-serif" font-size="14.00">Sperrauftrag durchf&#252;hren.</text>
+</g>
+<!-- 10&#45;&gt;Sperrauftrag durchf&#252;hren. -->
+<g id="edge3" class="edge">
+<title>10-&gt;Sperrauftrag durchf&#252;hren.</title>
+<path fill="none" stroke="#88a0d6" d="M600.08,-126.6C639.76,-107.28 697.68,-79.07 737.62,-59.63"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="739.05,-62.82 746.51,-55.3 735.98,-56.53 739.05,-62.82"/>
+<text text-anchor="start" x="668.77" y="-96.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>
