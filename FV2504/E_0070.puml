@@ -50,8 +50,8 @@ else (nein)
     endnote
     kill;
 endif
-if (<b>3: </b> Entspricht das Bilanzierungsgebiet dem zwischen NB (über LF&#41; und ÜNB ausgetauschten Bilanzierungsgebiet?) then (ja)
-    if (<b>4: </b> Entspricht der Bilanzkreis dem zwischen NB (über LF&#41; und ÜNB ausgetauschten Bilanzkreis?) then (ja)
+if (<b>3: </b> Entspricht das Bilanzierungsgebiet dem zwischen NB und ÜNB ausgetauschten Bilanzierungsgebiet?) then (ja)
+    if (<b>4: </b> Entspricht der Bilanzkreis dem zwischen NB und ÜNB ausgetauschten Bilanzkreis?) then (ja)
         if (<b>5: </b> Entspricht der Bilanzierungsbeginn der Erwartung des NB?) then (ja)
             if (<b>6: </b> Entspricht das Bilanzierungsende der Erwartung des NB?) then (ja)
                 if (<b>7: </b> Entspricht das normierte Profil dem zwischen NB und LF ausgetauschten normierten Profil?) then (ja)
@@ -84,7 +84,7 @@ endif
 :A03;
 note left
     Cluster: Korrekturliste wegen Ablehnung
-    Bilanzierungsrel. Daten nicht korrekt / fehlen 
+    bilanzierungsrel. Daten nicht korrekt / fehlen 
     Ist mit Werten des NB zu allen Stammdaten gefüllt
 endnote
 kill;

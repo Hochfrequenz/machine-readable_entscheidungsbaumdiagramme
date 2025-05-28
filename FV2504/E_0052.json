@@ -84,7 +84,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist in der BG-CL eine Marktlokation enthalten, die im Bilanzierungsmonat dem LF zur Bilanzierung nicht zu-geordnet ist?",
+      "description": "Ist in der BG-CL eine Marktlokation enthalten, die im Bilanzierungsmonat dem NB zur Bilanzierung nicht zugeordnet ist?",
       "step_number": "4",
       "sub_rows": [
         {
@@ -92,7 +92,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nMarktlokation falschem LF zugeordnet",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nMarktlokation falschem NB zugeordnet",
           "result_code": "A04"
         },
         {
@@ -130,7 +130,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht das Bilanzierungsgebiet dem zwischen NB (über LF) und ÜNB ausgetauschten Bilanzierungsgebiet?",
+      "description": "Entspricht das Bilanzierungsgebiet dem zwischen NB und ÜNB ausgetauschten Bilanzierungsgebiet?",
       "step_number": "6",
       "sub_rows": [
         {
@@ -138,7 +138,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen",
           "result_code": "A06"
         },
         {
@@ -153,7 +153,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht der Bilanzkreis dem zwischen NB (über LF) und ÜNB ausgetauschten Bilanzkreis?",
+      "description": "Entspricht der Bilanzkreis dem zwischen NB und ÜNB ausgetauschten Bilanzkreis?",
       "step_number": "7",
       "sub_rows": [
         {
@@ -161,7 +161,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen",
           "result_code": "A06"
         },
         {
@@ -184,7 +184,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen",
           "result_code": "A06"
         },
         {
@@ -207,7 +207,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen",
           "result_code": "A06"
         },
         {
@@ -222,7 +222,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht das normierte Profil dem zwischen NB (über LF) und ÜNB ausgetauschten normierten Profil?",
+      "description": "Entspricht das normierte Profil dem zwischen NB und ÜNB ausgetauschten normierten Profil?",
       "step_number": "10",
       "sub_rows": [
         {
@@ -230,7 +230,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen",
           "result_code": "A06"
         },
         {
@@ -253,7 +253,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen",
           "result_code": "A06"
         },
         {
@@ -268,7 +268,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht die veranschlagte Prognosemenge (JVP) der zwischen NB (über LF) und ÜNB ausgetauschten Prognosemenge?",
+      "description": "Entspricht die veranschlagte Prognosemenge (JVP) der zwischen NB und ÜNB ausgetauschten Prognosemenge?",
       "step_number": "12",
       "sub_rows": [
         {
@@ -276,7 +276,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen",
           "result_code": "A06"
         },
         {
@@ -299,7 +299,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen",
           "result_code": "A06"
         },
         {
@@ -314,7 +314,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht der Zeitreihentyp dem zwischen NB (über LF) und ÜNB ausgetauschten?",
+      "description": "Entspricht der Zeitreihentyp dem zwischen NB und ÜNB ausgetauschten?",
       "step_number": "14",
       "sub_rows": [
         {
@@ -322,7 +322,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Korrekturliste wegen Ablehnung\nBilanzierungsrel. Daten nicht korrekt / fehlen",
+          "note": "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen",
           "result_code": "A06"
         },
         {
