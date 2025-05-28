@@ -59,7 +59,7 @@ else (nein)
     endnote
     kill;
 endif
-if (<b>4: </b> Ist eine erwartete Marktlokation in der BG-CL nicht ent-halten?) then (ja)
+if (<b>4: </b> Ist eine erwartete Marktlokation in der BG-CL nicht enthalten?) then (ja)
     :A04;
     note left
         Cluster: Korrekturliste wegen Ablehnung 
@@ -68,11 +68,11 @@ if (<b>4: </b> Ist eine erwartete Marktlokation in der BG-CL nicht ent-halten?) 
     kill;
 else (nein)
 endif
-if (<b>5: </b> Ist in der BG-CL eine Marktlokation enthalten, die im Bilanzierungsmonat dem LF zur Bilanzierung nicht zu-geordnet ist?) then (ja)
+if (<b>5: </b> Ist in der BG-CL eine Marktlokation enthalten, die im Bilanzierungsmonat dem NB zur Bilanzierung nicht zugeordnet ist?) then (ja)
     :A05;
     note left
         Cluster: Korrekturliste wegen Ablehnung
-        Marktlokation falschem LF zugeordnet
+        Marktlokation falschem NB zugeordnet
     endnote
     kill;
 else (nein)
@@ -86,15 +86,15 @@ else (nein)
     endnote
     kill;
 endif
-if (<b>7: </b> Entspricht das Bilanzierungsgebiet dem zwischen NB (über LF&#41; und ÜNB ausgetauschten Bilanzierungsgebiet?) then (ja)
-    if (<b>8: </b> Entspricht der Bilanzkreis dem zwischen NB (über LF&#41; und ÜNB ausgetauschten Bilanzkreis?) then (ja)
+if (<b>7: </b> Entspricht das Bilanzierungsgebiet dem zwischen NB und ÜNB ausgetauschten Bilanzierungsgebiet?) then (ja)
+    if (<b>8: </b> Entspricht der Bilanzkreis dem zwischen NB und ÜNB ausgetauschten Bilanzkreis?) then (ja)
         if (<b>9: </b> Entspricht der Bilanzierungsbeginn der Erwartung des NB?) then (ja)
             if (<b>10: </b> Entspricht das Bilanzierungsende der Erwartung des NB?) then (ja)
-                if (<b>11: </b> Entspricht das normierte Profil dem zwischen NB (über LF&#41; und ÜNB ausgetauschten normierten Profil?) then (ja)
+                if (<b>11: </b> Entspricht das normierte Profil dem zwischen NB und ÜNB ausgetauschten normierten Profil?) then (ja)
                     if (<b>12: </b> Entspricht die Versionsangabe des Profils der zwischen NB und ÜNB ausgetauschten Version des Profils?) then (ja)
-                        if (<b>13: </b> Entspricht die veranschlagte Prognosemenge (JVP&#41; der zwischen NB (über LF&#41; und ÜNB ausgetauschten Prognosemenge?) then (ja)
+                        if (<b>13: </b> Entspricht die veranschlagte Prognosemenge (JVP&#41; der zwischen NB und ÜNB ausgetauschten Prognosemenge?) then (ja)
                             if (<b>14: </b> Entspricht die tatsächlich bilanzierte Menge der erwarteten bilanzierten Menge (monatlich gemessene Menge auf Basis der Summe der 1/4-h-Werten&#41;?) then (ja)
-                                if (<b>15: </b> Entspricht der Zeitreihentyp dem zwischen NB (über LF&#41; und ÜNB ausgetauschten?) then (ja)
+                                if (<b>15: </b> Entspricht der Zeitreihentyp dem zwischen NB und ÜNB ausgetauschten?) then (ja)
                                     end
                                 else (nein)
                                 endif
@@ -117,7 +117,7 @@ endif
 :A07;
 note left
     Cluster: Korrekturliste wegen Ablehnung
-    Bilanzierungsrel. Daten nicht korrekt / fehlen
+    bilanzierungsrel. Daten nicht korrekt / fehlen
 endnote
 kill;
 
