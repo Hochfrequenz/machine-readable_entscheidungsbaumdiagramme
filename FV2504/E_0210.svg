@@ -1,0 +1,1236 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="488.0px" viewBox="0 0 488.0 1920.0" height="1920.0px">
+  <g>
+    <svg version="1.1" width="488.0px" viewBox="0 0 488.0 1920.0" height="1920.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="488.0" height="1920.0" rx="20" ry="20"/><g>
+    <g transform="translate(48.79999999999999, 768.5338857813687) scale(1 1) translate(0, 0) scale(0.6739866031351427 0.6739866031351427) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="366pt" height="1440pt" viewBox="0.00 0.00 366.22 1440.00">
+<g id="graph0" class="graph" transform="scale(0.240511 0.240511) rotate(0) translate(18 5969.26)">
+<title>D</title>
+<text text-anchor="start" x="461.71" y="-5931.16" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">WiM Strom</text>
+<text text-anchor="start" x="461.71" y="-5903.06" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">8.13.1: AD: Abrechnung Messstellenbetrieb gegen&#252;ber dem LF</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M450.92,-5861.26C450.92,-5861.26 317.88,-5861.26 317.88,-5861.26 311.88,-5861.26 305.88,-5855.26 305.88,-5849.26 305.88,-5849.26 305.88,-5827.98 305.88,-5827.98 305.88,-5821.98 311.88,-5815.98 317.88,-5815.98 317.88,-5815.98 450.92,-5815.98 450.92,-5815.98 456.92,-5815.98 462.92,-5821.98 462.92,-5827.98 462.92,-5827.98 462.92,-5849.26 462.92,-5849.26 462.92,-5855.26 456.92,-5861.26 450.92,-5861.26"/>
+<text text-anchor="start" x="320.27" y="-5840.32" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0210</text>
+<text text-anchor="start" x="320.27" y="-5826.32" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="429.77" y="-5826.32" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">LF</text>
+</g>
+<!-- 10 -->
+<g id="node2" class="node">
+<title>10</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M639.55,-5778.98C639.55,-5778.98 129.25,-5778.98 129.25,-5778.98 123.25,-5778.98 117.25,-5772.98 117.25,-5766.98 117.25,-5766.98 117.25,-5754.98 117.25,-5754.98 117.25,-5748.98 123.25,-5742.98 129.25,-5742.98 129.25,-5742.98 639.55,-5742.98 639.55,-5742.98 645.55,-5742.98 651.55,-5748.98 651.55,-5754.98 651.55,-5754.98 651.55,-5766.98 651.55,-5766.98 651.55,-5772.98 645.55,-5778.98 639.55,-5778.98"/>
+<text text-anchor="start" x="131.65" y="-5757.31" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="160.9" y="-5757.31" font-family="Roboto, sans-serif" font-size="14.00">Entspricht die Rechnung den Anforderungen gem. &#167;14 Abs. 4 UStG?</text>
+</g>
+<!-- Start&#45;&gt;10 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;10</title>
+<path fill="none" stroke="#88a0d6" d="M384.4,-5816.15C384.4,-5808.07 384.4,-5798.77 384.4,-5790.17"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="387.9,-5790.21 384.4,-5780.21 380.9,-5790.21 387.9,-5790.21"/>
+</g>
+<!-- A01 -->
+<g id="node3" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M304.17,-5689.73C304.17,-5689.73 46.62,-5689.73 46.62,-5689.73 40.62,-5689.73 34.62,-5683.73 34.62,-5677.73 34.62,-5677.73 34.62,-5628.45 34.62,-5628.45 34.62,-5622.45 40.62,-5616.45 46.62,-5616.45 46.62,-5616.45 304.17,-5616.45 304.17,-5616.45 310.17,-5616.45 316.17,-5622.45 316.17,-5628.45 316.17,-5628.45 316.17,-5677.73 316.17,-5677.73 316.17,-5683.73 310.17,-5689.73 304.17,-5689.73"/>
+<text text-anchor="start" x="49.02" y="-5668.79" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="49.02" y="-5640.79" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="49.02" y="-5626.79" font-family="Roboto, sans-serif" font-size="14.00">Rechnung entspricht nicht &#167;14 UStG</text>
+</g>
+<!-- 10&#45;&gt;A01 -->
+<g id="edge2" class="edge">
+<title>10-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M351.28,-5743.2C325.62,-5730.2 288.96,-5711.63 255.75,-5694.8"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="257.42,-5691.72 246.91,-5690.32 254.25,-5697.96 257.42,-5691.72"/>
+<text text-anchor="start" x="310.4" y="-5712.68" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 20 -->
+<g id="node4" class="node">
+<title>20</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M726.67,-5671.09C726.67,-5671.09 346.12,-5671.09 346.12,-5671.09 340.12,-5671.09 334.12,-5665.09 334.12,-5659.09 334.12,-5659.09 334.12,-5647.09 334.12,-5647.09 334.12,-5641.09 340.12,-5635.09 346.12,-5635.09 346.12,-5635.09 726.67,-5635.09 726.67,-5635.09 732.67,-5635.09 738.67,-5641.09 738.67,-5647.09 738.67,-5647.09 738.67,-5659.09 738.67,-5659.09 738.67,-5665.09 732.67,-5671.09 726.67,-5671.09"/>
+<text text-anchor="start" x="348.52" y="-5649.42" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
+<text text-anchor="start" x="377.77" y="-5649.42" font-family="Roboto, sans-serif" font-size="14.00">Ist das Rechnungsdatum &#8804; dem Eingangsdatum?</text>
+</g>
+<!-- 10&#45;&gt;20 -->
+<g id="edge3" class="edge">
+<title>10-&gt;20</title>
+<path fill="none" stroke="#88a0d6" d="M408.48,-5743.2C433.98,-5725.44 474.41,-5697.28 502.98,-5677.37"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="504.73,-5680.42 510.93,-5671.83 500.73,-5674.67 504.73,-5680.42"/>
+<text text-anchor="start" x="455.4" y="-5712.68" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A02 -->
+<g id="node5" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M415.92,-5563.2C415.92,-5563.2 150.88,-5563.2 150.88,-5563.2 144.88,-5563.2 138.87,-5557.2 138.87,-5551.2 138.87,-5551.2 138.87,-5501.92 138.87,-5501.92 138.87,-5495.92 144.87,-5489.92 150.87,-5489.92 150.87,-5489.92 415.92,-5489.92 415.92,-5489.92 421.92,-5489.92 427.92,-5495.92 427.92,-5501.92 427.92,-5501.92 427.92,-5551.2 427.92,-5551.2 427.92,-5557.2 421.92,-5563.2 415.92,-5563.2"/>
+<text text-anchor="start" x="153.27" y="-5542.26" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="153.27" y="-5514.26" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="153.27" y="-5500.26" font-family="Roboto, sans-serif" font-size="14.00">Rechnungsdatum liegt in der Zukunft</text>
+</g>
+<!-- 20&#45;&gt;A02 -->
+<g id="edge4" class="edge">
+<title>20-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M502.02,-5635.17C467.22,-5618.04 412.12,-5590.92 365.95,-5568.19"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="367.51,-5565.06 356.99,-5563.78 364.42,-5571.34 367.51,-5565.06"/>
+<text text-anchor="start" x="424.4" y="-5586.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 30 -->
+<g id="node6" class="node">
+<title>30</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M961.17,-5544.56C961.17,-5544.56 457.62,-5544.56 457.62,-5544.56 451.62,-5544.56 445.62,-5538.56 445.62,-5532.56 445.62,-5532.56 445.62,-5520.56 445.62,-5520.56 445.62,-5514.56 451.62,-5508.56 457.62,-5508.56 457.62,-5508.56 961.17,-5508.56 961.17,-5508.56 967.17,-5508.56 973.17,-5514.56 973.17,-5520.56 973.17,-5520.56 973.17,-5532.56 973.17,-5532.56 973.17,-5538.56 967.17,-5544.56 961.17,-5544.56"/>
+<text text-anchor="start" x="460.02" y="-5522.89" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="489.27" y="-5522.89" font-family="Roboto, sans-serif" font-size="14.00">Ist das Rechnungsdatum &lt; das Ende des Abrechnungszeitraumes?</text>
+</g>
+<!-- 20&#45;&gt;30 -->
+<g id="edge5" class="edge">
+<title>20-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M559.73,-5635.3C589.91,-5613.57 642.65,-5575.61 676.79,-5551.04"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="678.59,-5554.05 684.66,-5545.37 674.5,-5548.37 678.59,-5554.05"/>
+<text text-anchor="start" x="632.4" y="-5586.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A03 -->
+<g id="node7" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M524.42,-5436.67C524.42,-5436.67 22.38,-5436.67 22.38,-5436.67 16.38,-5436.67 10.38,-5430.67 10.38,-5424.67 10.38,-5424.67 10.38,-5375.39 10.38,-5375.39 10.38,-5369.39 16.38,-5363.39 22.38,-5363.39 22.38,-5363.39 524.42,-5363.39 524.42,-5363.39 530.42,-5363.39 536.42,-5369.39 536.42,-5375.39 536.42,-5375.39 536.42,-5424.67 536.42,-5424.67 536.42,-5430.67 530.42,-5436.67 524.42,-5436.67"/>
+<text text-anchor="start" x="24.77" y="-5415.73" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="24.77" y="-5387.73" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="24.77" y="-5373.73" font-family="Roboto, sans-serif" font-size="14.00">Das Rechnungsdatum liegt vor dem Ende des Abrechnungszeitraumes.</text>
+</g>
+<!-- 30&#45;&gt;A03 -->
+<g id="edge6" class="edge">
+<title>30-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M650.15,-5508.64C588.42,-5491.01 489.62,-5462.79 408.67,-5439.67"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="409.92,-5436.38 399.34,-5437 407.99,-5443.11 409.92,-5436.38"/>
+<text text-anchor="start" x="517.4" y="-5459.62" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 40 -->
+<g id="node8" class="node">
+<title>40</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1150.3,-5422.67C1150.3,-5422.67 566.5,-5422.67 566.5,-5422.67 560.5,-5422.67 554.5,-5416.67 554.5,-5410.67 554.5,-5410.67 554.5,-5389.39 554.5,-5389.39 554.5,-5383.39 560.5,-5377.39 566.5,-5377.39 566.5,-5377.39 1150.3,-5377.39 1150.3,-5377.39 1156.3,-5377.39 1162.3,-5383.39 1162.3,-5389.39 1162.3,-5389.39 1162.3,-5410.67 1162.3,-5410.67 1162.3,-5416.67 1156.3,-5422.67 1150.3,-5422.67"/>
+<text text-anchor="start" x="568.9" y="-5401.73" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
+<text text-anchor="start" x="598.15" y="-5401.73" font-family="Roboto, sans-serif" font-size="14.00">Ist der Empf&#228;nger der Rechnung f&#252;r den genannten Abrechnungszeitraum der</text>
+<text text-anchor="start" x="568.9" y="-5387.73" font-family="Roboto, sans-serif" font-size="14.00">genannten Marktlokation mindestens einen Tag zugeordnet?</text>
+</g>
+<!-- 30&#45;&gt;40 -->
+<g id="edge7" class="edge">
+<title>30-&gt;40</title>
+<path fill="none" stroke="#88a0d6" d="M729.49,-5508.77C753.68,-5488.55 794.69,-5454.27 823.96,-5429.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="826.05,-5432.63 831.48,-5423.53 821.56,-5427.26 826.05,-5432.63"/>
+<text text-anchor="start" x="792.4" y="-5459.62" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A04 -->
+<g id="node9" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M656.92,-5310.14C656.92,-5310.14 157.88,-5310.14 157.88,-5310.14 151.88,-5310.14 145.88,-5304.14 145.88,-5298.14 145.88,-5298.14 145.88,-5234.86 145.88,-5234.86 145.88,-5228.86 151.88,-5222.86 157.88,-5222.86 157.88,-5222.86 656.92,-5222.86 656.92,-5222.86 662.92,-5222.86 668.92,-5228.86 668.92,-5234.86 668.92,-5234.86 668.92,-5298.14 668.92,-5298.14 668.92,-5304.14 662.92,-5310.14 656.92,-5310.14"/>
+<text text-anchor="start" x="160.27" y="-5289.2" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="160.27" y="-5261.2" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="160.27" y="-5247.2" font-family="Roboto, sans-serif" font-size="14.00">Der LF lehnt die Zahlung des Messstellenbetriebs ab. Der LF ist der</text>
+<text text-anchor="start" x="160.27" y="-5233.2" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation nicht einen Tag des Abrechnungszeitraumes zugeordnet.</text>
+</g>
+<!-- 40&#45;&gt;A04 -->
+<g id="edge8" class="edge">
+<title>40-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M784.43,-5377.46C724.89,-5360.09 639.1,-5335.07 564.4,-5313.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="565.5,-5309.96 554.92,-5310.52 563.54,-5316.68 565.5,-5309.96"/>
+<text text-anchor="start" x="672.4" y="-5333.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 50 -->
+<g id="node10" class="node">
+<title>50</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1328.17,-5289.14C1328.17,-5289.14 698.62,-5289.14 698.62,-5289.14 692.62,-5289.14 686.62,-5283.14 686.62,-5277.14 686.62,-5277.14 686.62,-5255.86 686.62,-5255.86 686.62,-5249.86 692.62,-5243.86 698.62,-5243.86 698.62,-5243.86 1328.17,-5243.86 1328.17,-5243.86 1334.17,-5243.86 1340.17,-5249.86 1340.17,-5255.86 1340.17,-5255.86 1340.17,-5277.14 1340.17,-5277.14 1340.17,-5283.14 1334.17,-5289.14 1328.17,-5289.14"/>
+<text text-anchor="start" x="701.02" y="-5268.2" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
+<text text-anchor="start" x="730.27" y="-5268.2" font-family="Roboto, sans-serif" font-size="14.00">Ist der Empf&#228;nger der Rechnung f&#252;r den gesamten genannten Abrechnungszeitraum</text>
+<text text-anchor="start" x="701.02" y="-5254.2" font-family="Roboto, sans-serif" font-size="14.00">der genannten Marktlokation zugeordnet?</text>
+</g>
+<!-- 40&#45;&gt;50 -->
+<g id="edge9" class="edge">
+<title>40-&gt;50</title>
+<path fill="none" stroke="#88a0d6" d="M883.65,-5377.6C909.69,-5355.5 950.47,-5320.9 979.35,-5296.39"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="981.39,-5299.25 986.75,-5290.11 976.86,-5293.92 981.39,-5299.25"/>
+<text text-anchor="start" x="940.4" y="-5333.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A05 -->
+<g id="node11" class="node">
+<title>A05</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M802.8,-5169.61C802.8,-5169.61 12,-5169.61 12,-5169.61 6,-5169.61 0,-5163.61 0,-5157.61 0,-5157.61 0,-5094.33 0,-5094.33 0,-5088.33 6,-5082.33 12,-5082.33 12,-5082.33 802.8,-5082.33 802.8,-5082.33 808.8,-5082.33 814.8,-5088.33 814.8,-5094.33 814.8,-5094.33 814.8,-5157.61 814.8,-5157.61 814.8,-5163.61 808.8,-5169.61 802.8,-5169.61"/>
+<text text-anchor="start" x="14.4" y="-5148.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="14.4" y="-5120.67" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="14.4" y="-5106.67" font-family="Roboto, sans-serif" font-size="14.00">Der LF lehnt die Zahlung des Messstellenbetriebs ab. Eine Ablehnung der Zahlung wird durch den LF begr&#252;ndet.</text>
+<text text-anchor="start" x="14.4" y="-5092.67" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Der LF gibt den erwarteten Abrechnungszeitraum an.</text>
+</g>
+<!-- 50&#45;&gt;A05 -->
+<g id="edge10" class="edge">
+<title>50-&gt;A05</title>
+<path fill="none" stroke="#88a0d6" d="M919.05,-5243.93C835.35,-5224.8 710.36,-5196.23 604.87,-5172.11"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="605.75,-5168.72 595.22,-5169.91 604.19,-5175.55 605.75,-5168.72"/>
+<text text-anchor="start" x="746.4" y="-5192.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 60 -->
+<g id="node12" class="node">
+<title>60</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1472.05,-5148.61C1472.05,-5148.61 844.75,-5148.61 844.75,-5148.61 838.75,-5148.61 832.75,-5142.61 832.75,-5136.61 832.75,-5136.61 832.75,-5115.33 832.75,-5115.33 832.75,-5109.33 838.75,-5103.33 844.75,-5103.33 844.75,-5103.33 1472.05,-5103.33 1472.05,-5103.33 1478.05,-5103.33 1484.05,-5109.33 1484.05,-5115.33 1484.05,-5115.33 1484.05,-5136.61 1484.05,-5136.61 1484.05,-5142.61 1478.05,-5148.61 1472.05,-5148.61"/>
+<text text-anchor="start" x="847.15" y="-5127.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">60: </text>
+<text text-anchor="start" x="876.4" y="-5127.67" font-family="Roboto, sans-serif" font-size="14.00">Liegt vom Rechnungssteller, die in dieser Rechnung verwendete Rechnungsnummer,</text>
+<text text-anchor="start" x="847.15" y="-5113.67" font-family="Roboto, sans-serif" font-size="14.00">bereits vor?</text>
+</g>
+<!-- 50&#45;&gt;60 -->
+<g id="edge11" class="edge">
+<title>50-&gt;60</title>
+<path fill="none" stroke="#88a0d6" d="M1035.74,-5244.16C1060.36,-5220.64 1100.12,-5182.65 1127.67,-5156.33"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1129.89,-5159.05 1134.7,-5149.61 1125.05,-5153.99 1129.89,-5159.05"/>
+<text text-anchor="start" x="1094.4" y="-5192.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A06 -->
+<g id="node13" class="node">
+<title>A06</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M830.8,-5029.08C830.8,-5029.08 508,-5029.08 508,-5029.08 502,-5029.08 496,-5023.08 496,-5017.08 496,-5017.08 496,-4967.8 496,-4967.8 496,-4961.8 502,-4955.8 508,-4955.8 508,-4955.8 830.8,-4955.8 830.8,-4955.8 836.8,-4955.8 842.8,-4961.8 842.8,-4967.8 842.8,-4967.8 842.8,-5017.08 842.8,-5017.08 842.8,-5023.08 836.8,-5029.08 830.8,-5029.08"/>
+<text text-anchor="start" x="510.4" y="-5008.14" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="510.4" y="-4980.14" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="510.4" y="-4966.14" font-family="Roboto, sans-serif" font-size="14.00">Rechnungsnummer wurde bereits verwendet.</text>
+</g>
+<!-- 60&#45;&gt;A06 -->
+<g id="edge12" class="edge">
+<title>60-&gt;A06</title>
+<path fill="none" stroke="#88a0d6" d="M1078.2,-5103.4C1006.35,-5084.07 899.28,-5055.27 812.74,-5031.99"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="813.78,-5028.65 803.21,-5029.43 811.96,-5035.41 813.78,-5028.65"/>
+<text text-anchor="start" x="928.4" y="-5052.03" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 70 -->
+<g id="node14" class="node">
+<title>70</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1443.93,-5015.08C1443.93,-5015.08 872.88,-5015.08 872.88,-5015.08 866.88,-5015.08 860.88,-5009.08 860.88,-5003.08 860.88,-5003.08 860.88,-4981.8 860.88,-4981.8 860.88,-4975.8 866.88,-4969.8 872.88,-4969.8 872.88,-4969.8 1443.93,-4969.8 1443.93,-4969.8 1449.93,-4969.8 1455.93,-4975.8 1455.93,-4981.8 1455.93,-4981.8 1455.93,-5003.08 1455.93,-5003.08 1455.93,-5009.08 1449.93,-5015.08 1443.93,-5015.08"/>
+<text text-anchor="start" x="875.28" y="-4994.14" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">70: </text>
+<text text-anchor="start" x="904.53" y="-4994.14" font-family="Roboto, sans-serif" font-size="14.00">Ist der Abrechnungszeitraum der Rechnung bereits in einer vorhergehenden,</text>
+<text text-anchor="start" x="875.28" y="-4980.14" font-family="Roboto, sans-serif" font-size="14.00">akzeptierten und nicht stornierten Rechnung enthalten?</text>
+</g>
+<!-- 60&#45;&gt;70 -->
+<g id="edge13" class="edge">
+<title>60-&gt;70</title>
+<path fill="none" stroke="#88a0d6" d="M1158.4,-5103.54C1158.4,-5082.62 1158.4,-5050.49 1158.4,-5026.33"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1161.9,-5026.37 1158.4,-5016.37 1154.9,-5026.37 1161.9,-5026.37"/>
+<text text-anchor="start" x="1158.4" y="-5052.03" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A07 -->
+<g id="node15" class="node">
+<title>A07</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1000.8,-4902.55C1000.8,-4902.55 552,-4902.55 552,-4902.55 546,-4902.55 540,-4896.55 540,-4890.55 540,-4890.55 540,-4841.27 540,-4841.27 540,-4835.27 546,-4829.27 552,-4829.27 552,-4829.27 1000.8,-4829.27 1000.8,-4829.27 1006.8,-4829.27 1012.8,-4835.27 1012.8,-4841.27 1012.8,-4841.27 1012.8,-4890.55 1012.8,-4890.55 1012.8,-4896.55 1006.8,-4902.55 1000.8,-4902.55"/>
+<text text-anchor="start" x="554.4" y="-4881.61" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A07</text>
+<text text-anchor="start" x="554.4" y="-4853.61" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="554.4" y="-4839.61" font-family="Roboto, sans-serif" font-size="14.00">Die Rechnung enth&#228;lt einen bereits abgerechnetes Zeitintervall.</text>
+</g>
+<!-- 70&#45;&gt;A07 -->
+<g id="edge14" class="edge">
+<title>70-&gt;A07</title>
+<path fill="none" stroke="#88a0d6" d="M1092.3,-4969.89C1038.39,-4952.32 960.84,-4927.04 896.08,-4905.92"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="897.42,-4902.68 886.82,-4902.91 895.25,-4909.33 897.42,-4902.68"/>
+<text text-anchor="start" x="989.4" y="-4925.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 80 -->
+<g id="node16" class="node">
+<title>80</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1274.43,-4883.91C1274.43,-4883.91 1042.38,-4883.91 1042.38,-4883.91 1036.38,-4883.91 1030.38,-4877.91 1030.38,-4871.91 1030.38,-4871.91 1030.38,-4859.91 1030.38,-4859.91 1030.38,-4853.91 1036.38,-4847.91 1042.38,-4847.91 1042.38,-4847.91 1274.43,-4847.91 1274.43,-4847.91 1280.43,-4847.91 1286.43,-4853.91 1286.43,-4859.91 1286.43,-4859.91 1286.43,-4871.91 1286.43,-4871.91 1286.43,-4877.91 1280.43,-4883.91 1274.43,-4883.91"/>
+<text text-anchor="start" x="1044.78" y="-4862.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">80: </text>
+<text text-anchor="start" x="1074.03" y="-4862.24" font-family="Roboto, sans-serif" font-size="14.00">Ist der f&#228;llige Betrag &#8805; Null?</text>
+</g>
+<!-- 70&#45;&gt;80 -->
+<g id="edge15" class="edge">
+<title>70-&gt;80</title>
+<path fill="none" stroke="#88a0d6" d="M1158.4,-4970.03C1158.4,-4949.28 1158.4,-4917.7 1158.4,-4894.95"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1161.9,-4895.17 1158.4,-4885.17 1154.9,-4895.17 1161.9,-4895.17"/>
+<text text-anchor="start" x="1158.4" y="-4925.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A08 -->
+<g id="node17" class="node">
+<title>A08</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M869.17,-4776.02C869.17,-4776.02 323.62,-4776.02 323.62,-4776.02 317.62,-4776.02 311.62,-4770.02 311.62,-4764.02 311.62,-4764.02 311.62,-4714.74 311.62,-4714.74 311.62,-4708.74 317.62,-4702.74 323.62,-4702.74 323.62,-4702.74 869.17,-4702.74 869.17,-4702.74 875.17,-4702.74 881.17,-4708.74 881.17,-4714.74 881.17,-4714.74 881.17,-4764.02 881.17,-4764.02 881.17,-4770.02 875.17,-4776.02 869.17,-4776.02"/>
+<text text-anchor="start" x="326.02" y="-4755.08" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A08</text>
+<text text-anchor="start" x="326.02" y="-4727.08" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="326.02" y="-4713.08" font-family="Roboto, sans-serif" font-size="14.00">Bei der Abrechnung des MSB kann es nicht zu einer R&#252;ckerstattung kommen.</text>
+</g>
+<!-- 80&#45;&gt;A08 -->
+<g id="edge16" class="edge">
+<title>80-&gt;A08</title>
+<path fill="none" stroke="#88a0d6" d="M1095.81,-4847.95C1072.51,-4841.81 1045.81,-4834.99 1021.4,-4829.27 945.14,-4811.39 860.76,-4793.37 787.42,-4778.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="788.2,-4774.87 777.7,-4776.29 786.79,-4781.73 788.2,-4774.87"/>
+<text text-anchor="start" x="939.4" y="-4798.97" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 90 -->
+<g id="node18" class="node">
+<title>90</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1406.05,-4769.02C1406.05,-4769.02 910.75,-4769.02 910.75,-4769.02 904.75,-4769.02 898.75,-4763.02 898.75,-4757.02 898.75,-4757.02 898.75,-4721.74 898.75,-4721.74 898.75,-4715.74 904.75,-4709.74 910.75,-4709.74 910.75,-4709.74 1406.05,-4709.74 1406.05,-4709.74 1412.05,-4709.74 1418.05,-4715.74 1418.05,-4721.74 1418.05,-4721.74 1418.05,-4757.02 1418.05,-4757.02 1418.05,-4763.02 1412.05,-4769.02 1406.05,-4769.02"/>
+<text text-anchor="start" x="913.15" y="-4748.08" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">90: </text>
+<text text-anchor="start" x="942.4" y="-4748.08" font-family="Roboto, sans-serif" font-size="14.00">Ist die Frist der F&#228;lligkeit unterschritten?</text>
+<text text-anchor="start" x="913.15" y="-4734.08" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: F&#228;lligkeit unterschritten bedeutet: Zahlungsziel&#160;&#8804;&#160;10&#160;WT zum</text>
+<text text-anchor="start" x="913.15" y="-4720.08" font-family="Roboto, sans-serif" font-size="14.00">Rechnungseingangsdatum</text>
+</g>
+<!-- 80&#45;&gt;90 -->
+<g id="edge17" class="edge">
+<title>80-&gt;90</title>
+<path fill="none" stroke="#88a0d6" d="M1158.4,-4848.12C1158.4,-4830.82 1158.4,-4803.22 1158.4,-4780.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1161.9,-4780.31 1158.4,-4770.31 1154.9,-4780.31 1161.9,-4780.31"/>
+<text text-anchor="start" x="1158.4" y="-4798.97" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A09 -->
+<g id="node19" class="node">
+<title>A09</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M810.92,-4649.49C810.92,-4649.49 557.88,-4649.49 557.88,-4649.49 551.88,-4649.49 545.88,-4643.49 545.88,-4637.49 545.88,-4637.49 545.88,-4588.21 545.88,-4588.21 545.88,-4582.21 551.88,-4576.21 557.88,-4576.21 557.88,-4576.21 810.92,-4576.21 810.92,-4576.21 816.92,-4576.21 822.92,-4582.21 822.92,-4588.21 822.92,-4588.21 822.92,-4637.49 822.92,-4637.49 822.92,-4643.49 816.92,-4649.49 810.92,-4649.49"/>
+<text text-anchor="start" x="560.27" y="-4628.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A09</text>
+<text text-anchor="start" x="560.27" y="-4600.55" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="560.27" y="-4586.55" font-family="Roboto, sans-serif" font-size="14.00">Das Zahlungsziel ist unterschritten.</text>
+</g>
+<!-- 90&#45;&gt;A09 -->
+<g id="edge18" class="edge">
+<title>90-&gt;A09</title>
+<path fill="none" stroke="#88a0d6" d="M1049.65,-4709.81C984.66,-4692.73 901.25,-4670.82 830.55,-4652.25"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="831.79,-4648.95 821.23,-4649.8 830.01,-4655.72 831.79,-4648.95"/>
+<text text-anchor="start" x="949.4" y="-4672.44" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 95 -->
+<g id="node20" class="node">
+<title>95</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1463.43,-4630.85C1463.43,-4630.85 853.38,-4630.85 853.38,-4630.85 847.38,-4630.85 841.38,-4624.85 841.38,-4618.85 841.38,-4618.85 841.38,-4606.85 841.38,-4606.85 841.38,-4600.85 847.38,-4594.85 853.38,-4594.85 853.38,-4594.85 1463.43,-4594.85 1463.43,-4594.85 1469.43,-4594.85 1475.43,-4600.85 1475.43,-4606.85 1475.43,-4606.85 1475.43,-4618.85 1475.43,-4618.85 1475.43,-4624.85 1469.43,-4630.85 1463.43,-4630.85"/>
+<text text-anchor="start" x="855.78" y="-4609.18" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">95: </text>
+<text text-anchor="start" x="885.03" y="-4609.18" font-family="Roboto, sans-serif" font-size="14.00">Wurde das in der Rechnung genannte Angebot auf Basis eines Preisblatts gestellt?</text>
+</g>
+<!-- 90&#45;&gt;95 -->
+<g id="edge19" class="edge">
+<title>90-&gt;95</title>
+<path fill="none" stroke="#88a0d6" d="M1158.4,-4709.81C1158.4,-4689.5 1158.4,-4662.34 1158.4,-4642.1"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1161.9,-4642.31 1158.4,-4632.31 1154.9,-4642.31 1161.9,-4642.31"/>
+<text text-anchor="start" x="1158.4" y="-4672.44" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 100 -->
+<g id="node21" class="node">
+<title>100</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1110.42,-4522.96C1110.42,-4522.96 272.38,-4522.96 272.38,-4522.96 266.38,-4522.96 260.37,-4516.96 260.37,-4510.96 260.37,-4510.96 260.37,-4475.68 260.37,-4475.68 260.37,-4469.68 266.37,-4463.68 272.37,-4463.68 272.37,-4463.68 1110.42,-4463.68 1110.42,-4463.68 1116.42,-4463.68 1122.42,-4469.68 1122.42,-4475.68 1122.42,-4475.68 1122.42,-4510.96 1122.42,-4510.96 1122.42,-4516.96 1116.42,-4522.96 1110.42,-4522.96"/>
+<text text-anchor="start" x="274.77" y="-4502.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">100: </text>
+<text text-anchor="start" x="313.77" y="-4502.02" font-family="Roboto, sans-serif" font-size="14.00">Liegt f&#252;r jeden Zeitpunkt des abgerechneten Zeitraums ein g&#252;ltiges Preisblatt &#8222;Preisblatt Messstellenbetrieb&#8220; vor?</text>
+<text text-anchor="start" x="274.77" y="-4488.02" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es k&#246;nnen mehrere aufeinanderfolgende Preisbl&#228;tter f&#252;r einen</text>
+<text text-anchor="start" x="274.77" y="-4474.02" font-family="Roboto, sans-serif" font-size="14.00">Abrechnungszeitraum vorliegen.</text>
+</g>
+<!-- 95&#45;&gt;100 -->
+<g id="edge20" class="edge">
+<title>95-&gt;100</title>
+<path fill="none" stroke="#88a0d6" d="M1090.99,-4594.89C1019.22,-4576.82 904.04,-4547.83 815.73,-4525.61"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="816.85,-4522.28 806.3,-4523.24 815.14,-4529.07 816.85,-4522.28"/>
+<text text-anchor="start" x="938.4" y="-4545.91" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 110 -->
+<g id="node23" class="node">
+<title>110</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1346.8,-4396.43C1346.8,-4396.43 742,-4396.43 742,-4396.43 736,-4396.43 730,-4390.43 730,-4384.43 730,-4384.43 730,-4363.15 730,-4363.15 730,-4357.15 736,-4351.15 742,-4351.15 742,-4351.15 1346.8,-4351.15 1346.8,-4351.15 1352.8,-4351.15 1358.8,-4357.15 1358.8,-4363.15 1358.8,-4363.15 1358.8,-4384.43 1358.8,-4384.43 1358.8,-4390.43 1352.8,-4396.43 1346.8,-4396.43"/>
+<text text-anchor="start" x="744.4" y="-4375.49" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">110: </text>
+<text text-anchor="start" x="783.4" y="-4375.49" font-family="Roboto, sans-serif" font-size="14.00">Wurde das in der Rechnung genannte Angebot des MSB zur &#220;bernahme der</text>
+<text text-anchor="start" x="744.4" y="-4361.49" font-family="Roboto, sans-serif" font-size="14.00">Rechnungsabwicklung des Messstellenbetriebs f&#252;r diese Marktlokation angenommen?</text>
+</g>
+<!-- 95&#45;&gt;110 -->
+<g id="edge21" class="edge">
+<title>95-&gt;110</title>
+<path fill="none" stroke="#88a0d6" d="M1158.48,-4595.28C1157.96,-4566.78 1153.99,-4507.34 1131.4,-4463.68 1119.38,-4440.44 1099.24,-4419.29 1081.37,-4403.45"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1083.84,-4400.96 1073.97,-4397.1 1079.28,-4406.27 1083.84,-4400.96"/>
+<text text-anchor="start" x="1150.4" y="-4489.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A10 -->
+<g id="node22" class="node">
+<title>A10</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M700.3,-4410.43C700.3,-4410.43 218.5,-4410.43 218.5,-4410.43 212.5,-4410.43 206.5,-4404.43 206.5,-4398.43 206.5,-4398.43 206.5,-4349.15 206.5,-4349.15 206.5,-4343.15 212.5,-4337.15 218.5,-4337.15 218.5,-4337.15 700.3,-4337.15 700.3,-4337.15 706.3,-4337.15 712.3,-4343.15 712.3,-4349.15 712.3,-4349.15 712.3,-4398.43 712.3,-4398.43 712.3,-4404.43 706.3,-4410.43 700.3,-4410.43"/>
+<text text-anchor="start" x="220.9" y="-4389.49" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A10</text>
+<text text-anchor="start" x="220.9" y="-4361.49" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="220.9" y="-4347.49" font-family="Roboto, sans-serif" font-size="14.00">Dem Lieferanten liegt kein g&#252;ltiges Preisblatt Messstellenbetrieb vor.</text>
+</g>
+<!-- 100&#45;&gt;A10 -->
+<g id="edge22" class="edge">
+<title>100-&gt;A10</title>
+<path fill="none" stroke="#88a0d6" d="M634.94,-4463.72C606.26,-4449.19 570.91,-4431.28 539.47,-4415.35"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="541.27,-4412.34 530.76,-4410.94 538.1,-4418.58 541.27,-4412.34"/>
+<text text-anchor="start" x="595.4" y="-4433.38" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 100&#45;&gt;110 -->
+<g id="edge23" class="edge">
+<title>100-&gt;110</title>
+<path fill="none" stroke="#88a0d6" d="M777.3,-4463.72C835.87,-4444.22 912.71,-4418.64 968.93,-4399.92"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="969.71,-4403.35 978.09,-4396.87 967.5,-4396.71 969.71,-4403.35"/>
+<text text-anchor="start" x="878.4" y="-4433.38" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A11 -->
+<g id="node24" class="node">
+<title>A11</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M572.3,-4283.9C572.3,-4283.9 12.5,-4283.9 12.5,-4283.9 6.5,-4283.9 0.5,-4277.9 0.5,-4271.9 0.5,-4271.9 0.5,-4208.62 0.5,-4208.62 0.5,-4202.62 6.5,-4196.62 12.5,-4196.62 12.5,-4196.62 572.3,-4196.62 572.3,-4196.62 578.3,-4196.62 584.3,-4202.62 584.3,-4208.62 584.3,-4208.62 584.3,-4271.9 584.3,-4271.9 584.3,-4277.9 578.3,-4283.9 572.3,-4283.9"/>
+<text text-anchor="start" x="14.9" y="-4262.96" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A11</text>
+<text text-anchor="start" x="14.9" y="-4234.96" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="14.9" y="-4220.96" font-family="Roboto, sans-serif" font-size="14.00">Die Abrechnung des Messstellenbetriebs ist nicht mit dem Lieferanten f&#252;r diese</text>
+<text text-anchor="start" x="14.9" y="-4206.96" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation vereinbart.</text>
+</g>
+<!-- 110&#45;&gt;A11 -->
+<g id="edge24" class="edge">
+<title>110-&gt;A11</title>
+<path fill="none" stroke="#88a0d6" d="M921.06,-4351.22C819.84,-4333.51 673.16,-4307.86 546.93,-4285.78"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="547.89,-4282.39 537.44,-4284.12 546.69,-4289.29 547.89,-4282.39"/>
+<text text-anchor="start" x="735.4" y="-4306.85" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 120 -->
+<g id="node25" class="node">
+<title>120</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1474.68,-4269.9C1474.68,-4269.9 614.13,-4269.9 614.13,-4269.9 608.13,-4269.9 602.13,-4263.9 602.13,-4257.9 602.13,-4257.9 602.13,-4222.62 602.13,-4222.62 602.13,-4216.62 608.13,-4210.62 614.13,-4210.62 614.13,-4210.62 1474.68,-4210.62 1474.68,-4210.62 1480.68,-4210.62 1486.68,-4216.62 1486.68,-4222.62 1486.68,-4222.62 1486.68,-4257.9 1486.68,-4257.9 1486.68,-4263.9 1480.68,-4269.9 1474.68,-4269.9"/>
+<text text-anchor="start" x="616.53" y="-4248.96" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">120: </text>
+<text text-anchor="start" x="655.53" y="-4248.96" font-family="Roboto, sans-serif" font-size="14.00">Ist das in der Rechnung genannte Angebot das j&#252;ngste best&#228;tigte Angebot, das genau zu diesem Zeitpunkt beginnt?</text>
+<text text-anchor="start" x="616.53" y="-4234.96" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das j&#252;ngste best&#228;tigte Angebot richtet sich nach dem Nachrichtendatum</text>
+<text text-anchor="start" x="616.53" y="-4220.96" font-family="Roboto, sans-serif" font-size="14.00">(Segment DTM+137) der QUOTES vom MSB.</text>
+</g>
+<!-- 110&#45;&gt;120 -->
+<g id="edge25" class="edge">
+<title>110-&gt;120</title>
+<path fill="none" stroke="#88a0d6" d="M1044.4,-4351.36C1044.4,-4332.31 1044.4,-4303.96 1044.4,-4280.8"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1047.9,-4281.08 1044.4,-4271.08 1040.9,-4281.08 1047.9,-4281.08"/>
+<text text-anchor="start" x="1044.4" y="-4306.85" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A12 -->
+<g id="node26" class="node">
+<title>A12</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M750.17,-4143.37C750.17,-4143.37 240.62,-4143.37 240.62,-4143.37 234.62,-4143.37 228.62,-4137.37 228.62,-4131.37 228.62,-4131.37 228.62,-4082.09 228.62,-4082.09 228.62,-4076.09 234.62,-4070.09 240.62,-4070.09 240.62,-4070.09 750.17,-4070.09 750.17,-4070.09 756.17,-4070.09 762.17,-4076.09 762.17,-4082.09 762.17,-4082.09 762.17,-4131.37 762.17,-4131.37 762.17,-4137.37 756.17,-4143.37 750.17,-4143.37"/>
+<text text-anchor="start" x="243.02" y="-4122.43" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A12</text>
+<text text-anchor="start" x="243.02" y="-4094.43" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="243.02" y="-4080.43" font-family="Roboto, sans-serif" font-size="14.00">Die Referenz erfolgt nicht auf das j&#252;ngste Angebot zu diesem Zeitpunkt.</text>
+</g>
+<!-- 120&#45;&gt;A12 -->
+<g id="edge26" class="edge">
+<title>120-&gt;A12</title>
+<path fill="none" stroke="#88a0d6" d="M924.94,-4210.64C845.83,-4191.69 741.17,-4166.61 654.97,-4145.96"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="656.03,-4142.61 645.49,-4143.69 654.39,-4149.42 656.03,-4142.61"/>
+<text text-anchor="start" x="785.4" y="-4166.32" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 130 -->
+<g id="node27" class="node">
+<title>130</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1382.68,-4129.37C1382.68,-4129.37 792.13,-4129.37 792.13,-4129.37 786.13,-4129.37 780.13,-4123.37 780.13,-4117.37 780.13,-4117.37 780.13,-4096.09 780.13,-4096.09 780.13,-4090.09 786.13,-4084.09 792.13,-4084.09 792.13,-4084.09 1382.68,-4084.09 1382.68,-4084.09 1388.68,-4084.09 1394.68,-4090.09 1394.68,-4096.09 1394.68,-4096.09 1394.68,-4117.37 1394.68,-4117.37 1394.68,-4123.37 1388.68,-4129.37 1382.68,-4129.37"/>
+<text text-anchor="start" x="794.53" y="-4108.43" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">130: </text>
+<text text-anchor="start" x="833.53" y="-4108.43" font-family="Roboto, sans-serif" font-size="14.00">Ist die Abrechnung des Messstellenbetriebs zwischen Lieferanten und MSB f&#252;r</text>
+<text text-anchor="start" x="794.53" y="-4094.43" font-family="Roboto, sans-serif" font-size="14.00">diese Marktlokation f&#252;r den abgerechneten Zeitraum vereinbart?</text>
+</g>
+<!-- 120&#45;&gt;130 -->
+<g id="edge27" class="edge">
+<title>120-&gt;130</title>
+<path fill="none" stroke="#88a0d6" d="M1053.73,-4210.72C1060.51,-4189.97 1069.71,-4161.85 1076.77,-4140.23"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1080.1,-4141.32 1079.88,-4130.73 1073.45,-4139.14 1080.1,-4141.32"/>
+<text text-anchor="start" x="1069.4" y="-4166.32" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A13 -->
+<g id="node28" class="node">
+<title>A13</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M763.3,-4016.84C763.3,-4016.84 203.5,-4016.84 203.5,-4016.84 197.5,-4016.84 191.5,-4010.84 191.5,-4004.84 191.5,-4004.84 191.5,-3941.56 191.5,-3941.56 191.5,-3935.56 197.5,-3929.56 203.5,-3929.56 203.5,-3929.56 763.3,-3929.56 763.3,-3929.56 769.3,-3929.56 775.3,-3935.56 775.3,-3941.56 775.3,-3941.56 775.3,-4004.84 775.3,-4004.84 775.3,-4010.84 769.3,-4016.84 763.3,-4016.84"/>
+<text text-anchor="start" x="205.9" y="-3995.9" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A13</text>
+<text text-anchor="start" x="205.9" y="-3967.9" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="205.9" y="-3953.9" font-family="Roboto, sans-serif" font-size="14.00">Die Abrechnung des Messstellenbetriebs ist nicht mit dem Lieferanten f&#252;r diese</text>
+<text text-anchor="start" x="205.9" y="-3939.9" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation f&#252;r den abgerechneten Zeitraum vereinbart.</text>
+</g>
+<!-- 130&#45;&gt;A13 -->
+<g id="edge28" class="edge">
+<title>130-&gt;A13</title>
+<path fill="none" stroke="#88a0d6" d="M988.34,-4084.16C907.61,-4066.58 790.88,-4041.16 689.98,-4019.19"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="691.01,-4015.83 680.49,-4017.12 689.52,-4022.67 691.01,-4015.83"/>
+<text text-anchor="start" x="839.4" y="-4039.79" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 135 -->
+<g id="node29" class="node">
+<title>135</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1411.93,-3995.84C1411.93,-3995.84 804.88,-3995.84 804.88,-3995.84 798.88,-3995.84 792.88,-3989.84 792.88,-3983.84 792.88,-3983.84 792.88,-3962.56 792.88,-3962.56 792.88,-3956.56 798.88,-3950.56 804.88,-3950.56 804.88,-3950.56 1411.93,-3950.56 1411.93,-3950.56 1417.93,-3950.56 1423.93,-3956.56 1423.93,-3962.56 1423.93,-3962.56 1423.93,-3983.84 1423.93,-3983.84 1423.93,-3989.84 1417.93,-3995.84 1411.93,-3995.84"/>
+<text text-anchor="start" x="807.28" y="-3974.9" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">135: </text>
+<text text-anchor="start" x="846.28" y="-3974.9" font-family="Roboto, sans-serif" font-size="14.00">Liegt im Abrechnungszeitraum mindestens ein weiteres best&#228;tigtes Angebot vor,</text>
+<text text-anchor="start" x="807.28" y="-3960.9" font-family="Roboto, sans-serif" font-size="14.00">welches zu einem Zeitpunkt beginnt, der innerhalb des Abrechnungszeitraumes liegt?</text>
+</g>
+<!-- 130&#45;&gt;135 -->
+<g id="edge29" class="edge">
+<title>130-&gt;135</title>
+<path fill="none" stroke="#88a0d6" d="M1090.82,-4084.3C1094.18,-4063.29 1099.34,-4030.95 1103.2,-4006.76"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1106.62,-4007.54 1104.74,-3997.11 1099.71,-4006.43 1106.62,-4007.54"/>
+<text text-anchor="start" x="1098.4" y="-4039.79" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A26 -->
+<g id="node30" class="node">
+<title>A26</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M778.3,-3876.31C778.3,-3876.31 176.5,-3876.31 176.5,-3876.31 170.5,-3876.31 164.5,-3870.31 164.5,-3864.31 164.5,-3864.31 164.5,-3815.03 164.5,-3815.03 164.5,-3809.03 170.5,-3803.03 176.5,-3803.03 176.5,-3803.03 778.3,-3803.03 778.3,-3803.03 784.3,-3803.03 790.3,-3809.03 790.3,-3815.03 790.3,-3815.03 790.3,-3864.31 790.3,-3864.31 790.3,-3870.31 784.3,-3876.31 778.3,-3876.31"/>
+<text text-anchor="start" x="178.9" y="-3855.37" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A26</text>
+<text text-anchor="start" x="178.9" y="-3827.37" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="178.9" y="-3813.37" font-family="Roboto, sans-serif" font-size="14.00">Es d&#252;rfen nicht mehrere best&#228;tigte Angebote in einer Rechnung abgerechnet werden.</text>
+</g>
+<!-- 135&#45;&gt;A26 -->
+<g id="edge30" class="edge">
+<title>135-&gt;A26</title>
+<path fill="none" stroke="#88a0d6" d="M1004.91,-3950.63C911.35,-3931.13 771.5,-3901.97 659.3,-3878.59"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="660.17,-3875.19 649.66,-3876.58 658.74,-3882.05 660.17,-3875.19"/>
+<text text-anchor="start" x="811.4" y="-3899.26" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 140 -->
+<g id="node31" class="node">
+<title>140</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1402.93,-3857.67C1402.93,-3857.67 819.88,-3857.67 819.88,-3857.67 813.88,-3857.67 807.88,-3851.67 807.88,-3845.67 807.88,-3845.67 807.88,-3833.67 807.88,-3833.67 807.88,-3827.67 813.88,-3821.67 819.88,-3821.67 819.88,-3821.67 1402.93,-3821.67 1402.93,-3821.67 1408.93,-3821.67 1414.93,-3827.67 1414.93,-3833.67 1414.93,-3833.67 1414.93,-3845.67 1414.93,-3845.67 1414.93,-3851.67 1408.93,-3857.67 1402.93,-3857.67"/>
+<text text-anchor="start" x="822.28" y="-3835.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">140: </text>
+<text text-anchor="start" x="861.28" y="-3835.99" font-family="Roboto, sans-serif" font-size="14.00">Ist ein zuvor nicht spezifizierter Fehler im Kopfteil der Rechnung aufgetreten?</text>
+</g>
+<!-- 135&#45;&gt;140 -->
+<g id="edge31" class="edge">
+<title>135-&gt;140</title>
+<path fill="none" stroke="#88a0d6" d="M1108.89,-3950.77C1109.4,-3928.48 1110.2,-3893.46 1110.76,-3868.92"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1114.25,-3869.08 1110.98,-3859 1107.25,-3868.92 1114.25,-3869.08"/>
+<text text-anchor="start" x="1109.4" y="-3899.26" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A90 -->
+<g id="node32" class="node">
+<title>A90</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M856.67,-3749.78C856.67,-3749.78 296.12,-3749.78 296.12,-3749.78 290.12,-3749.78 284.12,-3743.78 284.12,-3737.78 284.12,-3737.78 284.12,-3660.5 284.12,-3660.5 284.12,-3654.5 290.12,-3648.5 296.12,-3648.5 296.12,-3648.5 856.67,-3648.5 856.67,-3648.5 862.67,-3648.5 868.67,-3654.5 868.67,-3660.5 868.67,-3660.5 868.67,-3737.78 868.67,-3737.78 868.67,-3743.78 862.67,-3749.78 856.67,-3749.78"/>
+<text text-anchor="start" x="298.52" y="-3728.84" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A90</text>
+<text text-anchor="start" x="298.52" y="-3700.84" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Kopfebene</text>
+<text text-anchor="start" x="298.52" y="-3686.84" font-family="Roboto, sans-serif" font-size="14.00">Sonstiger Fehler auf Kopfebene.</text>
+<text text-anchor="start" x="298.52" y="-3672.84" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.</text>
+<text text-anchor="start" x="298.52" y="-3658.84" font-family="Roboto, sans-serif" font-size="14.00">Nutzungsm&#246;glichkeit Ende: 01.04.2026 00:00 Uhr</text>
+</g>
+<!-- 140&#45;&gt;A90 -->
+<g id="edge32" class="edge">
+<title>140-&gt;A90</title>
+<path fill="none" stroke="#88a0d6" d="M1045.8,-3821.68C979.44,-3804.5 873.44,-3777.05 778.95,-3752.59"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="780.11,-3749.27 769.55,-3750.15 778.35,-3756.05 780.11,-3749.27"/>
+<text text-anchor="start" x="891.4" y="-3772.73" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 300 -->
+<g id="node33" class="node">
+<title>300</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1328.43,-3717.14C1328.43,-3717.14 898.38,-3717.14 898.38,-3717.14 892.38,-3717.14 886.38,-3711.14 886.38,-3705.14 886.38,-3705.14 886.38,-3693.14 886.38,-3693.14 886.38,-3687.14 892.38,-3681.14 898.38,-3681.14 898.38,-3681.14 1328.43,-3681.14 1328.43,-3681.14 1334.43,-3681.14 1340.43,-3687.14 1340.43,-3693.14 1340.43,-3693.14 1340.43,-3705.14 1340.43,-3705.14 1340.43,-3711.14 1334.43,-3717.14 1328.43,-3717.14"/>
+<text text-anchor="start" x="900.78" y="-3695.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">300: </text>
+<text text-anchor="start" x="939.78" y="-3695.46" font-family="Roboto, sans-serif" font-size="14.00">Wurde das Angebot auf Basis eines Preisblatts gestellt?</text>
+</g>
+<!-- 140&#45;&gt;300 -->
+<g id="edge33" class="edge">
+<title>140-&gt;300</title>
+<path fill="none" stroke="#88a0d6" d="M1111.65,-3821.68C1111.98,-3798.4 1112.59,-3756.26 1112.99,-3728.24"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1116.49,-3728.4 1113.14,-3718.35 1109.49,-3728.29 1116.49,-3728.4"/>
+<text text-anchor="start" x="1112.4" y="-3772.73" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 301 -->
+<g id="node34" class="node">
+<title>301</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1023.42,-3595.25C1023.42,-3595.25 431.38,-3595.25 431.38,-3595.25 425.38,-3595.25 419.38,-3589.25 419.38,-3583.25 419.38,-3583.25 419.38,-3561.97 419.38,-3561.97 419.38,-3555.97 425.38,-3549.97 431.38,-3549.97 431.38,-3549.97 1023.42,-3549.97 1023.42,-3549.97 1029.42,-3549.97 1035.42,-3555.97 1035.42,-3561.97 1035.42,-3561.97 1035.42,-3583.25 1035.42,-3583.25 1035.42,-3589.25 1029.42,-3595.25 1023.42,-3595.25"/>
+<text text-anchor="start" x="433.77" y="-3574.31" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">301: </text>
+<text text-anchor="start" x="472.77" y="-3574.31" font-family="Roboto, sans-serif" font-size="14.00">Wurde die in der Rechnungsposition genutzte Artikelnummer bzw. Artikel-ID in</text>
+<text text-anchor="start" x="433.77" y="-3560.31" font-family="Roboto, sans-serif" font-size="14.00">dem referenzierten Angebot angegeben?</text>
+</g>
+<!-- 300&#45;&gt;301 -->
+<g id="edge34" class="edge">
+<title>300-&gt;301</title>
+<path fill="none" stroke="#88a0d6" d="M1060.94,-3681.22C995.03,-3659.95 881.34,-3623.27 805.27,-3598.73"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="806.36,-3595.41 795.77,-3595.67 804.21,-3602.07 806.36,-3595.41"/>
+<text text-anchor="start" x="896.4" y="-3618.2" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 309 -->
+<g id="node42" class="node">
+<title>309</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1436.8,-3140.96C1436.8,-3140.96 790,-3140.96 790,-3140.96 784,-3140.96 778,-3134.96 778,-3128.96 778,-3128.96 778,-3116.96 778,-3116.96 778,-3110.96 784,-3104.96 790,-3104.96 790,-3104.96 1436.8,-3104.96 1436.8,-3104.96 1442.8,-3104.96 1448.8,-3110.96 1448.8,-3116.96 1448.8,-3116.96 1448.8,-3128.96 1448.8,-3128.96 1448.8,-3134.96 1442.8,-3140.96 1436.8,-3140.96"/>
+<text text-anchor="start" x="792.4" y="-3119.28" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">309: </text>
+<text text-anchor="start" x="831.4" y="-3119.28" font-family="Roboto, sans-serif" font-size="14.00">Entspricht der Preis aus der Rechnungsposition dem Preis des individuellen Angebots?</text>
+</g>
+<!-- 300&#45;&gt;309 -->
+<g id="edge35" class="edge">
+<title>300-&gt;309</title>
+<path fill="none" stroke="#88a0d6" d="M1113.4,-3681.22C1113.4,-3657.27 1113.4,-3612.09 1113.4,-3573.61 1113.4,-3573.61 1113.4,-3573.61 1113.4,-3304.52 1113.4,-3250.68 1113.4,-3187.81 1113.4,-3152.26"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1116.9,-3152.4 1113.4,-3142.4 1109.9,-3152.4 1116.9,-3152.4"/>
+<text text-anchor="start" x="1113.4" y="-3470.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A30_380 -->
+<g id="node35" class="node">
+<title>A30_380</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M529.92,-3433.44C529.92,-3433.44 12.88,-3433.44 12.88,-3433.44 6.88,-3433.44 0.88,-3427.44 0.88,-3421.44 0.88,-3421.44 0.88,-3358.16 0.88,-3358.16 0.88,-3352.16 6.88,-3346.16 12.88,-3346.16 12.88,-3346.16 529.92,-3346.16 529.92,-3346.16 535.92,-3346.16 541.92,-3352.16 541.92,-3358.16 541.92,-3358.16 541.92,-3421.44 541.92,-3421.44 541.92,-3427.44 535.92,-3433.44 529.92,-3433.44"/>
+<text text-anchor="start" x="15.27" y="-3412.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A30</text>
+<text text-anchor="start" x="15.27" y="-3384.5" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="15.27" y="-3370.5" font-family="Roboto, sans-serif" font-size="14.00">Die Artikelnummer bzw. Artikel-ID der Rechnungsposition ist nicht in dem</text>
+<text text-anchor="start" x="15.27" y="-3356.5" font-family="Roboto, sans-serif" font-size="14.00">best&#228;tigten Angebot enthalten.</text>
+</g>
+<!-- 301&#45;&gt;A30_380 -->
+<g id="edge37" class="edge">
+<title>301-&gt;A30_380</title>
+<path fill="none" stroke="#88a0d6" d="M574.18,-3549.98C519.47,-3538.65 458.51,-3521.72 406.4,-3496.72 376.62,-3482.43 347.31,-3460.65 323.65,-3440.55"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="326.19,-3438.12 316.34,-3434.23 321.61,-3443.42 326.19,-3438.12"/>
+<text text-anchor="start" x="496.4" y="-3519.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 302 -->
+<g id="node36" class="node">
+<title>302</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1027.17,-3496.72C1027.17,-3496.72 427.62,-3496.72 427.62,-3496.72 421.62,-3496.72 415.62,-3490.72 415.62,-3484.72 415.62,-3484.72 415.62,-3463.44 415.62,-3463.44 415.62,-3457.44 421.62,-3451.44 427.62,-3451.44 427.62,-3451.44 1027.17,-3451.44 1027.17,-3451.44 1033.17,-3451.44 1039.17,-3457.44 1039.17,-3463.44 1039.17,-3463.44 1039.17,-3484.72 1039.17,-3484.72 1039.17,-3490.72 1033.17,-3496.72 1027.17,-3496.72"/>
+<text text-anchor="start" x="430.02" y="-3475.78" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">302: </text>
+<text text-anchor="start" x="469.02" y="-3475.78" font-family="Roboto, sans-serif" font-size="14.00">Wurde die in der Rechnungsposition genutzte Artikelnummer bzw. Artikel-ID f&#252;r</text>
+<text text-anchor="start" x="430.02" y="-3461.78" font-family="Roboto, sans-serif" font-size="14.00">den gesamten Positionszeitraum dieser Position im Angebot genannt?</text>
+</g>
+<!-- 301&#45;&gt;302 -->
+<g id="edge36" class="edge">
+<title>301-&gt;302</title>
+<path fill="none" stroke="#88a0d6" d="M727.4,-3550.19C727.4,-3537.69 727.4,-3521.67 727.4,-3507.64"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="730.9,-3507.96 727.4,-3497.96 723.9,-3507.96 730.9,-3507.96"/>
+<text text-anchor="start" x="727.4" y="-3519.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 380 -->
+<g id="node56" class="node">
+<title>380</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M783.8,-1553.02C783.8,-1553.02 383,-1553.02 383,-1553.02 377,-1553.02 371,-1547.02 371,-1541.02 371,-1541.02 371,-1529.02 371,-1529.02 371,-1523.02 377,-1517.02 383,-1517.02 383,-1517.02 783.8,-1517.02 783.8,-1517.02 789.8,-1517.02 795.8,-1523.02 795.8,-1529.02 795.8,-1529.02 795.8,-1541.02 795.8,-1541.02 795.8,-1547.02 789.8,-1553.02 783.8,-1553.02"/>
+<text text-anchor="start" x="385.4" y="-1531.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">380: </text>
+<text text-anchor="start" x="424.4" y="-1531.35" font-family="Roboto, sans-serif" font-size="14.00">Sind noch weitere Rechnungspositionen zu pr&#252;fen?</text>
+</g>
+<!-- A30_380&#45;&gt;380 -->
+<g id="edge38" class="edge">
+<title>A30_380-&gt;380</title>
+<path fill="none" stroke="#88a0d6" d="M122.8,-3346.26C84.13,-3327.7 47.01,-3301.52 24.4,-3264.88 0.76,-3226.57 6.58,-3204.93 24.4,-3163.6 34.56,-3140.03 75.94,-3147.79 66.4,-3123.96"/>
+<path fill="none" stroke="#88a0d6" d="M66.4,-3121.96C34.66,-3044.88 66.4,-3017.76 66.4,-2934.4 66.4,-2934.4 66.4,-2934.4 66.4,-1716.93 66.4,-1659.89 42.97,-1628.13 85.4,-1590.02 121.14,-1557.91 475.32,-1595.2 517.4,-1572.02"/>
+<path fill="none" stroke="#88a0d6" d="M517.4,-1571.02C524.97,-1566.82 533.08,-1562.43 540.93,-1558.23"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="542.51,-1561.35 549.7,-1553.57 539.23,-1555.17 542.51,-1561.35"/>
+</g>
+<!-- A31_380 -->
+<g id="node37" class="node">
+<title>A31_380</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M554.92,-3264.88C554.92,-3264.88 37.88,-3264.88 37.88,-3264.88 31.88,-3264.88 25.88,-3258.88 25.88,-3252.88 25.88,-3252.88 25.88,-3175.6 25.88,-3175.6 25.88,-3169.6 31.88,-3163.6 37.88,-3163.6 37.88,-3163.6 554.92,-3163.6 554.92,-3163.6 560.92,-3163.6 566.92,-3169.6 566.92,-3175.6 566.92,-3175.6 566.92,-3252.88 566.92,-3252.88 566.92,-3258.88 560.92,-3264.88 554.92,-3264.88"/>
+<text text-anchor="start" x="40.27" y="-3243.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A31</text>
+<text text-anchor="start" x="40.27" y="-3215.94" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="40.27" y="-3201.94" font-family="Roboto, sans-serif" font-size="14.00">Die Artikelnummer bzw. Artikel-ID der Rechnungsposition ist nicht in dem</text>
+<text text-anchor="start" x="40.27" y="-3187.94" font-family="Roboto, sans-serif" font-size="14.00">best&#228;tigten Angebot f&#252;r den gesamten Positionszeitraum enthalten.</text>
+<text text-anchor="start" x="40.27" y="-3173.94" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Der LF gibt den erwarteten Abrechnungszeitraum an.</text>
+</g>
+<!-- 302&#45;&gt;A31_380 -->
+<g id="edge40" class="edge">
+<title>302-&gt;A31_380</title>
+<path fill="none" stroke="#88a0d6" d="M703.83,-3451.67C670.63,-3422.79 607.03,-3372.02 543.4,-3346.16 499.13,-3328.17 481,-3347.72 437.4,-3328.16 407.2,-3314.61 377.94,-3293.04 353.97,-3272.37"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="356.34,-3269.79 346.52,-3265.81 351.72,-3275.04 356.34,-3269.79"/>
+<text text-anchor="start" x="680.4" y="-3386.12" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 303 -->
+<g id="node38" class="node">
+<title>303</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1062.42,-3328.16C1062.42,-3328.16 458.38,-3328.16 458.38,-3328.16 452.38,-3328.16 446.38,-3322.16 446.38,-3316.16 446.38,-3316.16 446.38,-3294.88 446.38,-3294.88 446.38,-3288.88 452.38,-3282.88 458.38,-3282.88 458.38,-3282.88 1062.42,-3282.88 1062.42,-3282.88 1068.42,-3282.88 1074.42,-3288.88 1074.42,-3294.88 1074.42,-3294.88 1074.42,-3316.16 1074.42,-3316.16 1074.42,-3322.16 1068.42,-3328.16 1062.42,-3328.16"/>
+<text text-anchor="start" x="460.77" y="-3307.22" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">303: </text>
+<text text-anchor="start" x="499.77" y="-3307.22" font-family="Roboto, sans-serif" font-size="14.00">Ist der Zeitraum der Rechnungsposition vollst&#228;ndig im G&#252;ltigkeitszeitraum eines</text>
+<text text-anchor="start" x="460.77" y="-3293.22" font-family="Roboto, sans-serif" font-size="14.00">oder mehrerer Preisbl&#228;tter enthalten?</text>
+</g>
+<!-- 302&#45;&gt;303 -->
+<g id="edge39" class="edge">
+<title>302-&gt;303</title>
+<path fill="none" stroke="#88a0d6" d="M731.65,-3451.65C737.3,-3423.12 747.35,-3372.4 753.94,-3339.12"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="757.31,-3340.11 755.82,-3329.62 750.45,-3338.75 757.31,-3340.11"/>
+<text text-anchor="start" x="752.4" y="-3386.12" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A31_380&#45;&gt;380 -->
+<g id="edge41" class="edge">
+<title>A31_380-&gt;380</title>
+<path fill="none" stroke="#88a0d6" d="M95.09,-3163.79C82.76,-3152.98 72.77,-3139.87 66.4,-3123.96"/>
+</g>
+<!-- A27_310 -->
+<g id="node39" class="node">
+<title>A27_310</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M657.17,-3082.32C657.17,-3082.32 93.62,-3082.32 93.62,-3082.32 87.62,-3082.32 81.62,-3076.32 81.62,-3070.32 81.62,-3070.32 81.62,-3007.04 81.62,-3007.04 81.62,-3001.04 87.62,-2995.04 93.62,-2995.04 93.62,-2995.04 657.17,-2995.04 657.17,-2995.04 663.17,-2995.04 669.17,-3001.04 669.17,-3007.04 669.17,-3007.04 669.17,-3070.32 669.17,-3070.32 669.17,-3076.32 663.17,-3082.32 657.17,-3082.32"/>
+<text text-anchor="start" x="96.02" y="-3061.38" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A27</text>
+<text text-anchor="start" x="96.02" y="-3033.38" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="96.02" y="-3019.38" font-family="Roboto, sans-serif" font-size="14.00">Der Zeitraum der Rechnungsposition ist nicht vollst&#228;ndig im G&#252;ltigkeitszeitraum</text>
+<text text-anchor="start" x="96.02" y="-3005.38" font-family="Roboto, sans-serif" font-size="14.00">eines oder mehrerer Preisbl&#228;tter enthalten.</text>
+</g>
+<!-- 303&#45;&gt;A27_310 -->
+<g id="edge42" class="edge">
+<title>303-&gt;A27_310</title>
+<path fill="none" stroke="#88a0d6" d="M629.26,-3282.97C611.67,-3277.91 597.31,-3271.9 590.4,-3264.88 558.08,-3232.06 603.67,-3193.23 568.4,-3163.6 530.51,-3131.77 157.68,-3181.29 123.4,-3145.6 99.98,-3121.21 109.11,-3102.19 134.5,-3087.45"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="135.97,-3090.63 143.22,-3082.9 132.73,-3084.42 135.97,-3090.63"/>
+<text text-anchor="start" x="590.4" y="-3210.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 304 -->
+<g id="node40" class="node">
+<title>304</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M748.42,-3145.6C748.42,-3145.6 144.38,-3145.6 144.38,-3145.6 138.38,-3145.6 132.38,-3139.6 132.38,-3133.6 132.38,-3133.6 132.38,-3112.32 132.38,-3112.32 132.38,-3106.32 138.38,-3100.32 144.38,-3100.32 144.38,-3100.32 748.42,-3100.32 748.42,-3100.32 754.42,-3100.32 760.42,-3106.32 760.42,-3112.32 760.42,-3112.32 760.42,-3133.6 760.42,-3133.6 760.42,-3139.6 754.42,-3145.6 748.42,-3145.6"/>
+<text text-anchor="start" x="146.77" y="-3124.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">304: </text>
+<text text-anchor="start" x="185.77" y="-3124.66" font-family="Roboto, sans-serif" font-size="14.00">Entspricht der Preis in der Rechnungsposition dem Preis aus dem Preisblatt oder</text>
+<text text-anchor="start" x="146.77" y="-3110.66" font-family="Roboto, sans-serif" font-size="14.00">den Preisbl&#228;ttern, die im Zeitraum der Rechnungsposition g&#252;ltig sind?</text>
+</g>
+<!-- 303&#45;&gt;304 -->
+<g id="edge43" class="edge">
+<title>303-&gt;304</title>
+<path fill="none" stroke="#88a0d6" d="M747.38,-3282.99C727.14,-3251.49 685.04,-3193.38 633.4,-3163.6 623.91,-3158.13 613.76,-3153.41 603.28,-3149.34"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="604.72,-3146.14 594.12,-3146 602.32,-3152.71 604.72,-3146.14"/>
+<text text-anchor="start" x="734.4" y="-3210.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 310 -->
+<g id="node44" class="node">
+<title>310</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1019.55,-2852.76C1019.55,-2852.76 473.25,-2852.76 473.25,-2852.76 467.25,-2852.76 461.25,-2846.76 461.25,-2840.76 461.25,-2840.76 461.25,-2819.48 461.25,-2819.48 461.25,-2813.48 467.25,-2807.48 473.25,-2807.48 473.25,-2807.48 1019.55,-2807.48 1019.55,-2807.48 1025.55,-2807.48 1031.55,-2813.48 1031.55,-2819.48 1031.55,-2819.48 1031.55,-2840.76 1031.55,-2840.76 1031.55,-2846.76 1025.55,-2852.76 1019.55,-2852.76"/>
+<text text-anchor="start" x="475.65" y="-2831.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">310: </text>
+<text text-anchor="start" x="514.65" y="-2831.82" font-family="Roboto, sans-serif" font-size="14.00">Wird f&#252;r die Rechnungsposition der f&#252;r diesen Zeitraum korrekte g&#252;ltige</text>
+<text text-anchor="start" x="475.65" y="-2817.82" font-family="Roboto, sans-serif" font-size="14.00">Umsatzsteuersatz angegeben?</text>
+</g>
+<!-- A27_310&#45;&gt;310 -->
+<g id="edge44" class="edge">
+<title>A27_310-&gt;310</title>
+<path fill="none" stroke="#88a0d6" d="M204.37,-2995.26C198.07,-2989.88 192.35,-2983.83 187.4,-2977.04 164.57,-2945.68 160.41,-2917.62 187.4,-2889.76 209.41,-2867.05 765.38,-2902.08 756.4,-2871.76"/>
+<path fill="none" stroke="#88a0d6" d="M756.4,-2870.76C755.69,-2868.48 755,-2866.12 754.33,-2863.73"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="757.72,-2862.86 751.77,-2854.1 750.95,-2864.66 757.72,-2862.86"/>
+</g>
+<!-- A28_310 -->
+<g id="node41" class="node">
+<title>A28_310</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M708.3,-2977.04C708.3,-2977.04 208.5,-2977.04 208.5,-2977.04 202.5,-2977.04 196.5,-2971.04 196.5,-2965.04 196.5,-2965.04 196.5,-2901.76 196.5,-2901.76 196.5,-2895.76 202.5,-2889.76 208.5,-2889.76 208.5,-2889.76 708.3,-2889.76 708.3,-2889.76 714.3,-2889.76 720.3,-2895.76 720.3,-2901.76 720.3,-2901.76 720.3,-2965.04 720.3,-2965.04 720.3,-2971.04 714.3,-2977.04 708.3,-2977.04"/>
+<text text-anchor="start" x="210.9" y="-2956.1" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A28</text>
+<text text-anchor="start" x="210.9" y="-2928.1" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="210.9" y="-2914.1" font-family="Roboto, sans-serif" font-size="14.00">Der Preis in der Rechnungsposition entspricht nicht dem Preis aus dem</text>
+<text text-anchor="start" x="210.9" y="-2900.1" font-family="Roboto, sans-serif" font-size="14.00">Preisblatt bzw. den Preisbl&#228;ttern des MSB.</text>
+</g>
+<!-- 304&#45;&gt;A28_310 -->
+<g id="edge45" class="edge">
+<title>304-&gt;A28_310</title>
+<path fill="none" stroke="#88a0d6" d="M637.67,-3100.36C652.63,-3095.52 664.31,-3089.58 670.4,-3082.32 695.33,-3052.6 693.76,-3026.01 670.4,-2995.04 666.96,-2990.47 661.43,-2986.15 654.35,-2982.07"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="656.43,-2979.2 645.94,-2977.72 653.22,-2985.42 656.43,-2979.2"/>
+<text text-anchor="start" x="688.4" y="-3035" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 304&#45;&gt;310 -->
+<g id="edge46" class="edge">
+<title>304-&gt;310</title>
+<path fill="none" stroke="#88a0d6" d="M697.2,-3100.34C712.35,-3095.47 724.32,-3089.54 731.4,-3082.32 764.38,-3048.67 770.36,-2916.77 756.4,-2871.76"/>
+<text text-anchor="start" x="763.4" y="-2929.72" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A28_310&#45;&gt;310 -->
+<g id="edge47" class="edge">
+<title>A28_310-&gt;310</title>
+<path fill="none" stroke="#88a0d6" d="M720.14,-2893.2C743.97,-2886.47 758.61,-2879.23 756.4,-2871.76"/>
+</g>
+<!-- A29_310 -->
+<g id="node43" class="node">
+<title>A29_310</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1372.18,-2977.04C1372.18,-2977.04 802.63,-2977.04 802.63,-2977.04 796.63,-2977.04 790.63,-2971.04 790.63,-2965.04 790.63,-2965.04 790.63,-2901.76 790.63,-2901.76 790.63,-2895.76 796.63,-2889.76 802.63,-2889.76 802.63,-2889.76 1372.18,-2889.76 1372.18,-2889.76 1378.18,-2889.76 1384.18,-2895.76 1384.18,-2901.76 1384.18,-2901.76 1384.18,-2965.04 1384.18,-2965.04 1384.18,-2971.04 1378.18,-2977.04 1372.18,-2977.04"/>
+<text text-anchor="start" x="805.03" y="-2956.1" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A29</text>
+<text text-anchor="start" x="805.03" y="-2928.1" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="805.03" y="-2914.1" font-family="Roboto, sans-serif" font-size="14.00">Der Preis aus der Rechnungsposition entspricht nicht dem vereinbarten Preis aus</text>
+<text text-anchor="start" x="805.03" y="-2900.1" font-family="Roboto, sans-serif" font-size="14.00">dem individuellen Angebot.</text>
+</g>
+<!-- 309&#45;&gt;A29_310 -->
+<g id="edge48" class="edge">
+<title>309-&gt;A29_310</title>
+<path fill="none" stroke="#88a0d6" d="M1111.05,-3104.98C1107.43,-3078.89 1100.34,-3027.78 1094.87,-2988.28"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1098.35,-2987.89 1093.51,-2978.46 1091.41,-2988.85 1098.35,-2987.89"/>
+<text text-anchor="start" x="1107.4" y="-3035" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 309&#45;&gt;310 -->
+<g id="edge49" class="edge">
+<title>309-&gt;310</title>
+<path fill="none" stroke="#88a0d6" d="M1164.59,-3105C1267.02,-3068.61 1480.23,-2979.08 1393.4,-2889.76 1368.72,-2864.38 767.22,-2905.47 756.4,-2871.76"/>
+<text text-anchor="start" x="1413.4" y="-2929.72" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A29_310&#45;&gt;310 -->
+<g id="edge50" class="edge">
+<title>A29_310-&gt;310</title>
+<path fill="none" stroke="#88a0d6" d="M790.89,-2890.67C771.27,-2884.82 758.39,-2878.48 756.4,-2871.76"/>
+</g>
+<!-- A15_330 -->
+<g id="node45" class="node">
+<title>A15_330</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M698.3,-2754.23C698.3,-2754.23 156.5,-2754.23 156.5,-2754.23 150.5,-2754.23 144.5,-2748.23 144.5,-2742.23 144.5,-2742.23 144.5,-2678.95 144.5,-2678.95 144.5,-2672.95 150.5,-2666.95 156.5,-2666.95 156.5,-2666.95 698.3,-2666.95 698.3,-2666.95 704.3,-2666.95 710.3,-2672.95 710.3,-2678.95 710.3,-2678.95 710.3,-2742.23 710.3,-2742.23 710.3,-2748.23 704.3,-2754.23 698.3,-2754.23"/>
+<text text-anchor="start" x="158.9" y="-2733.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A15</text>
+<text text-anchor="start" x="158.9" y="-2705.29" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="158.9" y="-2691.29" font-family="Roboto, sans-serif" font-size="14.00">Der g&#252;ltige Umsatzsteuersatz f&#252;r die Rechnungsposition f&#252;r diesen Zeitraum</text>
+<text text-anchor="start" x="158.9" y="-2677.29" font-family="Roboto, sans-serif" font-size="14.00">wurde nicht korrekt angegeben.</text>
+</g>
+<!-- 310&#45;&gt;A15_330 -->
+<g id="edge51" class="edge">
+<title>310-&gt;A15_330</title>
+<path fill="none" stroke="#88a0d6" d="M687.89,-2807.56C650.34,-2793.73 600.12,-2775.22 553.79,-2758.15"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="555.05,-2754.89 544.46,-2754.72 552.63,-2761.46 555.05,-2754.89"/>
+<text text-anchor="start" x="633.4" y="-2777.18" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 330 -->
+<g id="node46" class="node">
+<title>330</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1053.3,-2629.95C1053.3,-2629.95 397.5,-2629.95 397.5,-2629.95 391.5,-2629.95 385.5,-2623.95 385.5,-2617.95 385.5,-2617.95 385.5,-2605.95 385.5,-2605.95 385.5,-2599.95 391.5,-2593.95 397.5,-2593.95 397.5,-2593.95 1053.3,-2593.95 1053.3,-2593.95 1059.3,-2593.95 1065.3,-2599.95 1065.3,-2605.95 1065.3,-2605.95 1065.3,-2617.95 1065.3,-2617.95 1065.3,-2623.95 1059.3,-2629.95 1053.3,-2629.95"/>
+<text text-anchor="start" x="399.9" y="-2608.27" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">330: </text>
+<text text-anchor="start" x="438.9" y="-2608.27" font-family="Roboto, sans-serif" font-size="14.00">Ist das Enddatum der Rechnungsposition &gt; das Enddatum des Abrechnungszeitraums?</text>
+</g>
+<!-- 310&#45;&gt;330 -->
+<g id="edge52" class="edge">
+<title>310-&gt;330</title>
+<path fill="none" stroke="#88a0d6" d="M741.91,-2807.55C735.69,-2772.94 727.23,-2703.38 746.4,-2648.95"/>
+<text text-anchor="start" x="740.4" y="-2706.91" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A15_330&#45;&gt;330 -->
+<g id="edge53" class="edge">
+<title>A15_330-&gt;330</title>
+<path fill="none" stroke="#88a0d6" d="M710.1,-2667.9C730.46,-2661.96 744.06,-2655.6 746.4,-2648.95"/>
+<path fill="none" stroke="#88a0d6" d="M746.4,-2647.95C747.3,-2645.4 747.46,-2642.83 747.09,-2640.3"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="750.33,-2638.97 743.23,-2631.11 743.87,-2641.68 750.33,-2638.97"/>
+</g>
+<!-- A17_340 -->
+<g id="node47" class="node">
+<title>A17_340</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M677.17,-2540.7C677.17,-2540.7 191.62,-2540.7 191.62,-2540.7 185.62,-2540.7 179.62,-2534.7 179.62,-2528.7 179.62,-2528.7 179.62,-2465.42 179.62,-2465.42 179.62,-2459.42 185.62,-2453.42 191.62,-2453.42 191.62,-2453.42 677.17,-2453.42 677.17,-2453.42 683.17,-2453.42 689.17,-2459.42 689.17,-2465.42 689.17,-2465.42 689.17,-2528.7 689.17,-2528.7 689.17,-2534.7 683.17,-2540.7 677.17,-2540.7"/>
+<text text-anchor="start" x="194.02" y="-2519.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A17</text>
+<text text-anchor="start" x="194.02" y="-2491.76" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="194.02" y="-2477.76" font-family="Roboto, sans-serif" font-size="14.00">Das Enddatum der Rechnungsposition liegt nach dem Enddatum des</text>
+<text text-anchor="start" x="194.02" y="-2463.76" font-family="Roboto, sans-serif" font-size="14.00">Abrechnungszeitraums.</text>
+</g>
+<!-- 330&#45;&gt;A17_340 -->
+<g id="edge54" class="edge">
+<title>330-&gt;A17_340</title>
+<path fill="none" stroke="#88a0d6" d="M681.83,-2594.05C648.08,-2580.95 599.61,-2562.15 554.5,-2544.65"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="556.03,-2541.49 545.44,-2541.14 553.49,-2548.02 556.03,-2541.49"/>
+<text text-anchor="start" x="630.4" y="-2563.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 340 -->
+<g id="node48" class="node">
+<title>340</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M983.42,-2416.42C983.42,-2416.42 457.38,-2416.42 457.38,-2416.42 451.38,-2416.42 445.38,-2410.42 445.38,-2404.42 445.38,-2404.42 445.38,-2383.14 445.38,-2383.14 445.38,-2377.14 451.38,-2371.14 457.38,-2371.14 457.38,-2371.14 983.42,-2371.14 983.42,-2371.14 989.42,-2371.14 995.42,-2377.14 995.42,-2383.14 995.42,-2383.14 995.42,-2404.42 995.42,-2404.42 995.42,-2410.42 989.42,-2416.42 983.42,-2416.42"/>
+<text text-anchor="start" x="459.77" y="-2395.48" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">340: </text>
+<text text-anchor="start" x="498.77" y="-2395.48" font-family="Roboto, sans-serif" font-size="14.00">Ist das Beginndatum der Rechnungsposition &lt; das Beginndatum des</text>
+<text text-anchor="start" x="459.77" y="-2381.48" font-family="Roboto, sans-serif" font-size="14.00">Abrechnungszeitraums?</text>
+</g>
+<!-- 330&#45;&gt;340 -->
+<g id="edge55" class="edge">
+<title>330-&gt;340</title>
+<path fill="none" stroke="#88a0d6" d="M720.2,-2594.06C711.09,-2561.03 695.87,-2486.63 725.4,-2435.42"/>
+<text text-anchor="start" x="716.4" y="-2493.38" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A17_340&#45;&gt;340 -->
+<g id="edge56" class="edge">
+<title>A17_340-&gt;340</title>
+<path fill="none" stroke="#88a0d6" d="M686.11,-2453.48C707.24,-2447.53 721.95,-2441.4 725.4,-2435.42"/>
+<path fill="none" stroke="#88a0d6" d="M725.4,-2434.42C726.62,-2432.31 727.41,-2430.03 727.86,-2427.67"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="731.36,-2427.87 727.91,-2417.86 724.36,-2427.84 731.36,-2427.87"/>
+</g>
+<!-- A18_345 -->
+<g id="node49" class="node">
+<title>A18_345</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M672.3,-2317.89C672.3,-2317.89 154.5,-2317.89 154.5,-2317.89 148.5,-2317.89 142.5,-2311.89 142.5,-2305.89 142.5,-2305.89 142.5,-2242.61 142.5,-2242.61 142.5,-2236.61 148.5,-2230.61 154.5,-2230.61 154.5,-2230.61 672.3,-2230.61 672.3,-2230.61 678.3,-2230.61 684.3,-2236.61 684.3,-2242.61 684.3,-2242.61 684.3,-2305.89 684.3,-2305.89 684.3,-2311.89 678.3,-2317.89 672.3,-2317.89"/>
+<text text-anchor="start" x="156.9" y="-2296.95" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A18</text>
+<text text-anchor="start" x="156.9" y="-2268.95" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="156.9" y="-2254.95" font-family="Roboto, sans-serif" font-size="14.00">Das Beginndatum der Rechnungsposition liegt vor dem Beginndatum des</text>
+<text text-anchor="start" x="156.9" y="-2240.95" font-family="Roboto, sans-serif" font-size="14.00">Abrechnungszeitraums.</text>
+</g>
+<!-- 340&#45;&gt;A18_345 -->
+<g id="edge57" class="edge">
+<title>340-&gt;A18_345</title>
+<path fill="none" stroke="#88a0d6" d="M664.09,-2371.22C628.03,-2357.42 579.82,-2338.96 535.31,-2321.92"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="536.69,-2318.7 526.1,-2318.4 534.19,-2325.24 536.69,-2318.7"/>
+<text text-anchor="start" x="611.4" y="-2340.84" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 345 -->
+<g id="node50" class="node">
+<title>345</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1029.8,-2193.61C1029.8,-2193.61 407,-2193.61 407,-2193.61 401,-2193.61 395,-2187.61 395,-2181.61 395,-2181.61 395,-2169.61 395,-2169.61 395,-2163.61 401,-2157.61 407,-2157.61 407,-2157.61 1029.8,-2157.61 1029.8,-2157.61 1035.8,-2157.61 1041.8,-2163.61 1041.8,-2169.61 1041.8,-2169.61 1041.8,-2181.61 1041.8,-2181.61 1041.8,-2187.61 1035.8,-2193.61 1029.8,-2193.61"/>
+<text text-anchor="start" x="409.4" y="-2171.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">345: </text>
+<text text-anchor="start" x="448.4" y="-2171.94" font-family="Roboto, sans-serif" font-size="14.00">Wird mit der Rechnungsposition der erwartete Abrechnungszeitraum abgerechnet?</text>
+</g>
+<!-- 340&#45;&gt;345 -->
+<g id="edge58" class="edge">
+<title>340-&gt;345</title>
+<path fill="none" stroke="#88a0d6" d="M713.57,-2371.33C703.5,-2335.37 689.05,-2261.99 720.4,-2212.61"/>
+<text text-anchor="start" x="710.4" y="-2270.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A18_345&#45;&gt;345 -->
+<g id="edge59" class="edge">
+<title>A18_345-&gt;345</title>
+<path fill="none" stroke="#88a0d6" d="M679.72,-2230.63C701.41,-2224.73 716.58,-2218.63 720.4,-2212.61"/>
+<path fill="none" stroke="#88a0d6" d="M720.4,-2211.61C721.73,-2209.52 722.58,-2207.22 723.08,-2204.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="726.58,-2204.89 723.24,-2194.84 719.58,-2204.78 726.58,-2204.89"/>
+</g>
+<!-- A25_360 -->
+<g id="node51" class="node">
+<title>A25_360</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M670.3,-2104.36C670.3,-2104.36 230.5,-2104.36 230.5,-2104.36 224.5,-2104.36 218.5,-2098.36 218.5,-2092.36 218.5,-2092.36 218.5,-2029.08 218.5,-2029.08 218.5,-2023.08 224.5,-2017.08 230.5,-2017.08 230.5,-2017.08 670.3,-2017.08 670.3,-2017.08 676.3,-2017.08 682.3,-2023.08 682.3,-2029.08 682.3,-2029.08 682.3,-2092.36 682.3,-2092.36 682.3,-2098.36 676.3,-2104.36 670.3,-2104.36"/>
+<text text-anchor="start" x="232.9" y="-2083.42" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A25</text>
+<text text-anchor="start" x="232.9" y="-2055.42" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="232.9" y="-2041.42" font-family="Roboto, sans-serif" font-size="14.00">Unerwarteter Abrechnungszeitraum wird abgerechnet.</text>
+<text text-anchor="start" x="232.9" y="-2027.42" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Der LF gibt den erwarteten Abrechnungszeitraum an.</text>
+</g>
+<!-- 345&#45;&gt;A25_360 -->
+<g id="edge60" class="edge">
+<title>345-&gt;A25_360</title>
+<path fill="none" stroke="#88a0d6" d="M678.28,-2157.71C647.38,-2144.7 603.11,-2126.05 561.79,-2108.64"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="563.33,-2105.49 552.76,-2104.84 560.61,-2111.94 563.33,-2105.49"/>
+<text text-anchor="start" x="631.4" y="-2127.31" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 360 -->
+<g id="node52" class="node">
+<title>360</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M924.92,-1980.08C924.92,-1980.08 509.87,-1980.08 509.87,-1980.08 503.87,-1980.08 497.87,-1974.08 497.87,-1968.08 497.87,-1968.08 497.87,-1956.08 497.87,-1956.08 497.87,-1950.08 503.87,-1944.08 509.87,-1944.08 509.87,-1944.08 924.92,-1944.08 924.92,-1944.08 930.92,-1944.08 936.92,-1950.08 936.92,-1956.08 936.92,-1956.08 936.92,-1968.08 936.92,-1968.08 936.92,-1974.08 930.92,-1980.08 924.92,-1980.08"/>
+<text text-anchor="start" x="512.27" y="-1958.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">360: </text>
+<text text-anchor="start" x="551.27" y="-1958.41" font-family="Roboto, sans-serif" font-size="14.00">Liegt ein Rechenfehler in der Rechnungsposition vor?</text>
+</g>
+<!-- 345&#45;&gt;360 -->
+<g id="edge61" class="edge">
+<title>345-&gt;360</title>
+<path fill="none" stroke="#88a0d6" d="M713,-2157.81C703.4,-2124.61 687.19,-2049.47 718.4,-1999.08"/>
+<text text-anchor="start" x="708.4" y="-2057.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A25_360&#45;&gt;360 -->
+<g id="edge62" class="edge">
+<title>A25_360-&gt;360</title>
+<path fill="none" stroke="#88a0d6" d="M678.25,-2017.15C699.68,-2011.02 714.84,-2004.83 718.4,-1999.08"/>
+<path fill="none" stroke="#88a0d6" d="M718.4,-1998.08C719.7,-1995.98 720.56,-1993.67 721.09,-1991.26"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="724.59,-1991.41 721.5,-1981.27 717.6,-1991.12 724.59,-1991.41"/>
+</g>
+<!-- A20_370 -->
+<g id="node53" class="node">
+<title>A20_370</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M669.42,-1890.83C669.42,-1890.83 395.38,-1890.83 395.38,-1890.83 389.38,-1890.83 383.38,-1884.83 383.38,-1878.83 383.38,-1878.83 383.38,-1829.55 383.38,-1829.55 383.38,-1823.55 389.38,-1817.55 395.38,-1817.55 395.38,-1817.55 669.42,-1817.55 669.42,-1817.55 675.42,-1817.55 681.42,-1823.55 681.42,-1829.55 681.42,-1829.55 681.42,-1878.83 681.42,-1878.83 681.42,-1884.83 675.42,-1890.83 669.42,-1890.83"/>
+<text text-anchor="start" x="397.77" y="-1869.89" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A20</text>
+<text text-anchor="start" x="397.77" y="-1841.89" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="397.77" y="-1827.89" font-family="Roboto, sans-serif" font-size="14.00">Rechenfehler liegt vor</text>
+</g>
+<!-- 360&#45;&gt;A20_370 -->
+<g id="edge63" class="edge">
+<title>360-&gt;A20_370</title>
+<path fill="none" stroke="#88a0d6" d="M688.09,-1944.3C665.57,-1931.41 633.48,-1913.05 604.28,-1896.33"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="606.24,-1893.42 595.82,-1891.49 602.76,-1899.5 606.24,-1893.42"/>
+<text text-anchor="start" x="651.4" y="-1913.78" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 370 -->
+<g id="node54" class="node">
+<title>370</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1007.05,-1780.55C1007.05,-1780.55 421.75,-1780.55 421.75,-1780.55 415.75,-1780.55 409.75,-1774.55 409.75,-1768.55 409.75,-1768.55 409.75,-1756.55 409.75,-1756.55 409.75,-1750.55 415.75,-1744.55 421.75,-1744.55 421.75,-1744.55 1007.05,-1744.55 1007.05,-1744.55 1013.05,-1744.55 1019.05,-1750.55 1019.05,-1756.55 1019.05,-1756.55 1019.05,-1768.55 1019.05,-1768.55 1019.05,-1774.55 1013.05,-1780.55 1007.05,-1780.55"/>
+<text text-anchor="start" x="424.15" y="-1758.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">370: </text>
+<text text-anchor="start" x="463.15" y="-1758.88" font-family="Roboto, sans-serif" font-size="14.00">Ist in der Rechnungsposition ein zuvor nicht spezifizierter Fehler aufgetreten?</text>
+</g>
+<!-- 360&#45;&gt;370 -->
+<g id="edge64" class="edge">
+<title>360-&gt;370</title>
+<path fill="none" stroke="#88a0d6" d="M712.66,-1944.34C704.95,-1913.65 692.87,-1847.17 717.4,-1799.55"/>
+<text text-anchor="start" x="709.4" y="-1850.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A20_370&#45;&gt;370 -->
+<g id="edge65" class="edge">
+<title>A20_370-&gt;370</title>
+<path fill="none" stroke="#88a0d6" d="M681.08,-1823.66C698.92,-1816.92 712.58,-1808.91 717.4,-1799.55"/>
+<path fill="none" stroke="#88a0d6" d="M717.4,-1798.55C718.51,-1796.39 719.21,-1794.05 719.58,-1791.65"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="723.09,-1791.77 719.46,-1781.82 716.09,-1791.86 723.09,-1791.77"/>
+</g>
+<!-- A99_380 -->
+<g id="node55" class="node">
+<title>A99_380</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M666.67,-1691.3C666.67,-1691.3 106.12,-1691.3 106.12,-1691.3 100.12,-1691.3 94.12,-1685.3 94.12,-1679.3 94.12,-1679.3 94.12,-1602.02 94.12,-1602.02 94.12,-1596.02 100.12,-1590.02 106.12,-1590.02 106.12,-1590.02 666.67,-1590.02 666.67,-1590.02 672.67,-1590.02 678.67,-1596.02 678.67,-1602.02 678.67,-1602.02 678.67,-1679.3 678.67,-1679.3 678.67,-1685.3 672.67,-1691.3 666.67,-1691.3"/>
+<text text-anchor="start" x="108.52" y="-1670.36" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A99</text>
+<text text-anchor="start" x="108.52" y="-1642.36" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Positionsebene</text>
+<text text-anchor="start" x="108.52" y="-1628.36" font-family="Roboto, sans-serif" font-size="14.00">Sonstiger Fehler auf Positionsebene.</text>
+<text text-anchor="start" x="108.52" y="-1614.36" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.</text>
+<text text-anchor="start" x="108.52" y="-1600.36" font-family="Roboto, sans-serif" font-size="14.00">Nutzungsm&#246;glichkeit Ende: 01.04.2026 00:00 Uhr</text>
+</g>
+<!-- 370&#45;&gt;A99_380 -->
+<g id="edge66" class="edge">
+<title>370-&gt;A99_380</title>
+<path fill="none" stroke="#88a0d6" d="M668.1,-1744.63C632.65,-1731.67 581.68,-1713.04 532.82,-1695.18"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="534.13,-1691.93 523.53,-1691.78 531.72,-1698.5 534.13,-1691.93"/>
+<text text-anchor="start" x="617.4" y="-1714.25" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 370&#45;&gt;380 -->
+<g id="edge67" class="edge">
+<title>370-&gt;380</title>
+<path fill="none" stroke="#88a0d6" d="M717.66,-1744.67C723.27,-1710.05 730.33,-1630.83 687.4,-1590.02 659.87,-1563.85 484.06,-1590.22 517.4,-1572.02"/>
+<text text-anchor="start" x="721.4" y="-1636.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A99_380&#45;&gt;380 -->
+<g id="edge68" class="edge">
+<title>A99_380-&gt;380</title>
+<path fill="none" stroke="#88a0d6" d="M483.6,-1590.11C495.03,-1584.09 506.5,-1577.97 517.4,-1572.02"/>
+</g>
+<!-- 380&#45;&gt;300 -->
+<g id="edge69" class="edge">
+<title>380-&gt;300</title>
+<path fill="none" stroke="#88a0d6" d="M795.58,-1540.27C1057.97,-1548.42 1470.4,-1572 1470.4,-1639.66 1470.4,-2612.95 1470.4,-2612.95 1470.4,-2612.95 1470.4,-2879.76 1476.4,-2946.43 1476.4,-3213.24 1476.4,-3573.61 1476.4,-3573.61 1476.4,-3573.61 1476.4,-3625.09 1344.13,-3659.79 1239.28,-3679.22"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1238.96,-3675.72 1229.74,-3680.95 1240.21,-3682.61 1238.96,-3675.72"/>
+<text text-anchor="start" x="1470.4" y="-2493.38" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 390 -->
+<g id="node57" class="node">
+<title>390</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M844.92,-1463.77C844.92,-1463.77 321.88,-1463.77 321.88,-1463.77 315.88,-1463.77 309.88,-1457.77 309.88,-1451.77 309.88,-1451.77 309.88,-1439.77 309.88,-1439.77 309.88,-1433.77 315.88,-1427.77 321.88,-1427.77 321.88,-1427.77 844.92,-1427.77 844.92,-1427.77 850.92,-1427.77 856.92,-1433.77 856.92,-1439.77 856.92,-1439.77 856.92,-1451.77 856.92,-1451.77 856.92,-1457.77 850.92,-1463.77 844.92,-1463.77"/>
+<text text-anchor="start" x="324.27" y="-1442.1" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">390: </text>
+<text text-anchor="start" x="363.27" y="-1442.1" font-family="Roboto, sans-serif" font-size="14.00">Ist in mindestens einer Rechnungspositionen ein Fehler aufgetreten?</text>
+</g>
+<!-- 380&#45;&gt;390 -->
+<g id="edge70" class="edge">
+<title>380-&gt;390</title>
+<path fill="none" stroke="#88a0d6" d="M583.4,-1517.2C583.4,-1505.25 583.4,-1488.92 583.4,-1474.99"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="586.9,-1475.05 583.4,-1465.05 579.9,-1475.05 586.9,-1475.05"/>
+<text text-anchor="start" x="583.4" y="-1486.72" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- Hinweis: Alle erkannten Antwortcodes aus der Positionsebene sind f&#252;r jeden fehlerhaft identifizierten Positionsteil unter Angabe der Positionsnummer zu &#252;bermitteln. -->
+<g id="node58" class="node">
+<title>Hinweis: Alle erkannten Antwortcodes aus der Positionsebene sind f&#252;r jeden fehlerhaft identifizierten Positionsteil unter Angabe der Positionsnummer zu &#252;bermitteln.</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M580.92,-1374.52C580.92,-1374.52 45.88,-1374.52 45.88,-1374.52 39.88,-1374.52 33.88,-1368.52 33.88,-1362.52 33.88,-1362.52 33.88,-1317.49 33.88,-1317.49 33.88,-1311.49 39.88,-1305.49 45.88,-1305.49 45.88,-1305.49 580.92,-1305.49 580.92,-1305.49 586.92,-1305.49 592.92,-1311.49 592.92,-1317.49 592.92,-1317.49 592.92,-1362.52 592.92,-1362.52 592.92,-1368.52 586.92,-1374.52 580.92,-1374.52"/>
+<text text-anchor="start" x="48.27" y="-1352.58" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Alle erkannten Antwortcodes aus der Positionsebene sind f&#252;r jeden</text>
+<text text-anchor="start" x="48.27" y="-1335.33" font-family="Roboto, sans-serif" font-size="14.00">fehlerhaft identifizierten Positionsteil unter Angabe der Positionsnummer zu</text>
+<text text-anchor="start" x="48.27" y="-1318.08" font-family="Roboto, sans-serif" font-size="14.00">&#252;bermitteln.</text>
+</g>
+<!-- 390&#45;&gt;Hinweis: Alle erkannten Antwortcodes aus der Positionsebene sind f&#252;r jeden fehlerhaft identifizierten Positionsteil unter Angabe der Positionsnummer zu &#252;bermitteln. -->
+<g id="edge71" class="edge">
+<title>390-&gt;Hinweis: Alle erkannten Antwortcodes aus der Positionsebene sind f&#252;r jeden fehlerhaft identifizierten Positionsteil unter Angabe der Positionsnummer zu &#252;bermitteln.</title>
+<path fill="none" stroke="#88a0d6" d="M539.42,-1427.87C504.77,-1414.55 455.15,-1395.48 411.22,-1378.6"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="412.48,-1375.33 401.89,-1375.01 409.97,-1381.87 412.48,-1375.33"/>
+<text text-anchor="start" x="487.4" y="-1397.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 500 -->
+<g id="node59" class="node">
+<title>500</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1200.3,-1362.65C1200.3,-1362.65 622.5,-1362.65 622.5,-1362.65 616.5,-1362.65 610.5,-1356.65 610.5,-1350.65 610.5,-1350.65 610.5,-1329.37 610.5,-1329.37 610.5,-1323.37 616.5,-1317.37 622.5,-1317.37 622.5,-1317.37 1200.3,-1317.37 1200.3,-1317.37 1206.3,-1317.37 1212.3,-1323.37 1212.3,-1329.37 1212.3,-1329.37 1212.3,-1350.65 1212.3,-1350.65 1212.3,-1356.65 1206.3,-1362.65 1200.3,-1362.65"/>
+<text text-anchor="start" x="624.9" y="-1341.71" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">500: </text>
+<text text-anchor="start" x="663.9" y="-1341.71" font-family="Roboto, sans-serif" font-size="14.00">Fehlen noch Positionen, die &#252;ber das best&#228;tigte Angebot vereinbart sind und</text>
+<text text-anchor="start" x="624.9" y="-1327.71" font-family="Roboto, sans-serif" font-size="14.00">somit in der Rechnung erwartet werden?</text>
+</g>
+<!-- 390&#45;&gt;500 -->
+<g id="edge72" class="edge">
+<title>390-&gt;500</title>
+<path fill="none" stroke="#88a0d6" d="M636.83,-1427.87C689.92,-1411.07 771.93,-1385.13 832.52,-1365.96"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="833.26,-1369.39 841.74,-1363.04 831.15,-1362.72 833.26,-1369.39"/>
+<text text-anchor="start" x="747.4" y="-1397.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A21 -->
+<g id="node60" class="node">
+<title>A21</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M702.17,-1252.24C702.17,-1252.24 120.62,-1252.24 120.62,-1252.24 114.62,-1252.24 108.62,-1246.24 108.62,-1240.24 108.62,-1240.24 108.62,-1162.96 108.62,-1162.96 108.62,-1156.96 114.62,-1150.96 120.62,-1150.96 120.62,-1150.96 702.17,-1150.96 702.17,-1150.96 708.17,-1150.96 714.17,-1156.96 714.17,-1162.96 714.17,-1162.96 714.17,-1240.24 714.17,-1240.24 714.17,-1246.24 708.17,-1252.24 702.17,-1252.24"/>
+<text text-anchor="start" x="123.02" y="-1231.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A21</text>
+<text text-anchor="start" x="123.02" y="-1203.3" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Summenebene</text>
+<text text-anchor="start" x="123.02" y="-1189.3" font-family="Roboto, sans-serif" font-size="14.00">Erwartete Position nicht vorhanden</text>
+<text text-anchor="start" x="123.02" y="-1175.3" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Die nicht enthaltenen Positionen aus dem Angebot sind unter Angabe der</text>
+<text text-anchor="start" x="123.02" y="-1161.3" font-family="Roboto, sans-serif" font-size="14.00">Positionsnummer aus dem best&#228;tigten Angebot zu nennen.</text>
+</g>
+<!-- 500&#45;&gt;A21 -->
+<g id="edge73" class="edge">
+<title>500-&gt;A21</title>
+<path fill="none" stroke="#88a0d6" d="M832.17,-1317.39C770.84,-1300.66 683.23,-1276.76 603.82,-1255.09"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="605.2,-1251.84 594.63,-1252.59 603.36,-1258.6 605.2,-1251.84"/>
+<text text-anchor="start" x="720.4" y="-1275.19" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 510 -->
+<g id="node61" class="node">
+<title>510</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1365.05,-1224.24C1365.05,-1224.24 743.75,-1224.24 743.75,-1224.24 737.75,-1224.24 731.75,-1218.24 731.75,-1212.24 731.75,-1212.24 731.75,-1190.96 731.75,-1190.96 731.75,-1184.96 737.75,-1178.96 743.75,-1178.96 743.75,-1178.96 1365.05,-1178.96 1365.05,-1178.96 1371.05,-1178.96 1377.05,-1184.96 1377.05,-1190.96 1377.05,-1190.96 1377.05,-1212.24 1377.05,-1212.24 1377.05,-1218.24 1371.05,-1224.24 1365.05,-1224.24"/>
+<text text-anchor="start" x="746.15" y="-1203.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">510: </text>
+<text text-anchor="start" x="785.15" y="-1203.3" font-family="Roboto, sans-serif" font-size="14.00">Entspricht f&#252;r den genannten Steuersatz die Besteuerungsgrundlage der Summen</text>
+<text text-anchor="start" x="746.15" y="-1189.3" font-family="Roboto, sans-serif" font-size="14.00">der Einzelpositionen dieser Rechnung mit diesem Steuersatz?</text>
+</g>
+<!-- 500&#45;&gt;510 -->
+<g id="edge74" class="edge">
+<title>500-&gt;510</title>
+<path fill="none" stroke="#88a0d6" d="M934.06,-1317.39C958.22,-1294.34 996.64,-1257.7 1023.55,-1232.03"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1025.93,-1234.59 1030.75,-1225.16 1021.1,-1229.53 1025.93,-1234.59"/>
+<text text-anchor="start" x="982.4" y="-1275.19" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A22_520 -->
+<g id="node62" class="node">
+<title>A22_520</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1006.17,-1097.71C1006.17,-1097.71 304.62,-1097.71 304.62,-1097.71 298.62,-1097.71 292.62,-1091.71 292.62,-1085.71 292.62,-1085.71 292.62,-1008.43 292.62,-1008.43 292.62,-1002.43 298.62,-996.43 304.62,-996.43 304.62,-996.43 1006.17,-996.43 1006.17,-996.43 1012.17,-996.43 1018.17,-1002.43 1018.17,-1008.43 1018.17,-1008.43 1018.17,-1085.71 1018.17,-1085.71 1018.17,-1091.71 1012.17,-1097.71 1006.17,-1097.71"/>
+<text text-anchor="start" x="307.02" y="-1076.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A22</text>
+<text text-anchor="start" x="307.02" y="-1048.77" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Summenebene</text>
+<text text-anchor="start" x="307.02" y="-1034.77" font-family="Roboto, sans-serif" font-size="14.00">Genannte Besteuerungsgrundlagepasst nicht zu der Summe der Einzelpositionen des Steuersatzes.</text>
+<text text-anchor="start" x="307.02" y="-1020.77" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus</text>
+<text text-anchor="start" x="307.02" y="-1006.77" font-family="Roboto, sans-serif" font-size="14.00">DE5305) des SG52 TAX zu nennen.</text>
+</g>
+<!-- 510&#45;&gt;A22_520 -->
+<g id="edge75" class="edge">
+<title>510-&gt;A22_520</title>
+<path fill="none" stroke="#88a0d6" d="M998.08,-1179.07C945.67,-1159.03 865.4,-1128.35 795.72,-1101.71"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="797.08,-1098.48 786.49,-1098.18 794.58,-1105.02 797.08,-1098.48"/>
+<text text-anchor="start" x="866.4" y="-1120.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 520 -->
+<g id="node63" class="node">
+<title>520</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1123.92,-959.43C1123.92,-959.43 510.88,-959.43 510.88,-959.43 504.88,-959.43 498.88,-953.43 498.88,-947.43 498.88,-947.43 498.88,-912.15 498.88,-912.15 498.88,-906.15 504.88,-900.15 510.88,-900.15 510.88,-900.15 1123.92,-900.15 1123.92,-900.15 1129.92,-900.15 1135.92,-906.15 1135.92,-912.15 1135.92,-912.15 1135.92,-947.43 1135.92,-947.43 1135.92,-953.43 1129.92,-959.43 1123.92,-959.43"/>
+<text text-anchor="start" x="513.27" y="-938.49" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">520: </text>
+<text text-anchor="start" x="552.27" y="-938.49" font-family="Roboto, sans-serif" font-size="14.00">Entspricht f&#252;r diesen Steuersatz die Angabe des Steuerbetrages der Summe aller</text>
+<text text-anchor="start" x="513.27" y="-924.49" font-family="Roboto, sans-serif" font-size="14.00">Rechnungspositionen (Netto) dieser Rechnung, denen dieser Steuersatz zugeordnet</text>
+<text text-anchor="start" x="513.27" y="-910.49" font-family="Roboto, sans-serif" font-size="14.00">ist, multipliziert mit diesem Steuersatz?</text>
+</g>
+<!-- 510&#45;&gt;520 -->
+<g id="edge76" class="edge">
+<title>510-&gt;520</title>
+<path fill="none" stroke="#88a0d6" d="M1055.35,-1179.12C1056.89,-1139.43 1059.3,-1051.94 1054.4,-978.43"/>
+<text text-anchor="start" x="1056.4" y="-1043.39" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A22_520&#45;&gt;520 -->
+<g id="edge77" class="edge">
+<title>A22_520-&gt;520</title>
+<path fill="none" stroke="#88a0d6" d="M1002.44,-996.48C1034.27,-989.82 1054.74,-983.53 1054.4,-978.43"/>
+<path fill="none" stroke="#88a0d6" d="M1054.4,-977.43C1054.15,-973.71 1052.79,-970.28 1050.48,-967.11"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1053.01,-964.69 1043.33,-960.4 1048.22,-969.8 1053.01,-964.69"/>
+</g>
+<!-- A23_530 -->
+<g id="node64" class="node">
+<title>A23_530</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1080.05,-846.9C1080.05,-846.9 530.75,-846.9 530.75,-846.9 524.75,-846.9 518.75,-840.9 518.75,-834.9 518.75,-834.9 518.75,-729.62 518.75,-729.62 518.75,-723.62 524.75,-717.62 530.75,-717.62 530.75,-717.62 1080.05,-717.62 1080.05,-717.62 1086.05,-717.62 1092.05,-723.62 1092.05,-729.62 1092.05,-729.62 1092.05,-834.9 1092.05,-834.9 1092.05,-840.9 1086.05,-846.9 1080.05,-846.9"/>
+<text text-anchor="start" x="533.15" y="-825.96" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A23</text>
+<text text-anchor="start" x="533.15" y="-797.96" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Summenebene</text>
+<text text-anchor="start" x="533.15" y="-783.96" font-family="Roboto, sans-serif" font-size="14.00">Summe aller Rechnungspositionen (Netto) dieser Rechnung, denen dieser</text>
+<text text-anchor="start" x="533.15" y="-769.96" font-family="Roboto, sans-serif" font-size="14.00">Steuersatz zugeordnet ist, multipliziert mit diesem Steuersatz entspricht nicht</text>
+<text text-anchor="start" x="533.15" y="-755.96" font-family="Roboto, sans-serif" font-size="14.00">der Angabe des Steuerbetrages f&#252;r diesen Steuersatz.</text>
+<text text-anchor="start" x="533.15" y="-741.96" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus</text>
+<text text-anchor="start" x="533.15" y="-727.96" font-family="Roboto, sans-serif" font-size="14.00">DE5305) des SG52 TAX zu nennen.</text>
+</g>
+<!-- 520&#45;&gt;A23_530 -->
+<g id="edge78" class="edge">
+<title>520-&gt;A23_530</title>
+<path fill="none" stroke="#88a0d6" d="M815.06,-900.38C814.05,-888.19 812.83,-873.31 811.59,-858.3"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="815.08,-858.02 810.77,-848.34 808.1,-858.6 815.08,-858.02"/>
+<text text-anchor="start" x="813.4" y="-869.85" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 530 -->
+<g id="node65" class="node">
+<title>530</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1301.43,-680.62C1301.43,-680.62 967.38,-680.62 967.38,-680.62 961.38,-680.62 955.38,-674.62 955.38,-668.62 955.38,-668.62 955.38,-656.62 955.38,-656.62 955.38,-650.62 961.38,-644.62 967.38,-644.62 967.38,-644.62 1301.43,-644.62 1301.43,-644.62 1307.43,-644.62 1313.43,-650.62 1313.43,-656.62 1313.43,-656.62 1313.43,-668.62 1313.43,-668.62 1313.43,-674.62 1307.43,-680.62 1301.43,-680.62"/>
+<text text-anchor="start" x="969.78" y="-658.95" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">530: </text>
+<text text-anchor="start" x="1008.78" y="-658.95" font-family="Roboto, sans-serif" font-size="14.00">Sind noch weitere Steuers&#228;tze zu pr&#252;fen?</text>
+</g>
+<!-- 520&#45;&gt;530 -->
+<g id="edge79" class="edge">
+<title>520-&gt;530</title>
+<path fill="none" stroke="#88a0d6" d="M1021.27,-900.2C1051.49,-888 1079.7,-870.87 1101.4,-846.9 1146.06,-797.56 1089.24,-753.43 1128.4,-699.62"/>
+<text text-anchor="start" x="1119.4" y="-778.59" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A23_530&#45;&gt;530 -->
+<g id="edge80" class="edge">
+<title>A23_530-&gt;530</title>
+<path fill="none" stroke="#88a0d6" d="M1092.05,-717.75C1111.13,-711.28 1124.42,-705.09 1128.4,-699.62"/>
+<path fill="none" stroke="#88a0d6" d="M1128.4,-698.62C1129.93,-696.51 1131.12,-694.15 1132.04,-691.67"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1135.44,-692.5 1134.22,-681.98 1128.61,-690.97 1135.44,-692.5"/>
+</g>
+<!-- 530&#45;&gt;510 -->
+<g id="edge81" class="edge">
+<title>530-&gt;510</title>
+<path fill="none" stroke="#88a0d6" d="M1143.6,-680.6C1154.84,-702.99 1172.4,-743.91 1172.4,-781.26 1172.4,-1048.07 1172.4,-1048.07 1172.4,-1048.07 1172.4,-1099.86 1129.32,-1144.75 1095.22,-1172.17"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1093.26,-1169.26 1087.53,-1178.16 1097.57,-1174.78 1093.26,-1169.26"/>
+<text text-anchor="start" x="1172.4" y="-926.12" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 540 -->
+<g id="node66" class="node">
+<title>540</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1406.43,-591.37C1406.43,-591.37 862.38,-591.37 862.38,-591.37 856.38,-591.37 850.38,-585.37 850.38,-579.37 850.38,-579.37 850.38,-558.09 850.38,-558.09 850.38,-552.09 856.38,-546.09 862.38,-546.09 862.38,-546.09 1406.43,-546.09 1406.43,-546.09 1412.43,-546.09 1418.43,-552.09 1418.43,-558.09 1418.43,-558.09 1418.43,-579.37 1418.43,-579.37 1418.43,-585.37 1412.43,-591.37 1406.43,-591.37"/>
+<text text-anchor="start" x="864.78" y="-570.43" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">540: </text>
+<text text-anchor="start" x="903.78" y="-570.43" font-family="Roboto, sans-serif" font-size="14.00">Entspricht der Rechnungsbetrag der Summe aller Rechnungspositionen</text>
+<text text-anchor="start" x="864.78" y="-556.43" font-family="Roboto, sans-serif" font-size="14.00">(Besteuerungsgrundlage) zzgl. dem jeweiligen Steuerbetrag?</text>
+</g>
+<!-- 530&#45;&gt;540 -->
+<g id="edge82" class="edge">
+<title>530-&gt;540</title>
+<path fill="none" stroke="#88a0d6" d="M1134.4,-644.77C1134.4,-633.03 1134.4,-616.98 1134.4,-602.75"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1137.9,-602.86 1134.4,-592.86 1130.9,-602.86 1137.9,-602.86"/>
+<text text-anchor="start" x="1134.4" y="-614.32" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A24_550 -->
+<g id="node67" class="node">
+<title>A24_550</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1130.05,-492.84C1130.05,-492.84 550.75,-492.84 550.75,-492.84 544.75,-492.84 538.75,-486.84 538.75,-480.84 538.75,-480.84 538.75,-417.56 538.75,-417.56 538.75,-411.56 544.75,-405.56 550.75,-405.56 550.75,-405.56 1130.05,-405.56 1130.05,-405.56 1136.05,-405.56 1142.05,-411.56 1142.05,-417.56 1142.05,-417.56 1142.05,-480.84 1142.05,-480.84 1142.05,-486.84 1136.05,-492.84 1130.05,-492.84"/>
+<text text-anchor="start" x="553.15" y="-471.9" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A24</text>
+<text text-anchor="start" x="553.15" y="-443.9" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Summenebene</text>
+<text text-anchor="start" x="553.15" y="-429.9" font-family="Roboto, sans-serif" font-size="14.00">Rechnungsbetrag (Besteuerungsgrundlage inklusive Steuerbetrag) der Summe ist</text>
+<text text-anchor="start" x="553.15" y="-415.9" font-family="Roboto, sans-serif" font-size="14.00">nicht korrekt.</text>
+</g>
+<!-- 540&#45;&gt;A24_550 -->
+<g id="edge83" class="edge">
+<title>540-&gt;A24_550</title>
+<path fill="none" stroke="#88a0d6" d="M1080.48,-546.17C1046.02,-532.4 999.97,-513.99 957.42,-496.98"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="958.97,-493.83 948.38,-493.37 956.37,-500.33 958.97,-493.83"/>
+<text text-anchor="start" x="1030.4" y="-515.79" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 550 -->
+<g id="node68" class="node">
+<title>550</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1435.05,-368.56C1435.05,-368.56 921.75,-368.56 921.75,-368.56 915.75,-368.56 909.75,-362.56 909.75,-356.56 909.75,-356.56 909.75,-344.56 909.75,-344.56 909.75,-338.56 915.75,-332.56 921.75,-332.56 921.75,-332.56 1435.05,-332.56 1435.05,-332.56 1441.05,-332.56 1447.05,-338.56 1447.05,-344.56 1447.05,-344.56 1447.05,-356.56 1447.05,-356.56 1447.05,-362.56 1441.05,-368.56 1435.05,-368.56"/>
+<text text-anchor="start" x="924.15" y="-346.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">550: </text>
+<text text-anchor="start" x="963.15" y="-346.88" font-family="Roboto, sans-serif" font-size="14.00">Ist ein zuvor nicht spezifizierter Fehler im Summenteil aufgetreten?</text>
+</g>
+<!-- 540&#45;&gt;550 -->
+<g id="edge84" class="edge">
+<title>540-&gt;550</title>
+<path fill="none" stroke="#88a0d6" d="M1139.21,-546.24C1149.65,-499.88 1173.81,-394.14 1178.4,-387.56"/>
+<text text-anchor="start" x="1171.4" y="-445.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A24_550&#45;&gt;550 -->
+<g id="edge85" class="edge">
+<title>A24_550-&gt;550</title>
+<path fill="none" stroke="#88a0d6" d="M1141.97,-412.29C1158.8,-405.44 1171.62,-397.28 1178.4,-387.56"/>
+<path fill="none" stroke="#88a0d6" d="M1178.4,-386.56C1179.81,-384.54 1180.78,-382.27 1181.4,-379.9"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1184.89,-380.18 1182.12,-369.95 1177.91,-379.68 1184.89,-380.18"/>
+</g>
+<!-- A96_560 -->
+<g id="node69" class="node">
+<title>A96_560</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1156.67,-279.31C1156.67,-279.31 596.12,-279.31 596.12,-279.31 590.12,-279.31 584.12,-273.31 584.12,-267.31 584.12,-267.31 584.12,-190.03 584.12,-190.03 584.12,-184.03 590.12,-178.03 596.12,-178.03 596.12,-178.03 1156.67,-178.03 1156.67,-178.03 1162.67,-178.03 1168.67,-184.03 1168.67,-190.03 1168.67,-190.03 1168.67,-267.31 1168.67,-267.31 1168.67,-273.31 1162.67,-279.31 1156.67,-279.31"/>
+<text text-anchor="start" x="598.52" y="-258.37" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A96</text>
+<text text-anchor="start" x="598.52" y="-230.37" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Summenebene</text>
+<text text-anchor="start" x="598.52" y="-216.37" font-family="Roboto, sans-serif" font-size="14.00">Sonstiges</text>
+<text text-anchor="start" x="598.52" y="-202.37" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.</text>
+<text text-anchor="start" x="598.52" y="-188.37" font-family="Roboto, sans-serif" font-size="14.00">Nutzungsm&#246;glichkeit Ende: 01.04.2026 00:00 Uhr</text>
+</g>
+<!-- 550&#45;&gt;A96_560 -->
+<g id="edge86" class="edge">
+<title>550-&gt;A96_560</title>
+<path fill="none" stroke="#88a0d6" d="M1135.77,-332.64C1103.27,-319.73 1056.6,-301.21 1011.78,-283.42"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1013.35,-280.27 1002.76,-279.83 1010.76,-286.78 1013.35,-280.27"/>
+<text text-anchor="start" x="1088.4" y="-302.26" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 560 -->
+<g id="node70" class="node">
+<title>560</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1437.8,-141.03C1437.8,-141.03 971,-141.03 971,-141.03 965,-141.03 959,-135.03 959,-129.03 959,-129.03 959,-117.03 959,-117.03 959,-111.03 965,-105.03 971,-105.03 971,-105.03 1437.8,-105.03 1437.8,-105.03 1443.8,-105.03 1449.8,-111.03 1449.8,-117.03 1449.8,-117.03 1449.8,-129.03 1449.8,-129.03 1449.8,-135.03 1443.8,-141.03 1437.8,-141.03"/>
+<text text-anchor="start" x="973.4" y="-119.36" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">560: </text>
+<text text-anchor="start" x="1012.4" y="-119.36" font-family="Roboto, sans-serif" font-size="14.00">Ist mindestens ein Fehler in der Summenebene aufgetreten?</text>
+</g>
+<!-- 550&#45;&gt;560 -->
+<g id="edge87" class="edge">
+<title>550-&gt;560</title>
+<path fill="none" stroke="#88a0d6" d="M1178.86,-332.77C1180.28,-291.85 1185.67,-188.26 1204.4,-160.03"/>
+<text text-anchor="start" x="1195.4" y="-225" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A96_560&#45;&gt;560 -->
+<g id="edge88" class="edge">
+<title>A96_560-&gt;560</title>
+<path fill="none" stroke="#88a0d6" d="M1165.54,-178.06C1186.16,-172.04 1200.48,-165.93 1204.4,-160.03"/>
+<path fill="none" stroke="#88a0d6" d="M1204.4,-159.03C1205.76,-156.97 1206.7,-154.69 1207.3,-152.3"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1210.79,-152.55 1207.99,-142.34 1203.81,-152.07 1210.79,-152.55"/>
+</g>
+<!-- Cluster: Ablehnung auf Summenebene
+Hinweis: Alle erkannten Antwortcodes aus der Summenebene sind zu &#252;bermitteln. -->
+<g id="node71" class="node">
+<title>Cluster: Ablehnung auf Summenebene
+Hinweis: Alle erkannten Antwortcodes aus der Summenebene sind zu &#252;bermitteln.</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M924.67,-51.78C924.67,-51.78 346.12,-51.78 346.12,-51.78 340.12,-51.78 334.12,-45.78 334.12,-39.78 334.12,-39.78 334.12,-12 334.12,-12 334.12,-6 340.12,0 346.12,0 346.12,0 924.67,0 924.67,0 930.67,0 936.67,-6 936.67,-12 936.67,-12 936.67,-39.78 936.67,-39.78 936.67,-45.78 930.67,-51.78 924.67,-51.78"/>
+<text text-anchor="start" x="348.52" y="-29.84" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung auf Summenebene</text>
+<text text-anchor="start" x="348.52" y="-12.59" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Alle erkannten Antwortcodes aus der Summenebene sind zu &#252;bermitteln.</text>
+</g>
+<!-- 560&#45;&gt;Cluster: Ablehnung auf Summenebene
+Hinweis: Alle erkannten Antwortcodes aus der Summenebene sind zu &#252;bermitteln. -->
+<g id="edge89" class="edge">
+<title>560-&gt;Cluster: Ablehnung auf Summenebene
+Hinweis: Alle erkannten Antwortcodes aus der Summenebene sind zu &#252;bermitteln.</title>
+<path fill="none" stroke="#88a0d6" d="M1103,-105.08C1017.63,-90.8 894.01,-70.13 795.32,-53.63"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="795.95,-50.19 785.51,-51.99 794.8,-57.09 795.95,-50.19"/>
+<text text-anchor="start" x="987.4" y="-74.73" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- Cluster: Zustimmung 
+Zahlung der Rechnung avisieren und im Zahlungslauf ber&#252;cksichtigen. -->
+<g id="node72" class="node">
+<title>Cluster: Zustimmung 
+Zahlung der Rechnung avisieren und im Zahlungslauf ber&#252;cksichtigen.</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1467.68,-51.78C1467.68,-51.78 967.13,-51.78 967.13,-51.78 961.13,-51.78 955.13,-45.78 955.13,-39.78 955.13,-39.78 955.13,-12 955.13,-12 955.13,-6 961.13,0 967.13,0 967.13,0 1467.68,0 1467.68,0 1473.68,0 1479.68,-6 1479.68,-12 1479.68,-12 1479.68,-39.78 1479.68,-39.78 1479.68,-45.78 1473.68,-51.78 1467.68,-51.78"/>
+<text text-anchor="start" x="969.53" y="-29.84" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="969.53" y="-12.59" font-family="Roboto, sans-serif" font-size="14.00">Zahlung der Rechnung avisieren und im Zahlungslauf ber&#252;cksichtigen.</text>
+</g>
+<!-- 560&#45;&gt;Cluster: Zustimmung 
+Zahlung der Rechnung avisieren und im Zahlungslauf ber&#252;cksichtigen. -->
+<g id="edge90" class="edge">
+<title>560-&gt;Cluster: Zustimmung 
+Zahlung der Rechnung avisieren und im Zahlungslauf ber&#252;cksichtigen.</title>
+<path fill="none" stroke="#88a0d6" d="M1206.66,-105.46C1208.27,-93.7 1210.49,-77.45 1212.49,-62.79"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1215.95,-63.37 1213.83,-52.98 1209.01,-62.42 1215.95,-63.37"/>
+<text text-anchor="start" x="1210.4" y="-74.73" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>
