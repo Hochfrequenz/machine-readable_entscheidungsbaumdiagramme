@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="830.6666666666666px" viewBox="0 0 830.6666666666666 488.0" height="488.0px">
+  <g>
+    <svg version="1.1" width="830.6666666666666px" viewBox="0 0 830.6666666666666 488.0" height="488.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="830.6666666666666" height="488.0" rx="20" ry="20"/><g>
+    <g transform="translate(216.32663099596354, 48.79999999999999) scale(1 1) translate(0, 0) scale(0.6871303858068151 0.6871303858068151) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="623pt" height="366pt" viewBox="0.00 0.00 623.17 366.09">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 348.09)">
+<title>D</title>
+<text text-anchor="start" x="49.46" y="-309.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">MaBiS</text>
+<text text-anchor="start" x="49.46" y="-281.89" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">7.7.2: AD: &#220;bermittlung Datenstatus der Netzzeitreihe</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M361.42,-240.09C361.42,-240.09 208.87,-240.09 208.87,-240.09 202.87,-240.09 196.87,-234.09 196.87,-228.09 196.87,-228.09 196.87,-206.81 196.87,-206.81 196.87,-200.81 202.87,-194.81 208.87,-194.81 208.87,-194.81 361.42,-194.81 361.42,-194.81 367.42,-194.81 373.42,-200.81 373.42,-206.81 373.42,-206.81 373.42,-228.09 373.42,-228.09 373.42,-234.09 367.42,-240.09 361.42,-240.09"/>
+<text text-anchor="start" x="211.27" y="-219.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0067</text>
+<text text-anchor="start" x="211.27" y="-205.15" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="320.77" y="-205.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">BIKO</text>
+</g>
+<!-- 1 -->
+<g id="node2" class="node">
+<title>1</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M558.3,-157.81C558.3,-157.81 12,-157.81 12,-157.81 6,-157.81 0,-151.81 0,-145.81 0,-145.81 0,-124.53 0,-124.53 0,-118.53 6,-112.53 12,-112.53 12,-112.53 558.3,-112.53 558.3,-112.53 564.3,-112.53 570.3,-118.53 570.3,-124.53 570.3,-124.53 570.3,-145.81 570.3,-145.81 570.3,-151.81 564.3,-157.81 558.3,-157.81"/>
+<text text-anchor="start" x="14.4" y="-136.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="33.9" y="-136.87" font-family="Roboto, sans-serif" font-size="14.00">Erfolgt der Eingang der Zeitreihe vor Ablauf der Frist f&#252;r die Clearingphase</text>
+<text text-anchor="start" x="14.4" y="-122.87" font-family="Roboto, sans-serif" font-size="14.00">BKA (ohne KBKA)?</text>
+</g>
+<!-- Start&#45;&gt;1 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;1</title>
+<path fill="none" stroke="#88a0d6" d="M285.15,-194.94C285.15,-187.02 285.15,-177.86 285.15,-169.16"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="288.65,-169.26 285.15,-159.26 281.65,-169.26 288.65,-169.26"/>
+</g>
+<!-- A01 -->
+<g id="node3" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M253.55,-59.28C253.55,-59.28 14.75,-59.28 14.75,-59.28 8.75,-59.28 2.75,-53.28 2.75,-47.28 2.75,-47.28 2.75,-12 2.75,-12 2.75,-6 8.75,0 14.75,0 14.75,0 253.55,0 253.55,0 259.55,0 265.55,-6 265.55,-12 265.55,-12 265.55,-47.28 265.55,-47.28 265.55,-53.28 259.55,-59.28 253.55,-59.28"/>
+<text text-anchor="start" x="17.15" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="17.15" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Datenstatus &#8222;Abrechnungsdaten&#8220;</text>
+</g>
+<!-- 1&#45;&gt;A01 -->
+<g id="edge2" class="edge">
+<title>1-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M253.86,-112.72C233.97,-99.08 207.76,-81.11 184.93,-65.46"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="187.19,-62.76 176.96,-59.99 183.23,-68.54 187.19,-62.76"/>
+<text text-anchor="start" x="223.15" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A04 -->
+<g id="node4" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M575.17,-59.28C575.17,-59.28 295.12,-59.28 295.12,-59.28 289.12,-59.28 283.12,-53.28 283.12,-47.28 283.12,-47.28 283.12,-12 283.12,-12 283.12,-6 289.12,0 295.12,0 295.12,0 575.17,0 575.17,0 581.17,0 587.17,-6 587.17,-12 587.17,-12 587.17,-47.28 587.17,-47.28 587.17,-53.28 581.17,-59.28 575.17,-59.28"/>
+<text text-anchor="start" x="297.52" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="297.52" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Datenstatus &#8222;Abrechnungsdaten KBKA&#8220;</text>
+</g>
+<!-- 1&#45;&gt;A04 -->
+<g id="edge3" class="edge">
+<title>1-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M316.23,-112.72C335.9,-99.14 361.8,-81.27 384.4,-65.67"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="386.37,-68.56 392.62,-60 382.4,-62.8 386.37,-68.56"/>
+<text text-anchor="start" x="364.15" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

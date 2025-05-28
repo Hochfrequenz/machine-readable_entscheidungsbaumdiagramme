@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1920.0px" viewBox="0 0 1920.0 1593.3333333333333" height="1593.3333333333333px">
+  <g>
+    <svg version="1.1" width="1920.0px" viewBox="0 0 1920.0 1593.3333333333333" height="1593.3333333333333px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1920.0" height="1593.3333333333333" rx="20" ry="20"/><g>
+    <g transform="translate(310.23767952689377, 159.3333333333333) scale(1 1) translate(0, 0) scale(2.2434994837135083 2.2434994837135083) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1440pt" height="1195pt" viewBox="0.00 0.00 1440.00 1194.50">
+<g id="graph0" class="graph" transform="scale(0.98779 0.98779) rotate(0) translate(18 1191.27)">
+<title>D</title>
+<text text-anchor="start" x="341.53" y="-1153.17" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">Sperrprozesse Gas</text>
+<text text-anchor="start" x="341.53" y="-1125.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">18.2.4: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M539.92,-1083.27C539.92,-1083.27 403.12,-1083.27 403.12,-1083.27 397.12,-1083.27 391.12,-1077.27 391.12,-1071.27 391.12,-1071.27 391.12,-1049.99 391.12,-1049.99 391.12,-1043.99 397.12,-1037.99 403.12,-1037.99 403.12,-1037.99 539.92,-1037.99 539.92,-1037.99 545.92,-1037.99 551.92,-1043.99 551.92,-1049.99 551.92,-1049.99 551.92,-1071.27 551.92,-1071.27 551.92,-1077.27 545.92,-1083.27 539.92,-1083.27"/>
+<text text-anchor="start" x="405.52" y="-1062.33" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_1003</text>
+<text text-anchor="start" x="405.52" y="-1048.33" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="515.02" y="-1048.33" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 10 -->
+<g id="node2" class="node">
+<title>10</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M750.67,-1000.99C750.67,-1000.99 192.38,-1000.99 192.38,-1000.99 186.38,-1000.99 180.38,-994.99 180.38,-988.99 180.38,-988.99 180.38,-967.71 180.38,-967.71 180.38,-961.71 186.38,-955.71 192.38,-955.71 192.38,-955.71 750.67,-955.71 750.67,-955.71 756.67,-955.71 762.67,-961.71 762.67,-967.71 762.67,-967.71 762.67,-988.99 762.67,-988.99 762.67,-994.99 756.67,-1000.99 750.67,-1000.99"/>
+<text text-anchor="start" x="194.77" y="-980.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="224.02" y="-980.05" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus rechtlichen Gr&#252;nden nicht m&#246;glich (z.&#160;B., wenn eine</text>
+<text text-anchor="start" x="194.77" y="-966.05" font-family="Roboto, sans-serif" font-size="14.00">Einstweilige Verf&#252;gung vorlag)?</text>
+</g>
+<!-- Start&#45;&gt;10 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;10</title>
+<path fill="none" stroke="#88a0d6" d="M471.52,-1038.12C471.52,-1030.2 471.52,-1021.04 471.52,-1012.34"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="475.03,-1012.44 471.53,-1002.44 468.03,-1012.44 475.03,-1012.44"/>
+</g>
+<!-- A01 -->
+<g id="node3" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M601.05,-902.46C601.05,-902.46 12,-902.46 12,-902.46 6,-902.46 0,-896.46 0,-890.46 0,-890.46 0,-841.18 0,-841.18 0,-835.18 6,-829.18 12,-829.18 12,-829.18 601.05,-829.18 601.05,-829.18 607.05,-829.18 613.05,-835.18 613.05,-841.18 613.05,-841.18 613.05,-890.46 613.05,-890.46 613.05,-896.46 607.05,-902.46 601.05,-902.46"/>
+<text text-anchor="start" x="14.4" y="-881.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="14.4" y="-853.52" font-family="Roboto, sans-serif" font-size="14.00">Cluster: gescheitert</text>
+<text text-anchor="start" x="14.4" y="-839.52" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation wurde nicht gesperrt, da ein rechtlicher Grund vor Ort erkannt wurde.</text>
+</g>
+<!-- 10&#45;&gt;A01 -->
+<g id="edge2" class="edge">
+<title>10-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M439.32,-955.78C419.28,-942.35 392.85,-924.65 368.84,-908.56"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="370.94,-905.76 360.69,-903.1 367.05,-911.57 370.94,-905.76"/>
+<text text-anchor="start" x="408.52" y="-925.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 20 -->
+<g id="node4" class="node">
+<title>20</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1214.42,-888.46C1214.42,-888.46 642.62,-888.46 642.62,-888.46 636.62,-888.46 630.62,-882.46 630.62,-876.46 630.62,-876.46 630.62,-855.18 630.62,-855.18 630.62,-849.18 636.62,-843.18 642.62,-843.18 642.62,-843.18 1214.42,-843.18 1214.42,-843.18 1220.42,-843.18 1226.42,-849.18 1226.42,-855.18 1226.42,-855.18 1226.42,-876.46 1226.42,-876.46 1226.42,-882.46 1220.42,-888.46 1214.42,-888.46"/>
+<text text-anchor="start" x="645.02" y="-867.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
+<text text-anchor="start" x="674.27" y="-867.52" font-family="Roboto, sans-serif" font-size="14.00">Wurde der Anschlussnutzer angetroffen?</text>
+<text text-anchor="start" x="645.02" y="-853.52" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es gab keine Anzeichen daf&#252;r, dass der Anschlussnutzer anwesend war.</text>
+</g>
+<!-- 10&#45;&gt;20 -->
+<g id="edge3" class="edge">
+<title>10-&gt;20</title>
+<path fill="none" stroke="#88a0d6" d="M561,-955.71C637.81,-937.13 748.43,-910.38 828.22,-891.08"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="828.9,-894.52 837.8,-888.76 827.26,-887.71 828.9,-894.52"/>
+<text text-anchor="start" x="699.52" y="-925.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A08 -->
+<g id="node5" class="node">
+<title>A08</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M678.42,-775.93C678.42,-775.93 100.62,-775.93 100.62,-775.93 94.62,-775.93 88.62,-769.93 88.62,-763.93 88.62,-763.93 88.62,-700.65 88.62,-700.65 88.62,-694.65 94.62,-688.65 100.62,-688.65 100.62,-688.65 678.42,-688.65 678.42,-688.65 684.42,-688.65 690.42,-694.65 690.42,-700.65 690.42,-700.65 690.42,-763.93 690.42,-763.93 690.42,-769.93 684.42,-775.93 678.42,-775.93"/>
+<text text-anchor="start" x="103.02" y="-754.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A08</text>
+<text text-anchor="start" x="103.02" y="-726.99" font-family="Roboto, sans-serif" font-size="14.00">Cluster: gescheitert</text>
+<text text-anchor="start" x="103.02" y="-712.99" font-family="Roboto, sans-serif" font-size="14.00">Der Anschlussnutzer wurde nicht angetroffen. Es gab keine Anzeichen daf&#252;r, dass</text>
+<text text-anchor="start" x="103.02" y="-698.99" font-family="Roboto, sans-serif" font-size="14.00">dieser anwesend war.</text>
+</g>
+<!-- 20&#45;&gt;A08 -->
+<g id="edge4" class="edge">
+<title>20-&gt;A08</title>
+<path fill="none" stroke="#88a0d6" d="M840.12,-843.25C768.45,-825.76 664.97,-800.5 575.24,-778.61"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="576.1,-775.22 565.56,-776.25 574.45,-782.02 576.1,-775.22"/>
+<text text-anchor="start" x="706.52" y="-798.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 30 -->
+<g id="node6" class="node">
+<title>30</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1316.42,-768.93C1316.42,-768.93 720.62,-768.93 720.62,-768.93 714.62,-768.93 708.62,-762.93 708.62,-756.93 708.62,-756.93 708.62,-707.65 708.62,-707.65 708.62,-701.65 714.62,-695.65 720.62,-695.65 720.62,-695.65 1316.42,-695.65 1316.42,-695.65 1322.42,-695.65 1328.42,-701.65 1328.42,-707.65 1328.42,-707.65 1328.42,-756.93 1328.42,-756.93 1328.42,-762.93 1322.42,-768.93 1316.42,-768.93"/>
+<text text-anchor="start" x="723.02" y="-747.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="752.27" y="-747.99" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus dem Grund &#8222;aktive Zutrittsverweigerung&#8220; nicht m&#246;glich?</text>
+<text text-anchor="start" x="723.02" y="-733.99" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Unter &#8222;aktive Zutrittsverweigerung&#8220; ist zu verstehen, dass der</text>
+<text text-anchor="start" x="723.02" y="-719.99" font-family="Roboto, sans-serif" font-size="14.00">Anschlussnutzer angetroffen wurde und dieser den Zugang z.&#160;B. durch Drohungen,</text>
+<text text-anchor="start" x="723.02" y="-705.99" font-family="Roboto, sans-serif" font-size="14.00">physische Angriffe, versperren des Zugangs zur Trennstelle unterbunden hat.</text>
+</g>
+<!-- 20&#45;&gt;30 -->
+<g id="edge5" class="edge">
+<title>20-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M943.19,-843.39C955.26,-825.75 972.78,-800.14 987.89,-778.05"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="990.59,-780.32 993.35,-770.09 984.81,-776.37 990.59,-780.32"/>
+<text text-anchor="start" x="975.52" y="-798.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A02 -->
+<g id="node7" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M726.05,-628.4C726.05,-628.4 167,-628.4 167,-628.4 161,-628.4 155,-622.4 155,-616.4 155,-616.4 155,-567.12 155,-567.12 155,-561.12 161,-555.12 167,-555.12 167,-555.12 726.05,-555.12 726.05,-555.12 732.05,-555.12 738.05,-561.12 738.05,-567.12 738.05,-567.12 738.05,-616.4 738.05,-616.4 738.05,-622.4 732.05,-628.4 726.05,-628.4"/>
+<text text-anchor="start" x="169.4" y="-607.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="169.4" y="-579.46" font-family="Roboto, sans-serif" font-size="14.00">Cluster: gescheitert</text>
+<text text-anchor="start" x="169.4" y="-565.46" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation wurde nicht gesperrt, da eine aktive Zutrittsverweigerung vorlag.</text>
+</g>
+<!-- 30&#45;&gt;A02 -->
+<g id="edge6" class="edge">
+<title>30-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M871.59,-695.71C789.86,-675.91 688.1,-651.27 604.64,-631.05"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="605.53,-627.67 594.99,-628.71 603.88,-634.47 605.53,-627.67"/>
+<text text-anchor="start" x="766.52" y="-658.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 40 -->
+<g id="node8" class="node">
+<title>40</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1374.68,-635.4C1374.68,-635.4 768.38,-635.4 768.38,-635.4 762.38,-635.4 756.38,-629.4 756.38,-623.4 756.38,-623.4 756.38,-560.12 756.38,-560.12 756.38,-554.12 762.38,-548.12 768.38,-548.12 768.38,-548.12 1374.68,-548.12 1374.68,-548.12 1380.68,-548.12 1386.68,-554.12 1386.68,-560.12 1386.68,-560.12 1386.68,-623.4 1386.68,-623.4 1386.68,-629.4 1380.68,-635.4 1374.68,-635.4"/>
+<text text-anchor="start" x="770.78" y="-614.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
+<text text-anchor="start" x="800.03" y="-614.46" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus dem Grund &#8222;passive Zutrittsverweigerung&#8220; nicht m&#246;glich?</text>
+<text text-anchor="start" x="770.78" y="-600.46" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Unter &#8222;passiver Zutrittsverweigerung&#8220; ist zu verstehen, dass eine</text>
+<text text-anchor="start" x="770.78" y="-586.46" font-family="Roboto, sans-serif" font-size="14.00">Anwesenheit des Anschlussnutzers festgestellt wurde, dieser jedoch seine</text>
+<text text-anchor="start" x="770.78" y="-572.46" font-family="Roboto, sans-serif" font-size="14.00">Anwesenheit verleugnet. (z.B. Anschlussnutzer wurden in der Wohnung gesichtet,</text>
+<text text-anchor="start" x="770.78" y="-558.46" font-family="Roboto, sans-serif" font-size="14.00">&#246;ffnet aber die T&#252;r nicht).</text>
+</g>
+<!-- 30&#45;&gt;40 -->
+<g id="edge7" class="edge">
+<title>30-&gt;40</title>
+<path fill="none" stroke="#88a0d6" d="M1032.04,-695.97C1037.9,-680.64 1044.9,-662.36 1051.36,-645.47"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1054.45,-647.17 1054.76,-636.58 1047.92,-644.67 1054.45,-647.17"/>
+<text text-anchor="start" x="1047.53" y="-658.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A03 -->
+<g id="node9" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M814.3,-494.87C814.3,-494.87 244.75,-494.87 244.75,-494.87 238.75,-494.87 232.75,-488.87 232.75,-482.87 232.75,-482.87 232.75,-433.59 232.75,-433.59 232.75,-427.59 238.75,-421.59 244.75,-421.59 244.75,-421.59 814.3,-421.59 814.3,-421.59 820.3,-421.59 826.3,-427.59 826.3,-433.59 826.3,-433.59 826.3,-482.87 826.3,-482.87 826.3,-488.87 820.3,-494.87 814.3,-494.87"/>
+<text text-anchor="start" x="247.15" y="-473.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="247.15" y="-445.93" font-family="Roboto, sans-serif" font-size="14.00">Cluster: gescheitert</text>
+<text text-anchor="start" x="247.15" y="-431.93" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation wurde nicht gesperrt, da eine passive Zutrittsverweigerung vorlag.</text>
+</g>
+<!-- 40&#45;&gt;A03 -->
+<g id="edge8" class="edge">
+<title>40-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M895.93,-548.15C828.71,-531.83 752.52,-513.34 687.09,-497.47"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="688.28,-494.15 677.73,-495.2 686.63,-500.96 688.28,-494.15"/>
+<text text-anchor="start" x="816.52" y="-517.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 50 -->
+<g id="node10" class="node">
+<title>50</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1380.8,-476.23C1380.8,-476.23 856.25,-476.23 856.25,-476.23 850.25,-476.23 844.25,-470.23 844.25,-464.23 844.25,-464.23 844.25,-452.23 844.25,-452.23 844.25,-446.23 850.25,-440.23 856.25,-440.23 856.25,-440.23 1380.8,-440.23 1380.8,-440.23 1386.8,-440.23 1392.8,-446.23 1392.8,-452.23 1392.8,-452.23 1392.8,-464.23 1392.8,-464.23 1392.8,-470.23 1386.8,-476.23 1380.8,-476.23"/>
+<text text-anchor="start" x="858.65" y="-454.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
+<text text-anchor="start" x="887.9" y="-454.55" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung wegen eines Verhinderungsgrundes nicht m&#246;glich?</text>
+</g>
+<!-- 40&#45;&gt;50 -->
+<g id="edge9" class="edge">
+<title>40-&gt;50</title>
+<path fill="none" stroke="#88a0d6" d="M1086.65,-548.42C1093.88,-528.21 1102.31,-504.61 1108.69,-486.77"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1111.97,-487.98 1112.04,-477.39 1105.38,-485.63 1111.97,-487.98"/>
+<text text-anchor="start" x="1098.53" y="-517.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A04 -->
+<g id="node11" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M863.42,-368.34C863.42,-368.34 363.62,-368.34 363.62,-368.34 357.62,-368.34 351.62,-362.34 351.62,-356.34 351.62,-356.34 351.62,-293.06 351.62,-293.06 351.62,-287.06 357.62,-281.06 363.62,-281.06 363.62,-281.06 863.42,-281.06 863.42,-281.06 869.42,-281.06 875.42,-287.06 875.42,-293.06 875.42,-293.06 875.42,-356.34 875.42,-356.34 875.42,-362.34 869.42,-368.34 863.42,-368.34"/>
+<text text-anchor="start" x="366.02" y="-347.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="366.02" y="-319.4" font-family="Roboto, sans-serif" font-size="14.00">Cluster: gescheitert</text>
+<text text-anchor="start" x="366.02" y="-305.4" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation wurde nicht gesperrt, da ein Verhinderungsgrund vorlag.</text>
+<text text-anchor="start" x="366.02" y="-291.4" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Im Freitext muss der Verhinderungsgrund mitgeteilt werden.</text>
+</g>
+<!-- 50&#45;&gt;A04 -->
+<g id="edge10" class="edge">
+<title>50-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M1053.28,-440.24C986.47,-422.84 879.73,-395.04 788.15,-371.18"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="789.08,-367.81 778.52,-368.67 787.32,-374.58 789.08,-367.81"/>
+<text text-anchor="start" x="910.52" y="-391.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 60 -->
+<g id="node12" class="node">
+<title>60</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1395.93,-368.34C1395.93,-368.34 905.13,-368.34 905.13,-368.34 899.13,-368.34 893.13,-362.34 893.13,-356.34 893.13,-356.34 893.13,-293.06 893.13,-293.06 893.13,-287.06 899.13,-281.06 905.13,-281.06 905.13,-281.06 1395.93,-281.06 1395.93,-281.06 1401.93,-281.06 1407.93,-287.06 1407.93,-293.06 1407.93,-293.06 1407.93,-356.34 1407.93,-356.34 1407.93,-362.34 1401.93,-368.34 1395.93,-368.34"/>
+<text text-anchor="start" x="907.53" y="-347.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">60: </text>
+<text text-anchor="start" x="936.78" y="-347.4" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus einem tats&#228;chlichen Grund nicht m&#246;glich?</text>
+<text text-anchor="start" x="907.53" y="-333.4" font-family="Roboto, sans-serif" font-size="14.00">Unter tats&#228;chliche Gr&#252;nde fallen z. B.:</text>
+<text text-anchor="start" x="907.53" y="-319.4" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation vor Ort nicht identifizierbar</text>
+<text text-anchor="start" x="907.53" y="-305.4" font-family="Roboto, sans-serif" font-size="14.00">Zugang zur Marktlokation nicht m&#246;glich</text>
+<text text-anchor="start" x="907.53" y="-291.4" font-family="Roboto, sans-serif" font-size="14.00">Kundenwechsel an der Marktlokation festgestellt</text>
+</g>
+<!-- 50&#45;&gt;60 -->
+<g id="edge11" class="edge">
+<title>50-&gt;60</title>
+<path fill="none" stroke="#88a0d6" d="M1122.64,-440.3C1126.39,-424.88 1132.14,-401.25 1137.45,-379.45"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1140.85,-380.28 1139.81,-369.74 1134.05,-378.63 1140.85,-380.28"/>
+<text text-anchor="start" x="1134.53" y="-391.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A05 -->
+<g id="node13" class="node">
+<title>A05</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M885.42,-227.81C885.42,-227.81 391.62,-227.81 391.62,-227.81 385.62,-227.81 379.62,-221.81 379.62,-215.81 379.62,-215.81 379.62,-152.53 379.62,-152.53 379.62,-146.53 385.62,-140.53 391.62,-140.53 391.62,-140.53 885.42,-140.53 885.42,-140.53 891.42,-140.53 897.42,-146.53 897.42,-152.53 897.42,-152.53 897.42,-215.81 897.42,-215.81 897.42,-221.81 891.42,-227.81 885.42,-227.81"/>
+<text text-anchor="start" x="394.02" y="-206.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="394.02" y="-178.87" font-family="Roboto, sans-serif" font-size="14.00">Cluster: gescheitert</text>
+<text text-anchor="start" x="394.02" y="-164.87" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation wurde nicht gesperrt, da ein tats&#228;chlicher Grund vorlag.</text>
+<text text-anchor="start" x="394.02" y="-150.87" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Im Freitext muss der tats&#228;chliche Grund mitgeteilt werden.</text>
+</g>
+<!-- 60&#45;&gt;A05 -->
+<g id="edge12" class="edge">
+<title>60-&gt;A05</title>
+<path fill="none" stroke="#88a0d6" d="M993.08,-281.1C934.15,-265.16 867,-246.99 807.1,-230.78"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="808.03,-227.41 797.46,-228.17 806.2,-234.16 808.03,-227.41"/>
+<text text-anchor="start" x="924.52" y="-250.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 70 -->
+<g id="node14" class="node">
+<title>70</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1409.8,-202.17C1409.8,-202.17 927.25,-202.17 927.25,-202.17 921.25,-202.17 915.25,-196.17 915.25,-190.17 915.25,-190.17 915.25,-178.17 915.25,-178.17 915.25,-172.17 921.25,-166.17 927.25,-166.17 927.25,-166.17 1409.8,-166.17 1409.8,-166.17 1415.8,-166.17 1421.8,-172.17 1421.8,-178.17 1421.8,-178.17 1421.8,-190.17 1421.8,-190.17 1421.8,-196.17 1415.8,-202.17 1409.8,-202.17"/>
+<text text-anchor="start" x="929.65" y="-180.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">70: </text>
+<text text-anchor="start" x="958.9" y="-180.5" font-family="Roboto, sans-serif" font-size="14.00">War eine Sperrung aus einem technischen Grund nicht m&#246;glich?</text>
+</g>
+<!-- 60&#45;&gt;70 -->
+<g id="edge13" class="edge">
+<title>60-&gt;70</title>
+<path fill="none" stroke="#88a0d6" d="M1156.02,-281.38C1158.9,-259.24 1162.34,-232.75 1164.89,-213.18"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1168.33,-213.85 1166.15,-203.48 1161.39,-212.95 1168.33,-213.85"/>
+<text text-anchor="start" x="1160.53" y="-250.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A06 -->
+<g id="node15" class="node">
+<title>A06</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1088.3,-87.28C1088.3,-87.28 602.75,-87.28 602.75,-87.28 596.75,-87.28 590.75,-81.28 590.75,-75.28 590.75,-75.28 590.75,-12 590.75,-12 590.75,-6 596.75,0 602.75,0 602.75,0 1088.3,0 1088.3,0 1094.3,0 1100.3,-6 1100.3,-12 1100.3,-12 1100.3,-75.28 1100.3,-75.28 1100.3,-81.28 1094.3,-87.28 1088.3,-87.28"/>
+<text text-anchor="start" x="605.15" y="-66.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="605.15" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: gescheitert</text>
+<text text-anchor="start" x="605.15" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation wurde nicht gesperrt, da ein technischer Grund vorlag.</text>
+<text text-anchor="start" x="605.15" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Im Freitext muss der technische Grund mitgeteilt werden.</text>
+</g>
+<!-- 70&#45;&gt;A06 -->
+<g id="edge14" class="edge">
+<title>70-&gt;A06</title>
+<path fill="none" stroke="#88a0d6" d="M1128.92,-166.18C1085.84,-147.71 1015.11,-117.37 955.08,-91.63"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="956.74,-88.53 946.17,-87.81 953.98,-94.96 956.74,-88.53"/>
+<text text-anchor="start" x="1025.53" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A07 -->
+<g id="node16" class="node">
+<title>A07</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1343.18,-80.28C1343.18,-80.28 1129.88,-80.28 1129.88,-80.28 1123.88,-80.28 1117.88,-74.28 1117.88,-68.28 1117.88,-68.28 1117.88,-19 1117.88,-19 1117.88,-13 1123.88,-7 1129.88,-7 1129.88,-7 1343.18,-7 1343.18,-7 1349.18,-7 1355.18,-13 1355.18,-19 1355.18,-19 1355.18,-68.28 1355.18,-68.28 1355.18,-74.28 1349.18,-80.28 1343.18,-80.28"/>
+<text text-anchor="start" x="1132.28" y="-59.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A07</text>
+<text text-anchor="start" x="1132.28" y="-31.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: erfolgreich</text>
+<text text-anchor="start" x="1132.28" y="-17.34" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation wurde gesperrt.</text>
+</g>
+<!-- 70&#45;&gt;A07 -->
+<g id="edge15" class="edge">
+<title>70-&gt;A07</title>
+<path fill="none" stroke="#88a0d6" d="M1176.86,-166.18C1186.1,-147.37 1201.38,-116.25 1214.16,-90.21"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1217.16,-92.02 1218.43,-81.5 1210.88,-88.94 1217.16,-92.02"/>
+<text text-anchor="start" x="1206.53" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

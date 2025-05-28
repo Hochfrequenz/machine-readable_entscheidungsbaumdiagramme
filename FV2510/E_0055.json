@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "chapter": "MaBiS",
+    "ebd_code": "E_0055",
+    "ebd_name": "E_0055_Datenstatus nach Vorliegen einer Prüfmitteilung vergeben",
+    "remark": null,
+    "role": "BIKO",
+    "section": "7.27.3: AD: Übermittlung Datenstatus für die Bilanzierungsgebietssummenzeitreihe vom BIKO an ÜNB und NB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist die eingegangene Prüfmitteilung positiv?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. Mögliche Codes sind:\nA01\tDatenstatus „Abrechnungsdaten“\nA02\tDatenstatus „Prüfdaten“\nA03\tDatenstatus „Abgerechnete Daten“\nA04\tDatenstatus „Abrechnungsdaten KBKA“",
+          "result_code": "A**"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt der Datenstatus „Prüfdaten“ vor?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Aktueller Datenstatus\nHinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. Mögliche Codes sind:\nA01\tDatenstatus „Abrechnungsdaten“\nA03\tDatenstatus „Abgerechnete Daten“\nA04\tDatenstatus „Abrechnungsdaten KBKA“",
+          "result_code": "A**"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "3"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Erfolgt der Eingang der Prüfmitteilung vor Ablauf der Frist für die Clearingphase der BKA (ohne KBKA)?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Datenstatus „Abrechnungsdaten“",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Datenstatus „Abrechnungsdaten KBKA“",
+          "result_code": "A04"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Sperrprozesse Gas
+
+18.2.3: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF
+
+
+
+end title
+:<b>E_1002</b>;
+note right
+<b><i>Prüfende Rolle: NB
+end note
+
+if (<b>10: </b> Teilt der NB (ggf. nach erfolgtem Clearing mit dem MSB&#41; die Ansicht des MSB, dass keine Sperrung erfolgen darf/kann?) then (ja)
+    :A01;
+    note left
+        Cluster: Ablehnung
+        Der Antwortgrund des MSB aus „E_1001_Anfrage prüfen“ muss dem LF mitgeteilt werden.
+    endnote
+    kill;
+else (nein)
+    :Sperrauftrag durchführen.;
+    kill;
+endif
+
+@enduml

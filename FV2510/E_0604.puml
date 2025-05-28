@@ -1,0 +1,53 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.51.1: AD: Fall 2: LF-Zuordnung bei EEG-Marktlokation mit DV-Pflicht
+
+
+
+end title
+:<b>E_0604</b>;
+note right
+<b><i>Prüfende Rolle: LF
+end note
+
+if (<b>10: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Cluster: Ablehnung 
+        Sonstiges
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+        Nutzungsmöglichkeit Ende: offen
+    endnote
+    kill;
+else (nein)
+    :A01;
+    note left
+        Cluster: Zustimmung
+        Zustimmung
+    endnote
+    kill;
+endif
+
+@enduml

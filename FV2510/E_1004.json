@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "chapter": "Sperrprozesse Gas",
+    "ebd_code": "E_1004",
+    "ebd_name": "E_1004_Entsperrauftrag prüfen (Basiert auf Strom EBD: E_0497_Entsperrauftrag prüfen)",
+    "remark": null,
+    "role": "NB",
+    "section": "18.3.1: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Wurde die Sperrung durch den UC \"Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF\" ausgelöst?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation wurde nicht über den UC (Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF) gesperrt. \nHinweis: Die Entsperrung muss auf konventionellem Weg erfolgen.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wäre eine Wiederinbetriebnahme aufgrund eines technischen Verhinderungsgrundes (z.B. entspricht nicht den geltenden Rechtsvorschriften, behördlichen Verfügungen, den anerkannten Regeln der Technik, DVGW Technischen Anschlussbedingungen (TAB) oder den sonstigen besonderen Vorschriften des NB) nicht möglich?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nWiederinbetriebnahme wäre technisch nicht möglich\nHinweis:\nDie Marktlokation bzw. die dazugehörigen elektrischen Anlagen kann gemäß NAV und TAB nicht wieder in Betrieb genommen werden. Sie entspricht nicht der geltenden Rechtsvorschriften und behördlichen Verfügungen sowie den anerkannten Regeln der Technik, DVGW, den Technischen Anschlussbedingungen (TAB) und den sonstigen besonderen Vorschriften des NB.",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist zum Zeitpunkt des Nachrichteneingangs die Marktlokation bereits gesperrt?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation ist nicht gesperrt.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt bereits ein Entsperrauftrag vor?",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nEntsperrauftrag für die Marktlokation liegt bereits vor.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nZustimmung",
+          "result_code": "A03"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
