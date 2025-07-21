@@ -176,7 +176,7 @@
       "use_cases": null
     },
     {
-      "description": "Passt die Prognosegrundlage zum ZRT?",
+      "description": "Entspricht der Zeitreihentyp (ZRT) den gültigen ZRT zur Bilanzkreistreue beim ÜNB?",
       "step_number": "90",
       "sub_rows": [
         {
@@ -184,7 +184,7 @@
             "result": false,
             "subsequent_step_number": "100"
           },
-          "note": "Prognosegrundlage passt nicht zum ZRT.",
+          "note": "ZRT nicht passend.",
           "result_code": "A16"
         },
         {

@@ -85,7 +85,8 @@ if (<b>6: </b> War eine Sperrung aus einem tatsächlichen Grund nicht möglich?
 Unter tatsächliche Gründe fallen z. B.:
 Marktlokation vor Ort nicht identifizierbar
 Zugang zur Marktlokation nicht möglich
-Kundenwechsel an der Marktlokation festgestellt) then (ja)
+Kundenwechsel an der Marktlokation festgestellt
+Lieferantenwechsel an der Marktlokation festgestellt und Zuordnungsbeginn des LFN liegt vor dem frühestmöglichen Sperrtermin des LFA.) then (ja)
     :A05;
     note left
         Cluster: gescheitert
