@@ -79,7 +79,7 @@
       "use_cases": null
     },
     {
-      "description": "Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“ oder um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind?",
+      "description": "Handelt es sich um eine Marktlokation mit der Messtechnischen Einordnung „iMS“ oder um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind?",
       "step_number": "40",
       "sub_rows": [
         {
@@ -87,7 +87,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nMarktlokation befindet sich nicht in der messtechnischen Einordnung „iMS“ oder es handelt sich nicht um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind.",
+          "note": "Cluster: Ablehnung\nMarktlokation befindet sich nicht in der Messtechnischen Einordnung „iMS“ oder es handelt sich nicht um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind.",
           "result_code": "A02"
         },
         {
@@ -240,7 +240,7 @@
       "use_cases": null
     },
     {
-      "description": "Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“?",
+      "description": "Handelt es sich um eine Marktlokation mit der Messtechnischen Einordnung „iMS“?",
       "step_number": "110",
       "sub_rows": [
         {
@@ -248,7 +248,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nDie Änderung der Prognosegrundlage bei einer Marktlokation, mit der messtechnischen Einordnung „iMS“, ist nicht möglich.",
+          "note": "Cluster: Ablehnung\nDie Änderung der Prognosegrundlage bei einer Marktlokation, mit der Messtechnischen Einordnung „iMS“, ist nicht möglich.",
           "result_code": "A18"
         },
         {

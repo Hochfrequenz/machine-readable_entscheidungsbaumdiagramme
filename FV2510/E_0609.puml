@@ -36,21 +36,12 @@ if (<b>10: </b> Wurde im Geschäftsvorfall angegeben, dass es sich um eine verbr
     if (<b>20: </b> Handelt es sich um eine Abmeldung einer Marktlokation, welche aus einer Kundenanlage herausgelöst werden soll?
 Hinweis: 
 In der Transaktionsgrundergänzung ist „ruhende Marktlokation“ angegeben.) then (ja)
-        if (<b>25: </b> Handelt es sich bei der im Anwendungsfall genannten Marktlokation um eine „ruhende Marktlokation“ einer Kundenanlage (§ 20 Abs. 1d EnWG oder § 10 c EEG&#41;) then (ja)
+        if (<b>25: </b> Handelt es sich bei der im Anwendungsfall genannten Marktlokation um eine „ruhende Marktlokation“ einer Kundenanlage (§ 20 Abs. 1d EnWG oder § 10 c EEG&#41;?) then (ja)
         else (nein)
             :A01;
             note left
                 Cluster: Ablehnung
                 Bei der in der Abmeldung genannten Marktlokation handelt es sich nicht um eine „ruhende Marktlokation“ einer Kundenanlage.
-            endnote
-            kill;
-        endif
-        if (<b>27: </b> Ist die in der Abmeldung als genannte „ruhende Marktlokation“ definierte Marktlokation der in der Abmeldung genannten Marktlokation zugeordnet?) then (ja)
-        else (nein)
-            :A30;
-            note left
-                Cluster: Ablehnung
-                Die in der Abmeldung genannte „ruhende Marktlokation“ ist nicht der Marktlokation aus der Abmeldung zugeordnet und kann somit dort nicht herausgelöst werden
             endnote
             kill;
         endif

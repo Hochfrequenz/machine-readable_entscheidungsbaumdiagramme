@@ -138,7 +138,7 @@
       "use_cases": null
     },
     {
-      "description": "Wurde ein unterjähriger Netzbetreiberwechsel an der Marktlokation im Leistungszeitraum durchgeführt?",
+      "description": "Beinhaltet der Abrechnungszeitraum mindestens einen Tag des Kalenderjahres, in dem an der Marktlokation ein unterjähriger Netzbetreiberwechsel durchgeführt wurde?",
       "step_number": "16",
       "sub_rows": [
         {
@@ -152,6 +152,29 @@
         {
           "check_result": {
             "result": false,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Beginn des Abrechnungszeitraums ≥ 01.01.2026, 00:00 Uhr?",
+      "step_number": "17",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "18"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
             "subsequent_step_number": "19"
           },
           "note": null,
@@ -161,21 +184,44 @@
       "use_cases": null
     },
     {
-      "description": "Weicht der Absender (NAD+MS) von der Angabe im Segment Preise des Netzbetreibers (RFF+Z56) ab?",
-      "step_number": "17",
+      "description": "Ist im Segment Preise des Netzbetreibers (RFF+Z56) die MP-ID des NBA angegeben?",
+      "step_number": "18",
       "sub_rows": [
         {
           "check_result": {
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung auf Kopfebene\nIm Leistungszeitraum fand ein unterjähriger Netzbetreiberwechsel an der Marktlokation statt und die Preise des NBA wurden nicht berücksichtigt.",
+          "note": "Cluster: Ablehnung auf Kopfebene\nIm Leistungszeitraum fand ein unterjähriger Netzbetreiberwechsel an der Marktlokation statt und es wurde im Segment Preise des Netzbetreibers (RFF+Z56) nicht der NBA der Marktlokation angegeben.",
           "result_code": "AF3"
         },
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "19"
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Werden ausschließlich die Preise des NBA in Rechnung gestellt?",
+      "step_number": "19",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung auf Kopfebene\nIm Leistungszeitraum fand ein unterjähriger Netzbetreiberwechsel an der Marktlokation statt und mindestens ein Preis ist nicht mit dem des NBA identisch.",
+          "result_code": "AF5"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
           },
           "note": null,
           "result_code": null
@@ -185,7 +231,7 @@
     },
     {
       "description": "Ist das Rechnungsdatum ≤ dem Eingangsdatum beim LF?",
-      "step_number": "19",
+      "step_number": "20",
       "sub_rows": [
         {
           "check_result": {
@@ -330,7 +376,7 @@
             "result": true,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung auf Kopfebene\nRechnung entspricht nicht §14 Abs. 4 UStG.\nHinweis: Die Ablehnung ist zu begründen.",
+          "note": "Cluster: Ablehnung auf Kopfebene\nRechnung entspricht nicht §14 UStG.\nHinweis: Die Ablehnung ist zu begründen.",
           "result_code": "A06"
         },
         {
@@ -736,7 +782,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht der Rechnungstyp (z. B. Abschlagsrechnung oder Monatsrechnung) der zu prüfenden Rechnung für den übermittelten Zeitraum der an der Marktlokation hinterlegten Netznutzungsabrechnungsvariante (Grund-/ Arbeitspreis bzw. Arbeits-/Leistungspreis)?\nFolgende Rechnungstypen sind bei der Netznutzungsabrechnungsvariante Grund-/ Arbeitspreis möglich:\nAbschlussrechnung (ABR)\nAbschlagsrechnung (ABS)\nTurnusrechnung (JVR)\nZwischenabrechnung (ZVR)\nFolgende Rechnungstypen sind bei der Netznutzungsabrechnungsvariante Leistungs-/ Arbeitspreis möglich:\nMVR Monatsrechnung (MVR)\nIntegrierte 13. Rechnung (13I)\n13. Rechnung (13R)",
+      "description": "Entspricht der Rechnungstyp (z. B. Abschlagsrechnung oder Monatsrechnung) der zu prüfenden Rechnung für den übermittelten Zeitraum der an der Marktlokation hinterlegten Netznutzungsabrechnungsvariante (Grund-/ Arbeitspreis bzw. Arbeits-/Leistungspreis), welche sich aus der Artikel-ID bzw. Gruppenartikel-ID ergibt, falls die Netznutzungsabrechnungsvariante nicht explizit über entsprechende Codes ausgetauscht wurde?\nFolgende Rechnungstypen sind bei der Netznutzungsabrechnungsvariante Grund-/ Arbeitspreis möglich:\nAbschlussrechnung (ABR)\nAbschlagsrechnung (ABS)\nTurnusrechnung (JVR)\nZwischenabrechnung (ZVR)\nFolgende Rechnungstypen sind bei der Netznutzungsabrechnungsvariante Leistungs-/ Arbeitspreis möglich:\nMVR Monatsrechnung (MVR)\nIntegrierte 13. Rechnung (13I)\n13. Rechnung (13R)",
       "step_number": "70",
       "sub_rows": [
         {
@@ -782,7 +828,7 @@
       "use_cases": null
     },
     {
-      "description": "Handelt es sich bei dem Rechnungstyp um eine Abschlagsrechnung (ABS)?",
+      "description": "Ist der Beginn des Abrechnungszeitraums ≥ 01.01.2026, 00:00 Uhr?",
       "step_number": "74",
       "sub_rows": [
         {
@@ -805,8 +851,31 @@
       "use_cases": null
     },
     {
-      "description": "Liegt ein elektronisches Preisblatt Netznutzung vor in dem NAD+MS identisch mit NAD+MS der INVOIC ist?",
+      "description": "Handelt es sich bei dem Rechnungstyp um eine Abschlagsrechnung (ABS)?",
       "step_number": "75",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "76"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "77"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt für jeden Zeitpunkt des Abrechnungszeitraums ein elektronisches Preisblatt Netznutzung vor in dem NAD+MS identisch mit NAD+MS der INVOIC ist?",
+      "step_number": "76",
       "sub_rows": [
         {
           "check_result": {
@@ -828,8 +897,8 @@
       "use_cases": null
     },
     {
-      "description": "Liegt ein elektronisches Preisblatt Netznutzung vor in dem NAD+MS und RFF+Z56 identisch mit NAD+MS und RFF+Z56 der INVOIC sind?",
-      "step_number": "76",
+      "description": "Liegt für jeden Zeitpunkt des Abrechnungszeitraums ein elektronisches Preisblatt Netznutzung vor in dem NAD+MS und RFF+Z56 identisch mit NAD+MS und RFF+Z56 der INVOIC sind?",
+      "step_number": "77",
       "sub_rows": [
         {
           "check_result": {
@@ -1173,7 +1242,7 @@
       "use_cases": null
     },
     {
-      "description": "Ist die Abschlagshöhe plausibel zur mitgeteilten Jahresverbrauchsprognose (JVP)?",
+      "description": "Ist die Abschlagshöhe plausibel? \nHinweis: Die Plausibilität wird bei Marktlokationen mit Messtechnischer Einordnung kME/mME anhand der ausgetauschten JVP geprüft. \nBei Marktlokationen mit Messtechnischer Einordnung iMS wird keine JVP ausgetauscht, so dass die Plausibilisierungen anhand anderer Kriterien, wie z. B. historischer Werte oder Angabe des Kunden zu prüfen sind.",
       "step_number": "200",
       "sub_rows": [
         {
@@ -1633,7 +1702,7 @@
       "use_cases": null
     },
     {
-      "description": "Wurde der richtige Preis aus dem Preisblatt zur Artikel-ID in der Rechnung verwendet?",
+      "description": "Wurde der richtige Preis aus dem Preisblatt zur Artikel-ID in der Rechnung verwendet?\nHinweis: Für Rechnungen deren Beginn des Abrechnungszeitraums ≥ 01.01.2026, 00:00 Uhr ist, bedeutet dies, dass das Preisblatt zu verwenden ist, bei dem die MP-ID im Segment Preise des Netzbetreibers (RFF+Z56) der INVOIC mit der MP-ID in Preise des Netzbetreibers (RFF+Z56) identisch ist.",
       "step_number": "350",
       "sub_rows": [
         {
