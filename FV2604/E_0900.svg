@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1265.3333333333333px" viewBox="0 0 1265.3333333333333 488.0" height="488.0px">
+  <g>
+    <svg version="1.1" width="1265.3333333333333px" viewBox="0 0 1265.3333333333333 488.0" height="488.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1265.3333333333333" height="488.0" rx="20" ry="20"/><g>
+    <g transform="translate(433.6599643292968, 48.79999999999999) scale(1 1) translate(0, 0) scale(0.6871303858068151 0.6871303858068151) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="949pt" height="366pt" viewBox="0.00 0.00 949.00 366.09">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 348.09)">
+<title>D</title>
+<text text-anchor="start" x="8" y="-309.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">Redispatch 2.0</text>
+<text text-anchor="start" x="8" y="-281.89" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">16.1.1: AD: Ermittlung und Abstimmung der abrechnungsrelevanten Ausfallarbeit &#8211; Prognosemodell</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M529.02,-240.09C529.02,-240.09 383.98,-240.09 383.98,-240.09 377.98,-240.09 371.98,-234.09 371.98,-228.09 371.98,-228.09 371.98,-206.81 371.98,-206.81 371.98,-200.81 377.98,-194.81 383.98,-194.81 383.98,-194.81 529.02,-194.81 529.02,-194.81 535.02,-194.81 541.02,-200.81 541.02,-206.81 541.02,-206.81 541.02,-228.09 541.02,-228.09 541.02,-234.09 535.02,-240.09 529.02,-240.09"/>
+<text text-anchor="start" x="386.38" y="-219.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0900</text>
+<text text-anchor="start" x="386.38" y="-205.15" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="495.88" y="-205.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">BTR</text>
+</g>
+<!-- 1 -->
+<g id="node2" class="node">
+<title>1</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M730.77,-157.81C730.77,-157.81 182.23,-157.81 182.23,-157.81 176.23,-157.81 170.23,-151.81 170.23,-145.81 170.23,-145.81 170.23,-124.53 170.23,-124.53 170.23,-118.53 176.23,-112.53 182.23,-112.53 182.23,-112.53 730.77,-112.53 730.77,-112.53 736.77,-112.53 742.77,-118.53 742.77,-124.53 742.77,-124.53 742.77,-145.81 742.77,-145.81 742.77,-151.81 736.77,-157.81 730.77,-157.81"/>
+<text text-anchor="start" x="184.62" y="-136.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="204.12" y="-136.87" font-family="Roboto, sans-serif" font-size="14.00">Entsprechen die Energiemengen der Ausfallarbeitszeitreihe den erwarteten</text>
+<text text-anchor="start" x="184.62" y="-122.87" font-family="Roboto, sans-serif" font-size="14.00">Energiemengen?</text>
+</g>
+<!-- Start&#45;&gt;1 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;1</title>
+<path fill="none" stroke="#88a0d6" d="M456.5,-194.94C456.5,-187.02 456.5,-177.86 456.5,-169.16"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="460,-169.26 456.5,-159.26 453,-169.26 460,-169.26"/>
+</g>
+<!-- A01 -->
+<g id="node3" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M405.52,-59.28C405.52,-59.28 311.48,-59.28 311.48,-59.28 305.48,-59.28 299.48,-53.28 299.48,-47.28 299.48,-47.28 299.48,-12 299.48,-12 299.48,-6 305.48,0 311.48,0 311.48,0 405.52,0 405.52,0 411.52,0 417.52,-6 417.52,-12 417.52,-12 417.52,-47.28 417.52,-47.28 417.52,-53.28 411.52,-59.28 405.52,-59.28"/>
+<text text-anchor="start" x="313.88" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="313.88" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Zustimmung</text>
+</g>
+<!-- 1&#45;&gt;A01 -->
+<g id="edge2" class="edge">
+<title>1-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M436.19,-112.72C423.8,-99.63 407.63,-82.54 393.24,-67.35"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="395.93,-65.09 386.52,-60.24 390.85,-69.91 395.93,-65.09"/>
+<text text-anchor="start" x="415.5" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- &#220;bermittlung Gegenvorschlag -->
+<g id="node4" class="node">
+<title>&#220;bermittlung Gegenvorschlag</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M661.15,-47.64C661.15,-47.64 447.85,-47.64 447.85,-47.64 441.85,-47.64 435.85,-41.64 435.85,-35.64 435.85,-35.64 435.85,-23.64 435.85,-23.64 435.85,-17.64 441.85,-11.64 447.85,-11.64 447.85,-11.64 661.15,-11.64 661.15,-11.64 667.15,-11.64 673.15,-17.64 673.15,-23.64 673.15,-23.64 673.15,-35.64 673.15,-35.64 673.15,-41.64 667.15,-47.64 661.15,-47.64"/>
+<text text-anchor="start" x="450.25" y="-24.96" font-family="Roboto, sans-serif" font-size="14.00">&#220;bermittlung Gegenvorschlag</text>
+</g>
+<!-- 1&#45;&gt;&#220;bermittlung Gegenvorschlag -->
+<g id="edge3" class="edge">
+<title>1-&gt;&#220;bermittlung Gegenvorschlag</title>
+<path fill="none" stroke="#88a0d6" d="M476.81,-112.72C492.51,-96.13 514.29,-73.12 530.8,-55.68"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="533.05,-58.39 537.38,-48.72 527.97,-53.58 533.05,-58.39"/>
+<text text-anchor="start" x="507.5" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

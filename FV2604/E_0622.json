@@ -1,0 +1,888 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0622",
+    "ebd_name": "E_0622_Prüfen, ob Anmeldung direkt ablehnbar",
+    "release_information": null,
+    "remark": null,
+    "role": "NB",
+    "section": "6.6.1: AD: Lieferbeginn"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Wurde der Anwendungsfall für eine verbrauchende Marktlokation oder ruhende Marktlokation verwendet?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "15"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "220"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Vorlauffrist eingehalten?",
+      "step_number": "15",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nVorlauffrist wurde nicht eingehalten",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "16"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist in dem Anwendungsfall in der Ergänzung zum Transaktionsgrund „Ruhende Marktlokation“ angegeben?",
+      "step_number": "16",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "18"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich bei der „ruhenden Marktlokation“ (SG5 LOC+Z22) im System des Empfängers um eine verbrauchende Marktlokation?",
+      "step_number": "18",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nBei der angemeldeten ruhenden Marktlokation handelt es sich nicht um eine verbrauchende Marktlokation",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "19"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Soll die angegebene Marktlokation zu einer Neubildung einer Kundenanlage führen (Produktcode: 9991000002769, Code der Produkteigenschaft: 9991000002933)?",
+      "step_number": "19",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": "Hinweis: In diesem Fall beabsichtigt der LF eine Neubildung einer Kundenanlage, in der die angegebene Marktlokation integriert werden soll.",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "25"
+          },
+          "note": "Hinweis: In diesem Fall beabsichtigt der LF eine Integration einer Marktlokation in eine bestehende Marktlokation „Abbildung von § 20 Abs. 1d EnWG bzw. § 10c EEG“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich bei der zu bildenden Kundenanlage um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "22"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die „ruhende Marktlokation“ (SG5 LOC+Z22) messtechnisch mittels iMS erfasst (Messtechnische Einordung der Marktlokation = iMS)?",
+      "step_number": "22",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie genannte Marktlokation entspricht nicht den Anforderungen, da Messtechnische Einordung nicht iMS.",
+          "result_code": "A47"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich bei der im Anwendungsfall genannten Marktlokation (im SG5 LOC+Z16) um eine Marktlokation „Kundenanlage“ (§ 20 Abs. 1d EnWG bzw. § 10 c EEG)?",
+      "step_number": "25",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nBei der in der Anmeldung genannten Marktlokation (im SG5 LOC+Z16) handelt es sich nicht um eine „Kundenanlage“. Somit kann die zu integrierende Marktlokation (im SG5 LOC+Z22) nicht der Marktlokation „Kundenanlage“ (im SG5 LOC+Z16) zugeordnet werden.",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "26"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Befindet sich die „ruhende Marktlokation (SG5 LOC+Z22) hinter der (den) gleichen Netzlokation(en) wie die Marktlokation der Kundenanlage (SG5 LOC+Z16)?",
+      "step_number": "26",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie zu integrierende Marktlokation befindet sich nicht hinter der /den gleichen Netzlokation(en) liegen, wie die Marktlokation der „Kundenanlage“ („Abbildung von § 20 Abs. 1d EnWG bzw. § 10c EEG“).",
+          "result_code": "A37"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "27"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich bei der bestehenden Kundenanlage (SG5 LOC+Z16) um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?",
+      "step_number": "27",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "28"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die „ruhende Marktlokation“ (SG5 LOC+Z22) messtechnisch mittels iMS erfasst (Messtechnische Einordung der Marktlokation = iMS)?",
+      "step_number": "28",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie zu integrierende Marktlokation entspricht nicht den Anforderungen, da Messtechnische Einordung nicht iMS.",
+          "result_code": "A46"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Nimmt die Marktlokation zum Anmeldedatum an der Marktkommunikation teil?\nHinweis: Marktlokationen, die nicht an der Marktkommunikation teilnehmen, sind Marktlokationen, die stillgelegt sind bzw. Marktlokationen, die dem \"Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit\" zugeordnet sind.",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation, die über Marktlokations-ID identifiziert wurde, nimmt nicht an der Marktkommunikation teil.",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Anmeldung für eine Neuanlage?\nHinweis: Dies sind Marktlokationen, bei denen der NB den Identifikator schon vergeben hat, deren Inbetriebnahme aber noch in der Zukunft liegt. (somit ein Lieferbeginn noch nicht feststeht).",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFalscher Prozess",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind alle zwingend notwendigen Anforderungen des LF erfüllt?\nHinweis: \nInsbesondere die notwendige Zuordnungsermächtigung (Bilanzkreis/Bilanzierungsverfahren) ist vorhanden",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: die Abweichungen sind zu benennen",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "70"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt für diese Marktlokation bereits eine gerade in Arbeit befindliche und noch nicht beantwortete Anmeldung vor?",
+      "step_number": "70",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAndere Anmeldung in Bearbeitung.\nHinweis:\nDer Zuordnungsbeginn der derzeit in Bearbeitung befindlichen Anmeldung und der Zeitpunkt, ab welchem der NB wieder Anmeldungen für diese Marktlokation entgegennimmt werden übermittelt.",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um einen „Einzug in Neuanlage“?\nHinweis: Dies sind Marktlokationen, bei denen der NB den Identifikator schon vergeben hat, deren Inbetriebnahme aber noch in der Zukunft liegt (somit ein Lieferbeginn noch nicht feststeht).",
+      "step_number": "220",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFalscher Prozess",
+          "result_code": "A21"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "250"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Erfolgt die Bilanzierung auf Basis von Viertelstundenwerten? \nHinweis: In viertelstündlicher Auflösung (verpflichtend lt. EEG)",
+      "step_number": "250",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nBilanzierung erfolgt nicht auf Basis von Viertelstundenwerten.",
+          "result_code": "A24"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "260"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind alle zwingend notwendigen Anforderungen des LF erfüllt?\nHinweis: Insbesondere die notwendige Zuordnungsermächtigung (Bilanzkreis/Bilanzierungsverfahren) ist vorhanden",
+      "step_number": "260",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: die Abweichungen sind zu benennen",
+          "result_code": "A25"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "270"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt für diese Marktlokation bereits eine gerade in Arbeit befindliche und noch nicht beantwortete Anmeldung vor?",
+      "step_number": "270",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAndere Anmeldung in Bearbeitung.\nHinweis:\nDer Zuordnungsbeginn der derzeit in Bearbeitung befindlichen Anmeldung und der Zeitpunkt, ab welchem der NB wieder Anmeldungen für diese Marktlokation entgegennimmt.",
+          "result_code": "A45"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "300"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um Geschäftsvorfall 1?",
+      "step_number": "300",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "400"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "310"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um Geschäftsvorfall 2?",
+      "step_number": "310",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "600"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "800"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Verändert sich die im Geschäftsvorfall angegebene Veräußerungsform zum Tag des gewünschten Zuordnungsbeginns (Veräußerungsformwechsel)?",
+      "step_number": "400",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "410"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "405"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine „Nicht-EEG-/- KWKG“-Marktlokation?",
+      "step_number": "405",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "406"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "410"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Übertragungstag spätestens der Tag vor dem letzten WT vor dem Zuordnungsbeginn?",
+      "step_number": "406",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Vorlauffrist für eine „Nicht-EEG-/ - KWKG“- Marktlokation wurde nicht eingehalten.",
+          "result_code": "A34"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das angegebene Datum „Lieferbeginn“ der 1. eines Kalendermonats, 00:00 Uhr?",
+      "step_number": "410",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "420"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nVorgaben EEG nicht eingehalten.",
+          "result_code": "A27"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um einen verkürzten Wechsel?\nHinweis: Vorgabe nach EEG: 5 WT vor Zuordnungsbeginn",
+      "step_number": "420",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "440"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "430"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Vorlauffrist von einem Monat eingehalten?",
+      "step_number": "430",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung \nDie Vorlauffrist für EEG-/KWKG-Marktlokationen im Geschäftsvorfall 1 wurden nicht eingehalten (Fristüberschreitung).",
+          "result_code": "A28"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Vorlauffrist eingehalten?\n(Eingang spätestens 5 WT vor Zuordnungsbeginn)",
+      "step_number": "440",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie verkürzte Vorlauffrist für EEG-/KWKG- Marktlokationen im Geschäftsvorfall 1 wurden nicht eingehalten (Fristüberschreitung).",
+          "result_code": "A29"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Verändert sich die im Geschäftsvorfall angegebene Veräußerungsform zum Tag des gewünschten Zuordnungsbeginns (Veräußerungsformwechsel)?",
+      "step_number": "600",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "620"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "605"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine „Nicht-EEG-/-KWKG“-Marktlokation?",
+      "step_number": "605",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "610"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "620"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Übertragungstag spätestens der Tag vor dem letzten WT vor dem Zuordnungsbeginn?",
+      "step_number": "610",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung \nDie Vorlauffrist für eine „Nicht-EEG-/-KWKG“- Marktlokation im Geschäftsvorfall 2 wurde nicht eingehalten (Fristüberschreitung).",
+          "result_code": "A30"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das angegebene Datum „Lieferbeginn“ der 1. eines Kalendermonats 00:00 Uhr?",
+      "step_number": "620",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDas Lieferbeginn darf nur der 1. eines Kalendermonats 00:00 Uhr sein",
+          "result_code": "A31"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "630"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Vorlauffrist von einem Monat eingehalten?",
+      "step_number": "630",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Vorlauffrist für EEG-/KWKG-Marktlokationen im Geschäftsvorfall 2 wurden nicht eingehalten (Fristüberschreitung).",
+          "result_code": "A32"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das angegebene Datum „Lieferbeginn“ der 1. eines Kalendermonats 00:00 Uhr?",
+      "step_number": "800",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "805"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "810"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine „Nicht-EEG-/-KWKG“-Marktlokation?",
+      "step_number": "805",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "806"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "810"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Übertragungstag spätestens der Tag vor dem letzten WT vor dem Zuordnungsbeginn?",
+      "step_number": "806",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie Vorlauffrist für eine „Nicht-EEG-/-KWKG“- Marktlokation wurde nicht eingehalten.",
+          "result_code": "A35"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Vorlauffrist von einem Monat eingehalten?",
+      "step_number": "810",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFristüberschreitung",
+          "result_code": "A44"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "830"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der angegebene Prozentsatz an der Marktlokation noch frei?",
+      "step_number": "830",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich\nHinweis: Anfrage zur Beendigung der Zuordnung muss zwingend an alle LFA und an den Anmeldenden versendet werden!",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

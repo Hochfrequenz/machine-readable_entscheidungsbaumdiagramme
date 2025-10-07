@@ -1,0 +1,704 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0504",
+    "ebd_name": "E_0504_Nicht-Zahlungsavis prüfen",
+    "release_information": null,
+    "remark": null,
+    "role": "NB",
+    "section": "6.11.2: AD: Abrechnung einer sonstigen Leistung"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Bezieht sich das Nicht-Zahlungsavis auf eine Rechnung der Kategorie „Unterbrechung der Anschlussnutzung (Sperren)“?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "3"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Bezieht sich das Nicht-Zahlungsavis auf eine Rechnung der Kategorie „Verzugskosten“?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "14"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "26"
+          },
+          "note": "Hinweis: Es handelt sich um ein Nicht-Zahlungsavis der Kategorie „Blindarbeit“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant wegen fehlendem Preisblatt „Preisblatt Sperren / Entsperren und Verzugskosten“ abgelehnt?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde dem Lieferanten ein für die Rechnung gültiges Preisblatt versendet?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Ein gültiges Preisblatt wurde versendet.\nHinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung des an ihm versandten, für die Rechnung gültigen Preisblatts.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant wegen unbekanntem Sperrauftrag abgelehnt?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "6"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "7"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt ein bestätigter Sperrauftrag mit der angegebenen Referenz auf den Sperrauftrag des Lieferanten vor?",
+      "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Gültiger Sperrauftrag ist vorhanden\nHinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung des Sperrauftrags.",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant die Rechnung wegen Angabe einer falschen Artikel-ID abgelehnt?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "8"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "11"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der LF den Sperrauftrag storniert und wurde diese Stornierung vom NB bestätigt?",
+      "step_number": "8",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "9"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "10"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die korrekte Artikel-ID entsprechend eines stornierten Sperrauftrags in der Rechnung angegeben?",
+      "step_number": "9",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Korrekte Artikel-ID für die Abrechnung eines stornierten Sperrauftrags wurde in der Rechnung angegeben\nHinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung aus der Stornierung.",
+          "result_code": "A15"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die korrekte Artikel-ID entsprechend des Ergebnisses des Sperrauftrags in der Rechnung angegeben?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Korrekte Artikel-ID wurde in der Rechnung angegeben\nHinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung aus dem Ergebnis des Sperrauftrags.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant die Rechnung abgelehnt, da auf der Rechnung ein, zum Preisblatt abweichender Preis angegeben wurde?",
+      "step_number": "11",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "12"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "13"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde in der Rechnung der im Preisblatt angegebene Preis abgerechnet?",
+      "step_number": "12",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Korrekter Preis zum gültigen Preisblatt wurde in der Rechnung angegeben\nHinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung des Preisblatts",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ergibt die Prüfung der abgelehnten Rechnung, dass die Ablehnung durch den Lieferanten gerechtfertigt war?",
+      "step_number": "13",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Die Rechnung wird als korrekt angesehen\nHinweis: Es ist zu begründen, warum die Rechnung korrekt war.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant wegen fehlendem Preisblatt „Preisblatt Sperren / Entsperren und Verzugskosten“ abgelehnt?",
+      "step_number": "14",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "15"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "16"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde dem Lieferanten ein für die Rechnung gültiges Preisblatt fristgerecht versendet?",
+      "step_number": "15",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Gültiges Preisblatt wurde versendet.\nHinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant wegen unbekannter Rechnung, auf die sich die Verzugskostenrechnung bezieht, abgelehnt?",
+      "step_number": "16",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "17"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "19"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Rechnung, auf die sich die Verzugskostenrechnung bezieht, dem Lieferanten zugestellt?",
+      "step_number": "17",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "18"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Rechnung, auf die sich die Verzugskostenrechnung bezieht, storniert?",
+      "step_number": "18",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Gültige Rechnung ist vorhanden\nHinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung der Rechnung, auf die sich die Verzugskostenrechnung bezieht.",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant die Rechnung wegen Angabe einer falschen Artikel-ID abgelehnt?",
+      "step_number": "19",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "21"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde genau eine der beiden Artikel-ID für Verzugskosten in der Rechnung angegeben?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Es wurde für die Verzugskosten eine der beiden Artikel-ID verwendet",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant die Rechnung abgelehnt, da auf der Rechnung ein zum Preisblatt abweichender Preis angeben wurde?",
+      "step_number": "21",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "22"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "25"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde in der Rechnung die Artikel-ID 2-02-0-001 (Verzugskosten pauschal) angegeben?",
+      "step_number": "22",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "23"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "24"
+          },
+          "note": "Hinweis: Es wurde die Artikel-ID 2-02-0-002 (Verzugskosten variabel) angegeben",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der angegeben Preis in der Rechnung identisch mit dem Preis für die Artikel-ID 2-02-0-001 (Verzugskosten pauschal) aus dem Preisblatt?",
+      "step_number": "23",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Korrekter Preis wurde in der Rechnung abgerechnet\nHinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung des Preisblatts",
+          "result_code": "A09"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Preis, der in der Rechnung für die Artikel-ID 2-02-0-002 (Verzugskosten variabel) in Rechnung gestellt wurde für die der Verzugsrechnung zugrundeliegende, nicht bezahlte Rechnung angemessen?",
+      "step_number": "24",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Die Rechnung wird als korrekt angesehen\nHinweis: Es ist zu begründen, warum die Rechnung korrekt war.",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ergibt die Prüfung der abgelehnten Rechnung, dass die Ablehnung durch den Lieferanten gerechtfertigt war?",
+      "step_number": "25",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Die Rechnung wird als korrekt angesehen\nHinweis: Es ist zu begründen, warum die Rechnung korrekt war.",
+          "result_code": "A11"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant wegen fehlendem Preisblatt „Blindarbeit“ abgelehnt?",
+      "step_number": "26",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "27"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "28"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde dem Lieferanten ein, für die Rechnung gültiges, Preisblatt fristgerecht versendet?",
+      "step_number": "27",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Gültiges Preisblatt für Blindarbeit wurde versendet.\nHinweis: Angabe von Datenaustauschreferenz incl. Nr. der Empfangsbestätigung",
+          "result_code": "A12"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hat der Lieferant die Rechnung wegen einer falschen Artikel-ID abgelehnt?",
+      "step_number": "28",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "29"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die korrekte Artikel-ID für Blindarbeit in der Rechnung angegeben?",
+      "step_number": "29",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Korrekte Artikel-ID wurde in der Rechnung angegeben",
+          "result_code": "A13"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ergibt die Prüfung der abgelehnten Rechnung, dass die Ablehnung durch den Lieferanten gerechtfertigt war?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Die Rechnung wird als korrekt angesehen\nHinweis: Es ist zu begründen, warum die Rechnung korrekt war.",
+          "result_code": "A14"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

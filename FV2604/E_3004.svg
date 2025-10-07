@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1920.0px" viewBox="0 0 1920.0 604.0" height="604.0px">
+  <g>
+    <svg version="1.1" width="1920.0px" viewBox="0 0 1920.0 604.0" height="604.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1920.0" height="604.0" rx="20" ry="20"/><g>
+    <g transform="translate(713.6884257955505, 60.399999999999984) scale(1 1) translate(0, 0) scale(0.8504646578428613 0.8504646578428613) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1440pt" height="453pt" viewBox="0.00 0.00 1440.00 452.96">
+<g id="graph0" class="graph" transform="scale(0.797651 0.797651) rotate(0) translate(18 549.87)">
+<title>D</title>
+<text text-anchor="start" x="648.03" y="-511.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">GeLi Gas</text>
+<text text-anchor="start" x="648.03" y="-483.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">13.20.1: AD: Gesch&#228;ftsdatenanfrage vom MSB an NB</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M689.42,-441.87C689.42,-441.87 552.62,-441.87 552.62,-441.87 546.62,-441.87 540.62,-435.87 540.62,-429.87 540.62,-429.87 540.62,-408.59 540.62,-408.59 540.62,-402.59 546.62,-396.59 552.62,-396.59 552.62,-396.59 689.42,-396.59 689.42,-396.59 695.42,-396.59 701.42,-402.59 701.42,-408.59 701.42,-408.59 701.42,-429.87 701.42,-429.87 701.42,-435.87 695.42,-441.87 689.42,-441.87"/>
+<text text-anchor="start" x="555.02" y="-420.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_3004</text>
+<text text-anchor="start" x="555.02" y="-406.93" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="664.52" y="-406.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 10 -->
+<g id="node2" class="node">
+<title>10</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M824.05,-359.59C824.05,-359.59 418,-359.59 418,-359.59 412,-359.59 406,-353.59 406,-347.59 406,-347.59 406,-335.59 406,-335.59 406,-329.59 412,-323.59 418,-323.59 418,-323.59 824.05,-323.59 824.05,-323.59 830.05,-323.59 836.05,-329.59 836.05,-335.59 836.05,-335.59 836.05,-347.59 836.05,-347.59 836.05,-353.59 830.05,-359.59 824.05,-359.59"/>
+<text text-anchor="start" x="420.4" y="-337.91" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="449.65" y="-337.91" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich um einen MSB aus der Sparte Strom?</text>
+</g>
+<!-- Start&#45;&gt;10 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;10</title>
+<path fill="none" stroke="#88a0d6" d="M621.02,-396.76C621.02,-388.68 621.02,-379.38 621.02,-370.78"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="624.53,-370.82 621.03,-360.82 617.53,-370.82 624.53,-370.82"/>
+</g>
+<!-- 20 -->
+<g id="node3" class="node">
+<title>20</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M613.05,-265.7C613.05,-265.7 27,-265.7 27,-265.7 21,-265.7 15,-259.7 15,-253.7 15,-253.7 15,-241.7 15,-241.7 15,-235.7 21,-229.7 27,-229.7 27,-229.7 613.05,-229.7 613.05,-229.7 619.05,-229.7 625.05,-235.7 625.05,-241.7 625.05,-241.7 625.05,-253.7 625.05,-253.7 625.05,-259.7 619.05,-265.7 613.05,-265.7"/>
+<text text-anchor="start" x="29.4" y="-244.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
+<text text-anchor="start" x="58.65" y="-244.02" font-family="Roboto, sans-serif" font-size="14.00">Ist der MSB im angefragten Zeitraum der genannten Messlokation zugeordnet?</text>
+</g>
+<!-- 10&#45;&gt;20 -->
+<g id="edge3" class="edge">
+<title>10-&gt;20</title>
+<path fill="none" stroke="#88a0d6" d="M565.47,-323.63C514.85,-308.18 440.02,-285.33 386.3,-268.93"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="387.55,-265.65 376.96,-266.08 385.5,-272.35 387.55,-265.65"/>
+<text text-anchor="start" x="506.02" y="-293.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 40 -->
+<g id="node7" class="node">
+<title>40</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1188.8,-270.34C1188.8,-270.34 655.25,-270.34 655.25,-270.34 649.25,-270.34 643.25,-264.34 643.25,-258.34 643.25,-258.34 643.25,-237.06 643.25,-237.06 643.25,-231.06 649.25,-225.06 655.25,-225.06 655.25,-225.06 1188.8,-225.06 1188.8,-225.06 1194.8,-225.06 1200.8,-231.06 1200.8,-237.06 1200.8,-237.06 1200.8,-258.34 1200.8,-258.34 1200.8,-264.34 1194.8,-270.34 1188.8,-270.34"/>
+<text text-anchor="start" x="657.65" y="-249.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
+<text text-anchor="start" x="686.9" y="-249.4" font-family="Roboto, sans-serif" font-size="14.00">Ist die genannte Adresse dem NB bekannt und ist an dieser Adresse ein</text>
+<text text-anchor="start" x="657.65" y="-235.4" font-family="Roboto, sans-serif" font-size="14.00">Gasanschluss vorhanden?</text>
+</g>
+<!-- 10&#45;&gt;40 -->
+<g id="edge2" class="edge">
+<title>10-&gt;40</title>
+<path fill="none" stroke="#88a0d6" d="M676.58,-323.63C722.57,-309.59 788.56,-289.45 840.53,-273.58"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="841.4,-276.97 849.95,-270.7 839.36,-270.28 841.4,-276.97"/>
+<text text-anchor="start" x="789.02" y="-293.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- Stammdaten versenden -->
+<g id="node4" class="node">
+<title>Stammdaten versenden</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M690.05,-47.64C690.05,-47.64 518,-47.64 518,-47.64 512,-47.64 506,-41.64 506,-35.64 506,-35.64 506,-23.64 506,-23.64 506,-17.64 512,-11.64 518,-11.64 518,-11.64 690.05,-11.64 690.05,-11.64 696.05,-11.64 702.05,-17.64 702.05,-23.64 702.05,-23.64 702.05,-35.64 702.05,-35.64 702.05,-41.64 696.05,-47.64 690.05,-47.64"/>
+<text text-anchor="start" x="520.4" y="-24.96" font-family="Roboto, sans-serif" font-size="14.00">Stammdaten versenden</text>
+</g>
+<!-- 20&#45;&gt;Stammdaten versenden -->
+<g id="edge4" class="edge">
+<title>20-&gt;Stammdaten versenden</title>
+<path fill="none" stroke="#88a0d6" d="M476.93,-229.72C514.28,-218.57 550.83,-200.6 577.02,-171.81 605.04,-141.01 608.01,-90.39 606.67,-58.87"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="610.17,-58.69 606.06,-48.93 603.18,-59.13 610.17,-58.69"/>
+<text text-anchor="start" x="603.02" y="-138.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 30 -->
+<g id="node5" class="node">
+<title>30</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M556.05,-164.81C556.05,-164.81 12,-164.81 12,-164.81 6,-164.81 0,-158.81 0,-152.81 0,-152.81 0,-131.53 0,-131.53 0,-125.53 6,-119.53 12,-119.53 12,-119.53 556.05,-119.53 556.05,-119.53 562.05,-119.53 568.05,-125.53 568.05,-131.53 568.05,-131.53 568.05,-152.81 568.05,-152.81 568.05,-158.81 562.05,-164.81 556.05,-164.81"/>
+<text text-anchor="start" x="14.4" y="-143.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="43.65" y="-143.87" font-family="Roboto, sans-serif" font-size="14.00">Ist der MSB f&#252;r den angefragten Zeitraum z.&#160;B. aufgrund einer Vollmacht</text>
+<text text-anchor="start" x="14.4" y="-129.87" font-family="Roboto, sans-serif" font-size="14.00">berechtigt die angefragten Stammdaten zu erhalten?</text>
+</g>
+<!-- 20&#45;&gt;30 -->
+<g id="edge5" class="edge">
+<title>20-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M314.24,-230.07C309.14,-215.39 301.56,-193.59 295.26,-175.49"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="298.63,-174.53 292.04,-166.23 292.02,-176.82 298.63,-174.53"/>
+<text text-anchor="start" x="305.02" y="-194.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 30&#45;&gt;Stammdaten versenden -->
+<g id="edge7" class="edge">
+<title>30-&gt;Stammdaten versenden</title>
+<path fill="none" stroke="#88a0d6" d="M346.48,-119.6C403.73,-99.82 487.9,-70.75 544.28,-51.28"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="545.08,-54.7 553.38,-48.13 542.79,-48.09 545.08,-54.7"/>
+<text text-anchor="start" x="463.02" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A01 -->
+<g id="node6" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M353.92,-59.28C353.92,-59.28 214.12,-59.28 214.12,-59.28 208.12,-59.28 202.12,-53.28 202.12,-47.28 202.12,-47.28 202.12,-12 202.12,-12 202.12,-6 208.12,0 214.12,0 214.12,0 353.92,0 353.92,0 359.92,0 365.92,-6 365.92,-12 365.92,-12 365.92,-47.28 365.92,-47.28 365.92,-53.28 359.92,-59.28 353.92,-59.28"/>
+<text text-anchor="start" x="216.52" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="216.52" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Keine Berechtigung</text>
+</g>
+<!-- 30&#45;&gt;A01 -->
+<g id="edge6" class="edge">
+<title>30-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M284.02,-119.6C284.02,-105.61 284.02,-86.97 284.02,-70.36"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="287.53,-70.79 284.03,-60.79 280.53,-70.79 287.53,-70.79"/>
+<text text-anchor="start" x="284.02" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A02 -->
+<g id="node8" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1100.55,-171.81C1100.55,-171.81 649.5,-171.81 649.5,-171.81 643.5,-171.81 637.5,-165.81 637.5,-159.81 637.5,-159.81 637.5,-124.53 637.5,-124.53 637.5,-118.53 643.5,-112.53 649.5,-112.53 649.5,-112.53 1100.55,-112.53 1100.55,-112.53 1106.55,-112.53 1112.55,-118.53 1112.55,-124.53 1112.55,-124.53 1112.55,-159.81 1112.55,-159.81 1112.55,-165.81 1106.55,-171.81 1100.55,-171.81"/>
+<text text-anchor="start" x="651.9" y="-150.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="651.9" y="-122.87" font-family="Roboto, sans-serif" font-size="14.00">An der genannten Adresse betreibt der NB keinen Gasanschluss</text>
+</g>
+<!-- 40&#45;&gt;A02 -->
+<g id="edge9" class="edge">
+<title>40-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M912.29,-225.25C906.62,-212.76 899.3,-196.64 892.65,-182"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="895.91,-180.7 888.59,-173.05 889.53,-183.6 895.91,-180.7"/>
+<text text-anchor="start" x="902.02" y="-194.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 50 -->
+<g id="node9" class="node">
+<title>50</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1757.3,-160.17C1757.3,-160.17 1142.75,-160.17 1142.75,-160.17 1136.75,-160.17 1130.75,-154.17 1130.75,-148.17 1130.75,-148.17 1130.75,-136.17 1130.75,-136.17 1130.75,-130.17 1136.75,-124.17 1142.75,-124.17 1142.75,-124.17 1757.3,-124.17 1757.3,-124.17 1763.3,-124.17 1769.3,-130.17 1769.3,-136.17 1769.3,-136.17 1769.3,-148.17 1769.3,-148.17 1769.3,-154.17 1763.3,-160.17 1757.3,-160.17"/>
+<text text-anchor="start" x="1145.15" y="-138.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
+<text text-anchor="start" x="1174.4" y="-138.5" font-family="Roboto, sans-serif" font-size="14.00">Ist an der genannten Adresse an mindestens einer Messlokation eine nME verbaut?</text>
+</g>
+<!-- 40&#45;&gt;50 -->
+<g id="edge8" class="edge">
+<title>40-&gt;50</title>
+<path fill="none" stroke="#88a0d6" d="M1032.07,-225.12C1126.65,-206.58 1261.76,-180.09 1352.51,-162.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1353.01,-165.76 1362.15,-160.4 1351.66,-158.89 1353.01,-165.76"/>
+<text text-anchor="start" x="1201.03" y="-194.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 50&#45;&gt;Stammdaten versenden -->
+<g id="edge10" class="edge">
+<title>50-&gt;Stammdaten versenden</title>
+<path fill="none" stroke="#88a0d6" d="M1320.15,-124.2C1153.81,-102.47 868.49,-65.19 712.94,-44.87"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="713.83,-41.46 703.46,-43.63 712.93,-48.4 713.83,-41.46"/>
+<text text-anchor="start" x="1077.03" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A03 -->
+<g id="node10" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1517.68,-59.28C1517.68,-59.28 1382.38,-59.28 1382.38,-59.28 1376.38,-59.28 1370.38,-53.28 1370.38,-47.28 1370.38,-47.28 1370.38,-12 1370.38,-12 1370.38,-6 1376.38,0 1382.38,0 1382.38,0 1517.68,0 1517.68,0 1523.68,0 1529.68,-6 1529.68,-12 1529.68,-12 1529.68,-47.28 1529.68,-47.28 1529.68,-53.28 1523.68,-59.28 1517.68,-59.28"/>
+<text text-anchor="start" x="1384.78" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="1384.78" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Keine nME verbaut</text>
+</g>
+<!-- 50&#45;&gt;A03 -->
+<g id="edge11" class="edge">
+<title>50-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M1450.03,-124.38C1450.03,-110.15 1450.03,-89.15 1450.03,-70.63"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1453.53,-70.73 1450.03,-60.73 1446.53,-70.73 1453.53,-70.73"/>
+<text text-anchor="start" x="1450.03" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

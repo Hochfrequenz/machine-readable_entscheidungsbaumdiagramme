@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0608",
+    "ebd_name": "E_0608_Anmeldung einer Zuordnung",
+    "release_information": null,
+    "remark": null,
+    "role": "NB",
+    "section": "6.5.1: AD: Neuanlage"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Wurde der Anwendungsfall für eine verbrauchende Marktlokation verwendet?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "500"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Vorlauffrist eingehalten?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nVorlauffrist wurde nicht eingehalten",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mit allen zur Verfügung gestellten Informationen aus der Anmeldung unter Wahrung der gebotenen Sorgfalt genau eine Marktlokation ermittelt? \nHinweis: Der NB prüft unter Anwendung mindestens der normierten Identifikationsvorgaben (unter Berücksichtigung des Kapitels 6. der GPKE Teil 1 (s. insbesondere b) und c))), ob die Marktlokation eindeutig identifiziert werden kann.",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Nimmt die Marktlokation zum Anmeldedatum an der Marktkommunikation teil?\nHinweis: Marktlokationen, die nicht an der Marktkommunikation teilnehmen, sind Marktlokationen, die stillgelegt sind bzw. Marktlokationen, die dem \"Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit\" zugeordnet sind.",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nIdentifizierte Marktlokation nimmt nicht an der Marktkommunikation teil. Weiterhin handelt es sich nicht um eine Neuanlage.",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mit allen zur Verfügung gestellten Informationen aus der Anmeldung unter Wahrung der gebotenen Sorgfalt mehr als eine Marktlokation ermittelt?",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "110"
+          },
+          "note": "Keine Marktlokation ermittelt",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "55"
+          },
+          "note": "Mehr als eine Marktlokation ermittelt",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Nimmt von den identifizierten Marktlokationen exakt eine Marktlokation an der Marktkommunikation teil?\nHinweis: Marktlokationen, die nicht an der Marktkommu-nikation teilnehmen, sind Marktlokationen, die stillgelegt sind bzw. Marktlokationen, die dem \"Modell 2 zur lade-vorgangscharfen bilanziellen Energiemengenzuordnungs-möglichkeit\" zugeordnet sind.",
+      "step_number": "55",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nKeine- oder Mehrfachidentifizierung",
+          "result_code": "A08"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine erstmalige Inbetriebnahme?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nKeine Neuanlage, falscher Anwendungsfall",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "70"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist bereits ein LF zugeordnet?",
+      "step_number": "70",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFalscher Anwendungsfall, es ist bereits ein LF zugeordnet",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "80"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Marktlokation zum Eingangsdatum der Meldung dem Netzbetreiber zugeordnet?",
+      "step_number": "80",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation befindet sich zum Eingangsdatum der Meldung nicht mehr im Netzgebiet des NB.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind alle zwingend notwendigen Anforderungen des LF erfüllt?\nHinweis: Insbesondere die notwendige Zuordnungsermächtigung (Bilanzkreis/Bilanzierungsverfahren) ist vorhanden",
+      "step_number": "90",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: Die Abweichungen sind zu benennen.",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "130"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Anmeldung (der Neuanlage) vor mehr als 60 WT eingegangen?",
+      "step_number": "110",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nNeu angelegte Marktlokation konnten nicht identifiziert werden",
+          "result_code": "A07"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "130",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung \nSonstiges \nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung",
+          "result_code": "A09"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde die Vorlauffrist eingehalten?",
+      "step_number": "500",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nVorlauffrist wurde nicht eingehalten",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "510"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mit allen zur Verfügung gestellten Informationen aus der Anmeldung unter Wahrung der gebotenen Sorgfalt genau eine Marktlokation ermittelt? \nHinweis: Der NB prüft unter Anwendung mindestens der normierten Identifikationsvorgaben (unter Berücksichtigung des Kapitels 6. der GPKE Teil 1 (s. insbesondere b) und c))), ob die Marktlokation eindeutig identifiziert werden kann.",
+      "step_number": "510",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "520"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "530"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Nimmt die Marktlokation zum Anmeldedatum an der Marktkommunikation teil?\nHinweis: Marktlokationen, die nicht an der Marktkommunikation teilnehmen, sind Marktlokationen, die stillgelegt sind bzw. Marktlokationen, die dem \" Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit \" zugeordnet sind.",
+      "step_number": "520",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nIdentifizierte Marktlokation nimmt nicht an der Marktkommunikation teil. Weiterhin handelt es sich nicht um eine Neuanlage.",
+          "result_code": "A11"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "540"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde mit allen zur Verfügung gestellten Informationen aus der Anmeldung unter Wahrung der gebotenen Sorgfalt mehr als eine Marktlokation ermittelt?",
+      "step_number": "530",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "590"
+          },
+          "note": "Keine Marktlokation ermittelt",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "535"
+          },
+          "note": "Mehr als eine Marktlokation ermittelt",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Nimmt von den identifizierten Marktlokationen exakt eine Marktlokation an der Marktkommunikation teil?\nEine Marktlokation, die an der Marktkommunikation teilnimmt, ist eine Marktlokation, welcher ein Bilanzkreis und ein Lieferant zugeordnet ist bzw. werden kann.",
+      "step_number": "535",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nKeine- oder Mehrfachidentifizierung",
+          "result_code": "A17"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "610"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine erstmalige Inbetriebnahme?",
+      "step_number": "540",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nKeine Neuanlage, falscher Anwendungsfall",
+          "result_code": "A12"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "545"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Erfolgt die Bilanzierung auf Basis von Viertelstundenwerten? \nHinweis: In viertelstündlicher Auflösung (verpflichtend lt. EEG)",
+      "step_number": "545",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nBilanzierung erfolgt nicht auf Basis von Viertelstundenwerten.",
+          "result_code": "A19"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "550"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist bereits ein LF zugeordnet?",
+      "step_number": "550",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFalscher Anwendungsfall, es ist bereits ein LF zugeordnet",
+          "result_code": "A13"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "560"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Marktlokation zum Eingangsdatum der Meldung dem Netzbetreiber zugeordnet?",
+      "step_number": "560",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nMarktlokation befindet sich zum Eingangsdatum der Meldung nicht mehr im Netzgebiet des NB.",
+          "result_code": "A14"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "570"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Sind alle zwingend notwendigen Anforderungen des LF erfüllt?\nHinweis: Insbesondere die notwendige Zuordnungsermächtigung (Bilanzkreis/Bilanzierungsverfahren) ist vorhanden",
+      "step_number": "570",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: Die Abweichungen sind zu benennen.",
+          "result_code": "A15"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "610"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Anmeldung (der Neuanlage) vor mehr als 60 WT eingegangen?",
+      "step_number": "590",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nNeu angelegte Marktlokation konnten nicht identifiziert werden",
+          "result_code": "A16"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "510"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "610",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung \nSonstiges \nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung",
+          "result_code": "A18"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

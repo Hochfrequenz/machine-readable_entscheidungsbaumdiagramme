@@ -1,0 +1,414 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.4.1: AD: Lieferende von NB an LF
+
+
+
+end title
+:<b>E_0609</b>;
+note right
+<b><i>Prüfende Rolle: LF
+end note
+
+if (<b>10: </b> Wurde im Geschäftsvorfall angegeben, dass es sich um eine verbrauchende Marktlokation oder ruhende Marktlokation handelt?) then (ja)
+    if (<b>20: </b> Handelt es sich um eine Abmeldung einer Marktlokation, welche aus einer Kundenanlage herausgelöst werden soll?
+Hinweis: 
+In der Transaktionsgrundergänzung ist „ruhende Marktlokation“ angegeben.) then (ja)
+        if (<b>25: </b> Handelt es sich bei der im Anwendungsfall genannten Marktlokation um eine „ruhende Marktlokation“ einer Kundenanlage (§ 20 Abs. 1d EnWG oder § 10 c EEG&#41;?) then (ja)
+        else (nein)
+            :A01;
+            note left
+                Cluster: Ablehnung
+                Bei der in der Abmeldung genannten Marktlokation handelt es sich nicht um eine „ruhende Marktlokation“ einer Kundenanlage.
+            endnote
+            kill;
+        endif
+        if (<b>30: </b> Wurde bereits zum identischen Abmeldedatum für die in diesem Geschäftsvorfall genannte Marktlokation die Lieferende-Meldung positiv bestätigt?) then (ja)
+            :A02;
+            note left
+                Cluster: Ablehnung
+                Lieferende zum Abmeldedatum wurde bereits bestätigt
+            endnote
+            kill;
+        else (nein)
+        endif
+        if (<b>40: </b> Wurde die Vorlauffrist eingehalten?
+Hinweis: 
+Es ist die maximale und die minimale Vorlauffrist zu prüfen.) then (ja)
+        else (nein)
+            :A03;
+            note left
+                Cluster: Ablehnung
+                Vorlauffrist wurde nicht eingehalten
+            endnote
+            kill;
+        endif
+        if (<b>50: </b> Liegt der Transaktionsgrund
+Auszug wegen Stilllegung
+vor?) then (ja)
+            if (<b>60: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+                :A04;
+                note left
+                    Cluster: Ablehnung
+                    Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                    Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+                endnote
+                kill;
+            else (nein)
+            endif
+            if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+            else (nein)
+                :A10;
+                note left
+                    Cluster: Zustimmung
+                    Lieferende wird zugestimmt
+                endnote
+                kill;
+            endif
+        else (nein)
+            if (<b>80: </b> Liegt der Transaktionsgrund 
+Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT 
+vor?) then (ja)
+                if (<b>90: </b> Wurde der Zeitreihentyp an der betreffenden Marktlokation zum übermittelten Lieferende auf einen ZRT geändert, für welchen aus Sicht des LF dem NB eine Zuordnungsermächtigung vorliegen müsste?
+Hinweise: 
+- Es besteht voraussichtlich ein Datenschiefstand zur Zuordnungsermächtigung zwischen NB und LF.
+- Liegt keine Änderung des Zeitreihentyps zum übermittelten Lieferende vor, ist die Frage mit ja zu beantworten.) then (ja)
+                    :A06;
+                    note left
+                        Cluster: Ablehnung
+                        Es liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung aus Sicht des LF besteht. 
+                        Hinweise:
+                        - Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.
+                        - Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB.
+                    endnote
+                    kill;
+                else (nein)
+                endif
+                if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+                else (nein)
+                    :A10;
+                    note left
+                        Cluster: Zustimmung
+                        Lieferende wird zugestimmt
+                    endnote
+                    kill;
+                endif
+            else (nein)
+                if (<b>85: </b> Ist das angegebene Datum „Lieferende“ der nächste 1. eines Kalendermonats 00:00 Uhr?) then (ja)
+                else (nein)
+                    :A05;
+                    note left
+                        Cluster: Ablehnung
+                        Das Lieferende muss auf dem 1. eines Kalendermonats 00:00 Uhr liegen.
+                    endnote
+                    kill;
+                endif
+                if (<b>100: </b> Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation zugeordnet ist, zum übermittelten Lieferende vorgenommen?) then (ja)
+                else (nein)
+                    :A07;
+                    note left
+                        Cluster: Ablehnung
+                        Aus Sicht des LF wurde die Zuordnungsermächtigung für den an der Marktlokation genannten ZRT nicht deaktiviert.
+                        Hinweis: Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB.
+                    endnote
+                    kill;
+                endif
+                if (<b>120: </b> Liegt das Eingangsdatum der Abmeldung nach dem 5. WT des Monats, in dem die Zuordnungsermächtigung endet?) then (ja)
+                    :A09;
+                    note left
+                        Cluster: Ablehnung 
+                        Fristüberschreitung
+                    endnote
+                    kill;
+                else (nein)
+                endif
+                if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+                else (nein)
+                    :A10;
+                    note left
+                        Cluster: Zustimmung
+                        Lieferende wird zugestimmt
+                    endnote
+                    kill;
+                endif
+            endif
+        endif
+        if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        else (nein)
+            :A10;
+            note left
+                Cluster: Zustimmung
+                Lieferende wird zugestimmt
+            endnote
+            kill;
+        endif
+    else (nein)
+    endif
+    if (<b>30: </b> Wurde bereits zum identischen Abmeldedatum für die in diesem Geschäftsvorfall genannte Marktlokation die Lieferende-Meldung positiv bestätigt?) then (ja)
+        :A02;
+        note left
+            Cluster: Ablehnung
+            Lieferende zum Abmeldedatum wurde bereits bestätigt
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>40: </b> Wurde die Vorlauffrist eingehalten?
+Hinweis: 
+Es ist die maximale und die minimale Vorlauffrist zu prüfen.) then (ja)
+    else (nein)
+        :A03;
+        note left
+            Cluster: Ablehnung
+            Vorlauffrist wurde nicht eingehalten
+        endnote
+        kill;
+    endif
+    if (<b>50: </b> Liegt der Transaktionsgrund
+Auszug wegen Stilllegung
+vor?) then (ja)
+        if (<b>60: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation nicht stillgelegt wird/wurde?) then (ja)
+            :A04;
+            note left
+                Cluster: Ablehnung
+                Dem LF liegen Informationen vor, dass die Marktlokation nicht stillgelegt wird/wurde.
+                Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+            endnote
+            kill;
+        else (nein)
+        endif
+        if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        else (nein)
+            :A10;
+            note left
+                Cluster: Zustimmung
+                Lieferende wird zugestimmt
+            endnote
+            kill;
+        endif
+    else (nein)
+        if (<b>80: </b> Liegt der Transaktionsgrund 
+Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT 
+vor?) then (ja)
+            if (<b>90: </b> Wurde der Zeitreihentyp an der betreffenden Marktlokation zum übermittelten Lieferende auf einen ZRT geändert, für welchen aus Sicht des LF dem NB eine Zuordnungsermächtigung vorliegen müsste?
+Hinweise: 
+- Es besteht voraussichtlich ein Datenschiefstand zur Zuordnungsermächtigung zwischen NB und LF.
+- Liegt keine Änderung des Zeitreihentyps zum übermittelten Lieferende vor, ist die Frage mit ja zu beantworten.) then (ja)
+                :A06;
+                note left
+                    Cluster: Ablehnung
+                    Es liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung aus Sicht des LF besteht. 
+                    Hinweise:
+                    - Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.
+                    - Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB.
+                endnote
+                kill;
+            else (nein)
+            endif
+            if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+            else (nein)
+                :A10;
+                note left
+                    Cluster: Zustimmung
+                    Lieferende wird zugestimmt
+                endnote
+                kill;
+            endif
+        else (nein)
+            if (<b>85: </b> Ist das angegebene Datum „Lieferende“ der nächste 1. eines Kalendermonats 00:00 Uhr?) then (ja)
+            else (nein)
+                :A05;
+                note left
+                    Cluster: Ablehnung
+                    Das Lieferende muss auf dem 1. eines Kalendermonats 00:00 Uhr liegen.
+                endnote
+                kill;
+            endif
+            if (<b>100: </b> Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation zugeordnet ist, zum übermittelten Lieferende vorgenommen?) then (ja)
+            else (nein)
+                :A07;
+                note left
+                    Cluster: Ablehnung
+                    Aus Sicht des LF wurde die Zuordnungsermächtigung für den an der Marktlokation genannten ZRT nicht deaktiviert.
+                    Hinweis: Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB.
+                endnote
+                kill;
+            endif
+            if (<b>120: </b> Liegt das Eingangsdatum der Abmeldung nach dem 5. WT des Monats, in dem die Zuordnungsermächtigung endet?) then (ja)
+                :A09;
+                note left
+                    Cluster: Ablehnung 
+                    Fristüberschreitung
+                endnote
+                kill;
+            else (nein)
+            endif
+            if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+            else (nein)
+                :A10;
+                note left
+                    Cluster: Zustimmung
+                    Lieferende wird zugestimmt
+                endnote
+                kill;
+            endif
+        endif
+    endif
+    if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    else (nein)
+        :A10;
+        note left
+            Cluster: Zustimmung
+            Lieferende wird zugestimmt
+        endnote
+        kill;
+    endif
+else (nein)
+    if (<b>510: </b> Wurde bereits zum identischen Abmeldedatum für die in diesem Geschäftsvorfall genannte Marktlokation bzw. Tranche die Lieferende-Meldung positiv bestätigt?) then (ja)
+        :A21;
+        note left
+            Cluster: Ablehnung
+            Lieferende zum Abmeldedatum wurde bereits bestätigt
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>520: </b> Wurde die Vorlauffrist eingehalten? 
+Hinweis: 
+Es ist die maximale und die minimale Vorlauffrist zu prüfen.) then (ja)
+    else (nein)
+        :A22;
+        note left
+            Cluster: Ablehnung
+            Vorlauffrist wurde nicht eingehalten
+        endnote
+        kill;
+    endif
+    if (<b>530: </b> Liegt der Transaktionsgrund Stilllegung vor?) then (ja)
+        if (<b>540: </b> Liegen dem LF Informationen darüber vor, dass die Marktlokation bzw. Tranche nicht stillgelegt wird/wurde?) then (ja)
+            :A23;
+            note left
+                Cluster: Ablehnung
+                Dem LF liegen Informationen vor, dass die Marktlokation bzw. Tranche nicht stillgelegt wird/wurde.
+                Hinweis: Die Informationen sind in der Antwort zu beschreiben/benennen.
+            endnote
+            kill;
+        else (nein)
+        endif
+        if (<b>610: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        else (nein)
+            :A29;
+            note left
+                Cluster: Zustimmung
+                Lieferende wird zugestimmt
+            endnote
+            kill;
+        endif
+    else (nein)
+        if (<b>560: </b> Liegt der Transaktionsgrund 
+Abmeldung wegen fehl. Zuordnungsermächtigung aufgrund Änderung ZRT vor?) then (ja)
+            if (<b>570: </b> Wurde der Zeitreihentyp zum übermittelten Lieferende an der betreffenden Marktlokation bzw. Tranche auf einen ZRT geändert, für welchen aus Sicht des LF dem NB eine Zuordnungsermächtigung vorliegen müsste?
+Hinweise:
+- Es besteht voraussichtlich ein Datenschiefstand zur Zuordnungsermächtigung zwischen NB und LF.
+- Liegt keine Änderung des Zeitreihentyps zum übermittelten Lieferende vor, ist die Frage mit ja zu beantworten.) then (ja)
+                :A25;
+                note left
+                    Cluster: Ablehnung
+                    Es liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung aus Sicht des LF besteht. 
+                    Hinweise:
+                    - Aus Sicht des LF müsste die notwendige Zuordnungsermächtigung beim NB vorliegen.
+                    - Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB.
+                endnote
+                kill;
+            else (nein)
+            endif
+            if (<b>610: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+            else (nein)
+                :A29;
+                note left
+                    Cluster: Zustimmung
+                    Lieferende wird zugestimmt
+                endnote
+                kill;
+            endif
+        else (nein)
+            if (<b>565: </b> Ist das angegebene Datum „Lieferende“ der nächste 1. eines Kalendermonats 00:00 Uhr?) then (ja)
+            else (nein)
+                :A24;
+                note left
+                    Cluster: Ablehnung
+                    Das Lieferende muss auf dem 1. eines Kalendermonats 00:00 Uhr liegen.
+                endnote
+                kill;
+            endif
+            if (<b>580: </b> Hat der BKV die Deaktivierung der Zuordnungsermächtigung für den ZRT, welcher der genannten Marktlokation bzw. Tranche zugeordnet ist, zum übermittelten Lieferende vorgenommen?) then (ja)
+            else (nein)
+                :A26;
+                note left
+                    Cluster: Ablehnung
+                    Aus Sicht des LF wurde die Zuordnungsermächtigung für den an der Marktlokation bzw. Tranche genannten ZRT nicht deaktiviert.
+                    Hinweis: Der LF klärt den Sachverhalt mit dem BKV und dieser ggf. mit dem NB
+                endnote
+                kill;
+            endif
+            if (<b>600: </b> Liegt das Eingangsdatum der Abmeldung nach dem 5. WT des Monats, in dem die Zuordnungsermächtigung endet?) then (ja)
+                :A28;
+                note left
+                    Cluster: Ablehnung 
+                    Fristüberschreitung
+                endnote
+                kill;
+            else (nein)
+            endif
+            if (<b>610: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+            else (nein)
+                :A29;
+                note left
+                    Cluster: Zustimmung
+                    Lieferende wird zugestimmt
+                endnote
+                kill;
+            endif
+        endif
+    endif
+    if (<b>610: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    else (nein)
+        :A29;
+        note left
+            Cluster: Zustimmung
+            Lieferende wird zugestimmt
+        endnote
+        kill;
+    endif
+endif
+:A99;
+note left
+    Cluster: Ablehnung
+    Sonstiges 
+    Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+endnote
+kill;
+
+@enduml

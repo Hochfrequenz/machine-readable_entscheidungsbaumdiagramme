@@ -1,0 +1,145 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+Prozesse zur Änderung der Technik an Lokationen
+
+9.1.3: AD: Messlokationsänderung vom NB an MSB
+
+
+
+end title
+:<b>E_0286</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>10: </b> Ist der Zugang zur Lokation für den Monteur, um die Änderung an der Lokation durchzuführen, gegeben?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Gescheitert
+        Der Monteur hat keinen Zugang zur Lokation.
+    endnote
+    kill;
+endif
+if (<b>20: </b> Ist für die Ausführung der Bestellung der Aufbau einer neuen Kommunikationsverbindung notwendig?) then (ja)
+    if (<b>30: </b> Kann die Kommunikationsverbindung hergestellt werden, so dass die Ausführung der Bestellung möglich ist?) then (ja)
+    else (nein)
+        :A02;
+        note left
+            Gescheitert
+            Die Änderung der Technik an der Lokation ist aufgrund einer fehlenden / mangelhaften Kommunikationsverbindung nicht möglich.
+        endnote
+        kill;
+    endif
+    if (<b>40: </b> Handelt es sich bei der Änderung um eine Bestellung für eine Steuerung?) then (ja)
+        if (<b>50: </b> Ist das Mapping der SR/NeLo zu TR umsetzbar?
+Hinweis:
+Dies ist beispielweise dann nicht möglich, wenn die bestellte Entität zwischen SR/NeLo und TR sich Aufgrund der Vorort vorkommenden Anschlussstation der Steuerung nicht umsetzen lässt. Dies kann z.B. sein, dass eine SR für mehrere TR bestellt wurde, vor Ort sind aber nur digitale Schnittstellen an den TR vorhanden, welche somit nur in einer 1zu1 Beziehung technisch abbildbar sind, oder umgekehrt, dass der NB eine 1zu1 Beziehung der SR zur TR bestellt hat aber vor Ort mehrere TR analog zu einer SR verdrahtet sind. Ebenso kann vorkommen, dass der Kunde ein Home Energy Management System (HEMS&#41; vor Ort hat und keine SR/TR Umsetzung möglich ist, sondern lediglich eine NeLo/TR (bzw. umgekehrt&#41;.) then (ja)
+        else (nein)
+            :A03;
+            note left
+                Gescheitert
+                Die bestellte Zuordnung der genannten TR zur SR/NeLo lässt sich aufgrund der Situation vor Ort nicht realisieren.
+            endnote
+            kill;
+        endif
+        if (<b>60: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+            :A99;
+            note left
+                Gescheitert
+                
+                Sonstiges
+                Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. 
+                Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+            endnote
+            kill;
+        else (nein)
+            :Stammdatenänderung vom MSB (verantwortlich) ausgehend versenden.
+Ggf. Aufbereitung und Übermittlung von Werten vom MSB der Messlokation.;
+            kill;
+        endif
+    else (nein)
+    endif
+    if (<b>60: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Gescheitert
+            
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. 
+            Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+        :Stammdatenänderung vom MSB (verantwortlich) ausgehend versenden.
+Ggf. Aufbereitung und Übermittlung von Werten vom MSB der Messlokation.;
+        kill;
+    endif
+else (nein)
+endif
+if (<b>40: </b> Handelt es sich bei der Änderung um eine Bestellung für eine Steuerung?) then (ja)
+    if (<b>50: </b> Ist das Mapping der SR/NeLo zu TR umsetzbar?
+Hinweis:
+Dies ist beispielweise dann nicht möglich, wenn die bestellte Entität zwischen SR/NeLo und TR sich Aufgrund der Vorort vorkommenden Anschlussstation der Steuerung nicht umsetzen lässt. Dies kann z.B. sein, dass eine SR für mehrere TR bestellt wurde, vor Ort sind aber nur digitale Schnittstellen an den TR vorhanden, welche somit nur in einer 1zu1 Beziehung technisch abbildbar sind, oder umgekehrt, dass der NB eine 1zu1 Beziehung der SR zur TR bestellt hat aber vor Ort mehrere TR analog zu einer SR verdrahtet sind. Ebenso kann vorkommen, dass der Kunde ein Home Energy Management System (HEMS&#41; vor Ort hat und keine SR/TR Umsetzung möglich ist, sondern lediglich eine NeLo/TR (bzw. umgekehrt&#41;.) then (ja)
+    else (nein)
+        :A03;
+        note left
+            Gescheitert
+            Die bestellte Zuordnung der genannten TR zur SR/NeLo lässt sich aufgrund der Situation vor Ort nicht realisieren.
+        endnote
+        kill;
+    endif
+    if (<b>60: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Gescheitert
+            
+            Sonstiges
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. 
+            Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+        :Stammdatenänderung vom MSB (verantwortlich) ausgehend versenden.
+Ggf. Aufbereitung und Übermittlung von Werten vom MSB der Messlokation.;
+        kill;
+    endif
+else (nein)
+endif
+if (<b>60: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Gescheitert
+        
+        Sonstiges
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. 
+        Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+    :Stammdatenänderung vom MSB (verantwortlich) ausgehend versenden.
+Ggf. Aufbereitung und Übermittlung von Werten vom MSB der Messlokation.;
+    kill;
+endif
+
+@enduml
