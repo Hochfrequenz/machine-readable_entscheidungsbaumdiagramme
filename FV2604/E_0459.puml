@@ -1,0 +1,155 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.10.7: AD: Netznutzungsabrechnung
+
+
+
+end title
+:<b>E_0459</b>;
+note right
+<b><i>Prüfende Rolle: LF
+end note
+
+if (<b>10: </b> Ist die zu stornierende Rechnung beim Empfänger bekannt?) then (ja)
+else (nein)
+    :A01;
+    note left
+        Die zu stornierende Rechnung ist nicht vorhanden.
+    endnote
+    kill;
+endif
+if (<b>15: </b> Liegt vom Rechnungssteller die in dieser Rechnung verwendete Rechnungsnummer bereits vor?) then (ja)
+    :A06;
+    note left
+        Rechnungsnummer wurde bereits verwendet.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>17: </b> Erfüllt die Rechnung weitere Anforderungen gem. §14 Abs. 4 UStG?) then (ja)
+else (nein)
+    :A07;
+    note left
+        Rechnung entspricht nicht §14 Abs. 4 UStG.
+    endnote
+    kill;
+endif
+if (<b>20: </b> Wurde die zu stornierende Rechnung bereits storniert?) then (ja)
+    :A02;
+    note left
+        Die zu stornierende Rechnung wurde bereits storniert.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>30: </b> Ist der Rechnungstyp der Stornorechnung identisch mit dem Rechnungstyp der ursprünglichen Rechnung?) then (ja)
+else (nein)
+    :A03;
+    note left
+        Der Rechnungstyp der Stornorechnung ist nicht identisch mit dem Rechnungstyp der ursprünglichen Rechnung.
+    endnote
+    kill;
+endif
+if (<b>40: </b> Ist der Abrechnungszeitraum bzw. das Ausführungsdatum der Stornorechnung identisch mit dem Abrechnungszeitraum bzw. dem Ausführungsdatum der ursprünglichen Rechnung?) then (ja)
+else (nein)
+    :A04;
+    note left
+        Der Abrechnungszeitraum bzw. das Ausführungsdatum der Stornorechnung ist nicht identisch mit dem Abrechnungszeitraum bzw. dem Ausführungsdatum der ursprünglichen Rechnung.
+    endnote
+    kill;
+endif
+if (<b>50: </b> Sind die mit (-1&#41; multiplizierten Beträge der Stornorechnung mit den Beträgen der ursprünglichen Rechnung identisch?
+
+Hinweis:
+Als Betrag ist der jeweilige Wert des jeweiligen MOA-Segments zu verstehen.) then (ja)
+else (nein)
+    :A05;
+    note left
+        Mindestens ein Betrag der Stornorechnung passt nicht zu dem Betrag der ursprünglichen Rechnung.
+    endnote
+    kill;
+endif
+if (<b>53: </b> Handelt es sich um den Storno einer Abschlagsrechnung?) then (ja)
+    if (<b>54: </b> Ist diese Abschlagsrechnung bereits in einer vorhergehenden, akzeptierten und nicht stornierten Netznutzungsrechnung enthalten?) then (ja)
+        :A08;
+        note left
+            Dies Abschlagsrechnung ist bereits in einer vorhergehenden, akzeptierten und nicht stornierten Netznutzungsrechnung enthalten.
+            Hinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der diese Abschlagsrechnung bereits abgerechnet wurde.
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>60: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+        :A99;
+        note left
+            Ablehnung Sonstiges
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. 
+            Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+        endnote
+        kill;
+    else (nein)
+    endif
+    if (<b>70: </b> Wurde der ursprünglichen Rechnung zugestimmt?) then (ja)
+        :Stornorechnung zustimmen und im Zahlungslauf berücksichtigen;
+        kill;
+    else (nein)
+    endif
+    if (<b>80: </b> Wurde die ursprüngliche Rechnung abgelehnt?) then (ja)
+        :Hinweis: 
+Wurde die ursprüngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden;
+        kill;
+    else (nein)
+        :Hinweis: 
+Wurde die ursprüngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden.;
+        kill;
+    endif
+else (nein)
+endif
+if (<b>60: </b> Ist ein zuvor nicht spezifizierter Fehler aufgetreten?) then (ja)
+    :A99;
+    note left
+        Ablehnung Sonstiges
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. 
+        Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>70: </b> Wurde der ursprünglichen Rechnung zugestimmt?) then (ja)
+    :Stornorechnung zustimmen und im Zahlungslauf berücksichtigen;
+    kill;
+else (nein)
+endif
+if (<b>80: </b> Wurde die ursprüngliche Rechnung abgelehnt?) then (ja)
+    :Hinweis: 
+Wurde die ursprüngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden;
+    kill;
+else (nein)
+    :Hinweis: 
+Wurde die ursprüngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden.;
+    kill;
+endif
+
+@enduml

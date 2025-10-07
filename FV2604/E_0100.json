@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "chapter": "MaBiS",
+    "ebd_code": "E_0100",
+    "ebd_name": "E_0100 Profile bzw. Profilscharen prüfen",
+    "release_information": null,
+    "remark": null,
+    "role": "LF",
+    "section": "7.11.1: AD: Übermittlung von normierten Profilen und Profilscharen vom NB an LF"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Gehört das empfangene Profil bzw. die Profilschar zu einer zuvor abonnierten Profilgruppe aus der Liste der Profildefinitionen?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Profil bzw. Profilschar gehört nicht zu einer zuvor abonnierten Profilgruppe",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "2"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde eine Profilschar empfangen?",
+      "step_number": "2",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "3"
+          },
+          "note": "Hinweis: Es wurde ein Profil empfangen.",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "4"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die übermittelte Version des Profils für den übermittelten Zeitraum höher als die bisher höchste verarbeitete Version des Profils des gleichen Zeitraums?",
+      "step_number": "3",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Version des Profils nicht zugelassen",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "Ende"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die übermittelte Version der Profilschar für den übermittelten Beginnzeitpunkt höher als die bisher höchste verarbeitete Version der Profilschar zu diesem Zeitpunkt?",
+      "step_number": "4",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Version der Profilschar nicht zugelassen",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "5"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Stimmt die angegebene Maßeinheit der verwendeten OBIS-Kennzahl mit der Maßeinheit des Normierungsfaktors aus der Liste der Profildefinitionen überein?",
+      "step_number": "5",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Maßeinheit weicht von Liste der Profildefinitionen ab",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "6"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die niedrigste Temperaturmaßzahl der Profilschar der Begrenzungskonstante aus der Liste der Profildefinitionen?",
+      "step_number": "6",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Niedrigste Temperaturmaßzahl weicht von Liste der Profildefinitionen ab",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "7"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht die Anzahl der Temperaturmaßzahlen der Profilschar der erwarteten Anzahl der Temperaturmaßzahlen gemäß der Bezugstemperatur und der Begrenzungskonstante aus der Liste der Profildefinition?",
+      "step_number": "7",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Anzahl der Temperaturmaßzahlen weicht von Liste der Profildefinitionen ab",
+          "result_code": "A06"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "Ende"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

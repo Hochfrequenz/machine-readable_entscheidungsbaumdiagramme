@@ -1,0 +1,107 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+GPKE
+
+6.23.1: AD: Bestellung zur Stammdatenänderung an LF (verantwortlich)
+
+
+
+end title
+:<b>E_0588</b>;
+note right
+<b><i>Prüfende Rolle: LF
+end note
+
+if (<b>10: </b> Stimmen alle Stammdaten für Verwendungszeiträume, welche mit „Im System vorhandene Daten“ gekennzeichnet sind, sowie Verwendungszeiträume welche mit „Im System keine Daten vorhanden“ gekennzeichnet sind, mit dem beim Verantwortlichen vorliegenden Stammdaten überein?
+Hinweis:
+Dies ist für jeden in der Anfrage vorhandenen Verwendungszeitraum jeweils für den gesamten Zeitraum zu prüfen.) then (ja)
+    if (<b>20: </b> Sind in der Bestellung der Stammdatenänderung Verwendungszeiträume der Daten mit dem Code „Erwartete Daten“ und / oder „Keine Daten erwartet“ enthalten?) then (ja)
+    else (nein)
+        :A01;
+        note left
+            Cluster: keine Änderung der Daten
+            Der Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit: 
+            - Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen überein. 
+            - Es wurden keine Stammdaten zur Änderung angegeben. 
+            Eine Stammdatenänderung wird nicht versendet.
+        endnote
+        kill;
+    endif
+    if (<b>30: </b> Kommt der Verantwortliche zu dem Ergebnis, dass er Änderungen an seinen Stammdaten vornimmt?) then (ja)
+        :A02;
+        note left
+            Cluster: Änderung der Daten
+            Der Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit:
+            - Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen überein.
+            - Änderungen an den Stammdaten werden vorgenommen. 
+            Eine Stammdatenänderung wird versendet.
+        endnote
+        kill;
+    else (nein)
+        :A03;
+        note left
+            Cluster: keine Änderung der Daten
+            Der Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit:
+            - Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen überein.
+            - Änderungen an den Stammdaten werden nicht vorgenommen.
+            Eine Stammdatenänderung wird nicht versendet.
+        endnote
+        kill;
+    endif
+else (nein)
+    if (<b>40: </b> Sind in der Bestellung der Stammdatenänderung der Stammdatenänderung Verwendungszeiträume der Daten mit dem Code „Erwartete Daten“ und / oder „Keine Daten erwartet“ enthalten?) then (ja)
+    else (nein)
+        :A04;
+        note left
+            Cluster: Änderung der Daten
+            Der Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit: 
+            - Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen nicht überein. 
+            - Es wurden keine Stammdaten zur Änderung angegeben. 
+            Eine Stammdatenänderung wird versendet.
+        endnote
+        kill;
+    endif
+    if (<b>50: </b> Kommt der Verantwortliche zu dem Ergebnis, dass er Änderungen an seinen Stammdaten vornimmt?) then (ja)
+        :A05;
+        note left
+            Cluster: Änderung der Daten
+            Der Verantwortliche teilt in dem Bearbeitungstand der Stammdaten mit:
+            - Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen nicht überein.
+            - Änderungen an den Stammdaten werden vorgenommen.
+            Eine Stammdatenänderung wird versendet.
+        endnote
+        kill;
+    else (nein)
+        :A06;
+        note left
+            Cluster: Änderung der Daten
+            Der Verantwortliche teilt in dem Bearbeitungsstand der Stammdaten mit: 
+            - Die beim Berechtigten vorliegenden Daten stimmen mit den Daten des Verantwortlichen nicht überein.
+            - Änderungen an den Stammdaten werden nicht vorgenommen.
+            Eine Stammdatenänderung wird versendet.
+        endnote
+        kill;
+    endif
+endif
+
+@enduml

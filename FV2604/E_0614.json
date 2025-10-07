@@ -1,0 +1,520 @@
+{
+  "metadata": {
+    "chapter": "GPKE",
+    "ebd_code": "E_0614",
+    "ebd_name": "E_0614_Kündigung Vertrag prüfen",
+    "release_information": null,
+    "remark": null,
+    "role": "LF",
+    "section": "6.2.1: AD: Kündigung"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Wurde im Geschäftsvorfall angegeben, dass es sich um eine verbrauchende Marktlokation handelt?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "500"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt der übermittelte Kündigungstermin vor dem Nachrichteneingang?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFristüberschreitung",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde der Vertrag bereits zu dem angefragten Kündigungstermin gekündigt?",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nVertrag wurde bereits zum angefragten Kündigungstermin gekündigt.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde der Vertrag bereits zu einem Datum vor dem angefragten Kündigungstermin gekündigt?",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nZum Kündigungstermin besteht kein Vertrags-verhältnis mehr.",
+          "result_code": "A04"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Kündigung, welche zu einem fixen Termin ausgesprochen wurde?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "70"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Vertrag zum übermittelten Kündigungstermin unter Einhaltung der Kündigungsfrist unter Berücksichtigung des Eingangsdatums der Kündigung kündbar?",
+      "step_number": "70",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "90"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "80"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde der Vertrag bereits zu einem späteren Zeitpunkt beendet?",
+      "step_number": "80",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nVertragsbindung bei bereits in der Zukunft beendetem Vertrag.",
+          "result_code": "A05"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nVertragsbindung",
+          "result_code": "A06"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde für die Kündigung eine Vollmacht von dem LFA angefordert?",
+      "step_number": "90",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "100"
+          },
+          "note": "Hinweis:\nDie Anforderung einer Vollmacht im begründeten Einzelfall ist auf bilateralem Weg an den LFA zu senden. Hierzu ist die E-Mailadresse aus dem „SG4 NAD+Z12 Ansprechpartner Kündigungsprozess“ des Kommunikationsdatenblattes des LFN zu verwenden. \nDie Antwort des LFN wird an die E-Mailadresse aus dem „SG4 NAD+Z12 Ansprechpartner Kündigungsprozess“ des Kommunikationsdatenblattes des LFA gesendet.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Vollmacht beim LFA eingetroffen?",
+      "step_number": "100",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "110"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "100"
+          },
+          "note": "Hinweis:\nSolange die Vollmacht beim LFA nicht eingetroffen ist, wartet der Prozess an diesem Prüfschritt. Diese Prüfung ist regelmäßig erneut durchzuführen, bis die Vollmacht eingetroffen ist.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hält der LFA die Vollmacht für wirksam?",
+      "step_number": "110",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "120"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie vom LFN eingereichte Vollmacht wird als nicht wirksam vom LFA betrachtet. \nHinweis: Der LFA begründet die Ablehnung der fehlenden Wirksamkeit der Vollmacht",
+          "result_code": "A08"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "120",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\n\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nZustimmung",
+          "result_code": "A09"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt zu dem genannten Objekt ein Vertrag vor?",
+      "step_number": "500",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nZu dem genannten Objekt liegt kein Vertrag vor.",
+          "result_code": "A18"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "505"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Liegt der übermittelte Kündigungstermin vor dem Nachrichteneingang?",
+      "step_number": "505",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nFristüberschreitung",
+          "result_code": "A10"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "550"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde der Vertrag bereits zu dem angefragten Kündigungstermin gekündigt?",
+      "step_number": "550",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nVertrag wurde bereits zum angefragten Kündigungstermin gekündigt.",
+          "result_code": "A12"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "560"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde der Vertrag bereits zu einem Datum vor dem angefragten Kündigungstermin gekündigt?",
+      "step_number": "560",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nZum Kündigungstermin besteht kein Vertrags-verhältnis mehr.",
+          "result_code": "A13"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "570"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich um eine Kündigung, welche zu einem fixen Termin ausgesprochen wurde?",
+      "step_number": "570",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "580"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "600"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist der Vertrag zum übermittelten Kündigungstermin unter Einhaltung der Kündigungsfrist unter Berücksichtigung des Eingangsdatums der Kündigung kündbar?",
+      "step_number": "580",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "600"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "590"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde der Vertrag bereits zu einem späteren Zeitpunkt beendet?",
+      "step_number": "590",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nVertragsbindung bei bereits in der Zukunft beendetem Vertrag.",
+          "result_code": "A14"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nVertragsbindung",
+          "result_code": "A15"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Wurde für die Kündigung eine Vollmacht von dem LFA angefordert?",
+      "step_number": "600",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "630"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "610"
+          },
+          "note": "Hinweis:\nDie Anforderung einer Vollmacht im begründeten Einzelfall ist auf bilateralem Weg an den LFA zu senden. Hierzu ist die E-Mailadresse aus dem „SG4 NAD+Z12 Ansprechpartner Kündigungsprozess“ des Kommunikationsdatenblattes des LFN zu verwenden. \nDie Antwort des LFN wird an die E-Mailadresse aus dem „SG4 NAD+Z12 Ansprechpartner Kündigungsprozess“ des Kommunikationsdatenblattes des LFA gesendet.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die Vollmacht beim LFA eingetroffen?",
+      "step_number": "610",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "620"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "610"
+          },
+          "note": "Hinweis:\nSolange die Vollmacht beim LFA nicht eingetroffen ist, wartet der Prozess an diesem Prüfschritt. Diese Prüfung ist regelmäßig erneut durchzuführen, bis die Vollmacht eingetroffen ist.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Hält der LFA die Vollmacht für wirksam?",
+      "step_number": "620",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "630"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie vom LFN eingereichte Vollmacht wird als nicht wirksam vom LFA betrachtet. \nHinweis: Der LFA begründet die Ablehnung der fehlenden Wirksamkeit der Vollmacht",
+          "result_code": "A16"
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "630",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Zustimmung\nZustimmung",
+          "result_code": "A17"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

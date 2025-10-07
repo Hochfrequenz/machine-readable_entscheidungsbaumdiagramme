@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "chapter": "Sperrprozesse Gas",
+    "ebd_code": "E_1020",
+    "ebd_name": "E_1020_Prüfen, ob Entsperrauftrag erfolgreich (Basiert auf Strom EBD: E_0487_Prüfen, ob Entsperrauftrag erfolgreich)",
+    "release_information": null,
+    "remark": null,
+    "role": "NB",
+    "section": "18.5.1: AD: Wiederherstellung der Anschlussnutzung bei Lieferbeginn"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist die Entsperrung erfolgreich durchgeführt worden?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Marktlokation ist entsperrt",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Bilaterale Klärung.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

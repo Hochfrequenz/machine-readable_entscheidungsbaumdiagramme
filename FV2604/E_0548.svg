@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1920.0px" viewBox="0 0 1920.0 864.0" height="864.0px">
+  <g>
+    <svg version="1.1" width="1920.0px" viewBox="0 0 1920.0 864.0" height="864.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1920.0" height="864.0" rx="20" ry="20"/><g>
+    <g transform="translate(607.660264714165, 86.39999999999998) scale(1 1) translate(0, 0) scale(1.2165587158546889 1.2165587158546889) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1440pt" height="648pt" viewBox="0.00 0.00 1440.00 647.53">
+<g id="graph0" class="graph" transform="scale(0.463499 0.463499) rotate(0) translate(18 1379.05)">
+<title>D</title>
+<text text-anchor="start" x="1256.4" y="-1340.95" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">GPKE</text>
+<text text-anchor="start" x="1256.4" y="-1312.85" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">6.42.1: AD: Reklamation einer Definition des NB vom LF an NB</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M1066.8,-1271.05C1066.8,-1271.05 930,-1271.05 930,-1271.05 924,-1271.05 918,-1265.05 918,-1259.05 918,-1259.05 918,-1237.77 918,-1237.77 918,-1231.77 924,-1225.77 930,-1225.77 930,-1225.77 1066.8,-1225.77 1066.8,-1225.77 1072.8,-1225.77 1078.8,-1231.77 1078.8,-1237.77 1078.8,-1237.77 1078.8,-1259.05 1078.8,-1259.05 1078.8,-1265.05 1072.8,-1271.05 1066.8,-1271.05"/>
+<text text-anchor="start" x="932.4" y="-1250.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0548</text>
+<text text-anchor="start" x="932.4" y="-1236.11" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="1041.9" y="-1236.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 10 -->
+<g id="node2" class="node">
+<title>10</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1274.55,-1188.77C1274.55,-1188.77 722.25,-1188.77 722.25,-1188.77 716.25,-1188.77 710.25,-1182.77 710.25,-1176.77 710.25,-1176.77 710.25,-1164.77 710.25,-1164.77 710.25,-1158.77 716.25,-1152.77 722.25,-1152.77 722.25,-1152.77 1274.55,-1152.77 1274.55,-1152.77 1280.55,-1152.77 1286.55,-1158.77 1286.55,-1164.77 1286.55,-1164.77 1286.55,-1176.77 1286.55,-1176.77 1286.55,-1182.77 1280.55,-1188.77 1274.55,-1188.77"/>
+<text text-anchor="start" x="724.65" y="-1167.1" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="753.9" y="-1167.1" font-family="Roboto, sans-serif" font-size="14.00">Reklamiert der Anfragende das Fehlen der ausgerollten Z&#228;hlzeitdefinition?</text>
+</g>
+<!-- Start&#45;&gt;10 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;10</title>
+<path fill="none" stroke="#88a0d6" d="M998.4,-1225.94C998.4,-1217.86 998.4,-1208.56 998.4,-1199.96"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1001.9,-1200 998.4,-1190 994.9,-1200 1001.9,-1200"/>
+</g>
+<!-- 20 -->
+<g id="node3" class="node">
+<title>20</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M931.05,-1099.52C931.05,-1099.52 405.75,-1099.52 405.75,-1099.52 399.75,-1099.52 393.75,-1093.52 393.75,-1087.52 393.75,-1087.52 393.75,-1066.24 393.75,-1066.24 393.75,-1060.24 399.75,-1054.24 405.75,-1054.24 405.75,-1054.24 931.05,-1054.24 931.05,-1054.24 937.05,-1054.24 943.05,-1060.24 943.05,-1066.24 943.05,-1066.24 943.05,-1087.52 943.05,-1087.52 943.05,-1093.52 937.05,-1099.52 931.05,-1099.52"/>
+<text text-anchor="start" x="408.15" y="-1078.58" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
+<text text-anchor="start" x="437.4" y="-1078.58" font-family="Roboto, sans-serif" font-size="14.00">Entspricht der Code der Z&#228;hlzeitdefinition einem Code aus der f&#252;r den</text>
+<text text-anchor="start" x="408.15" y="-1064.58" font-family="Roboto, sans-serif" font-size="14.00">reklamierten Zeitraum g&#252;ltigen &#220;bersicht der Z&#228;hlzeitdefinitionen?</text>
+</g>
+<!-- 10&#45;&gt;20 -->
+<g id="edge2" class="edge">
+<title>10-&gt;20</title>
+<path fill="none" stroke="#88a0d6" d="M937.49,-1152.81C886.75,-1138.68 813.82,-1118.37 756.68,-1102.46"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="757.87,-1099.16 747.3,-1099.85 755.99,-1105.9 757.87,-1099.16"/>
+<text text-anchor="start" x="872.4" y="-1122.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 40 -->
+<g id="node7" class="node">
+<title>40</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1606.68,-1094.88C1606.68,-1094.88 1052.12,-1094.88 1052.12,-1094.88 1046.12,-1094.88 1040.12,-1088.88 1040.12,-1082.88 1040.12,-1082.88 1040.12,-1070.88 1040.12,-1070.88 1040.12,-1064.88 1046.12,-1058.88 1052.12,-1058.88 1052.12,-1058.88 1606.68,-1058.88 1606.68,-1058.88 1612.68,-1058.88 1618.68,-1064.88 1618.68,-1070.88 1618.68,-1070.88 1618.68,-1082.88 1618.68,-1082.88 1618.68,-1088.88 1612.68,-1094.88 1606.68,-1094.88"/>
+<text text-anchor="start" x="1054.53" y="-1073.21" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">40: </text>
+<text text-anchor="start" x="1083.78" y="-1073.21" font-family="Roboto, sans-serif" font-size="14.00">Reklamiert der Anfragende eine unplausible ausgerollte Z&#228;hlzeitdefinition?</text>
+</g>
+<!-- 10&#45;&gt;40 -->
+<g id="edge3" class="edge">
+<title>10-&gt;40</title>
+<path fill="none" stroke="#88a0d6" d="M1059.5,-1152.81C1115.51,-1137.26 1198.48,-1114.23 1257.63,-1097.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1258.22,-1101.27 1266.92,-1095.22 1256.35,-1094.53 1258.22,-1101.27"/>
+<text text-anchor="start" x="1183.4" y="-1122.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A01 -->
+<g id="node4" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M356.3,-1000.99C356.3,-1000.99 12.5,-1000.99 12.5,-1000.99 6.5,-1000.99 0.5,-994.99 0.5,-988.99 0.5,-988.99 0.5,-953.71 0.5,-953.71 0.5,-947.71 6.5,-941.71 12.5,-941.71 12.5,-941.71 356.3,-941.71 356.3,-941.71 362.3,-941.71 368.3,-947.71 368.3,-953.71 368.3,-953.71 368.3,-988.99 368.3,-988.99 368.3,-994.99 362.3,-1000.99 356.3,-1000.99"/>
+<text text-anchor="start" x="14.9" y="-980.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="14.9" y="-952.05" font-family="Roboto, sans-serif" font-size="14.00">Code der Z&#228;hlzeitdefinition wird nicht verwendet</text>
+</g>
+<!-- 20&#45;&gt;A01 -->
+<g id="edge4" class="edge">
+<title>20-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M567.53,-1054.3C498.61,-1039.56 406.22,-1019.8 329.43,-1003.37"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="330.21,-999.96 319.7,-1001.29 328.75,-1006.81 330.21,-999.96"/>
+<text text-anchor="start" x="469.4" y="-1023.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 30 -->
+<g id="node5" class="node">
+<title>30</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M938.55,-989.35C938.55,-989.35 398.25,-989.35 398.25,-989.35 392.25,-989.35 386.25,-983.35 386.25,-977.35 386.25,-977.35 386.25,-965.35 386.25,-965.35 386.25,-959.35 392.25,-953.35 398.25,-953.35 398.25,-953.35 938.55,-953.35 938.55,-953.35 944.55,-953.35 950.55,-959.35 950.55,-965.35 950.55,-965.35 950.55,-977.35 950.55,-977.35 950.55,-983.35 944.55,-989.35 938.55,-989.35"/>
+<text text-anchor="start" x="400.65" y="-967.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="429.9" y="-967.67" font-family="Roboto, sans-serif" font-size="14.00">Wurde die ausgerollte Z&#228;hlzeitdefinition an den Anfragenden versendet?</text>
+</g>
+<!-- 20&#45;&gt;30 -->
+<g id="edge5" class="edge">
+<title>20-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M668.4,-1054.43C668.4,-1038.89 668.4,-1017.73 668.4,-1000.78"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="671.9,-1000.85 668.4,-990.85 664.9,-1000.85 671.9,-1000.85"/>
+<text text-anchor="start" x="668.4" y="-1023.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A02 -->
+<g id="node6" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M568.8,-881.46C568.8,-881.46 12,-881.46 12,-881.46 6,-881.46 0,-875.46 0,-869.46 0,-869.46 0,-806.18 0,-806.18 0,-800.18 6,-794.18 12,-794.18 12,-794.18 568.8,-794.18 568.8,-794.18 574.8,-794.18 580.8,-800.18 580.8,-806.18 580.8,-806.18 580.8,-869.46 580.8,-869.46 580.8,-875.46 574.8,-881.46 568.8,-881.46"/>
+<text text-anchor="start" x="14.4" y="-860.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="14.4" y="-832.52" font-family="Roboto, sans-serif" font-size="14.00">Ausgerollte Z&#228;hlzeitdefinition wurde versendet</text>
+<text text-anchor="start" x="14.4" y="-818.52" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es ist als Referenz der Gesch&#228;ftsvorfall zu benennen, mit welchem die</text>
+<text text-anchor="start" x="14.4" y="-804.52" font-family="Roboto, sans-serif" font-size="14.00">ausgerollte Z&#228;hlzeitdefinition &#252;bermittelt wurde</text>
+</g>
+<!-- 30&#45;&gt;A02 -->
+<g id="edge6" class="edge">
+<title>30-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M619.76,-953.42C570.36,-936.23 491.65,-908.85 423.56,-885.16"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="424.76,-881.87 414.16,-881.88 422.46,-888.48 424.76,-881.87"/>
+<text text-anchor="start" x="523.4" y="-911.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 200 -->
+<g id="node32" class="node">
+<title>200</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1951.3,-188.17C1951.3,-188.17 1547.5,-188.17 1547.5,-188.17 1541.5,-188.17 1535.5,-182.17 1535.5,-176.17 1535.5,-176.17 1535.5,-164.17 1535.5,-164.17 1535.5,-158.17 1541.5,-152.17 1547.5,-152.17 1547.5,-152.17 1951.3,-152.17 1951.3,-152.17 1957.3,-152.17 1963.3,-158.17 1963.3,-164.17 1963.3,-164.17 1963.3,-176.17 1963.3,-176.17 1963.3,-182.17 1957.3,-188.17 1951.3,-188.17"/>
+<text text-anchor="start" x="1549.9" y="-166.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">200: </text>
+<text text-anchor="start" x="1588.9" y="-166.5" font-family="Roboto, sans-serif" font-size="14.00">Ist ein zuvor nicht spezifizierter Fehler aufgetreten?</text>
+</g>
+<!-- 30&#45;&gt;200 -->
+<g id="edge7" class="edge">
+<title>30-&gt;200</title>
+<path fill="none" stroke="#88a0d6" d="M659.39,-953.66C650.71,-937.28 637.45,-911.48 627.4,-888.46 608.17,-844.4 628.23,-815.53 589.4,-787.18 556.6,-763.24 264.15,-777.48 224.4,-769.18 181.13,-760.15 167.92,-758.83 131.4,-733.93 75.63,-695.91 53.69,-684.38 29.4,-621.4 -0.89,-542.88 28.24,-506.53 77.4,-438.23"/>
+<path fill="none" stroke="#88a0d6" d="M77.4,-436.23C95.95,-407.7 107.17,-405.86 131.4,-381.96"/>
+<path fill="none" stroke="#88a0d6" d="M131.4,-379.96C190.65,-321.54 456.15,-308.84 473.4,-227.44"/>
+<path fill="none" stroke="#88a0d6" d="M473.4,-225.44C478.35,-199.95 1159.28,-182.71 1524.26,-175.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1524.33,-178.79 1534.25,-175.09 1524.18,-171.79 1524.33,-178.79"/>
+<text text-anchor="start" x="29.4" y="-567.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 50 -->
+<g id="node8" class="node">
+<title>50</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1579.68,-993.99C1579.68,-993.99 1079.12,-993.99 1079.12,-993.99 1073.12,-993.99 1067.12,-987.99 1067.12,-981.99 1067.12,-981.99 1067.12,-960.71 1067.12,-960.71 1067.12,-954.71 1073.12,-948.71 1079.12,-948.71 1079.12,-948.71 1579.68,-948.71 1579.68,-948.71 1585.68,-948.71 1591.68,-954.71 1591.68,-960.71 1591.68,-960.71 1591.68,-981.99 1591.68,-981.99 1591.68,-987.99 1585.68,-993.99 1579.68,-993.99"/>
+<text text-anchor="start" x="1081.53" y="-973.05" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">50: </text>
+<text text-anchor="start" x="1110.78" y="-973.05" font-family="Roboto, sans-serif" font-size="14.00">Wurde mit dem Code der Z&#228;hlzeitdefinition bereits eine ausgerollte</text>
+<text text-anchor="start" x="1081.53" y="-959.05" font-family="Roboto, sans-serif" font-size="14.00">Z&#228;hlzeitdefinition mit einer h&#246;heren Version versendet?</text>
+</g>
+<!-- 40&#45;&gt;50 -->
+<g id="edge8" class="edge">
+<title>40-&gt;50</title>
+<path fill="none" stroke="#88a0d6" d="M1329.4,-1059.25C1329.4,-1044.78 1329.4,-1023.38 1329.4,-1005.44"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1332.9,-1005.49 1329.4,-995.49 1325.9,-1005.49 1332.9,-1005.49"/>
+<text text-anchor="start" x="1329.4" y="-1023.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 70 -->
+<g id="node12" class="node">
+<title>70</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2246.55,-989.35C2246.55,-989.35 1748.25,-989.35 1748.25,-989.35 1742.25,-989.35 1736.25,-983.35 1736.25,-977.35 1736.25,-977.35 1736.25,-965.35 1736.25,-965.35 1736.25,-959.35 1742.25,-953.35 1748.25,-953.35 1748.25,-953.35 2246.55,-953.35 2246.55,-953.35 2252.55,-953.35 2258.55,-959.35 2258.55,-965.35 2258.55,-965.35 2258.55,-977.35 2258.55,-977.35 2258.55,-983.35 2252.55,-989.35 2246.55,-989.35"/>
+<text text-anchor="start" x="1750.65" y="-967.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">70: </text>
+<text text-anchor="start" x="1779.9" y="-967.67" font-family="Roboto, sans-serif" font-size="14.00">Reklamiert der LF das Fehlen der ausgerollten Schaltzeitdefinition?</text>
+</g>
+<!-- 40&#45;&gt;70 -->
+<g id="edge9" class="edge">
+<title>40-&gt;70</title>
+<path fill="none" stroke="#88a0d6" d="M1438.96,-1058.9C1559.32,-1040.25 1752.06,-1010.37 1876.69,-991.06"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1876.94,-994.56 1886.29,-989.57 1875.87,-987.64 1876.94,-994.56"/>
+<text text-anchor="start" x="1683.4" y="-1023.94" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A03 -->
+<g id="node9" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1686.8,-888.46C1686.8,-888.46 1130,-888.46 1130,-888.46 1124,-888.46 1118,-882.46 1118,-876.46 1118,-876.46 1118,-799.18 1118,-799.18 1118,-793.18 1124,-787.18 1130,-787.18 1130,-787.18 1686.8,-787.18 1686.8,-787.18 1692.8,-787.18 1698.8,-793.18 1698.8,-799.18 1698.8,-799.18 1698.8,-876.46 1698.8,-876.46 1698.8,-882.46 1692.8,-888.46 1686.8,-888.46"/>
+<text text-anchor="start" x="1132.4" y="-867.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="1132.4" y="-839.52" font-family="Roboto, sans-serif" font-size="14.00">Es wurde bereits eine ausgerollte Z&#228;hlzeitdefinition f&#252;r den Code der</text>
+<text text-anchor="start" x="1132.4" y="-825.52" font-family="Roboto, sans-serif" font-size="14.00">Z&#228;hlzeitdefinition mit einer h&#246;heren Version versendet</text>
+<text text-anchor="start" x="1132.4" y="-811.52" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es ist als Referenz der Gesch&#228;ftsvorfall zu benennen, mit welchem die</text>
+<text text-anchor="start" x="1132.4" y="-797.52" font-family="Roboto, sans-serif" font-size="14.00">ausgerollte Z&#228;hlzeitdefinition &#252;bermittelt wurde.</text>
+</g>
+<!-- 50&#45;&gt;A03 -->
+<g id="edge10" class="edge">
+<title>50-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M1342.27,-948.92C1350.61,-935.04 1361.91,-916.22 1372.81,-898.07"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1375.7,-900.06 1377.85,-889.68 1369.7,-896.45 1375.7,-900.06"/>
+<text text-anchor="start" x="1366.4" y="-911.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 60 -->
+<g id="node10" class="node">
+<title>60</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1088.3,-855.82C1088.3,-855.82 648.5,-855.82 648.5,-855.82 642.5,-855.82 636.5,-849.82 636.5,-843.82 636.5,-843.82 636.5,-831.82 636.5,-831.82 636.5,-825.82 642.5,-819.82 648.5,-819.82 648.5,-819.82 1088.3,-819.82 1088.3,-819.82 1094.3,-819.82 1100.3,-825.82 1100.3,-831.82 1100.3,-831.82 1100.3,-843.82 1100.3,-843.82 1100.3,-849.82 1094.3,-855.82 1088.3,-855.82"/>
+<text text-anchor="start" x="650.9" y="-834.14" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">60: </text>
+<text text-anchor="start" x="680.15" y="-834.14" font-family="Roboto, sans-serif" font-size="14.00">Ist die versendete ausgerollte Z&#228;hlzeitdefinition plausibel?</text>
+</g>
+<!-- 50&#45;&gt;60 -->
+<g id="edge11" class="edge">
+<title>50-&gt;60</title>
+<path fill="none" stroke="#88a0d6" d="M1253.79,-948.78C1166.43,-923.85 1023.82,-883.16 938.75,-858.89"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="939.94,-855.59 929.36,-856.21 938.01,-862.32 939.94,-855.59"/>
+<text text-anchor="start" x="1153.4" y="-911.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A04 -->
+<g id="node11" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M502.3,-733.93C502.3,-733.93 206.5,-733.93 206.5,-733.93 200.5,-733.93 194.5,-727.93 194.5,-721.93 194.5,-721.93 194.5,-686.65 194.5,-686.65 194.5,-680.65 200.5,-674.65 206.5,-674.65 206.5,-674.65 502.3,-674.65 502.3,-674.65 508.3,-674.65 514.3,-680.65 514.3,-686.65 514.3,-686.65 514.3,-721.93 514.3,-721.93 514.3,-727.93 508.3,-733.93 502.3,-733.93"/>
+<text text-anchor="start" x="208.9" y="-712.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="208.9" y="-684.99" font-family="Roboto, sans-serif" font-size="14.00">Ausgerollte Z&#228;hlzeitdefinition ist plausibel</text>
+</g>
+<!-- 60&#45;&gt;A04 -->
+<g id="edge12" class="edge">
+<title>60-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M801.99,-819.83C720.04,-798.85 579.04,-762.77 477.17,-736.71"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="478.21,-733.36 467.66,-734.27 476.48,-740.14 478.21,-733.36"/>
+<text text-anchor="start" x="595.4" y="-756.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 60&#45;&gt;200 -->
+<g id="edge13" class="edge">
+<title>60-&gt;200</title>
+<path fill="none" stroke="#88a0d6" d="M792.22,-819.85C743.77,-809.46 679.61,-796.42 622.4,-787.18 525.82,-771.58 267.01,-787.88 185.4,-733.93 127.04,-695.35 38.39,-496.3 77.4,-438.23"/>
+<text text-anchor="start" x="68.4" y="-489.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 80 -->
+<g id="node13" class="node">
+<title>80</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2266.05,-860.46C2266.05,-860.46 1728.75,-860.46 1728.75,-860.46 1722.75,-860.46 1716.75,-854.46 1716.75,-848.46 1716.75,-848.46 1716.75,-827.18 1716.75,-827.18 1716.75,-821.18 1722.75,-815.18 1728.75,-815.18 1728.75,-815.18 2266.05,-815.18 2266.05,-815.18 2272.05,-815.18 2278.05,-821.18 2278.05,-827.18 2278.05,-827.18 2278.05,-848.46 2278.05,-848.46 2278.05,-854.46 2272.05,-860.46 2266.05,-860.46"/>
+<text text-anchor="start" x="1731.15" y="-839.52" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">80: </text>
+<text text-anchor="start" x="1760.4" y="-839.52" font-family="Roboto, sans-serif" font-size="14.00">Entspricht der Code der Schaltzeitdefinition einem Code aus der f&#252;r den</text>
+<text text-anchor="start" x="1731.15" y="-825.52" font-family="Roboto, sans-serif" font-size="14.00">reklamierten Zeitraum g&#252;ltigen &#220;bersicht der Schaltzeitdefinitionen?</text>
+</g>
+<!-- 70&#45;&gt;80 -->
+<g id="edge14" class="edge">
+<title>70-&gt;80</title>
+<path fill="none" stroke="#88a0d6" d="M1997.4,-953.42C1997.4,-932.73 1997.4,-897.24 1997.4,-871.23"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2000.9,-871.54 1997.4,-861.54 1993.9,-871.54 2000.9,-871.54"/>
+<text text-anchor="start" x="1997.4" y="-911.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 100 -->
+<g id="node17" class="node">
+<title>100</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2818.55,-855.82C2818.55,-855.82 2308.25,-855.82 2308.25,-855.82 2302.25,-855.82 2296.25,-849.82 2296.25,-843.82 2296.25,-843.82 2296.25,-831.82 2296.25,-831.82 2296.25,-825.82 2302.25,-819.82 2308.25,-819.82 2308.25,-819.82 2818.55,-819.82 2818.55,-819.82 2824.55,-819.82 2830.55,-825.82 2830.55,-831.82 2830.55,-831.82 2830.55,-843.82 2830.55,-843.82 2830.55,-849.82 2824.55,-855.82 2818.55,-855.82"/>
+<text text-anchor="start" x="2310.65" y="-834.14" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">100: </text>
+<text text-anchor="start" x="2349.65" y="-834.14" font-family="Roboto, sans-serif" font-size="14.00">Reklamiert der LF eine unplausible ausgerollte Schaltzeitdefinition?</text>
+</g>
+<!-- 70&#45;&gt;100 -->
+<g id="edge15" class="edge">
+<title>70-&gt;100</title>
+<path fill="none" stroke="#88a0d6" d="M2070.52,-953.36C2175.55,-928.95 2368.6,-884.09 2479.37,-858.35"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2480.06,-861.78 2489.01,-856.11 2478.47,-854.96 2480.06,-861.78"/>
+<text text-anchor="start" x="2263.4" y="-911.41" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A05 -->
+<g id="node14" class="node">
+<title>A05</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1581.3,-733.93C1581.3,-733.93 1225.5,-733.93 1225.5,-733.93 1219.5,-733.93 1213.5,-727.93 1213.5,-721.93 1213.5,-721.93 1213.5,-686.65 1213.5,-686.65 1213.5,-680.65 1219.5,-674.65 1225.5,-674.65 1225.5,-674.65 1581.3,-674.65 1581.3,-674.65 1587.3,-674.65 1593.3,-680.65 1593.3,-686.65 1593.3,-686.65 1593.3,-721.93 1593.3,-721.93 1593.3,-727.93 1587.3,-733.93 1581.3,-733.93"/>
+<text text-anchor="start" x="1227.9" y="-712.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="1227.9" y="-684.99" font-family="Roboto, sans-serif" font-size="14.00">Code der Schaltzeitdefinition wird nicht verwendet</text>
+</g>
+<!-- 80&#45;&gt;A05 -->
+<g id="edge16" class="edge">
+<title>80-&gt;A05</title>
+<path fill="none" stroke="#88a0d6" d="M1899.98,-815.25C1803.08,-793.79 1653.45,-760.66 1543.75,-736.37"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1544.59,-732.97 1534.07,-734.22 1543.08,-739.8 1544.59,-732.97"/>
+<text text-anchor="start" x="1682.4" y="-756.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 90 -->
+<g id="node15" class="node">
+<title>90</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1022.05,-722.29C1022.05,-722.29 544.75,-722.29 544.75,-722.29 538.75,-722.29 532.75,-716.29 532.75,-710.29 532.75,-710.29 532.75,-698.29 532.75,-698.29 532.75,-692.29 538.75,-686.29 544.75,-686.29 544.75,-686.29 1022.05,-686.29 1022.05,-686.29 1028.05,-686.29 1034.05,-692.29 1034.05,-698.29 1034.05,-698.29 1034.05,-710.29 1034.05,-710.29 1034.05,-716.29 1028.05,-722.29 1022.05,-722.29"/>
+<text text-anchor="start" x="547.15" y="-700.62" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">90: </text>
+<text text-anchor="start" x="576.4" y="-700.62" font-family="Roboto, sans-serif" font-size="14.00">Wurde die ausgerollte Schaltzeitdefinition an den LF versendet?</text>
+</g>
+<!-- 80&#45;&gt;90 -->
+<g id="edge17" class="edge">
+<title>80-&gt;90</title>
+<path fill="none" stroke="#88a0d6" d="M1884.1,-815.23C1830.65,-805.61 1765.91,-794.77 1707.4,-787.18 1484.76,-758.31 1230.61,-736.6 1045.28,-722.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1045.75,-719.34 1035.52,-722.09 1045.23,-726.32 1045.75,-719.34"/>
+<text text-anchor="start" x="1556.4" y="-756.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A06 -->
+<g id="node16" class="node">
+<title>A06</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M719.8,-614.4C719.8,-614.4 163,-614.4 163,-614.4 157,-614.4 151,-608.4 151,-602.4 151,-602.4 151,-539.12 151,-539.12 151,-533.12 157,-527.12 163,-527.12 163,-527.12 719.8,-527.12 719.8,-527.12 725.8,-527.12 731.8,-533.12 731.8,-539.12 731.8,-539.12 731.8,-602.4 731.8,-602.4 731.8,-608.4 725.8,-614.4 719.8,-614.4"/>
+<text text-anchor="start" x="165.4" y="-593.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="165.4" y="-565.46" font-family="Roboto, sans-serif" font-size="14.00">Ausgerollte Schaltzeitdefinition wurde versendet</text>
+<text text-anchor="start" x="165.4" y="-551.46" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es ist als Referenz der Gesch&#228;ftsvorfall zu benennen, mit welchem die</text>
+<text text-anchor="start" x="165.4" y="-537.46" font-family="Roboto, sans-serif" font-size="14.00">ausgerollte Schaltzeitdefinition &#252;bermittelt wurde</text>
+</g>
+<!-- 90&#45;&gt;A06 -->
+<g id="edge18" class="edge">
+<title>90-&gt;A06</title>
+<path fill="none" stroke="#88a0d6" d="M739.39,-686.36C694.88,-669.25 624.07,-642.01 562.64,-618.39"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="564.08,-615.19 553.49,-614.87 561.57,-621.73 564.08,-615.19"/>
+<text text-anchor="start" x="652.4" y="-644.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 90&#45;&gt;200 -->
+<g id="edge19" class="edge">
+<title>90-&gt;200</title>
+<path fill="none" stroke="#88a0d6" d="M631.58,-686.32C444.67,-665.08 150.68,-630.38 142.4,-621.4 124.35,-601.82 112.97,-401.19 131.4,-381.96"/>
+<text text-anchor="start" x="123.4" y="-433.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 110 -->
+<g id="node18" class="node">
+<title>110</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2824.55,-726.93C2824.55,-726.93 2302.25,-726.93 2302.25,-726.93 2296.25,-726.93 2290.25,-720.93 2290.25,-714.93 2290.25,-714.93 2290.25,-693.65 2290.25,-693.65 2290.25,-687.65 2296.25,-681.65 2302.25,-681.65 2302.25,-681.65 2824.55,-681.65 2824.55,-681.65 2830.55,-681.65 2836.55,-687.65 2836.55,-693.65 2836.55,-693.65 2836.55,-714.93 2836.55,-714.93 2836.55,-720.93 2830.55,-726.93 2824.55,-726.93"/>
+<text text-anchor="start" x="2304.65" y="-705.99" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">110: </text>
+<text text-anchor="start" x="2343.65" y="-705.99" font-family="Roboto, sans-serif" font-size="14.00">Wurde mit dem Code der Schaltzeitdefinition bereits eine ausgerollte</text>
+<text text-anchor="start" x="2304.65" y="-691.99" font-family="Roboto, sans-serif" font-size="14.00">Schaltzeitdefinition mit einer h&#246;heren Version versendet?</text>
+</g>
+<!-- 100&#45;&gt;110 -->
+<g id="edge20" class="edge">
+<title>100-&gt;110</title>
+<path fill="none" stroke="#88a0d6" d="M2563.4,-819.89C2563.4,-799.2 2563.4,-763.71 2563.4,-737.7"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2566.9,-738.01 2563.4,-728.01 2559.9,-738.01 2566.9,-738.01"/>
+<text text-anchor="start" x="2563.4" y="-756.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 130 -->
+<g id="node22" class="node">
+<title>130</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2179.05,-722.29C2179.05,-722.29 1623.75,-722.29 1623.75,-722.29 1617.75,-722.29 1611.75,-716.29 1611.75,-710.29 1611.75,-710.29 1611.75,-698.29 1611.75,-698.29 1611.75,-692.29 1617.75,-686.29 1623.75,-686.29 1623.75,-686.29 2179.05,-686.29 2179.05,-686.29 2185.05,-686.29 2191.05,-692.29 2191.05,-698.29 2191.05,-698.29 2191.05,-710.29 2191.05,-710.29 2191.05,-716.29 2185.05,-722.29 2179.05,-722.29"/>
+<text text-anchor="start" x="1626.15" y="-700.62" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">130: </text>
+<text text-anchor="start" x="1665.15" y="-700.62" font-family="Roboto, sans-serif" font-size="14.00">Reklamiert der LF das Fehlen der ausgerollten Leistungskurvendefinition?</text>
+</g>
+<!-- 100&#45;&gt;130 -->
+<g id="edge21" class="edge">
+<title>100-&gt;130</title>
+<path fill="none" stroke="#88a0d6" d="M2477.87,-819.83C2354.5,-795.31 2127.26,-750.17 1998,-724.48"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1998.93,-721.1 1988.43,-722.58 1997.56,-727.96 1998.93,-721.1"/>
+<text text-anchor="start" x="2212.4" y="-756.88" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A07 -->
+<g id="node19" class="node">
+<title>A07</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M3058.8,-621.4C3058.8,-621.4 2502,-621.4 2502,-621.4 2496,-621.4 2490,-615.4 2490,-609.4 2490,-609.4 2490,-532.12 2490,-532.12 2490,-526.12 2496,-520.12 2502,-520.12 2502,-520.12 3058.8,-520.12 3058.8,-520.12 3064.8,-520.12 3070.8,-526.12 3070.8,-532.12 3070.8,-532.12 3070.8,-609.4 3070.8,-609.4 3070.8,-615.4 3064.8,-621.4 3058.8,-621.4"/>
+<text text-anchor="start" x="2504.4" y="-600.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A07</text>
+<text text-anchor="start" x="2504.4" y="-572.46" font-family="Roboto, sans-serif" font-size="14.00">Es wurde bereits eine ausgerollte Schaltzeitdefinition f&#252;r den Code der</text>
+<text text-anchor="start" x="2504.4" y="-558.46" font-family="Roboto, sans-serif" font-size="14.00">Schaltzeitdefinition mit einer h&#246;heren Version versendet</text>
+<text text-anchor="start" x="2504.4" y="-544.46" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es ist als Referenz der Gesch&#228;ftsvorfall zu benennen, mit welchem die</text>
+<text text-anchor="start" x="2504.4" y="-530.46" font-family="Roboto, sans-serif" font-size="14.00">ausgerollte Schaltzeitdefinition &#252;bermittelt wurde.</text>
+</g>
+<!-- 110&#45;&gt;A07 -->
+<g id="edge22" class="edge">
+<title>110-&gt;A07</title>
+<path fill="none" stroke="#88a0d6" d="M2598.75,-681.86C2623.24,-667.02 2657.03,-646.54 2688.83,-627.26"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2690.6,-630.29 2697.33,-622.11 2686.97,-624.3 2690.6,-630.29"/>
+<text text-anchor="start" x="2664.4" y="-644.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 120 -->
+<g id="node20" class="node">
+<title>120</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2460.18,-588.76C2460.18,-588.76 1998.62,-588.76 1998.62,-588.76 1992.62,-588.76 1986.62,-582.76 1986.62,-576.76 1986.62,-576.76 1986.62,-564.76 1986.62,-564.76 1986.62,-558.76 1992.62,-552.76 1998.62,-552.76 1998.62,-552.76 2460.18,-552.76 2460.18,-552.76 2466.18,-552.76 2472.18,-558.76 2472.18,-564.76 2472.18,-564.76 2472.18,-576.76 2472.18,-576.76 2472.18,-582.76 2466.18,-588.76 2460.18,-588.76"/>
+<text text-anchor="start" x="2001.03" y="-567.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">120: </text>
+<text text-anchor="start" x="2040.03" y="-567.09" font-family="Roboto, sans-serif" font-size="14.00">Ist die versendete ausgerollte Schaltzeitdefinition plausibel?</text>
+</g>
+<!-- 110&#45;&gt;120 -->
+<g id="edge23" class="edge">
+<title>110-&gt;120</title>
+<path fill="none" stroke="#88a0d6" d="M2508.62,-681.72C2446.16,-657.12 2344.73,-617.18 2282.84,-592.8"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2284.51,-589.7 2273.92,-589.29 2281.94,-596.21 2284.51,-589.7"/>
+<text text-anchor="start" x="2435.4" y="-644.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A08 -->
+<g id="node21" class="node">
+<title>A08</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2294.3,-466.87C2294.3,-466.87 1986.5,-466.87 1986.5,-466.87 1980.5,-466.87 1974.5,-460.87 1974.5,-454.87 1974.5,-454.87 1974.5,-419.59 1974.5,-419.59 1974.5,-413.59 1980.5,-407.59 1986.5,-407.59 1986.5,-407.59 2294.3,-407.59 2294.3,-407.59 2300.3,-407.59 2306.3,-413.59 2306.3,-419.59 2306.3,-419.59 2306.3,-454.87 2306.3,-454.87 2306.3,-460.87 2300.3,-466.87 2294.3,-466.87"/>
+<text text-anchor="start" x="1988.9" y="-445.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A08</text>
+<text text-anchor="start" x="1988.9" y="-417.93" font-family="Roboto, sans-serif" font-size="14.00">Ausgerollte Schaltzeitdefinition ist plausibel</text>
+</g>
+<!-- 120&#45;&gt;A08 -->
+<g id="edge24" class="edge">
+<title>120-&gt;A08</title>
+<path fill="none" stroke="#88a0d6" d="M2217.95,-552.83C2204.92,-533.58 2183.23,-501.52 2166.09,-476.2"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2169.13,-474.44 2160.63,-468.12 2163.33,-478.37 2169.13,-474.44"/>
+<text text-anchor="start" x="2181.4" y="-489.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 120&#45;&gt;200 -->
+<g id="edge25" class="edge">
+<title>120-&gt;200</title>
+<path fill="none" stroke="#88a0d6" d="M2250.08,-553.01C2271.13,-534.5 2302.46,-502.54 2315.4,-466.87 2330.74,-424.6 2347.88,-295.65 2312.4,-253.06 2263.31,-194.13 2047.57,-208.8 1971.4,-199.81 1944.6,-196.65 1916.01,-193.09 1888.57,-189.59"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1889.17,-186.14 1878.8,-188.34 1888.28,-193.08 1889.17,-186.14"/>
+<text text-anchor="start" x="2331.4" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 140 -->
+<g id="node23" class="node">
+<title>140</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1356.55,-593.4C1356.55,-593.4 762.25,-593.4 762.25,-593.4 756.25,-593.4 750.25,-587.4 750.25,-581.4 750.25,-581.4 750.25,-560.12 750.25,-560.12 750.25,-554.12 756.25,-548.12 762.25,-548.12 762.25,-548.12 1356.55,-548.12 1356.55,-548.12 1362.55,-548.12 1368.55,-554.12 1368.55,-560.12 1368.55,-560.12 1368.55,-581.4 1368.55,-581.4 1368.55,-587.4 1362.55,-593.4 1356.55,-593.4"/>
+<text text-anchor="start" x="764.65" y="-572.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">140: </text>
+<text text-anchor="start" x="803.65" y="-572.46" font-family="Roboto, sans-serif" font-size="14.00">Entspricht der Code der Leistungskurvendefinition einem Code aus der f&#252;r den</text>
+<text text-anchor="start" x="764.65" y="-558.46" font-family="Roboto, sans-serif" font-size="14.00">reklamierten Zeitraum g&#252;ltigen &#220;bersicht der Leistungskurvendefinition?</text>
+</g>
+<!-- 130&#45;&gt;140 -->
+<g id="edge26" class="edge">
+<title>130-&gt;140</title>
+<path fill="none" stroke="#88a0d6" d="M1792.62,-686.3C1643.81,-663.05 1376.18,-621.25 1208.7,-595.08"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1209.49,-591.66 1199.07,-593.58 1208.41,-598.58 1209.49,-591.66"/>
+<text text-anchor="start" x="1580.4" y="-644.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 160 -->
+<g id="node27" class="node">
+<title>160</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1956.18,-588.76C1956.18,-588.76 1398.62,-588.76 1398.62,-588.76 1392.62,-588.76 1386.62,-582.76 1386.62,-576.76 1386.62,-576.76 1386.62,-564.76 1386.62,-564.76 1386.62,-558.76 1392.62,-552.76 1398.62,-552.76 1398.62,-552.76 1956.18,-552.76 1956.18,-552.76 1962.18,-552.76 1968.18,-558.76 1968.18,-564.76 1968.18,-564.76 1968.18,-576.76 1968.18,-576.76 1968.18,-582.76 1962.18,-588.76 1956.18,-588.76"/>
+<text text-anchor="start" x="1401.03" y="-567.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">160: </text>
+<text text-anchor="start" x="1440.03" y="-567.09" font-family="Roboto, sans-serif" font-size="14.00">Reklamiert der LF eine unplausible ausgerollte Leistungskurvendefinition?</text>
+</g>
+<!-- 130&#45;&gt;160 -->
+<g id="edge27" class="edge">
+<title>130-&gt;160</title>
+<path fill="none" stroke="#88a0d6" d="M1872.57,-686.36C1832.67,-662.93 1760.5,-620.56 1715.99,-594.42"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1717.82,-591.43 1707.42,-589.39 1714.27,-597.47 1717.82,-591.43"/>
+<text text-anchor="start" x="1815.4" y="-644.35" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A09 -->
+<g id="node24" class="node">
+<title>A09</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1185.92,-466.87C1185.92,-466.87 782.88,-466.87 782.88,-466.87 776.88,-466.87 770.88,-460.87 770.88,-454.87 770.88,-454.87 770.88,-419.59 770.88,-419.59 770.88,-413.59 776.88,-407.59 782.88,-407.59 782.88,-407.59 1185.92,-407.59 1185.92,-407.59 1191.92,-407.59 1197.92,-413.59 1197.92,-419.59 1197.92,-419.59 1197.92,-454.87 1197.92,-454.87 1197.92,-460.87 1191.92,-466.87 1185.92,-466.87"/>
+<text text-anchor="start" x="785.27" y="-445.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A09</text>
+<text text-anchor="start" x="785.27" y="-417.93" font-family="Roboto, sans-serif" font-size="14.00">Code der Leistungskurvendefinition wird nicht verwendet</text>
+</g>
+<!-- 140&#45;&gt;A09 -->
+<g id="edge28" class="edge">
+<title>140-&gt;A09</title>
+<path fill="none" stroke="#88a0d6" d="M1047.18,-548.33C1036.12,-528.93 1019.56,-499.89 1006.22,-476.5"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1009.29,-474.81 1001.29,-467.86 1003.21,-478.28 1009.29,-474.81"/>
+<text text-anchor="start" x="1019.4" y="-489.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 150 -->
+<g id="node25" class="node">
+<title>150</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M740.55,-455.23C740.55,-455.23 206.25,-455.23 206.25,-455.23 200.25,-455.23 194.25,-449.23 194.25,-443.23 194.25,-443.23 194.25,-431.23 194.25,-431.23 194.25,-425.23 200.25,-419.23 206.25,-419.23 206.25,-419.23 740.55,-419.23 740.55,-419.23 746.55,-419.23 752.55,-425.23 752.55,-431.23 752.55,-431.23 752.55,-443.23 752.55,-443.23 752.55,-449.23 746.55,-455.23 740.55,-455.23"/>
+<text text-anchor="start" x="208.65" y="-433.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">150: </text>
+<text text-anchor="start" x="247.65" y="-433.55" font-family="Roboto, sans-serif" font-size="14.00">Wurde die ausgerollte Leistungskurvendefinition an den LF versendet?</text>
+</g>
+<!-- 140&#45;&gt;150 -->
+<g id="edge29" class="edge">
+<title>140-&gt;150</title>
+<path fill="none" stroke="#88a0d6" d="M963.29,-548.19C851.33,-523.06 668,-481.91 560.19,-457.71"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="561.04,-454.31 550.51,-455.54 559.5,-461.14 561.04,-454.31"/>
+<text text-anchor="start" x="748.4" y="-489.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A10 -->
+<g id="node26" class="node">
+<title>A10</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1098.8,-347.34C1098.8,-347.34 542,-347.34 542,-347.34 536,-347.34 530,-341.34 530,-335.34 530,-335.34 530,-272.06 530,-272.06 530,-266.06 536,-260.06 542,-260.06 542,-260.06 1098.8,-260.06 1098.8,-260.06 1104.8,-260.06 1110.8,-266.06 1110.8,-272.06 1110.8,-272.06 1110.8,-335.34 1110.8,-335.34 1110.8,-341.34 1104.8,-347.34 1098.8,-347.34"/>
+<text text-anchor="start" x="544.4" y="-326.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A10</text>
+<text text-anchor="start" x="544.4" y="-298.4" font-family="Roboto, sans-serif" font-size="14.00">Ausgerollte Leistungskurvendefinition wurde versendet</text>
+<text text-anchor="start" x="544.4" y="-284.4" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es ist als Referenz der Gesch&#228;ftsvorfall zu benennen, mit welchem die</text>
+<text text-anchor="start" x="544.4" y="-270.4" font-family="Roboto, sans-serif" font-size="14.00">ausgerollte Leistungskurvendefinition &#252;bermittelt wurde.</text>
+</g>
+<!-- 150&#45;&gt;A10 -->
+<g id="edge30" class="edge">
+<title>150-&gt;A10</title>
+<path fill="none" stroke="#88a0d6" d="M518.05,-419.3C563.22,-402.19 635.06,-374.95 697.39,-351.33"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="698.57,-354.62 706.69,-347.8 696.09,-348.08 698.57,-354.62"/>
+<text text-anchor="start" x="636.4" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 150&#45;&gt;200 -->
+<g id="edge31" class="edge">
+<title>150-&gt;200</title>
+<path fill="none" stroke="#88a0d6" d="M471.09,-419.48C466.65,-383.72 458.62,-297.49 473.4,-227.44"/>
+<text text-anchor="start" x="468.4" y="-300.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 170 -->
+<g id="node28" class="node">
+<title>170</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1944.18,-459.87C1944.18,-459.87 1374.62,-459.87 1374.62,-459.87 1368.62,-459.87 1362.62,-453.87 1362.62,-447.87 1362.62,-447.87 1362.62,-426.59 1362.62,-426.59 1362.62,-420.59 1368.62,-414.59 1374.62,-414.59 1374.62,-414.59 1944.18,-414.59 1944.18,-414.59 1950.18,-414.59 1956.18,-420.59 1956.18,-426.59 1956.18,-426.59 1956.18,-447.87 1956.18,-447.87 1956.18,-453.87 1950.18,-459.87 1944.18,-459.87"/>
+<text text-anchor="start" x="1377.03" y="-438.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">170: </text>
+<text text-anchor="start" x="1416.03" y="-438.93" font-family="Roboto, sans-serif" font-size="14.00">Wurde mit dem Code der Leistungskurvendefinition bereits eine ausgerollte</text>
+<text text-anchor="start" x="1377.03" y="-424.93" font-family="Roboto, sans-serif" font-size="14.00">Leistungskurvendefinition mit einer h&#246;heren Version versendet?</text>
+</g>
+<!-- 160&#45;&gt;170 -->
+<g id="edge32" class="edge">
+<title>160-&gt;170</title>
+<path fill="none" stroke="#88a0d6" d="M1675.08,-552.83C1672.25,-532.14 1667.4,-496.65 1663.84,-470.64"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1667.33,-470.37 1662.51,-460.94 1660.4,-471.32 1667.33,-470.37"/>
+<text text-anchor="start" x="1667.4" y="-489.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 160&#45;&gt;200 -->
+<g id="edge33" class="edge">
+<title>160-&gt;200</title>
+<path fill="none" stroke="#88a0d6" d="M1608.72,-552.83C1541.97,-535.25 1438.5,-504.99 1353.4,-466.87 1263.83,-426.75 1228.33,-427.93 1163.4,-354.34 1130.93,-317.54 1159.9,-280.78 1119.4,-253.06 1089.76,-232.77 465.91,-262.56 473.4,-227.44"/>
+<text text-anchor="start" x="1197.4" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A11 -->
+<g id="node29" class="node">
+<title>A11</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1740.8,-354.34C1740.8,-354.34 1184,-354.34 1184,-354.34 1178,-354.34 1172,-348.34 1172,-342.34 1172,-342.34 1172,-265.06 1172,-265.06 1172,-259.06 1178,-253.06 1184,-253.06 1184,-253.06 1740.8,-253.06 1740.8,-253.06 1746.8,-253.06 1752.8,-259.06 1752.8,-265.06 1752.8,-265.06 1752.8,-342.34 1752.8,-342.34 1752.8,-348.34 1746.8,-354.34 1740.8,-354.34"/>
+<text text-anchor="start" x="1186.4" y="-333.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A11</text>
+<text text-anchor="start" x="1186.4" y="-305.4" font-family="Roboto, sans-serif" font-size="14.00">Es wurde bereits eine ausgerollte Leistungskurvendefinition f&#252;r den Code der</text>
+<text text-anchor="start" x="1186.4" y="-291.4" font-family="Roboto, sans-serif" font-size="14.00">Leistungskurvendefinition mit einer h&#246;heren Version versendet</text>
+<text text-anchor="start" x="1186.4" y="-277.4" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Es ist als Referenz der Gesch&#228;ftsvorfall zu benennen, mit welchem die</text>
+<text text-anchor="start" x="1186.4" y="-263.4" font-family="Roboto, sans-serif" font-size="14.00">ausgerollte Leistungskurvendefinition &#252;bermittelt wurde.</text>
+</g>
+<!-- 170&#45;&gt;A11 -->
+<g id="edge34" class="edge">
+<title>170-&gt;A11</title>
+<path fill="none" stroke="#88a0d6" d="M1627.31,-414.8C1605.17,-400.03 1574.66,-379.65 1545.9,-360.45"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1548.15,-357.75 1537.89,-355.1 1544.27,-363.57 1548.15,-357.75"/>
+<text text-anchor="start" x="1583.4" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 180 -->
+<g id="node30" class="node">
+<title>180</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2291.8,-321.7C2291.8,-321.7 1783,-321.7 1783,-321.7 1777,-321.7 1771,-315.7 1771,-309.7 1771,-309.7 1771,-297.7 1771,-297.7 1771,-291.7 1777,-285.7 1783,-285.7 1783,-285.7 2291.8,-285.7 2291.8,-285.7 2297.8,-285.7 2303.8,-291.7 2303.8,-297.7 2303.8,-297.7 2303.8,-309.7 2303.8,-309.7 2303.8,-315.7 2297.8,-321.7 2291.8,-321.7"/>
+<text text-anchor="start" x="1785.4" y="-300.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">180: </text>
+<text text-anchor="start" x="1824.4" y="-300.02" font-family="Roboto, sans-serif" font-size="14.00">Ist die versendete ausgerollte Leistungskurvendefinition plausibel?</text>
+</g>
+<!-- 170&#45;&gt;180 -->
+<g id="edge35" class="edge">
+<title>170-&gt;180</title>
+<path fill="none" stroke="#88a0d6" d="M1721.4,-414.66C1792.37,-389.96 1907.82,-349.79 1977.79,-325.44"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1978.89,-328.77 1987.18,-322.17 1976.59,-322.16 1978.89,-328.77"/>
+<text text-anchor="start" x="1836.4" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A12 -->
+<g id="node31" class="node">
+<title>A12</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2347.93,-199.81C2347.93,-199.81 1992.88,-199.81 1992.88,-199.81 1986.88,-199.81 1980.88,-193.81 1980.88,-187.81 1980.88,-187.81 1980.88,-152.53 1980.88,-152.53 1980.88,-146.53 1986.88,-140.53 1992.88,-140.53 1992.88,-140.53 2347.93,-140.53 2347.93,-140.53 2353.93,-140.53 2359.93,-146.53 2359.93,-152.53 2359.93,-152.53 2359.93,-187.81 2359.93,-187.81 2359.93,-193.81 2353.93,-199.81 2347.93,-199.81"/>
+<text text-anchor="start" x="1995.28" y="-178.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A12</text>
+<text text-anchor="start" x="1995.28" y="-150.87" font-family="Roboto, sans-serif" font-size="14.00">Ausgerollte Leistungskurvendefinition ist plausibel</text>
+</g>
+<!-- 180&#45;&gt;A12 -->
+<g id="edge36" class="edge">
+<title>180-&gt;A12</title>
+<path fill="none" stroke="#88a0d6" d="M2054.52,-285.77C2074.33,-266.18 2107.55,-233.33 2133.35,-207.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2135.72,-210.39 2140.37,-200.87 2130.79,-205.42 2135.72,-210.39"/>
+<text text-anchor="start" x="2119.4" y="-222.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 180&#45;&gt;200 -->
+<g id="edge37" class="edge">
+<title>180-&gt;200</title>
+<path fill="none" stroke="#88a0d6" d="M2000.34,-285.77C1948.28,-262 1853.5,-218.71 1796.5,-192.68"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1798.25,-189.63 1787.7,-188.66 1795.34,-196 1798.25,-189.63"/>
+<text text-anchor="start" x="1884.4" y="-222.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A99 -->
+<g id="node33" class="node">
+<title>A99</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1749.68,-87.28C1749.68,-87.28 1189.12,-87.28 1189.12,-87.28 1183.12,-87.28 1177.12,-81.28 1177.12,-75.28 1177.12,-75.28 1177.12,-12 1177.12,-12 1177.12,-6 1183.12,0 1189.12,0 1189.12,0 1749.68,0 1749.68,0 1755.68,0 1761.68,-6 1761.68,-12 1761.68,-12 1761.68,-75.28 1761.68,-75.28 1761.68,-81.28 1755.68,-87.28 1749.68,-87.28"/>
+<text text-anchor="start" x="1191.53" y="-66.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A99</text>
+<text text-anchor="start" x="1191.53" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Ablehnung Sonstiges</text>
+<text text-anchor="start" x="1191.53" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.</text>
+<text text-anchor="start" x="1191.53" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Nutzungsm&#246;glichkeit Ende: 01.10.2026 00:00 Uhr</text>
+</g>
+<!-- 200&#45;&gt;A99 -->
+<g id="edge38" class="edge">
+<title>200-&gt;A99</title>
+<path fill="none" stroke="#88a0d6" d="M1711.35,-152.25C1676.52,-136.76 1623.31,-113.09 1575.65,-91.9"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1577.2,-88.75 1566.64,-87.89 1574.36,-95.15 1577.2,-88.75"/>
+<text text-anchor="start" x="1642.4" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- Korrektur der Definition und die erneute &#220;bermittlung durchf&#252;hren. -->
+<g id="node34" class="node">
+<title>Korrektur der Definition und die erneute &#220;bermittlung durchf&#252;hren.</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2264.8,-61.64C2264.8,-61.64 1792,-61.64 1792,-61.64 1786,-61.64 1780,-55.64 1780,-49.64 1780,-49.64 1780,-37.64 1780,-37.64 1780,-31.64 1786,-25.64 1792,-25.64 1792,-25.64 2264.8,-25.64 2264.8,-25.64 2270.8,-25.64 2276.8,-31.64 2276.8,-37.64 2276.8,-37.64 2276.8,-49.64 2276.8,-49.64 2276.8,-55.64 2270.8,-61.64 2264.8,-61.64"/>
+<text text-anchor="start" x="1794.4" y="-38.97" font-family="Roboto, sans-serif" font-size="14.00">Korrektur der Definition und die erneute &#220;bermittlung durchf&#252;hren.</text>
+</g>
+<!-- 200&#45;&gt;Korrektur der Definition und die erneute &#220;bermittlung durchf&#252;hren. -->
+<g id="edge39" class="edge">
+<title>200-&gt;Korrektur der Definition und die erneute &#220;bermittlung durchf&#252;hren.</title>
+<path fill="none" stroke="#88a0d6" d="M1787.32,-152.25C1837.32,-129.93 1925.36,-90.63 1980.09,-66.2"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1981.48,-69.42 1989.18,-62.14 1978.62,-63.02 1981.48,-69.42"/>
+<text text-anchor="start" x="1888.4" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>

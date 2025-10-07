@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "ebd_code": "E_0286",
+    "ebd_name": "E_0286_Messlokationsänderung durchführen",
+    "release_information": null,
+    "remark": null,
+    "role": "MSB",
+    "section": "9.1.3: AD: Messlokationsänderung vom NB an MSB"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist der Zugang zur Lokation für den Monteur, um die Änderung an der Lokation durchzuführen, gegeben?",
+      "step_number": "10",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Gescheitert\nDer Monteur hat keinen Zugang zur Lokation.",
+          "result_code": "A01"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "20"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist für die Ausführung der Bestellung der Aufbau einer neuen Kommunikationsverbindung notwendig?",
+      "step_number": "20",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "30"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Kann die Kommunikationsverbindung hergestellt werden, so dass die Ausführung der Bestellung möglich ist?",
+      "step_number": "30",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Gescheitert\nDie Änderung der Technik an der Lokation ist aufgrund einer fehlenden / mangelhaften Kommunikationsverbindung nicht möglich.",
+          "result_code": "A02"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "40"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Handelt es sich bei der Änderung um eine Bestellung für eine Steuerung?",
+      "step_number": "40",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "50"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist das Mapping der SR/NeLo zu TR umsetzbar?\nHinweis:\nDies ist beispielweise dann nicht möglich, wenn die bestellte Entität zwischen SR/NeLo und TR sich Aufgrund der Vorort vorkommenden Anschlussstation der Steuerung nicht umsetzen lässt. Dies kann z.B. sein, dass eine SR für mehrere TR bestellt wurde, vor Ort sind aber nur digitale Schnittstellen an den TR vorhanden, welche somit nur in einer 1zu1 Beziehung technisch abbildbar sind, oder umgekehrt, dass der NB eine 1zu1 Beziehung der SR zur TR bestellt hat aber vor Ort mehrere TR analog zu einer SR verdrahtet sind. Ebenso kann vorkommen, dass der Kunde ein Home Energy Management System (HEMS) vor Ort hat und keine SR/TR Umsetzung möglich ist, sondern lediglich eine NeLo/TR (bzw. umgekehrt).",
+      "step_number": "50",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Gescheitert\nDie bestellte Zuordnung der genannten TR zur SR/NeLo lässt sich aufgrund der Situation vor Ort nicht realisieren.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "60"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "step_number": "60",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Gescheitert\n\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Stammdatenänderung vom MSB (verantwortlich) ausgehend versenden.\nGgf. Aufbereitung und Übermittlung von Werten vom MSB der Messlokation.",
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}

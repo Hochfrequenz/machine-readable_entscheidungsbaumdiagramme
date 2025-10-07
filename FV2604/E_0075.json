@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "chapter": "MaBiS",
+    "ebd_code": "E_0075",
+    "ebd_name": "E_0075_Datenstatus AAÜZ nach erfolgter BKA vergeben",
+    "release_information": null,
+    "remark": null,
+    "role": "BIKO",
+    "section": "7.64.1: AD: Übermittlung Datenstatus für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) an NB und BKV(LF)"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist die BKA (ohne KBKA) erfolgt?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "note": "Datenstatus „Abgerechnete Daten“ für die höchste Version der AAÜZ mit dem Datenstatus „Abrechnungsdaten“ in diesem Bilanzierungsmonat.",
+          "result_code": "A03"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Datenstatus „Abgerechnete Daten KBKA“ für die höchste Version der AAÜZ mit dem Daten-status „Abrechnungsdaten“, „Abgerechnete Daten“ oder „Abrechnungsdaten KBKA“ in diesem Bilanzierungsmonat.",
+          "result_code": "A06"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
