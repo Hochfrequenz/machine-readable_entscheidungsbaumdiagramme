@@ -379,7 +379,7 @@
       "use_cases": null
     },
     {
-      "description": "Erfolgt die Bilanzierung auf Basis von Viertelstundenwerten? \nHinweis: In viertelstündlicher Auflösung (verpflichtend lt. EEG)",
+      "description": "Liegt an allen Messeinrichtungen, welche für die Energiemengenermittlung der Marktlokation notwendig sind, die Messtechnik für eine viertelstündliche Messung vor?\nHinweis:\nWenn die Konfiguration für eine viertelstündliche Auflösung noch nicht vorhanden ist, so erfolgt diese Konfiguration über den UC „Einrichtung der Konfigurationen aufgrund einer Zuordnung eines LF zu einer Marktlokation bzw. Tranche“, welcher aus diesem UC (Lieferbeginn) aufgerufen wird, sofern das entsprechende Produkt vom LF im SD-Schritt 1 bestellt wurde.",
       "step_number": "250",
       "sub_rows": [
         {
@@ -387,7 +387,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nBilanzierung erfolgt nicht auf Basis von Viertelstundenwerten.",
+          "note": "Cluster: Ablehnung\nEs liegt nicht an allen Messeinrichtungen, welche für die Energiemengenermittlung der Marktlokation notwendig sind, die Messtechnik für eine viertelstündliche Messung vor.",
           "result_code": "A24"
         },
         {

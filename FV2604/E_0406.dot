@@ -187,7 +187,8 @@ Zahlung der Rechnung avisieren und im Zahlungslauf berücksichtigen." [margin="0
     "490" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>490: </B>Fehlt für den Zeitraum der Resultierenden das Leistungsmaximum und die<BR align="left"/>Energiemenge der Marktlokation für den Zeitraum des Jahres vor dem<BR align="left"/>Lieferantenwechsel vom NB?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "AA3_495" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>AA3</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung auf Positionsebene<BR align="left"/>Aufgrund des unterjährigen Lieferantenwechsels fehlt das Leistungsmaximum und<BR align="left"/>die Energiemenge für den Zeitraum des Jahres vor dem Lieferantenwechsel, die<BR align="left"/>der NB hätte senden müssen.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
     "491" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>491: </B>Ist die in der Position angegebene physikalische Leistung &lt; 0?<BR align="left"/>>, fontname="Roboto, sans-serif"];
-    "492" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>492: </B>Entspricht das in der Position angegebene Leistungsmaximum dem Leistungsmaximum<BR align="left"/>des Lieferscheins?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "492" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>492: </B>Ist die in der Position angegebene physikalische Leistung = 0?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "494" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>494: </B>Entspricht das in der Position angegebene Leistungsmaximum dem Leistungsmaximum<BR align="left"/>des Lieferscheins?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "AA8_495" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>AA8</B><BR align="left"/><BR align="left"/><FONT>Cluster: Ablehnung auf Positionsebene<BR align="left"/>Der LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht mit<BR align="left"/>dem Leistungsmaximum des Lieferscheins übereinstimmt.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
     "495" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>495: </B>Ist zur Artikel-ID ein Preis im Preisblatt bekanntgegeben worden?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "500" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>500: </B>Wurde der richtige Preis aus dem Preisblatt zur Artikel-ID in der Rechnung verwendet?<BR align="left"/>>, fontname="Roboto, sans-serif"];
@@ -609,8 +610,10 @@ Zahlung der Rechnung avisieren und im Zahlungslauf berücksichtigen." [label=<<B
     "AA3_495" -> "495" [color="#88a0d6"];
     "491" -> "495" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "491" -> "492" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "492" -> "AA8_495" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "492" -> "495" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "492" -> "599" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "492" -> "494" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "494" -> "AA8_495" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "494" -> "495" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "AA8_495" -> "495" [color="#88a0d6"];
     "495" -> "500" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "495" -> "505" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];

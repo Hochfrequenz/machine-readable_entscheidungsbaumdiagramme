@@ -2508,8 +2508,31 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht das in der Position angegebene Leistungsmaximum dem Leistungsmaximum des Lieferscheins?",
+      "description": "Ist die in der Position angegebene physikalische Leistung = 0?",
       "step_number": "492",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": "599"
+          },
+          "note": "Hinweis: Diese Position ist für die Rechnungsprüfung irrelevant, da sie keine Kosten verursacht. Somit kann sie ungeprüft übersprungen werden",
+          "result_code": null
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": "494"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Entspricht das in der Position angegebene Leistungsmaximum dem Leistungsmaximum des Lieferscheins?",
+      "step_number": "494",
       "sub_rows": [
         {
           "check_result": {
