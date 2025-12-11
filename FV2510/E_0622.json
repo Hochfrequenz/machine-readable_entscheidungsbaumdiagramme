@@ -3,6 +3,7 @@
     "chapter": "GPKE",
     "ebd_code": "E_0622",
     "ebd_name": "E_0622_Prüfen, ob Anmeldung direkt ablehnbar",
+    "release_information": null,
     "remark": null,
     "role": "NB",
     "section": "6.6.1: AD: Lieferbeginn"
@@ -70,6 +71,29 @@
         {
           "check_result": {
             "result": true,
+            "subsequent_step_number": "17"
+          },
+          "note": null,
+          "result_code": null
+        }
+      ],
+      "use_cases": null
+    },
+    {
+      "description": "Ist die „ruhende Marktlokation“ (SG5 LOC+Z22) messtechnisch mittels iMS erfasst? (Messtechnische Einordung der Marktlokation = iMS)",
+      "step_number": "17",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "note": "Cluster: Ablehnung\nDie genannte Marktlokation entspricht nicht den Anforderungen, da messtechnische Einordung nicht iMS.",
+          "result_code": "A36"
+        },
+        {
+          "check_result": {
+            "result": true,
             "subsequent_step_number": "18"
           },
           "note": null,
@@ -108,7 +132,7 @@
         {
           "check_result": {
             "result": true,
-            "subsequent_step_number": "20"
+            "subsequent_step_number": "30"
           },
           "note": "Hinweis: In diesem Fall beabsichtigt der LF eine Neubildung einer Kundenanlage, in der die angegebene Marktlokation integriert werden soll.",
           "result_code": null
@@ -119,52 +143,6 @@
             "subsequent_step_number": "25"
           },
           "note": "Hinweis: In diesem Fall beabsichtigt der LF eine Integration einer Marktlokation in eine bestehende Marktlokation „Abbildung von § 20 Abs. 1d EnWG bzw. § 10c EEG“",
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Handelt es sich bei der zu bildenden Kundenanlage um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?",
-      "step_number": "20",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "22"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "30"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Ist die „ruhende Marktlokation“ (SG5 LOC+Z22) messtechnisch mittels iMS erfasst (Messtechnische Einordung der Marktlokation = iMS)?",
-      "step_number": "22",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": null
-          },
-          "note": "Cluster: Ablehnung\nDie genannte Marktlokation entspricht nicht den Anforderungen, da Messtechnische Einordung nicht iMS.",
-          "result_code": "A47"
-        },
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "30"
-          },
-          "note": null,
           "result_code": null
         }
       ],
@@ -204,52 +182,6 @@
           },
           "note": "Cluster: Ablehnung\nDie zu integrierende Marktlokation befindet sich nicht hinter der /den gleichen Netzlokation(en) liegen, wie die Marktlokation der „Kundenanlage“ („Abbildung von § 20 Abs. 1d EnWG bzw. § 10c EEG“).",
           "result_code": "A37"
-        },
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "27"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Handelt es sich bei der bestehenden Kundenanlage (SG5 LOC+Z16) um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?",
-      "step_number": "27",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": true,
-            "subsequent_step_number": "28"
-          },
-          "note": null,
-          "result_code": null
-        },
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": "30"
-          },
-          "note": null,
-          "result_code": null
-        }
-      ],
-      "use_cases": null
-    },
-    {
-      "description": "Ist die „ruhende Marktlokation“ (SG5 LOC+Z22) messtechnisch mittels iMS erfasst (Messtechnische Einordung der Marktlokation = iMS)?",
-      "step_number": "28",
-      "sub_rows": [
-        {
-          "check_result": {
-            "result": false,
-            "subsequent_step_number": null
-          },
-          "note": "Cluster: Ablehnung\nDie zu integrierende Marktlokation entspricht nicht den Anforderungen, da Messtechnische Einordung nicht iMS.",
-          "result_code": "A46"
         },
         {
           "check_result": {
@@ -378,7 +310,7 @@
       "use_cases": null
     },
     {
-      "description": "Erfolgt die Bilanzierung auf Basis von Viertelstundenwerten? \nHinweis: In viertelstündlicher Auflösung (verpflichtend lt. EEG)",
+      "description": "Liegt an allen Messeinrichtungen, welche für die Energiemengenermittlung der Marktlokation notwendig sind, die Messtechnik für eine viertelstündliche Messung vor?\nHinweis:\nWenn die Konfiguration für eine viertelstündliche Auflösung noch nicht vorhanden ist, so erfolgt diese Konfiguration über den UC „Einrichtung der Konfigurationen aufgrund einer Zuordnung eines LF zu einer Marktlokation bzw. Tranche“, welcher aus diesem UC (Lieferbeginn) aufgerufen wird, sofern das entsprechende Produkt vom LF im SD-Schritt 1 bestellt wurde.",
       "step_number": "250",
       "sub_rows": [
         {
@@ -386,7 +318,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung\nBilanzierung erfolgt nicht auf Basis von Viertelstundenwerten.",
+          "note": "Cluster: Ablehnung\nEs liegt nicht an allen Messeinrichtungen, welche für die Energiemengenermittlung der Marktlokation notwendig sind, die Messtechnik für eine viertelstündliche Messung vor.",
           "result_code": "A24"
         },
         {

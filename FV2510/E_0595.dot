@@ -29,7 +29,6 @@ digraph D {
     "90" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>90: </B>Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw.<BR align="left"/>Jahresverbrauchsprognose?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "100" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>100: </B>Wurde die Vorlauffrist von mindestens 7 WT vor dem Änderungszeitpunkt<BR align="left"/>eingehalten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "A22" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A22</B><BR align="left"/><BR align="left"/><FONT>Cluster: keine Änderung der Daten<BR align="left"/>Die Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose wurde<BR align="left"/>nicht eingehalten.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
-    "105" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>105: </B>Handelt es sich um eine Bestellung Änderung Bilanzkreis?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "110" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>110: </B>Ist der Bilanzkreis zum angegebenen Zeitpunkt in der Regelzone gültig?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "A28" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A28</B><BR align="left"/><BR align="left"/><FONT>Cluster: keine Änderung der Daten<BR align="left"/>Bilanzkreis nicht gültig.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
     "120" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>120: </B>Ist der Bilanzkreis und der erforderliche Zeitreihentyp in der<BR align="left"/>Zuordnungsermächtigung aufgeführt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
@@ -73,9 +72,7 @@ digraph D {
     "90" -> "100" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "90" -> "200" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "100" -> "A22" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "100" -> "105" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "105" -> "110" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "105" -> "200" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "100" -> "110" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "110" -> "120" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "110" -> "A28" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "120" -> "200" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];

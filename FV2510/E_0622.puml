@@ -43,6 +43,15 @@ if (<b>10: </b> Wurde der Anwendungsfall für eine verbrauchende Marktlokation o
         kill;
     endif
     if (<b>16: </b> Ist in dem Anwendungsfall in der Ergänzung zum Transaktionsgrund „Ruhende Marktlokation“ angegeben?) then (ja)
+        if (<b>17: </b> Ist die „ruhende Marktlokation“ (SG5 LOC+Z22&#41; messtechnisch mittels iMS erfasst? (Messtechnische Einordung der Marktlokation = iMS&#41;) then (ja)
+        else (nein)
+            :A36;
+            note left
+                Cluster: Ablehnung
+                Die genannte Marktlokation entspricht nicht den Anforderungen, da messtechnische Einordung nicht iMS.
+            endnote
+            kill;
+        endif
         if (<b>18: </b> Handelt es sich bei der „ruhenden Marktlokation“ (SG5 LOC+Z22&#41; im System des Empfängers um eine verbrauchende Marktlokation?) then (ja)
         else (nein)
             :A09;
@@ -53,61 +62,6 @@ if (<b>10: </b> Wurde der Anwendungsfall für eine verbrauchende Marktlokation o
             kill;
         endif
         if (<b>19: </b> Soll die angegebene Marktlokation zu einer Neubildung einer Kundenanlage führen (Produktcode: 9991000002769, Code der Produkteigenschaft: 9991000002933&#41;?) then (ja)
-            if (<b>20: </b> Handelt es sich bei der zu bildenden Kundenanlage um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?) then (ja)
-                if (<b>22: </b> Ist die „ruhende Marktlokation“ (SG5 LOC+Z22&#41; messtechnisch mittels iMS erfasst (Messtechnische Einordung der Marktlokation = iMS&#41;?) then (ja)
-                else (nein)
-                    :A47;
-                    note left
-                        Cluster: Ablehnung
-                        Die genannte Marktlokation entspricht nicht den Anforderungen, da Messtechnische Einordung nicht iMS.
-                    endnote
-                    kill;
-                endif
-                if (<b>30: </b> Nimmt die Marktlokation zum Anmeldedatum an der Marktkommunikation teil?
-Hinweis: Marktlokationen, die nicht an der Marktkommunikation teilnehmen, sind Marktlokationen, die stillgelegt sind bzw. Marktlokationen, die dem "Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit" zugeordnet sind.) then (ja)
-                else (nein)
-                    :A02;
-                    note left
-                        Cluster: Ablehnung
-                        Marktlokation, die über Marktlokations-ID identifiziert wurde, nimmt nicht an der Marktkommunikation teil.
-                    endnote
-                    kill;
-                endif
-                if (<b>50: </b> Handelt es sich um eine Anmeldung für eine Neuanlage?
-Hinweis: Dies sind Marktlokationen, bei denen der NB den Identifikator schon vergeben hat, deren Inbetriebnahme aber noch in der Zukunft liegt. (somit ein Lieferbeginn noch nicht feststeht&#41;.) then (ja)
-                    :A04;
-                    note left
-                        Cluster: Ablehnung
-                        Falscher Prozess
-                    endnote
-                    kill;
-                else (nein)
-                endif
-                if (<b>60: </b> Sind alle zwingend notwendigen Anforderungen des LF erfüllt?
-Hinweis: 
-Insbesondere die notwendige Zuordnungsermächtigung (Bilanzkreis/Bilanzierungsverfahren&#41; ist vorhanden) then (ja)
-                else (nein)
-                    :A05;
-                    note left
-                        Cluster: Ablehnung
-                        Anforderungen können nicht erfüllt werden
-                        Hinweis: die Abweichungen sind zu benennen
-                    endnote
-                    kill;
-                endif
-                if (<b>70: </b> Liegt für diese Marktlokation bereits eine gerade in Arbeit befindliche und noch nicht beantwortete Anmeldung vor?) then (ja)
-                    :A06;
-                    note left
-                        Cluster: Ablehnung
-                        Andere Anmeldung in Bearbeitung.
-                        Hinweis:
-                        Der Zuordnungsbeginn der derzeit in Bearbeitung befindlichen Anmeldung und der Zeitpunkt, ab welchem der NB wieder Anmeldungen für diese Marktlokation entgegennimmt werden übermittelt.
-                    endnote
-                    kill;
-                else (nein)
-                endif
-            else (nein)
-            endif
         else (nein)
             if (<b>25: </b> Handelt es sich bei der im Anwendungsfall genannten Marktlokation (im SG5 LOC+Z16&#41; um eine Marktlokation „Kundenanlage“ (§ 20 Abs. 1d EnWG bzw. § 10 c EEG&#41;?) then (ja)
             else (nein)
@@ -127,59 +81,47 @@ Insbesondere die notwendige Zuordnungsermächtigung (Bilanzkreis/Bilanzierungsve
                 endnote
                 kill;
             endif
-            if (<b>27: </b> Handelt es sich bei der bestehenden Kundenanlage (SG5 LOC+Z16&#41; um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?) then (ja)
-                if (<b>28: </b> Ist die „ruhende Marktlokation“ (SG5 LOC+Z22&#41; messtechnisch mittels iMS erfasst (Messtechnische Einordung der Marktlokation = iMS&#41;?) then (ja)
-                else (nein)
-                    :A46;
-                    note left
-                        Cluster: Ablehnung
-                        Die zu integrierende Marktlokation entspricht nicht den Anforderungen, da Messtechnische Einordung nicht iMS.
-                    endnote
-                    kill;
-                endif
-                if (<b>30: </b> Nimmt die Marktlokation zum Anmeldedatum an der Marktkommunikation teil?
+            if (<b>30: </b> Nimmt die Marktlokation zum Anmeldedatum an der Marktkommunikation teil?
 Hinweis: Marktlokationen, die nicht an der Marktkommunikation teilnehmen, sind Marktlokationen, die stillgelegt sind bzw. Marktlokationen, die dem "Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit" zugeordnet sind.) then (ja)
-                else (nein)
-                    :A02;
-                    note left
-                        Cluster: Ablehnung
-                        Marktlokation, die über Marktlokations-ID identifiziert wurde, nimmt nicht an der Marktkommunikation teil.
-                    endnote
-                    kill;
-                endif
-                if (<b>50: </b> Handelt es sich um eine Anmeldung für eine Neuanlage?
+            else (nein)
+                :A02;
+                note left
+                    Cluster: Ablehnung
+                    Marktlokation, die über Marktlokations-ID identifiziert wurde, nimmt nicht an der Marktkommunikation teil.
+                endnote
+                kill;
+            endif
+            if (<b>50: </b> Handelt es sich um eine Anmeldung für eine Neuanlage?
 Hinweis: Dies sind Marktlokationen, bei denen der NB den Identifikator schon vergeben hat, deren Inbetriebnahme aber noch in der Zukunft liegt. (somit ein Lieferbeginn noch nicht feststeht&#41;.) then (ja)
-                    :A04;
-                    note left
-                        Cluster: Ablehnung
-                        Falscher Prozess
-                    endnote
-                    kill;
-                else (nein)
-                endif
-                if (<b>60: </b> Sind alle zwingend notwendigen Anforderungen des LF erfüllt?
+                :A04;
+                note left
+                    Cluster: Ablehnung
+                    Falscher Prozess
+                endnote
+                kill;
+            else (nein)
+            endif
+            if (<b>60: </b> Sind alle zwingend notwendigen Anforderungen des LF erfüllt?
 Hinweis: 
 Insbesondere die notwendige Zuordnungsermächtigung (Bilanzkreis/Bilanzierungsverfahren&#41; ist vorhanden) then (ja)
-                else (nein)
-                    :A05;
-                    note left
-                        Cluster: Ablehnung
-                        Anforderungen können nicht erfüllt werden
-                        Hinweis: die Abweichungen sind zu benennen
-                    endnote
-                    kill;
-                endif
-                if (<b>70: </b> Liegt für diese Marktlokation bereits eine gerade in Arbeit befindliche und noch nicht beantwortete Anmeldung vor?) then (ja)
-                    :A06;
-                    note left
-                        Cluster: Ablehnung
-                        Andere Anmeldung in Bearbeitung.
-                        Hinweis:
-                        Der Zuordnungsbeginn der derzeit in Bearbeitung befindlichen Anmeldung und der Zeitpunkt, ab welchem der NB wieder Anmeldungen für diese Marktlokation entgegennimmt werden übermittelt.
-                    endnote
-                    kill;
-                else (nein)
-                endif
+            else (nein)
+                :A05;
+                note left
+                    Cluster: Ablehnung
+                    Anforderungen können nicht erfüllt werden
+                    Hinweis: die Abweichungen sind zu benennen
+                endnote
+                kill;
+            endif
+            if (<b>70: </b> Liegt für diese Marktlokation bereits eine gerade in Arbeit befindliche und noch nicht beantwortete Anmeldung vor?) then (ja)
+                :A06;
+                note left
+                    Cluster: Ablehnung
+                    Andere Anmeldung in Bearbeitung.
+                    Hinweis:
+                    Der Zuordnungsbeginn der derzeit in Bearbeitung befindlichen Anmeldung und der Zeitpunkt, ab welchem der NB wieder Anmeldungen für diese Marktlokation entgegennimmt werden übermittelt.
+                endnote
+                kill;
             else (nein)
             endif
         endif
@@ -239,13 +181,14 @@ Hinweis: Dies sind Marktlokationen, bei denen der NB den Identifikator schon ver
         kill;
     else (nein)
     endif
-    if (<b>250: </b> Erfolgt die Bilanzierung auf Basis von Viertelstundenwerten? 
-Hinweis: In viertelstündlicher Auflösung (verpflichtend lt. EEG&#41;) then (ja)
+    if (<b>250: </b> Liegt an allen Messeinrichtungen, welche für die Energiemengenermittlung der Marktlokation notwendig sind, die Messtechnik für eine viertelstündliche Messung vor?
+Hinweis:
+Wenn die Konfiguration für eine viertelstündliche Auflösung noch nicht vorhanden ist, so erfolgt diese Konfiguration über den UC „Einrichtung der Konfigurationen aufgrund einer Zuordnung eines LF zu einer Marktlokation bzw. Tranche“, welcher aus diesem UC (Lieferbeginn&#41; aufgerufen wird, sofern das entsprechende Produkt vom LF im SD-Schritt 1 bestellt wurde.) then (ja)
     else (nein)
         :A24;
         note left
             Cluster: Ablehnung
-            Bilanzierung erfolgt nicht auf Basis von Viertelstundenwerten.
+            Es liegt nicht an allen Messeinrichtungen, welche für die Energiemengenermittlung der Marktlokation notwendig sind, die Messtechnik für eine viertelstündliche Messung vor.
         endnote
         kill;
     endif

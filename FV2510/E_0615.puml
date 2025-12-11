@@ -50,13 +50,13 @@ if (<b>40: </b> Wurde der angefragte Geschäftsvorfall dem Anfragenden bereits z
     kill;
 else (nein)
 endif
-if (<b>50: </b> Besteht eine gesetzliche oder vertragliche Pflicht zur Grund- oder Ersatzversorgung bzw. zur Ersatzbelieferung?) then (ja)
+if (<b>50: </b> Besteht eine gesetzliche oder vertragliche Pflicht zur Grund-oder Ersatzversorgung bzw. zur Ersatzbelieferung?) then (ja)
 else (nein)
     :A05;
     note left
         Cluster: Ablehnung 
-        kein Grund-/Ersatzversorgungsfall bzw. Ersatzbelieferung
-        Der Absender lehnt die weitere Bearbeitung der Transaktion ab, da es sich um keinen Ersatzversorgungsfall handelt und daher die Fristen und Prozessschritte der normalen Regelprozesse eingehalten werden müssen
+        kein Grund-/Ersatzversorgungsfall bzw. Ersatzbe-lieferung
+        Der Absender lehnt die weitere Bearbeitung der Transaktion ab, da es sich um keinen Ersatzver-sorgungsfall handelt und daher die Fristen und Prozessschritte der normalen Regelprozesse ein-gehalten werden müssen.
     endnote
     kill;
 endif
