@@ -239,13 +239,14 @@ Hinweis: Dies sind Marktlokationen, bei denen der NB den Identifikator schon ver
         kill;
     else (nein)
     endif
-    if (<b>250: </b> Erfolgt die Bilanzierung auf Basis von Viertelstundenwerten? 
-Hinweis: In viertelstündlicher Auflösung (verpflichtend lt. EEG&#41;) then (ja)
+    if (<b>250: </b> Liegt an allen Messeinrichtungen, welche für die Energiemengenermittlung der Marktlokation notwendig sind, die Messtechnik für eine viertelstündliche Messung vor?
+Hinweis:
+Wenn die Konfiguration für eine viertelstündliche Auflösung noch nicht vorhanden ist, so erfolgt diese Konfiguration über den UC „Einrichtung der Konfigurationen aufgrund einer Zuordnung eines LF zu einer Marktlokation bzw. Tranche“, welcher aus diesem UC (Lieferbeginn&#41; aufgerufen wird, sofern das entsprechende Produkt vom LF im SD-Schritt 1 bestellt wurde.) then (ja)
     else (nein)
         :A24;
         note left
             Cluster: Ablehnung
-            Bilanzierung erfolgt nicht auf Basis von Viertelstundenwerten.
+            Es liegt nicht an allen Messeinrichtungen, welche für die Energiemengenermittlung der Marktlokation notwendig sind, die Messtechnik für eine viertelstündliche Messung vor.
         endnote
         kill;
     endif

@@ -254,7 +254,7 @@
       "use_cases": null
     },
     {
-      "description": "Wurde in der Rechnungsposition die Artikel-ID aus der bestätigten Bestellung verwendet?",
+      "description": "Wurde in der Rechnungsposition die Artikel-ID aus der bestätigten Bestellung oder die Artikel-ID für das Scheitern (Artikel-ID 9991000003030-01) verwendet?",
       "step_number": "300",
       "sub_rows": [
         {
@@ -262,7 +262,7 @@
             "result": false,
             "subsequent_step_number": "440"
           },
-          "note": "Cluster: Ablehnung auf Positionsebene\n\nEs wurde in der Rechnungsposition nicht die Artikel-ID aus der Bestellung verwendet.",
+          "note": "Cluster: Ablehnung auf Positionsebene\nEs wurde in der Rechnungsposition weder eine Artikel-ID aus der Bestellung verwendet noch die für das Scheitern (Artikel-ID 9991000003030-01).",
           "result_code": "A09"
         },
         {

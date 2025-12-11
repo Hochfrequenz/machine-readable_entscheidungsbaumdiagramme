@@ -57,7 +57,7 @@
       "use_cases": null
     },
     {
-      "description": "Besteht eine gesetzliche oder vertragliche Pflicht zur Grund- oder Ersatzversorgung bzw. zur Ersatzbelieferung?",
+      "description": "Besteht eine gesetzliche Pflicht zur Grund- oder Ersatzversorgung, oder eine vertragliche Pflicht zur Ersatzbelieferung bzw. Übergangsversorgung?",
       "step_number": "50",
       "sub_rows": [
         {
@@ -65,7 +65,7 @@
             "result": false,
             "subsequent_step_number": null
           },
-          "note": "Cluster: Ablehnung \nkein Grund-/Ersatzversorgungsfall bzw. Ersatzbelieferung\nDer Absender lehnt die weitere Bearbeitung der Transaktion ab, da es sich um keinen Ersatzversorgungsfall handelt und daher die Fristen und Prozessschritte der normalen Regelprozesse eingehalten werden müssen",
+          "note": "Cluster: Ablehnung \nkein Grund-/Ersatzversorgungsfall bzw. kein Ersatzbelieferungsfall bzw. kein Übergangsversorgungsfall.",
           "result_code": "A05"
         },
         {
