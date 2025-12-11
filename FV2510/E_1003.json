@@ -3,6 +3,7 @@
     "chapter": "Sperrprozesse Gas",
     "ebd_code": "E_1003",
     "ebd_name": "E_1003_Prüfen, ob Sperrauftrag erfolgreich (Basiert auf Strom EBD: E_0472_Prüfen, ob Sperrauftrag erfolgreich)",
+    "release_information": null,
     "remark": null,
     "role": "NB",
     "section": "18.2.4: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF"
@@ -125,7 +126,7 @@
       "use_cases": null
     },
     {
-      "description": "War eine Sperrung aus einem tatsächlichen Grund nicht möglich?\nUnter tatsächliche Gründe fallen z. B.:\nMarktlokation vor Ort nicht identifizierbar\nZugang zur Marktlokation nicht möglich\nKundenwechsel an der Marktlokation festgestellt\nLieferantenwechsel an der Marktlokation festgestellt und Zuordnungsbeginn des LFN liegt vor dem frühestmöglichen Sperrtermin des LFA.",
+      "description": "War eine Sperrung aus einem tatsächlichen Grund nicht möglich?\nUnter tatsächliche Gründe fallen z. B.:\nMarktlokation vor Ort nicht identifizierbar\nZugang zur Marktlokation nicht möglich\nKundenwechsel an der Marktlokation festgestellt",
       "step_number": "60",
       "sub_rows": [
         {

@@ -3,6 +3,7 @@
     "chapter": "GPKE",
     "ebd_code": "E_0574",
     "ebd_name": "E_0574_Stammdaten zur Bilanzkreistreue prüfen",
+    "release_information": null,
     "remark": null,
     "role": "ÜNB",
     "section": "6.54.1: AD: Stammdaten zur Bilanzkreistreue"
@@ -176,7 +177,7 @@
       "use_cases": null
     },
     {
-      "description": "Entspricht der Zeitreihentyp (ZRT) den gültigen ZRT zur Bilanzkreistreue beim ÜNB?",
+      "description": "Passt die Prognosegrundlage zum ZRT?",
       "step_number": "90",
       "sub_rows": [
         {
@@ -184,7 +185,7 @@
             "result": false,
             "subsequent_step_number": "100"
           },
-          "note": "ZRT nicht passend.",
+          "note": "Prognosegrundlage passt nicht zum ZRT.",
           "result_code": "A16"
         },
         {

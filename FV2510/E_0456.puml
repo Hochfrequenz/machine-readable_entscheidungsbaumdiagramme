@@ -69,7 +69,7 @@ if (<b>4: </b> Handelt es sich um einen Lieferschein vom Typ „Grund-/ Arbeitsp
         kill;
     else (nein)
     endif
-    if (<b>6: </b> Handelt es sich um eine Marktlokation mit der Messtechnischen Einordnung „keine Messung“ (pauschale Marktlokation&#41;?) then (ja)
+    if (<b>6: </b> Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „keine Messung“ (pauschale Marktlokation&#41;?) then (ja)
         if (<b>7: </b> Entspricht die im Lieferschein übermittelte Energiemenge der Energiemenge, welche sich aus der zuvor für den Zeitraum ausgetauschten Jahresverbrauchsprognose ergibt?) then (ja)
         else (nein)
             :A06;
@@ -160,7 +160,7 @@ Hinweis: Sollten die Lastgänge an der Marktlokation vom MSB für den korrespond
                 kill;
             endif
         else (nein)
-            if (<b>19: </b> Handelt es sich um eine Marktlokation mit der Messtechnischen Einordnung „iMS“?) then (ja)
+            if (<b>19: </b> Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“?) then (ja)
                 if (<b>20: </b> Entspricht das im Lieferschein übermittelte Leistungsmaximum dem Leistungsmaximum, das zuvor vom MSB über-mittelt wurde oder dem Leistungsmaximum, welches bei einem unterjährigen Lieferantenwechsel vom NB an den LF übermittelt wurde?) then (ja)
                 else (nein)
                     :A14;

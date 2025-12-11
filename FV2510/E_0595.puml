@@ -141,44 +141,41 @@ Hinweis: Wenn der Marktlokation zum Zeitpunkt der bestellten Änderung die Sonde
                     endnote
                     kill;
                 endif
-                if (<b>105: </b> Handelt es sich um eine Bestellung Änderung Bilanzkreis?) then (ja)
-                    if (<b>110: </b> Ist der Bilanzkreis zum angegebenen Zeitpunkt in der Regelzone gültig?) then (ja)
-                    else (nein)
-                        :A28;
-                        note left
-                            Cluster: keine Änderung der Daten
-                            Bilanzkreis nicht gültig.
-                        endnote
-                        kill;
-                    endif
-                    if (<b>120: </b> Ist der Bilanzkreis und der erforderliche Zeitreihentyp in der Zuordnungsermächtigung aufgeführt?) then (ja)
-                    else (nein)
-                        :A29;
-                        note left
-                            Cluster: keine Änderung der Daten
-                            Bilanzkreis und der erforderliche Zeitreihentyp ist in der Zuordnungsermächtigung nicht aufgeführt.
-                        endnote
-                        kill;
-                    endif
-                    if (<b>200: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
-                        :A20;
-                        note left
-                            Cluster: Änderung der Daten
-                            Der Bestellung der Stammdaten konnte zugestimmt werden.
-                            Hinweis: NB versendet neue Stammdaten
-                        endnote
-                        kill;
-                    else (nein)
-                        :A99;
-                        note left
-                            Cluster: keine Änderung der Daten
-                            Der Bestellung der Stammdaten konnte nicht zugestimmt werden.
-                            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                            Nutzungsmöglichkeit Ende: offen
-                        endnote
-                        kill;
-                    endif
+                if (<b>110: </b> Ist der Bilanzkreis zum angegebenen Zeitpunkt in der Regelzone gültig?) then (ja)
                 else (nein)
+                    :A28;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        Bilanzkreis nicht gültig.
+                    endnote
+                    kill;
+                endif
+                if (<b>120: </b> Ist der Bilanzkreis und der erforderliche Zeitreihentyp in der Zuordnungsermächtigung aufgeführt?) then (ja)
+                else (nein)
+                    :A29;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        Bilanzkreis und der erforderliche Zeitreihentyp ist in der Zuordnungsermächtigung nicht aufgeführt.
+                    endnote
+                    kill;
+                endif
+                if (<b>200: </b> Konnte die Bestellung umgesetzt werden?) then (ja)
+                    :A20;
+                    note left
+                        Cluster: Änderung der Daten
+                        Der Bestellung der Stammdaten konnte zugestimmt werden.
+                        Hinweis: NB versendet neue Stammdaten
+                    endnote
+                    kill;
+                else (nein)
+                    :A99;
+                    note left
+                        Cluster: keine Änderung der Daten
+                        Der Bestellung der Stammdaten konnte nicht zugestimmt werden.
+                        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
+                        Nutzungsmöglichkeit Ende: offen
+                    endnote
+                    kill;
                 endif
             else (nein)
             endif
