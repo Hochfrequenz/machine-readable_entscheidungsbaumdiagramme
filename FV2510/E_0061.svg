@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1805.3333333333333px" viewBox="0 0 1805.3333333333333 869.3333333333334" height="869.3333333333334px">
+  <g>
+    <svg version="1.1" width="1805.3333333333333px" viewBox="0 0 1805.3333333333333 869.3333333333334" height="869.3333333333334px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1805.3333333333333" height="869.3333333333334" rx="20" ry="20"/><g>
+    <g transform="translate(548.1519947432647, 86.93333333333332) scale(1 1) translate(0, 0) scale(1.2240683375574957 1.2240683375574957) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1354pt" height="652pt" viewBox="0.00 0.00 1354.18 651.87">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 633.87)">
+<title>D</title>
+<text text-anchor="start" x="239.09" y="-595.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">MaBiS</text>
+<text text-anchor="start" x="239.09" y="-567.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">7.51.3: AD: &#220;bermittlung Datenstatus des Deltazeitreihen&#252;bertrags vom BIKO an &#220;NB und NB</text>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M588.05,-525.87C588.05,-525.87 435.5,-525.87 435.5,-525.87 429.5,-525.87 423.5,-519.87 423.5,-513.87 423.5,-513.87 423.5,-492.59 423.5,-492.59 423.5,-486.59 429.5,-480.59 435.5,-480.59 435.5,-480.59 588.05,-480.59 588.05,-480.59 594.05,-480.59 600.05,-486.59 600.05,-492.59 600.05,-492.59 600.05,-513.87 600.05,-513.87 600.05,-519.87 594.05,-525.87 588.05,-525.87"/>
+<text text-anchor="start" x="437.9" y="-504.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0061</text>
+<text text-anchor="start" x="437.9" y="-490.93" font-family="Roboto, sans-serif" font-size="14.00">Pr&#252;fende Rolle: </text>
+<text text-anchor="start" x="547.4" y="-490.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">BIKO</text>
+</g>
+<!-- 1 -->
+<g id="node2" class="node">
+<title>1</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M677.67,-443.59C677.67,-443.59 345.88,-443.59 345.88,-443.59 339.88,-443.59 333.88,-437.59 333.88,-431.59 333.88,-431.59 333.88,-419.59 333.88,-419.59 333.88,-413.59 339.88,-407.59 345.88,-407.59 345.88,-407.59 677.67,-407.59 677.67,-407.59 683.67,-407.59 689.67,-413.59 689.67,-419.59 689.67,-419.59 689.67,-431.59 689.67,-431.59 689.67,-437.59 683.67,-443.59 677.67,-443.59"/>
+<text text-anchor="start" x="348.27" y="-421.91" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">1: </text>
+<text text-anchor="start" x="367.77" y="-421.91" font-family="Roboto, sans-serif" font-size="14.00">Ist die eingegangene Pr&#252;fmitteilung positiv?</text>
+</g>
+<!-- Start&#45;&gt;1 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;1</title>
+<path fill="none" stroke="#88a0d6" d="M511.77,-480.76C511.77,-472.68 511.77,-463.38 511.77,-454.78"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="515.28,-454.82 511.78,-444.82 508.28,-454.82 515.28,-454.82"/>
+</g>
+<!-- A**: Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:
+A01	Datenstatus &#8222;Abrechnungsdaten&#8220;
+A02	Datenstatus &#8222;Pr&#252;fdaten&#8220;
+A04	Datenstatus &#8222;Abrechnungsdaten KBKA&#8220; -->
+<g id="node3" class="node">
+<title>A**: Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:
+A01	Datenstatus &#8222;Abrechnungsdaten&#8220;
+A02	Datenstatus &#8222;Pr&#252;fdaten&#8220;
+A04	Datenstatus &#8222;Abrechnungsdaten KBKA&#8220;</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M701.55,-354.34C701.55,-354.34 30,-354.34 30,-354.34 24,-354.34 18,-348.34 18,-342.34 18,-342.34 18,-265.06 18,-265.06 18,-259.06 24,-253.06 30,-253.06 30,-253.06 701.55,-253.06 701.55,-253.06 707.55,-253.06 713.55,-259.06 713.55,-265.06 713.55,-265.06 713.55,-342.34 713.55,-342.34 713.55,-348.34 707.55,-354.34 701.55,-354.34"/>
+<text text-anchor="start" x="32.4" y="-333.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A**</text>
+<text text-anchor="start" x="32.4" y="-305.4" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:</text>
+<text text-anchor="start" x="32.4" y="-291.4" font-family="Roboto, sans-serif" font-size="14.00">A01Datenstatus &#8222;Abrechnungsdaten&#8220;</text>
+<text text-anchor="start" x="32.4" y="-277.4" font-family="Roboto, sans-serif" font-size="14.00">A02Datenstatus &#8222;Pr&#252;fdaten&#8220;</text>
+<text text-anchor="start" x="32.4" y="-263.4" font-family="Roboto, sans-serif" font-size="14.00">A04Datenstatus &#8222;Abrechnungsdaten KBKA&#8220;</text>
+</g>
+<!-- 1&#45;&gt;A**: Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:
+A01	Datenstatus &#8222;Abrechnungsdaten&#8220;
+A02	Datenstatus &#8222;Pr&#252;fdaten&#8220;
+A04	Datenstatus &#8222;Abrechnungsdaten KBKA&#8220; -->
+<g id="edge2" class="edge">
+<title>1-&gt;A**: Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:
+A01	Datenstatus &#8222;Abrechnungsdaten&#8220;
+A02	Datenstatus &#8222;Pr&#252;fdaten&#8220;
+A04	Datenstatus &#8222;Abrechnungsdaten KBKA&#8220;</title>
+<path fill="none" stroke="#88a0d6" d="M491.17,-407.67C476.31,-395.47 455.34,-378.24 434.78,-361.37"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="437.14,-358.77 427.19,-355.13 432.7,-364.18 437.14,-358.77"/>
+<text text-anchor="start" x="467.77" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 2 -->
+<g id="node4" class="node">
+<title>2</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1037.92,-321.7C1037.92,-321.7 743.62,-321.7 743.62,-321.7 737.62,-321.7 731.62,-315.7 731.62,-309.7 731.62,-309.7 731.62,-297.7 731.62,-297.7 731.62,-291.7 737.62,-285.7 743.62,-285.7 743.62,-285.7 1037.92,-285.7 1037.92,-285.7 1043.92,-285.7 1049.92,-291.7 1049.92,-297.7 1049.92,-297.7 1049.92,-309.7 1049.92,-309.7 1049.92,-315.7 1043.92,-321.7 1037.92,-321.7"/>
+<text text-anchor="start" x="746.02" y="-300.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">2: </text>
+<text text-anchor="start" x="765.52" y="-300.02" font-family="Roboto, sans-serif" font-size="14.00">Liegt der Datenstatus &#8222;Pr&#252;fdaten&#8220; vor?</text>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g id="edge3" class="edge">
+<title>1-&gt;2</title>
+<path fill="none" stroke="#88a0d6" d="M565.27,-407.67C633.88,-385.96 752.76,-348.36 826.29,-325.1"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="827.32,-328.44 835.8,-322.09 825.21,-321.77 827.32,-328.44"/>
+<text text-anchor="start" x="666.77" y="-377.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A**: Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:
+A01	Datenstatus &#8222;Abrechnungsdaten&#8220;
+A04	Datenstatus &#8222;Abrechnungsdaten KBKA&#8220; -->
+<g id="node5" class="node">
+<title>A**: Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:
+A01	Datenstatus &#8222;Abrechnungsdaten&#8220;
+A04	Datenstatus &#8222;Abrechnungsdaten KBKA&#8220;</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M683.55,-199.81C683.55,-199.81 12,-199.81 12,-199.81 6,-199.81 0,-193.81 0,-187.81 0,-187.81 0,-124.53 0,-124.53 0,-118.53 6,-112.53 12,-112.53 12,-112.53 683.55,-112.53 683.55,-112.53 689.55,-112.53 695.55,-118.53 695.55,-124.53 695.55,-124.53 695.55,-187.81 695.55,-187.81 695.55,-193.81 689.55,-199.81 683.55,-199.81"/>
+<text text-anchor="start" x="14.4" y="-178.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A**</text>
+<text text-anchor="start" x="14.4" y="-150.87" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:</text>
+<text text-anchor="start" x="14.4" y="-136.87" font-family="Roboto, sans-serif" font-size="14.00">A01Datenstatus &#8222;Abrechnungsdaten&#8220;</text>
+<text text-anchor="start" x="14.4" y="-122.87" font-family="Roboto, sans-serif" font-size="14.00">A04Datenstatus &#8222;Abrechnungsdaten KBKA&#8220;</text>
+</g>
+<!-- 2&#45;&gt;A**: Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:
+A01	Datenstatus &#8222;Abrechnungsdaten&#8220;
+A04	Datenstatus &#8222;Abrechnungsdaten KBKA&#8220; -->
+<g id="edge4" class="edge">
+<title>2-&gt;A**: Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. M&#246;gliche Codes sind:
+A01	Datenstatus &#8222;Abrechnungsdaten&#8220;
+A04	Datenstatus &#8222;Abrechnungsdaten KBKA&#8220;</title>
+<path fill="none" stroke="#88a0d6" d="M835.3,-285.75C802.63,-275.91 760.45,-263.44 722.77,-253.06 660.44,-235.89 591.98,-218.08 530.81,-202.53"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="531.9,-199.2 521.35,-200.13 530.18,-205.98 531.9,-199.2"/>
+<text text-anchor="start" x="650.77" y="-222.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 3 -->
+<g id="node6" class="node">
+<title>3</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1306.17,-178.81C1306.17,-178.81 725.38,-178.81 725.38,-178.81 719.38,-178.81 713.38,-172.81 713.38,-166.81 713.38,-166.81 713.38,-145.53 713.38,-145.53 713.38,-139.53 719.38,-133.53 725.38,-133.53 725.38,-133.53 1306.17,-133.53 1306.17,-133.53 1312.17,-133.53 1318.17,-139.53 1318.17,-145.53 1318.17,-145.53 1318.17,-166.81 1318.17,-166.81 1318.17,-172.81 1312.17,-178.81 1306.17,-178.81"/>
+<text text-anchor="start" x="727.77" y="-157.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">3: </text>
+<text text-anchor="start" x="747.27" y="-157.87" font-family="Roboto, sans-serif" font-size="14.00">Erfolgt der Eingang der Pr&#252;fmitteilung innerhalb der Clearingphase f&#252;r DZ&#220; der</text>
+<text text-anchor="start" x="727.77" y="-143.87" font-family="Roboto, sans-serif" font-size="14.00">BKA (ohne KBKA)?</text>
+</g>
+<!-- 2&#45;&gt;3 -->
+<g id="edge5" class="edge">
+<title>2-&gt;3</title>
+<path fill="none" stroke="#88a0d6" d="M905.36,-285.72C926.11,-261.56 964.47,-216.9 990.06,-187.11"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="992.39,-189.77 996.25,-179.91 987.08,-185.21 992.39,-189.77"/>
+<text text-anchor="start" x="959.77" y="-222.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A01 -->
+<g id="node7" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M935.17,-59.28C935.17,-59.28 696.38,-59.28 696.38,-59.28 690.38,-59.28 684.38,-53.28 684.38,-47.28 684.38,-47.28 684.38,-12 684.38,-12 684.38,-6 690.38,0 696.38,0 696.38,0 935.17,0 935.17,0 941.17,0 947.17,-6 947.17,-12 947.17,-12 947.17,-47.28 947.17,-47.28 947.17,-53.28 941.17,-59.28 935.17,-59.28"/>
+<text text-anchor="start" x="698.77" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="698.77" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Datenstatus &#8222;Abrechnungsdaten&#8220;</text>
+</g>
+<!-- 3&#45;&gt;A01 -->
+<g id="edge6" class="edge">
+<title>3-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M981.39,-133.76C951.18,-114.95 906.65,-87.22 871.37,-65.25"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="873.31,-62.34 862.97,-60.02 869.61,-68.28 873.31,-62.34"/>
+<text text-anchor="start" x="915.77" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A04 -->
+<g id="node8" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1256.8,-59.28C1256.8,-59.28 976.75,-59.28 976.75,-59.28 970.75,-59.28 964.75,-53.28 964.75,-47.28 964.75,-47.28 964.75,-12 964.75,-12 964.75,-6 970.75,0 976.75,0 976.75,0 1256.8,0 1256.8,0 1262.8,0 1268.8,-6 1268.8,-12 1268.8,-12 1268.8,-47.28 1268.8,-47.28 1268.8,-53.28 1262.8,-59.28 1256.8,-59.28"/>
+<text text-anchor="start" x="979.15" y="-38.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="979.15" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Datenstatus &#8222;Abrechnungsdaten KBKA&#8220;</text>
+</g>
+<!-- 3&#45;&gt;A04 -->
+<g id="edge7" class="edge">
+<title>3-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M1033.14,-133.76C1047.75,-115.75 1068.98,-89.57 1086.39,-68.1"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1089.06,-70.37 1092.64,-60.4 1083.62,-65.96 1089.06,-70.37"/>
+<text text-anchor="start" x="1077.78" y="-82.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+</svg>
