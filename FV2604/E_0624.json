@@ -21,6 +21,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFristüberschreitung",
           "result_code": "A43"
         },
@@ -29,6 +30,7 @@
             "result": true,
             "subsequent_step_number": "10"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": "200"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": true,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -75,6 +80,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie Belieferung wurde zu dem angefragten Ter-min aus der Anfrage zur Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde.",
           "result_code": "A30"
         },
@@ -98,6 +105,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nZustimmung der Anfrage zur Beendigung der Zuordnung zum in der bereits versendeten Abmeldung (welche noch nicht beantwortet wurde) genannten Termin.",
           "result_code": "A31"
         }
@@ -113,6 +121,7 @@
             "result": false,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -121,6 +130,7 @@
             "result": true,
             "subsequent_step_number": "50"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -136,6 +146,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nEs handelt sich nicht um einen Einzug, da der Kunde aus der Anfrage zur Beendigung der Zuordnung identisch mit dem Kunden beim LFA ist.",
           "result_code": "A32"
         },
@@ -144,6 +155,7 @@
             "result": false,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -159,6 +171,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDer LFA hat die Information, dass der Kunde nicht ausgezogen ist.",
           "result_code": "A33"
         },
@@ -167,6 +180,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung \nDer LFA beendet die Belieferung und teilt sein Lieferendedatum in der Antwort mit.",
           "result_code": "A34"
         }
@@ -182,6 +196,7 @@
             "result": false,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -190,6 +205,7 @@
             "result": true,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -205,6 +221,7 @@
             "result": false,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -213,6 +230,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nErsatzversorgung wurde zum angefragten Termin beendet.",
           "result_code": "A38"
         }
@@ -228,6 +246,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nEs besteht eine Vertragsbindung",
           "result_code": "A35"
         },
@@ -236,6 +255,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nVertragsverhältnis wurde zum angefragten oder davor liegenden Termin beendet.",
           "result_code": "A36"
         }
@@ -251,6 +271,7 @@
             "result": true,
             "subsequent_step_number": "220"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -259,6 +280,7 @@
             "result": false,
             "subsequent_step_number": "210"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -274,6 +296,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie Belieferung wurde zu dem angefragten Ter-min aus der Anfrage zur Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde.",
           "result_code": "A41"
         },
@@ -282,6 +305,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nZustimmung der Anfrage zur Beendigung der Zuordnung zum in der bereits versendeten Abmeldung (welche noch nicht beantwortet wurde) genannten Termin.",
           "result_code": "A42"
         }
@@ -297,6 +321,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nEs besteht eine Vertragsbindung",
           "result_code": "A39"
         },
@@ -305,6 +330,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nVertragsverhältnis wurde zum angefragten oder davor liegenden Termin beendet.",
           "result_code": "A40"
         }

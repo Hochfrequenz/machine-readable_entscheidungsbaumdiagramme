@@ -21,6 +21,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Fristüberschreitung",
           "result_code": "A01"
         },
@@ -29,6 +30,7 @@
             "result": false,
             "subsequent_step_number": "2"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Gewählter Zeitraum nicht zulässig",
           "result_code": "A02"
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "3"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Fristunterschreitung",
           "result_code": "A05"
         },
@@ -75,6 +80,7 @@
             "result": true,
             "subsequent_step_number": "4"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Zeitreihe bereits vorhanden",
           "result_code": "A03"
         },
@@ -98,6 +105,7 @@
             "result": false,
             "subsequent_step_number": "5"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -113,6 +121,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Version nicht zugelassen",
           "result_code": "A04"
         },
@@ -121,6 +130,7 @@
             "result": true,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }

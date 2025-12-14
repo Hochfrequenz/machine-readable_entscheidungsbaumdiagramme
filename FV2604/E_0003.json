@@ -21,6 +21,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Fristüberschreitung",
           "result_code": "A01"
         },
@@ -29,6 +30,7 @@
             "result": true,
             "subsequent_step_number": "2"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Gewählter Zeitpunkt nicht zulässig",
           "result_code": "A02"
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }

@@ -21,6 +21,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -29,6 +30,7 @@
             "result": false,
             "subsequent_step_number": "500"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nVorlauffrist wurde nicht eingehalten",
           "result_code": "A01"
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": true,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -75,6 +80,7 @@
             "result": false,
             "subsequent_step_number": "50"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nIdentifizierte Marktlokation nimmt nicht an der Marktkommunikation teil. Weiterhin handelt es sich nicht um eine Neuanlage.",
           "result_code": "A02"
         },
@@ -98,6 +105,7 @@
             "result": true,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -113,6 +121,7 @@
             "result": false,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": "Keine Marktlokation ermittelt",
           "result_code": null
         },
@@ -121,6 +130,7 @@
             "result": true,
             "subsequent_step_number": "55"
           },
+          "ebd_references": [],
           "note": "Mehr als eine Marktlokation ermittelt",
           "result_code": null
         }
@@ -136,6 +146,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nKeine- oder Mehrfachidentifizierung",
           "result_code": "A08"
         },
@@ -144,6 +155,7 @@
             "result": true,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -159,6 +171,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nKeine Neuanlage, falscher Anwendungsfall",
           "result_code": "A03"
         },
@@ -167,6 +180,7 @@
             "result": true,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -182,6 +196,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFalscher Anwendungsfall, es ist bereits ein LF zugeordnet",
           "result_code": "A04"
         },
@@ -190,6 +205,7 @@
             "result": false,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -205,6 +221,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nMarktlokation befindet sich zum Eingangsdatum der Meldung nicht mehr im Netzgebiet des NB.",
           "result_code": "A05"
         },
@@ -213,6 +230,7 @@
             "result": true,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -228,6 +246,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: Die Abweichungen sind zu benennen.",
           "result_code": "A06"
         },
@@ -236,6 +255,7 @@
             "result": true,
             "subsequent_step_number": "130"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -251,6 +271,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nNeu angelegte Marktlokation konnten nicht identifiziert werden",
           "result_code": "A07"
         },
@@ -259,6 +280,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -274,6 +296,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nSonstiges \nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -282,6 +305,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung",
           "result_code": "A09"
         }
@@ -297,6 +321,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nVorlauffrist wurde nicht eingehalten",
           "result_code": "A10"
         },
@@ -305,6 +330,7 @@
             "result": true,
             "subsequent_step_number": "510"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -320,6 +346,7 @@
             "result": true,
             "subsequent_step_number": "520"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -328,6 +355,7 @@
             "result": false,
             "subsequent_step_number": "530"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -343,6 +371,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nIdentifizierte Marktlokation nimmt nicht an der Marktkommunikation teil. Weiterhin handelt es sich nicht um eine Neuanlage.",
           "result_code": "A11"
         },
@@ -351,6 +380,7 @@
             "result": true,
             "subsequent_step_number": "540"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -366,6 +396,7 @@
             "result": false,
             "subsequent_step_number": "590"
           },
+          "ebd_references": [],
           "note": "Keine Marktlokation ermittelt",
           "result_code": null
         },
@@ -374,6 +405,7 @@
             "result": true,
             "subsequent_step_number": "535"
           },
+          "ebd_references": [],
           "note": "Mehr als eine Marktlokation ermittelt",
           "result_code": null
         }
@@ -389,6 +421,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nKeine- oder Mehrfachidentifizierung",
           "result_code": "A17"
         },
@@ -397,6 +430,7 @@
             "result": true,
             "subsequent_step_number": "610"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -412,6 +446,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nKeine Neuanlage, falscher Anwendungsfall",
           "result_code": "A12"
         },
@@ -420,6 +455,7 @@
             "result": true,
             "subsequent_step_number": "545"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -435,6 +471,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nBilanzierung erfolgt nicht auf Basis von Viertelstundenwerten.",
           "result_code": "A19"
         },
@@ -443,6 +480,7 @@
             "result": true,
             "subsequent_step_number": "550"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -458,6 +496,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFalscher Anwendungsfall, es ist bereits ein LF zugeordnet",
           "result_code": "A13"
         },
@@ -466,6 +505,7 @@
             "result": false,
             "subsequent_step_number": "560"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -481,6 +521,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nMarktlokation befindet sich zum Eingangsdatum der Meldung nicht mehr im Netzgebiet des NB.",
           "result_code": "A14"
         },
@@ -489,6 +530,7 @@
             "result": true,
             "subsequent_step_number": "570"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -504,6 +546,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: Die Abweichungen sind zu benennen.",
           "result_code": "A15"
         },
@@ -512,6 +555,7 @@
             "result": true,
             "subsequent_step_number": "610"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -527,6 +571,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nNeu angelegte Marktlokation konnten nicht identifiziert werden",
           "result_code": "A16"
         },
@@ -535,6 +580,7 @@
             "result": false,
             "subsequent_step_number": "510"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -550,6 +596,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nSonstiges \nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -558,6 +605,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung",
           "result_code": "A18"
         }
