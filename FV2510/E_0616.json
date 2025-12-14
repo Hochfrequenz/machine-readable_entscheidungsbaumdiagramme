@@ -21,6 +21,7 @@
             "result": true,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -29,6 +30,7 @@
             "result": false,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Änderung der Daten\nDer Verantwortliche teilt dem Berechtigten mit, dass er einen erneuten Versand der Stammdaten vornehmen wird.",
           "result_code": "A01"
         },
@@ -52,6 +55,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: keine Änderung der Daten\nDer Verantwortliche teilt mit, dass er seine Stammdaten für korrekt hält und keine Anpassung vornehmen wird.",
           "result_code": "A02"
         }

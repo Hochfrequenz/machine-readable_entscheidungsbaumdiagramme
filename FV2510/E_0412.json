@@ -21,6 +21,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": "Der Empfänger übernimmt die Stammdaten.\nEr teilt in der Qualitätsrückmeldung mit, dass er die Stammdaten ohne Anmerkung übernommen hat.",
           "result_code": "A01"
         },
@@ -29,6 +30,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": "Der Empfänger übernimmt die Stammdaten.\nEr teilt mit der Qualitätsrückmeldung mit, dass diese Stammdaten aus seiner Sicht nicht korrekt sind. Er gibt die aus seiner Sicht korrekten Stammdaten als Qualitätsrückmeldung zurück.",
           "result_code": "A02"
         }
@@ -44,6 +46,7 @@
             "result": true,
             "subsequent_step_number": "10"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -52,6 +55,7 @@
             "result": false,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }

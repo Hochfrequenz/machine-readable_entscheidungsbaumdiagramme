@@ -26,6 +26,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nRechnung entspricht nicht §14 Abs. 4 UStG\nHinweis: Die Ablehnung ist zu begründen.",
           "result_code": "A01"
         },
@@ -34,6 +35,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -49,6 +51,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nRechnungsdatum liegt in der Zukunft",
           "result_code": "A02"
         },
@@ -57,6 +60,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -72,6 +76,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDas Rechnungsdatum liegt vor dem Ende des Abrechnungszeitraumes.",
           "result_code": "A03"
         },
@@ -80,6 +85,7 @@
             "result": false,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -95,6 +101,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer NB lehnt die Zahlung des Messstellenbetriebs ab. Der NB ist der Marktlokation nicht einen Tag des Abrechnungszeitraumes zugeordnet.",
           "result_code": "A04"
         },
@@ -103,6 +110,7 @@
             "result": true,
             "subsequent_step_number": "50"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -118,6 +126,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer NB lehnt die Zahlung des Messstellenbetriebs ab. Eine Ablehnung der Zahlung wird durch den NB begründet.\nHinweis: Der NB gibt den erwarteten Abrechnungszeitraum an.",
           "result_code": "A05"
         },
@@ -126,6 +135,7 @@
             "result": true,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -141,6 +151,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nRechnungsnummer wurde bereits verwendet.",
           "result_code": "A06"
         },
@@ -149,6 +160,7 @@
             "result": false,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -164,6 +176,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDie Rechnung enthält einen bereits abgerechnetes Zeitintervall.",
           "result_code": "A07"
         },
@@ -172,6 +185,7 @@
             "result": false,
             "subsequent_step_number": "75"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -187,6 +201,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer Beginn des Abrechnungszeitraums ist < 01.01.2024 00:00 Uhr.",
           "result_code": "AE6"
         },
@@ -195,6 +210,7 @@
             "result": true,
             "subsequent_step_number": "77"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -210,6 +226,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nIm gesamten Abrechnungszeitraum ist an keiner Messlokation der Marktlokation ein iMS eingebaut.",
           "result_code": "AE8"
         },
@@ -218,6 +235,7 @@
             "result": true,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -233,6 +251,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nBei der Abrechnung des MSB kann es nicht zu einer Rückerstattung kommen.",
           "result_code": "A08"
         },
@@ -241,6 +260,7 @@
             "result": true,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -256,6 +276,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDas Zahlungsziel ist unterschritten.",
           "result_code": "A09"
         },
@@ -264,6 +285,7 @@
             "result": false,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -279,6 +301,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDem NB liegt kein gültiges Preisblatt MSB-Leistungen vor.",
           "result_code": "A10"
         },
@@ -287,6 +310,7 @@
             "result": true,
             "subsequent_step_number": "115"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -302,6 +326,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene \nDer MSB ist der Marktlokation nicht einen Tag des Abrechnungszeitraumes zugeordnet.",
           "result_code": "AE9"
         },
@@ -310,6 +335,7 @@
             "result": true,
             "subsequent_step_number": "125"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -325,6 +351,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene \nDer MSB ist im gesamten Abrechnungszeitraum nicht der Marktlokation zugeordnet.",
           "result_code": "AF0"
         },
@@ -333,6 +360,7 @@
             "result": true,
             "subsequent_step_number": "130"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -348,6 +376,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDie Abrechnung des Messstellenbetriebs ist nicht mit dem NB für diese Marktlokation für den abgerechneten Zeitraum vorgegeben.",
           "result_code": "A13"
         },
@@ -356,6 +385,7 @@
             "result": true,
             "subsequent_step_number": "140"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -371,6 +401,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nSonstiger Fehler auf Kopfebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
           "result_code": "A90"
         },
@@ -379,6 +410,7 @@
             "result": false,
             "subsequent_step_number": "301"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -394,6 +426,7 @@
             "result": false,
             "subsequent_step_number": "302"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie in der angegebenen Position verwendete Artikel-ID hätte nicht für den gesamten Positionszeitraum aufgeführt werden dürfen. \nHinweis: Der Netzbetreiber gibt innerhalb des Positionszeitraums den Zeitraum an, in dem diese Artikel-ID nicht gültig ist.",
           "result_code": "AF1"
         },
@@ -402,6 +435,7 @@
             "result": true,
             "subsequent_step_number": "302"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -417,6 +451,7 @@
             "result": false,
             "subsequent_step_number": "303"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDiese Artikel-ID ist für diesen Rechnungstyp in dem besagten Positionszeitraum nicht zulässig.",
           "result_code": "AF2"
         },
@@ -425,6 +460,7 @@
             "result": true,
             "subsequent_step_number": "303"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -440,6 +476,7 @@
             "result": false,
             "subsequent_step_number": "310"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Zeitraum der Rechnungsposition ist nicht vollständig im Gültigkeitszeitraum eines oder mehrerer Preisblätter enthalten.",
           "result_code": "A27"
         },
@@ -448,6 +485,7 @@
             "result": true,
             "subsequent_step_number": "304"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -463,6 +501,7 @@
             "result": false,
             "subsequent_step_number": "310"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis in der Rechnungsposition entspricht nicht dem Preis aus dem Preisblatt bzw. den Preisblättern des MSB.",
           "result_code": "A28"
         },
@@ -471,6 +510,7 @@
             "result": true,
             "subsequent_step_number": "310"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -486,6 +526,7 @@
             "result": false,
             "subsequent_step_number": "330"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer gültige Umsatzsteuersatz für die Rechnungsposition für diesen Zeitraum wurde nicht korrekt angegeben.",
           "result_code": "A15"
         },
@@ -494,6 +535,7 @@
             "result": true,
             "subsequent_step_number": "330"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -509,6 +551,7 @@
             "result": true,
             "subsequent_step_number": "340"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDas Enddatum der Rechnungsposition liegt nach dem Enddatum des Abrechnungszeitraums.",
           "result_code": "A17"
         },
@@ -517,6 +560,7 @@
             "result": false,
             "subsequent_step_number": "340"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -532,6 +576,7 @@
             "result": true,
             "subsequent_step_number": "345"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDas Beginndatum der Rechnungsposition liegt vor dem Beginndatum des Abrechnungszeitraums.",
           "result_code": "A18"
         },
@@ -540,6 +585,7 @@
             "result": false,
             "subsequent_step_number": "345"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -555,6 +601,7 @@
             "result": false,
             "subsequent_step_number": "360"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nUnerwarteter Abrechnungszeitraum wird abgerechnet.\nHinweis: Der NB gibt den erwarteten Abrechnungszeitraum an.",
           "result_code": "A25"
         },
@@ -563,6 +610,7 @@
             "result": true,
             "subsequent_step_number": "360"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -578,6 +626,7 @@
             "result": true,
             "subsequent_step_number": "370"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nRechenfehler liegt vor",
           "result_code": "A20"
         },
@@ -586,6 +635,7 @@
             "result": false,
             "subsequent_step_number": "370"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -601,6 +651,7 @@
             "result": true,
             "subsequent_step_number": "380"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene \nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -609,6 +660,7 @@
             "result": false,
             "subsequent_step_number": "380"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -624,6 +676,7 @@
             "result": true,
             "subsequent_step_number": "301"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -632,6 +685,7 @@
             "result": false,
             "subsequent_step_number": "390"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -647,6 +701,7 @@
             "result": true,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": "Hinweis: Alle erkannten Antwortcodes aus der Positionsebene sind für jeden fehlerhaft identifizierten Positionsteil unter Angabe der Positionsnummer zu übermitteln.",
           "result_code": null
         },
@@ -655,6 +710,7 @@
             "result": false,
             "subsequent_step_number": "501"
           },
+          "ebd_references": [],
           "note": "Die Prüfung des EBD wird im Summenteil fortgesetzt.",
           "result_code": null
         }
@@ -670,6 +726,7 @@
             "result": true,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nErwartete Position nicht vorhanden\nHinweis: Die nicht in der Rechnung enthaltenen ausgetauschten Artikel-ID sind zu nennen.",
           "result_code": "AE7"
         },
@@ -678,6 +735,7 @@
             "result": false,
             "subsequent_step_number": "510"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -693,6 +751,7 @@
             "result": false,
             "subsequent_step_number": "520"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nGenannte Besteuerungsgrundlage passt nicht zu der Summe der Einzelpositionen des Steuersatzes.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "A22"
         },
@@ -701,6 +760,7 @@
             "result": true,
             "subsequent_step_number": "520"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -716,6 +776,7 @@
             "result": false,
             "subsequent_step_number": "530"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene \nSumme aller Rechnungspositionen (Netto) dieser Rechnung, denen dieser Steuersatz zugeordnet ist, multipliziert mit diesem Steuersatz entspricht nicht der Angabe des Steuerbetrages für diesen Steuersatz.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "A23"
         },
@@ -724,6 +785,7 @@
             "result": true,
             "subsequent_step_number": "530"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -739,6 +801,7 @@
             "result": true,
             "subsequent_step_number": "510"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -747,6 +810,7 @@
             "result": false,
             "subsequent_step_number": "540"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -762,6 +826,7 @@
             "result": false,
             "subsequent_step_number": "550"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nRechnungsbetrag (Besteuerungsgrundlage inklusive Steuerbetrag) der Summe ist nicht korrekt.",
           "result_code": "A24"
         },
@@ -770,6 +835,7 @@
             "result": true,
             "subsequent_step_number": "550"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -785,6 +851,7 @@
             "result": true,
             "subsequent_step_number": "560"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
           "result_code": "A96"
         },
@@ -793,6 +860,7 @@
             "result": false,
             "subsequent_step_number": "560"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -808,6 +876,7 @@
             "result": true,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nHinweis: Alle erkannten Antwortcodes aus der Summenebene sind zu übermitteln.",
           "result_code": null
         },
@@ -816,6 +885,7 @@
             "result": false,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung \nZahlung der Rechnung avisieren und im Zahlungslauf berücksichtigen.",
           "result_code": null
         }

@@ -9,6 +9,16 @@ digraph D {
     size="20,20";
     fontsize=12;
     pad=0.25;
+    subgraph "cluster_msi_7" {
+        label="";
+        style="dashed,rounded";
+        bgcolor="#f0f7ff";
+        color="#888888";
+        penwidth=1.5;
+        margin=16;
+        "msi_7" [margin="0.2,0.12", shape=note, style=filled, penwidth=0.0, fillcolor="#e6f3ff", label=<<FONT><I>Die folgenden Aktionen sind je zugehörigem<BR align="left"/>MaBiS-ZP auf der Aggregationsebene BG zu<BR align="left"/>durchlaufen:</I></FONT><BR align="left"/>>, fontname="Roboto, sans-serif"];
+        "7" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>7: </B>Hat die zugehörige Version auf der Aggregationsebene RZ den Datenstatus<BR align="left"/>Abrechnungsdaten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    }
     "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0042</B><BR align="left"/><FONT>Prüfende Rolle: <B>BIKO</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
     "1" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>1: </B>Befindet sich der MaBiS-ZP auf der Aggregationsebene RZ?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "2" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>2: </B>Hat der BKV für den BK dieses MaBiS-ZP in diesem Bilanzierungsmonat die<BR align="left"/>Aggregationsebene RZ abbestellt?<BR align="left"/>>, fontname="Roboto, sans-serif"];
@@ -21,7 +31,6 @@ digraph D {
     "6" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>6: </B>Erfolgt der Eingang der Zeitreihe vor Ablauf der Frist für den Erstaufschlag?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "A01_7" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Datenstatus „Abrechnungsdaten“<BR align="left"/>Setzen des Datenstatus für die der Version des MaBiS-ZP auf der<BR align="left"/>Aggregationsebene RZ zugehörigen Version des MaBiS-ZP auf der Aggregationsebene BG<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
     "A02_7" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Datenstatus „Prüfdaten“<BR align="left"/>Setzen des Datenstatus für die der Version des MaBiS-ZP auf der<BR align="left"/>Aggregationsebene RZ zugehörigen Version des MaBiS-ZP auf der Aggregationsebene BG<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
-    "7" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>7: </B>Hat die zugehörige Version auf der Aggregationsebene RZ den Datenstatus<BR align="left"/>Abrechnungsdaten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
 
     "Start" -> "1" [color="#88a0d6"];
     "1" -> "2" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
