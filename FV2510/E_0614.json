@@ -21,6 +21,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -29,6 +30,7 @@
             "result": false,
             "subsequent_step_number": "500"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFristüberschreitung",
           "result_code": "A01"
         },
@@ -52,6 +55,7 @@
             "result": false,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nVertrag wurde bereits zum angefragten Kündigungstermin gekündigt.",
           "result_code": "A03"
         },
@@ -75,6 +80,7 @@
             "result": false,
             "subsequent_step_number": "50"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nZum Kündigungstermin besteht kein Vertrags-verhältnis mehr.",
           "result_code": "A04"
         },
@@ -98,6 +105,7 @@
             "result": false,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -113,6 +121,7 @@
             "result": true,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -121,6 +130,7 @@
             "result": false,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -136,6 +146,7 @@
             "result": true,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -144,6 +155,7 @@
             "result": false,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -159,6 +171,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nVertragsbindung bei bereits in der Zukunft beendetem Vertrag.",
           "result_code": "A05"
         },
@@ -167,6 +180,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nVertragsbindung",
           "result_code": "A06"
         }
@@ -182,6 +196,7 @@
             "result": false,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -190,6 +205,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": "Hinweis:\nDie Anforderung einer Vollmacht im begründeten Einzelfall ist auf bilateralem Weg an den LFA zu senden. Hierzu ist die E-Mailadresse aus dem „SG4 NAD+Z12 Ansprechpartner Kündigungsprozess“ des Kommunikationsdatenblattes des LFN zu verwenden. \nDie Antwort des LFN wird an die E-Mailadresse aus dem „SG4 NAD+Z12 Ansprechpartner Kündigungsprozess“ des Kommunikationsdatenblattes des LFA gesendet.",
           "result_code": null
         }
@@ -205,6 +221,7 @@
             "result": true,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -213,6 +230,7 @@
             "result": false,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": "Hinweis:\nSolange die Vollmacht beim LFA nicht eingetroffen ist, wartet der Prozess an diesem Prüfschritt. Diese Prüfung ist regelmäßig erneut durchzuführen, bis die Vollmacht eingetroffen ist.",
           "result_code": null
         }
@@ -228,6 +246,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -236,6 +255,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie vom LFN eingereichte Vollmacht wird als nicht wirksam vom LFA betrachtet. \nHinweis: Der LFA begründet die Ablehnung der fehlenden Wirksamkeit der Vollmacht",
           "result_code": "A08"
         }
@@ -251,6 +271,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\n\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -259,6 +280,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nZustimmung",
           "result_code": "A09"
         }
@@ -274,6 +296,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nZu dem genannten Objekt liegt kein Vertrag vor.",
           "result_code": "A18"
         },
@@ -282,6 +305,7 @@
             "result": true,
             "subsequent_step_number": "505"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -297,6 +321,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFristüberschreitung",
           "result_code": "A10"
         },
@@ -305,6 +330,7 @@
             "result": false,
             "subsequent_step_number": "550"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -320,6 +346,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nVertrag wurde bereits zum angefragten Kündigungstermin gekündigt.",
           "result_code": "A12"
         },
@@ -328,6 +355,7 @@
             "result": false,
             "subsequent_step_number": "560"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -343,6 +371,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nZum Kündigungstermin besteht kein Vertrags-verhältnis mehr.",
           "result_code": "A13"
         },
@@ -351,6 +380,7 @@
             "result": false,
             "subsequent_step_number": "570"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -366,6 +396,7 @@
             "result": true,
             "subsequent_step_number": "580"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -374,6 +405,7 @@
             "result": false,
             "subsequent_step_number": "600"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -389,6 +421,7 @@
             "result": true,
             "subsequent_step_number": "600"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -397,6 +430,7 @@
             "result": false,
             "subsequent_step_number": "590"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -412,6 +446,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nVertragsbindung bei bereits in der Zukunft beendetem Vertrag.",
           "result_code": "A14"
         },
@@ -420,6 +455,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nVertragsbindung",
           "result_code": "A15"
         }
@@ -435,6 +471,7 @@
             "result": false,
             "subsequent_step_number": "630"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -443,6 +480,7 @@
             "result": true,
             "subsequent_step_number": "610"
           },
+          "ebd_references": [],
           "note": "Hinweis:\nDie Anforderung einer Vollmacht im begründeten Einzelfall ist auf bilateralem Weg an den LFA zu senden. Hierzu ist die E-Mailadresse aus dem „SG4 NAD+Z12 Ansprechpartner Kündigungsprozess“ des Kommunikationsdatenblattes des LFN zu verwenden. \nDie Antwort des LFN wird an die E-Mailadresse aus dem „SG4 NAD+Z12 Ansprechpartner Kündigungsprozess“ des Kommunikationsdatenblattes des LFA gesendet.",
           "result_code": null
         }
@@ -458,6 +496,7 @@
             "result": true,
             "subsequent_step_number": "620"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -466,6 +505,7 @@
             "result": false,
             "subsequent_step_number": "610"
           },
+          "ebd_references": [],
           "note": "Hinweis:\nSolange die Vollmacht beim LFA nicht eingetroffen ist, wartet der Prozess an diesem Prüfschritt. Diese Prüfung ist regelmäßig erneut durchzuführen, bis die Vollmacht eingetroffen ist.",
           "result_code": null
         }
@@ -481,6 +521,7 @@
             "result": true,
             "subsequent_step_number": "630"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -489,6 +530,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie vom LFN eingereichte Vollmacht wird als nicht wirksam vom LFA betrachtet. \nHinweis: Der LFA begründet die Ablehnung der fehlenden Wirksamkeit der Vollmacht",
           "result_code": "A16"
         }
@@ -504,6 +546,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -512,6 +555,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nZustimmung",
           "result_code": "A17"
         }

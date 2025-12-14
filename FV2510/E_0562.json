@@ -21,6 +21,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Backend des MSB ist überlastet.",
           "result_code": "A01"
         },
@@ -29,6 +30,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Kommunikationsverbindung zur Steuerbox ist gestört.",
           "result_code": "A02"
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Prozessual ist es derzeit nicht möglich die Anforderung umzusetzen (z.B. aufgrund von Wartungsarbeiten).",
           "result_code": "A03"
         },
@@ -75,6 +80,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Der Steuerbefehl kann grundsätzlich umgesetzt werden.",
           "result_code": "A04"
         }

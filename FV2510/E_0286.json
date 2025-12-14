@@ -21,6 +21,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Gescheitert\nDer Monteur hat keinen Zugang zur Lokation.",
           "result_code": "A01"
         },
@@ -29,6 +30,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Gescheitert\nDie Änderung der Technik an der Lokation ist aufgrund einer fehlenden / mangelhaften Kommunikationsverbindung nicht möglich.",
           "result_code": "A02"
         },
@@ -75,6 +80,7 @@
             "result": true,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": false,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -98,6 +105,7 @@
             "result": true,
             "subsequent_step_number": "50"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -113,6 +121,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Gescheitert\nDie bestellte Zuordnung der genannten TR zur SR/NeLo lässt sich aufgrund der Situation vor Ort nicht realisieren.",
           "result_code": "A03"
         },
@@ -121,6 +130,7 @@
             "result": true,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -136,6 +146,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Gescheitert\n\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -144,6 +155,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Stammdatenänderung vom MSB (verantwortlich) ausgehend versenden.\nGgf. Aufbereitung und Übermittlung von Werten vom MSB der Messlokation.",
           "result_code": null
         }

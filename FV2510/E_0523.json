@@ -21,6 +21,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nKostenpflichtige Konfiguration",
           "result_code": "A01"
         },
@@ -29,6 +30,7 @@
             "result": false,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": true,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -52,6 +55,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": true,
             "subsequent_step_number": "140"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -75,6 +80,7 @@
             "result": false,
             "subsequent_step_number": "190"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es handelt sich um eine Bestellung einer anderen Konfiguration",
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nMarktlokation befindet sich nicht in der messtechnischen Einordnung „iMS“ oder es handelt sich nicht um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind.",
           "result_code": "A02"
         },
@@ -98,6 +105,7 @@
             "result": true,
             "subsequent_step_number": "50"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -113,6 +121,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFristüberschreitung",
           "result_code": "A03"
         },
@@ -121,6 +130,7 @@
             "result": true,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -136,6 +146,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nErzeugende Marktlokationen mit iMS oder kME/ RLM werden immer auf der Prognosegrundlage auf Basis von Werten bilanziert.",
           "result_code": "A04"
         },
@@ -144,6 +155,7 @@
             "result": true,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -159,6 +171,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nZuordnungsermächtigung liegt nicht vor.",
           "result_code": "A05"
         },
@@ -167,6 +180,7 @@
             "result": true,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -182,6 +196,7 @@
             "result": true,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -190,6 +205,7 @@
             "result": false,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": "Hinweis: Prognosegrundlage auf Basis von Werten liegt vor.",
           "result_code": null
         }
@@ -205,6 +221,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -213,6 +230,7 @@
             "result": false,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -228,6 +246,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nKeine Volleinspeisung, keine Prognosegrundlage auf Basis von Profilen möglich",
           "result_code": "A06"
         },
@@ -236,6 +255,7 @@
             "result": true,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -251,6 +271,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie Änderung der Prognosegrundlage bei einer Marktlokation, mit der messtechnischen Einordnung „iMS“, ist nicht möglich.",
           "result_code": "A18"
         },
@@ -259,6 +280,7 @@
             "result": false,
             "subsequent_step_number": "130"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -274,6 +296,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nÄnderung zum gewünschten Termin bereits umgesetzt.",
           "result_code": "A08"
         },
@@ -282,6 +305,7 @@
             "result": false,
             "subsequent_step_number": "220"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -297,6 +321,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nBestellungen sind nur für verbrauchende Marktlokationen möglich",
           "result_code": "A10"
         },
@@ -305,6 +330,7 @@
             "result": true,
             "subsequent_step_number": "150"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -320,6 +346,7 @@
             "result": true,
             "subsequent_step_number": "190"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -328,6 +355,7 @@
             "result": false,
             "subsequent_step_number": "160"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -343,6 +371,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nZählzeitdefinition zum Anwendungszeitpunkt nicht bekannt",
           "result_code": "A11"
         },
@@ -351,6 +380,7 @@
             "result": true,
             "subsequent_step_number": "170"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -366,6 +396,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nZählzeit ist nicht bestallbar",
           "result_code": "A12"
         },
@@ -374,6 +405,7 @@
             "result": true,
             "subsequent_step_number": "180"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -389,6 +421,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nAusgerollte Zählzeit zur Zählzeitdefinition liegt zum Anwendungszeitpunkt nicht vor",
           "result_code": "A13"
         },
@@ -397,6 +430,7 @@
             "result": true,
             "subsequent_step_number": "190"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -412,6 +446,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nBestellter Zustand bereits vorhanden",
           "result_code": "A14"
         },
@@ -420,6 +455,7 @@
             "result": false,
             "subsequent_step_number": "200"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -435,6 +471,7 @@
             "result": true,
             "subsequent_step_number": "210"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -443,6 +480,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nKonfiguration technisch nicht möglich\nHinweis: z. B. Zählzeit bestellt und Eintarifzähler verbaut",
           "result_code": "A15"
         }
@@ -458,6 +496,7 @@
             "result": true,
             "subsequent_step_number": "220"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -466,6 +505,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nFristüberschreitung",
           "result_code": "A16"
         }
@@ -481,6 +521,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -489,6 +530,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nBestellung wird an den MSB der Marktlokation weitergeleitet",
           "result_code": "A17"
         }

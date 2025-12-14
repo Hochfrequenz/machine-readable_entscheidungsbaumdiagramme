@@ -26,6 +26,7 @@
             "result": true,
             "subsequent_step_number": "190"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -34,6 +35,7 @@
             "result": false,
             "subsequent_step_number": "55"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -49,6 +51,7 @@
             "result": false,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": "Der Absender der Nachricht entspricht für diesen Verwendungszeitraum nicht dem bisherigen Netzbetreiber. Es wurde damit ein Netzbetreiberwechsel durchgeführt.",
           "result_code": "A17"
         },
@@ -57,6 +60,7 @@
             "result": true,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -72,6 +76,7 @@
             "result": false,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": "Bilanzierungsgebiet nicht gültig.",
           "result_code": "A05"
         },
@@ -80,6 +85,7 @@
             "result": true,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -95,6 +101,7 @@
             "result": false,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": "Angegebener NB entspricht nicht dem zugeordneten NB des Bilanzierungsgebiets.",
           "result_code": "A06"
         },
@@ -103,6 +110,7 @@
             "result": true,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -118,6 +126,7 @@
             "result": true,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -126,6 +135,7 @@
             "result": false,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -141,6 +151,7 @@
             "result": false,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": "Messstellenbetreiber nicht gültig.",
           "result_code": "A07"
         },
@@ -149,6 +160,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -164,6 +176,7 @@
             "result": false,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": "Lieferant nicht gültig.",
           "result_code": "A08"
         },
@@ -172,6 +185,7 @@
             "result": true,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -187,6 +201,7 @@
             "result": false,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Bilanzkreis nicht gültig.",
           "result_code": "A09"
         },
@@ -195,6 +210,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -210,6 +226,7 @@
             "result": false,
             "subsequent_step_number": "130"
           },
+          "ebd_references": [],
           "note": "Prognosegrundlage passt nicht zum ZRT.",
           "result_code": "A10"
         },
@@ -218,6 +235,7 @@
             "result": true,
             "subsequent_step_number": "130"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -233,6 +251,7 @@
             "result": false,
             "subsequent_step_number": "140"
           },
+          "ebd_references": [],
           "note": "Lieferrichtung nicht passend.",
           "result_code": "A11"
         },
@@ -241,6 +260,7 @@
             "result": true,
             "subsequent_step_number": "140"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -256,6 +276,7 @@
             "result": false,
             "subsequent_step_number": "150"
           },
+          "ebd_references": [],
           "note": "ZRT nicht passend.",
           "result_code": "A12"
         },
@@ -264,6 +285,7 @@
             "result": true,
             "subsequent_step_number": "150"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -279,6 +301,7 @@
             "result": true,
             "subsequent_step_number": "154"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -287,6 +310,7 @@
             "result": false,
             "subsequent_step_number": "190"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -302,6 +326,7 @@
             "result": true,
             "subsequent_step_number": "190"
           },
+          "ebd_references": [],
           "note": "Das Datum „Verwendung der Daten ab“ ist in Kombination mit der Bilanzierung auf Basis von Profilen nicht gültig, da das Datum „Verwendung der Daten ab“ ≥ 01.06.2025 00:00 Uhr ist.\nHinweis: Die Energiemenge der Marktlokation kann ab dem 01.06.2025 00:00 Uhr nicht mehr durch den ÜNB aggregiert und somit nicht mehr in die BKA eingebracht werden.",
           "result_code": "A18"
         },
@@ -310,6 +335,7 @@
             "result": false,
             "subsequent_step_number": "157"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -325,6 +351,7 @@
             "result": true,
             "subsequent_step_number": "160"
           },
+          "ebd_references": [],
           "note": "Das Datum „Verwendung der Daten bis“ ist ≥ 01.06.2025 00:00 Uhr\nHinweis: In dem Verwendungszeitraum in dem ein „Verwendung der Daten bis“ ≥ 01.06.2025 00:00 Uhr bzw. kein „Verwendung der Daten bis“ (offener Zeitraum) angegeben ist, wird beim ÜNB das Endedatum 01.06.2025 00:00 Uhr gesetzt und entsprechend verarbeitet.",
           "result_code": "A19"
         },
@@ -333,6 +360,7 @@
             "result": false,
             "subsequent_step_number": "160"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -348,6 +376,7 @@
             "result": false,
             "subsequent_step_number": "170"
           },
+          "ebd_references": [],
           "note": "Normiertes Profil liegt nicht vor.",
           "result_code": "A13"
         },
@@ -356,6 +385,7 @@
             "result": true,
             "subsequent_step_number": "170"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -371,6 +401,7 @@
             "result": false,
             "subsequent_step_number": "190"
           },
+          "ebd_references": [],
           "note": "Normiertes Profil - nicht SLP mit synthetischem Verfahren.",
           "result_code": "A14"
         },
@@ -379,6 +410,7 @@
             "result": true,
             "subsequent_step_number": "190"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -394,6 +426,7 @@
             "result": true,
             "subsequent_step_number": "200"
           },
+          "ebd_references": [],
           "note": "Sonstige Qualitätsrückmeldung\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -402,6 +435,7 @@
             "result": false,
             "subsequent_step_number": "200"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -417,6 +451,7 @@
             "result": true,
             "subsequent_step_number": "210"
           },
+          "ebd_references": [],
           "note": "Stammdaten wurden für den angegebenen Verwendungszeitraum widerspruchsfrei übernommen.",
           "result_code": "A16"
         },
@@ -425,6 +460,7 @@
             "result": false,
             "subsequent_step_number": "210"
           },
+          "ebd_references": [],
           "note": "Stammdaten wurden übernommen \nHinweis A**: Es werden alle gemerkten Antwortcodes der vorhergehenden Prüfschritte für jeden fehlerhaft identifizierten Verwendungszeitraum der Daten unter Angabe der Zeitraum-ID übermittelt.",
           "result_code": "A**"
         }
@@ -440,6 +476,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -448,6 +485,7 @@
             "result": false,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
