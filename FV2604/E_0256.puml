@@ -1,0 +1,426 @@
+@startuml
+skinparam Shadowing false
+skinparam NoteBorderColor #f3f1f6
+skinparam NoteBackgroundColor #f3f1f6
+skinparam NoteFontSize 12
+skinparam ActivityBorderColor none
+skinparam ActivityBackgroundColor #7a8da1
+skinparam ActivityFontSize 16
+skinparam ArrowColor #7aab8a
+skinparam ArrowFontSize 16
+skinparam ActivityDiamondBackgroundColor #7aab8a
+skinparam ActivityDiamondBorderColor #7aab8a
+skinparam ActivityDiamondFontSize 18
+skinparam defaultFontName DejaVu Serif Condensed
+skinparam ActivityEndColor #669580
+
+header
+<b>FV2210
+2022-12-12
+endheader
+
+title
+WiM Strom
+
+8.25.3: AD: Anfrage und Bestellung von Werten durch den ESA
+
+
+
+end title
+:<b>E_0256</b>;
+note right
+<b><i>Prüfende Rolle: MSB
+end note
+
+if (<b>1: </b> Ist die Bindungsfrist des Angebots abgelaufen?) then (ja)
+    if (<b>2: </b> Akzeptiert der MSB die Bestellung auch bei abgelaufener Bindungsfrist?) then (ja)
+    else (nein)
+        :A01;
+        note left
+            Cluster: Ablehnung
+            Die Bindungsfrist des Angebots ist abgelaufen.
+        endnote
+        kill;
+    endif
+    if (<b>3: </b> Handelt es sich bei der Bestellung um ein Abo?) then (ja)
+        if (<b>4: </b> Bietet der MSB das gewünschte Messprodukt zum Zeitraum / Zeitpunkt der Messwertermittlung als Abo an?) then (ja)
+        else (nein)
+            :A04;
+            note left
+                Cluster: Ablehnung
+                Der MSB sieht für das gewünschte Messprodukt keine Übermittlung als Abo vor.
+            endnote
+            kill;
+        endif
+        if (<b>6: </b> Ist die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB zum Zeitraum / Zeitpunkt der Messwertermittlung noch gültig?) then (ja)
+        else (nein)
+            :A06;
+            note left
+                Cluster: Ablehnung
+                Die vertragliche Grundlage zwischen dem MSB und dem ESA ist nicht mehr gültig.
+            endnote
+            kill;
+        endif
+        if (<b>7: </b> Ist der MSB für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung der entsprechenden Lokation zugeordnet?) then (ja)
+        else (nein)
+            :A07;
+            note left
+                Cluster: Ablehnung
+                Der MSB ist der Lokation für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung nicht zugeordnet.
+            endnote
+            kill;
+        endif
+        if (<b>8: </b> Ist die dem MSB vorliegende datenschutzrechtliche Einwilligung (wie z. B. das BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO - 
+Anfrage und Übermittlung von Messprodukten 
+gemäß BNetzA-Festlegung BK6-20-160“&#41; zur Anfrage und Übermittlung von Messprodukten zum Zeitraum / Zeitpunkt der Messwertermittlung weiterhin gültig?) then (ja)
+        else (nein)
+            :A08;
+            note left
+                Cluster: Ablehnung
+                Der Anschlussnutzer hat gegenüber dem ESA seine Einwilligung widerrufen oder ihre Gültigkeit ist abgelaufen.
+            endnote
+            kill;
+        endif
+        if (<b>9: </b> Ermöglicht die vorhandene Gerätetechnik zum Zeitraum / Zeitpunkt der Messwertermittlung die Übermittlung der angefragten Werte entsprechend dem Messprodukt?) then (ja)
+        else (nein)
+            :A09;
+            note left
+                Cluster: Ablehnung
+                Die Gerätetechnik misst die angeforderten Messwerte nicht.
+            endnote
+            kill;
+        endif
+        if (<b>10: </b> Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?) then (ja)
+            if (<b>11: </b> Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation (inkl. Tranche&#41; / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation?) then (ja)
+            else (nein)
+                :A10;
+                note left
+                    Cluster: Ablehnung
+                    Der MSB der Marktlokation /Netzlokation ist nicht zeitgleich der allen Messlokationen zugeordnete MSB.
+                endnote
+                kill;
+            endif
+        else (nein)
+        endif
+        :A11;
+        note left
+            Cluster: Zustimmung
+            Bestellung ist angenommen.
+        endnote
+        kill;
+    else (nein)
+        if (<b>5: </b> Bietet der MSB das gewünschte Messprodukt zum Zeitraum / Zeitpunkt der Messwertermittlung als einmalige Übermittlung an?) then (ja)
+        else (nein)
+            :A05;
+            note left
+                Cluster: Ablehnung
+                Der MSB sieht für das gewünschte Messprodukt keine einmalige Übermittlung vor.
+            endnote
+            kill;
+        endif
+        if (<b>6: </b> Ist die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB zum Zeitraum / Zeitpunkt der Messwertermittlung noch gültig?) then (ja)
+        else (nein)
+            :A06;
+            note left
+                Cluster: Ablehnung
+                Die vertragliche Grundlage zwischen dem MSB und dem ESA ist nicht mehr gültig.
+            endnote
+            kill;
+        endif
+        if (<b>7: </b> Ist der MSB für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung der entsprechenden Lokation zugeordnet?) then (ja)
+        else (nein)
+            :A07;
+            note left
+                Cluster: Ablehnung
+                Der MSB ist der Lokation für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung nicht zugeordnet.
+            endnote
+            kill;
+        endif
+        if (<b>8: </b> Ist die dem MSB vorliegende datenschutzrechtliche Einwilligung (wie z. B. das BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO - 
+Anfrage und Übermittlung von Messprodukten 
+gemäß BNetzA-Festlegung BK6-20-160“&#41; zur Anfrage und Übermittlung von Messprodukten zum Zeitraum / Zeitpunkt der Messwertermittlung weiterhin gültig?) then (ja)
+        else (nein)
+            :A08;
+            note left
+                Cluster: Ablehnung
+                Der Anschlussnutzer hat gegenüber dem ESA seine Einwilligung widerrufen oder ihre Gültigkeit ist abgelaufen.
+            endnote
+            kill;
+        endif
+        if (<b>9: </b> Ermöglicht die vorhandene Gerätetechnik zum Zeitraum / Zeitpunkt der Messwertermittlung die Übermittlung der angefragten Werte entsprechend dem Messprodukt?) then (ja)
+        else (nein)
+            :A09;
+            note left
+                Cluster: Ablehnung
+                Die Gerätetechnik misst die angeforderten Messwerte nicht.
+            endnote
+            kill;
+        endif
+        if (<b>10: </b> Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?) then (ja)
+            if (<b>11: </b> Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation (inkl. Tranche&#41; / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation?) then (ja)
+            else (nein)
+                :A10;
+                note left
+                    Cluster: Ablehnung
+                    Der MSB der Marktlokation /Netzlokation ist nicht zeitgleich der allen Messlokationen zugeordnete MSB.
+                endnote
+                kill;
+            endif
+        else (nein)
+        endif
+        :A11;
+        note left
+            Cluster: Zustimmung
+            Bestellung ist angenommen.
+        endnote
+        kill;
+    endif
+    if (<b>6: </b> Ist die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB zum Zeitraum / Zeitpunkt der Messwertermittlung noch gültig?) then (ja)
+    else (nein)
+        :A06;
+        note left
+            Cluster: Ablehnung
+            Die vertragliche Grundlage zwischen dem MSB und dem ESA ist nicht mehr gültig.
+        endnote
+        kill;
+    endif
+    if (<b>7: </b> Ist der MSB für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung der entsprechenden Lokation zugeordnet?) then (ja)
+    else (nein)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Der MSB ist der Lokation für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung nicht zugeordnet.
+        endnote
+        kill;
+    endif
+    if (<b>8: </b> Ist die dem MSB vorliegende datenschutzrechtliche Einwilligung (wie z. B. das BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO - 
+Anfrage und Übermittlung von Messprodukten 
+gemäß BNetzA-Festlegung BK6-20-160“&#41; zur Anfrage und Übermittlung von Messprodukten zum Zeitraum / Zeitpunkt der Messwertermittlung weiterhin gültig?) then (ja)
+    else (nein)
+        :A08;
+        note left
+            Cluster: Ablehnung
+            Der Anschlussnutzer hat gegenüber dem ESA seine Einwilligung widerrufen oder ihre Gültigkeit ist abgelaufen.
+        endnote
+        kill;
+    endif
+    if (<b>9: </b> Ermöglicht die vorhandene Gerätetechnik zum Zeitraum / Zeitpunkt der Messwertermittlung die Übermittlung der angefragten Werte entsprechend dem Messprodukt?) then (ja)
+    else (nein)
+        :A09;
+        note left
+            Cluster: Ablehnung
+            Die Gerätetechnik misst die angeforderten Messwerte nicht.
+        endnote
+        kill;
+    endif
+    if (<b>10: </b> Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?) then (ja)
+        if (<b>11: </b> Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation (inkl. Tranche&#41; / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation?) then (ja)
+        else (nein)
+            :A10;
+            note left
+                Cluster: Ablehnung
+                Der MSB der Marktlokation /Netzlokation ist nicht zeitgleich der allen Messlokationen zugeordnete MSB.
+            endnote
+            kill;
+        endif
+    else (nein)
+    endif
+    :A11;
+    note left
+        Cluster: Zustimmung
+        Bestellung ist angenommen.
+    endnote
+    kill;
+else (nein)
+endif
+if (<b>3: </b> Handelt es sich bei der Bestellung um ein Abo?) then (ja)
+    if (<b>4: </b> Bietet der MSB das gewünschte Messprodukt zum Zeitraum / Zeitpunkt der Messwertermittlung als Abo an?) then (ja)
+    else (nein)
+        :A04;
+        note left
+            Cluster: Ablehnung
+            Der MSB sieht für das gewünschte Messprodukt keine Übermittlung als Abo vor.
+        endnote
+        kill;
+    endif
+    if (<b>6: </b> Ist die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB zum Zeitraum / Zeitpunkt der Messwertermittlung noch gültig?) then (ja)
+    else (nein)
+        :A06;
+        note left
+            Cluster: Ablehnung
+            Die vertragliche Grundlage zwischen dem MSB und dem ESA ist nicht mehr gültig.
+        endnote
+        kill;
+    endif
+    if (<b>7: </b> Ist der MSB für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung der entsprechenden Lokation zugeordnet?) then (ja)
+    else (nein)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Der MSB ist der Lokation für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung nicht zugeordnet.
+        endnote
+        kill;
+    endif
+    if (<b>8: </b> Ist die dem MSB vorliegende datenschutzrechtliche Einwilligung (wie z. B. das BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO - 
+Anfrage und Übermittlung von Messprodukten 
+gemäß BNetzA-Festlegung BK6-20-160“&#41; zur Anfrage und Übermittlung von Messprodukten zum Zeitraum / Zeitpunkt der Messwertermittlung weiterhin gültig?) then (ja)
+    else (nein)
+        :A08;
+        note left
+            Cluster: Ablehnung
+            Der Anschlussnutzer hat gegenüber dem ESA seine Einwilligung widerrufen oder ihre Gültigkeit ist abgelaufen.
+        endnote
+        kill;
+    endif
+    if (<b>9: </b> Ermöglicht die vorhandene Gerätetechnik zum Zeitraum / Zeitpunkt der Messwertermittlung die Übermittlung der angefragten Werte entsprechend dem Messprodukt?) then (ja)
+    else (nein)
+        :A09;
+        note left
+            Cluster: Ablehnung
+            Die Gerätetechnik misst die angeforderten Messwerte nicht.
+        endnote
+        kill;
+    endif
+    if (<b>10: </b> Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?) then (ja)
+        if (<b>11: </b> Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation (inkl. Tranche&#41; / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation?) then (ja)
+        else (nein)
+            :A10;
+            note left
+                Cluster: Ablehnung
+                Der MSB der Marktlokation /Netzlokation ist nicht zeitgleich der allen Messlokationen zugeordnete MSB.
+            endnote
+            kill;
+        endif
+    else (nein)
+    endif
+    :A11;
+    note left
+        Cluster: Zustimmung
+        Bestellung ist angenommen.
+    endnote
+    kill;
+else (nein)
+    if (<b>5: </b> Bietet der MSB das gewünschte Messprodukt zum Zeitraum / Zeitpunkt der Messwertermittlung als einmalige Übermittlung an?) then (ja)
+    else (nein)
+        :A05;
+        note left
+            Cluster: Ablehnung
+            Der MSB sieht für das gewünschte Messprodukt keine einmalige Übermittlung vor.
+        endnote
+        kill;
+    endif
+    if (<b>6: </b> Ist die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB zum Zeitraum / Zeitpunkt der Messwertermittlung noch gültig?) then (ja)
+    else (nein)
+        :A06;
+        note left
+            Cluster: Ablehnung
+            Die vertragliche Grundlage zwischen dem MSB und dem ESA ist nicht mehr gültig.
+        endnote
+        kill;
+    endif
+    if (<b>7: </b> Ist der MSB für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung der entsprechenden Lokation zugeordnet?) then (ja)
+    else (nein)
+        :A07;
+        note left
+            Cluster: Ablehnung
+            Der MSB ist der Lokation für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung nicht zugeordnet.
+        endnote
+        kill;
+    endif
+    if (<b>8: </b> Ist die dem MSB vorliegende datenschutzrechtliche Einwilligung (wie z. B. das BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO - 
+Anfrage und Übermittlung von Messprodukten 
+gemäß BNetzA-Festlegung BK6-20-160“&#41; zur Anfrage und Übermittlung von Messprodukten zum Zeitraum / Zeitpunkt der Messwertermittlung weiterhin gültig?) then (ja)
+    else (nein)
+        :A08;
+        note left
+            Cluster: Ablehnung
+            Der Anschlussnutzer hat gegenüber dem ESA seine Einwilligung widerrufen oder ihre Gültigkeit ist abgelaufen.
+        endnote
+        kill;
+    endif
+    if (<b>9: </b> Ermöglicht die vorhandene Gerätetechnik zum Zeitraum / Zeitpunkt der Messwertermittlung die Übermittlung der angefragten Werte entsprechend dem Messprodukt?) then (ja)
+    else (nein)
+        :A09;
+        note left
+            Cluster: Ablehnung
+            Die Gerätetechnik misst die angeforderten Messwerte nicht.
+        endnote
+        kill;
+    endif
+    if (<b>10: </b> Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?) then (ja)
+        if (<b>11: </b> Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation (inkl. Tranche&#41; / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation?) then (ja)
+        else (nein)
+            :A10;
+            note left
+                Cluster: Ablehnung
+                Der MSB der Marktlokation /Netzlokation ist nicht zeitgleich der allen Messlokationen zugeordnete MSB.
+            endnote
+            kill;
+        endif
+    else (nein)
+    endif
+    :A11;
+    note left
+        Cluster: Zustimmung
+        Bestellung ist angenommen.
+    endnote
+    kill;
+endif
+if (<b>6: </b> Ist die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB zum Zeitraum / Zeitpunkt der Messwertermittlung noch gültig?) then (ja)
+else (nein)
+    :A06;
+    note left
+        Cluster: Ablehnung
+        Die vertragliche Grundlage zwischen dem MSB und dem ESA ist nicht mehr gültig.
+    endnote
+    kill;
+endif
+if (<b>7: </b> Ist der MSB für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung der entsprechenden Lokation zugeordnet?) then (ja)
+else (nein)
+    :A07;
+    note left
+        Cluster: Ablehnung
+        Der MSB ist der Lokation für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung nicht zugeordnet.
+    endnote
+    kill;
+endif
+if (<b>8: </b> Ist die dem MSB vorliegende datenschutzrechtliche Einwilligung (wie z. B. das BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO - 
+Anfrage und Übermittlung von Messprodukten 
+gemäß BNetzA-Festlegung BK6-20-160“&#41; zur Anfrage und Übermittlung von Messprodukten zum Zeitraum / Zeitpunkt der Messwertermittlung weiterhin gültig?) then (ja)
+else (nein)
+    :A08;
+    note left
+        Cluster: Ablehnung
+        Der Anschlussnutzer hat gegenüber dem ESA seine Einwilligung widerrufen oder ihre Gültigkeit ist abgelaufen.
+    endnote
+    kill;
+endif
+if (<b>9: </b> Ermöglicht die vorhandene Gerätetechnik zum Zeitraum / Zeitpunkt der Messwertermittlung die Übermittlung der angefragten Werte entsprechend dem Messprodukt?) then (ja)
+else (nein)
+    :A09;
+    note left
+        Cluster: Ablehnung
+        Die Gerätetechnik misst die angeforderten Messwerte nicht.
+    endnote
+    kill;
+endif
+if (<b>10: </b> Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?) then (ja)
+    if (<b>11: </b> Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation (inkl. Tranche&#41; / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation?) then (ja)
+    else (nein)
+        :A10;
+        note left
+            Cluster: Ablehnung
+            Der MSB der Marktlokation /Netzlokation ist nicht zeitgleich der allen Messlokationen zugeordnete MSB.
+        endnote
+        kill;
+    endif
+else (nein)
+endif
+:A11;
+note left
+    Cluster: Zustimmung
+    Bestellung ist angenommen.
+endnote
+kill;
+
+@enduml

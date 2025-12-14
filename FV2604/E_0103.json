@@ -21,6 +21,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nBeendigung der Zuordnung passt nicht zur Vereinbarung",
           "result_code": "A01"
         },
@@ -29,6 +30,7 @@
             "result": true,
             "subsequent_step_number": "2"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nKeine Berechtigung für die Netzzeitreihe",
           "result_code": "A02"
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "3"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nKeine Beteiligung an der Netzzeitreihe",
           "result_code": "A03"
         },
@@ -75,6 +80,7 @@
             "result": true,
             "subsequent_step_number": "4"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nZuordnung nicht vorhanden",
           "result_code": "A04"
         },
@@ -98,6 +105,7 @@
             "result": true,
             "subsequent_step_number": "5"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -113,6 +121,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.\nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -121,6 +130,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nBeendigung der Zuordnung durchgeführt",
           "result_code": "A05"
         }

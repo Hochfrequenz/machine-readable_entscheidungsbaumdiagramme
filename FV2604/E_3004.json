@@ -21,6 +21,7 @@
             "result": true,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -29,6 +30,7 @@
             "result": false,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Stammdaten versenden",
           "result_code": null
         },
@@ -52,6 +55,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Keine Berechtigung",
           "result_code": "A01"
         },
@@ -75,6 +80,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Stammdaten versenden",
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": true,
             "subsequent_step_number": "50"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -98,6 +105,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "An der genannten Adresse betreibt der NB keinen Gasanschluss",
           "result_code": "A02"
         }
@@ -113,6 +121,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Stammdaten versenden",
           "result_code": null
         },
@@ -121,6 +130,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Keine nME verbaut",
           "result_code": "A03"
         }

@@ -26,6 +26,7 @@
             "result": true,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -34,6 +35,7 @@
             "result": false,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -49,6 +51,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": "Der Absender der Nachricht entspricht für diesen Verwendungszeitraum nicht dem bisherigen Netzbetreiber. Es wurde damit ein Netzbetreiberwechsel durchgeführt.",
           "result_code": "A17"
         },
@@ -57,6 +60,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -72,6 +76,7 @@
             "result": false,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": "Bilanzierungsgebiet nicht gültig.",
           "result_code": "A03"
         },
@@ -80,6 +85,7 @@
             "result": true,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -95,6 +101,7 @@
             "result": false,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": "Angegebener NB entspricht nicht dem zugeordneten NB des Bilanzierungsgebiets.",
           "result_code": "A14"
         },
@@ -103,6 +110,7 @@
             "result": true,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -118,6 +126,7 @@
             "result": false,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": "Messstellenbetreiber nicht gültig.",
           "result_code": "A15"
         },
@@ -126,6 +135,7 @@
             "result": true,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -141,6 +151,7 @@
             "result": false,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": "Lieferant nicht gültig.",
           "result_code": "A04"
         },
@@ -149,6 +160,7 @@
             "result": true,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -164,6 +176,7 @@
             "result": false,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": "Bilanzkreis nicht gültig.",
           "result_code": "A05"
         },
@@ -172,6 +185,7 @@
             "result": true,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -187,6 +201,7 @@
             "result": false,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": "ZRT nicht passend.",
           "result_code": "A16"
         },
@@ -195,6 +210,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -210,6 +226,7 @@
             "result": false,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": "Lieferrichtung nicht passend.",
           "result_code": "A07"
         },
@@ -218,6 +235,7 @@
             "result": true,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -233,6 +251,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Sonstige Qualitätsrückmeldung\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben / benennen.\nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -241,6 +260,7 @@
             "result": false,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -256,6 +276,7 @@
             "result": true,
             "subsequent_step_number": "130"
           },
+          "ebd_references": [],
           "note": "Stammdaten wurden für den angegebenen Verwendungszeitraum widerspruchsfrei übernommen.",
           "result_code": "A13"
         },
@@ -264,6 +285,7 @@
             "result": false,
             "subsequent_step_number": "130"
           },
+          "ebd_references": [],
           "note": "Stammdaten wurden übernommen \nHinweis A**: Es werden alle gemerkten Antwortcodes der vorhergehenden Prüfschritte für jeden fehlerhaft identifizierten Verwendungszeitraum der Daten unter Angabe der Zeitraum-ID übermittelt.",
           "result_code": "A**"
         }
@@ -279,6 +301,7 @@
             "result": true,
             "subsequent_step_number": "10"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -287,6 +310,7 @@
             "result": false,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }

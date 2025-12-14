@@ -34,6 +34,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene \nDer LF lehnt die Zahlung der Rechnung weiterhin ab, da der NB nicht alle Einwände des LF entkräften konnte.\nHinweis: Der Einwand ist in der Antwort zu beschreiben.",
           "result_code": "AC1"
         },
@@ -42,6 +43,7 @@
             "result": true,
             "subsequent_step_number": "1"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -57,6 +59,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer LF ist der Marktlokation nicht einen Tag des Abrechnungszeitraumes zugeordnet.",
           "result_code": "A01"
         },
@@ -65,6 +68,7 @@
             "result": true,
             "subsequent_step_number": "4"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -80,6 +84,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer LF ist dem gesamten Abrechnungszeitraum nicht der Marktlokation zugeordnet.\nHinweis: Der LF gibt den erwarteten Abrechnungszeitraum an.",
           "result_code": "A02"
         },
@@ -88,6 +93,7 @@
             "result": true,
             "subsequent_step_number": "7"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -103,6 +109,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer Rechnungsempfänger ist nicht Zahler der Rechnung.",
           "result_code": "A03"
         },
@@ -111,6 +118,7 @@
             "result": true,
             "subsequent_step_number": "10"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -126,6 +134,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer NB ist der Marktlokation nicht einen Tag des Abrechnungszeitraumes zugeordnet.",
           "result_code": "A04"
         },
@@ -134,6 +143,7 @@
             "result": true,
             "subsequent_step_number": "13"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -149,6 +159,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer NB ist im gesamten Abrechnungszeitraum nicht der Marktlokation zugeordnet.",
           "result_code": "A05"
         },
@@ -157,6 +168,7 @@
             "result": true,
             "subsequent_step_number": "16"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -172,6 +184,7 @@
             "result": true,
             "subsequent_step_number": "17"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -180,6 +193,7 @@
             "result": false,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -195,6 +209,7 @@
             "result": true,
             "subsequent_step_number": "18"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -203,6 +218,7 @@
             "result": false,
             "subsequent_step_number": "19"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -218,6 +234,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nIm Leistungszeitraum fand ein unterjähriger Netzbetreiberwechsel an der Marktlokation statt und es wurde im Segment Preise des Netzbetreibers (RFF+Z56) nicht der NBA der Marktlokation angegeben.",
           "result_code": "AF3"
         },
@@ -226,6 +243,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -241,6 +259,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nIm Leistungszeitraum fand ein unterjähriger Netzbetreiberwechsel an der Marktlokation statt und mindestens ein Preis ist nicht mit dem des NBA identisch.",
           "result_code": "AF5"
         },
@@ -249,6 +268,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -264,6 +284,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nRechnungsdatum liegt in der Zukunft.",
           "result_code": "A07"
         },
@@ -272,6 +293,7 @@
             "result": true,
             "subsequent_step_number": "22"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -287,6 +309,7 @@
             "result": true,
             "subsequent_step_number": "23"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -295,6 +318,7 @@
             "result": false,
             "subsequent_step_number": "26"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -310,6 +334,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nObwohl es sich um keine Abschlagsrechnung handelt, ist das Rechnungsdatum < das Ende des Abrechnungszeitraumes.",
           "result_code": "A08"
         },
@@ -318,6 +343,7 @@
             "result": true,
             "subsequent_step_number": "24"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -333,6 +359,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDie Frist für die Abschlagsrechnung wurde nicht eingehalten.",
           "result_code": "AC7"
         },
@@ -341,6 +368,7 @@
             "result": true,
             "subsequent_step_number": "25"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -356,6 +384,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDie Vorgabe, dass die Zahlung nachschüssig zu leisten ist, wurde nicht eingehalten.",
           "result_code": "AC8"
         },
@@ -364,6 +393,7 @@
             "result": true,
             "subsequent_step_number": "26"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -379,6 +409,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nRechnungsnummer wurde bereits verwendet.",
           "result_code": "A09"
         },
@@ -387,6 +418,7 @@
             "result": false,
             "subsequent_step_number": "27"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -402,6 +434,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nRechnung entspricht nicht §14 UStG.\nHinweis: Die Ablehnung ist zu begründen.",
           "result_code": "A06"
         },
@@ -410,6 +443,7 @@
             "result": false,
             "subsequent_step_number": "28"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -425,6 +459,7 @@
             "result": true,
             "subsequent_step_number": "31"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -433,6 +468,7 @@
             "result": false,
             "subsequent_step_number": "34"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -448,6 +484,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDas Zahlungsziel ist unterschritten.",
           "result_code": "A10"
         },
@@ -456,6 +493,7 @@
             "result": false,
             "subsequent_step_number": "37"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -471,6 +509,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDas Zahlungsziel ist überschritten.",
           "result_code": "A11"
         },
@@ -479,6 +518,7 @@
             "result": false,
             "subsequent_step_number": "37"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -494,6 +534,7 @@
             "result": true,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -502,6 +543,7 @@
             "result": false,
             "subsequent_step_number": "48"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -517,6 +559,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDas Nachrichtendatum der Sonderrechnung ist ≤ 01.01.2023 00:00 Uhr",
           "result_code": "A79"
         },
@@ -525,6 +568,7 @@
             "result": false,
             "subsequent_step_number": "43"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -540,6 +584,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDie Art der vorliegenden Abrechnung wurde bereits in einer vorherigen Sonderrechnung korrigiert.\nHinweis: Es sind alle betroffenen Sonderrechnungen anzugeben.",
           "result_code": "A80"
         },
@@ -548,6 +593,7 @@
             "result": false,
             "subsequent_step_number": "46"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -563,6 +609,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nZahlung der Rechnung avisieren und im Zahlungslauf berücksichtigen.",
           "result_code": null
         },
@@ -571,6 +618,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDie Sonderrechnung ist aus Sicht des Rechnungsempfängers nicht in Ordnung.\nHinweis: Die Ablehnung ist zu begründen.",
           "result_code": "A95"
         }
@@ -586,6 +634,7 @@
             "result": true,
             "subsequent_step_number": "54"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -594,6 +643,7 @@
             "result": false,
             "subsequent_step_number": "49"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -609,6 +659,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nAbrechnungszeitraum wird doppelt abgerechnet. \nHinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der ein Teil bzw. der Zeitraum des in dieser Rechnung abgerechneten Zeitraums bereits abgerechnet wurde.",
           "result_code": "A12"
         },
@@ -617,6 +668,7 @@
             "result": false,
             "subsequent_step_number": "52"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -632,6 +684,7 @@
             "result": true,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -640,6 +693,7 @@
             "result": false,
             "subsequent_step_number": "55"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -655,6 +709,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nAbrechnungszeitraum wird doppelt abgerechnet.\nHinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der ein Teil bzw. der Zeitraum des in dieser Rechnung abgerechneten Zeitraums bereits abgerechnet wurde.",
           "result_code": "AE1"
         },
@@ -663,6 +718,7 @@
             "result": false,
             "subsequent_step_number": "55"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -678,6 +734,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDem LF liegt zur Rechnung kein Lieferschein vor.",
           "result_code": "A13"
         },
@@ -686,6 +743,7 @@
             "result": true,
             "subsequent_step_number": "58"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -701,6 +759,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer Lieferschein zur Rechnung wurde storniert.",
           "result_code": "A14"
         },
@@ -709,6 +768,7 @@
             "result": true,
             "subsequent_step_number": "61"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -724,6 +784,7 @@
             "result": true,
             "subsequent_step_number": "64"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -732,6 +793,7 @@
             "result": false,
             "subsequent_step_number": "62"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -747,6 +809,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer Netzbetreiber hat die Rechnung übermittelt, bevor die Frist für die Rückmeldung auf den Lieferschein abgelaufen ist.",
           "result_code": "AE0"
         },
@@ -755,6 +818,7 @@
             "result": true,
             "subsequent_step_number": "67"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -770,6 +834,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDer Lieferschein zur Rechnung wurde erfolgreich abgelehnt und wurde nicht vom NB widersprochen und entkräftet.",
           "result_code": "A15"
         },
@@ -778,6 +843,7 @@
             "result": true,
             "subsequent_step_number": "67"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -793,6 +859,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nIm referenzierten Lieferschein ist nicht der gesamte Abrechnungszeitraum der Rechnung enthalten. \nHinweis: Der LF gibt den Zeitraum an, welcher nicht im referenzierten Lieferschein enthalten ist.",
           "result_code": "A16"
         },
@@ -801,6 +868,7 @@
             "result": true,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -816,6 +884,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nRechnungstyp passt nicht zu der vereinbarten Netznutzungsabrechnungsvariante.",
           "result_code": "A17"
         },
@@ -824,6 +893,7 @@
             "result": true,
             "subsequent_step_number": "73"
           },
+          "ebd_references": [],
           "note": "Nutzungshinweis: Der Rechnungstyp (13. Rechnung) 13R kann für Zeiträume ≥ 01.01.2023 00:00 Uhr nicht mehr genutzt werden.",
           "result_code": null
         }
@@ -839,6 +909,7 @@
             "result": true,
             "subsequent_step_number": "74"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -847,6 +918,7 @@
             "result": false,
             "subsequent_step_number": "82"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -862,6 +934,7 @@
             "result": true,
             "subsequent_step_number": "75"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -870,6 +943,7 @@
             "result": false,
             "subsequent_step_number": "76"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -885,6 +959,7 @@
             "result": true,
             "subsequent_step_number": "76"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -893,6 +968,7 @@
             "result": false,
             "subsequent_step_number": "77"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -908,6 +984,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDem LF liegt kein Preisblatt Netznutzung vor.",
           "result_code": "AF4"
         },
@@ -916,6 +993,7 @@
             "result": true,
             "subsequent_step_number": "79"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -931,6 +1009,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nDem LF liegt kein Preisblatt Netznutzung vor.",
           "result_code": "A18"
         },
@@ -939,6 +1018,7 @@
             "result": true,
             "subsequent_step_number": "79"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -954,6 +1034,7 @@
             "result": true,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -962,6 +1043,7 @@
             "result": false,
             "subsequent_step_number": "82"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -977,6 +1059,7 @@
             "result": true,
             "subsequent_step_number": "82"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -985,6 +1068,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nEs handelt sich um einen nicht zulässigen Rechnungstyp.\nNutzungshinweis: Der Rechnungstyp 13. Rechnung (13R) kann für Zeiträume, deren Beginndatum ≥ 01.01.2023 00:00 Uhr ist, nicht mehr genutzt werden.",
           "result_code": "A19"
         }
@@ -1000,6 +1084,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Kopfebene\nSonstiger Fehler in den Kopfdaten.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
           "result_code": "A90"
         },
@@ -1008,6 +1093,7 @@
             "result": false,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": "Hinweis: Ab hier beginnt die Prüfung auf Positionsebene.",
           "result_code": null
         }
@@ -1023,6 +1109,10 @@
             "result": true,
             "subsequent_step_number": "105"
           },
+          "ebd_references": [
+            "E_0407",
+            "E_0407"
+          ],
           "note": "Hinweis: \nDas vorliegende EBD E_0407_erneut Netznutzungsrechnung prüfen wird für diese Position nicht weiter durchgeführt und es werden keine Codes dieses EBD genutzt. Die Prüfung dieser Rechnungsposition erfolgt für diesen Prüfschritt ausschließlich nach der Prüflogik vor der Nutzung des elektronischen Netznutzungspreisblatts mit den entsprechenden Codes aus der Codeliste S_0104. \nWerden bei der Anwendung der Codeliste S_0104 Fehler festgestellt, so sind sich diese zu merken. Nach Abschluss der Prüfung der Rechnungsposition gegen die Codeliste S_0104 ist mit dem EBD E_0407_erneut Netznutzungsrechnung prüfen mit Prüfschritt 105 weiter fortzufahren.",
           "result_code": null
         },
@@ -1031,6 +1121,7 @@
             "result": false,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1046,6 +1137,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1054,6 +1146,7 @@
             "result": false,
             "subsequent_step_number": "800"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1069,6 +1162,7 @@
             "result": true,
             "subsequent_step_number": "115"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1077,6 +1171,7 @@
             "result": false,
             "subsequent_step_number": "125"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es handelt sich um eine Abschlagsrechnung (ABS).",
           "result_code": null
         }
@@ -1092,6 +1187,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Aufteilung der Position in < und ≥ 01.01.2023 00:00 Uhr ist nicht erfolgt.",
           "result_code": "A20"
         },
@@ -1100,6 +1196,7 @@
             "result": false,
             "subsequent_step_number": "125"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1115,6 +1212,7 @@
             "result": true,
             "subsequent_step_number": "230"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nFür den Positionszeitraum und dem Rechnungstyp ist keine Artikelnummer erlaubt.",
           "result_code": "A22"
         },
@@ -1123,6 +1221,7 @@
             "result": false,
             "subsequent_step_number": "125"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1138,6 +1237,7 @@
             "result": true,
             "subsequent_step_number": "130"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEin Rechenfehler liegt vor.\nHinweis: Der Rechenfehler wird in der Ablehnung mitgeteilt.",
           "result_code": "A23"
         },
@@ -1146,6 +1246,7 @@
             "result": false,
             "subsequent_step_number": "130"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1161,6 +1262,7 @@
             "result": false,
             "subsequent_step_number": "135"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer auf der Position enthaltene Umsatzsteuersatz ist nicht korrekt.",
           "result_code": "A24"
         },
@@ -1169,6 +1271,7 @@
             "result": true,
             "subsequent_step_number": "135"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1184,6 +1287,7 @@
             "result": true,
             "subsequent_step_number": "140"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDas Enddatum dieser Position > das Enddatum des Abrechnungszeitraums.",
           "result_code": "A25"
         },
@@ -1192,6 +1296,7 @@
             "result": false,
             "subsequent_step_number": "140"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1207,6 +1312,7 @@
             "result": true,
             "subsequent_step_number": "200"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1215,6 +1321,7 @@
             "result": false,
             "subsequent_step_number": "145"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1230,6 +1337,7 @@
             "result": true,
             "subsequent_step_number": "300"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1238,6 +1346,7 @@
             "result": false,
             "subsequent_step_number": "150"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1253,6 +1362,7 @@
             "result": true,
             "subsequent_step_number": "400"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1261,6 +1371,7 @@
             "result": false,
             "subsequent_step_number": "600"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es handelt sich um den Rechnungstyp Integrierte 13. Rechnung (13I).",
           "result_code": null
         }
@@ -1276,6 +1387,7 @@
             "result": false,
             "subsequent_step_number": "205"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Abschlagshöhe ist nicht plausibel.\nHinweis: Der LF teilt die erwartete Abschlagshöhe mit.",
           "result_code": "A26"
         },
@@ -1284,6 +1396,7 @@
             "result": true,
             "subsequent_step_number": "205"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1299,6 +1412,7 @@
             "result": true,
             "subsequent_step_number": "210"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDas Beginndatum des Positionszeitraums < das Beginndatum des Abrechnungszeitraums.",
           "result_code": "A81"
         },
@@ -1307,6 +1421,7 @@
             "result": false,
             "subsequent_step_number": "210"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1322,6 +1437,7 @@
             "result": true,
             "subsequent_step_number": "215"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nAbrechnungszeitraum wird doppelt abgerechnet.\nHinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der ein Teil bzw. der Zeitraum des in dieser Rechnung abgerechneten Zeitraums bereits abgerechnet wurde.",
           "result_code": "A27"
         },
@@ -1330,6 +1446,7 @@
             "result": false,
             "subsequent_step_number": "215"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1345,6 +1462,7 @@
             "result": true,
             "subsequent_step_number": "220"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nZu große Überlappung von Abschlagszeitraum.\nHinweis: Es ist die Abschlagsrechnung anzugeben, mit dem die Überlappung des Abrechnungszeitraum besteht.",
           "result_code": "A82"
         },
@@ -1353,6 +1471,7 @@
             "result": false,
             "subsequent_step_number": "220"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1368,6 +1487,7 @@
             "result": false,
             "subsequent_step_number": "225"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie in dieser Position verwendete Artikelnummer ist nicht gültig.",
           "result_code": "A28"
         },
@@ -1376,6 +1496,7 @@
             "result": true,
             "subsequent_step_number": "225"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1391,6 +1512,7 @@
             "result": true,
             "subsequent_step_number": "230"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
           "result_code": "A99"
         },
@@ -1399,6 +1521,7 @@
             "result": false,
             "subsequent_step_number": "230"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1414,6 +1537,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1422,6 +1546,7 @@
             "result": false,
             "subsequent_step_number": "800"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1437,6 +1562,7 @@
             "result": true,
             "subsequent_step_number": "305"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDas Beginndatum des Positionszeitraums < das Beginndatum des Abrechnungszeitraums.",
           "result_code": "A83"
         },
@@ -1445,6 +1571,7 @@
             "result": false,
             "subsequent_step_number": "305"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1460,6 +1587,7 @@
             "result": false,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie in der angegebenen Position verwendete Artikel-ID hätte nicht für den gesamten Positionszeitraum aufgeführt werden dürfen.\nHinweis: Der Lieferant gibt innerhalb des Positionszeitraums den Zeitraum an, in dem diese Artikel-ID nicht gültig ist.",
           "result_code": "A84"
         },
@@ -1468,6 +1596,7 @@
             "result": true,
             "subsequent_step_number": "315"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1483,6 +1612,7 @@
             "result": true,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDas Stammdatum der Position ist aus Sicht des LF falsch.",
           "result_code": "A85"
         },
@@ -1491,6 +1621,7 @@
             "result": false,
             "subsequent_step_number": "320"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1506,6 +1637,7 @@
             "result": false,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDiese Artikel-ID ist für diesen Rechnungstyp in dem besagtem Positionszeitraum nicht zulässig.",
           "result_code": "A31"
         },
@@ -1514,6 +1646,7 @@
             "result": true,
             "subsequent_step_number": "322"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1529,6 +1662,7 @@
             "result": true,
             "subsequent_step_number": "345"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1537,6 +1671,7 @@
             "result": false,
             "subsequent_step_number": "325"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1552,6 +1687,7 @@
             "result": false,
             "subsequent_step_number": "326"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nZu- oder Abschlag wurden nicht, wie in den Stammdaten ausgetauscht, berücksichtigt.",
           "result_code": "A32"
         },
@@ -1560,6 +1696,7 @@
             "result": true,
             "subsequent_step_number": "326"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1575,6 +1712,7 @@
             "result": true,
             "subsequent_step_number": "327"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1583,6 +1721,7 @@
             "result": false,
             "subsequent_step_number": "330"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1598,6 +1737,7 @@
             "result": true,
             "subsequent_step_number": "328"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1606,6 +1746,7 @@
             "result": false,
             "subsequent_step_number": "330"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1621,6 +1762,7 @@
             "result": false,
             "subsequent_step_number": "335"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung ab, da die Summe der Mengen nicht zum Lieferschein passt.",
           "result_code": "AE2"
         },
@@ -1629,6 +1771,7 @@
             "result": true,
             "subsequent_step_number": "335"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1644,6 +1787,7 @@
             "result": false,
             "subsequent_step_number": "335"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht zu den Mengen auf dem übermittelten Lieferschein übereinstimmen.",
           "result_code": "A33"
         },
@@ -1652,6 +1796,7 @@
             "result": true,
             "subsequent_step_number": "335"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1667,6 +1812,7 @@
             "result": false,
             "subsequent_step_number": "340"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs fehlt/fehlen die Energiemenge(n) und wurde(n) bereits per ORDERS reklamiert. \nHinweis: Der LF gibt die Geschäftsvorfallnummer der ORDERS an, mit der die fehlende Energiemenge reklamiert wurden.",
           "result_code": "A34"
         },
@@ -1675,6 +1821,7 @@
             "result": true,
             "subsequent_step_number": "340"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1690,6 +1837,7 @@
             "result": false,
             "subsequent_step_number": "345"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs fehlen Werte vom MSB bzw. es wurden fehlerhafte Werte vom MSB gesendet und diese wurden bereits per ORDERS reklamiert. \nHinweis: Der LF gibt die Geschäftsvorfallnummer der ORDERS an, mit der die fehlenden Werte bzw. fehlerhafte Werte reklamiert wurden.",
           "result_code": "A39"
         },
@@ -1698,6 +1846,7 @@
             "result": true,
             "subsequent_step_number": "345"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1713,6 +1862,7 @@
             "result": false,
             "subsequent_step_number": "355"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1721,6 +1871,7 @@
             "result": true,
             "subsequent_step_number": "350"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1736,6 +1887,7 @@
             "result": false,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis für den Artikel ist falsch.\nHinweis: Der LF teilt den erwarteten Preis zur Artikel-ID mit.",
           "result_code": "A35"
         },
@@ -1744,6 +1896,7 @@
             "result": true,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1759,6 +1912,7 @@
             "result": false,
             "subsequent_step_number": "365"
           },
+          "ebd_references": [],
           "note": "Hinweis: Höchstsätze der Konzessionsabgabenverordnung werden weder über das Preisblatt noch über die Stammdaten ausgetauscht.",
           "result_code": null
         },
@@ -1767,6 +1921,7 @@
             "result": true,
             "subsequent_step_number": "360"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1782,6 +1937,7 @@
             "result": false,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis für den Artikel ist falsch.\nHinweis: Der LF teilt den erwarteten Preis zur Artikel-ID mit.",
           "result_code": "A36"
         },
@@ -1790,6 +1946,7 @@
             "result": true,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1805,6 +1962,7 @@
             "result": false,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis wurde nicht angeben (weder im Preisblatt noch über Stammdaten) und ist auch nicht über „gesetzliche Vorgaben“ bekannt.",
           "result_code": "A37"
         },
@@ -1813,6 +1971,7 @@
             "result": true,
             "subsequent_step_number": "370"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1828,6 +1987,7 @@
             "result": false,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer NB hat den falschen Preis für die gesetzliche festgelegte Umlage bzw. Abgabe benutzt. \nHinweis: Der LF gibt den erwarteten Preis für die gesetzliche Umlage bzw. Abgabe an.",
           "result_code": "A38"
         },
@@ -1836,6 +1996,7 @@
             "result": true,
             "subsequent_step_number": "395"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1851,6 +2012,7 @@
             "result": true,
             "subsequent_step_number": "399"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
           "result_code": "A99"
         },
@@ -1859,6 +2021,7 @@
             "result": false,
             "subsequent_step_number": "399"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1874,6 +2037,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1882,6 +2046,7 @@
             "result": false,
             "subsequent_step_number": "800"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1897,6 +2062,7 @@
             "result": true,
             "subsequent_step_number": "415"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -1905,6 +2071,7 @@
             "result": false,
             "subsequent_step_number": "405"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1920,6 +2087,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie in der angegebenen Position verwendete Artikel-ID hätte nicht für den gesamten Positionszeitraum aufgeführt werden dürfen.\nHinweis: Der Lieferant gibt innerhalb des Positionszeitraums den Zeitraum an, in dem diese Artikel-ID nicht gültig ist.",
           "result_code": "A46"
         },
@@ -1928,6 +2096,7 @@
             "result": true,
             "subsequent_step_number": "410"
           },
+          "ebd_references": [],
           "note": "Hinweis: Der NB rechnet die Konzessionsabgabe für Sondervertragskunden ab, obwohl für diese Marktlokation die Konzessionsabgabe für Tarifkunde vereinbart wurde. Diese Vorgehensweise ist erlaubt, da eine Änderung der Artikel-ID über eine Stammdatenänderung nicht möglich ist.",
           "result_code": null
         }
@@ -1943,6 +2112,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs wird die Sondervertragskunden-Konzessionsabgabe abgerechnet, obwohl keine Abrechnung der Konzessionsabgabe über den Stammdatenaustausch vereinbart wurde.",
           "result_code": "AC9"
         },
@@ -1951,6 +2121,7 @@
             "result": true,
             "subsequent_step_number": "430"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1966,6 +2137,7 @@
             "result": true,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDiese Artikel-ID ist für diesen Rechnungstyp in dem besagten Positionszeitraum nicht zulässig.",
           "result_code": "A43"
         },
@@ -1974,6 +2146,7 @@
             "result": false,
             "subsequent_step_number": "420"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -1989,6 +2162,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDiese Artikel-ID ist für diesen Rechnungstyp in dem besagtem Positionszeitraum nicht zulässig.",
           "result_code": "A42"
         },
@@ -1997,6 +2171,7 @@
             "result": true,
             "subsequent_step_number": "422"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2012,6 +2187,7 @@
             "result": true,
             "subsequent_step_number": "427"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2020,6 +2196,7 @@
             "result": false,
             "subsequent_step_number": "424"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2035,6 +2212,7 @@
             "result": true,
             "subsequent_step_number": "430"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2043,6 +2221,7 @@
             "result": false,
             "subsequent_step_number": "425"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2058,6 +2237,7 @@
             "result": false,
             "subsequent_step_number": "427"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nZu- oder Abschlag wurden nicht, wie in den Stammdaten ausgetauscht, berücksichtigt.",
           "result_code": "A44"
         },
@@ -2066,6 +2246,7 @@
             "result": true,
             "subsequent_step_number": "427"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2081,6 +2262,7 @@
             "result": true,
             "subsequent_step_number": "491"
           },
+          "ebd_references": [],
           "note": "Hinweis: Mit einer physikalischen Leistung wird keine Resultierende und keine korrespondierende Resultierende gebildet.",
           "result_code": null
         },
@@ -2089,6 +2271,7 @@
             "result": false,
             "subsequent_step_number": "430"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2104,6 +2287,7 @@
             "result": true,
             "subsequent_step_number": "435"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2112,6 +2296,7 @@
             "result": false,
             "subsequent_step_number": "445"
           },
+          "ebd_references": [],
           "note": "Hinweis: Diese Position ist die Resultierende, mit der die weiteren Prüfungen durchgeführt werden.",
           "result_code": null
         }
@@ -2127,6 +2312,7 @@
             "result": true,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es wurde noch nicht die letzte Position mit dieser Artikel-ID erreicht und somit wird noch nicht die Resultierende ermittelt.",
           "result_code": null
         },
@@ -2135,6 +2321,7 @@
             "result": false,
             "subsequent_step_number": "440"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es wurde die letzte Position mit dieser Artikel-ID erreicht. Somit kann und wird nun die Resultierende dieser Artikel-ID ermittelt.",
           "result_code": null
         }
@@ -2150,6 +2337,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Ermittlung der Resultierenden mit dieser Artikel-ID ist gescheitert.",
           "result_code": "A87"
         },
@@ -2158,6 +2346,7 @@
             "result": true,
             "subsequent_step_number": "445"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2173,6 +2362,7 @@
             "result": true,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Resultierende ist < 01.01.2023 00:00 Uhr.",
           "result_code": "A88"
         },
@@ -2181,6 +2371,7 @@
             "result": false,
             "subsequent_step_number": "450"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2196,6 +2387,7 @@
             "result": true,
             "subsequent_step_number": "455"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2204,6 +2396,7 @@
             "result": false,
             "subsequent_step_number": "470"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2219,6 +2412,7 @@
             "result": true,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Hinweis: Bei der hier gebildeten Resultierenden handelt es sich um Rücknahmepositionen und damit um das, was in der Prüfung 460 als korrespondierende Resultierende benötigt wird und darf damit nicht im Rechnungsprüfungsprozess als Resultierende genutzt werden.",
           "result_code": null
         },
@@ -2227,6 +2421,7 @@
             "result": false,
             "subsequent_step_number": "458"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2242,6 +2437,7 @@
             "result": true,
             "subsequent_step_number": "460"
           },
+          "ebd_references": [],
           "note": "Hinweis: Zu der Resultierenden muss, um den Prüfschritt 460 durchführen zu können, auch die korrespondierende Resultierende gebildet werden.",
           "result_code": null
         },
@@ -2250,6 +2446,7 @@
             "result": false,
             "subsequent_step_number": "470"
           },
+          "ebd_references": [],
           "note": "Hinweis: Umfasst die Resultierende maximal einen Kalendermonat, kann es zur Resultierenden keine korrespondierende Resultierende geben.",
           "result_code": null
         }
@@ -2265,6 +2462,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Resultierende passt nicht zur korrespondierenden Resultierenden.",
           "result_code": "A89"
         },
@@ -2273,6 +2471,7 @@
             "result": true,
             "subsequent_step_number": "465"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2288,6 +2487,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs wurden nicht alle Positionen vorangegangener MVR Rechnungen zurückgenommen.\nHinweis: Es sind die Rechnungsnummern der MVR anzugeben.",
           "result_code": "AA1"
         },
@@ -2296,6 +2496,7 @@
             "result": true,
             "subsequent_step_number": "470"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2311,6 +2512,7 @@
             "result": true,
             "subsequent_step_number": "471"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2319,6 +2521,7 @@
             "result": false,
             "subsequent_step_number": "495"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2334,6 +2537,7 @@
             "result": true,
             "subsequent_step_number": "472"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2342,6 +2546,7 @@
             "result": false,
             "subsequent_step_number": "475"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2357,6 +2562,7 @@
             "result": true,
             "subsequent_step_number": "473"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2365,6 +2571,7 @@
             "result": false,
             "subsequent_step_number": "475"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2380,6 +2587,7 @@
             "result": true,
             "subsequent_step_number": "480"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2388,6 +2596,7 @@
             "result": false,
             "subsequent_step_number": "480"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung ab, da die Summe der Mengen nicht zum Lieferschein passt.",
           "result_code": "AE3"
         }
@@ -2403,6 +2612,7 @@
             "result": false,
             "subsequent_step_number": "480"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht zu den Mengen auf dem übermittelten Lieferschein übereinstimmen. \nBefüllungshinweis: „Identifikation der Zeile/Position im Dokument“: Der LF gibt die größte Positionsnummer der Artikel-ID mit, bei der die Resultierende der Rechnung nicht der Menge aus dem Lieferschein entspricht.",
           "result_code": "A45"
         },
@@ -2411,6 +2621,7 @@
             "result": true,
             "subsequent_step_number": "480"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2426,6 +2637,7 @@
             "result": true,
             "subsequent_step_number": "495"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2434,6 +2646,7 @@
             "result": false,
             "subsequent_step_number": "485"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2449,6 +2662,7 @@
             "result": true,
             "subsequent_step_number": "490"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs fehlen Werte vom MSB bzw. es wurden fehlerhafte Werte vom MSB gesendet und diese wurden bereits per ORDERS reklamiert.\nHinweis: Der LF gibt die Geschäftsvorfallnummer der ORDERS an, mit der die fehlenden Werte bzw. fehlerhafte Werte reklamiert wurden.",
           "result_code": "AA2"
         },
@@ -2457,6 +2671,7 @@
             "result": false,
             "subsequent_step_number": "490"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2472,6 +2687,7 @@
             "result": true,
             "subsequent_step_number": "495"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nAufgrund des unterjährigen Lieferantenwechsels fehlt das Leistungsmaximum und die Energiemenge für den Zeitraum des Jahres vor dem Lieferantenwechsel, die der NB hätte senden müssen.",
           "result_code": "AA3"
         },
@@ -2480,6 +2696,7 @@
             "result": false,
             "subsequent_step_number": "495"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2495,6 +2712,7 @@
             "result": true,
             "subsequent_step_number": "495"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es handelt sich um eine Rücknahmeposition",
           "result_code": null
         },
@@ -2503,6 +2721,7 @@
             "result": false,
             "subsequent_step_number": "492"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2518,6 +2737,7 @@
             "result": true,
             "subsequent_step_number": "599"
           },
+          "ebd_references": [],
           "note": "Hinweis: Diese Position ist für die Rechnungsprüfung irrelevant, da sie keine Kosten verursacht. Somit kann sie ungeprüft übersprungen werden",
           "result_code": null
         },
@@ -2526,6 +2746,7 @@
             "result": false,
             "subsequent_step_number": "494"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2541,6 +2762,7 @@
             "result": false,
             "subsequent_step_number": "495"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht mit dem Leistungsmaximum des Lieferscheins übereinstimmt.",
           "result_code": "AA8"
         },
@@ -2549,6 +2771,7 @@
             "result": true,
             "subsequent_step_number": "495"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2564,6 +2787,7 @@
             "result": true,
             "subsequent_step_number": "500"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2572,6 +2796,7 @@
             "result": false,
             "subsequent_step_number": "505"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2587,6 +2812,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis für den Artikel ist falsch.\nHinweis: Der LF teilt den erwarteten Preis zur Artikel-ID mit.",
           "result_code": "A47"
         },
@@ -2595,6 +2821,7 @@
             "result": true,
             "subsequent_step_number": "502"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2610,6 +2837,7 @@
             "result": true,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Hinweis: Prüfung einer Position mit Leistung",
           "result_code": null
         },
@@ -2618,6 +2846,7 @@
             "result": false,
             "subsequent_step_number": "530"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2633,6 +2862,7 @@
             "result": false,
             "subsequent_step_number": "513"
           },
+          "ebd_references": [],
           "note": "Hinweis: Preise der betroffenen Artikel-ID werden weder über das Preisblatt noch über die Stammdaten ausgetauscht.",
           "result_code": null
         },
@@ -2641,6 +2871,7 @@
             "result": true,
             "subsequent_step_number": "510"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2656,6 +2887,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis für den Artikel ist falsch.\nHinweis: Der LF teilt den erwarteten Preis zur Artikel-ID mit.",
           "result_code": "A48"
         },
@@ -2664,6 +2896,7 @@
             "result": true,
             "subsequent_step_number": "530"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2679,6 +2912,7 @@
             "result": false,
             "subsequent_step_number": "515"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2687,6 +2921,7 @@
             "result": true,
             "subsequent_step_number": "528"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2702,6 +2937,7 @@
             "result": true,
             "subsequent_step_number": "525"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2710,6 +2946,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis wurde nicht angeben (weder im Preisblatt noch über Stammdaten) und ist auch nicht über „gesetzliche Vorgaben“ bekannt.",
           "result_code": "A60"
         }
@@ -2725,6 +2962,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer NB hat den falschen Preis für die gesetzliche festgelegte Umlage bzw. Abgabe benutzt.\nHinweis: Der LF gibt den erwarteten Preis für die gesetzliche Umlage bzw. Abgabe an.",
           "result_code": "A50"
         },
@@ -2733,6 +2971,7 @@
             "result": true,
             "subsequent_step_number": "528"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2748,6 +2987,7 @@
             "result": true,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Hinweis: Prüfung einer Position mit physikalischer Leistung",
           "result_code": null
         },
@@ -2756,6 +2996,7 @@
             "result": false,
             "subsequent_step_number": "530"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2771,6 +3012,7 @@
             "result": true,
             "subsequent_step_number": "535"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nAbrechnungszeitraum der Resultierenden wird doppelt abgerechnet\nHinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der diese Position bereits abgerechnet wurde.",
           "result_code": "A51"
         },
@@ -2779,6 +3021,7 @@
             "result": false,
             "subsequent_step_number": "535"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2794,6 +3037,7 @@
             "result": true,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs fand im Zeitraum der Resultierenden ein Anschlussnutzerwechsel statt.",
           "result_code": "AA4"
         },
@@ -2802,6 +3046,7 @@
             "result": false,
             "subsequent_step_number": "540"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2817,6 +3062,7 @@
             "result": true,
             "subsequent_step_number": "555"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2825,6 +3071,7 @@
             "result": false,
             "subsequent_step_number": "560"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2840,6 +3087,7 @@
             "result": true,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie abzurechnende Leistung wurde bereits in einer vorangegangenen MVR abgerechnet.\nHinweis: Der LF gibt die Referenz der Rechnungen (MVR) an, in denen die abzurechnende Leistung bereits abgerechnet wurde.",
           "result_code": "AA6"
         },
@@ -2848,6 +3096,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2863,6 +3112,7 @@
             "result": true,
             "subsequent_step_number": "561"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2871,6 +3121,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2886,6 +3137,7 @@
             "result": true,
             "subsequent_step_number": "563"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nIn derselben Rechnung wird die Konzessionsabgabe einmal für Tarifkunden und für Sondervertragskunden berechnet.",
           "result_code": "AD0"
         },
@@ -2894,6 +3146,7 @@
             "result": false,
             "subsequent_step_number": "563"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2909,6 +3162,7 @@
             "result": true,
             "subsequent_step_number": "565"
           },
+          "ebd_references": [],
           "note": "Hinweis: die Artikel-ID umfasst mehr als einen Abrechnungsmonat",
           "result_code": null
         },
@@ -2917,6 +3171,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Hinweis: die Artikel-ID berücksichtigt maximal einen Kalendermonat",
           "result_code": null
         }
@@ -2932,6 +3187,7 @@
             "result": false,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Konzessionsabgabe für Tarifkunden wurde bereits in einer vorangegangenen MVR abgerechnet und wurde nicht zurückgenommen.\nHinweis: Der LF gibt die Referenz der Rechnungen (MVR) an, in denen die Konzessionsabgabe bereits abgerechnet wurde.",
           "result_code": "AA7"
         },
@@ -2940,6 +3196,7 @@
             "result": true,
             "subsequent_step_number": "595"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2955,6 +3212,7 @@
             "result": true,
             "subsequent_step_number": "599"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
           "result_code": "A99"
         },
@@ -2963,6 +3221,7 @@
             "result": false,
             "subsequent_step_number": "599"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -2978,6 +3237,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -2986,6 +3246,7 @@
             "result": false,
             "subsequent_step_number": "800"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3001,6 +3262,7 @@
             "result": true,
             "subsequent_step_number": "615"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3009,6 +3271,7 @@
             "result": false,
             "subsequent_step_number": "605"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3024,6 +3287,7 @@
             "result": false,
             "subsequent_step_number": "607"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3032,6 +3296,7 @@
             "result": true,
             "subsequent_step_number": "610"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3047,6 +3312,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie in der angegebenen Position verwendete Artikel-ID hätte nicht für den gesamten Positionszeitraum aufgeführt werden dürfen.\nHinweis: Der Lieferant gibt innerhalb des Positionszeitraums den Zeitraum an, in dem diese Artikel-ID nicht gültig ist.",
           "result_code": "A77"
         },
@@ -3055,6 +3321,7 @@
             "result": true,
             "subsequent_step_number": "615"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3070,6 +3337,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs wird die Sondervertragskunden-Konzessionsabgabe abgerechnet, obwohl keine Abrechnung der Konzessionsabgabe über den Stammdatenaustausch vereinbart wurde.",
           "result_code": "AD1"
         },
@@ -3078,6 +3346,7 @@
             "result": true,
             "subsequent_step_number": "630"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3093,6 +3362,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDiese Artikel-ID ist für diesen Rechnungstyp nicht zulässig.",
           "result_code": "A53"
         },
@@ -3101,6 +3371,7 @@
             "result": false,
             "subsequent_step_number": "620"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3116,6 +3387,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDiese Artikel-ID ist für diesen Rechnungstyp in dem besagtem Positionszeitraum nicht zulässig.",
           "result_code": "A54"
         },
@@ -3124,6 +3396,7 @@
             "result": true,
             "subsequent_step_number": "622"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3139,6 +3412,7 @@
             "result": true,
             "subsequent_step_number": "627"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3147,6 +3421,7 @@
             "result": false,
             "subsequent_step_number": "624"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3162,6 +3437,7 @@
             "result": true,
             "subsequent_step_number": "630"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3170,6 +3446,7 @@
             "result": false,
             "subsequent_step_number": "625"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3185,6 +3462,7 @@
             "result": false,
             "subsequent_step_number": "627"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nZu- oder Abschlag wurden nicht, wie in den Stammdaten ausgetauscht, berücksichtigt.",
           "result_code": "A55"
         },
@@ -3193,6 +3471,7 @@
             "result": true,
             "subsequent_step_number": "627"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3208,6 +3487,7 @@
             "result": true,
             "subsequent_step_number": "676"
           },
+          "ebd_references": [],
           "note": "Hinweis: Mit einer physikalischen Leistung wird keine Resultierende und keine korrespondierende Resultierende gebildet.",
           "result_code": null
         },
@@ -3216,6 +3496,7 @@
             "result": false,
             "subsequent_step_number": "630"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3231,6 +3512,7 @@
             "result": true,
             "subsequent_step_number": "635"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3239,6 +3521,7 @@
             "result": false,
             "subsequent_step_number": "645"
           },
+          "ebd_references": [],
           "note": "Hinweis: Diese Position ist die Resultierende, mit der die weiteren Prüfungen durchgeführt werden.",
           "result_code": null
         }
@@ -3254,6 +3537,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es wurde noch nicht die letzte Position mit dieser Artikel-ID erreicht und somit wird noch nicht die Resultierende ermittelt",
           "result_code": null
         },
@@ -3262,6 +3546,7 @@
             "result": false,
             "subsequent_step_number": "640"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es wurde die letzte Position mit dieser Artikel-ID erreicht. Somit kann und wird nun die Resultierende dieser Artikel-ID ermittelt",
           "result_code": null
         }
@@ -3277,6 +3562,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Ermittlung der Resultierenden mit dieser Artikel-ID ist gescheitert.",
           "result_code": "AA9"
         },
@@ -3285,6 +3571,7 @@
             "result": true,
             "subsequent_step_number": "645"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3300,6 +3587,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Resultierende < 01.01.2023 00:00 Uhr.",
           "result_code": "AB1"
         },
@@ -3308,6 +3596,7 @@
             "result": false,
             "subsequent_step_number": "650"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3323,6 +3612,7 @@
             "result": true,
             "subsequent_step_number": "651"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3331,6 +3621,7 @@
             "result": false,
             "subsequent_step_number": "680"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3346,6 +3637,7 @@
             "result": true,
             "subsequent_step_number": "652"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3354,6 +3646,7 @@
             "result": false,
             "subsequent_step_number": "660"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3369,6 +3662,7 @@
             "result": true,
             "subsequent_step_number": "653"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3377,6 +3671,7 @@
             "result": false,
             "subsequent_step_number": "660"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3392,6 +3687,7 @@
             "result": false,
             "subsequent_step_number": "665"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung ab, da die Summe der Mengen nicht zum Lieferschein passt.",
           "result_code": "AE4"
         },
@@ -3400,6 +3696,7 @@
             "result": true,
             "subsequent_step_number": "665"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3415,6 +3712,7 @@
             "result": false,
             "subsequent_step_number": "665"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht zu den Mengen auf dem übermittelten Lieferschein übereinstimmen. \nBefüllungshinweis: „Identifikation der Zeile/Position im Dokument“: Der LF gibt die größte Positionsnummer der Artikel-ID mit, bei der die Resultierende der Rechnung nicht der Menge aus dem Lieferschein entspricht.",
           "result_code": "A56"
         },
@@ -3423,6 +3721,7 @@
             "result": true,
             "subsequent_step_number": "665"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3438,6 +3737,7 @@
             "result": true,
             "subsequent_step_number": "680"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3446,6 +3746,7 @@
             "result": false,
             "subsequent_step_number": "670"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3461,6 +3762,7 @@
             "result": true,
             "subsequent_step_number": "675"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs fehlen Werte vom MSB bzw. es wurden fehlerhafte Werte vom MSB gesendet und diese wurden bereits per ORDERS reklamiert. \nHinweis: Der LF gibt die Geschäftsvorfallnummer der ORDERS an, mit der die fehlenden Werte bzw. fehlerhafte Werte reklamiert wurden.",
           "result_code": "AB2"
         },
@@ -3469,6 +3771,7 @@
             "result": false,
             "subsequent_step_number": "675"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3484,6 +3787,7 @@
             "result": true,
             "subsequent_step_number": "680"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nAufgrund des unterjährigen Lieferantenwechsels fehlt das Leistungsmaximum und die Energiemenge für den Zeitraum des Jahres vor dem Lieferantenwechsel, die der NB hätte senden müssen.",
           "result_code": "AB3"
         },
@@ -3492,6 +3796,7 @@
             "result": false,
             "subsequent_step_number": "680"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3507,6 +3812,7 @@
             "result": true,
             "subsequent_step_number": "680"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es handelt sich um eine Rücknahmeposition",
           "result_code": null
         },
@@ -3515,6 +3821,7 @@
             "result": false,
             "subsequent_step_number": "677"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3530,6 +3837,7 @@
             "result": false,
             "subsequent_step_number": "680"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung mit dem Verweis auf die Position ab, welche nicht mit dem Leistungsmaximum des Lieferscheins übereinstimmt.",
           "result_code": "AC6"
         },
@@ -3538,6 +3846,7 @@
             "result": true,
             "subsequent_step_number": "680"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3553,6 +3862,7 @@
             "result": true,
             "subsequent_step_number": "685"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3561,6 +3871,7 @@
             "result": false,
             "subsequent_step_number": "690"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3576,6 +3887,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis für den Artikel ist falsch.\nHinweis: Der LF teilt den erwarteten Preis zur Artikel-ID mit.",
           "result_code": "A58"
         },
@@ -3584,6 +3896,7 @@
             "result": true,
             "subsequent_step_number": "687"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3599,6 +3912,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Hinweis: Prüfung einer Position mit physikalischer Leistung",
           "result_code": null
         },
@@ -3607,6 +3921,7 @@
             "result": false,
             "subsequent_step_number": "715"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3622,6 +3937,7 @@
             "result": true,
             "subsequent_step_number": "695"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3630,6 +3946,7 @@
             "result": false,
             "subsequent_step_number": "698"
           },
+          "ebd_references": [],
           "note": "Hinweis: Preise der betroffenen Artikel-ID werden weder über das Preisblatt noch über die Stammdaten ausgetauscht.",
           "result_code": null
         }
@@ -3645,6 +3962,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis für den Artikel ist falsch.\nHinweis: Der LF teilt den erwarteten Preis zur Artikel-ID mit.",
           "result_code": "A59"
         },
@@ -3653,6 +3971,7 @@
             "result": true,
             "subsequent_step_number": "715"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3668,6 +3987,7 @@
             "result": false,
             "subsequent_step_number": "700"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3676,6 +3996,7 @@
             "result": true,
             "subsequent_step_number": "712"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3691,6 +4012,7 @@
             "result": true,
             "subsequent_step_number": "710"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3699,6 +4021,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer Preis wurde nicht angeben (weder im Preisblatt noch über Stammdaten) und ist auch nicht über „gesetzliche Vorgaben“ bekannt.",
           "result_code": "AC2"
         }
@@ -3714,6 +4037,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer NB hat den falschen Preis für die gesetzliche festgelegte Umlage bzw. Abgabe benutzt. \nHinweis: Der LF gibt den erwarteten Preis für die gesetzliche Umlage bzw. Abgabe an.",
           "result_code": "A61"
         },
@@ -3722,6 +4046,7 @@
             "result": true,
             "subsequent_step_number": "712"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3737,6 +4062,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Hinweis: Prüfung einer Position mit physikalischer Leistung",
           "result_code": null
         },
@@ -3745,6 +4071,7 @@
             "result": false,
             "subsequent_step_number": "715"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3760,6 +4087,7 @@
             "result": true,
             "subsequent_step_number": "720"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nAbrechnungszeitraum der Resultierenden wird doppelt abgerechnet.\nHinweis: Der LF nennt die Rechnungsnummer der Rechnung, in der diese Position bereits abgerechnet wurde.",
           "result_code": "A62"
         },
@@ -3768,6 +4096,7 @@
             "result": false,
             "subsequent_step_number": "720"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3783,6 +4112,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs fand im Zeitraum der Resultierenden ein Anschlussnutzerwechsel statt.",
           "result_code": "AB4"
         },
@@ -3791,6 +4121,7 @@
             "result": false,
             "subsequent_step_number": "725"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3806,6 +4137,7 @@
             "result": true,
             "subsequent_step_number": "730"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3814,6 +4146,7 @@
             "result": false,
             "subsequent_step_number": "770"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3829,6 +4162,7 @@
             "result": true,
             "subsequent_step_number": "735"
           },
+          "ebd_references": [],
           "note": "Hinweis: Der NB kann nur Artikel-IDs aus Jahresbenutzungsstundendauer ≥ 2.500 h/a in Rechnung stellen.",
           "result_code": null
         },
@@ -3837,6 +4171,7 @@
             "result": false,
             "subsequent_step_number": "755"
           },
+          "ebd_references": [],
           "note": "Hinweis: Der NB kann nur Artikel-IDs aus Jahresbenutzungsstundendauer< 2.500 h/a in Rechnung stellen.",
           "result_code": null
         }
@@ -3852,6 +4187,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3860,6 +4196,7 @@
             "result": false,
             "subsequent_step_number": "740"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3875,6 +4212,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nFalsche Artikel-ID verwendet.",
           "result_code": "AB5"
         },
@@ -3883,6 +4221,7 @@
             "result": true,
             "subsequent_step_number": "765"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3898,6 +4237,7 @@
             "result": false,
             "subsequent_step_number": "760"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3906,6 +4246,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3921,6 +4262,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nFalsche Artikel-ID verwendet.",
           "result_code": "AB7"
         },
@@ -3929,6 +4271,7 @@
             "result": true,
             "subsequent_step_number": "765"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3944,6 +4287,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs liegt eine der beiden Fehlersituationen vor:\n1) Es werden zu wenige bzw. zu viele Positionen aus den vorangegangenen MVR zurückgenommen.\n2) Es wurde die Artikel-ID für die falschen Benutzungsstunden abgerechnet.",
           "result_code": "A63"
         },
@@ -3952,6 +4296,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3967,6 +4312,7 @@
             "result": true,
             "subsequent_step_number": "775"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -3975,6 +4321,7 @@
             "result": false,
             "subsequent_step_number": "772"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -3990,6 +4337,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie abzurechnende Leistung wurde bereits in einer vorangegangenen MVR abgerechnet.\nHinweis: Der LF gibt die Referenz der Rechnungen (MVR) an, in denen die abzurechnende Leistung bereits abgerechnet wurde.",
           "result_code": "AB8"
         },
@@ -3998,6 +4346,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4013,6 +4362,7 @@
             "result": true,
             "subsequent_step_number": "781"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4021,6 +4371,7 @@
             "result": false,
             "subsequent_step_number": "780"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4036,6 +4387,7 @@
             "result": false,
             "subsequent_step_number": "794"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4044,6 +4396,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Konzessionsabgabe wurde bereits in einer vorangegangenen MVR abgerechnet.\nHinweis: Der LF gibt die Referenz der Rechnungen (MVR) an, in denen die Konzessionsabgabe bereits abgerechnet wurde.",
           "result_code": "AD6"
         }
@@ -4059,6 +4412,7 @@
             "result": true,
             "subsequent_step_number": "782"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4067,6 +4421,7 @@
             "result": false,
             "subsequent_step_number": "786"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4082,6 +4437,7 @@
             "result": true,
             "subsequent_step_number": "784"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4090,6 +4446,7 @@
             "result": false,
             "subsequent_step_number": "783"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4105,6 +4462,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nMit den Rücknahmepositionen werden nicht alle bereits bezahlten Konzessionsbeträge vollständig zurückgenommen.",
           "result_code": "AD5"
         },
@@ -4113,6 +4471,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4128,6 +4487,7 @@
             "result": true,
             "subsequent_step_number": "794"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4136,6 +4496,7 @@
             "result": false,
             "subsequent_step_number": "785"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4151,6 +4512,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nEs wird die falsche Konzessionsabgabe für das Kalenderjahr abgerechnet.",
           "result_code": "AD3"
         },
@@ -4159,6 +4521,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4174,6 +4537,7 @@
             "result": true,
             "subsequent_step_number": "787"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4182,6 +4546,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Konzessionsabgabe wird falsch abgerechnet.",
           "result_code": "AD7"
         }
@@ -4197,6 +4562,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nKonzessionsabgabe wird doppelt abgerechnet.",
           "result_code": "AD8"
         },
@@ -4205,6 +4571,7 @@
             "result": false,
             "subsequent_step_number": "788"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4220,6 +4587,7 @@
             "result": true,
             "subsequent_step_number": "789"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4228,6 +4596,7 @@
             "result": false,
             "subsequent_step_number": "793"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4243,6 +4612,7 @@
             "result": true,
             "subsequent_step_number": "790"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4251,6 +4621,7 @@
             "result": false,
             "subsequent_step_number": "793"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4266,6 +4637,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDer LF lehnt die Rechnung ab, da die Summe der Mengen nicht zum Lieferschein passt.",
           "result_code": "AE5"
         },
@@ -4274,6 +4646,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4289,6 +4662,7 @@
             "result": true,
             "subsequent_step_number": "794"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4297,6 +4671,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie Energiemenge der Resultierenden passt nicht zum Lieferschein",
           "result_code": "AD4"
         }
@@ -4312,6 +4687,7 @@
             "result": true,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4320,6 +4696,7 @@
             "result": false,
             "subsequent_step_number": "795"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nDie saldierte Energiemenge der Resultierenden passen nicht zum Lieferschein",
           "result_code": "AD9"
         }
@@ -4335,6 +4712,7 @@
             "result": true,
             "subsequent_step_number": "799"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Positionsebene\nSonstiger Fehler auf Positionsebene.\nHinweis: Das identifizierte Problem ist in der \nAntwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
           "result_code": "A99"
         },
@@ -4343,6 +4721,7 @@
             "result": false,
             "subsequent_step_number": "799"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4358,6 +4737,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4366,6 +4746,7 @@
             "result": false,
             "subsequent_step_number": "800"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4381,6 +4762,7 @@
             "result": true,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": "Hinweis: Alle erkannten Antwortcodes aus der Positionsebene sind für jeden fehlerhaft identifizierten Positionsteil unter Angabe der Positionsnummer zu übermitteln.",
           "result_code": null
         },
@@ -4389,6 +4771,7 @@
             "result": false,
             "subsequent_step_number": "805"
           },
+          "ebd_references": [],
           "note": "Die Prüfung des EBD wird im Summenteil fortgesetzt.",
           "result_code": null
         }
@@ -4404,6 +4787,7 @@
             "result": true,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nErwartete Artikel-ID in der Rechnung nicht vorhanden.\nHinweis: Die erwarteten Artikel-ID sind zu nennen.",
           "result_code": "A78"
         },
@@ -4412,6 +4796,7 @@
             "result": false,
             "subsequent_step_number": "810"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4427,6 +4812,7 @@
             "result": false,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nDie Netzentgelte unter Berücksichtigung der pauschalen Netzentgeltreduzierung nach §14a EnWG sind nicht richtig berechnet.",
           "result_code": "AD2"
         },
@@ -4435,6 +4821,7 @@
             "result": true,
             "subsequent_step_number": "815"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4450,6 +4837,7 @@
             "result": false,
             "subsequent_step_number": "816"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nGenannte Besteuerungsgrundlage passt nicht zu der Summe der Einzelpositionen des Steuersatzes.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "A66"
         },
@@ -4458,6 +4846,7 @@
             "result": true,
             "subsequent_step_number": "816"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4473,6 +4862,7 @@
             "result": false,
             "subsequent_step_number": "817"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4481,6 +4871,7 @@
             "result": true,
             "subsequent_step_number": "820"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4496,6 +4887,7 @@
             "result": false,
             "subsequent_step_number": "818"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nDie Summe der vorausbezahlten Beträge mit diesem Steuersatz entspricht nicht dem in dieser Rechnung angegebenen vorausbezahlten Betrag mit diesem Steuersatz.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "AC3"
         },
@@ -4504,6 +4896,7 @@
             "result": true,
             "subsequent_step_number": "818"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4519,6 +4912,7 @@
             "result": false,
             "subsequent_step_number": "830"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nSumme der Steuern der Rechnung entspricht nicht der Summe der Steuern der vorausbezahlten Rechnungen. \nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "AC4"
         },
@@ -4527,6 +4921,7 @@
             "result": true,
             "subsequent_step_number": "830"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4542,6 +4937,7 @@
             "result": false,
             "subsequent_step_number": "825"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nDie Summe der vorausbezahlten Beträge mit diesem Steuersatz entspricht nicht dem in dieser Rechnung angegebenen vorausbezahlten Betrag mit diesem Steuersatz \nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "A67"
         },
@@ -4550,6 +4946,7 @@
             "result": true,
             "subsequent_step_number": "825"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4565,6 +4962,7 @@
             "result": false,
             "subsequent_step_number": "830"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nSumme der Steuern entspricht nicht der Summe der vorausbezahlten Steuern aus den referenzierten Rechnungen.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "A68"
         },
@@ -4573,6 +4971,7 @@
             "result": true,
             "subsequent_step_number": "830"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4588,6 +4987,7 @@
             "result": false,
             "subsequent_step_number": "835"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nSumme aller Rechnungspositionen (Netto) dieser Rechnung, denen dieser Steuersatz zugeordnet ist, multipliziert mit diesem Steuersatz entspricht nicht der Angabe des Steuerbetrages für diesen Steuersatz.\nHinweis: Es ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX zu nennen.",
           "result_code": "A69"
         },
@@ -4596,6 +4996,7 @@
             "result": true,
             "subsequent_step_number": "835"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4611,6 +5012,7 @@
             "result": true,
             "subsequent_step_number": "815"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4619,6 +5021,7 @@
             "result": false,
             "subsequent_step_number": "900"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4634,6 +5037,7 @@
             "result": false,
             "subsequent_step_number": "905"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nRechnungsbetrag (Besteuerungsgrundlage inklusive Steuerbetrag) der Summe ist nicht korrekt.",
           "result_code": "A70"
         },
@@ -4642,6 +5046,7 @@
             "result": true,
             "subsequent_step_number": "905"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4657,6 +5062,7 @@
             "result": false,
             "subsequent_step_number": "910"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nFälliger Betrag ist nicht korrekt.",
           "result_code": "A71"
         },
@@ -4665,6 +5071,7 @@
             "result": true,
             "subsequent_step_number": "910"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4680,6 +5087,7 @@
             "result": false,
             "subsequent_step_number": "920"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nSumme des Gemeinderabatts ist nicht korrekt.",
           "result_code": "A72"
         },
@@ -4688,6 +5096,7 @@
             "result": true,
             "subsequent_step_number": "920"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4703,6 +5112,7 @@
             "result": true,
             "subsequent_step_number": "940"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4711,6 +5121,7 @@
             "result": false,
             "subsequent_step_number": "921"
           },
+          "ebd_references": [],
           "note": "Hinweis: Es handelt sich um den Rechnungstyp Turnusrechnung (JVR), Abschlussrechnung (ABR) oder Zwischenabrechnung (ZVR).",
           "result_code": null
         }
@@ -4726,6 +5137,7 @@
             "result": false,
             "subsequent_step_number": "922"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -4734,6 +5146,7 @@
             "result": true,
             "subsequent_step_number": "925"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4749,6 +5162,7 @@
             "result": false,
             "subsequent_step_number": "940"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nFür den Abrechnungszeitraum der Rechnung (JVR, ZVR, ABR) sind nicht alle zuvor bezahlten Abschlagsrechnungen enthalten \nHinweise: Der LF gibt die Rechnungsnummern aller Abschlagsrechnungen an, die er in dieser Rechnung erwartet hat.",
           "result_code": "AC5"
         },
@@ -4757,6 +5171,7 @@
             "result": true,
             "subsequent_step_number": "940"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4772,6 +5187,7 @@
             "result": false,
             "subsequent_step_number": "940"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nReferenzen auf zuvor bezahlte Abschlagsrechnungen fehlen. \nHinweise: Der LF gibt die Rechnungsnummern der Abschlagsrechnungen an, die er in dieser Rechnung erwartet hat und die nicht in dieser Rechnung berücksichtigt wurden.",
           "result_code": "A74"
         },
@@ -4780,6 +5196,7 @@
             "result": true,
             "subsequent_step_number": "927"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4795,6 +5212,7 @@
             "result": false,
             "subsequent_step_number": "930"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nAusgewiesener vorausgezahlter Betrag ist nicht korrekt.",
           "result_code": "A73"
         },
@@ -4803,6 +5221,7 @@
             "result": true,
             "subsequent_step_number": "930"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4818,6 +5237,7 @@
             "result": false,
             "subsequent_step_number": "935"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nMindestens eine Abschlagsrechnung, die in dieser Rechnung berücksichtig wurde, wurde vom LF abgelehnt oder nicht beantwortet. \nAngeforderte, aber nicht beglichene Abschlagsrechnungen sind vom NB zu stornieren.\nHinweis: Der LF gibt die Rechnungsnummern der Abschlagsrechnungen an, die nicht in der vorliegenden Rechnung hätten berücksichtigt werden dürfen.",
           "result_code": "A76"
         },
@@ -4826,6 +5246,7 @@
             "result": true,
             "subsequent_step_number": "935"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4841,6 +5262,7 @@
             "result": true,
             "subsequent_step_number": "940"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nMindestens eine referenzierte Abschlagsrechnung ist bereits verrechnet worden. \nHinweis: Der LF gibt in der Ablehnung die Abschlagsrechnung(en), welche bereits verrechnet wurden, sowie die Rechnung(en) (im RFF+AFL), in der der Abschlag/die Abschläge (im FTX+Z14) bereits berücksichtigt wurden, an.",
           "result_code": "A75"
         },
@@ -4849,6 +5271,7 @@
             "result": false,
             "subsequent_step_number": "940"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4864,6 +5287,7 @@
             "result": true,
             "subsequent_step_number": "990"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nSonstiger Fehler in den Summenteil.\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen",
           "result_code": "A96"
         },
@@ -4872,6 +5296,7 @@
             "result": false,
             "subsequent_step_number": "990"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -4887,6 +5312,7 @@
             "result": true,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung auf Summenebene\nHinweis: Alle erkannten Antwortcodes aus der Summenebene sind zu übermitteln.",
           "result_code": null
         },
@@ -4895,6 +5321,7 @@
             "result": false,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung \nZahlung der Rechnung avisieren und im Zahlungslauf berücksichtigen.",
           "result_code": null
         }

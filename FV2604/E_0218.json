@@ -26,6 +26,7 @@
             "result": true,
             "subsequent_step_number": "15"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -34,6 +35,7 @@
             "result": false,
             "subsequent_step_number": "10"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -49,6 +51,7 @@
             "result": true,
             "subsequent_step_number": "15"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -57,6 +60,7 @@
             "result": false,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -72,6 +76,7 @@
             "result": false,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -80,6 +85,7 @@
             "result": true,
             "subsequent_step_number": "18"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -95,6 +101,7 @@
             "result": false,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -103,6 +110,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFür den Verwendungszeitraum mit dem Status „keine Daten“ werden Daten erwartet.",
           "result_code": "A13"
         }
@@ -118,6 +126,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nBerechnungsformel muss bilateral ausgetauscht werden.",
           "result_code": "A09"
         },
@@ -126,6 +135,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -141,6 +151,7 @@
             "result": true,
             "subsequent_step_number": "40"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -149,6 +160,7 @@
             "result": false,
             "subsequent_step_number": "50"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -164,6 +176,7 @@
             "result": false,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDer Lokation ist nicht genau eine Messlokation zugeordnet",
           "result_code": "A10"
         },
@@ -172,6 +185,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nEnergiemenge der Lokation ist mit der Energiemenge der Messlokation identisch",
           "result_code": "A11"
         }
@@ -187,6 +201,7 @@
             "result": true,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -195,6 +210,7 @@
             "result": false,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -210,6 +226,7 @@
             "result": false,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nZeitraum der Berechnungsformel unplausibel.",
           "result_code": "A02"
         },
@@ -218,6 +235,7 @@
             "result": true,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -233,6 +251,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nEs sind zu viele Messlokationen in der Berechnungsformel für diesen Zeitraum vorhanden.",
           "result_code": "A04"
         },
@@ -241,6 +260,7 @@
             "result": false,
             "subsequent_step_number": "80"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -256,6 +276,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nEs fehlen Messlokationen in der Berechnungs-formel.",
           "result_code": "A05"
         },
@@ -264,6 +285,7 @@
             "result": false,
             "subsequent_step_number": "90"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -279,6 +301,7 @@
             "result": false,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nID der Messlokationen stimmen für den Zeitraum nicht überein",
           "result_code": "A06"
         },
@@ -287,6 +310,7 @@
             "result": true,
             "subsequent_step_number": "100"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -302,6 +326,7 @@
             "result": false,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie Flussrichtung mindestens einer Messlokation ist nicht korrekt angegeben.",
           "result_code": "A07"
         },
@@ -310,6 +335,7 @@
             "result": true,
             "subsequent_step_number": "110"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -325,6 +351,7 @@
             "result": false,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung \nZustimmung",
           "result_code": "A12"
         },
@@ -333,6 +360,7 @@
             "result": true,
             "subsequent_step_number": "120"
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nSonstiges \nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: offen",
           "result_code": "A99"
         }
@@ -348,6 +376,7 @@
             "result": true,
             "subsequent_step_number": "15"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -356,6 +385,7 @@
             "result": false,
             "subsequent_step_number": "Ende"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }

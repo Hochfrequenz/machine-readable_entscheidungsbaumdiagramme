@@ -21,6 +21,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nMarktlokation wurde nicht über den UC (Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF) gesperrt. \nHinweis: Die Entsperrung muss auf konventionellem Weg erfolgen.",
           "result_code": "A05"
         },
@@ -29,6 +30,7 @@
             "result": true,
             "subsequent_step_number": "2"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nWiederinbetriebnahme wäre technisch nicht möglich\nHinweis:\nDie Marktlokation bzw. die dazugehörigen elektrischen Anlagen kann gemäß NAV und TAB nicht wieder in Betrieb genommen werden. Sie entspricht nicht der geltenden Rechtsvorschriften und behördlichen Verfügungen sowie den anerkannten Regeln der Technik, insbesondere DIN VDE Normen, den Technischen Anschlussbedingungen (TAB) und den sonstigen besonderen Vorschriften des NB.",
           "result_code": "A06"
         },
@@ -52,6 +55,7 @@
             "result": false,
             "subsequent_step_number": "3"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nMarktlokation ist nicht gesperrt.",
           "result_code": "A01"
         },
@@ -75,6 +80,7 @@
             "result": false,
             "subsequent_step_number": "4"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nEntsperrauftrag für die Marktlokation liegt bereits vor.",
           "result_code": "A04"
         },
@@ -98,6 +105,7 @@
             "result": false,
             "subsequent_step_number": "5"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -113,6 +121,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -121,6 +130,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nZustimmung",
           "result_code": "A03"
         }

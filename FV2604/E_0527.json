@@ -21,6 +21,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie bestellte Konfiguration liegt bereits vor",
           "result_code": "A01"
         },
@@ -29,6 +30,7 @@
             "result": false,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie vorhandene Gerätetechnik erlaubt die Konfiguration zum bestellten Zeitpunkt nicht.\nHinweis:\nWenn die Gerätetechnik eine detailliertere Auflösung als die bestellten Werte bereitstellt, kann diese nicht abgelehnt werden. \nBeispiel: Messung bietet Lastgang 1/4h Auflösung. Geforderte Werte sind kumulierte Werte.",
           "result_code": "A02"
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr",
           "result_code": "A99"
         },
@@ -75,6 +80,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nDie Einrichtung der Konfiguration ist grundsätzlich möglich",
           "result_code": "A03"
         }

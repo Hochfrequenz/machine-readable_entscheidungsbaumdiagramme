@@ -21,6 +21,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nGenerelle Zustimmung des MSB für die Sperrung/Entsperrung liegt vor.",
           "result_code": "A01"
         },
@@ -29,6 +30,7 @@
             "result": false,
             "subsequent_step_number": "2"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nVerhinderungsgrund liegt vor.\nHinweis: Das identifizierte Problem ist in der\n Antwort zu beschreiben/benennen.",
           "result_code": "A02"
         },
@@ -52,6 +55,7 @@
             "result": false,
             "subsequent_step_number": "3"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nEs liegt ein technischer Ablehnungsgrund vor.\nHinweis: Das identifizierte Problem ist in der\n Antwort zu beschreiben/benennen.",
           "result_code": "A03"
         },
@@ -75,6 +80,7 @@
             "result": false,
             "subsequent_step_number": "4"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nMSB hat Durchführung der Sperrung und Entsperrung unter Mitwirkung des MSB zugestimmt.",
           "result_code": "A04"
         },
@@ -98,6 +105,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Zustimmung\nMSB hat Durchführung der Sperrung und Entsperrung durch NB zugestimmt.",
           "result_code": "A05"
         }

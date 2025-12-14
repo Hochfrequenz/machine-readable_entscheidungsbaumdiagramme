@@ -21,6 +21,7 @@
             "result": true,
             "subsequent_step_number": "15"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -29,6 +30,7 @@
             "result": false,
             "subsequent_step_number": "220"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nVorlauffrist wurde nicht eingehalten",
           "result_code": "A07"
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "16"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -75,6 +80,7 @@
             "result": true,
             "subsequent_step_number": "18"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -90,6 +96,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nBei der angemeldeten ruhenden Marktlokation handelt es sich nicht um eine verbrauchende Marktlokation",
           "result_code": "A09"
         },
@@ -98,6 +105,7 @@
             "result": true,
             "subsequent_step_number": "19"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -113,6 +121,7 @@
             "result": true,
             "subsequent_step_number": "20"
           },
+          "ebd_references": [],
           "note": "Hinweis: In diesem Fall beabsichtigt der LF eine Neubildung einer Kundenanlage, in der die angegebene Marktlokation integriert werden soll.",
           "result_code": null
         },
@@ -121,6 +130,7 @@
             "result": false,
             "subsequent_step_number": "25"
           },
+          "ebd_references": [],
           "note": "Hinweis: In diesem Fall beabsichtigt der LF eine Integration einer Marktlokation in eine bestehende Marktlokation „Abbildung von § 20 Abs. 1d EnWG bzw. § 10c EEG“",
           "result_code": null
         }
@@ -136,6 +146,7 @@
             "result": true,
             "subsequent_step_number": "22"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -144,6 +155,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -159,6 +171,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie genannte Marktlokation entspricht nicht den Anforderungen, da Messtechnische Einordung nicht iMS.",
           "result_code": "A47"
         },
@@ -167,6 +180,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -182,6 +196,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nBei der in der Anmeldung genannten Marktlokation (im SG5 LOC+Z16) handelt es sich nicht um eine „Kundenanlage“. Somit kann die zu integrierende Marktlokation (im SG5 LOC+Z22) nicht der Marktlokation „Kundenanlage“ (im SG5 LOC+Z16) zugeordnet werden.",
           "result_code": "A08"
         },
@@ -190,6 +205,7 @@
             "result": true,
             "subsequent_step_number": "26"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -205,6 +221,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie zu integrierende Marktlokation befindet sich nicht hinter der /den gleichen Netzlokation(en) liegen, wie die Marktlokation der „Kundenanlage“ („Abbildung von § 20 Abs. 1d EnWG bzw. § 10c EEG“).",
           "result_code": "A37"
         },
@@ -213,6 +230,7 @@
             "result": true,
             "subsequent_step_number": "27"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -228,6 +246,7 @@
             "result": true,
             "subsequent_step_number": "28"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -236,6 +255,7 @@
             "result": false,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -251,6 +271,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie zu integrierende Marktlokation entspricht nicht den Anforderungen, da Messtechnische Einordung nicht iMS.",
           "result_code": "A46"
         },
@@ -259,6 +280,7 @@
             "result": true,
             "subsequent_step_number": "30"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -274,6 +296,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nMarktlokation, die über Marktlokations-ID identifiziert wurde, nimmt nicht an der Marktkommunikation teil.",
           "result_code": "A02"
         },
@@ -282,6 +305,7 @@
             "result": true,
             "subsequent_step_number": "50"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -297,6 +321,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFalscher Prozess",
           "result_code": "A04"
         },
@@ -305,6 +330,7 @@
             "result": false,
             "subsequent_step_number": "60"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -320,6 +346,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: die Abweichungen sind zu benennen",
           "result_code": "A05"
         },
@@ -328,6 +355,7 @@
             "result": true,
             "subsequent_step_number": "70"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -343,6 +371,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nAndere Anmeldung in Bearbeitung.\nHinweis:\nDer Zuordnungsbeginn der derzeit in Bearbeitung befindlichen Anmeldung und der Zeitpunkt, ab welchem der NB wieder Anmeldungen für diese Marktlokation entgegennimmt werden übermittelt.",
           "result_code": "A06"
         },
@@ -351,6 +380,9 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [
+            "E_0621"
+          ],
           "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
           "result_code": null
         }
@@ -366,6 +398,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFalscher Prozess",
           "result_code": "A21"
         },
@@ -374,6 +407,7 @@
             "result": false,
             "subsequent_step_number": "250"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -389,6 +423,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nEs liegt nicht an allen Messeinrichtungen, welche für die Energiemengenermittlung der Marktlokation notwendig sind, die Messtechnik für eine viertelstündliche Messung vor.",
           "result_code": "A24"
         },
@@ -397,6 +432,7 @@
             "result": true,
             "subsequent_step_number": "260"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -412,6 +448,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nAnforderungen können nicht erfüllt werden\nHinweis: die Abweichungen sind zu benennen",
           "result_code": "A25"
         },
@@ -420,6 +457,7 @@
             "result": true,
             "subsequent_step_number": "270"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -435,6 +473,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nAndere Anmeldung in Bearbeitung.\nHinweis:\nDer Zuordnungsbeginn der derzeit in Bearbeitung befindlichen Anmeldung und der Zeitpunkt, ab welchem der NB wieder Anmeldungen für diese Marktlokation entgegennimmt.",
           "result_code": "A45"
         },
@@ -443,6 +482,7 @@
             "result": false,
             "subsequent_step_number": "300"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -458,6 +498,7 @@
             "result": true,
             "subsequent_step_number": "400"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -466,6 +507,7 @@
             "result": false,
             "subsequent_step_number": "310"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -481,6 +523,7 @@
             "result": true,
             "subsequent_step_number": "600"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -489,6 +532,7 @@
             "result": false,
             "subsequent_step_number": "800"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -504,6 +548,7 @@
             "result": true,
             "subsequent_step_number": "410"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -512,6 +557,7 @@
             "result": false,
             "subsequent_step_number": "405"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -527,6 +573,7 @@
             "result": true,
             "subsequent_step_number": "406"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -535,6 +582,7 @@
             "result": false,
             "subsequent_step_number": "410"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -550,6 +598,9 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [
+            "E_0621"
+          ],
           "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
           "result_code": null
         },
@@ -558,6 +609,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie Vorlauffrist für eine „Nicht-EEG-/ - KWKG“- Marktlokation wurde nicht eingehalten.",
           "result_code": "A34"
         }
@@ -573,6 +625,7 @@
             "result": true,
             "subsequent_step_number": "420"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -581,6 +634,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nVorgaben EEG nicht eingehalten.",
           "result_code": "A27"
         }
@@ -596,6 +650,7 @@
             "result": true,
             "subsequent_step_number": "440"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -604,6 +659,7 @@
             "result": false,
             "subsequent_step_number": "430"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -619,6 +675,9 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [
+            "E_0621"
+          ],
           "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
           "result_code": null
         },
@@ -627,6 +686,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nDie Vorlauffrist für EEG-/KWKG-Marktlokationen im Geschäftsvorfall 1 wurden nicht eingehalten (Fristüberschreitung).",
           "result_code": "A28"
         }
@@ -642,6 +702,9 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [
+            "E_0621"
+          ],
           "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
           "result_code": null
         },
@@ -650,6 +713,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie verkürzte Vorlauffrist für EEG-/KWKG- Marktlokationen im Geschäftsvorfall 1 wurden nicht eingehalten (Fristüberschreitung).",
           "result_code": "A29"
         }
@@ -665,6 +729,7 @@
             "result": true,
             "subsequent_step_number": "620"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -673,6 +738,7 @@
             "result": false,
             "subsequent_step_number": "605"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -688,6 +754,7 @@
             "result": true,
             "subsequent_step_number": "610"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -696,6 +763,7 @@
             "result": false,
             "subsequent_step_number": "620"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -711,6 +779,9 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [
+            "E_0621"
+          ],
           "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
           "result_code": null
         },
@@ -719,6 +790,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung \nDie Vorlauffrist für eine „Nicht-EEG-/-KWKG“- Marktlokation im Geschäftsvorfall 2 wurde nicht eingehalten (Fristüberschreitung).",
           "result_code": "A30"
         }
@@ -734,6 +806,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDas Lieferbeginn darf nur der 1. eines Kalendermonats 00:00 Uhr sein",
           "result_code": "A31"
         },
@@ -742,6 +815,7 @@
             "result": true,
             "subsequent_step_number": "630"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -757,6 +831,9 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [
+            "E_0621"
+          ],
           "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
           "result_code": null
         },
@@ -765,6 +842,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie Vorlauffrist für EEG-/KWKG-Marktlokationen im Geschäftsvorfall 2 wurden nicht eingehalten (Fristüberschreitung).",
           "result_code": "A32"
         }
@@ -780,6 +858,7 @@
             "result": false,
             "subsequent_step_number": "805"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -788,6 +867,7 @@
             "result": true,
             "subsequent_step_number": "810"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -803,6 +883,7 @@
             "result": true,
             "subsequent_step_number": "806"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         },
@@ -811,6 +892,7 @@
             "result": false,
             "subsequent_step_number": "810"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -826,6 +908,9 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [
+            "E_0621"
+          ],
           "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
           "result_code": null
         },
@@ -834,6 +919,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nDie Vorlauffrist für eine „Nicht-EEG-/-KWKG“- Marktlokation wurde nicht eingehalten.",
           "result_code": "A35"
         }
@@ -849,6 +935,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Cluster: Ablehnung\nFristüberschreitung",
           "result_code": "A44"
         },
@@ -857,6 +944,7 @@
             "result": true,
             "subsequent_step_number": "830"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -872,6 +960,9 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [
+            "E_0621"
+          ],
           "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich\nHinweis: Anfrage zur Beendigung der Zuordnung muss zwingend an alle LFA und an den Anmeldenden versendet werden!",
           "result_code": null
         },
@@ -880,6 +971,9 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [
+            "E_0621"
+          ],
           "note": "EBD E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
           "result_code": null
         }

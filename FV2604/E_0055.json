@@ -21,6 +21,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Hinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. Mögliche Codes sind:\nA01\tDatenstatus „Abrechnungsdaten“\nA02\tDatenstatus „Prüfdaten“\nA03\tDatenstatus „Abgerechnete Daten“\nA04\tDatenstatus „Abrechnungsdaten KBKA“",
           "result_code": "A**"
         },
@@ -29,6 +30,7 @@
             "result": true,
             "subsequent_step_number": "2"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -44,6 +46,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Aktueller Datenstatus\nHinweis: A** wird durch richtigen Code aus dem System des BIKO ersetzt. Mögliche Codes sind:\nA01\tDatenstatus „Abrechnungsdaten“\nA03\tDatenstatus „Abgerechnete Daten“\nA04\tDatenstatus „Abrechnungsdaten KBKA“",
           "result_code": "A**"
         },
@@ -52,6 +55,7 @@
             "result": true,
             "subsequent_step_number": "3"
           },
+          "ebd_references": [],
           "note": null,
           "result_code": null
         }
@@ -67,6 +71,7 @@
             "result": true,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Datenstatus „Abrechnungsdaten“",
           "result_code": "A01"
         },
@@ -75,6 +80,7 @@
             "result": false,
             "subsequent_step_number": null
           },
+          "ebd_references": [],
           "note": "Datenstatus „Abrechnungsdaten KBKA“",
           "result_code": "A04"
         }
