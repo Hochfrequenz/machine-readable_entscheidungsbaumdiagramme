@@ -20,7 +20,7 @@ header
 endheader
 
 footer
-v4.1 | 11.12.2025 (urspr. 01.04.2025) | ebdamame v1.0.0 | rebdhuhn v1.0.1
+v4.1 | 16.01.2026 (urspr. 01.04.2025) | ebdamame v1.0.0 | rebdhuhn v1.0.1
 endfooter
 
 title
@@ -46,12 +46,12 @@ if (<b>10: </b> Handelt es sich um eine kostenpflichtige Konfiguration?) then (j
 else (nein)
 endif
 if (<b>20: </b> Handelt sich um eine Bestellung einer Konfiguration einer Änderung des Bilanzierungsverfahrens (Prognosegrundlage&#41;?) then (ja)
-    if (<b>40: </b> Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“ oder um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind?) then (ja)
+    if (<b>40: </b> Handelt es sich um eine Marktlokation mit der Messtechnischen Einordnung „iMS“ oder um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind?) then (ja)
     else (nein)
         :A02;
         note left
             Cluster: Ablehnung
-            Marktlokation befindet sich nicht in der messtechnischen Einordnung „iMS“ oder es handelt sich nicht um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind.
+            Marktlokation befindet sich nicht in der Messtechnischen Einordnung „iMS“ oder es handelt sich nicht um eine Marktlokation, bei der alle Messlokationen mit einem Zähler des Typs Lastgangzähler ausgestattet sind.
         endnote
         kill;
     endif
@@ -93,11 +93,11 @@ if (<b>20: </b> Handelt sich um eine Bestellung einer Konfiguration einer Änder
                 endnote
                 kill;
             endif
-            if (<b>110: </b> Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“?) then (ja)
+            if (<b>110: </b> Handelt es sich um eine Marktlokation mit der Messtechnischen Einordnung „iMS“?) then (ja)
                 :A18;
                 note left
                     Cluster: Ablehnung
-                    Die Änderung der Prognosegrundlage bei einer Marktlokation, mit der messtechnischen Einordnung „iMS“, ist nicht möglich.
+                    Die Änderung der Prognosegrundlage bei einer Marktlokation, mit der Messtechnischen Einordnung „iMS“, ist nicht möglich.
                 endnote
                 kill;
             else (nein)
@@ -132,11 +132,11 @@ if (<b>20: </b> Handelt sich um eine Bestellung einer Konfiguration einer Änder
         endif
     else (nein)
     endif
-    if (<b>110: </b> Handelt es sich um eine Marktlokation mit der messtechnischen Einordnung „iMS“?) then (ja)
+    if (<b>110: </b> Handelt es sich um eine Marktlokation mit der Messtechnischen Einordnung „iMS“?) then (ja)
         :A18;
         note left
             Cluster: Ablehnung
-            Die Änderung der Prognosegrundlage bei einer Marktlokation, mit der messtechnischen Einordnung „iMS“, ist nicht möglich.
+            Die Änderung der Prognosegrundlage bei einer Marktlokation, mit der Messtechnischen Einordnung „iMS“, ist nicht möglich.
         endnote
         kill;
     else (nein)
