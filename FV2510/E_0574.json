@@ -9,7 +9,7 @@
       "ebdamame_version": "v1.0.0",
       "original_release_date": "2025-04-01",
       "rebdhuhn_version": "v1.0.1",
-      "release_date": "2025-12-11",
+      "release_date": "2026-01-16",
       "version": "4.1"
     },
     "remark": null,
@@ -199,7 +199,7 @@
       "use_cases": null
     },
     {
-      "description": "Passt die Prognosegrundlage zum ZRT?",
+      "description": "Entspricht der Zeitreihentyp (ZRT) den gültigen ZRT zur Bilanzkreistreue beim ÜNB?",
       "step_number": "90",
       "sub_rows": [
         {
@@ -208,7 +208,7 @@
             "subsequent_step_number": "100"
           },
           "ebd_references": [],
-          "note": "Prognosegrundlage passt nicht zum ZRT.",
+          "note": "ZRT nicht passend.",
           "result_code": "A16"
         },
         {
