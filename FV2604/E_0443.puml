@@ -20,7 +20,7 @@ header
 endheader
 
 footer
-v4.2 | 11.12.2025 (urspr. 01.10.2025) | ebdamame v1.0.0 | rebdhuhn v1.0.1
+v4.2 | 31.03.2026 (urspr. 01.10.2025) | ebdamame v1.0.0 | rebdhuhn v1.0.1
 endfooter
 
 title
@@ -37,7 +37,15 @@ note right
 end note
 
 if (<b>10: </b> Handelt es sich um einen MSB aus der Sparte Gas?) then (ja)
-    if (<b>40: </b> Ist an der genannten Messlokation ein iMS verbaut?) then (ja)
+    if (<b>40: </b> Ist die genannte Adresse dem NB bekannt und ist an dieser Adresse ein Stromanschluss vorhanden?) then (ja)
+    else (nein)
+        :A03;
+        note left
+            An der genannten Adresse betreibt der NB keinen Stromanschluss.
+        endnote
+        kill;
+    endif
+    if (<b>50: </b> Ist an der genannten Messlokation ein iMS verbaut?) then (ja)
     else (nein)
         :A02;
         note left

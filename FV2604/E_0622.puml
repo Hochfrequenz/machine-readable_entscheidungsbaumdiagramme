@@ -20,7 +20,7 @@ header
 endheader
 
 footer
-v4.2 | 11.12.2025 (urspr. 01.10.2025) | ebdamame v1.0.0 | rebdhuhn v1.0.1
+v4.2 | 31.03.2026 (urspr. 01.10.2025) | ebdamame v1.0.0 | rebdhuhn v1.0.1
 endfooter
 
 title
@@ -56,8 +56,8 @@ if (<b>10: </b> Wurde der Anwendungsfall für eine verbrauchende Marktlokation o
             endnote
             kill;
         endif
-        if (<b>19: </b> Soll die angegebene Marktlokation zu einer Neubildung einer Kundenanlage führen (Produktcode: 9991000002769, Code der Produkteigenschaft: 9991000002933&#41;?) then (ja)
-            if (<b>20: </b> Handelt es sich bei der zu bildenden Kundenanlage um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?) then (ja)
+        if (<b>19: </b> Soll die angegebene Marktlokation zu einer Neubildung einer Kundenanlage führen (Produktcode: 9991 00000 276 9, Code der Produkteigenschaft: 9991 00000 293 3 oder 9991 00000 321 2&#41;?) then (ja)
+            if (<b>20: </b> Handelt es sich bei der zu bildenden Kundenanlage um eine Kundenanlage gem. § 20 Abs. 1d EnWG bzw. § 10c EEG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?) then (ja)
                 if (<b>22: </b> Ist die „ruhende Marktlokation“ (SG5 LOC+Z22&#41; messtechnisch mittels iMS erfasst (Messtechnische Einordung der Marktlokation = iMS&#41;?) then (ja)
                 else (nein)
                     :A47;
@@ -131,7 +131,7 @@ Insbesondere die notwendige Zuordnungsermächtigung (Bilanzkreis/Bilanzierungsve
                 endnote
                 kill;
             endif
-            if (<b>27: </b> Handelt es sich bei der bestehenden Kundenanlage (SG5 LOC+Z16&#41; um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?) then (ja)
+            if (<b>27: </b> Handelt es sich bei der bestehenden Kundenanlage (SG5 LOC+Z16&#41; um eine „Kundenanlage“ (§ 20 Abs. 1d EnWG bzw. § 10 c EEG&#41;, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?) then (ja)
                 if (<b>28: </b> Ist die „ruhende Marktlokation“ (SG5 LOC+Z22&#41; messtechnisch mittels iMS erfasst (Messtechnische Einordung der Marktlokation = iMS&#41;?) then (ja)
                 else (nein)
                     :A46;

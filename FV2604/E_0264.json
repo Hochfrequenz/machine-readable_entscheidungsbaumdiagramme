@@ -9,7 +9,7 @@
       "ebdamame_version": "v1.0.0",
       "original_release_date": "2025-10-01",
       "rebdhuhn_version": "v1.0.1",
-      "release_date": "2025-12-11",
+      "release_date": "2026-03-31",
       "version": "4.2"
     },
     "remark": null,
@@ -20,6 +20,10 @@
     {
       "first_step_number_affected": "300",
       "instruction_text": "Die nachfolgenden Prüfungen werden, beginnend mit der ersten Positionszeile, für jede Positionszeile durchgeführt. Tritt in einer Positionszeile der erste Fehler auf, so sind die weiteren Prüfungen, so dies noch möglich ist, auch durchzuführen. Alle im Positionsteil gefundenen Fehler sind, unter Nennung der jeweiligen Positionszeile, zu nennen."
+    },
+    {
+      "first_step_number_affected": "500",
+      "instruction_text": "Die nachfolgende Prüfung erfolgt auf Summenebene des EBD, obwohl es sich um eine summarische Prüfung der Positionsebene handelt, da bei fehlenden Positionsnummer aus dem bestätigten Angebot keine Positionsnummer genannt werden kann, muss zur Übermittlung des Fehlers die REMADV Struktur zur Übermittlung von Fehlern auf Summenebene genutzt werden."
     },
     {
       "first_step_number_affected": "510",
