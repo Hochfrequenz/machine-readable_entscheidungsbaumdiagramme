@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "chapter": "Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit",
+    "ebd_code": "E_0512",
+    "ebd_name": "E_0512_Abmeldung prüfen",
+    "link": null,
+    "note": null,
+    "release_information": {
+      "ebdamame_version": "v1.0.0",
+      "original_release_date": "2025-10-01",
+      "rebdhuhn_version": "v1.0.1",
+      "release_date": "2026-03-31",
+      "version": "4.2"
+    },
+    "remark": null,
+    "role": "NB",
+    "section": "17.2.1: AD: Abmeldung einer Marktlokation aus dem Modell 2 durch den NB (LPB)"
+  },
+  "multi_step_instructions": null,
+  "rows": [
+    {
+      "description": "Ist ein Fehler aufgetreten?",
+      "step_number": "1",
+      "sub_rows": [
+        {
+          "check_result": {
+            "result": true,
+            "subsequent_step_number": null
+          },
+          "ebd_references": [],
+          "note": "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2026, 00:00 Uhr",
+          "result_code": "A99"
+        },
+        {
+          "check_result": {
+            "result": false,
+            "subsequent_step_number": null
+          },
+          "ebd_references": [],
+          "note": "Cluster: Zustimmung\nBestätigung der Abmeldung",
+          "result_code": "A01"
+        }
+      ],
+      "use_cases": null
+    }
+  ]
+}
