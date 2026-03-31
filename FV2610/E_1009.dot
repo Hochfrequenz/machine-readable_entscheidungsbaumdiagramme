@@ -1,0 +1,27 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">Sperrprozesse Gas</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">18.1.3: AD: Abrechnung einer sonstigen Leistung</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    pad=0.25;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_1009</B><BR align="left"/><FONT>Prüfende Rolle: <B>LF</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Konnte der Rechnungssteller den Einwand des Rechnungsempfängers entkräften?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Rechnungsempfänger ist nach erneuter Prüfung immer noch der Ansicht, dass das Nichtzahlungsavis gerechtfertigt ist.<BR align="left"/>Hinweis: Der Einwand ist in der Antwort zu beschreiben.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Liegen weitere Fehler in der Rechnung vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Rechnung wird aufgrund noch nicht gemeldeter Fehler weiterhin abgelehnt.<BR align="left"/>Hinweis: Die Fehler sind in der Antwort zu beschreiben.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "Rechnung zustimmen und im Zahlungsavis berücksichtigen" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Rechnung zustimmen und im Zahlungsavis berücksichtigen<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+
+    "Start" -> "10" [color="#88a0d6"];
+    "10" -> "A01" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "10" -> "20" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "A02" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "Rechnung zustimmen und im Zahlungsavis berücksichtigen" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+
+    bgcolor="transparent";
+fontname="Roboto, sans-serif";
+}
