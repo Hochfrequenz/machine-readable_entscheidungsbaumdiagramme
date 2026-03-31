@@ -1,0 +1,1526 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1825.3333333333333px" viewBox="0 0 1825.3333333333333 1920.0" height="1920.0px">
+  <g>
+    <svg version="1.1" width="1825.3333333333333px" viewBox="0 0 1825.3333333333333 1920.0" height="1920.0px">
+  <rect fill="#e7e6e5" x="0" y="0" width="1825.3333333333333" height="1920.0" rx="20" ry="20"/><g>
+    <g transform="translate(182.53333333333327, 243.83303178878077) scale(1 1) translate(0, 0) scale(2.5210045346776235 2.5210045346776235) "><defs>
+    <style>.cls-1{fill:#ffffff88;}</style>
+    <!--
+    ffffff88 is white with 50% transparency; this matches the colour of the tesa strip on
+    ebd.hochfrequenz.de where it crosses the diagram SVG:
+    https://github.com/Hochfrequenz/entscheidungsbaumdiagramme/blob/01bd43fa0f1d0333fa93596bc8b9fd1e4b285c8c/src/lib/components/features/svg-container.svelte#L54
+    -->
+  </defs>
+  <path class="cls-1" d="M122.44,531.2h-56.1c-11,0-19.9-9.12-19.46-20.11C57.47,243.89,278.15,29.78,547.91,29.78v56.02c0,10.98-8.69,19.89-19.66,20.39-225.51,10.31-405.8,197-405.8,425Z"/>
+  <path class="cls-1" d="M273.78,531.2h-55.93c-11.23,0-20.09-9.48-19.43-20.69,10.74-183.44,163.39-329.39,349.48-329.39v56.26c0,10.71-8.27,19.62-18.96,20.35-142.35,9.77-255.17,128.69-255.17,273.46Z"/>
+  <path class="cls-1" d="M425.77,531.2h-55.45c-11.65,0-20.6-10.17-19.33-21.75,10.87-99.03,95.03-176.34,196.92-176.34v57.01c0,10.05-7.28,18.75-17.23,20.16-59.22,8.4-104.91,59.42-104.91,120.92Z"/>
+</g>
+    <svg width="1369pt" height="1440pt" viewBox="0.00 0.00 1369.47 1440.00">
+<g id="graph0" class="graph" transform="scale(0.256788 0.256788) rotate(0) translate(18 5589.73)">
+<title>D</title>
+<text text-anchor="start" x="2412.65" y="-5551.63" font-family="Roboto, sans-serif" font-weight="bold" font-size="18.00">GPKE</text>
+<text text-anchor="start" x="2412.65" y="-5523.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="16.00">6.1.1: AD: Ermittlung der MaLo-ID der Marktlokation</text>
+<g id="clust1" class="cluster">
+<title>cluster_msi_100</title>
+<path fill="#f0f7ff" stroke="#888888" stroke-width="1.5" stroke-dasharray="5,2" d="M1905.28,-4151.46C1905.28,-4151.46 2837.28,-4151.46 2837.28,-4151.46 2843.28,-4151.46 2849.28,-4157.46 2849.28,-4163.46 2849.28,-4163.46 2849.28,-5218.95 2849.28,-5218.95 2849.28,-5224.95 2843.28,-5230.95 2837.28,-5230.95 2837.28,-5230.95 1905.28,-5230.95 1905.28,-5230.95 1899.28,-5230.95 1893.28,-5224.95 1893.28,-5218.95 1893.28,-5218.95 1893.28,-4163.46 1893.28,-4163.46 1893.28,-4157.46 1899.28,-4151.46 1905.28,-4151.46"/>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_msi_205</title>
+<path fill="#f0f7ff" stroke="#888888" stroke-width="1.5" stroke-dasharray="5,2" d="M1373.28,-2207.51C1373.28,-2207.51 2421.28,-2207.51 2421.28,-2207.51 2427.28,-2207.51 2433.28,-2213.51 2433.28,-2219.51 2433.28,-2219.51 2433.28,-4106.21 2433.28,-4106.21 2433.28,-4112.21 2427.28,-4118.21 2421.28,-4118.21 2421.28,-4118.21 1373.28,-4118.21 1373.28,-4118.21 1367.28,-4118.21 1361.28,-4112.21 1361.28,-4106.21 1361.28,-4106.21 1361.28,-2219.51 1361.28,-2219.51 1361.28,-2213.51 1367.28,-2207.51 1373.28,-2207.51"/>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_msi_305</title>
+<path fill="#f0f7ff" stroke="#888888" stroke-width="1.5" stroke-dasharray="5,2" d="M127.27,-880.43C127.27,-880.43 1341.28,-880.43 1341.28,-880.43 1347.28,-880.43 1353.28,-886.43 1353.28,-892.43 1353.28,-892.43 1353.28,-2565.6 1353.28,-2565.6 1353.28,-2571.6 1347.28,-2577.6 1341.28,-2577.6 1341.28,-2577.6 127.28,-2577.6 127.28,-2577.6 121.28,-2577.6 115.27,-2571.6 115.27,-2565.6 115.27,-2565.6 115.27,-892.43 115.27,-892.43 115.27,-886.43 121.27,-880.43 127.27,-880.43"/>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_msi_400</title>
+<path fill="#f0f7ff" stroke="#888888" stroke-width="1.5" stroke-dasharray="5,2" d="M1935.28,-149.67C1935.28,-149.67 3791.28,-149.67 3791.28,-149.67 3797.28,-149.67 3803.28,-155.67 3803.28,-161.67 3803.28,-161.67 3803.28,-1702.64 3803.28,-1702.64 3803.28,-1708.64 3797.28,-1714.64 3791.28,-1714.64 3791.28,-1714.64 1935.28,-1714.64 1935.28,-1714.64 1929.28,-1714.64 1923.28,-1708.64 1923.28,-1702.64 1923.28,-1702.64 1923.28,-161.67 1923.28,-161.67 1923.28,-155.67 1929.28,-149.67 1935.28,-149.67"/>
+</g>
+<!-- msi_100 -->
+<g id="node1" class="node">
+<title>msi_100</title>
+<polygon fill="#e6f3ff" stroke="black" stroke-width="0" points="2826.8,-5214.95 2465.75,-5214.95 2465.75,-5155.67 2832.8,-5155.67 2832.8,-5208.95 2826.8,-5214.95"/>
+<polyline fill="none" stroke="black" stroke-width="0" points="2826.8,-5214.95 2826.8,-5208.95"/>
+<polyline fill="none" stroke="black" stroke-width="0" points="2832.8,-5208.95 2826.8,-5208.95"/>
+<text text-anchor="start" x="2480.15" y="-5194.01" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">Die nachfolgenden Prüfungen erfolgen auf Basis</text>
+<text text-anchor="start" x="2480.15" y="-5180.01" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">der Identifikationskriterien aus der Anfrage und</text>
+<text text-anchor="start" x="2480.15" y="-5166.01" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">dem gesamten Datenbestand im System.</text>
+</g>
+<!-- 100 -->
+<g id="node2" class="node">
+<title>100</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2435.3,-5203.31C2435.3,-5203.31 1921.25,-5203.31 1921.25,-5203.31 1915.25,-5203.31 1909.25,-5197.31 1909.25,-5191.31 1909.25,-5191.31 1909.25,-5179.31 1909.25,-5179.31 1909.25,-5173.31 1915.25,-5167.31 1921.25,-5167.31 1921.25,-5167.31 2435.3,-5167.31 2435.3,-5167.31 2441.3,-5167.31 2447.3,-5173.31 2447.3,-5179.31 2447.3,-5179.31 2447.3,-5191.31 2447.3,-5191.31 2447.3,-5197.31 2441.3,-5203.31 2435.3,-5203.31"/>
+<text text-anchor="start" x="1923.65" y="-5181.64" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">100: </text>
+<text text-anchor="start" x="1962.65" y="-5181.64" font-family="Roboto, sans-serif" font-size="14.00">Ist das Identifikationskriterium „Adresse“ in der Anfrage enthalten?</text>
+</g>
+<!-- 105 -->
+<g id="node3" class="node">
+<title>105</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2595.18,-5102.42C2595.18,-5102.42 1921.38,-5102.42 1921.38,-5102.42 1915.38,-5102.42 1909.38,-5096.42 1909.38,-5090.42 1909.38,-5090.42 1909.38,-4985.14 1909.38,-4985.14 1909.38,-4979.14 1915.38,-4973.14 1921.38,-4973.14 1921.38,-4973.14 2595.18,-4973.14 2595.18,-4973.14 2601.18,-4973.14 2607.18,-4979.14 2607.18,-4985.14 2607.18,-4985.14 2607.18,-5090.42 2607.18,-5090.42 2607.18,-5096.42 2601.18,-5102.42 2595.18,-5102.42"/>
+<text text-anchor="start" x="1923.78" y="-5081.48" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">105: </text>
+<text text-anchor="start" x="1962.78" y="-5081.48" font-family="Roboto, sans-serif" font-size="14.00">[Adressprüfung] (Straße und PLZ oder geographische Koordinaten oder Flurstücknummer)</text>
+<text text-anchor="start" x="1923.78" y="-5067.48" font-family="Roboto, sans-serif" font-size="14.00">Hinweis:</text>
+<text text-anchor="start" x="1923.78" y="-5053.48" font-family="Roboto, sans-serif" font-size="14.00">Das Weglassen der Hausnummer, trägt dem Umstand Rechnung, dass einige NB eher</text>
+<text text-anchor="start" x="1923.78" y="-5039.48" font-family="Roboto, sans-serif" font-size="14.00">die Adresse des Geräts und nicht die Lieferadresse hinterlegt haben. Wenn der</text>
+<text text-anchor="start" x="1923.78" y="-5025.48" font-family="Roboto, sans-serif" font-size="14.00">Zähler im Doppelhaus nebenan zu finden ist, weiß der Kunde das ggf. nicht. Das</text>
+<text text-anchor="start" x="1923.78" y="-5011.48" font-family="Roboto, sans-serif" font-size="14.00">Weglassen des Ortes minimiert die Problematik von Tippfehlern, Ortsteilen und</text>
+<text text-anchor="start" x="1923.78" y="-4997.48" font-family="Roboto, sans-serif" font-size="14.00">Ortszusätzen.</text>
+<text text-anchor="start" x="1923.78" y="-4983.48" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums</text>
+</g>
+<!-- 100&#45;&gt;105 -->
+<g id="edge8" class="edge">
+<title>100-&gt;105</title>
+<path fill="none" stroke="#88a0d6" d="M2187.61,-5167.33C2195.26,-5153.41 2206.65,-5132.69 2218.06,-5111.93"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2220.99,-5113.87 2222.74,-5103.42 2214.86,-5110.5 2220.99,-5113.87"/>
+<text text-anchor="start" x="2210.28" y="-5125.37" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 110 -->
+<g id="node4" class="node">
+<title>110</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2810.18,-4936.14C2810.18,-4936.14 2286.38,-4936.14 2286.38,-4936.14 2280.38,-4936.14 2274.38,-4930.14 2274.38,-4924.14 2274.38,-4924.14 2274.38,-4874.86 2274.38,-4874.86 2274.38,-4868.86 2280.38,-4862.86 2286.38,-4862.86 2286.38,-4862.86 2810.18,-4862.86 2810.18,-4862.86 2816.18,-4862.86 2822.18,-4868.86 2822.18,-4874.86 2822.18,-4874.86 2822.18,-4924.14 2822.18,-4924.14 2822.18,-4930.14 2816.18,-4936.14 2810.18,-4936.14"/>
+<text text-anchor="start" x="2288.78" y="-4915.2" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">110: </text>
+<text text-anchor="start" x="2327.78" y="-4915.2" font-family="Roboto, sans-serif" font-size="14.00">Sind die folgenden Identifikationskriterien in der Anfrage vorhanden:</text>
+<text text-anchor="start" x="2288.78" y="-4901.2" font-family="Roboto, sans-serif" font-size="14.00">Vorname und/oder Nachname </text>
+<text text-anchor="start" x="2288.78" y="-4887.2" font-family="Roboto, sans-serif" font-size="14.00">oder</text>
+<text text-anchor="start" x="2288.78" y="-4873.2" font-family="Roboto, sans-serif" font-size="14.00">Firmenname?</text>
+</g>
+<!-- 100&#45;&gt;110 -->
+<g id="edge9" class="edge">
+<title>100-&gt;110</title>
+<path fill="none" stroke="#88a0d6" d="M2309.92,-5167.33C2430.86,-5150.52 2594.57,-5124.2 2616.28,-5102.42 2663.25,-5055.28 2639.34,-5021.57 2643.28,-4955.14"/>
+<text text-anchor="start" x="2645.28" y="-5034.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 105&#45;&gt;110 -->
+<g id="edge10" class="edge">
+<title>105-&gt;110</title>
+<path fill="none" stroke="#88a0d6" d="M2598.22,-4973.2C2625.55,-4966.1 2643,-4959.77 2643.28,-4955.14"/>
+<path fill="none" stroke="#88a0d6" d="M2643.28,-4954.14C2643.44,-4951.41 2643.28,-4948.81 2642.83,-4946.35"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2646.16,-4945.26 2639.34,-4937.16 2639.62,-4947.75 2646.16,-4945.26"/>
+</g>
+<!-- 115 -->
+<g id="node5" class="node">
+<title>115</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2499.93,-4809.61C2499.93,-4809.61 1998.62,-4809.61 1998.62,-4809.61 1992.62,-4809.61 1986.62,-4803.61 1986.62,-4797.61 1986.62,-4797.61 1986.62,-4776.33 1986.62,-4776.33 1986.62,-4770.33 1992.62,-4764.33 1998.62,-4764.33 1998.62,-4764.33 2499.93,-4764.33 2499.93,-4764.33 2505.93,-4764.33 2511.93,-4770.33 2511.93,-4776.33 2511.93,-4776.33 2511.93,-4797.61 2511.93,-4797.61 2511.93,-4803.61 2505.93,-4809.61 2499.93,-4809.61"/>
+<text text-anchor="start" x="2001.03" y="-4788.67" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">115: </text>
+<text text-anchor="start" x="2040.03" y="-4788.67" font-family="Roboto, sans-serif" font-size="14.00">[Namensprüfung] (Nachname oder Firmenname)</text>
+<text text-anchor="start" x="2001.03" y="-4774.67" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums</text>
+</g>
+<!-- 110&#45;&gt;115 -->
+<g id="edge11" class="edge">
+<title>110-&gt;115</title>
+<path fill="none" stroke="#88a0d6" d="M2452.02,-4862.92C2408.39,-4846.79 2357.8,-4828.09 2318.07,-4813.4"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2319.45,-4810.18 2308.85,-4809.99 2317.02,-4816.74 2319.45,-4810.18"/>
+<text text-anchor="start" x="2398.28" y="-4832.56" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 120 -->
+<g id="node6" class="node">
+<title>120</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2820.43,-4727.33C2820.43,-4727.33 2256.12,-4727.33 2256.12,-4727.33 2250.12,-4727.33 2244.12,-4721.33 2244.12,-4715.33 2244.12,-4715.33 2244.12,-4703.33 2244.12,-4703.33 2244.12,-4697.33 2250.12,-4691.33 2256.12,-4691.33 2256.12,-4691.33 2820.43,-4691.33 2820.43,-4691.33 2826.43,-4691.33 2832.43,-4697.33 2832.43,-4703.33 2832.43,-4703.33 2832.43,-4715.33 2832.43,-4715.33 2832.43,-4721.33 2826.43,-4727.33 2820.43,-4727.33"/>
+<text text-anchor="start" x="2258.53" y="-4705.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">120: </text>
+<text text-anchor="start" x="2297.53" y="-4705.65" font-family="Roboto, sans-serif" font-size="14.00">Ist das Identifikationskriterium „Gerätenummer“ in der Anfrage enthalten?</text>
+</g>
+<!-- 110&#45;&gt;120 -->
+<g id="edge12" class="edge">
+<title>110-&gt;120</title>
+<path fill="none" stroke="#88a0d6" d="M2538.88,-4863.06C2532.32,-4830.51 2527.95,-4782.03 2548.28,-4746.33"/>
+<text text-anchor="start" x="2539.28" y="-4783.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 115&#45;&gt;120 -->
+<g id="edge13" class="edge">
+<title>115-&gt;120</title>
+<path fill="none" stroke="#88a0d6" d="M2497.24,-4764.33C2524.65,-4759.35 2544.26,-4753.38 2548.28,-4746.33"/>
+<path fill="none" stroke="#88a0d6" d="M2548.28,-4745.33C2549.57,-4743.05 2550.18,-4740.6 2550.3,-4738.08"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2553.79,-4737.68 2548.52,-4728.49 2546.91,-4738.97 2553.79,-4737.68"/>
+</g>
+<!-- 125 -->
+<g id="node7" class="node">
+<title>125</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2489.93,-4638.08C2489.93,-4638.08 1988.62,-4638.08 1988.62,-4638.08 1982.62,-4638.08 1976.62,-4632.08 1976.62,-4626.08 1976.62,-4626.08 1976.62,-4604.8 1976.62,-4604.8 1976.62,-4598.8 1982.62,-4592.8 1988.62,-4592.8 1988.62,-4592.8 2489.93,-4592.8 2489.93,-4592.8 2495.93,-4592.8 2501.93,-4598.8 2501.93,-4604.8 2501.93,-4604.8 2501.93,-4626.08 2501.93,-4626.08 2501.93,-4632.08 2495.93,-4638.08 2489.93,-4638.08"/>
+<text text-anchor="start" x="1991.03" y="-4617.14" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">125: </text>
+<text text-anchor="start" x="2030.03" y="-4617.14" font-family="Roboto, sans-serif" font-size="14.00">[Gerätenummernprüfung]</text>
+<text text-anchor="start" x="1991.03" y="-4603.14" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums</text>
+</g>
+<!-- 120&#45;&gt;125 -->
+<g id="edge14" class="edge">
+<title>120-&gt;125</title>
+<path fill="none" stroke="#88a0d6" d="M2483.09,-4691.37C2437.4,-4677.33 2371.86,-4657.19 2320.23,-4641.32"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2321.47,-4638.04 2310.88,-4638.45 2319.42,-4644.73 2321.47,-4638.04"/>
+<text text-anchor="start" x="2424.28" y="-4661.03" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 130 -->
+<g id="node8" class="node">
+<title>130</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2795.43,-4555.8C2795.43,-4555.8 2279.12,-4555.8 2279.12,-4555.8 2273.12,-4555.8 2267.12,-4549.8 2267.12,-4543.8 2267.12,-4543.8 2267.12,-4531.8 2267.12,-4531.8 2267.12,-4525.8 2273.12,-4519.8 2279.12,-4519.8 2279.12,-4519.8 2795.43,-4519.8 2795.43,-4519.8 2801.43,-4519.8 2807.43,-4525.8 2807.43,-4531.8 2807.43,-4531.8 2807.43,-4543.8 2807.43,-4543.8 2807.43,-4549.8 2801.43,-4555.8 2795.43,-4555.8"/>
+<text text-anchor="start" x="2281.53" y="-4534.12" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">130: </text>
+<text text-anchor="start" x="2320.53" y="-4534.12" font-family="Roboto, sans-serif" font-size="14.00">Ist das Identifikationskriterium „MeLo-ID“ in der Anfrage enthalten?</text>
+</g>
+<!-- 120&#45;&gt;130 -->
+<g id="edge15" class="edge">
+<title>120-&gt;130</title>
+<path fill="none" stroke="#88a0d6" d="M2532.52,-4691.61C2524.24,-4664.24 2512.61,-4609.45 2538.28,-4574.8"/>
+<text text-anchor="start" x="2527.28" y="-4611.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 125&#45;&gt;130 -->
+<g id="edge16" class="edge">
+<title>125-&gt;130</title>
+<path fill="none" stroke="#88a0d6" d="M2480.4,-4592.82C2510.77,-4587.74 2533.13,-4581.74 2538.28,-4574.8"/>
+<path fill="none" stroke="#88a0d6" d="M2538.28,-4573.8C2539.74,-4571.82 2540.72,-4569.58 2541.33,-4567.22"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2544.82,-4567.46 2541.82,-4557.3 2537.83,-4567.12 2544.82,-4567.46"/>
+</g>
+<!-- 135 -->
+<g id="node9" class="node">
+<title>135</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2488.93,-4466.55C2488.93,-4466.55 1987.62,-4466.55 1987.62,-4466.55 1981.62,-4466.55 1975.62,-4460.55 1975.62,-4454.55 1975.62,-4454.55 1975.62,-4433.27 1975.62,-4433.27 1975.62,-4427.27 1981.62,-4421.27 1987.62,-4421.27 1987.62,-4421.27 2488.93,-4421.27 2488.93,-4421.27 2494.93,-4421.27 2500.93,-4427.27 2500.93,-4433.27 2500.93,-4433.27 2500.93,-4454.55 2500.93,-4454.55 2500.93,-4460.55 2494.93,-4466.55 2488.93,-4466.55"/>
+<text text-anchor="start" x="1990.03" y="-4445.61" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">135: </text>
+<text text-anchor="start" x="2029.03" y="-4445.61" font-family="Roboto, sans-serif" font-size="14.00">[MeLo-ID-Prüfung]</text>
+<text text-anchor="start" x="1990.03" y="-4431.61" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums</text>
+</g>
+<!-- 130&#45;&gt;135 -->
+<g id="edge17" class="edge">
+<title>130-&gt;135</title>
+<path fill="none" stroke="#88a0d6" d="M2482.09,-4519.84C2436.4,-4505.8 2370.86,-4485.66 2319.23,-4469.79"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2320.47,-4466.51 2309.88,-4466.92 2318.42,-4473.2 2320.47,-4466.51"/>
+<text text-anchor="start" x="2423.28" y="-4489.5" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 140 -->
+<g id="node10" class="node">
+<title>140</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2821.43,-4384.27C2821.43,-4384.27 2251.12,-4384.27 2251.12,-4384.27 2245.12,-4384.27 2239.12,-4378.27 2239.12,-4372.27 2239.12,-4372.27 2239.12,-4360.27 2239.12,-4360.27 2239.12,-4354.27 2245.12,-4348.27 2251.12,-4348.27 2251.12,-4348.27 2821.43,-4348.27 2821.43,-4348.27 2827.43,-4348.27 2833.43,-4354.27 2833.43,-4360.27 2833.43,-4360.27 2833.43,-4372.27 2833.43,-4372.27 2833.43,-4378.27 2827.43,-4384.27 2821.43,-4384.27"/>
+<text text-anchor="start" x="2253.53" y="-4362.59" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">140: </text>
+<text text-anchor="start" x="2292.53" y="-4362.59" font-family="Roboto, sans-serif" font-size="14.00">Ist das Identifikationskriterium „Kundennummer“ in der Anfrage enthalten?</text>
+</g>
+<!-- 130&#45;&gt;140 -->
+<g id="edge18" class="edge">
+<title>130-&gt;140</title>
+<path fill="none" stroke="#88a0d6" d="M2531.52,-4520.08C2523.24,-4492.71 2511.61,-4437.92 2537.28,-4403.27"/>
+<text text-anchor="start" x="2526.28" y="-4440.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 135&#45;&gt;140 -->
+<g id="edge19" class="edge">
+<title>135-&gt;140</title>
+<path fill="none" stroke="#88a0d6" d="M2479.4,-4421.29C2509.77,-4416.21 2532.13,-4410.21 2537.28,-4403.27"/>
+<path fill="none" stroke="#88a0d6" d="M2537.28,-4402.27C2538.74,-4400.29 2539.72,-4398.05 2540.33,-4395.69"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2543.82,-4395.93 2540.82,-4385.77 2536.83,-4395.59 2543.82,-4395.93"/>
+</g>
+<!-- 150 -->
+<g id="node11" class="node">
+<title>150</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2490.93,-4295.02C2490.93,-4295.02 1989.62,-4295.02 1989.62,-4295.02 1983.62,-4295.02 1977.62,-4289.02 1977.62,-4283.02 1977.62,-4283.02 1977.62,-4261.74 1977.62,-4261.74 1977.62,-4255.74 1983.62,-4249.74 1989.62,-4249.74 1989.62,-4249.74 2490.93,-4249.74 2490.93,-4249.74 2496.93,-4249.74 2502.93,-4255.74 2502.93,-4261.74 2502.93,-4261.74 2502.93,-4283.02 2502.93,-4283.02 2502.93,-4289.02 2496.93,-4295.02 2490.93,-4295.02"/>
+<text text-anchor="start" x="1992.03" y="-4274.08" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">150: </text>
+<text text-anchor="start" x="2031.03" y="-4274.08" font-family="Roboto, sans-serif" font-size="14.00">[Kundennummer-Prüfung]</text>
+<text text-anchor="start" x="1992.03" y="-4260.08" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis eines Kriteriums</text>
+</g>
+<!-- 140&#45;&gt;150 -->
+<g id="edge20" class="edge">
+<title>140-&gt;150</title>
+<path fill="none" stroke="#88a0d6" d="M2481.64,-4348.31C2436.41,-4334.27 2371.53,-4314.13 2320.42,-4298.26"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2321.77,-4295.01 2311.18,-4295.39 2319.69,-4301.7 2321.77,-4295.01"/>
+<text text-anchor="start" x="2423.28" y="-4317.97" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 160 -->
+<g id="node12" class="node">
+<title>160</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2816.93,-4212.74C2816.93,-4212.74 2261.62,-4212.74 2261.62,-4212.74 2255.62,-4212.74 2249.62,-4206.74 2249.62,-4200.74 2249.62,-4200.74 2249.62,-4179.46 2249.62,-4179.46 2249.62,-4173.46 2255.62,-4167.46 2261.62,-4167.46 2261.62,-4167.46 2816.93,-4167.46 2816.93,-4167.46 2822.93,-4167.46 2828.93,-4173.46 2828.93,-4179.46 2828.93,-4179.46 2828.93,-4200.74 2828.93,-4200.74 2828.93,-4206.74 2822.93,-4212.74 2816.93,-4212.74"/>
+<text text-anchor="start" x="2264.03" y="-4191.8" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">160: </text>
+<text text-anchor="start" x="2303.03" y="-4191.8" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis eines Kriteriums 1..n Treffer mit einem</text>
+<text text-anchor="start" x="2264.03" y="-4177.8" font-family="Roboto, sans-serif" font-size="14.00">Identifikationskriterium?</text>
+</g>
+<!-- 140&#45;&gt;160 -->
+<g id="edge21" class="edge">
+<title>140-&gt;160</title>
+<path fill="none" stroke="#88a0d6" d="M2530.96,-4348.47C2523.4,-4320.99 2513.13,-4266.05 2539.28,-4231.74"/>
+<text text-anchor="start" x="2528.28" y="-4268.7" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 150&#45;&gt;160 -->
+<g id="edge22" class="edge">
+<title>150-&gt;160</title>
+<path fill="none" stroke="#88a0d6" d="M2480.56,-4249.76C2511.29,-4244.67 2534,-4238.66 2539.28,-4231.74"/>
+<path fill="none" stroke="#88a0d6" d="M2539.28,-4230.74C2540.87,-4228.65 2541.99,-4226.3 2542.73,-4223.82"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2546.2,-4224.28 2543.82,-4213.95 2539.25,-4223.51 2546.2,-4224.28"/>
+</g>
+<!-- 205 -->
+<g id="node14" class="node">
+<title>205</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2008.8,-4060.21C2008.8,-4060.21 1389.75,-4060.21 1389.75,-4060.21 1383.75,-4060.21 1377.75,-4054.21 1377.75,-4048.21 1377.75,-4048.21 1377.75,-4026.93 1377.75,-4026.93 1377.75,-4020.93 1383.75,-4014.93 1389.75,-4014.93 1389.75,-4014.93 2008.8,-4014.93 2008.8,-4014.93 2014.8,-4014.93 2020.8,-4020.93 2020.8,-4026.93 2020.8,-4026.93 2020.8,-4048.21 2020.8,-4048.21 2020.8,-4054.21 2014.8,-4060.21 2008.8,-4060.21"/>
+<text text-anchor="start" x="1392.15" y="-4039.27" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">205: </text>
+<text text-anchor="start" x="1431.15" y="-4039.27" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „Adresse“ und „Vorname und/oder Nachname oder</text>
+<text text-anchor="start" x="1392.15" y="-4025.27" font-family="Roboto, sans-serif" font-size="14.00">Firmenname“ in der Anfrage enthalten?</text>
+</g>
+<!-- 160&#45;&gt;205 -->
+<g id="edge24" class="edge">
+<title>160-&gt;205</title>
+<path fill="none" stroke="#88a0d6" d="M2352.11,-4167.48C2255.61,-4155.21 2136.24,-4138.29 2030.28,-4118.21 1948.45,-4102.71 1856.42,-4080.14 1790.21,-4062.99"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1791.42,-4059.69 1780.86,-4060.56 1789.66,-4066.46 1791.42,-4059.69"/>
+<text text-anchor="start" x="2169.28" y="-4131.16" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A01 -->
+<g id="node72" class="node">
+<title>A01</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2954.8,-4074.21C2954.8,-4074.21 2461.75,-4074.21 2461.75,-4074.21 2455.75,-4074.21 2449.75,-4068.21 2449.75,-4062.21 2449.75,-4062.21 2449.75,-4012.93 2449.75,-4012.93 2449.75,-4006.93 2455.75,-4000.93 2461.75,-4000.93 2461.75,-4000.93 2954.8,-4000.93 2954.8,-4000.93 2960.8,-4000.93 2966.8,-4006.93 2966.8,-4012.93 2966.8,-4012.93 2966.8,-4062.21 2966.8,-4062.21 2966.8,-4068.21 2960.8,-4074.21 2954.8,-4074.21"/>
+<text text-anchor="start" x="2464.15" y="-4053.27" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A01</text>
+<text text-anchor="start" x="2464.15" y="-4025.27" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="2464.15" y="-4011.27" font-family="Roboto, sans-serif" font-size="14.00">Mit einem Identifikationskriterium war keine Marktlokation ermittelbar.</text>
+</g>
+<!-- 160&#45;&gt;A01 -->
+<g id="edge23" class="edge">
+<title>160-&gt;A01</title>
+<path fill="none" stroke="#88a0d6" d="M2563.49,-4167.53C2588.62,-4145.14 2628.61,-4109.53 2660.19,-4081.4"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2662.18,-4084.32 2667.31,-4075.05 2657.52,-4079.09 2662.18,-4084.32"/>
+<text text-anchor="start" x="2608.28" y="-4131.16" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- msi_205 -->
+<g id="node13" class="node">
+<title>msi_205</title>
+<polygon fill="#e6f3ff" stroke="black" stroke-width="0" points="2411.43,-4102.21 2039.12,-4102.21 2039.12,-3972.93 2417.43,-3972.93 2417.43,-4096.21 2411.43,-4102.21"/>
+<polyline fill="none" stroke="black" stroke-width="0" points="2411.43,-4102.21 2411.43,-4096.21"/>
+<polyline fill="none" stroke="black" stroke-width="0" points="2417.43,-4096.21 2411.43,-4096.21"/>
+<text text-anchor="start" x="2053.53" y="-4081.27" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">Die nachfolgenden Prüfungen erfolgen auf Basis</text>
+<text text-anchor="start" x="2053.53" y="-4067.27" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">der Identifikationskriterien aus der Anfrage und</text>
+<text text-anchor="start" x="2053.53" y="-4053.27" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">der Trefferliste auf Basis eines Kriteriums aus</text>
+<text text-anchor="start" x="2053.53" y="-4039.27" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">den vorhergehenden Prüfungen. In der Trefferliste</text>
+<text text-anchor="start" x="2053.53" y="-4025.27" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">befinden sich Marktlokationen, bei denen</text>
+<text text-anchor="start" x="2053.53" y="-4011.27" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">mindestens eines der Identifikationskriterien mit</text>
+<text text-anchor="start" x="2053.53" y="-3997.27" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">einem Identifikationskriterium der Anfrage</text>
+<text text-anchor="start" x="2053.53" y="-3983.27" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">übereinstimmt.</text>
+</g>
+<!-- 210 -->
+<g id="node15" class="node">
+<title>210</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2013.43,-3919.68C2013.43,-3919.68 1389.12,-3919.68 1389.12,-3919.68 1383.12,-3919.68 1377.12,-3913.68 1377.12,-3907.68 1377.12,-3907.68 1377.12,-3872.4 1377.12,-3872.4 1377.12,-3866.4 1383.12,-3860.4 1389.12,-3860.4 1389.12,-3860.4 2013.43,-3860.4 2013.43,-3860.4 2019.43,-3860.4 2025.43,-3866.4 2025.43,-3872.4 2025.43,-3872.4 2025.43,-3907.68 2025.43,-3907.68 2025.43,-3913.68 2019.43,-3919.68 2013.43,-3919.68"/>
+<text text-anchor="start" x="1391.53" y="-3898.74" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">210: </text>
+<text text-anchor="start" x="1430.53" y="-3898.74" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten</text>
+<text text-anchor="start" x="1391.53" y="-3884.74" font-family="Roboto, sans-serif" font-size="14.00">oder Flurstücknummer) und [Namensprüfung] (Nachname oder Firmenname)</text>
+<text text-anchor="start" x="1391.53" y="-3870.74" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien</text>
+</g>
+<!-- 205&#45;&gt;210 -->
+<g id="edge25" class="edge">
+<title>205-&gt;210</title>
+<path fill="none" stroke="#88a0d6" d="M1699.57,-4015.1C1699.87,-3993.06 1700.35,-3958.24 1700.72,-3931.1"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1704.22,-3931.18 1700.86,-3921.13 1697.22,-3931.08 1704.22,-3931.18"/>
+<text text-anchor="start" x="1700.28" y="-3942.63" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 215 -->
+<g id="node16" class="node">
+<title>215</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2366.68,-3823.4C2366.68,-3823.4 1755.88,-3823.4 1755.88,-3823.4 1749.88,-3823.4 1743.88,-3817.4 1743.88,-3811.4 1743.88,-3811.4 1743.88,-3790.12 1743.88,-3790.12 1743.88,-3784.12 1749.88,-3778.12 1755.88,-3778.12 1755.88,-3778.12 2366.68,-3778.12 2366.68,-3778.12 2372.68,-3778.12 2378.68,-3784.12 2378.68,-3790.12 2378.68,-3790.12 2378.68,-3811.4 2378.68,-3811.4 2378.68,-3817.4 2372.68,-3823.4 2366.68,-3823.4"/>
+<text text-anchor="start" x="1758.28" y="-3802.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">215: </text>
+<text text-anchor="start" x="1797.28" y="-3802.46" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „Vorname und/oder Nachname oder Firmenname“</text>
+<text text-anchor="start" x="1758.28" y="-3788.46" font-family="Roboto, sans-serif" font-size="14.00">und „Gerätenummer“ in der Anfrage enthalten?</text>
+</g>
+<!-- 205&#45;&gt;215 -->
+<g id="edge26" class="edge">
+<title>205-&gt;215</title>
+<path fill="none" stroke="#88a0d6" d="M1846.19,-4014.94C1911.17,-3998.56 1984.07,-3969.87 2034.28,-3919.68 2060.01,-3893.96 2039.12,-3871.26 2061.28,-3842.4"/>
+<text text-anchor="start" x="2051.28" y="-3886.36" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 210&#45;&gt;215 -->
+<g id="edge27" class="edge">
+<title>210-&gt;215</title>
+<path fill="none" stroke="#88a0d6" d="M2009.93,-3860.43C2036.9,-3855.18 2056.07,-3849.18 2061.28,-3842.4"/>
+<path fill="none" stroke="#88a0d6" d="M2061.28,-3841.4C2062.88,-3839.32 2064,-3836.97 2064.75,-3834.49"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2068.22,-3834.96 2065.84,-3824.63 2061.26,-3834.19 2068.22,-3834.96"/>
+</g>
+<!-- 220 -->
+<g id="node17" class="node">
+<title>220</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2017.05,-3724.87C2017.05,-3724.87 1465.5,-3724.87 1465.5,-3724.87 1459.5,-3724.87 1453.5,-3718.87 1453.5,-3712.87 1453.5,-3712.87 1453.5,-3677.59 1453.5,-3677.59 1453.5,-3671.59 1459.5,-3665.59 1465.5,-3665.59 1465.5,-3665.59 2017.05,-3665.59 2017.05,-3665.59 2023.05,-3665.59 2029.05,-3671.59 2029.05,-3677.59 2029.05,-3677.59 2029.05,-3712.87 2029.05,-3712.87 2029.05,-3718.87 2023.05,-3724.87 2017.05,-3724.87"/>
+<text text-anchor="start" x="1467.9" y="-3703.93" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">220: </text>
+<text text-anchor="start" x="1506.9" y="-3703.93" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [Namensprüfung] (Nachname oder Firmenname) und</text>
+<text text-anchor="start" x="1467.9" y="-3689.93" font-family="Roboto, sans-serif" font-size="14.00">[Gerätenummernprüfung]</text>
+<text text-anchor="start" x="1467.9" y="-3675.93" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien</text>
+</g>
+<!-- 215&#45;&gt;220 -->
+<g id="edge28" class="edge">
+<title>215-&gt;220</title>
+<path fill="none" stroke="#88a0d6" d="M1994.58,-3778.18C1950.04,-3763.77 1890.68,-3744.57 1840.61,-3728.37"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1841.78,-3725.07 1831.19,-3725.32 1839.63,-3731.73 1841.78,-3725.07"/>
+<text text-anchor="start" x="1929.28" y="-3747.82" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 225 -->
+<g id="node18" class="node">
+<title>225</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2402.55,-3628.59C2402.55,-3628.59 1728,-3628.59 1728,-3628.59 1722,-3628.59 1716,-3622.59 1716,-3616.59 1716,-3616.59 1716,-3604.59 1716,-3604.59 1716,-3598.59 1722,-3592.59 1728,-3592.59 1728,-3592.59 2402.55,-3592.59 2402.55,-3592.59 2408.55,-3592.59 2414.55,-3598.59 2414.55,-3604.59 2414.55,-3604.59 2414.55,-3616.59 2414.55,-3616.59 2414.55,-3622.59 2408.55,-3628.59 2402.55,-3628.59"/>
+<text text-anchor="start" x="1730.4" y="-3606.91" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">225: </text>
+<text text-anchor="start" x="1769.4" y="-3606.91" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „Gerätenummer“ und „Adresse“ in der Anfrage enthalten?</text>
+</g>
+<!-- 215&#45;&gt;225 -->
+<g id="edge29" class="edge">
+<title>215-&gt;225</title>
+<path fill="none" stroke="#88a0d6" d="M2054.81,-3778.37C2046.57,-3746.46 2036.59,-3686.04 2065.28,-3647.59"/>
+<text text-anchor="start" x="2053.28" y="-3691.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 220&#45;&gt;225 -->
+<g id="edge30" class="edge">
+<title>220-&gt;225</title>
+<path fill="none" stroke="#88a0d6" d="M2028.88,-3670.33C2045.58,-3664.29 2058.39,-3656.81 2065.28,-3647.59"/>
+<path fill="none" stroke="#88a0d6" d="M2065.28,-3646.59C2066.84,-3644.49 2067.88,-3642.11 2068.52,-3639.6"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2072.01,-3639.95 2069.15,-3629.75 2065.02,-3639.51 2072.01,-3639.95"/>
+</g>
+<!-- 230 -->
+<g id="node19" class="node">
+<title>230</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2028.8,-3539.34C2028.8,-3539.34 1463.75,-3539.34 1463.75,-3539.34 1457.75,-3539.34 1451.75,-3533.34 1451.75,-3527.34 1451.75,-3527.34 1451.75,-3492.06 1451.75,-3492.06 1451.75,-3486.06 1457.75,-3480.06 1463.75,-3480.06 1463.75,-3480.06 2028.8,-3480.06 2028.8,-3480.06 2034.8,-3480.06 2040.8,-3486.06 2040.8,-3492.06 2040.8,-3492.06 2040.8,-3527.34 2040.8,-3527.34 2040.8,-3533.34 2034.8,-3539.34 2028.8,-3539.34"/>
+<text text-anchor="start" x="1466.15" y="-3518.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">230: </text>
+<text text-anchor="start" x="1505.15" y="-3518.4" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [Gerätenummernprüfung] und [Adressprüfung] (PLZ oder</text>
+<text text-anchor="start" x="1466.15" y="-3504.4" font-family="Roboto, sans-serif" font-size="14.00">geographische Koordinaten oder Flurstücknummer)</text>
+<text text-anchor="start" x="1466.15" y="-3490.4" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien</text>
+</g>
+<!-- 225&#45;&gt;230 -->
+<g id="edge31" class="edge">
+<title>225-&gt;230</title>
+<path fill="none" stroke="#88a0d6" d="M2010.44,-3592.59C1966.27,-3578.9 1902.94,-3559.27 1849.36,-3542.66"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1850.47,-3539.34 1839.88,-3539.72 1848.4,-3546.02 1850.47,-3539.34"/>
+<text text-anchor="start" x="1943.28" y="-3562.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 235 -->
+<g id="node20" class="node">
+<title>235</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2390.55,-3443.06C2390.55,-3443.06 1764,-3443.06 1764,-3443.06 1758,-3443.06 1752,-3437.06 1752,-3431.06 1752,-3431.06 1752,-3419.06 1752,-3419.06 1752,-3413.06 1758,-3407.06 1764,-3407.06 1764,-3407.06 2390.55,-3407.06 2390.55,-3407.06 2396.55,-3407.06 2402.55,-3413.06 2402.55,-3419.06 2402.55,-3419.06 2402.55,-3431.06 2402.55,-3431.06 2402.55,-3437.06 2396.55,-3443.06 2390.55,-3443.06"/>
+<text text-anchor="start" x="1766.4" y="-3421.38" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">235: </text>
+<text text-anchor="start" x="1805.4" y="-3421.38" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „MeLo-ID“ und „Adresse“ in der Anfrage enthalten?</text>
+</g>
+<!-- 225&#45;&gt;235 -->
+<g id="edge32" class="edge">
+<title>225-&gt;235</title>
+<path fill="none" stroke="#88a0d6" d="M2061.41,-3593.01C2055.55,-3563.46 2047.97,-3501.11 2077.28,-3462.06"/>
+<text text-anchor="start" x="2065.28" y="-3506.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 230&#45;&gt;235 -->
+<g id="edge33" class="edge">
+<title>230-&gt;235</title>
+<path fill="none" stroke="#88a0d6" d="M2025.65,-3480.1C2052.81,-3474.76 2072.27,-3468.73 2077.28,-3462.06"/>
+<path fill="none" stroke="#88a0d6" d="M2077.28,-3461.06C2078.85,-3458.97 2079.89,-3456.59 2080.54,-3454.08"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2084.02,-3454.43 2081.16,-3444.23 2077.03,-3453.99 2084.02,-3454.43"/>
+</g>
+<!-- 240 -->
+<g id="node21" class="node">
+<title>240</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2030.43,-3353.81C2030.43,-3353.81 1436.12,-3353.81 1436.12,-3353.81 1430.12,-3353.81 1424.12,-3347.81 1424.12,-3341.81 1424.12,-3341.81 1424.12,-3306.53 1424.12,-3306.53 1424.12,-3300.53 1430.12,-3294.53 1436.12,-3294.53 1436.12,-3294.53 2030.43,-3294.53 2030.43,-3294.53 2036.43,-3294.53 2042.43,-3300.53 2042.43,-3306.53 2042.43,-3306.53 2042.43,-3341.81 2042.43,-3341.81 2042.43,-3347.81 2036.43,-3353.81 2030.43,-3353.81"/>
+<text text-anchor="start" x="1438.53" y="-3332.87" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">240: </text>
+<text text-anchor="start" x="1477.53" y="-3332.87" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [MeLo-ID-Prüfung] und [Adressprüfung] (Straße und PLZ oder</text>
+<text text-anchor="start" x="1438.53" y="-3318.87" font-family="Roboto, sans-serif" font-size="14.00">geographische Koordinaten oder Flurstücknummer)</text>
+<text text-anchor="start" x="1438.53" y="-3304.87" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien</text>
+</g>
+<!-- 235&#45;&gt;240 -->
+<g id="edge34" class="edge">
+<title>235-&gt;240</title>
+<path fill="none" stroke="#88a0d6" d="M2018.14,-3407.06C1970.32,-3393.31 1901.65,-3373.57 1843.72,-3356.92"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1844.69,-3353.56 1834.11,-3354.16 1842.76,-3360.28 1844.69,-3353.56"/>
+<text text-anchor="start" x="1945.28" y="-3376.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 245 -->
+<g id="node22" class="node">
+<title>245</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2388.93,-3257.53C2388.93,-3257.53 1767.62,-3257.53 1767.62,-3257.53 1761.62,-3257.53 1755.62,-3251.53 1755.62,-3245.53 1755.62,-3245.53 1755.62,-3224.25 1755.62,-3224.25 1755.62,-3218.25 1761.62,-3212.25 1767.62,-3212.25 1767.62,-3212.25 2388.93,-3212.25 2388.93,-3212.25 2394.93,-3212.25 2400.93,-3218.25 2400.93,-3224.25 2400.93,-3224.25 2400.93,-3245.53 2400.93,-3245.53 2400.93,-3251.53 2394.93,-3257.53 2388.93,-3257.53"/>
+<text text-anchor="start" x="1770.03" y="-3236.59" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">245: </text>
+<text text-anchor="start" x="1809.03" y="-3236.59" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „MeLo-ID“ und „Vorname und/oder Nachname oder</text>
+<text text-anchor="start" x="1770.03" y="-3222.59" font-family="Roboto, sans-serif" font-size="14.00">Firmenname“ in der Anfrage enthalten?</text>
+</g>
+<!-- 235&#45;&gt;245 -->
+<g id="edge35" class="edge">
+<title>235-&gt;245</title>
+<path fill="none" stroke="#88a0d6" d="M2071.57,-3407.43C2062.55,-3377.78 2048.85,-3315.29 2078.28,-3276.53"/>
+<text text-anchor="start" x="2067.28" y="-3320.49" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 240&#45;&gt;245 -->
+<g id="edge36" class="edge">
+<title>240-&gt;245</title>
+<path fill="none" stroke="#88a0d6" d="M2026.6,-3294.59C2053.77,-3289.29 2073.16,-3283.27 2078.28,-3276.53"/>
+<path fill="none" stroke="#88a0d6" d="M2078.28,-3275.53C2079.86,-3273.44 2080.98,-3271.09 2081.73,-3268.6"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2085.2,-3269.06 2082.81,-3258.74 2078.24,-3268.29 2085.2,-3269.06"/>
+</g>
+<!-- 250 -->
+<g id="node23" class="node">
+<title>250</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2056.8,-3159C2056.8,-3159 1389.75,-3159 1389.75,-3159 1383.75,-3159 1377.75,-3153 1377.75,-3147 1377.75,-3147 1377.75,-3125.72 1377.75,-3125.72 1377.75,-3119.72 1383.75,-3113.72 1389.75,-3113.72 1389.75,-3113.72 2056.8,-3113.72 2056.8,-3113.72 2062.8,-3113.72 2068.8,-3119.72 2068.8,-3125.72 2068.8,-3125.72 2068.8,-3147 2068.8,-3147 2068.8,-3153 2062.8,-3159 2056.8,-3159"/>
+<text text-anchor="start" x="1392.15" y="-3138.06" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">250: </text>
+<text text-anchor="start" x="1431.15" y="-3138.06" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [MeLo-ID-Prüfung] und [Namensprüfung] (Nachname oder Firmenname)</text>
+<text text-anchor="start" x="1392.15" y="-3124.06" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien</text>
+</g>
+<!-- 245&#45;&gt;250 -->
+<g id="edge37" class="edge">
+<title>245-&gt;250</title>
+<path fill="none" stroke="#88a0d6" d="M1999.05,-3212.35C1944.05,-3197.39 1870.66,-3177.44 1813.42,-3161.87"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1814.59,-3158.56 1804.03,-3159.32 1812.76,-3165.32 1814.59,-3158.56"/>
+<text text-anchor="start" x="1921.28" y="-3181.95" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 261 -->
+<g id="node24" class="node">
+<title>261</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2405.55,-3060.47C2405.55,-3060.47 1725,-3060.47 1725,-3060.47 1719,-3060.47 1713,-3054.47 1713,-3048.47 1713,-3048.47 1713,-3036.47 1713,-3036.47 1713,-3030.47 1719,-3024.47 1725,-3024.47 1725,-3024.47 2405.55,-3024.47 2405.55,-3024.47 2411.55,-3024.47 2417.55,-3030.47 2417.55,-3036.47 2417.55,-3036.47 2417.55,-3048.47 2417.55,-3048.47 2417.55,-3054.47 2411.55,-3060.47 2405.55,-3060.47"/>
+<text text-anchor="start" x="1727.4" y="-3038.79" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">261: </text>
+<text text-anchor="start" x="1766.4" y="-3038.79" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „Kundennummer“ und „Adresse“ in der Anfrage enthalten?</text>
+</g>
+<!-- 245&#45;&gt;261 -->
+<g id="edge38" class="edge">
+<title>245-&gt;261</title>
+<path fill="none" stroke="#88a0d6" d="M2080.76,-3212.29C2084.4,-3183.51 2092.23,-3131.21 2105.28,-3088.09"/>
+<text text-anchor="start" x="2097.28" y="-3132.68" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 250&#45;&gt;261 -->
+<g id="edge39" class="edge">
+<title>250-&gt;261</title>
+<path fill="none" stroke="#88a0d6" d="M2034.3,-3113.78C2073.91,-3107.28 2102.01,-3098.89 2105.28,-3088.09"/>
+<path fill="none" stroke="#88a0d6" d="M2105.28,-3086.09C2107.2,-3079.75 2105.53,-3073.86 2101.98,-3068.62"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2104.87,-3066.6 2095.56,-3061.55 2099.69,-3071.3 2104.87,-3066.6"/>
+</g>
+<!-- 262 -->
+<g id="node25" class="node">
+<title>262</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2037.05,-2971.22C2037.05,-2971.22 1389.5,-2971.22 1389.5,-2971.22 1383.5,-2971.22 1377.5,-2965.22 1377.5,-2959.22 1377.5,-2959.22 1377.5,-2923.94 1377.5,-2923.94 1377.5,-2917.94 1383.5,-2911.94 1389.5,-2911.94 1389.5,-2911.94 2037.05,-2911.94 2037.05,-2911.94 2043.05,-2911.94 2049.05,-2917.94 2049.05,-2923.94 2049.05,-2923.94 2049.05,-2959.22 2049.05,-2959.22 2049.05,-2965.22 2043.05,-2971.22 2037.05,-2971.22"/>
+<text text-anchor="start" x="1391.9" y="-2950.28" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">262: </text>
+<text text-anchor="start" x="1430.9" y="-2950.28" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [Kundennummer-Prüfung] und [Adressprüfung] (Straße und PLZ oder</text>
+<text text-anchor="start" x="1391.9" y="-2936.28" font-family="Roboto, sans-serif" font-size="14.00">geographische Koordinaten oder Flurstücknummer)</text>
+<text text-anchor="start" x="1391.9" y="-2922.28" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien</text>
+</g>
+<!-- 261&#45;&gt;262 -->
+<g id="edge40" class="edge">
+<title>261-&gt;262</title>
+<path fill="none" stroke="#88a0d6" d="M2004.76,-3024.47C1955.73,-3010.69 1885.27,-2990.9 1825.91,-2974.22"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1827,-2970.89 1816.43,-2971.56 1825.11,-2977.63 1827,-2970.89"/>
+<text text-anchor="start" x="1930.28" y="-2994.17" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 263 -->
+<g id="node26" class="node">
+<title>263</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2393.93,-2874.94C2393.93,-2874.94 1754.62,-2874.94 1754.62,-2874.94 1748.62,-2874.94 1742.62,-2868.94 1742.62,-2862.94 1742.62,-2862.94 1742.62,-2827.66 1742.62,-2827.66 1742.62,-2821.66 1748.62,-2815.66 1754.62,-2815.66 1754.62,-2815.66 2393.93,-2815.66 2393.93,-2815.66 2399.93,-2815.66 2405.93,-2821.66 2405.93,-2827.66 2405.93,-2827.66 2405.93,-2862.94 2405.93,-2862.94 2405.93,-2868.94 2399.93,-2874.94 2393.93,-2874.94"/>
+<text text-anchor="start" x="1757.03" y="-2854" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">263: </text>
+<text text-anchor="start" x="1796.03" y="-2854" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „Kundennummer“ und „Vorname und/oder Nachname</text>
+<text text-anchor="start" x="1757.03" y="-2840" font-family="Roboto, sans-serif" font-size="14.00">oder</text>
+<text text-anchor="start" x="1757.03" y="-2826" font-family="Roboto, sans-serif" font-size="14.00">Firmenname“ in der Anfrage enthalten?</text>
+</g>
+<!-- 261&#45;&gt;263 -->
+<g id="edge41" class="edge">
+<title>261-&gt;263</title>
+<path fill="none" stroke="#88a0d6" d="M2063.41,-3024.56C2061.07,-2995.56 2060.02,-2935.46 2085.28,-2893.94"/>
+<text text-anchor="start" x="2075.28" y="-2937.9" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 262&#45;&gt;263 -->
+<g id="edge42" class="edge">
+<title>262-&gt;263</title>
+<path fill="none" stroke="#88a0d6" d="M2040.4,-2912.01C2064.45,-2906.85 2081.07,-2900.86 2085.28,-2893.94"/>
+<path fill="none" stroke="#88a0d6" d="M2085.28,-2892.94C2086.64,-2890.69 2087.51,-2888.28 2087.97,-2885.79"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2091.47,-2885.98 2087.76,-2876.06 2084.47,-2886.13 2091.47,-2885.98"/>
+</g>
+<!-- 264 -->
+<g id="node27" class="node">
+<title>264</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2025.8,-2762.41C2025.8,-2762.41 1400.75,-2762.41 1400.75,-2762.41 1394.75,-2762.41 1388.75,-2756.41 1388.75,-2750.41 1388.75,-2750.41 1388.75,-2715.13 1388.75,-2715.13 1388.75,-2709.13 1394.75,-2703.13 1400.75,-2703.13 1400.75,-2703.13 2025.8,-2703.13 2025.8,-2703.13 2031.8,-2703.13 2037.8,-2709.13 2037.8,-2715.13 2037.8,-2715.13 2037.8,-2750.41 2037.8,-2750.41 2037.8,-2756.41 2031.8,-2762.41 2025.8,-2762.41"/>
+<text text-anchor="start" x="1403.15" y="-2741.47" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">264: </text>
+<text text-anchor="start" x="1442.15" y="-2741.47" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [Kundennummer-Prüfung] und [Namensprüfung] (Nachname oder</text>
+<text text-anchor="start" x="1403.15" y="-2727.47" font-family="Roboto, sans-serif" font-size="14.00">Firmenname)</text>
+<text text-anchor="start" x="1403.15" y="-2713.47" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von zwei Kriterien</text>
+</g>
+<!-- 263&#45;&gt;264 -->
+<g id="edge43" class="edge">
+<title>263-&gt;264</title>
+<path fill="none" stroke="#88a0d6" d="M1980.84,-2815.69C1930.81,-2800.37 1869.05,-2781.46 1817.48,-2765.67"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1818.67,-2762.38 1808.08,-2762.8 1816.62,-2769.07 1818.67,-2762.38"/>
+<text text-anchor="start" x="1915.28" y="-2785.36" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 265 -->
+<g id="node28" class="node">
+<title>265</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2301.55,-2666.13C2301.55,-2666.13 1723,-2666.13 1723,-2666.13 1717,-2666.13 1711,-2660.13 1711,-2654.13 1711,-2654.13 1711,-2632.85 1711,-2632.85 1711,-2626.85 1717,-2620.85 1723,-2620.85 1723,-2620.85 2301.55,-2620.85 2301.55,-2620.85 2307.55,-2620.85 2313.55,-2626.85 2313.55,-2632.85 2313.55,-2632.85 2313.55,-2654.13 2313.55,-2654.13 2313.55,-2660.13 2307.55,-2666.13 2301.55,-2666.13"/>
+<text text-anchor="start" x="1725.4" y="-2645.19" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">265: </text>
+<text text-anchor="start" x="1764.4" y="-2645.19" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis der Kombinationen aus zwei Kriterien 1..n</text>
+<text text-anchor="start" x="1725.4" y="-2631.19" font-family="Roboto, sans-serif" font-size="14.00">Treffer mit einer Kombination der Identifikationskriterien?</text>
+</g>
+<!-- 263&#45;&gt;265 -->
+<g id="edge44" class="edge">
+<title>263-&gt;265</title>
+<path fill="none" stroke="#88a0d6" d="M2071.52,-2815.9C2069.05,-2783.88 2066.85,-2730.4 2074.28,-2685.13"/>
+<text text-anchor="start" x="2071.28" y="-2729.09" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 264&#45;&gt;265 -->
+<g id="edge45" class="edge">
+<title>264-&gt;265</title>
+<path fill="none" stroke="#88a0d6" d="M2037.54,-2704.5C2059.17,-2699.13 2073.03,-2692.73 2074.28,-2685.13"/>
+<path fill="none" stroke="#88a0d6" d="M2074.28,-2684.13C2074.75,-2681.21 2074.64,-2678.5 2074.03,-2675.97"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2077.2,-2674.46 2069.29,-2667.41 2071.07,-2677.85 2077.2,-2674.46"/>
+</g>
+<!-- 270 -->
+<g id="node29" class="node">
+<title>270</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2269.3,-2514.96C2269.3,-2514.96 1755.25,-2514.96 1755.25,-2514.96 1749.25,-2514.96 1743.25,-2508.96 1743.25,-2502.96 1743.25,-2502.96 1743.25,-2490.96 1743.25,-2490.96 1743.25,-2484.96 1749.25,-2478.96 1755.25,-2478.96 1755.25,-2478.96 2269.3,-2478.96 2269.3,-2478.96 2275.3,-2478.96 2281.3,-2484.96 2281.3,-2490.96 2281.3,-2490.96 2281.3,-2502.96 2281.3,-2502.96 2281.3,-2508.96 2275.3,-2514.96 2269.3,-2514.96"/>
+<text text-anchor="start" x="1757.65" y="-2493.29" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">270: </text>
+<text text-anchor="start" x="1796.65" y="-2493.29" font-family="Roboto, sans-serif" font-size="14.00">Ist das Identifikationskriterium „Adresse“ in der Anfrage enthalten?</text>
+</g>
+<!-- 265&#45;&gt;270 -->
+<g id="edge46" class="edge">
+<title>265-&gt;270</title>
+<path fill="none" stroke="#88a0d6" d="M2012.28,-2620.85C2012.28,-2595.61 2012.28,-2553.8 2012.28,-2526.07"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2015.78,-2526.29 2012.28,-2516.29 2008.78,-2526.29 2015.78,-2526.29"/>
+<text text-anchor="start" x="2012.28" y="-2590.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 305 -->
+<g id="node33" class="node">
+<title>305</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M929.3,-2519.6C929.3,-2519.6 337.25,-2519.6 337.25,-2519.6 331.25,-2519.6 325.25,-2513.6 325.25,-2507.6 325.25,-2507.6 325.25,-2486.32 325.25,-2486.32 325.25,-2480.32 331.25,-2474.32 337.25,-2474.32 337.25,-2474.32 929.3,-2474.32 929.3,-2474.32 935.3,-2474.32 941.3,-2480.32 941.3,-2486.32 941.3,-2486.32 941.3,-2507.6 941.3,-2507.6 941.3,-2513.6 935.3,-2519.6 929.3,-2519.6"/>
+<text text-anchor="start" x="339.65" y="-2498.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">305: </text>
+<text text-anchor="start" x="378.65" y="-2498.66" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „Adresse“, „Vorname und/oder Nachname oder</text>
+<text text-anchor="start" x="339.65" y="-2484.66" font-family="Roboto, sans-serif" font-size="14.00">Firmenname“ und „Gerätenummer“ in der Anfrage enthalten?</text>
+</g>
+<!-- 265&#45;&gt;305 -->
+<g id="edge47" class="edge">
+<title>265-&gt;305</title>
+<path fill="none" stroke="#88a0d6" d="M1711.14,-2638.91C1497.66,-2632.76 1205.04,-2617.04 950.27,-2577.6 868.77,-2564.98 777.64,-2541.02 714.07,-2522.66"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="715.36,-2519.39 704.78,-2519.96 713.41,-2526.12 715.36,-2519.39"/>
+<text text-anchor="start" x="1122.28" y="-2590.55" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 275 -->
+<g id="node30" class="node">
+<title>275</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2067.55,-2372.07C2067.55,-2372.07 1585,-2372.07 1585,-2372.07 1579,-2372.07 1573,-2366.07 1573,-2360.07 1573,-2360.07 1573,-2324.79 1573,-2324.79 1573,-2318.79 1579,-2312.79 1585,-2312.79 1585,-2312.79 2067.55,-2312.79 2067.55,-2312.79 2073.55,-2312.79 2079.55,-2318.79 2079.55,-2324.79 2079.55,-2324.79 2079.55,-2360.07 2079.55,-2360.07 2079.55,-2366.07 2073.55,-2372.07 2067.55,-2372.07"/>
+<text text-anchor="start" x="1587.4" y="-2351.13" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">275: </text>
+<text text-anchor="start" x="1626.4" y="-2351.13" font-family="Roboto, sans-serif" font-size="14.00">Vollständige [Adressprüfung]</text>
+<text text-anchor="start" x="1587.4" y="-2337.13" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis der alleinigen</text>
+<text text-anchor="start" x="1587.4" y="-2323.13" font-family="Roboto, sans-serif" font-size="14.00">Adressprüfung</text>
+</g>
+<!-- 270&#45;&gt;275 -->
+<g id="edge48" class="edge">
+<title>270-&gt;275</title>
+<path fill="none" stroke="#88a0d6" d="M1991.66,-2479.05C1962.29,-2454.97 1907.71,-2410.21 1869.31,-2378.72"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1872.01,-2376.41 1862.06,-2372.77 1867.57,-2381.82 1872.01,-2376.41"/>
+<text text-anchor="start" x="1907.28" y="-2402.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 280 -->
+<g id="node31" class="node">
+<title>280</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2405.3,-2268.79C2405.3,-2268.79 1825.25,-2268.79 1825.25,-2268.79 1819.25,-2268.79 1813.25,-2262.79 1813.25,-2256.79 1813.25,-2256.79 1813.25,-2235.51 1813.25,-2235.51 1813.25,-2229.51 1819.25,-2223.51 1825.25,-2223.51 1825.25,-2223.51 2405.3,-2223.51 2405.3,-2223.51 2411.3,-2223.51 2417.3,-2229.51 2417.3,-2235.51 2417.3,-2235.51 2417.3,-2256.79 2417.3,-2256.79 2417.3,-2262.79 2411.3,-2268.79 2405.3,-2268.79"/>
+<text text-anchor="start" x="1827.65" y="-2247.85" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">280: </text>
+<text text-anchor="start" x="1866.65" y="-2247.85" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis der alleinigen Adressprüfung genau einen</text>
+<text text-anchor="start" x="1827.65" y="-2233.85" font-family="Roboto, sans-serif" font-size="14.00">Treffer mit dem Identifikationskriterium „Adresse“?</text>
+</g>
+<!-- 270&#45;&gt;280 -->
+<g id="edge49" class="edge">
+<title>270-&gt;280</title>
+<path fill="none" stroke="#88a0d6" d="M2025.53,-2479.06C2042.2,-2457.11 2070.74,-2417.1 2088.28,-2379.07 2105.99,-2340.65 2091.28,-2322.63 2115.28,-2287.79"/>
+<text text-anchor="start" x="2104.28" y="-2338.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 275&#45;&gt;280 -->
+<g id="edge50" class="edge">
+<title>275-&gt;280</title>
+<path fill="none" stroke="#88a0d6" d="M2074.55,-2312.82C2093.67,-2306.15 2108.29,-2297.93 2115.28,-2287.79"/>
+<path fill="none" stroke="#88a0d6" d="M2115.28,-2286.79C2116.73,-2284.67 2117.77,-2282.33 2118.47,-2279.87"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2121.92,-2280.52 2119.53,-2270.2 2114.96,-2279.75 2121.92,-2280.52"/>
+</g>
+<!-- 705 -->
+<g id="node62" class="node">
+<title>705</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2527.68,-691.01C2527.68,-691.01 1952.88,-691.01 1952.88,-691.01 1946.88,-691.01 1940.88,-685.01 1940.88,-679.01 1940.88,-679.01 1940.88,-667.01 1940.88,-667.01 1940.88,-661.01 1946.88,-655.01 1952.88,-655.01 1952.88,-655.01 2527.68,-655.01 2527.68,-655.01 2533.68,-655.01 2539.68,-661.01 2539.68,-667.01 2539.68,-667.01 2539.68,-679.01 2539.68,-679.01 2539.68,-685.01 2533.68,-691.01 2527.68,-691.01"/>
+<text text-anchor="start" x="1955.28" y="-669.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">705: </text>
+<text text-anchor="start" x="1994.28" y="-669.34" font-family="Roboto, sans-serif" font-size="14.00">Liegt die ermittelte Marktlokation zum Anfragedatum im Netzgebiet des NB?</text>
+</g>
+<!-- 280&#45;&gt;705 -->
+<g id="edge52" class="edge">
+<title>280-&gt;705</title>
+<path fill="none" stroke="#88a0d6" d="M2417.18,-2223.55C2658.73,-2202.05 2957.28,-2164.07 2957.28,-2107.62 2957.28,-2107.62 2957.28,-2107.62 2957.28,-1497.11 2957.28,-1473.88 2952.44,-1467.28 2958.53,-1444.86 2965.67,-1418.55 2985.01,-1418.28 2988.28,-1391.22"/>
+<path fill="none" stroke="#88a0d6" d="M2988.28,-1389.22C2994.34,-1337.34 2988.28,-1323.93 2988.28,-1271.69 2988.28,-1271.69 2988.28,-1271.69 2988.28,-791.54 2988.28,-656.37 2827.43,-736.92 2694.28,-713.65 2653.86,-706.59 2571.67,-698.74 2488.19,-691.9"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2488.7,-688.43 2478.45,-691.11 2488.13,-695.41 2488.7,-688.43"/>
+<text text-anchor="start" x="2958.28" y="-1449.81" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A02 -->
+<g id="node73" class="node">
+<title>A02</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2483.3,-2164.26C2483.3,-2164.26 1747.25,-2164.26 1747.25,-2164.26 1741.25,-2164.26 1735.25,-2158.26 1735.25,-2152.26 1735.25,-2152.26 1735.25,-2060.98 1735.25,-2060.98 1735.25,-2054.98 1741.25,-2048.98 1747.25,-2048.98 1747.25,-2048.98 2483.3,-2048.98 2483.3,-2048.98 2489.3,-2048.98 2495.3,-2054.98 2495.3,-2060.98 2495.3,-2060.98 2495.3,-2152.26 2495.3,-2152.26 2495.3,-2158.26 2489.3,-2164.26 2483.3,-2164.26"/>
+<text text-anchor="start" x="1749.65" y="-2143.32" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A02</text>
+<text text-anchor="start" x="1749.65" y="-2115.32" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="1749.65" y="-2101.32" font-family="Roboto, sans-serif" font-size="14.00">In der Kombination von zwei Identifikationskriterien war keine Marktlokation ermittelbar</text>
+<text text-anchor="start" x="1749.65" y="-2087.32" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Hier erfolgt die Ablehnung, wenn</text>
+<text text-anchor="start" x="1749.65" y="-2073.32" font-family="Roboto, sans-serif" font-size="14.00">es keine Marktlokation gibt, bei der mindestens eine Kombination aus zwei Identifikationskriterien zutrifft</text>
+<text text-anchor="start" x="1749.65" y="-2059.32" font-family="Roboto, sans-serif" font-size="14.00">mit der Adresse allein auch keine eindeutige Identifikation möglich ist</text>
+</g>
+<!-- 280&#45;&gt;A02 -->
+<g id="edge51" class="edge">
+<title>280-&gt;A02</title>
+<path fill="none" stroke="#88a0d6" d="M2115.28,-2223.66C2115.28,-2210.58 2115.28,-2193.09 2115.28,-2175.65"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2118.78,-2175.77 2115.28,-2165.77 2111.78,-2175.77 2118.78,-2175.77"/>
+<text text-anchor="start" x="2115.28" y="-2187.21" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- msi_305 -->
+<g id="node32" class="node">
+<title>msi_305</title>
+<polygon fill="#e6f3ff" stroke="black" stroke-width="0" points="1331.43,-2561.6 959.13,-2561.6 959.13,-2432.32 1337.43,-2432.32 1337.43,-2555.6 1331.43,-2561.6"/>
+<polyline fill="none" stroke="black" stroke-width="0" points="1331.43,-2561.6 1331.43,-2555.6"/>
+<polyline fill="none" stroke="black" stroke-width="0" points="1337.43,-2555.6 1331.43,-2555.6"/>
+<text text-anchor="start" x="973.53" y="-2540.66" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">Die nachfolgenden Prüfungen erfolgen auf Basis</text>
+<text text-anchor="start" x="973.53" y="-2526.66" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">der Identifikationskriterien aus der Anfrage und</text>
+<text text-anchor="start" x="973.53" y="-2512.66" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">der Trefferliste auf Basis von zwei Kriterien aus</text>
+<text text-anchor="start" x="973.53" y="-2498.66" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">den vorhergehenden Prüfungen. In der Trefferliste</text>
+<text text-anchor="start" x="973.53" y="-2484.66" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">befinden sich Marktlokationen, bei denen</text>
+<text text-anchor="start" x="973.53" y="-2470.66" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">mindestens eine Kombination aus zwei</text>
+<text text-anchor="start" x="973.53" y="-2456.66" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">Identifikationskriterien mit der Anfrage</text>
+<text text-anchor="start" x="973.53" y="-2442.66" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">übereinstimmt.</text>
+</g>
+<!-- 310 -->
+<g id="node34" class="node">
+<title>310</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M856.42,-2379.07C856.42,-2379.07 232.12,-2379.07 232.12,-2379.07 226.12,-2379.07 220.12,-2373.07 220.12,-2367.07 220.12,-2367.07 220.12,-2317.79 220.12,-2317.79 220.12,-2311.79 226.12,-2305.79 232.12,-2305.79 232.12,-2305.79 856.42,-2305.79 856.42,-2305.79 862.42,-2305.79 868.42,-2311.79 868.42,-2317.79 868.42,-2317.79 868.42,-2367.07 868.42,-2367.07 868.42,-2373.07 862.42,-2379.07 856.42,-2379.07"/>
+<text text-anchor="start" x="234.52" y="-2358.13" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">310: </text>
+<text text-anchor="start" x="273.52" y="-2358.13" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten</text>
+<text text-anchor="start" x="234.52" y="-2344.13" font-family="Roboto, sans-serif" font-size="14.00">oder Flurstücknummer), [Namensprüfung] (Nachname oder Firmenname) und</text>
+<text text-anchor="start" x="234.52" y="-2330.13" font-family="Roboto, sans-serif" font-size="14.00">[Gerätenummernprüfung]</text>
+<text text-anchor="start" x="234.52" y="-2316.13" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von drei Kriterien</text>
+</g>
+<!-- 305&#45;&gt;310 -->
+<g id="edge53" class="edge">
+<title>305-&gt;310</title>
+<path fill="none" stroke="#88a0d6" d="M620.71,-2474.43C607.77,-2452.25 587.2,-2417 570.66,-2388.66"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="573.83,-2387.13 565.76,-2380.26 567.78,-2390.66 573.83,-2387.13"/>
+<text text-anchor="start" x="583.27" y="-2402.02" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 315 -->
+<g id="node35" class="node">
+<title>315</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1200.3,-2268.79C1200.3,-2268.79 608.25,-2268.79 608.25,-2268.79 602.25,-2268.79 596.25,-2262.79 596.25,-2256.79 596.25,-2256.79 596.25,-2235.51 596.25,-2235.51 596.25,-2229.51 602.25,-2223.51 608.25,-2223.51 608.25,-2223.51 1200.3,-2223.51 1200.3,-2223.51 1206.3,-2223.51 1212.3,-2229.51 1212.3,-2235.51 1212.3,-2235.51 1212.3,-2256.79 1212.3,-2256.79 1212.3,-2262.79 1206.3,-2268.79 1200.3,-2268.79"/>
+<text text-anchor="start" x="610.65" y="-2247.85" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">315: </text>
+<text text-anchor="start" x="649.65" y="-2247.85" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „Adresse“, „Vorname und/oder Nachname oder</text>
+<text text-anchor="start" x="610.65" y="-2233.85" font-family="Roboto, sans-serif" font-size="14.00">Firmenname“ und „MeLo-ID“ in der Anfrage enthalten?</text>
+</g>
+<!-- 305&#45;&gt;315 -->
+<g id="edge54" class="edge">
+<title>305-&gt;315</title>
+<path fill="none" stroke="#88a0d6" d="M718.59,-2474.36C771.27,-2456.87 836.37,-2427.06 877.27,-2379.07 904.72,-2346.87 879.12,-2321.81 904.27,-2287.79"/>
+<text text-anchor="start" x="894.27" y="-2338.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 310&#45;&gt;315 -->
+<g id="edge55" class="edge">
+<title>310-&gt;315</title>
+<path fill="none" stroke="#88a0d6" d="M868.3,-2311.59C884.69,-2305.1 897.28,-2297.25 904.27,-2287.79"/>
+<path fill="none" stroke="#88a0d6" d="M904.27,-2286.79C905.84,-2284.68 906.93,-2282.31 907.67,-2279.82"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="911.14,-2280.26 908.73,-2269.94 904.18,-2279.5 911.14,-2280.26"/>
+</g>
+<!-- 320 -->
+<g id="node36" class="node">
+<title>320</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M913.42,-2143.26C913.42,-2143.26 289.12,-2143.26 289.12,-2143.26 283.12,-2143.26 277.12,-2137.26 277.12,-2131.26 277.12,-2131.26 277.12,-2081.98 277.12,-2081.98 277.12,-2075.98 283.12,-2069.98 289.12,-2069.98 289.12,-2069.98 913.42,-2069.98 913.42,-2069.98 919.42,-2069.98 925.42,-2075.98 925.42,-2081.98 925.42,-2081.98 925.42,-2131.26 925.42,-2131.26 925.42,-2137.26 919.42,-2143.26 913.42,-2143.26"/>
+<text text-anchor="start" x="291.52" y="-2122.32" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">320: </text>
+<text text-anchor="start" x="330.52" y="-2122.32" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten</text>
+<text text-anchor="start" x="291.52" y="-2108.32" font-family="Roboto, sans-serif" font-size="14.00">oder Flurstücknummer), [Namensprüfung] (Nachname oder Firmenname) und</text>
+<text text-anchor="start" x="291.52" y="-2094.32" font-family="Roboto, sans-serif" font-size="14.00">[MeLo-ID-Prüfung]</text>
+<text text-anchor="start" x="291.52" y="-2080.32" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von drei Kriterien</text>
+</g>
+<!-- 315&#45;&gt;320 -->
+<g id="edge56" class="edge">
+<title>315-&gt;320</title>
+<path fill="none" stroke="#88a0d6" d="M856.93,-2223.66C812.37,-2203.43 744.5,-2172.63 689.89,-2147.84"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="691.43,-2144.7 680.88,-2143.75 688.54,-2151.07 691.43,-2144.7"/>
+<text text-anchor="start" x="797.27" y="-2187.21" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 343 -->
+<g id="node37" class="node">
+<title>343</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1267.42,-2011.98C1267.42,-2011.98 655.12,-2011.98 655.12,-2011.98 649.12,-2011.98 643.12,-2005.98 643.12,-1999.98 643.12,-1999.98 643.12,-1978.7 643.12,-1978.7 643.12,-1972.7 649.12,-1966.7 655.12,-1966.7 655.12,-1966.7 1267.42,-1966.7 1267.42,-1966.7 1273.42,-1966.7 1279.42,-1972.7 1279.42,-1978.7 1279.42,-1978.7 1279.42,-1999.98 1279.42,-1999.98 1279.42,-2005.98 1273.42,-2011.98 1267.42,-2011.98"/>
+<text text-anchor="start" x="657.52" y="-1991.04" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">343: </text>
+<text text-anchor="start" x="696.52" y="-1991.04" font-family="Roboto, sans-serif" font-size="14.00">Sind die Identifikationskriterien „Kundennummer“, „Vorname und/oder Nachname</text>
+<text text-anchor="start" x="657.52" y="-1977.04" font-family="Roboto, sans-serif" font-size="14.00">oder Firmenname“ und „Adresse“ in der Anfrage enthalten?</text>
+</g>
+<!-- 315&#45;&gt;343 -->
+<g id="edge57" class="edge">
+<title>315-&gt;343</title>
+<path fill="none" stroke="#88a0d6" d="M913.22,-2223.82C919.73,-2207.69 928.41,-2184.86 934.27,-2164.26 950.83,-2106.13 927.89,-2081.36 961.27,-2030.98"/>
+<text text-anchor="start" x="950.27" y="-2102.95" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 320&#45;&gt;343 -->
+<g id="edge58" class="edge">
+<title>320-&gt;343</title>
+<path fill="none" stroke="#88a0d6" d="M835,-2070.03C898.69,-2057.79 952.7,-2043.92 961.27,-2030.98"/>
+<path fill="none" stroke="#88a0d6" d="M961.27,-2029.98C962.7,-2027.84 963.7,-2025.47 964.38,-2023"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="967.84,-2023.62 965.42,-2013.31 960.88,-2022.88 967.84,-2023.62"/>
+</g>
+<!-- 344 -->
+<g id="node38" class="node">
+<title>344</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1015.42,-1913.45C1015.42,-1913.45 391.12,-1913.45 391.12,-1913.45 385.12,-1913.45 379.12,-1907.45 379.12,-1901.45 379.12,-1901.45 379.12,-1852.17 379.12,-1852.17 379.12,-1846.17 385.12,-1840.17 391.12,-1840.17 391.12,-1840.17 1015.42,-1840.17 1015.42,-1840.17 1021.42,-1840.17 1027.42,-1846.17 1027.42,-1852.17 1027.42,-1852.17 1027.42,-1901.45 1027.42,-1901.45 1027.42,-1907.45 1021.42,-1913.45 1015.42,-1913.45"/>
+<text text-anchor="start" x="393.52" y="-1892.51" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">344: </text>
+<text text-anchor="start" x="432.52" y="-1892.51" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten</text>
+<text text-anchor="start" x="393.52" y="-1878.51" font-family="Roboto, sans-serif" font-size="14.00">oder Flurstücknummer), [Namensprüfung] (Nachname oder Firmenname) und</text>
+<text text-anchor="start" x="393.52" y="-1864.51" font-family="Roboto, sans-serif" font-size="14.00">[Kundennummer-Prüfung]</text>
+<text text-anchor="start" x="393.52" y="-1850.51" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von drei Kriterien</text>
+</g>
+<!-- 343&#45;&gt;344 -->
+<g id="edge59" class="edge">
+<title>343-&gt;344</title>
+<path fill="none" stroke="#88a0d6" d="M910.92,-1966.77C878.41,-1952.84 835.12,-1934.29 796.49,-1917.74"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="798.21,-1914.68 787.64,-1913.95 795.46,-1921.11 798.21,-1914.68"/>
+<text text-anchor="start" x="862.27" y="-1936.4" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 345 -->
+<g id="node39" class="node">
+<title>345</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1320.3,-1803.17C1320.3,-1803.17 806.25,-1803.17 806.25,-1803.17 800.25,-1803.17 794.25,-1797.17 794.25,-1791.17 794.25,-1791.17 794.25,-1769.89 794.25,-1769.89 794.25,-1763.89 800.25,-1757.89 806.25,-1757.89 806.25,-1757.89 1320.3,-1757.89 1320.3,-1757.89 1326.3,-1757.89 1332.3,-1763.89 1332.3,-1769.89 1332.3,-1769.89 1332.3,-1791.17 1332.3,-1791.17 1332.3,-1797.17 1326.3,-1803.17 1320.3,-1803.17"/>
+<text text-anchor="start" x="808.65" y="-1782.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">345: </text>
+<text text-anchor="start" x="847.65" y="-1782.23" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis von drei Kriterien Treffer mit drei</text>
+<text text-anchor="start" x="808.65" y="-1768.23" font-family="Roboto, sans-serif" font-size="14.00">Identifikationskriterien?</text>
+</g>
+<!-- 343&#45;&gt;345 -->
+<g id="edge60" class="edge">
+<title>343-&gt;345</title>
+<path fill="none" stroke="#88a0d6" d="M989.01,-1966.71C1004.89,-1953 1024.04,-1934.01 1036.28,-1913.45 1057.91,-1877.1 1038.12,-1856.19 1063.28,-1822.17"/>
+<text text-anchor="start" x="1052.28" y="-1873.14" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 344&#45;&gt;345 -->
+<g id="edge61" class="edge">
+<title>344-&gt;345</title>
+<path fill="none" stroke="#88a0d6" d="M1027.3,-1845.97C1043.69,-1839.48 1056.28,-1831.63 1063.28,-1822.17"/>
+<path fill="none" stroke="#88a0d6" d="M1063.28,-1821.17C1064.84,-1819.06 1065.93,-1816.69 1066.67,-1814.2"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1070.14,-1814.64 1067.73,-1804.32 1063.18,-1813.88 1070.14,-1814.64"/>
+</g>
+<!-- 350 -->
+<g id="node40" class="node">
+<title>350</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1325.05,-1656.64C1325.05,-1656.64 773.5,-1656.64 773.5,-1656.64 767.5,-1656.64 761.5,-1650.64 761.5,-1644.64 761.5,-1644.64 761.5,-1623.36 761.5,-1623.36 761.5,-1617.36 767.5,-1611.36 773.5,-1611.36 773.5,-1611.36 1325.05,-1611.36 1325.05,-1611.36 1331.05,-1611.36 1337.05,-1617.36 1337.05,-1623.36 1337.05,-1623.36 1337.05,-1644.64 1337.05,-1644.64 1337.05,-1650.64 1331.05,-1656.64 1325.05,-1656.64"/>
+<text text-anchor="start" x="775.9" y="-1635.7" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">350: </text>
+<text text-anchor="start" x="814.9" y="-1635.7" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis von zwei Kriterien genau einen Treffer</text>
+<text text-anchor="start" x="775.9" y="-1621.7" font-family="Roboto, sans-serif" font-size="14.00">mit zwei Identifikationskriterien?</text>
+</g>
+<!-- 345&#45;&gt;350 -->
+<g id="edge62" class="edge">
+<title>345-&gt;350</title>
+<path fill="none" stroke="#88a0d6" d="M1061.18,-1757.89C1058.87,-1734.02 1055.12,-1695.34 1052.45,-1667.75"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1055.93,-1667.44 1051.49,-1657.82 1048.97,-1668.11 1055.93,-1667.44"/>
+<text text-anchor="start" x="1058.28" y="-1727.59" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 400 -->
+<g id="node51" class="node">
+<title>400</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2521.05,-1656.64C2521.05,-1656.64 1969.5,-1656.64 1969.5,-1656.64 1963.5,-1656.64 1957.5,-1650.64 1957.5,-1644.64 1957.5,-1644.64 1957.5,-1623.36 1957.5,-1623.36 1957.5,-1617.36 1963.5,-1611.36 1969.5,-1611.36 1969.5,-1611.36 2521.05,-1611.36 2521.05,-1611.36 2527.05,-1611.36 2533.05,-1617.36 2533.05,-1623.36 2533.05,-1623.36 2533.05,-1644.64 2533.05,-1644.64 2533.05,-1650.64 2527.05,-1656.64 2521.05,-1656.64"/>
+<text text-anchor="start" x="1971.9" y="-1635.7" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">400: </text>
+<text text-anchor="start" x="2010.9" y="-1635.7" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis von drei Kriterien genau einen Treffer,</text>
+<text text-anchor="start" x="1971.9" y="-1621.7" font-family="Roboto, sans-serif" font-size="14.00">bei dem eine Kombination aus drei Identifikationskriterien zutrifft?</text>
+</g>
+<!-- 345&#45;&gt;400 -->
+<g id="edge63" class="edge">
+<title>345-&gt;400</title>
+<path fill="none" stroke="#88a0d6" d="M1240.23,-1757.89C1459.84,-1731.04 1832.72,-1685.44 2057.31,-1657.98"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2057.55,-1661.48 2067.06,-1656.79 2056.71,-1654.53 2057.55,-1661.48"/>
+<text text-anchor="start" x="1513.28" y="-1727.59" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 355 -->
+<g id="node41" class="node">
+<title>355</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1270.3,-1516.11C1270.3,-1516.11 756.25,-1516.11 756.25,-1516.11 750.25,-1516.11 744.25,-1510.11 744.25,-1504.11 744.25,-1504.11 744.25,-1492.11 744.25,-1492.11 744.25,-1486.11 750.25,-1480.11 756.25,-1480.11 756.25,-1480.11 1270.3,-1480.11 1270.3,-1480.11 1276.3,-1480.11 1282.3,-1486.11 1282.3,-1492.11 1282.3,-1492.11 1282.3,-1504.11 1282.3,-1504.11 1282.3,-1510.11 1276.3,-1516.11 1270.3,-1516.11"/>
+<text text-anchor="start" x="758.65" y="-1494.44" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">355: </text>
+<text text-anchor="start" x="797.65" y="-1494.44" font-family="Roboto, sans-serif" font-size="14.00">Ist das Identifikationskriterium „Adresse“ in der Anfrage enthalten?</text>
+</g>
+<!-- 350&#45;&gt;355 -->
+<g id="edge65" class="edge">
+<title>350-&gt;355</title>
+<path fill="none" stroke="#88a0d6" d="M1043.49,-1611.49C1037.31,-1588.51 1027.5,-1552.03 1020.75,-1526.89"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1024.16,-1526.12 1018.18,-1517.37 1017.4,-1527.93 1024.16,-1526.12"/>
+<text text-anchor="start" x="1026.28" y="-1539.06" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 350&#45;&gt;705 -->
+<g id="edge64" class="edge">
+<title>350-&gt;705</title>
+<path fill="none" stroke="#88a0d6" d="M1104.4,-1611.42C1154.98,-1590.47 1230.98,-1556.04 1291.28,-1516.11 1456.87,-1406.44 1923.52,-1115.8 1957.28,-920.07"/>
+<path fill="none" stroke="#88a0d6" d="M1957.28,-918.07C1960.11,-894.12 1948.19,-886.15 1957.28,-863.8"/>
+<text text-anchor="start" x="1842.28" y="-1126.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 360 -->
+<g id="node42" class="node">
+<title>360</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M659.67,-1419.86C659.67,-1419.86 150.88,-1419.86 150.88,-1419.86 144.88,-1419.86 138.88,-1413.86 138.88,-1407.86 138.88,-1407.86 138.88,-1372.58 138.88,-1372.58 138.88,-1366.58 144.88,-1360.58 150.88,-1360.58 150.88,-1360.58 659.67,-1360.58 659.67,-1360.58 665.67,-1360.58 671.67,-1366.58 671.67,-1372.58 671.67,-1372.58 671.67,-1407.86 671.67,-1407.86 671.67,-1413.86 665.67,-1419.86 659.67,-1419.86"/>
+<text text-anchor="start" x="153.27" y="-1398.92" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">360: </text>
+<text text-anchor="start" x="192.27" y="-1398.92" font-family="Roboto, sans-serif" font-size="14.00">Vollständige [Adressprüfung]</text>
+<text text-anchor="start" x="153.27" y="-1384.92" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis der vollständigen</text>
+<text text-anchor="start" x="153.27" y="-1370.92" font-family="Roboto, sans-serif" font-size="14.00">Adressprüfung</text>
+</g>
+<!-- 355&#45;&gt;360 -->
+<g id="edge66" class="edge">
+<title>355-&gt;360</title>
+<path fill="none" stroke="#88a0d6" d="M915.93,-1480.16C825.84,-1464.47 689.79,-1440.77 580.76,-1421.78"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="581.57,-1418.37 571.12,-1420.1 580.37,-1425.27 581.57,-1418.37"/>
+<text text-anchor="start" x="798.27" y="-1449.81" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 370 -->
+<g id="node44" class="node">
+<title>370</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1325.05,-1412.86C1325.05,-1412.86 701.5,-1412.86 701.5,-1412.86 695.5,-1412.86 689.5,-1406.86 689.5,-1400.86 689.5,-1400.86 689.5,-1379.58 689.5,-1379.58 689.5,-1373.58 695.5,-1367.58 701.5,-1367.58 701.5,-1367.58 1325.05,-1367.58 1325.05,-1367.58 1331.05,-1367.58 1337.05,-1373.58 1337.05,-1379.58 1337.05,-1379.58 1337.05,-1400.86 1337.05,-1400.86 1337.05,-1406.86 1331.05,-1412.86 1325.05,-1412.86"/>
+<text text-anchor="start" x="703.9" y="-1391.92" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">370: </text>
+<text text-anchor="start" x="742.9" y="-1391.92" font-family="Roboto, sans-serif" font-size="14.00">Ist das Identifikationskriterium „Vorname und/oder Nachname oder Firmenname“ in</text>
+<text text-anchor="start" x="703.9" y="-1377.92" font-family="Roboto, sans-serif" font-size="14.00">der Anfrage enthalten?</text>
+</g>
+<!-- 355&#45;&gt;370 -->
+<g id="edge67" class="edge">
+<title>355-&gt;370</title>
+<path fill="none" stroke="#88a0d6" d="M1013.27,-1480.56C1013.27,-1465.51 1013.27,-1442.85 1013.27,-1424.11"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1016.78,-1424.29 1013.28,-1414.29 1009.78,-1424.29 1016.78,-1424.29"/>
+<text text-anchor="start" x="1013.28" y="-1449.81" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 365 -->
+<g id="node43" class="node">
+<title>365</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M707.05,-1223.05C707.05,-1223.05 143.5,-1223.05 143.5,-1223.05 137.5,-1223.05 131.5,-1217.05 131.5,-1211.05 131.5,-1211.05 131.5,-1189.77 131.5,-1189.77 131.5,-1183.77 137.5,-1177.77 143.5,-1177.77 143.5,-1177.77 707.05,-1177.77 707.05,-1177.77 713.05,-1177.77 719.05,-1183.77 719.05,-1189.77 719.05,-1189.77 719.05,-1211.05 719.05,-1211.05 719.05,-1217.05 713.05,-1223.05 707.05,-1223.05"/>
+<text text-anchor="start" x="145.9" y="-1202.11" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">365: </text>
+<text text-anchor="start" x="184.9" y="-1202.11" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis der vollständigen Adressprüfung genau</text>
+<text text-anchor="start" x="145.9" y="-1188.11" font-family="Roboto, sans-serif" font-size="14.00">einen Treffer mit dem Identifikationskriterium „Adresse“?</text>
+</g>
+<!-- 360&#45;&gt;365 -->
+<g id="edge68" class="edge">
+<title>360-&gt;365</title>
+<path fill="none" stroke="#88a0d6" d="M408.31,-1360.7C411.94,-1326.68 417.98,-1269.93 421.79,-1234.15"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="425.25,-1234.7 422.83,-1224.39 418.29,-1233.96 425.25,-1234.7"/>
+</g>
+<!-- 385 -->
+<g id="node47" class="node">
+<title>385</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1061.05,-1047.24C1061.05,-1047.24 533.5,-1047.24 533.5,-1047.24 527.5,-1047.24 521.5,-1041.24 521.5,-1035.24 521.5,-1035.24 521.5,-1013.96 521.5,-1013.96 521.5,-1007.96 527.5,-1001.96 533.5,-1001.96 533.5,-1001.96 1061.05,-1001.96 1061.05,-1001.96 1067.05,-1001.96 1073.05,-1007.96 1073.05,-1013.96 1073.05,-1013.96 1073.05,-1035.24 1073.05,-1035.24 1073.05,-1041.24 1067.05,-1047.24 1061.05,-1047.24"/>
+<text text-anchor="start" x="535.9" y="-1026.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">385: </text>
+<text text-anchor="start" x="574.9" y="-1026.3" font-family="Roboto, sans-serif" font-size="14.00">Liegen 1..n MaLo aus der Trefferliste auf Basis von zwei Kriterien zum</text>
+<text text-anchor="start" x="535.9" y="-1012.3" font-family="Roboto, sans-serif" font-size="14.00">Anfragedatum im Netzgebiet des NB?</text>
+</g>
+<!-- 365&#45;&gt;385 -->
+<g id="edge70" class="edge">
+<title>365-&gt;385</title>
+<path fill="none" stroke="#88a0d6" d="M483.38,-1177.89C564.43,-1147.42 703.43,-1093.36 720.27,-1074.87"/>
+<path fill="none" stroke="#88a0d6" d="M720.27,-1072.87C726.44,-1065.53 734.05,-1059 742.06,-1053.31"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="743.9,-1056.29 750.32,-1047.86 740.05,-1050.45 743.9,-1056.29"/>
+<text text-anchor="start" x="673.27" y="-1126.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 365&#45;&gt;705 -->
+<g id="edge69" class="edge">
+<title>365-&gt;705</title>
+<path fill="none" stroke="#88a0d6" d="M384.86,-1177.9C263.27,-1110.67 -81.83,-900.01 67.27,-748.9 104.8,-710.87 1937.32,-730.34 1990.28,-723.27"/>
+<path fill="none" stroke="#88a0d6" d="M1990.28,-721.27C2043.98,-714.07 2103.61,-702.91 2151.17,-693.25"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2151.79,-696.7 2160.88,-691.26 2150.38,-689.84 2151.79,-696.7"/>
+<text text-anchor="start" x="112.27" y="-971.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 375 -->
+<g id="node45" class="node">
+<title>375</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1284.68,-1300.33C1284.68,-1300.33 775.88,-1300.33 775.88,-1300.33 769.88,-1300.33 763.88,-1294.33 763.88,-1288.33 763.88,-1288.33 763.88,-1253.05 763.88,-1253.05 763.88,-1247.05 769.88,-1241.05 775.88,-1241.05 775.88,-1241.05 1284.68,-1241.05 1284.68,-1241.05 1290.68,-1241.05 1296.68,-1247.05 1296.68,-1253.05 1296.68,-1253.05 1296.68,-1288.33 1296.68,-1288.33 1296.68,-1294.33 1290.68,-1300.33 1284.68,-1300.33"/>
+<text text-anchor="start" x="778.28" y="-1279.39" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">375: </text>
+<text text-anchor="start" x="817.28" y="-1279.39" font-family="Roboto, sans-serif" font-size="14.00">Vollständige [Namensprüfung]</text>
+<text text-anchor="start" x="778.28" y="-1265.39" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis der vollständigen</text>
+<text text-anchor="start" x="778.28" y="-1251.39" font-family="Roboto, sans-serif" font-size="14.00">Namensprüfung</text>
+</g>
+<!-- 370&#45;&gt;375 -->
+<g id="edge71" class="edge">
+<title>370-&gt;375</title>
+<path fill="none" stroke="#88a0d6" d="M1016.39,-1367.66C1018.66,-1351.97 1021.8,-1330.26 1024.52,-1311.45"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1027.97,-1312.1 1025.93,-1301.7 1021.04,-1311.1 1027.97,-1312.1"/>
+<text text-anchor="start" x="1023.28" y="-1323.28" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 370&#45;&gt;385 -->
+<g id="edge72" class="edge">
+<title>370-&gt;385</title>
+<path fill="none" stroke="#88a0d6" d="M867.18,-1367.62C825.57,-1354.59 783.83,-1333.72 755.27,-1300.33 738.8,-1281.06 703.97,-1094.28 720.27,-1074.87"/>
+<text text-anchor="start" x="731.27" y="-1196.74" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 380 -->
+<g id="node46" class="node">
+<title>380</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1325.3,-1159.77C1325.3,-1159.77 751.25,-1159.77 751.25,-1159.77 745.25,-1159.77 739.25,-1153.77 739.25,-1147.77 739.25,-1147.77 739.25,-1112.49 739.25,-1112.49 739.25,-1106.49 745.25,-1100.49 751.25,-1100.49 751.25,-1100.49 1325.3,-1100.49 1325.3,-1100.49 1331.3,-1100.49 1337.3,-1106.49 1337.3,-1112.49 1337.3,-1112.49 1337.3,-1147.77 1337.3,-1147.77 1337.3,-1153.77 1331.3,-1159.77 1325.3,-1159.77"/>
+<text text-anchor="start" x="753.65" y="-1138.83" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">380: </text>
+<text text-anchor="start" x="792.65" y="-1138.83" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis der vollständigen Namensprüfung genau</text>
+<text text-anchor="start" x="753.65" y="-1124.83" font-family="Roboto, sans-serif" font-size="14.00">einen Treffer mit dem Identifikationskriterium „Vorname und/oder Nachname oder</text>
+<text text-anchor="start" x="753.65" y="-1110.83" font-family="Roboto, sans-serif" font-size="14.00">Firmenname“</text>
+</g>
+<!-- 375&#45;&gt;380 -->
+<g id="edge73" class="edge">
+<title>375-&gt;380</title>
+<path fill="none" stroke="#88a0d6" d="M1031.91,-1241.32C1033.09,-1220.95 1034.69,-1193.25 1035.99,-1170.71"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1039.47,-1171.16 1036.55,-1160.98 1032.48,-1170.76 1039.47,-1171.16"/>
+</g>
+<!-- 380&#45;&gt;385 -->
+<g id="edge75" class="edge">
+<title>380-&gt;385</title>
+<path fill="none" stroke="#88a0d6" d="M971.78,-1100.57C936.18,-1085.27 892.64,-1066.57 857.96,-1051.67"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="859.46,-1048.5 848.89,-1047.77 856.69,-1054.93 859.46,-1048.5"/>
+<text text-anchor="start" x="924.27" y="-1070.19" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 380&#45;&gt;705 -->
+<g id="edge74" class="edge">
+<title>380-&gt;705</title>
+<path fill="none" stroke="#88a0d6" d="M1145.19,-1100.51C1385.56,-1035.88 1948.45,-882.74 1957.28,-863.8"/>
+<path fill="none" stroke="#88a0d6" d="M1957.28,-861.8C1969.97,-830.59 1985.84,-826.95 1990.28,-793.54"/>
+<path fill="none" stroke="#88a0d6" d="M1990.28,-791.54C1994.27,-761.46 1960.2,-727.29 1990.28,-723.27"/>
+<text text-anchor="start" x="1918.28" y="-915.39" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 390 -->
+<g id="node48" class="node">
+<title>390</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M691.17,-941.71C691.17,-941.71 143.38,-941.71 143.38,-941.71 137.38,-941.71 131.38,-935.71 131.38,-929.71 131.38,-929.71 131.38,-908.43 131.38,-908.43 131.38,-902.43 137.38,-896.43 143.38,-896.43 143.38,-896.43 691.17,-896.43 691.17,-896.43 697.17,-896.43 703.17,-902.43 703.17,-908.43 703.17,-908.43 703.17,-929.71 703.17,-929.71 703.17,-935.71 697.17,-941.71 691.17,-941.71"/>
+<text text-anchor="start" x="145.77" y="-920.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">390: </text>
+<text text-anchor="start" x="184.77" y="-920.77" font-family="Roboto, sans-serif" font-size="14.00">Nimmt nur eine der ermittelten Marktlokation zum Anfragedatum an der</text>
+<text text-anchor="start" x="145.77" y="-906.77" font-family="Roboto, sans-serif" font-size="14.00">Marktkommunikation teil?</text>
+</g>
+<!-- 385&#45;&gt;390 -->
+<g id="edge76" class="edge">
+<title>385-&gt;390</title>
+<path fill="none" stroke="#88a0d6" d="M718.08,-1002.02C656.7,-985.3 571.61,-962.12 507.59,-944.68"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="508.73,-941.36 498.16,-942.11 506.89,-948.11 508.73,-941.36"/>
+<text text-anchor="start" x="641.27" y="-971.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 395 -->
+<g id="node49" class="node">
+<title>395</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M1325.3,-941.71C1325.3,-941.71 733.25,-941.71 733.25,-941.71 727.25,-941.71 721.25,-935.71 721.25,-929.71 721.25,-929.71 721.25,-908.43 721.25,-908.43 721.25,-902.43 727.25,-896.43 733.25,-896.43 733.25,-896.43 1325.3,-896.43 1325.3,-896.43 1331.3,-896.43 1337.3,-902.43 1337.3,-908.43 1337.3,-908.43 1337.3,-929.71 1337.3,-929.71 1337.3,-935.71 1331.3,-941.71 1325.3,-941.71"/>
+<text text-anchor="start" x="735.65" y="-920.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">395: </text>
+<text text-anchor="start" x="774.65" y="-920.77" font-family="Roboto, sans-serif" font-size="14.00">Ist nur eine MaLo in einem innerhalb der vergangenen drei Jahre abgegebenen</text>
+<text text-anchor="start" x="735.65" y="-906.77" font-family="Roboto, sans-serif" font-size="14.00">Netzgebiet ermittelbar?</text>
+</g>
+<!-- 385&#45;&gt;395 -->
+<g id="edge77" class="edge">
+<title>385-&gt;395</title>
+<path fill="none" stroke="#88a0d6" d="M845.63,-1002.02C882.08,-985.76 932.22,-963.38 970.91,-946.12"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="971.9,-949.51 979.6,-942.24 969.04,-943.12 971.9,-949.51"/>
+<text text-anchor="start" x="919.27" y="-971.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 720 -->
+<g id="node64" class="node">
+<title>720</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2552.8,-435.59C2552.8,-435.59 1951.75,-435.59 1951.75,-435.59 1945.75,-435.59 1939.75,-429.59 1939.75,-423.59 1939.75,-423.59 1939.75,-402.31 1939.75,-402.31 1939.75,-396.31 1945.75,-390.31 1951.75,-390.31 1951.75,-390.31 2552.8,-390.31 2552.8,-390.31 2558.8,-390.31 2564.8,-396.31 2564.8,-402.31 2564.8,-402.31 2564.8,-423.59 2564.8,-423.59 2564.8,-429.59 2558.8,-435.59 2552.8,-435.59"/>
+<text text-anchor="start" x="1954.15" y="-414.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">720: </text>
+<text text-anchor="start" x="1993.15" y="-414.65" font-family="Roboto, sans-serif" font-size="14.00">Wurde für die Identifizierung eine Vollmacht des Anfragenden vom Angefragten</text>
+<text text-anchor="start" x="1954.15" y="-400.65" font-family="Roboto, sans-serif" font-size="14.00">angefordert?</text>
+</g>
+<!-- 390&#45;&gt;720 -->
+<g id="edge79" class="edge">
+<title>390-&gt;720</title>
+<path fill="none" stroke="#88a0d6" d="M236,-896.5C162.46,-883.68 89.57,-864.3 67.27,-836.18 43.17,-805.79 42.73,-778.94 67.27,-748.9 186.26,-603.27 1404,-484.28 1968.17,-436.52"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1968.14,-440.03 1977.81,-435.7 1967.55,-433.06 1968.14,-440.03"/>
+<text text-anchor="start" x="302.27" y="-669.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A03 -->
+<g id="node74" class="node">
+<title>A03</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M646.05,-829.18C646.05,-829.18 88.5,-829.18 88.5,-829.18 82.5,-829.18 76.5,-823.18 76.5,-817.18 76.5,-817.18 76.5,-767.9 76.5,-767.9 76.5,-761.9 82.5,-755.9 88.5,-755.9 88.5,-755.9 646.05,-755.9 646.05,-755.9 652.05,-755.9 658.05,-761.9 658.05,-767.9 658.05,-767.9 658.05,-817.18 658.05,-817.18 658.05,-823.18 652.05,-829.18 646.05,-829.18"/>
+<text text-anchor="start" x="90.9" y="-808.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A03</text>
+<text text-anchor="start" x="90.9" y="-780.24" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="90.9" y="-766.24" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation nicht eindeutig bzw. nimmt nicht an der Marktkommunikation teil</text>
+</g>
+<!-- 390&#45;&gt;A03 -->
+<g id="edge78" class="edge">
+<title>390-&gt;A03</title>
+<path fill="none" stroke="#88a0d6" d="M408.68,-896.66C402.37,-880.94 393.55,-858.99 385.68,-839.38"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="388.96,-838.16 381.99,-830.19 382.47,-840.77 388.96,-838.16"/>
+<text text-anchor="start" x="397.27" y="-859.13" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A04 -->
+<g id="node75" class="node">
+<title>A04</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1895.55,-836.18C1895.55,-836.18 1263,-836.18 1263,-836.18 1257,-836.18 1251,-830.18 1251,-824.18 1251,-824.18 1251,-760.9 1251,-760.9 1251,-754.9 1257,-748.9 1263,-748.9 1263,-748.9 1895.55,-748.9 1895.55,-748.9 1901.55,-748.9 1907.55,-754.9 1907.55,-760.9 1907.55,-760.9 1907.55,-824.18 1907.55,-824.18 1907.55,-830.18 1901.55,-836.18 1895.55,-836.18"/>
+<text text-anchor="start" x="1265.4" y="-815.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A04</text>
+<text text-anchor="start" x="1265.4" y="-787.24" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="1265.4" y="-773.24" font-family="Roboto, sans-serif" font-size="14.00">Ermittelte Marktlokation liegt in einem in den letzten drei Jahren abgegebenen Netzgebiet.</text>
+<text text-anchor="start" x="1265.4" y="-759.24" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Angabe der MP-ID des NB, an den das Netzgebiet abgegeben wurde.</text>
+</g>
+<!-- 395&#45;&gt;A04 -->
+<g id="edge80" class="edge">
+<title>395-&gt;A04</title>
+<path fill="none" stroke="#88a0d6" d="M1124.76,-896.45C1194.97,-880.55 1292.91,-858.38 1379.89,-838.68"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1380.54,-842.13 1389.52,-836.5 1378.99,-835.3 1380.54,-842.13"/>
+<text text-anchor="start" x="1304.28" y="-859.13" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A05 -->
+<g id="node76" class="node">
+<title>A05</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1220.67,-836.18C1220.67,-836.18 687.88,-836.18 687.88,-836.18 681.88,-836.18 675.88,-830.18 675.88,-824.18 675.88,-824.18 675.88,-760.9 675.88,-760.9 675.88,-754.9 681.88,-748.9 687.88,-748.9 687.88,-748.9 1220.67,-748.9 1220.67,-748.9 1226.67,-748.9 1232.67,-754.9 1232.67,-760.9 1232.67,-760.9 1232.67,-824.18 1232.67,-824.18 1232.67,-830.18 1226.67,-836.18 1220.67,-836.18"/>
+<text text-anchor="start" x="690.27" y="-815.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A05</text>
+<text text-anchor="start" x="690.27" y="-787.24" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="690.27" y="-773.24" font-family="Roboto, sans-serif" font-size="14.00">In der Kombination von zwei Identifikationskriterien war keine Marktlokation</text>
+<text text-anchor="start" x="690.27" y="-759.24" font-family="Roboto, sans-serif" font-size="14.00">ermittelbar</text>
+</g>
+<!-- 395&#45;&gt;A05 -->
+<g id="edge81" class="edge">
+<title>395-&gt;A05</title>
+<path fill="none" stroke="#88a0d6" d="M1016.38,-896.66C1007.94,-882.64 996.51,-863.67 985.76,-845.82"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="988.82,-844.11 980.66,-837.35 982.82,-847.72 988.82,-844.11"/>
+<text text-anchor="start" x="1000.27" y="-859.13" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- msi_400 -->
+<g id="node50" class="node">
+<title>msi_400</title>
+<polygon fill="#e6f3ff" stroke="black" stroke-width="0" points="2923.43,-1698.64 2551.12,-1698.64 2551.12,-1569.36 2929.43,-1569.36 2929.43,-1692.64 2923.43,-1698.64"/>
+<polyline fill="none" stroke="black" stroke-width="0" points="2923.43,-1698.64 2923.43,-1692.64"/>
+<polyline fill="none" stroke="black" stroke-width="0" points="2929.43,-1692.64 2923.43,-1692.64"/>
+<text text-anchor="start" x="2565.53" y="-1677.7" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">Die nachfolgenden Prüfungen erfolgen auf Basis</text>
+<text text-anchor="start" x="2565.53" y="-1663.7" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">der Identifikationskriterien aus der Anfrage und</text>
+<text text-anchor="start" x="2565.53" y="-1649.7" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">der Trefferliste auf Basis von drei Kriterien aus</text>
+<text text-anchor="start" x="2565.53" y="-1635.7" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">den vorhergehenden Prüfungen. In der Trefferliste</text>
+<text text-anchor="start" x="2565.53" y="-1621.7" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">befinden sich Marktlokationen, bei denen</text>
+<text text-anchor="start" x="2565.53" y="-1607.7" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">mindestens eine Kombination aus drei</text>
+<text text-anchor="start" x="2565.53" y="-1593.7" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">Identifikationskriterien mit der Anfrage</text>
+<text text-anchor="start" x="2565.53" y="-1579.7" font-family="Roboto, sans-serif" font-style="italic" font-size="14.00">übereinstimmt.</text>
+</g>
+<!-- 405 -->
+<g id="node52" class="node">
+<title>405</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2503.43,-1516.11C2503.43,-1516.11 2023.12,-1516.11 2023.12,-1516.11 2017.12,-1516.11 2011.12,-1510.11 2011.12,-1504.11 2011.12,-1504.11 2011.12,-1492.11 2011.12,-1492.11 2011.12,-1486.11 2017.12,-1480.11 2023.12,-1480.11 2023.12,-1480.11 2503.43,-1480.11 2503.43,-1480.11 2509.43,-1480.11 2515.43,-1486.11 2515.43,-1492.11 2515.43,-1492.11 2515.43,-1504.11 2515.43,-1504.11 2515.43,-1510.11 2509.43,-1516.11 2503.43,-1516.11"/>
+<text text-anchor="start" x="2025.53" y="-1494.44" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">405: </text>
+<text text-anchor="start" x="2064.53" y="-1494.44" font-family="Roboto, sans-serif" font-size="14.00">Sind alle fünf Identifikationskriterien in der Anfrage enthalten?</text>
+</g>
+<!-- 400&#45;&gt;405 -->
+<g id="edge83" class="edge">
+<title>400-&gt;405</title>
+<path fill="none" stroke="#88a0d6" d="M2248.17,-1611.49C2251.24,-1588.62 2256.12,-1552.36 2259.49,-1527.24"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2262.95,-1527.78 2260.82,-1517.41 2256.01,-1526.85 2262.95,-1527.78"/>
+<text text-anchor="start" x="2258.28" y="-1539.06" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 400&#45;&gt;705 -->
+<g id="edge82" class="edge">
+<title>400-&gt;705</title>
+<path fill="none" stroke="#88a0d6" d="M2339.95,-1611.39C2459.92,-1582.66 2651.28,-1531.72 2651.28,-1499.11 2651.28,-1499.11 2651.28,-1499.11 2651.28,-791.54 2651.28,-769.34 2643.5,-761.57 2625.28,-748.9 2589.29,-723.87 2492.13,-705.08 2404.42,-692.58"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2405.11,-689.14 2394.72,-691.22 2404.14,-696.07 2405.11,-689.14"/>
+<text text-anchor="start" x="2651.28" y="-1126.46" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 410 -->
+<g id="node53" class="node">
+<title>410</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2575.43,-1426.86C2575.43,-1426.86 1951.12,-1426.86 1951.12,-1426.86 1945.12,-1426.86 1939.12,-1420.86 1939.12,-1414.86 1939.12,-1414.86 1939.12,-1365.58 1939.12,-1365.58 1939.12,-1359.58 1945.12,-1353.58 1951.12,-1353.58 1951.12,-1353.58 2575.43,-1353.58 2575.43,-1353.58 2581.43,-1353.58 2587.43,-1359.58 2587.43,-1365.58 2587.43,-1365.58 2587.43,-1414.86 2587.43,-1414.86 2587.43,-1420.86 2581.43,-1426.86 2575.43,-1426.86"/>
+<text text-anchor="start" x="1953.53" y="-1405.92" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">410: </text>
+<text text-anchor="start" x="1992.53" y="-1405.92" font-family="Roboto, sans-serif" font-size="14.00">Kombination aus [Adressprüfung] (Straße und PLZ oder geographische Koordinaten</text>
+<text text-anchor="start" x="1953.53" y="-1391.92" font-family="Roboto, sans-serif" font-size="14.00">oder Flurstücknummer), [Namensprüfung] (Nachname oder Firmenname),</text>
+<text text-anchor="start" x="1953.53" y="-1377.92" font-family="Roboto, sans-serif" font-size="14.00">[Gerätenummernprüfung] und [MeLo-ID-Prüfung], [Kundennummer-Prüfung]</text>
+<text text-anchor="start" x="1953.53" y="-1363.92" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die neue Trefferliste auf Basis von vier Kriterien</text>
+</g>
+<!-- 405&#45;&gt;410 -->
+<g id="edge84" class="edge">
+<title>405-&gt;410</title>
+<path fill="none" stroke="#88a0d6" d="M2263.28,-1480.56C2263.28,-1469.07 2263.28,-1453.14 2263.28,-1437.91"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2266.78,-1437.99 2263.28,-1427.99 2259.78,-1437.99 2266.78,-1437.99"/>
+<text text-anchor="start" x="2263.28" y="-1449.81" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 420 -->
+<g id="node55" class="node">
+<title>420</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2527.68,-1159.77C2527.68,-1159.77 2018.88,-1159.77 2018.88,-1159.77 2012.88,-1159.77 2006.88,-1153.77 2006.88,-1147.77 2006.88,-1147.77 2006.88,-1112.49 2006.88,-1112.49 2006.88,-1106.49 2012.88,-1100.49 2018.88,-1100.49 2018.88,-1100.49 2527.68,-1100.49 2527.68,-1100.49 2533.68,-1100.49 2539.68,-1106.49 2539.68,-1112.49 2539.68,-1112.49 2539.68,-1147.77 2539.68,-1147.77 2539.68,-1153.77 2533.68,-1159.77 2527.68,-1159.77"/>
+<text text-anchor="start" x="2021.28" y="-1138.83" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">420: </text>
+<text text-anchor="start" x="2060.28" y="-1138.83" font-family="Roboto, sans-serif" font-size="14.00">Vollständige [Adressprüfung]</text>
+<text text-anchor="start" x="2021.28" y="-1124.83" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis der vollständigen</text>
+<text text-anchor="start" x="2021.28" y="-1110.83" font-family="Roboto, sans-serif" font-size="14.00">Adressprüfung</text>
+</g>
+<!-- 405&#45;&gt;420 -->
+<g id="edge85" class="edge">
+<title>405-&gt;420</title>
+<path fill="none" stroke="#88a0d6" d="M2438.77,-1480.18C2507.6,-1469.59 2575.2,-1452.84 2596.28,-1426.86 2622.82,-1394.13 2587.44,-1271.48 2558.28,-1241.05 2523.14,-1204.39 2474.41,-1179.77 2427.18,-1163.32"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2428.52,-1160.08 2417.93,-1160.21 2426.29,-1166.72 2428.52,-1160.08"/>
+<text text-anchor="start" x="2598.28" y="-1323.28" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 415 -->
+<g id="node54" class="node">
+<title>415</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2536.8,-1293.33C2536.8,-1293.33 1989.75,-1293.33 1989.75,-1293.33 1983.75,-1293.33 1977.75,-1287.33 1977.75,-1281.33 1977.75,-1281.33 1977.75,-1260.05 1977.75,-1260.05 1977.75,-1254.05 1983.75,-1248.05 1989.75,-1248.05 1989.75,-1248.05 2536.8,-1248.05 2536.8,-1248.05 2542.8,-1248.05 2548.8,-1254.05 2548.8,-1260.05 2548.8,-1260.05 2548.8,-1281.33 2548.8,-1281.33 2548.8,-1287.33 2542.8,-1293.33 2536.8,-1293.33"/>
+<text text-anchor="start" x="1992.15" y="-1272.39" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">415: </text>
+<text text-anchor="start" x="2031.15" y="-1272.39" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis von drei Kriterien genau einen Treffer</text>
+<text text-anchor="start" x="1992.15" y="-1258.39" font-family="Roboto, sans-serif" font-size="14.00">mit vier oder mehr Identifikationskriterien?</text>
+</g>
+<!-- 410&#45;&gt;415 -->
+<g id="edge86" class="edge">
+<title>410-&gt;415</title>
+<path fill="none" stroke="#88a0d6" d="M2263.28,-1353.64C2263.28,-1338.07 2263.28,-1319.92 2263.28,-1304.66"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2266.78,-1304.66 2263.28,-1294.66 2259.78,-1304.66 2266.78,-1304.66"/>
+</g>
+<!-- 415&#45;&gt;420 -->
+<g id="edge88" class="edge">
+<title>415-&gt;420</title>
+<path fill="none" stroke="#88a0d6" d="M2264.82,-1248.34C2266.3,-1227.83 2268.57,-1196.32 2270.39,-1171.14"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2273.87,-1171.45 2271.1,-1161.23 2266.89,-1170.95 2273.87,-1171.45"/>
+<text text-anchor="start" x="2269.28" y="-1196.74" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 415&#45;&gt;705 -->
+<g id="edge87" class="edge">
+<title>415-&gt;705</title>
+<path fill="none" stroke="#88a0d6" d="M2152.05,-1248.14C2098.44,-1232.28 2037.43,-1205.26 1998.28,-1159.77 1927.76,-1077.86 1941.91,-1027.05 1957.28,-920.07"/>
+<text text-anchor="start" x="1950.28" y="-971.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 425 -->
+<g id="node56" class="node">
+<title>425</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2555.05,-1047.24C2555.05,-1047.24 1991.5,-1047.24 1991.5,-1047.24 1985.5,-1047.24 1979.5,-1041.24 1979.5,-1035.24 1979.5,-1035.24 1979.5,-1013.96 1979.5,-1013.96 1979.5,-1007.96 1985.5,-1001.96 1991.5,-1001.96 1991.5,-1001.96 2555.05,-1001.96 2555.05,-1001.96 2561.05,-1001.96 2567.05,-1007.96 2567.05,-1013.96 2567.05,-1013.96 2567.05,-1035.24 2567.05,-1035.24 2567.05,-1041.24 2561.05,-1047.24 2555.05,-1047.24"/>
+<text text-anchor="start" x="1993.9" y="-1026.3" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">425: </text>
+<text text-anchor="start" x="2032.9" y="-1026.3" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis der vollständigen Adressprüfung genau</text>
+<text text-anchor="start" x="1993.9" y="-1012.3" font-family="Roboto, sans-serif" font-size="14.00">einen Treffer mit dem Identifikationskriterium „Adresse“?</text>
+</g>
+<!-- 420&#45;&gt;425 -->
+<g id="edge89" class="edge">
+<title>420-&gt;425</title>
+<path fill="none" stroke="#88a0d6" d="M2273.28,-1100.57C2273.28,-1087.51 2273.28,-1071.98 2273.28,-1058.44"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2276.78,-1058.69 2273.28,-1048.69 2269.78,-1058.69 2276.78,-1058.69"/>
+</g>
+<!-- 430 -->
+<g id="node57" class="node">
+<title>430</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2553.68,-948.71C2553.68,-948.71 2044.88,-948.71 2044.88,-948.71 2038.88,-948.71 2032.88,-942.71 2032.88,-936.71 2032.88,-936.71 2032.88,-901.43 2032.88,-901.43 2032.88,-895.43 2038.88,-889.43 2044.88,-889.43 2044.88,-889.43 2553.68,-889.43 2553.68,-889.43 2559.68,-889.43 2565.68,-895.43 2565.68,-901.43 2565.68,-901.43 2565.68,-936.71 2565.68,-936.71 2565.68,-942.71 2559.68,-948.71 2553.68,-948.71"/>
+<text text-anchor="start" x="2047.28" y="-927.77" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">430: </text>
+<text text-anchor="start" x="2086.28" y="-927.77" font-family="Roboto, sans-serif" font-size="14.00">Vollständige [Namensprüfung]</text>
+<text text-anchor="start" x="2047.28" y="-913.77" font-family="Roboto, sans-serif" font-size="14.00">Aufnahme von 0..n Treffern in die Trefferliste auf Basis der vollständigen</text>
+<text text-anchor="start" x="2047.28" y="-899.77" font-family="Roboto, sans-serif" font-size="14.00">Namensprüfung</text>
+</g>
+<!-- 425&#45;&gt;430 -->
+<g id="edge91" class="edge">
+<title>425-&gt;430</title>
+<path fill="none" stroke="#88a0d6" d="M2278.66,-1002.15C2281.77,-989.78 2285.77,-973.85 2289.42,-959.32"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2292.71,-960.59 2291.75,-950.04 2285.92,-958.88 2292.71,-960.59"/>
+<text text-anchor="start" x="2286.28" y="-971.66" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 425&#45;&gt;705 -->
+<g id="edge90" class="edge">
+<title>425-&gt;705</title>
+<path fill="none" stroke="#88a0d6" d="M2111.98,-1002.03C2079.21,-990.81 2047.67,-973.96 2024.28,-948.71 1976.3,-896.92 1982.15,-863.67 1990.28,-793.54"/>
+<text text-anchor="start" x="1985.28" y="-859.13" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 435 -->
+<g id="node58" class="node">
+<title>435</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2604.3,-822.18C2604.3,-822.18 2030.25,-822.18 2030.25,-822.18 2024.25,-822.18 2018.25,-816.18 2018.25,-810.18 2018.25,-810.18 2018.25,-774.9 2018.25,-774.9 2018.25,-768.9 2024.25,-762.9 2030.25,-762.9 2030.25,-762.9 2604.3,-762.9 2604.3,-762.9 2610.3,-762.9 2616.3,-768.9 2616.3,-774.9 2616.3,-774.9 2616.3,-810.18 2616.3,-810.18 2616.3,-816.18 2610.3,-822.18 2604.3,-822.18"/>
+<text text-anchor="start" x="2032.65" y="-801.24" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">435: </text>
+<text text-anchor="start" x="2071.65" y="-801.24" font-family="Roboto, sans-serif" font-size="14.00">Gibt es in der Trefferliste auf Basis der vollständigen Namensprüfung genau</text>
+<text text-anchor="start" x="2032.65" y="-787.24" font-family="Roboto, sans-serif" font-size="14.00">einen Treffer mit dem Identifikationskriterium „Vorname und/oder Nachname oder</text>
+<text text-anchor="start" x="2032.65" y="-773.24" font-family="Roboto, sans-serif" font-size="14.00">Firmenname“</text>
+</g>
+<!-- 430&#45;&gt;435 -->
+<g id="edge92" class="edge">
+<title>430-&gt;435</title>
+<path fill="none" stroke="#88a0d6" d="M2303.4,-889.5C2305.82,-872.81 2308.9,-851.5 2311.54,-833.2"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2314.98,-833.87 2312.95,-823.47 2308.05,-832.87 2314.98,-833.87"/>
+</g>
+<!-- 440 -->
+<g id="node59" class="node">
+<title>440</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3094.8,-695.65C3094.8,-695.65 2571.75,-695.65 2571.75,-695.65 2565.75,-695.65 2559.75,-689.65 2559.75,-683.65 2559.75,-683.65 2559.75,-662.37 2559.75,-662.37 2559.75,-656.37 2565.75,-650.37 2571.75,-650.37 2571.75,-650.37 3094.8,-650.37 3094.8,-650.37 3100.8,-650.37 3106.8,-656.37 3106.8,-662.37 3106.8,-662.37 3106.8,-683.65 3106.8,-683.65 3106.8,-689.65 3100.8,-695.65 3094.8,-695.65"/>
+<text text-anchor="start" x="2574.15" y="-674.71" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">440: </text>
+<text text-anchor="start" x="2613.15" y="-674.71" font-family="Roboto, sans-serif" font-size="14.00">Liegen 1..n MaLo aus der Trefferliste auf Basis von drei Kriterien zum</text>
+<text text-anchor="start" x="2574.15" y="-660.71" font-family="Roboto, sans-serif" font-size="14.00">Anfragedatum im Netzgebiet des NB?</text>
+</g>
+<!-- 435&#45;&gt;440 -->
+<g id="edge94" class="edge">
+<title>435-&gt;440</title>
+<path fill="none" stroke="#88a0d6" d="M2442.84,-762.94C2529.97,-743.09 2644.75,-716.95 2727.28,-698.15"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2728,-701.58 2736.97,-695.95 2726.44,-694.75 2728,-701.58"/>
+<text text-anchor="start" x="2651.28" y="-718.6" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 435&#45;&gt;705 -->
+<g id="edge93" class="edge">
+<title>435-&gt;705</title>
+<path fill="none" stroke="#88a0d6" d="M2298.64,-763.09C2286.17,-744.06 2269.87,-719.19 2257.67,-700.56"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2260.6,-698.65 2252.19,-692.2 2254.75,-702.48 2260.6,-698.65"/>
+<text text-anchor="start" x="2276.28" y="-718.6" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 445 -->
+<g id="node60" class="node">
+<title>445</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3775.68,-571.48C3775.68,-571.48 3170.88,-571.48 3170.88,-571.48 3164.88,-571.48 3158.88,-565.48 3158.88,-559.48 3158.88,-559.48 3158.88,-547.48 3158.88,-547.48 3158.88,-541.48 3164.88,-535.48 3170.88,-535.48 3170.88,-535.48 3775.68,-535.48 3775.68,-535.48 3781.68,-535.48 3787.68,-541.48 3787.68,-547.48 3787.68,-547.48 3787.68,-559.48 3787.68,-559.48 3787.68,-565.48 3781.68,-571.48 3775.68,-571.48"/>
+<text text-anchor="start" x="3173.28" y="-549.81" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">445: </text>
+<text text-anchor="start" x="3212.28" y="-549.81" font-family="Roboto, sans-serif" font-size="14.00">Ist nur eine der ermittelten Marktlokationen zum Anfragedatum nicht stillgelegt?</text>
+</g>
+<!-- 440&#45;&gt;445 -->
+<g id="edge95" class="edge">
+<title>440-&gt;445</title>
+<path fill="none" stroke="#88a0d6" d="M2951.03,-650.38C3071.05,-628.35 3255.37,-594.5 3369.91,-573.46"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3370.42,-576.93 3379.62,-571.68 3369.15,-570.04 3370.42,-576.93"/>
+<text text-anchor="start" x="3133.28" y="-620.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 450 -->
+<g id="node61" class="node">
+<title>450</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3129.3,-576.12C3129.3,-576.12 2537.25,-576.12 2537.25,-576.12 2531.25,-576.12 2525.25,-570.12 2525.25,-564.12 2525.25,-564.12 2525.25,-542.84 2525.25,-542.84 2525.25,-536.84 2531.25,-530.84 2537.25,-530.84 2537.25,-530.84 3129.3,-530.84 3129.3,-530.84 3135.3,-530.84 3141.3,-536.84 3141.3,-542.84 3141.3,-542.84 3141.3,-564.12 3141.3,-564.12 3141.3,-570.12 3135.3,-576.12 3129.3,-576.12"/>
+<text text-anchor="start" x="2539.65" y="-555.18" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">450: </text>
+<text text-anchor="start" x="2578.65" y="-555.18" font-family="Roboto, sans-serif" font-size="14.00">Ist nur eine MaLo in einem innerhalb der vergangenen drei Jahre abgegebenen</text>
+<text text-anchor="start" x="2539.65" y="-541.18" font-family="Roboto, sans-serif" font-size="14.00">Netzgebiet ermittelbar?</text>
+</g>
+<!-- 440&#45;&gt;450 -->
+<g id="edge96" class="edge">
+<title>440-&gt;450</title>
+<path fill="none" stroke="#88a0d6" d="M2833.28,-650.45C2833.28,-632.81 2833.28,-607.56 2833.28,-587.39"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2836.78,-587.41 2833.28,-577.41 2829.78,-587.41 2836.78,-587.41"/>
+<text text-anchor="start" x="2833.28" y="-620.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 445&#45;&gt;720 -->
+<g id="edge98" class="edge">
+<title>445-&gt;720</title>
+<path fill="none" stroke="#88a0d6" d="M3350.28,-535.51C3290.04,-527.39 3216.41,-517.73 3150.28,-509.84 2922.49,-482.65 2661.75,-455.22 2480.13,-436.7"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2480.63,-433.23 2470.33,-435.7 2479.92,-440.2 2480.63,-433.23"/>
+<text text-anchor="start" x="2978.28" y="-479.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A06 -->
+<g id="node77" class="node">
+<title>A06</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M5285.05,-449.59C5285.05,-449.59 4727.5,-449.59 4727.5,-449.59 4721.5,-449.59 4715.5,-443.59 4715.5,-437.59 4715.5,-437.59 4715.5,-388.31 4715.5,-388.31 4715.5,-382.31 4721.5,-376.31 4727.5,-376.31 4727.5,-376.31 5285.05,-376.31 5285.05,-376.31 5291.05,-376.31 5297.05,-382.31 5297.05,-388.31 5297.05,-388.31 5297.05,-437.59 5297.05,-437.59 5297.05,-443.59 5291.05,-449.59 5285.05,-449.59"/>
+<text text-anchor="start" x="4729.9" y="-428.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A06</text>
+<text text-anchor="start" x="4729.9" y="-400.65" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="4729.9" y="-386.65" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation nicht eindeutig bzw. nimmt nicht an der Marktkommunikation teil</text>
+</g>
+<!-- 445&#45;&gt;A06 -->
+<g id="edge97" class="edge">
+<title>445-&gt;A06</title>
+<path fill="none" stroke="#88a0d6" d="M3787.63,-539.81C3982.74,-530.32 4238.46,-514.94 4464.27,-491.84 4566.84,-481.35 4679.78,-465.77 4775.9,-451.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="4776.37,-454.76 4785.74,-449.8 4775.33,-447.84 4776.37,-454.76"/>
+<text text-anchor="start" x="4598.27" y="-479.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A07 -->
+<g id="node78" class="node">
+<title>A07</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M644.55,-456.59C644.55,-456.59 12,-456.59 12,-456.59 6,-456.59 0,-450.59 0,-444.59 0,-444.59 0,-381.31 0,-381.31 0,-375.31 6,-369.31 12,-369.31 12,-369.31 644.55,-369.31 644.55,-369.31 650.55,-369.31 656.55,-375.31 656.55,-381.31 656.55,-381.31 656.55,-444.59 656.55,-444.59 656.55,-450.59 650.55,-456.59 644.55,-456.59"/>
+<text text-anchor="start" x="14.4" y="-435.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A07</text>
+<text text-anchor="start" x="14.4" y="-407.65" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="14.4" y="-393.65" font-family="Roboto, sans-serif" font-size="14.00">Ermittelte Marktlokation liegt in einem in den letzten drei Jahren abgegebenen Netzgebiet.</text>
+<text text-anchor="start" x="14.4" y="-379.65" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Angabe der MP-ID des NB, an den das Netzgebiet abgegeben wurde.</text>
+</g>
+<!-- 450&#45;&gt;A07 -->
+<g id="edge99" class="edge">
+<title>450-&gt;A07</title>
+<path fill="none" stroke="#88a0d6" d="M2693.13,-530.87C2638.12,-523.11 2574.35,-515.01 2516.28,-509.84 2337.86,-493.96 1236.6,-449.5 667.75,-427.14"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="668.14,-423.66 658.01,-426.76 667.86,-430.65 668.14,-423.66"/>
+<text text-anchor="start" x="2195.28" y="-479.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A08 -->
+<g id="node79" class="node">
+<title>A08</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M4685.42,-456.59C4685.42,-456.59 4157.12,-456.59 4157.12,-456.59 4151.12,-456.59 4145.12,-450.59 4145.12,-444.59 4145.12,-444.59 4145.12,-381.31 4145.12,-381.31 4145.12,-375.31 4151.12,-369.31 4157.12,-369.31 4157.12,-369.31 4685.42,-369.31 4685.42,-369.31 4691.42,-369.31 4697.42,-375.31 4697.42,-381.31 4697.42,-381.31 4697.42,-444.59 4697.42,-444.59 4697.42,-450.59 4691.42,-456.59 4685.42,-456.59"/>
+<text text-anchor="start" x="4159.52" y="-435.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A08</text>
+<text text-anchor="start" x="4159.52" y="-407.65" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="4159.52" y="-393.65" font-family="Roboto, sans-serif" font-size="14.00">In der Kombination von drei Identifikationskriterien war keine Marktlokation</text>
+<text text-anchor="start" x="4159.52" y="-379.65" font-family="Roboto, sans-serif" font-size="14.00">ermittelbar</text>
+</g>
+<!-- 450&#45;&gt;A08 -->
+<g id="edge100" class="edge">
+<title>450-&gt;A08</title>
+<path fill="none" stroke="#88a0d6" d="M2968.67,-530.86C3024.72,-522.8 3090.48,-514.48 3150.28,-509.84 3523.9,-480.82 3620.42,-529.51 3993.28,-491.84 4065.41,-484.55 4143.62,-471.78 4213.21,-458.66"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="4213.65,-462.14 4222.82,-456.83 4212.34,-455.26 4213.65,-462.14"/>
+<text text-anchor="start" x="4111.27" y="-479.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 710 -->
+<g id="node63" class="node">
+<title>710</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2494.93,-576.12C2494.93,-576.12 1951.62,-576.12 1951.62,-576.12 1945.62,-576.12 1939.62,-570.12 1939.62,-564.12 1939.62,-564.12 1939.62,-542.84 1939.62,-542.84 1939.62,-536.84 1945.62,-530.84 1951.62,-530.84 1951.62,-530.84 2494.93,-530.84 2494.93,-530.84 2500.93,-530.84 2506.93,-536.84 2506.93,-542.84 2506.93,-542.84 2506.93,-564.12 2506.93,-564.12 2506.93,-570.12 2500.93,-576.12 2494.93,-576.12"/>
+<text text-anchor="start" x="1954.03" y="-555.18" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">710: </text>
+<text text-anchor="start" x="1993.03" y="-555.18" font-family="Roboto, sans-serif" font-size="14.00">Handelt es sich bei der identifizierten Marktlokation um eine stillgelegte</text>
+<text text-anchor="start" x="1954.03" y="-541.18" font-family="Roboto, sans-serif" font-size="14.00">Marktlokation?</text>
+</g>
+<!-- 705&#45;&gt;710 -->
+<g id="edge102" class="edge">
+<title>705-&gt;710</title>
+<path fill="none" stroke="#88a0d6" d="M2237.84,-655.17C2235.29,-637.52 2231.21,-609.35 2228.02,-587.29"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2231.51,-586.97 2226.62,-577.58 2224.58,-587.98 2231.51,-586.97"/>
+<text text-anchor="start" x="2234.28" y="-620.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A09 -->
+<g id="node80" class="node">
+<title>A09</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1895.55,-597.12C1895.55,-597.12 1263,-597.12 1263,-597.12 1257,-597.12 1251,-591.12 1251,-585.12 1251,-585.12 1251,-521.84 1251,-521.84 1251,-515.84 1257,-509.84 1263,-509.84 1263,-509.84 1895.55,-509.84 1895.55,-509.84 1901.55,-509.84 1907.55,-515.84 1907.55,-521.84 1907.55,-521.84 1907.55,-585.12 1907.55,-585.12 1907.55,-591.12 1901.55,-597.12 1895.55,-597.12"/>
+<text text-anchor="start" x="1265.4" y="-576.18" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A09</text>
+<text text-anchor="start" x="1265.4" y="-548.18" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="1265.4" y="-534.18" font-family="Roboto, sans-serif" font-size="14.00">Ermittelte Marktlokation liegt in einem in den letzten drei Jahren abgegebenen Netzgebiet.</text>
+<text text-anchor="start" x="1265.4" y="-520.18" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Angabe der MP-ID des NB, an den das Netzgebiet abgegeben wurde.</text>
+</g>
+<!-- 705&#45;&gt;A09 -->
+<g id="edge101" class="edge">
+<title>705-&gt;A09</title>
+<path fill="none" stroke="#88a0d6" d="M2144.87,-655.05C2062.6,-640.42 1940.05,-618.63 1830.03,-599.07"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1830.69,-595.63 1820.23,-597.32 1829.46,-602.52 1830.69,-595.63"/>
+<text text-anchor="start" x="2007.28" y="-620.07" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 710&#45;&gt;720 -->
+<g id="edge104" class="edge">
+<title>710-&gt;720</title>
+<path fill="none" stroke="#88a0d6" d="M2227.74,-531.14C2232.45,-508.63 2239.94,-472.88 2245.4,-446.78"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2248.82,-447.53 2247.44,-437.03 2241.97,-446.1 2248.82,-447.53"/>
+<text text-anchor="start" x="2239.28" y="-479.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- A10 -->
+<g id="node81" class="node">
+<title>A10</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M4115.18,-449.59C4115.18,-449.59 3831.38,-449.59 3831.38,-449.59 3825.38,-449.59 3819.38,-443.59 3819.38,-437.59 3819.38,-437.59 3819.38,-388.31 3819.38,-388.31 3819.38,-382.31 3825.38,-376.31 3831.38,-376.31 3831.38,-376.31 4115.18,-376.31 4115.18,-376.31 4121.18,-376.31 4127.18,-382.31 4127.18,-388.31 4127.18,-388.31 4127.18,-437.59 4127.18,-437.59 4127.18,-443.59 4121.18,-449.59 4115.18,-449.59"/>
+<text text-anchor="start" x="3833.78" y="-428.65" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A10</text>
+<text text-anchor="start" x="3833.78" y="-400.65" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="3833.78" y="-386.65" font-family="Roboto, sans-serif" font-size="14.00">Identifizierte Marktlokation ist stillgelegt</text>
+</g>
+<!-- 710&#45;&gt;A10 -->
+<g id="edge103" class="edge">
+<title>710-&gt;A10</title>
+<path fill="none" stroke="#88a0d6" d="M2350.92,-530.87C2402.17,-522.99 2461.88,-514.8 2516.28,-509.84 2802.22,-483.77 3523.26,-498.79 3807.28,-456.59 3816.17,-455.27 3825.27,-453.67 3834.42,-451.87"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3835.01,-455.32 3844.1,-449.88 3833.6,-448.46 3835.01,-455.32"/>
+<text text-anchor="start" x="3591.28" y="-479.54" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 730 -->
+<g id="node65" class="node">
+<title>730</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2236.55,-316.06C2236.55,-316.06 1982,-316.06 1982,-316.06 1976,-316.06 1970,-310.06 1970,-304.06 1970,-304.06 1970,-292.06 1970,-292.06 1970,-286.06 1976,-280.06 1982,-280.06 1982,-280.06 2236.55,-280.06 2236.55,-280.06 2242.55,-280.06 2248.55,-286.06 2248.55,-292.06 2248.55,-292.06 2248.55,-304.06 2248.55,-304.06 2248.55,-310.06 2242.55,-316.06 2236.55,-316.06"/>
+<text text-anchor="start" x="1984.4" y="-294.38" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">730: </text>
+<text text-anchor="start" x="2023.4" y="-294.38" font-family="Roboto, sans-serif" font-size="14.00">Ist die Vollmacht eingetroffen?</text>
+</g>
+<!-- 720&#45;&gt;730 -->
+<g id="edge106" class="edge">
+<title>720-&gt;730</title>
+<path fill="none" stroke="#88a0d6" d="M2225.04,-390.45C2200.65,-371.19 2164.92,-342.99 2139.62,-323.01"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2142.01,-320.45 2132,-317 2137.68,-325.94 2142.01,-320.45"/>
+<text text-anchor="start" x="2171.28" y="-339.01" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- Cluster: Zustimmung
+&#220;bergabe der MaLo&#45;ID der identifizierten Marktlokation. Es werden in der Antwort die MaLo&#45;ID und der vollst&#228;ndige Datensatz, wie dieser beim NB gespeichert ist, zur&#252;ckgegeben.
+Hinweis: Bei einer positiven Antwort wird kein Antwortcode &#252;bermittelt -->
+<g id="node82" class="node">
+<title>Cluster: Zustimmung
+Übergabe der MaLo-ID der identifizierten Marktlokation. Es werden in der Antwort die MaLo-ID und der vollständige Datensatz, wie dieser beim NB gespeichert ist, zurückgegeben.
+Hinweis: Bei einer positiven Antwort wird kein Antwortcode übermittelt</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1721.55,-86.78C1721.55,-86.78 981,-86.78 981,-86.78 975,-86.78 969,-80.78 969,-74.78 969,-74.78 969,-12.5 969,-12.5 969,-6.5 975,-0.5 981,-0.5 981,-0.5 1721.55,-0.5 1721.55,-0.5 1727.55,-0.5 1733.55,-6.5 1733.55,-12.5 1733.55,-12.5 1733.55,-74.78 1733.55,-74.78 1733.55,-80.78 1727.55,-86.78 1721.55,-86.78"/>
+<text text-anchor="start" x="983.4" y="-64.84" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Zustimmung</text>
+<text text-anchor="start" x="983.4" y="-47.59" font-family="Roboto, sans-serif" font-size="14.00">Übergabe der MaLo-ID der identifizierten Marktlokation. Es werden in der</text>
+<text text-anchor="start" x="983.4" y="-30.34" font-family="Roboto, sans-serif" font-size="14.00">Antwort die MaLo-ID und der vollständige Datensatz, wie dieser beim NB gespeichert ist, zurückgegeben.</text>
+<text text-anchor="start" x="983.4" y="-13.09" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Bei einer positiven Antwort wird kein Antwortcode übermittelt</text>
+</g>
+<!-- 720&#45;&gt;Cluster: Zustimmung
+&#220;bergabe der MaLo&#45;ID der identifizierten Marktlokation. Es werden in der Antwort die MaLo&#45;ID und der vollst&#228;ndige Datensatz, wie dieser beim NB gespeichert ist, zur&#252;ckgegeben.
+Hinweis: Bei einer positiven Antwort wird kein Antwortcode &#252;bermittelt -->
+<g id="edge105" class="edge">
+<title>720-&gt;Cluster: Zustimmung
+Übergabe der MaLo-ID der identifizierten Marktlokation. Es werden in der Antwort die MaLo-ID und der vollständige Datensatz, wie dieser beim NB gespeichert ist, zurückgegeben.
+Hinweis: Bei einer positiven Antwort wird kein Antwortcode übermittelt</title>
+<path fill="none" stroke="#88a0d6" d="M1939.89,-391.66C1700.42,-368.82 1398.16,-321.68 1320.28,-226.81 1290.66,-190.73 1304.72,-136.82 1322.38,-97"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1325.49,-98.6 1326.53,-88.06 1319.15,-95.65 1325.49,-98.6"/>
+<text text-anchor="start" x="1362.28" y="-249.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 740 -->
+<g id="node66" class="node">
+<title>740</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M2267.68,-201.67C2267.68,-201.67 1950.88,-201.67 1950.88,-201.67 1944.88,-201.67 1938.88,-195.67 1938.88,-189.67 1938.88,-189.67 1938.88,-177.67 1938.88,-177.67 1938.88,-171.67 1944.88,-165.67 1950.88,-165.67 1950.88,-165.67 2267.68,-165.67 2267.68,-165.67 2273.68,-165.67 2279.68,-171.67 2279.68,-177.67 2279.68,-177.67 2279.68,-189.67 2279.68,-189.67 2279.68,-195.67 2273.68,-201.67 2267.68,-201.67"/>
+<text text-anchor="start" x="1953.28" y="-180" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">740: </text>
+<text text-anchor="start" x="1992.28" y="-180" font-family="Roboto, sans-serif" font-size="14.00">Hält der NB die Vollmacht für wirksam?</text>
+</g>
+<!-- 730&#45;&gt;740 -->
+<g id="edge107" class="edge">
+<title>730-&gt;740</title>
+<path fill="none" stroke="#88a0d6" d="M2109.28,-280.48C2109.28,-262.63 2109.28,-233.94 2109.28,-212.6"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2112.78,-212.84 2109.28,-202.84 2105.78,-212.84 2112.78,-212.84"/>
+<text text-anchor="start" x="2109.28" y="-249.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- Hinweis:
+Solange die Vollmacht beim NB nicht eingetroffen ist, wartet der Prozess an diesem Pr&#252;fschritt. Diese Pr&#252;fung ist regelm&#228;&#223;ig erneut durchzuf&#252;hren, bis die Vollmacht eingetroffen ist. -->
+<g id="node83" class="node">
+<title>Hinweis:
+Solange die Vollmacht beim NB nicht eingetroffen ist, wartet der Prozess an diesem Prüfschritt. Diese Prüfung ist regelmäßig erneut durchzuführen, bis die Vollmacht eingetroffen ist.</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M1895.18,-226.81C1895.18,-226.81 1341.38,-226.81 1341.38,-226.81 1335.38,-226.81 1329.38,-220.81 1329.38,-214.81 1329.38,-214.81 1329.38,-152.53 1329.38,-152.53 1329.38,-146.53 1335.38,-140.53 1341.38,-140.53 1341.38,-140.53 1895.18,-140.53 1895.18,-140.53 1901.18,-140.53 1907.18,-146.53 1907.18,-152.53 1907.18,-152.53 1907.18,-214.81 1907.18,-214.81 1907.18,-220.81 1901.18,-226.81 1895.18,-226.81"/>
+<text text-anchor="start" x="1343.78" y="-204.87" font-family="Roboto, sans-serif" font-size="14.00">Hinweis:</text>
+<text text-anchor="start" x="1343.78" y="-187.62" font-family="Roboto, sans-serif" font-size="14.00">Solange die Vollmacht beim NB nicht eingetroffen ist, wartet der Prozess an</text>
+<text text-anchor="start" x="1343.78" y="-170.37" font-family="Roboto, sans-serif" font-size="14.00">diesem Prüfschritt. Diese Prüfung ist regelmäßig erneut durchzuführen, bis die</text>
+<text text-anchor="start" x="1343.78" y="-153.12" font-family="Roboto, sans-serif" font-size="14.00">Vollmacht eingetroffen ist.</text>
+</g>
+<!-- 730&#45;&gt;Hinweis:
+Solange die Vollmacht beim NB nicht eingetroffen ist, wartet der Prozess an diesem Pr&#252;fschritt. Diese Pr&#252;fung ist regelm&#228;&#223;ig erneut durchzuf&#252;hren, bis die Vollmacht eingetroffen ist. -->
+<g id="edge108" class="edge">
+<title>730-&gt;Hinweis:
+Solange die Vollmacht beim NB nicht eingetroffen ist, wartet der Prozess an diesem Prüfschritt. Diese Prüfung ist regelmäßig erneut durchzuführen, bis die Vollmacht eingetroffen ist.</title>
+<path fill="none" stroke="#88a0d6" d="M2035.24,-280.11C1976.39,-266.64 1891.28,-247.16 1813.29,-229.31"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1814.33,-225.96 1803.81,-227.14 1812.77,-232.78 1814.33,-225.96"/>
+<text text-anchor="start" x="1950.28" y="-249.76" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 740&#45;&gt;Cluster: Zustimmung
+&#220;bergabe der MaLo&#45;ID der identifizierten Marktlokation. Es werden in der Antwort die MaLo&#45;ID und der vollst&#228;ndige Datensatz, wie dieser beim NB gespeichert ist, zur&#252;ckgegeben.
+Hinweis: Bei einer positiven Antwort wird kein Antwortcode &#252;bermittelt -->
+<g id="edge109" class="edge">
+<title>740-&gt;Cluster: Zustimmung
+Übergabe der MaLo-ID der identifizierten Marktlokation. Es werden in der Antwort die MaLo-ID und der vollständige Datensatz, wie dieser beim NB gespeichert ist, zurückgegeben.
+Hinweis: Bei einer positiven Antwort wird kein Antwortcode übermittelt</title>
+<path fill="none" stroke="#88a0d6" d="M2035.67,-165.75C1999.74,-157.71 1955.84,-148.2 1916.28,-140.53 1821.95,-122.24 1718.38,-104.1 1625.97,-88.6"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="1626.69,-85.18 1616.25,-86.98 1625.54,-92.08 1626.69,-85.18"/>
+<text text-anchor="start" x="1808.28" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A13 -->
+<g id="node84" class="node">
+<title>A13</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M2405.3,-87.28C2405.3,-87.28 1813.25,-87.28 1813.25,-87.28 1807.25,-87.28 1801.25,-81.28 1801.25,-75.28 1801.25,-75.28 1801.25,-12 1801.25,-12 1801.25,-6 1807.25,0 1813.25,0 1813.25,0 2405.3,0 2405.3,0 2411.3,0 2417.3,-6 2417.3,-12 2417.3,-12 2417.3,-75.28 2417.3,-75.28 2417.3,-81.28 2411.3,-87.28 2405.3,-87.28"/>
+<text text-anchor="start" x="1815.65" y="-66.34" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A13</text>
+<text text-anchor="start" x="1815.65" y="-38.34" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="1815.65" y="-24.34" font-family="Roboto, sans-serif" font-size="14.00">Die vom Anfragenden eingereichte Vollmacht wird als nicht wirksam betrachtet.</text>
+<text text-anchor="start" x="1815.65" y="-10.34" font-family="Roboto, sans-serif" font-size="14.00">Hinweis: Der NB begründet die Ablehnung der fehlenden Wirksamkeit der Vollmacht</text>
+</g>
+<!-- 740&#45;&gt;A13 -->
+<g id="edge110" class="edge">
+<title>740-&gt;A13</title>
+<path fill="none" stroke="#88a0d6" d="M2109.28,-165.74C2109.28,-149.04 2109.28,-122.61 2109.28,-98.69"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2112.78,-98.72 2109.28,-88.72 2105.78,-98.72 2112.78,-98.72"/>
+<text text-anchor="start" x="2109.28" y="-110.23" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- Start -->
+<g id="node67" class="node">
+<title>Start</title>
+<path fill="#8ba2d7" stroke="black" stroke-width="0" d="M3104.68,-5481.73C3104.68,-5481.73 2967.88,-5481.73 2967.88,-5481.73 2961.88,-5481.73 2955.88,-5475.73 2955.88,-5469.73 2955.88,-5469.73 2955.88,-5448.45 2955.88,-5448.45 2955.88,-5442.45 2961.88,-5436.45 2967.88,-5436.45 2967.88,-5436.45 3104.68,-5436.45 3104.68,-5436.45 3110.68,-5436.45 3116.68,-5442.45 3116.68,-5448.45 3116.68,-5448.45 3116.68,-5469.73 3116.68,-5469.73 3116.68,-5475.73 3110.68,-5481.73 3104.68,-5481.73"/>
+<text text-anchor="start" x="2970.28" y="-5460.79" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">E_0594</text>
+<text text-anchor="start" x="2970.28" y="-5446.79" font-family="Roboto, sans-serif" font-size="14.00">Prüfende Rolle: </text>
+<text text-anchor="start" x="3079.78" y="-5446.79" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NB</text>
+</g>
+<!-- 10 -->
+<g id="node68" class="node">
+<title>10</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3321.8,-5399.45C3321.8,-5399.45 2750.75,-5399.45 2750.75,-5399.45 2744.75,-5399.45 2738.75,-5393.45 2738.75,-5387.45 2738.75,-5387.45 2738.75,-5375.45 2738.75,-5375.45 2738.75,-5369.45 2744.75,-5363.45 2750.75,-5363.45 2750.75,-5363.45 3321.8,-5363.45 3321.8,-5363.45 3327.8,-5363.45 3333.8,-5369.45 3333.8,-5375.45 3333.8,-5375.45 3333.8,-5387.45 3333.8,-5387.45 3333.8,-5393.45 3327.8,-5399.45 3321.8,-5399.45"/>
+<text text-anchor="start" x="2753.15" y="-5377.78" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">10: </text>
+<text text-anchor="start" x="2782.4" y="-5377.78" font-family="Roboto, sans-serif" font-size="14.00">Ist das Identifikationskriterium „Marktlokations-ID“ in der Anfrage enthalten?</text>
+</g>
+<!-- Start&#45;&gt;10 -->
+<g id="edge1" class="edge">
+<title>Start-&gt;10</title>
+<path fill="none" stroke="#88a0d6" d="M3036.28,-5436.62C3036.28,-5428.54 3036.28,-5419.24 3036.28,-5410.64"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3039.78,-5410.68 3036.28,-5400.68 3032.78,-5410.68 3039.78,-5410.68"/>
+</g>
+<!-- 20 -->
+<g id="node69" class="node">
+<title>20</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3066.93,-5310.2C3066.93,-5310.2 2535.62,-5310.2 2535.62,-5310.2 2529.62,-5310.2 2523.62,-5304.2 2523.62,-5298.2 2523.62,-5298.2 2523.62,-5286.2 2523.62,-5286.2 2523.62,-5280.2 2529.62,-5274.2 2535.62,-5274.2 2535.62,-5274.2 3066.93,-5274.2 3066.93,-5274.2 3072.93,-5274.2 3078.93,-5280.2 3078.93,-5286.2 3078.93,-5286.2 3078.93,-5298.2 3078.93,-5298.2 3078.93,-5304.2 3072.93,-5310.2 3066.93,-5310.2"/>
+<text text-anchor="start" x="2538.03" y="-5288.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">20: </text>
+<text text-anchor="start" x="2567.28" y="-5288.53" font-family="Roboto, sans-serif" font-size="14.00">Ist das Identifikationskriterium „Tranchen-ID“ in der Anfrage enthalten?</text>
+</g>
+<!-- 10&#45;&gt;20 -->
+<g id="edge3" class="edge">
+<title>10-&gt;20</title>
+<path fill="none" stroke="#88a0d6" d="M2990.69,-5363.52C2952.58,-5349.38 2898.08,-5329.14 2857.31,-5314.01"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2858.75,-5310.81 2848.16,-5310.61 2856.31,-5317.37 2858.75,-5310.81"/>
+<text text-anchor="start" x="2939.28" y="-5333.15" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 30 -->
+<g id="node70" class="node">
+<title>30</title>
+<path fill="#c2cee9" stroke="black" stroke-width="0" d="M3352.8,-5203.31C3352.8,-5203.31 2877.75,-5203.31 2877.75,-5203.31 2871.75,-5203.31 2865.75,-5197.31 2865.75,-5191.31 2865.75,-5191.31 2865.75,-5179.31 2865.75,-5179.31 2865.75,-5173.31 2871.75,-5167.31 2877.75,-5167.31 2877.75,-5167.31 3352.8,-5167.31 3352.8,-5167.31 3358.8,-5167.31 3364.8,-5173.31 3364.8,-5179.31 3364.8,-5179.31 3364.8,-5191.31 3364.8,-5191.31 3364.8,-5197.31 3358.8,-5203.31 3352.8,-5203.31"/>
+<text text-anchor="start" x="2880.15" y="-5181.64" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">30: </text>
+<text text-anchor="start" x="2909.4" y="-5181.64" font-family="Roboto, sans-serif" font-size="14.00">Ist die „Marktlokation-ID“ oder „Tranchen ID“ dem NB bekannt?</text>
+</g>
+<!-- 10&#45;&gt;30 -->
+<g id="edge2" class="edge">
+<title>10-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M3052,-5363.58C3063.71,-5350.11 3079.19,-5330.24 3088.28,-5310.2 3102.41,-5279.05 3109.33,-5240.07 3112.59,-5214.24"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3116.04,-5214.88 3113.7,-5204.55 3109.09,-5214.08 3116.04,-5214.88"/>
+<text text-anchor="start" x="3100.28" y="-5288.53" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 20&#45;&gt;100 -->
+<g id="edge5" class="edge">
+<title>20-&gt;100</title>
+<path fill="none" stroke="#88a0d6" d="M2700.49,-5274.23C2588.14,-5255.32 2406.96,-5224.81 2290.26,-5205.16"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="2291.11,-5201.76 2280.67,-5203.55 2289.95,-5208.66 2291.11,-5201.76"/>
+<text text-anchor="start" x="2581.28" y="-5243.9" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+<!-- 20&#45;&gt;30 -->
+<g id="edge4" class="edge">
+<title>20-&gt;30</title>
+<path fill="none" stroke="#88a0d6" d="M2852.07,-5274.23C2907.14,-5255.84 2995.02,-5226.48 3053.91,-5206.81"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3054.74,-5210.22 3063.11,-5203.73 3052.52,-5203.58 3054.74,-5210.22"/>
+<text text-anchor="start" x="2948.28" y="-5243.9" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- 30&#45;&gt;705 -->
+<g id="edge6" class="edge">
+<title>30-&gt;705</title>
+<path fill="none" stroke="#88a0d6" d="M3085.97,-5167.41C3063.29,-5152.91 3032.73,-5130 3014.28,-5102.42 2997.86,-5077.89 2995.28,-5068.3 2995.28,-5038.78 2995.28,-5038.78 2995.28,-5038.78 2995.28,-1541.74 2995.28,-1474.77 2979.45,-1457.6 2988.28,-1391.22"/>
+<text text-anchor="start" x="2995.28" y="-3083.42" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">JA</text>
+</g>
+<!-- A14 -->
+<g id="node71" class="node">
+<title>A14</title>
+<path fill="#c4cac1" stroke="black" stroke-width="0" d="M3517.55,-5074.42C3517.55,-5074.42 3035,-5074.42 3035,-5074.42 3029,-5074.42 3023,-5068.42 3023,-5062.42 3023,-5062.42 3023,-5013.14 3023,-5013.14 3023,-5007.14 3029,-5001.14 3035,-5001.14 3035,-5001.14 3517.55,-5001.14 3517.55,-5001.14 3523.55,-5001.14 3529.55,-5007.14 3529.55,-5013.14 3529.55,-5013.14 3529.55,-5062.42 3529.55,-5062.42 3529.55,-5068.42 3523.55,-5074.42 3517.55,-5074.42"/>
+<text text-anchor="start" x="3037.4" y="-5053.48" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">A14</text>
+<text text-anchor="start" x="3037.4" y="-5025.48" font-family="Roboto, sans-serif" font-size="14.00">Cluster: Ablehnung</text>
+<text text-anchor="start" x="3037.4" y="-5011.48" font-family="Roboto, sans-serif" font-size="14.00">Die „Marktlokation-ID“ oder „Tranchen ID“ ist dem NB nicht bekannt.</text>
+</g>
+<!-- 30&#45;&gt;A14 -->
+<g id="edge7" class="edge">
+<title>30-&gt;A14</title>
+<path fill="none" stroke="#88a0d6" d="M3134.06,-5167.33C3157.13,-5146.48 3197.11,-5110.34 3228.81,-5081.68"/>
+<polygon fill="#88a0d6" stroke="#88a0d6" points="3230.9,-5084.51 3235.97,-5075.21 3226.21,-5079.32 3230.9,-5084.51"/>
+<text text-anchor="start" x="3181.28" y="-5125.37" font-family="Roboto, sans-serif" font-weight="bold" font-size="14.00">NEIN</text>
+</g>
+</g>
+</svg>
+  </g>
+</svg>
+  </g>
+<text x="1815.3333333333333" y="1910.0" text-anchor="end" font-family="Roboto, sans-serif" font-size="10" fill="#666666">v4.2 | 31.03.2026 (urspr. 01.10.2025) | ebdamame v1.0.0 | rebdhuhn v1.0.1</text></svg>

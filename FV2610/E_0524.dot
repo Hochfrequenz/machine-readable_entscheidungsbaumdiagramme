@@ -1,0 +1,54 @@
+digraph D {
+    labelloc="t";
+    label=<<B><FONT POINT-SIZE="18">GPKE</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">6.29.1: AD: Bestellung einer Konfiguration vom NB an MSB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    ratio="compress";
+    concentrate=true;
+    pack=true;
+    rankdir=TB;
+    packmode="array";
+    size="20,20";
+    fontsize=12;
+    pad=0.25;
+    "Start" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#8ba2d7", label=<<B>E_0524</B><BR align="left"/><FONT>Prüfende Rolle: <B>MSB</B></FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "10" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>10: </B>Liegt die bestellte Konfiguration zum bestellten Zeitpunkt an der / bzw. allen<BR align="left"/>Lokationen bereits vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Die bestellte Konfiguration liegt bereits vor<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "20" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>20: </B>Handelt es sich um eine kostenpflichtige Konfiguration, welche im Preisblatt A<BR align="left"/>des MSB aufgeführt ist?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Nicht kostenpflichtige Konfiguration<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>30: </B>Liegt bereits eine kostenpflichtige Konfiguration vom Anfragenden an der<BR align="left"/>betroffenen Lokation vor?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>40: </B>Ist in dieser Bestellung die Bestellnummer der Bestellung enthalten, mit der<BR align="left"/>die bestehende kostenpflichtige Konfiguration bestellt wurde?<BR align="left"/>Hinweis:<BR align="left"/>Wenn bereits an der betreffenden Lokation eine Konfiguration von dem<BR align="left"/>Anfragenden besteht, muss diese Konfiguration beendet werden. Aus diesem Grund<BR align="left"/>gibt der Anfragende die Referenz der bislang geltenden Konfiguration an, da zu<BR align="left"/>einem Zeitpunkt immer nur eine Konfiguration vorhanden sein kann.<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>Es besteht an der Lokation bereits eine Konfiguration. In der Bestellung ist<BR align="left"/>die Bestellnummer zur bestehenden Konfiguration nicht enthalten.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "50" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>50: </B>Sind die in der Anfrage enthaltenen Artikel auch im Preisblatt des MSB zum<BR align="left"/>angefragten Zeitpunkt gültig<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A04" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A04</B><BR align="left"/><BR align="left"/><FONT>Es ist mindestens ein Artikel in der Anfrage, welcher vom MSB nicht angeboten wird<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "60" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>60: </B>Ist der MSB bei allen betroffenen Lokationen aktiver MSB?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A05" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A05</B><BR align="left"/><BR align="left"/><FONT>Der MSB ist nicht an allen Lokationen der zugeordnete MSB<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "70" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>70: </B>Ist die bestellte Konfiguration an der betroffenen Lokation möglich?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A06" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A06</B><BR align="left"/><BR align="left"/><FONT>Konfiguration ist an der betroffenen Lokation nicht möglich<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "75" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>75: </B>Wurden die Vorlauffristen eingehalten?<BR align="left"/>Hinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A07" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A07</B><BR align="left"/><BR align="left"/><FONT>Die Vorlauffrist wurde nicht eingehalten.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "80" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>80: </B>Ist ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A99" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A99</B><BR align="left"/><BR align="left"/><FONT>Ablehnung Sonstiges<BR align="left"/>Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.<BR align="left"/>Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "Angebot versenden" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Angebot versenden<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+
+    "Start" -> "10" [color="#88a0d6"];
+    "10" -> "A01" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "10" -> "20" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "A02" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "20" -> "30" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "50" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "30" -> "40" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "A03" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "50" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "A04" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "60" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "60" -> "A05" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "60" -> "70" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "70" -> "A06" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "70" -> "75" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "75" -> "A07" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "75" -> "80" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "80" -> "A99" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "80" -> "Angebot versenden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+
+    bgcolor="transparent";
+fontname="Roboto, sans-serif";
+}
