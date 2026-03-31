@@ -15,7 +15,9 @@ digraph D {
     "Stammdaten versenden" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Stammdaten versenden<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
     "30" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>30: </B>Ist der MSB für den angefragten Zeitraum z. B. aufgrund einer Vollmacht<BR align="left"/>berechtigt die angefragten Stammdaten zu erhalten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "A01" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A01</B><BR align="left"/><BR align="left"/><FONT>Keine Berechtigung<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
-    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>40: </B>Ist an der genannten Messlokation ein iMS verbaut?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "40" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>40: </B>Ist die genannte Adresse dem NB bekannt und ist an dieser Adresse ein<BR align="left"/>Stromanschluss vorhanden?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    "A03" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A03</B><BR align="left"/><BR align="left"/><FONT>An der genannten Adresse betreibt der NB keinen Stromanschluss.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
+    "50" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>50: </B>Ist an der genannten Messlokation ein iMS verbaut?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     "A02" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<B>A02</B><BR align="left"/><BR align="left"/><FONT>Kein iMS verbaut<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
 
     "Start" -> "10" [color="#88a0d6"];
@@ -25,8 +27,10 @@ digraph D {
     "20" -> "30" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "30" -> "A01" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "30" -> "Stammdaten versenden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "40" -> "Stammdaten versenden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
-    "40" -> "A02" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "50" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "40" -> "A03" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "Stammdaten versenden" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
+    "50" -> "A02" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
 
     bgcolor="transparent";
 fontname="Roboto, sans-serif";

@@ -9,7 +9,7 @@
       "ebdamame_version": "v1.0.0",
       "original_release_date": "2025-10-01",
       "rebdhuhn_version": "v1.0.1",
-      "release_date": "2025-12-11",
+      "release_date": "2026-03-31",
       "version": "4.2"
     },
     "remark": null,
@@ -119,7 +119,7 @@
       "use_cases": null
     },
     {
-      "description": "Soll die angegebene Marktlokation zu einer Neubildung einer Kundenanlage führen (Produktcode: 9991000002769, Code der Produkteigenschaft: 9991000002933)?",
+      "description": "Soll die angegebene Marktlokation zu einer Neubildung einer Kundenanlage führen (Produktcode: 9991 00000 276 9, Code der Produkteigenschaft: 9991 00000 293 3 oder 9991 00000 321 2)?",
       "step_number": "19",
       "sub_rows": [
         {
@@ -144,7 +144,7 @@
       "use_cases": null
     },
     {
-      "description": "Handelt es sich bei der zu bildenden Kundenanlage um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?",
+      "description": "Handelt es sich bei der zu bildenden Kundenanlage um eine Kundenanlage gem. § 20 Abs. 1d EnWG bzw. § 10c EEG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?",
       "step_number": "20",
       "sub_rows": [
         {
@@ -244,7 +244,7 @@
       "use_cases": null
     },
     {
-      "description": "Handelt es sich bei der bestehenden Kundenanlage (SG5 LOC+Z16) um eine Kundenanlage gem. § 20 Abs. 1d EnWG, deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?",
+      "description": "Handelt es sich bei der bestehenden Kundenanlage (SG5 LOC+Z16) um eine „Kundenanlage“ (§ 20 Abs. 1d EnWG bzw. § 10 c EEG), deren Energiemengen mittels einem virtuellen Summenzähler rechnerisch ermittelt werden?",
       "step_number": "27",
       "sub_rows": [
         {

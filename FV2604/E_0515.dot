@@ -28,6 +28,15 @@ digraph D {
         "430" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>430: </B>Ist in der Rechnungsposition ein zuvor nicht spezifizierter Fehler aufgetreten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
         "440" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>440: </B>Sind noch weitere Rechnungspositionen zu prüfen?<BR align="left"/>>, fontname="Roboto, sans-serif"];
         "450" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>450: </B>Ist in mindestens einer Rechnungspositionen ein Fehler aufgetreten?<BR align="left"/>>, fontname="Roboto, sans-serif"];
+    }
+    subgraph "cluster_msi_500" {
+        label="";
+        style="dashed,rounded";
+        bgcolor="#f0f7ff";
+        color="#888888";
+        penwidth=1.5;
+        margin=16;
+        "msi_500" [margin="0.2,0.12", shape=note, style=filled, penwidth=0.0, fillcolor="#e6f3ff", label=<<FONT><I>Die nachfolgende Prüfung erfolgt auf Summenebene<BR align="left"/>des EBD, obwohl es sich um eine summarische<BR align="left"/>Prüfung der Positionsebene handelt, da bei<BR align="left"/>fehlenden Positionsnummer aus dem bestätigten<BR align="left"/>Angebot keine Positionsnummer genannt werden<BR align="left"/>kann, muss zur Übermittlung des Fehlers die<BR align="left"/>REMADV Struktur zur Übermittlung von Fehlern auf<BR align="left"/>Summenebene genutzt werden.</I></FONT><BR align="left"/>>, fontname="Roboto, sans-serif"];
         "500" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c2cee9", label=<<B>500: </B>Fehlen noch Positionen, die über das bestätigte Angebot vereinbart sind und<BR align="left"/>somit in der Rechnung erwartet werden?<BR align="left"/>>, fontname="Roboto, sans-serif"];
     }
     subgraph "cluster_msi_510" {
