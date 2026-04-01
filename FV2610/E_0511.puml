@@ -20,13 +20,13 @@ header
 endheader
 
 footer
-v4.2 | 31.03.2026 (urspr. 01.10.2025) | ebdamame v1.0.0 | rebdhuhn v1.0.1
+v4.3 (urspr. 01.04.2026) | ebdamame v1.0.0 | rebdhuhn v1.1.0
 endfooter
 
 title
 Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit
 
-17.1.4: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu
+16.1.4: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu
 
 
 
@@ -42,7 +42,7 @@ if (<b>1: </b> Ist ein Fehler aufgetreten?) then (ja)
         Cluster: Ablehnung
         Sonstiges
         Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-        Nutzungsmöglichkeit Ende: 01.10.2026, 00:00 Uhr
+        Nutzungsmöglichkeit Ende: 01.04.2027, 00:00 Uhr
     endnote
     kill;
 else (nein)
