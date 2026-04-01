@@ -20,13 +20,13 @@ header
 endheader
 
 footer
-v4.2 | 31.03.2026 (urspr. 01.10.2025) | ebdamame v1.0.0 | rebdhuhn v1.0.1
+v4.3 (urspr. 01.04.2026) | ebdamame v1.0.0 | rebdhuhn v1.1.0
 endfooter
 
 title
-WiM Strom
+MaBiS
 
-8.15.1: AD: Abrechnung von Dienstleistungen
+7.84.1: AD: Abrechnung von Dienstleistungen
 
 
 
@@ -144,7 +144,7 @@ if (<b>100: </b> Handelt es sich um eine Geräteübernahme (Kauf/ Nutzungsüberl
         note left
             Cluster: Ablehnung auf Kopfebene
             Sonstiger Fehler auf Kopfebene.
-            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2027 00:00 Uhr
         endnote
         kill;
     else (nein)
@@ -215,7 +215,7 @@ Hinweis: Bei Nutzung des Ausführungsdatums in der Rechnung Prüfschritt mit ja 
         note left
             Cluster: Ablehnung auf Positionsebene 
             Sonstiger Fehler auf Positionsebene.
-            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+            Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2027 00:00 Uhr
         endnote
     else (nein)
     endif
@@ -270,7 +270,7 @@ Hinweis: Bei Nutzung des Ausführungsdatums in der Rechnung Prüfschritt mit ja 
                     Cluster: Ablehnung auf Summenebene
                     Sonstiges
                     Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                    Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+                    Nutzungsmöglichkeit Ende: 01.04.2027 00:00 Uhr
                 endnote
             else (nein)
             endif
@@ -292,7 +292,7 @@ if (<b>130: </b> Ist ein zuvor nicht spezifizierter Fehler im Kopfteil der Rechn
     note left
         Cluster: Ablehnung auf Kopfebene
         Sonstiger Fehler auf Kopfebene.
-        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2027 00:00 Uhr
     endnote
     kill;
 else (nein)
@@ -363,7 +363,7 @@ if (<b>370: </b> Ist in der Rechnungsposition ein zuvor nicht spezifizierter Feh
     note left
         Cluster: Ablehnung auf Positionsebene 
         Sonstiger Fehler auf Positionsebene.
-        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+        Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. Nutzungsmöglichkeit Ende: 01.04.2027 00:00 Uhr
     endnote
 else (nein)
 endif
@@ -418,7 +418,7 @@ else (nein)
                 Cluster: Ablehnung auf Summenebene
                 Sonstiges
                 Hinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.
-                Nutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr
+                Nutzungsmöglichkeit Ende: 01.04.2027 00:00 Uhr
             endnote
         else (nein)
         endif
