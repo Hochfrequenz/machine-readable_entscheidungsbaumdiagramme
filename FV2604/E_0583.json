@@ -5,10 +5,36 @@
     "ebd_name": "E_0583_Änderung vom MSB prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
     "link": null,
     "note": null,
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "55555"
+      },
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "55664"
+      },
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "55665"
+      },
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "55666"
+      },
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "55667"
+      },
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "55669"
+      }
+    ],
     "release_information": {
       "ebdamame_version": "v1.0.0",
       "original_release_date": "2025-10-01",
-      "rebdhuhn_version": "v1.1.0",
+      "rebdhuhn_version": "v1.2.0",
       "release_date": "2026-03-31",
       "version": "4.2"
     },
