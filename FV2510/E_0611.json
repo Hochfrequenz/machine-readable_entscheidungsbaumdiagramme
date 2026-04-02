@@ -5,10 +5,20 @@
     "ebd_name": "E_0611_Abrechnungsdaten Bilanzkreisabrechnung prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
     "link": null,
     "note": null,
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2510",
+        "pruefidentifikator": "55156"
+      },
+      {
+        "format_version": "FV2510",
+        "pruefidentifikator": "55673"
+      }
+    ],
     "release_information": {
       "ebdamame_version": "v1.0.0",
       "original_release_date": "2025-04-01",
-      "rebdhuhn_version": "v1.1.0",
+      "rebdhuhn_version": "v1.2.0",
       "release_date": "2026-01-16",
       "version": "4.1"
     },
