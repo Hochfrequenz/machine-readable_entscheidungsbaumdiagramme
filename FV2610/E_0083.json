@@ -5,10 +5,20 @@
     "ebd_name": "E_0083_Datenstatus nach Eingang einer AAÜZ vergeben",
     "link": null,
     "note": null,
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21003"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21004"
+      }
+    ],
     "release_information": {
       "ebdamame_version": "v1.0.0",
       "original_release_date": "2026-04-01",
-      "rebdhuhn_version": "v1.1.0",
+      "rebdhuhn_version": "v1.2.0",
       "release_date": null,
       "version": "4.3"
     },

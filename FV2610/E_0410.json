@@ -5,10 +5,24 @@
     "ebd_name": "E_0410_Änderung vom LF prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
     "link": null,
     "note": null,
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55137"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55232"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55694"
+      }
+    ],
     "release_information": {
       "ebdamame_version": "v1.0.0",
       "original_release_date": "2026-04-01",
-      "rebdhuhn_version": "v1.1.0",
+      "rebdhuhn_version": "v1.2.0",
       "release_date": null,
       "version": "4.3"
     },
