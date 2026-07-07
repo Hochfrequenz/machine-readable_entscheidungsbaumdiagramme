@@ -1,0 +1,61 @@
+# machine-readable Entscheidungsbaumdiagramme (EBD)
+
+> Entscheidungsbaumdiagramme (EBD) des deutschen Energiemarkts (EDI@Energy: GPKE, GeLi Gas,
+> WiM, …) in maschinenlesbarer Form. Diese Datei erklärt einem KI-Assistenten, wie er einen
+> EBD findet und liest, ohne das Repository zu durchsuchen.
+
+## Aufbau
+
+Die Daten sind nach **Formatversion** (Gültigkeitszeitraum) abgelegt, nicht nach Format-/AHB-Version.
+Der Gültigkeitsbeginn ist **nicht** aus dem Label ableitbar und **nicht** immer der Monatserste
+(z. B. gilt `FV2504` laut BDEW ab dem 2025-06-06). Der maßgebliche Wert je Formatversion steht als
+`valid_from` in `format_versions.json` (Quelle: `efoli`). Pro Formatversion existiert ein Verzeichnis `FV<JJMM>/`.
+
+Jeder EBD ist über seine **EBD-Kennung** identifiziert (z. B. `E_0401`) und in bis zu vier Formaten abgelegt:
+
+- `<EBD>.json` — die strukturierten Rohdaten (**hierüber sollte eine KI argumentieren**); JSON-Schema siehe unten
+- `<EBD>.puml` — PlantUML des Entscheidungsbaums (gut für KI lesbar, falls vorhanden)
+- `<EBD>.dot`  — Graphviz/DOT (falls das Diagramm nicht zu komplex ist)
+- `<EBD>.svg`  — gerendertes Diagramm (**nur zur Anzeige für Menschen**)
+
+## Roh-URL-Vertrag (stabil)
+
+```
+https://raw.githubusercontent.com/Hochfrequenz/machine-readable_entscheidungsbaumdiagramme/main/<FV>/<EBD>.<ext>
+```
+mit `<FV>` ∈ den Formatversionen aus `format_versions.json`, `<EBD>` = EBD-Kennung (z. B. `E_0401`),
+`<ext>` ∈ {json, puml, dot, svg}.
+
+## Discovery-Dateien (so findest du das Richtige)
+
+- **`/format_versions.json`** — alle verfügbaren Formatversionen + `valid_from` + `latest`.
+  Nimm im Zweifel `latest`, außer der/die Nutzer:in nennt einen Prüfidentifikator/ein Datum, das zu einer älteren FV gehört.
+- **`/<FV>/index.json`** — Katalog je Formatversion: ein **JSON-Array** von Objekten
+  `{ ebd_code, ebd_name, chapter, section, role, pruefidentifikatoren }` (Letzteres eine Liste von Prüfi-Strings).
+  Nutze `ebd_name`/`chapter`/`section` für die natürlichsprachliche Suche → `ebd_code`.
+- **`/<FV>/pruefi_to_key.json`** — **Prüfidentifikator → EBD-Kennung**. Der wichtigste Lookup, denn
+  Nutzer:innen zitieren Prüfidentifikatoren (z. B. `55002`) direkt aus AHBs/EDIFACT.
+- **`/<FV>/ebd.schema.json`** — JSON-Schema der `<EBD>.json`-Dateien (Knoten, Prüfschritte, Ergebnisse).
+
+Es werden nur erfolgreich verarbeitete EBDs gelistet; für jeden Eintrag existiert die `<EBD>.json`.
+`.puml`/`.dot`/`.svg` können fehlen (z. B. bei tabellenlosen oder nicht plotbaren EBDs).
+
+## Vorgehen (Beispiele)
+
+**„Zeig mir den Entscheidungsbaum zu Prüfidentifikator 55002" (neueste FV):**
+1. `format_versions.json` → `latest` (z. B. `FV2610`).
+2. `FV2610/pruefi_to_key.json` → `"55002": "E_0xxx"`.
+3. `FV2610/E_0xxx.json` (Struktur; `.puml` für den Graphen, falls vorhanden) über den Roh-URL-Vertrag laden.
+
+**„Welcher EBD prüft die Antwort auf eine Lieferantenwechsel-Anmeldung in der GPKE?":**
+1. Formatversion wählen (i. d. R. `latest`).
+2. `FV<…>/index.json` laden, gegen `ebd_name`/`chapter`/`section` matchen → `ebd_code`.
+3. `<ebd_code>.json`/`.puml` über den Roh-URL-Vertrag laden.
+
+**Formatversionen vergleichen** („Was hat sich an `E_0401` zwischen `FV2410` und `FV2504` geändert?"):
+Beide `<FV>/E_0401.json` laden und anhand des `ebd.schema.json` semantisch vergleichen.
+
+## Hinweise
+
+- Zum Argumentieren `.json`/`.puml`/`.dot` verwenden, **nicht** `.svg`.
+- Diese Discovery-Dateien werden automatisch erzeugt (siehe README „Unter der Haube"); nicht von Hand pflegen.

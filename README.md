@@ -23,6 +23,20 @@ Jeder EBD ist in je bis zu 4 verschiedenen Dateiformaten verfügbar:
 - [DOT](https://graphviz.org/docs/layouts/dot/) (das Format hinter GraphViz, falls das Diagramm nicht zu komplex ist)
 - SVG
 
+## Maschinelle & KI-Zugänglichkeit
+
+Damit KI-Assistenten (z. B. Claude, GitHub Copilot, opencode) und Programme die EBDs finden und lesen können, ohne das Repository zu durchsuchen, werden automatisch Discovery-Dateien erzeugt:
+
+- [`llms.txt`](llms.txt) — Kurzanleitung für KI-Assistenten (Roh-URL-Vertrag, Discovery-Dateien, Beispiele).
+- `format_versions.json` (Repo-Wurzel) — alle Formatversionen inkl. `valid_from` und `latest`.
+- `<FV>/index.json` — Katalog je Formatversion (`ebd_code`, `ebd_name`, `chapter`, `section`, `role`, `pruefidentifikatoren`).
+- `<FV>/pruefi_to_key.json` — Prüfidentifikator → EBD-Kennung (der wichtigste Lookup, da Prüfidentifikatoren direkt aus AHBs/EDIFACT zitiert werden).
+- `<FV>/ebd.schema.json` — JSON-Schema der `<EBD>.json`-Dateien.
+
+Einzelne Dateien sind stabil über Roh-URLs abrufbar: `https://raw.githubusercontent.com/Hochfrequenz/machine-readable_entscheidungsbaumdiagramme/main/<FV>/<EBD>.<ext>`.
+
+Diese Dateien sind Nebenprodukte der [EBD Toolchain](https://github.com/Hochfrequenz/ebd_toolchain) und werden bei jedem Lauf neu erzeugt — bitte nicht von Hand pflegen.
+
 ## Motivation
 
 Wir freuen uns über jede durch dieses Repository ersparte Stunde Arbeit, in der wichtige Probleme gelöst werden können anstatt EBDs zu analysieren.
