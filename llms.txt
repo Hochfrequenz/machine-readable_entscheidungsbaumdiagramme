@@ -7,9 +7,9 @@
 ## Aufbau
 
 Die Daten sind nach **Formatversion** (Gültigkeitszeitraum) abgelegt, nicht nach Format-/AHB-Version.
-Beispiel: `FV2504` gilt für Daten ab dem Frühjahr 2025. Der genaue Gültigkeitsbeginn ist **nicht** immer
-der Monatserste (z. B. begann `FV2506` am 2025-06-06); der maßgebliche Wert je Formatversion steht als
-`valid_from` in `format_versions.json`. Pro Formatversion existiert ein Verzeichnis `FV<JJMM>/`.
+Der Gültigkeitsbeginn ist **nicht** aus dem Label ableitbar und **nicht** immer der Monatserste
+(z. B. gilt `FV2504` laut BDEW ab dem 2025-06-06). Der maßgebliche Wert je Formatversion steht als
+`valid_from` in `format_versions.json` (Quelle: `efoli`). Pro Formatversion existiert ein Verzeichnis `FV<JJMM>/`.
 
 Jeder EBD ist über seine **EBD-Kennung** identifiziert (z. B. `E_0401`) und in bis zu vier Formaten abgelegt:
 
