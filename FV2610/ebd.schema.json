@@ -1,0 +1,384 @@
+{
+  "$defs": {
+    "EbdCheckResult": {
+      "additionalProperties": false,
+      "description": "This describes the result of a Pr\u00fcfschritt in the EBD.\nThe outcome can be either the final leaf of the graph or the key/number of the next Pr\u00fcfschritt.\nThe German column header is 'Pr\u00fcfergebnis'.\n\nTo model \"ja\": use result=True, subsequent_step_number=None\nTo model \"nein\ud83e\udc162\": use result=False, subsequent_step_number=\"2\"\nTo model \"\ud83e\udc16110\": use result=None, subsequent_step_number=\"110\", happens e.g. in E_0594 step_number 105",
+      "properties": {
+        "result": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Result"
+        },
+        "subsequent_step_number": {
+          "anyOf": [
+            {
+              "pattern": "^(?:\\d+\\*?)|(Ende)$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Subsequent Step Number"
+        }
+      },
+      "title": "EbdCheckResult",
+      "type": "object"
+    },
+    "EbdDocumentReleaseInformation": {
+      "additionalProperties": false,
+      "description": "Contains information from the title (first) page of the EDI@Energy document which contains all EBDs.",
+      "properties": {
+        "ebdamame_version": {
+          "anyOf": [
+            {
+              "pattern": "^v\\d+\\.\\d+\\.\\d+.*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Ebdamame Version"
+        },
+        "original_release_date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Original Release Date"
+        },
+        "rebdhuhn_version": {
+          "anyOf": [
+            {
+              "pattern": "^v\\d+\\.\\d+\\.\\d+.*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Rebdhuhn Version"
+        },
+        "release_date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Release Date"
+        },
+        "version": {
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "version"
+      ],
+      "title": "EbdDocumentReleaseInformation",
+      "type": "object"
+    },
+    "EbdPruefidentifikator": {
+      "additionalProperties": false,
+      "description": "A Pruefidentifikator paired with its Edifact format version,\nallowing generation of links to ahb-tabellen.hochfrequenz.de.",
+      "properties": {
+        "format_version": {
+          "$ref": "#/$defs/EdifactFormatVersion"
+        },
+        "pruefidentifikator": {
+          "pattern": "^\\d{5}$",
+          "title": "Pruefidentifikator",
+          "type": "string"
+        }
+      },
+      "required": [
+        "format_version",
+        "pruefidentifikator"
+      ],
+      "title": "EbdPruefidentifikator",
+      "type": "object"
+    },
+    "EbdTableMetaData": {
+      "additionalProperties": false,
+      "description": "metadata about an EBD table",
+      "properties": {
+        "chapter": {
+          "title": "Chapter",
+          "type": "string"
+        },
+        "ebd_code": {
+          "title": "Ebd Code",
+          "type": "string"
+        },
+        "ebd_name": {
+          "title": "Ebd Name",
+          "type": "string"
+        },
+        "link": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Link"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Note"
+        },
+        "pruefidentifikatoren": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/EbdPruefidentifikator"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pruefidentifikatoren"
+        },
+        "release_information": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/EbdDocumentReleaseInformation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "remark": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Remark"
+        },
+        "role": {
+          "title": "Role",
+          "type": "string"
+        },
+        "section": {
+          "title": "Section",
+          "type": "string"
+        }
+      },
+      "required": [
+        "ebd_code",
+        "chapter",
+        "section",
+        "role",
+        "ebd_name"
+      ],
+      "title": "EbdTableMetaData",
+      "type": "object"
+    },
+    "EbdTableRow": {
+      "additionalProperties": false,
+      "description": "A single row inside the Pr\u00fcfschritt-Tabelle",
+      "properties": {
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "step_number": {
+          "pattern": "^\\d+\\*?$",
+          "title": "Step Number",
+          "type": "string"
+        },
+        "sub_rows": {
+          "items": {
+            "$ref": "#/$defs/EbdTableSubRow"
+          },
+          "title": "Sub Rows",
+          "type": "array"
+        },
+        "use_cases": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Use Cases"
+        }
+      },
+      "required": [
+        "step_number",
+        "description",
+        "sub_rows"
+      ],
+      "title": "EbdTableRow",
+      "type": "object"
+    },
+    "EbdTableSubRow": {
+      "additionalProperties": false,
+      "description": "A sub row describes the outer right 3 columns of a EbdTableRow.\nIn most cases there are two sub rows for each TableRow (one for \"ja\", one for \"nein\").\nThe German column headers are 'Pr\u00fcfergebnis', 'Code' and 'Hinweis'",
+      "properties": {
+        "check_result": {
+          "$ref": "#/$defs/EbdCheckResult"
+        },
+        "ebd_references": {
+          "items": {
+            "pattern": "^E_\\d{4}$",
+            "type": "string"
+          },
+          "title": "Ebd References",
+          "type": "array"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Note"
+        },
+        "result_code": {
+          "anyOf": [
+            {
+              "pattern": "^((?:[A-Z]\\d+)|(?:A\\*{2})|(?:A[A-Z]\\d))$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Result Code"
+        }
+      },
+      "required": [
+        "check_result"
+      ],
+      "title": "EbdTableSubRow",
+      "type": "object"
+    },
+    "EdifactFormatVersion": {
+      "description": "One format version refers to the period in which an AHB is valid.",
+      "enum": [
+        "FV2104",
+        "FV2110",
+        "FV2210",
+        "FV2304",
+        "FV2310",
+        "FV2404",
+        "FV2410",
+        "FV2504",
+        "FV2510",
+        "FV2604",
+        "FV2610"
+      ],
+      "title": "EdifactFormatVersion",
+      "type": "string"
+    },
+    "MultiStepInstruction": {
+      "additionalProperties": false,
+      "description": "This class generally models plain text instructions that shall be applied to multiple steps in an EBD from a\nspecified step number onwards. It'll be clearer with two examples.\n\nExample A:\nSometimes, the checks described in the EBDs are not thought to be performed once per message, but once per MaLo.\nIn German the instruction says: 'Je Marktlokation erfolgen die nachstehenden Pr\u00fcfungen:'\n\nExample B:\nSometimes the EBDs are not though to return only a single answer code but allow to collect multiple answer codes and\nreturn them all together. Technically this means: Don't exit the tree at the first sub row without a subsequent step\nbut continue and perform the following checks as well.\nIn German the instruction says:\n'Alle festgestellten Antworten sind anzugeben, soweit im Format m\u00f6glich (maximal 8 Antwortcodes)*.'",
+      "properties": {
+        "first_step_number_affected": {
+          "pattern": "^\\d+\\*?$",
+          "title": "First Step Number Affected",
+          "type": "string"
+        },
+        "instruction_text": {
+          "title": "Instruction Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "first_step_number_affected",
+        "instruction_text"
+      ],
+      "title": "MultiStepInstruction",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "A Table is a list of rows + some metadata",
+  "properties": {
+    "metadata": {
+      "$ref": "#/$defs/EbdTableMetaData"
+    },
+    "multi_step_instructions": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/MultiStepInstruction"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Multi Step Instructions"
+    },
+    "rows": {
+      "items": {
+        "$ref": "#/$defs/EbdTableRow"
+      },
+      "title": "Rows",
+      "type": "array"
+    }
+  },
+  "required": [
+    "metadata",
+    "rows"
+  ],
+  "title": "EbdTable",
+  "type": "object"
+}
