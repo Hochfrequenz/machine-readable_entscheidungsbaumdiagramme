@@ -7,7 +7,9 @@
 ## Aufbau
 
 Die Daten sind nach **Formatversion** (Gültigkeitszeitraum) abgelegt, nicht nach Format-/AHB-Version.
-Beispiel: `FV2504` = gültig ab 2025-04-01. Pro Formatversion existiert ein Verzeichnis `FV<JJMM>/`.
+Beispiel: `FV2504` gilt für Daten ab dem Frühjahr 2025. Der genaue Gültigkeitsbeginn ist **nicht** immer
+der Monatserste (z. B. begann `FV2506` am 2025-06-06); der maßgebliche Wert je Formatversion steht als
+`valid_from` in `format_versions.json`. Pro Formatversion existiert ein Verzeichnis `FV<JJMM>/`.
 
 Jeder EBD ist über seine **EBD-Kennung** identifiziert (z. B. `E_0401`) und in bis zu vier Formaten abgelegt:
 
@@ -28,20 +30,22 @@ mit `<FV>` ∈ den Formatversionen aus `format_versions.json`, `<EBD>` = EBD-Ken
 
 - **`/format_versions.json`** — alle verfügbaren Formatversionen + `valid_from` + `latest`.
   Nimm im Zweifel `latest`, außer der/die Nutzer:in nennt einen Prüfidentifikator/ein Datum, das zu einer älteren FV gehört.
-- **`/<FV>/index.json`** — Katalog je Formatversion: pro EBD `{ ebd_code, ebd_name, chapter, section, role, pruefidentifikatoren }`.
+- **`/<FV>/index.json`** — Katalog je Formatversion: ein **JSON-Array** von Objekten
+  `{ ebd_code, ebd_name, chapter, section, role, pruefidentifikatoren }` (Letzteres eine Liste von Prüfi-Strings).
   Nutze `ebd_name`/`chapter`/`section` für die natürlichsprachliche Suche → `ebd_code`.
 - **`/<FV>/pruefi_to_key.json`** — **Prüfidentifikator → EBD-Kennung**. Der wichtigste Lookup, denn
   Nutzer:innen zitieren Prüfidentifikatoren (z. B. `55002`) direkt aus AHBs/EDIFACT.
 - **`/<FV>/ebd.schema.json`** — JSON-Schema der `<EBD>.json`-Dateien (Knoten, Prüfschritte, Ergebnisse).
 
-Es werden nur erfolgreich verarbeitete EBDs gelistet — was in `index.json`/`pruefi_to_key.json` steht, existiert also auch als Datei.
+Es werden nur erfolgreich verarbeitete EBDs gelistet; für jeden Eintrag existiert die `<EBD>.json`.
+`.puml`/`.dot`/`.svg` können fehlen (z. B. bei tabellenlosen oder nicht plotbaren EBDs).
 
 ## Vorgehen (Beispiele)
 
 **„Zeig mir den Entscheidungsbaum zu Prüfidentifikator 55002" (neueste FV):**
 1. `format_versions.json` → `latest` (z. B. `FV2610`).
 2. `FV2610/pruefi_to_key.json` → `"55002": "E_0xxx"`.
-3. `FV2610/E_0xxx.json` (Struktur) bzw. `.puml` (Graph) über den Roh-URL-Vertrag laden.
+3. `FV2610/E_0xxx.json` (Struktur; `.puml` für den Graphen, falls vorhanden) über den Roh-URL-Vertrag laden.
 
 **„Welcher EBD prüft die Antwort auf eine Lieferantenwechsel-Anmeldung in der GPKE?":**
 1. Formatversion wählen (i. d. R. `latest`).
