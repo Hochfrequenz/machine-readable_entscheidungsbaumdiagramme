@@ -1,0 +1,3357 @@
+[
+  {
+    "ebd_code": "E_0003",
+    "ebd_name": "E_0003_Bestellung der Aggregationsebene RZ prüfen",
+    "chapter": "MaBiS",
+    "section": "7.42.1: AD: Bestellung der Aggregationsebene der Bilanzkreissummenzeitreihe auf Ebene der Regelzone",
+    "role": "ÜNB",
+    "pruefidentifikatoren": [
+      "19204"
+    ]
+  },
+  {
+    "ebd_code": "E_0004",
+    "ebd_name": "E_0004_Marktlokationen mit LF-CL abgleichen",
+    "chapter": "MaBiS",
+    "section": "7.19.1: AD: Austausch der Lieferantenclearingliste zwischen ÜNB und LF (gültige Abonnierung)",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55066"
+    ]
+  },
+  {
+    "ebd_code": "E_0005",
+    "ebd_name": "E_0005_Erstabonnierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.17.1: AD: Austausch der Lieferantenclearingliste zwischen ÜNB und LF (Erstabonnierung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0007",
+    "ebd_name": "E_0007_LF-SZR (Kategorie A) prüfen",
+    "chapter": "MaBiS",
+    "section": "7.12.1: AD: Übermittlung der Lieferantensummenzeitreihe vom NB an LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21000"
+    ]
+  },
+  {
+    "ebd_code": "E_0008",
+    "ebd_name": "E_0008_NZR prüfen",
+    "chapter": "MaBiS",
+    "section": "7.6.1: AD: Übermittlung der Netzzeitreihe",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21002"
+    ]
+  },
+  {
+    "ebd_code": "E_0009",
+    "ebd_name": "E_0009_MaBiS-ZP Deaktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.4.1: AD: Deaktivierung eines MaBiS-ZP für Netzzeitreihe an BIKO",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0010",
+    "ebd_name": "E_0010_MaBiS-ZP Deaktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.3.1: AD: Deaktivierung eines MaBiS-ZP für Netzzeitreihe an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0011",
+    "ebd_name": "E_0011_MaBiS-ZP Aktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.36.1: AD: Aktivierung eines MaBiS-Zählpunkts für die Bilanzkreissummenzeitreihe vom ÜNB an BIKO und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0012",
+    "ebd_name": "E_0012_MaBiS-ZP Deaktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.37.1: AD: Deaktivierung eines MaBiS-Zählpunkts für die Bilanzkreissummenzeitreihe vom ÜNB an BIKO und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0013",
+    "ebd_name": "E_0013_Einzelanforderung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.18.1: AD: Austausch der Lieferantenclearingliste zwischen ÜNB und LF (Einzelanforderung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0014",
+    "ebd_name": "E_0014_Marktlokationen mit LF-CL abgleichen",
+    "chapter": "MaBiS",
+    "section": "7.18.2: AD: Austausch der Lieferantenclearingliste zwischen ÜNB und LF (Einzelanforderung)",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55066"
+    ]
+  },
+  {
+    "ebd_code": "E_0015",
+    "ebd_name": "E_0015_MaBiS-ZP Aktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.20.1: AD: Aktivierung eines MaBiS-ZP für Bilanzierungsgebietssummenzeitreihen vom ÜNB an BIKO und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0016",
+    "ebd_name": "E_0016_Einzelanforderung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.23.1: AD: Übermittlung Bilanzierungsgebietsclearingliste vom ÜNB an NB (Einzelanforderung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0017",
+    "ebd_name": "E_0017_Marktlokationen mit BG-CL abgleichen",
+    "chapter": "MaBiS",
+    "section": "7.23.2: AD: Übermittlung Bilanzierungsgebietsclearingliste vom ÜNB an NB (Einzelanforderung)",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55196"
+    ]
+  },
+  {
+    "ebd_code": "E_0018",
+    "ebd_name": "E_0018_MaBiS-ZP Deaktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.29.1: AD: Deaktivierung eines MaBiS-Zählpunkts für die Bilanzkreissummenzeitreihe vom NB an BIKO und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0019",
+    "ebd_name": "E_0019_Prüfmitteilung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.26.2: AD: Übermittlung Prüfmitteilung für die Bilanzierungsgebietssummenzeitreihe an ÜNB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0020",
+    "ebd_name": "E_0020_MaBiS-ZP Aktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.1.1: AD: Aktivierung eines MaBiS-Zählpunkts für die Netzzeitreihe an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0021",
+    "ebd_name": "E_0021_Prüfmitteilung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.34.2: AD: Übermittlung Prüfmitteilung für die Bilanzkreissummenzeitreihe vom BKV an BIKO und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0022",
+    "ebd_name": "E_0022_Abbestellung der Aggregationsebene RZ prüfen",
+    "chapter": "MaBiS",
+    "section": "7.41.1: AD: Abbestellung der Aggregationsebene der Bilanzkreissummenzeitreihe auf Ebene der Regelzone",
+    "role": "ÜNB",
+    "pruefidentifikatoren": [
+      "19204"
+    ]
+  },
+  {
+    "ebd_code": "E_0023",
+    "ebd_name": "E_0023_Bilanzkreissummenzeitreihe (Kategorie B) prüfen",
+    "chapter": "MaBiS",
+    "section": "7.43.1: AD: Übermittlung der Bilanzkreissummenzeitreihe vom ÜNB an BIKO und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21002"
+    ]
+  },
+  {
+    "ebd_code": "E_0024",
+    "ebd_name": "E_0024_MaBiS-ZP Aktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.2.1: AD: Aktivierung eines MaBiS-Zählpunkts für die Netzzeitreihe an BIKO",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0025",
+    "ebd_name": "E_0025_Prüfmitteilung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.44.2: AD: Übermittlung Prüfmitteilung für die Bilanzkreissummenzeitreihe vom BKV an BIKO und ÜNB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0026",
+    "ebd_name": "E_0026_Datenstatus nach erfolgter Bilanzkreisabrechnung vergeben",
+    "chapter": "MaBiS",
+    "section": "7.45.1: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an ÜNB und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0027",
+    "ebd_name": "E_0027_MaBiS-ZP Aktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.46.1: AD: Aktivierung eines MaBiS-Zählpunkts für den Deltazeitreihenübertrag vom ÜNB an BIKO und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0028",
+    "ebd_name": "E_0028_MaBiS-ZP Deaktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.47.1: AD: Deaktivierung eines MaBiS-Zählpunkts für den Deltazeitreihenübertrag vom ÜNB an BIKO und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0029",
+    "ebd_name": "E_0029_Deltazeitreihenübertrag prüfen",
+    "chapter": "MaBiS",
+    "section": "7.49.1: AD: Übermittlung des Deltazeitreihenübertrags vom ÜNB an BIKO und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21002"
+    ]
+  },
+  {
+    "ebd_code": "E_0030",
+    "ebd_name": "E_0030_Prüfmitteilung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.50.2: AD: Übermittlung Prüfmitteilung des Deltazeitreihenübertrags von NB über BIKO an ÜNB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0031",
+    "ebd_name": "E_0031_Anforderung Clearingliste BAS prüfen",
+    "chapter": "MaBiS",
+    "section": "7.52.1: AD: Anforderung und Übermittlung der Clearingliste für den Bilanzkreisabweichungssaldo zwischen BKV und BIKO",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0032",
+    "ebd_name": "E_0032_Anforderung Clearingliste NB-DZR prüfen",
+    "chapter": "MaBiS",
+    "section": "7.53.1: AD: Anforderung und Übermittlung der Clearingliste für die Netzbetreiber-Deltazeitreihe zwischen BIKO und NB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0033",
+    "ebd_name": "E_0033_Anforderung Clearingliste ÜNB-DZR prüfen",
+    "chapter": "MaBiS",
+    "section": "7.54.1: AD: Anforderung und Übermittlung der Clearingliste für die Übertragungsnetzbetreiber-Deltazeitreihe zwischen BIKO und ÜNB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0034",
+    "ebd_name": "E_0034_MaBiS-ZP Aktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.28.1: AD: Aktivierung eines MaBiS-Zählpunkts für die Bilanzkreissummenzeitreihe vom NB an BIKO und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0035",
+    "ebd_name": "E_0035_MaBiS-ZP Deaktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.21.1: AD: Deaktivierung eines MaBiS-ZP für Bilanzierungsgebietssummenzeitreihen vom ÜNB an BIKO und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55064"
+    ]
+  },
+  {
+    "ebd_code": "E_0036",
+    "ebd_name": "E_0036_Bilanzierungsgebietssummenzeitreihe (Kategorie B) prüfen",
+    "chapter": "MaBiS",
+    "section": "7.25.1: AD: Übermittlung der Bilanzierungsgebietssummenzeitreihe vom ÜNB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21002"
+    ]
+  },
+  {
+    "ebd_code": "E_0038",
+    "ebd_name": "E_0038_Bilanzkreissummenzeitreihe (Kategorie A) prüfen",
+    "chapter": "MaBiS",
+    "section": "7.33.1: AD: Übermittlung der Bilanzkreissummenzeitreihe vom NB an BIKO und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21002"
+    ]
+  },
+  {
+    "ebd_code": "E_0039",
+    "ebd_name": "E_0039_Einzelanforderung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.39.1: AD: Anforderung und Übermittlung Bilanzkreiszuordnungsliste zwischen ÜNB und BKV (Einzelanforderung)",
+    "role": "ÜNB",
+    "pruefidentifikatoren": [
+      "55067"
+    ]
+  },
+  {
+    "ebd_code": "E_0040",
+    "ebd_name": "E_0040_NZR prüfen",
+    "chapter": "MaBiS",
+    "section": "7.5.1: AD: Abstimmung der Netzzeitreihe",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21001"
+    ]
+  },
+  {
+    "ebd_code": "E_0041",
+    "ebd_name": "E_0041_Lieferantensummenzeitreihe (Kategorie B) prüfen",
+    "chapter": "MaBiS",
+    "section": "7.16.1: AD: Übermittlung der Lieferantensummenzeitreihe vom ÜNB an LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21000"
+    ]
+  },
+  {
+    "ebd_code": "E_0042",
+    "ebd_name": "E_0042_Datenstatus nach Eingang einer Bilanzkreissummenzeitreihe (Kategorie B) vergeben",
+    "chapter": "MaBiS",
+    "section": "7.45.2: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an ÜNB und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0043",
+    "ebd_name": "E_0043_Datenstatus nach Vorliegen einer Prüfmitteilung vergeben",
+    "chapter": "MaBiS",
+    "section": "7.45.3: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an ÜNB und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0045",
+    "ebd_name": "E_0045_Erstabonnierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.38.1: AD: Anforderung und Übermittlung Bilanzkreiszuordnungsliste zwischen ÜNB und BKV (Erstabonnierung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0046",
+    "ebd_name": "E_0046_Einzelanforderung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.14.1: AD: Austausch der Lieferantenclearingliste zwischen NB und LF (Einzelanforderung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0047",
+    "ebd_name": "E_0047_Marktlokationen mit LF-CL abgleichen",
+    "chapter": "MaBiS",
+    "section": "7.14.2: AD: Austausch der Lieferantenclearingliste zwischen NB und LF (Einzelanforderung)",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55066"
+    ]
+  },
+  {
+    "ebd_code": "E_0048",
+    "ebd_name": "E_0048_Erstabonnierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.13.1: AD: Austausch der Lieferantenclearingliste zwischen NB und LF (Erstabonnierung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0049",
+    "ebd_name": "E_0049_Marktlokationen mit LF-CL abgleichen",
+    "chapter": "MaBiS",
+    "section": "7.15.1: AD: Austausch der Lieferantenclearingliste zwischen NB und LF (gültige Abonnierung)",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55066"
+    ]
+  },
+  {
+    "ebd_code": "E_0051",
+    "ebd_name": "E_0051_Erstabonnierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.22.1: AD: Übermittlung Bilanzierungsgebietsclearingliste von ÜNB an NB (Erstabonnierung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0052",
+    "ebd_name": "E_0052_Marktlokationen mit BG-CL abgleichen",
+    "chapter": "MaBiS",
+    "section": "7.24.1: AD: Übermittlung Bilanzierungsgebietsclearingliste von ÜNB an NB (gültige Abonnierung)",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55196"
+    ]
+  },
+  {
+    "ebd_code": "E_0053",
+    "ebd_name": "E_0053_Datenstatus nach erfolgter Bilanzkreisabrechnung vergeben",
+    "chapter": "MaBiS",
+    "section": "7.27.1: AD: Übermittlung Datenstatus für die Bilanzierungsgebietssummenzeitreihe vom BIKO an ÜNB und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0054",
+    "ebd_name": "E_0054_Datenstatus nach Eingang einer Bilanzierungsgebietssummenzeitreihe (Kategorie B) vergeben",
+    "chapter": "MaBiS",
+    "section": "7.27.2: AD: Übermittlung Datenstatus für die Bilanzierungsgebietssummenzeitreihe vom BIKO an ÜNB und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0055",
+    "ebd_name": "E_0055_Datenstatus nach Vorliegen einer Prüfmitteilung vergeben",
+    "chapter": "MaBiS",
+    "section": "7.27.3: AD: Übermittlung Datenstatus für die Bilanzierungsgebietssummenzeitreihe vom BIKO an ÜNB und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0056",
+    "ebd_name": "E_0056_Datenstatus nach erfolgter Bilanzkreisabrechnung vergeben",
+    "chapter": "MaBiS",
+    "section": "7.35.1: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an NB und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0057",
+    "ebd_name": "E_0057_Datenstatus nach Eingang einer Bilanzkreissummenzeitreihe (Kategorie A) vergeben",
+    "chapter": "MaBiS",
+    "section": "7.35.2: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an NB und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0058",
+    "ebd_name": "E_0058_Datenstatus nach Vorliegen einer Prüfmitteilung vergeben",
+    "chapter": "MaBiS",
+    "section": "7.35.3: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an NB und BKV",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0059",
+    "ebd_name": "E_0059_Datenstatus nach erfolgter Bilanzkreisabrechnung vergeben",
+    "chapter": "MaBiS",
+    "section": "7.51.1: AD: Übermittlung Datenstatus des Deltazeitreihenübertrags vom BIKO an ÜNB und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0061",
+    "ebd_name": "E_0061_Datenstatus nach Vorliegen einer Prüfmitteilung vergeben",
+    "chapter": "MaBiS",
+    "section": "7.51.3: AD: Übermittlung Datenstatus des Deltazeitreihenübertrags vom BIKO an ÜNB und NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0062",
+    "ebd_name": "E_0062_BG-SZR (Kategorie B) prüfen",
+    "chapter": "MaBiS",
+    "section": "7.26.1: AD: Übermittlung Prüfmitteilung für die Bilanzierungsgebietssummenzeitreihe an ÜNB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21003",
+      "21005"
+    ]
+  },
+  {
+    "ebd_code": "E_0063",
+    "ebd_name": "E_0063_BK-SZR (Kategorie A) prüfen",
+    "chapter": "MaBiS",
+    "section": "7.34.1: AD: Übermittlung Prüfmitteilung für die Bilanzkreissummenzeitreihe vom BKV an BIKO und NB",
+    "role": "BKV",
+    "pruefidentifikatoren": [
+      "21003",
+      "21005"
+    ]
+  },
+  {
+    "ebd_code": "E_0064",
+    "ebd_name": "E_0064_BK_SZR (Kategorie B) prüfen",
+    "chapter": "MaBiS",
+    "section": "7.44.1: AD: Übermittlung Prüfmitteilung für die Bilanzkreissummenzeitreihe vom BKV an BIKO und ÜNB",
+    "role": "BKV",
+    "pruefidentifikatoren": [
+      "21003",
+      "21005"
+    ]
+  },
+  {
+    "ebd_code": "E_0065",
+    "ebd_name": "E_0065_DZÜ prüfen",
+    "chapter": "MaBiS",
+    "section": "7.50.1: AD: Übermittlung Prüfmitteilung des Deltazeitreihenübertrags von NB über BIKO an ÜNB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21003",
+      "21005"
+    ]
+  },
+  {
+    "ebd_code": "E_0066",
+    "ebd_name": "E_0066_Datenstatus nach erfolgter Bilanzkreisabrechnung vergeben",
+    "chapter": "MaBiS",
+    "section": "7.7.1: AD: Übermittlung Datenstatus der Netzzeitreihe",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0067",
+    "ebd_name": "E_0067_Datenstatus nach Eingang einer Netzzeitreihe vergeben",
+    "chapter": "MaBiS",
+    "section": "7.7.2: AD: Übermittlung Datenstatus der Netzzeitreihe",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0068",
+    "ebd_name": "E_0068_Einzelanforderung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.31.1: AD: Anforderung und Übermittlung Bilanzkreiszuordnungsliste zwischen NB und BKV (Einzelanforderung)",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55067"
+    ]
+  },
+  {
+    "ebd_code": "E_0069",
+    "ebd_name": "E_0069_Erstabonnierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.30.1: AD: Anforderung und Übermittlung Bilanzkreiszuordnungsliste zwischen NB und BKV (Erstabonnierung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0070",
+    "ebd_name": "E_0070_DZÜ-Liste prüfen",
+    "chapter": "MaBiS",
+    "section": "7.48.1: AD: Austausch der Deltazeitreihenübertrag-Liste von ÜNB an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55224"
+    ]
+  },
+  {
+    "ebd_code": "E_0071",
+    "ebd_name": "E_0071_MaBiS-ZP AAÜZ Aktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.60.1: AD: Aktivierung eines MaBiS-ZP für die mtl. AAÜZ zwischen NB und BKV(LF)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55204"
+    ]
+  },
+  {
+    "ebd_code": "E_0072",
+    "ebd_name": "E_0072_MaBiS-ZP AAÜZ Deaktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.61.1: AD: Deaktivierung eines MaBiS-ZP für die mtl. AAÜZ zwischen NB und BKV(LF)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55207"
+    ]
+  },
+  {
+    "ebd_code": "E_0073",
+    "ebd_name": "E_0073_AAÜZ prüfen",
+    "chapter": "MaBiS",
+    "section": "7.62.1: AD: Übermittlung der monatlichen Ausfallarbeitsüberführungszeitreihe zwischen NB und BKV(LF)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21002"
+    ]
+  },
+  {
+    "ebd_code": "E_0074",
+    "ebd_name": "E_0074_Prüfmitteilung AAÜZ prüfen",
+    "chapter": "MaBiS",
+    "section": "7.63.2: AD: Übermittlung Prüfmitteilung für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) vom BKV(LF) an NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0075",
+    "ebd_name": "E_0075_Datenstatus AAÜZ nach erfolgter BKA vergeben",
+    "chapter": "MaBiS",
+    "section": "7.64.1: AD: Übermittlung Datenstatus für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) an NB und BKV(LF)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0076",
+    "ebd_name": "E_0076_Datenstatus nach Eingang einer AAÜZ vergeben",
+    "chapter": "MaBiS",
+    "section": "7.64.2: AD: Übermittlung Datenstatus für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) an NB und BKV(LF)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0077",
+    "ebd_name": "E_0077_Datenstatus nach Vorliegen einer Prüfmitteilung zur AAÜZ vergeben",
+    "chapter": "MaBiS",
+    "section": "7.64.3: AD: Übermittlung Datenstatus für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) an NB und BKV(LF)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0078",
+    "ebd_name": "E_0078_MaBiS-ZP AAÜZ Aktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.65.1: AD: Aktivierung eines MaBiS-ZP für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) zwischen NB und BKV (anfNB)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55210"
+    ]
+  },
+  {
+    "ebd_code": "E_0079",
+    "ebd_name": "E_0079_MaBiS-ZP AAÜZ Deaktivierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.66.1: AD: Deaktivierung eines MaBiS-ZP für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) zwischen NB und BKV (anfNB)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "55213"
+    ]
+  },
+  {
+    "ebd_code": "E_0080",
+    "ebd_name": "E_0080_AAÜZ prüfen",
+    "chapter": "MaBiS",
+    "section": "7.67.1: AD: Übermittlung der monatlichen Ausfallarbeitsüberführungszeitreihe zwischen ANB und BKV (anfNB)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21002"
+    ]
+  },
+  {
+    "ebd_code": "E_0081",
+    "ebd_name": "E_0081_Prüfmitteilung AAÜZ prüfen",
+    "chapter": "MaBiS",
+    "section": "7.68.2: AD: Übermittlung Prüfmitteilung für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) vom BKV (anfNB) an NB",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0082",
+    "ebd_name": "E_0082_Datenstatus AAÜZ nach erfolgter BKA vergeben",
+    "chapter": "MaBiS",
+    "section": "7.69.1: AD: Übermittlung Datenstatus für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) an NB und BKV (anfNB)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0083",
+    "ebd_name": "E_0083_Datenstatus nach Eingang einer AAÜZ vergeben",
+    "chapter": "MaBiS",
+    "section": "7.69.2: AD: Übermittlung Datenstatus für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) an NB und BKV (anfNB)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0084",
+    "ebd_name": "E_0084_Datenstatus nach Vorliegen einer Prüfmitteilung zur AAÜZ vergeben",
+    "chapter": "MaBiS",
+    "section": "7.69.3: AD: Übermittlung Datenstatus für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) an NB und BKV (anfNB)",
+    "role": "BIKO",
+    "pruefidentifikatoren": [
+      "21003",
+      "21004"
+    ]
+  },
+  {
+    "ebd_code": "E_0093",
+    "ebd_name": "E_0093_LF-AASZR prüfen",
+    "chapter": "MaBiS",
+    "section": "7.55.1: AD: Übermittlung der Lieferantenausfallarbeitssummenzeitreihe",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21000"
+    ]
+  },
+  {
+    "ebd_code": "E_0094",
+    "ebd_name": "E_0094_Erstabonnierung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.56.1: AD: Anforderung der Lieferantenausfallarbeitsclearingliste einmalig oder durch ein Abonnement (Erstabonnierung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0095",
+    "ebd_name": "E_0095_Einzelanforderung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.57.1: AD: Anforderung der Lieferantenausfallarbeitsclearingliste einmalig oder durch ein Abonnement (Einzelanforderung)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0096",
+    "ebd_name": "E_0096_Marktlokationen mit LF-AACL abgleichen",
+    "chapter": "MaBiS",
+    "section": "7.58.1: AD: Austausch der Lieferantenausfallarbeitsclearingliste (gültige Abonnierung)",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55202"
+    ]
+  },
+  {
+    "ebd_code": "E_0097",
+    "ebd_name": "E_0097_Marktlokationen mit LF-AACL abgleichen",
+    "chapter": "MaBiS",
+    "section": "7.59.1: AD: Austausch der Lieferantenausfallarbeitsclearingliste (Einzelanforderung)",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55202"
+    ]
+  },
+  {
+    "ebd_code": "E_0098",
+    "ebd_name": "E_0098_monatliche AAÜZ prüfen",
+    "chapter": "MaBiS",
+    "section": "7.63.1: AD: Übermittlung Prüfmitteilung für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) vom BKV(LF) an NB",
+    "role": "BKV",
+    "pruefidentifikatoren": [
+      "21003",
+      "21005"
+    ]
+  },
+  {
+    "ebd_code": "E_0099",
+    "ebd_name": "E_0099_monatliche AAÜZ prüfen",
+    "chapter": "MaBiS",
+    "section": "7.68.1: AD: Übermittlung Prüfmitteilung für die monatliche Ausfallarbeitsüberführungszeitreihe (AAÜZ) vom BKV (anfNB) an NB",
+    "role": "BKV",
+    "pruefidentifikatoren": [
+      "21003",
+      "21005"
+    ]
+  },
+  {
+    "ebd_code": "E_0100",
+    "ebd_name": "E_0100 Profile bzw. Profilscharen prüfen",
+    "chapter": "MaBiS",
+    "section": "7.11.1: AD: Übermittlung von normierten Profilen und Profilscharen vom NB an LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "17211"
+    ]
+  },
+  {
+    "ebd_code": "E_0102",
+    "ebd_name": "E_0102_Zuordnung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.8.1: AD: Zuordnung einer Netzgangzeitreihe zu einer Netzzeitreihe beim NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55237"
+    ]
+  },
+  {
+    "ebd_code": "E_0103",
+    "ebd_name": "E_0103_Beendigung der Zuordnung prüfen",
+    "chapter": "MaBiS",
+    "section": "7.9.1: AD: Beendigung der Zuordnung einer Netzgangzeitreihe zu einer Netzzeitreihe beim NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55237"
+    ]
+  },
+  {
+    "ebd_code": "E_0104",
+    "ebd_name": "E_0104_Listeninhalt prüfen",
+    "chapter": "MaBiS",
+    "section": "7.32.1: AD: Anforderung und Übermittlung Bilanzkreiszuordnungsliste zwischen NB und BKV (gültige Abonnierung)",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55067"
+    ]
+  },
+  {
+    "ebd_code": "E_0105",
+    "ebd_name": "E_0105_Listeninhalt prüfen",
+    "chapter": "MaBiS",
+    "section": "7.40.1: Anforderung und Übermittlung Bilanzkreiszuordnungsliste zwischen ÜNB und BKV (gültige Abonnierung)",
+    "role": "ÜNB",
+    "pruefidentifikatoren": [
+      "55067"
+    ]
+  },
+  {
+    "ebd_code": "E_0200",
+    "ebd_name": "E_0200_Kündigung Messstellenbetrieb prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.1.1: AD: Kündigung Messstellenbetrieb",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0201",
+    "ebd_name": "E_0201_Anmeldung Messstellenbetrieb prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.2.1: AD: Beginn Messstellenbetrieb",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0202",
+    "ebd_name": "E_0202_Abmeldung Messstellenbetrieb prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.3.1: AD: Ende Messstellenbetrieb",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0203",
+    "ebd_name": "E_0203_Weiterverpflichtung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.3.2: AD: Ende Messstellenbetrieb",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0204",
+    "ebd_name": "E_0204_Anzeige Gerätewechselabsicht prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.4.1: AD: Gerätewechsel",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0205",
+    "ebd_name": "E_0205_Angebot prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.9.1: AD: Angebot zur Rechnungsabwicklung des Messstellenbetriebes über den LF durch den MSB",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21032"
+    ]
+  },
+  {
+    "ebd_code": "E_0206",
+    "ebd_name": "E_0206_Beendigung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.10.1: AD: Beendigung Rechnungsabwicklung des Messstellenbetriebes über den LF durch den MSB",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "19009",
+      "19010"
+    ]
+  },
+  {
+    "ebd_code": "E_0207",
+    "ebd_name": "E_0207_Anfrage prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.11.1: AD: Anfrage zur Rechnungsabwicklung des Messtellenbetriebes über den LF durch den LF",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21033"
+    ]
+  },
+  {
+    "ebd_code": "E_0208",
+    "ebd_name": "E_0208_Angebot bzw. Ablehnung der Anfrage verarbeiten",
+    "chapter": "WiM Strom",
+    "section": "8.11.2: AD: Anfrage zur Rechnungsabwicklung des Messtellenbetriebes über den LF durch den LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21032"
+    ]
+  },
+  {
+    "ebd_code": "E_0209",
+    "ebd_name": "E_0209_Beendigung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.12.1: AD: Beendigung der Rechnungsabwicklung des Messstellenbetriebes über den LF durch den LF",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19009",
+      "19010"
+    ]
+  },
+  {
+    "ebd_code": "E_0210",
+    "ebd_name": "E_0210_Rechnung verarbeiten",
+    "chapter": "WiM Strom",
+    "section": "8.13.1: AD: Abrechnung Messstellenbetrieb gegenüber dem LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0211",
+    "ebd_name": "E_0211_Nicht-Zahlungsavise prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.13.2: AD: Abrechnung Messstellenbetrieb gegenüber dem LF",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0217",
+    "ebd_name": "E_0217_Meldung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.16.1: AD: Störungsbehebung in der Messlokation",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0218",
+    "ebd_name": "E_0218_Berechnungsformel prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.17.1: AD: Übermittlung der Berechnungsformel",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "25010"
+    ]
+  },
+  {
+    "ebd_code": "E_0219",
+    "ebd_name": "E_0219_Anforderung Wert prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.18.1: AD: Anforderung Wert vom NB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0220",
+    "ebd_name": "E_0220_Anforderung Wert prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.18.2: AD: Anforderung Wert vom NB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0221",
+    "ebd_name": "E_0221_Anforderung Wert prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.19.1: AD: Anforderung Wert vom LF",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0222",
+    "ebd_name": "E_0222_Anforderung Wert prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.19.2: AD: Anforderung Wert vom LF",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0225",
+    "ebd_name": "E_0225_Anforderung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.20.1: AD: Anforderung Wert vom MSB der Marktlokation",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0226",
+    "ebd_name": "E_0226_Reklamation prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.21.1: AD: Reklamation vom NB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0227",
+    "ebd_name": "E_0227_Reklamation prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.21.2: AD: Reklamation vom NB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0228",
+    "ebd_name": "E_0228_Reklamation prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.22.1: AD: Reklamation vom LF",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0229",
+    "ebd_name": "E_0229_Reklamation prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.22.2: AD: Reklamation vom LF",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0230",
+    "ebd_name": "E_0230_Reklamation prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.23.1: AD: Reklamation vom ÜNB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0231",
+    "ebd_name": "E_0231_Reklamation prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.23.2: AD: Reklamation vom ÜNB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0232",
+    "ebd_name": "E_0232_Mitteilung über Gesamtvorgang prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.2.2: AD: Beginn Messstellenbetrieb",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0233",
+    "ebd_name": "E_0233_Prüfung Selbsteinbau oder Bestandsschutz nach §19 Abs. 5 MsbG",
+    "chapter": "WiM Strom",
+    "section": "8.8.2: AD: Ersteinbau eines iMS in eine bestehende Messlokation",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21030",
+      "21031"
+    ]
+  },
+  {
+    "ebd_code": "E_0240",
+    "ebd_name": "E_0240_Verpflichtungsanfrage prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.3.3: AD: Ende Messstellenbetrieb",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0241",
+    "ebd_name": "E_0241_Prüfung, ob wMSB an der Messlokation",
+    "chapter": "WiM Strom",
+    "section": "8.8.1: AD: Ersteinbau eines iMS in eine bestehende Messlokation",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0243",
+    "ebd_name": "E_0243_Storno verarbeiten",
+    "chapter": "WiM Strom",
+    "section": "8.13.3: AD: Abrechnung Messstellenbetrieb gegenüber dem LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0245",
+    "ebd_name": "E_0245_Prüfen, ob Eigenausbau gewünscht",
+    "chapter": "WiM Strom",
+    "section": "8.4.2: AD: Gerätewechsel",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0246",
+    "ebd_name": "E_0246_Anforderung Geräteübernahmeangebot prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.5.1: AD: Geräteübernahme",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0247",
+    "ebd_name": "E_0247_Bestellung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.5.2: AD: Geräteübernahme",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0248",
+    "ebd_name": "E_0248_Störung beheben",
+    "chapter": "WiM Strom",
+    "section": "8.16.2: AD: Störungsbehebung in der Messlokation",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0249",
+    "ebd_name": "E_0249_Beauftragung zur Messlokationsänderung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.6.1: AD: Messlokationsänderung vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19005",
+      "19006"
+    ]
+  },
+  {
+    "ebd_code": "E_0250",
+    "ebd_name": "E_0250_Beauftragung zur Messlokationsänderung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.7.1: AD: Messlokationsänderung vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19005",
+      "19006"
+    ]
+  },
+  {
+    "ebd_code": "E_0251",
+    "ebd_name": "E_0251_Mitteilung über Gesamtvorgang prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.24.1: AD: MSB der Marktlokation stellt selbst Reklamationsbedarf fest",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0252",
+    "ebd_name": "E_0252_Anfrage prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.25.1: AD: Anfrage und Bestellung von Werten durch den ESA",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21033"
+    ]
+  },
+  {
+    "ebd_code": "E_0253",
+    "ebd_name": "E_0253_Angebot zur Anfrage prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.25.2: AD: Anfrage und Bestellung von Werten durch den ESA",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0254",
+    "ebd_name": "E_0254_Beendigung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.26.1: AD: Beendigung der Übermittlung von Werten an ESA durch ESA",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19011",
+      "19012"
+    ]
+  },
+  {
+    "ebd_code": "E_0256",
+    "ebd_name": "E_0256_Bestellung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.25.3: AD: Anfrage und Bestellung von Werten durch den ESA",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19011",
+      "19012"
+    ]
+  },
+  {
+    "ebd_code": "E_0257",
+    "ebd_name": "E_0257_Stornierung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.25.5: AD: Anfrage und Bestellung von Werten durch den ESA",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19013",
+      "19014"
+    ]
+  },
+  {
+    "ebd_code": "E_0258",
+    "ebd_name": "E_0258_Antwort auf Bestellung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.25.4: AD: Anfrage und Bestellung von Werten durch den ESA",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0259",
+    "ebd_name": "E_0259_Rechnung verarbeiten",
+    "chapter": "WiM Strom",
+    "section": "8.15.1: AD: Abrechnung von Dienstleistungen",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "33002",
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0260",
+    "ebd_name": "E_0260_Nicht-Zahlungsavis prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.15.2: AD: Abrechnung von Dienstleistungen",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0261",
+    "ebd_name": "E_0261_Storno verarbeiten",
+    "chapter": "WiM Strom",
+    "section": "8.15.3: AD: Abrechnung von Dienstleistungen",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0264",
+    "ebd_name": "E_0264_Rechnung einer für den ESA erbrachten Leistung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.27.1: AD: Abrechnung einer für den ESA erbrachten Leistung",
+    "role": "ESA",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0265",
+    "ebd_name": "E_0265_Nicht-Zahlungsavis prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.27.2: AD: Abrechnung einer für den ESA erbrachten Leistung",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "29001"
+    ]
+  },
+  {
+    "ebd_code": "E_0266",
+    "ebd_name": "E_0266_erneut Rechnung einer für den ESA erbrachten Leistung prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.27.3: AD: Abrechnung einer für den ESA erbrachten Leistung",
+    "role": "ESA",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0267",
+    "ebd_name": "E_0267_Prüfen, ob Antwort auf Stornierung erforderlich",
+    "chapter": "WiM Strom",
+    "section": "8.27.4: AD: Abrechnung einer für den ESA erbrachten Leistung",
+    "role": "ESA",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0270",
+    "ebd_name": "E_0270_Rechnung einer Leistung des Preisblatts B des MSB prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.3.1: AD: Abrechnung Leistungen des Preisblatts B des MSB zwischen MSB und LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0271",
+    "ebd_name": "E_0271_Nicht-Zahlungsavis prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.3.2: AD: Abrechnung Leistungen des Preisblatts B des MSB zwischen MSB und LF",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "29001"
+    ]
+  },
+  {
+    "ebd_code": "E_0272",
+    "ebd_name": "E_0272_Prüfen, ob Antwort auf Stornierung erforderlich",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.3.4: AD: Abrechnung Leistungen des Preisblatts B des MSB zwischen MSB und LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0273",
+    "ebd_name": "E_0273_Rechnung einer Leistung des Preisblatts B des MSB prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.4.1: AD: Abrechnung Leistungen des Preisblatts B des MSB zwischen MSB und NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0274",
+    "ebd_name": "E_0274_Nicht-Zahlungsavis prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.4.2: AD: Abrechnung Leistungen des Preisblatts B des MSB zwischen MSB und NB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "29001"
+    ]
+  },
+  {
+    "ebd_code": "E_0275",
+    "ebd_name": "E_0275_Prüfen, ob Antwort auf Stornierung erforderlich",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.4.4: AD: Abrechnung Leistungen des Preisblatts B des MSB zwischen MSB und NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0276",
+    "ebd_name": "E_0276_erneut Rechnung einer Leistung des Preisblatts B des MSB prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.3.3: AD: Abrechnung Leistungen des Preisblatts B des MSB zwischen MSB und LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0277",
+    "ebd_name": "E_0277_erneut Rechnung einer Leistung des Preisblatts B des MSB prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.4.3: AD: Abrechnung Leistungen des Preisblatts B des MSB zwischen MSB und NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0278",
+    "ebd_name": "E_0278_Anfrage prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.1.1: AD: Messlokationsänderung vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21033"
+    ]
+  },
+  {
+    "ebd_code": "E_0279",
+    "ebd_name": "E_0279_Bestellung prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.1.2: AD: Messlokationsänderung vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19005",
+      "19006"
+    ]
+  },
+  {
+    "ebd_code": "E_0281",
+    "ebd_name": "E_0281_Anfrage prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.2.1: AD: Messlokationsänderung vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21033"
+    ]
+  },
+  {
+    "ebd_code": "E_0283",
+    "ebd_name": "E_0283_Bestellung prüfen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.2.2: AD: Messlokationsänderung vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19005",
+      "19006"
+    ]
+  },
+  {
+    "ebd_code": "E_0284",
+    "ebd_name": "E_0284_Messlokationsänderung durchführen",
+    "chapter": "WiM Strom",
+    "section": "8.6.2: AD: Messlokationsänderung vom NB an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0285",
+    "ebd_name": "E_0285_Messlokationsänderung durchführen",
+    "chapter": "WiM Strom",
+    "section": "8.7.2: AD: Messlokationsänderung vom LF an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0286",
+    "ebd_name": "E_0286_Messlokationsänderung durchführen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.1.3: AD: Messlokationsänderung vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0287",
+    "ebd_name": "E_0287_Messlokationsänderung durchführen",
+    "chapter": "Prozesse zur Änderung der Technik an Lokationen",
+    "section": "9.2.3: AD: Messlokationsänderung vom LF an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0406",
+    "ebd_name": "E_0406_Netznutzungsrechnung prüfen",
+    "chapter": "GPKE",
+    "section": "6.10.1: AD: Netznutzungsabrechnung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0407",
+    "ebd_name": "E_0407_erneut Netznutzungsabrechnung prüfen",
+    "chapter": "GPKE",
+    "section": "6.10.5: AD: Netznutzungsabrechnung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0408",
+    "ebd_name": "E_0408_Änderung vom NB prüfen",
+    "chapter": "GPKE",
+    "section": "6.19.1: AD: Stammdatenänderung vom NB (verantwortlich) ausgehend",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55180",
+      "55227",
+      "55621",
+      "55622",
+      "55623",
+      "55624",
+      "55625",
+      "55626",
+      "55692"
+    ]
+  },
+  {
+    "ebd_code": "E_0409",
+    "ebd_name": "E_0409_Änderung vom NB prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.19.3: AD: Stammdatenänderung vom NB (verantwortlich) ausgehend",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "55177",
+      "55633",
+      "55634",
+      "55635",
+      "55636",
+      "55638",
+      "55692"
+    ]
+  },
+  {
+    "ebd_code": "E_0410",
+    "ebd_name": "E_0410_Änderung vom LF prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.20.1: AD: Stammdatenänderung vom LF (verantwortlich) ausgehend",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55137",
+      "55232"
+    ]
+  },
+  {
+    "ebd_code": "E_0412",
+    "ebd_name": "E_0412_Änderung vom MSB prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.21.3: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55555",
+      "55654",
+      "55655",
+      "55656",
+      "55657",
+      "55658"
+    ]
+  },
+  {
+    "ebd_code": "E_0415",
+    "ebd_name": "E_0415_Änderung vom MSB prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.21.1: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55555",
+      "55559",
+      "55644",
+      "55645",
+      "55646",
+      "55647",
+      "55648"
+    ]
+  },
+  {
+    "ebd_code": "E_0441",
+    "ebd_name": "E_0441_Geschäftsdatenanfrage zu Stammdaten prüfen",
+    "chapter": "GPKE",
+    "section": "6.25.1: AD: Geschäftsdatenanfrage von LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19101"
+    ]
+  },
+  {
+    "ebd_code": "E_0442",
+    "ebd_name": "E_0442_Geschäftsdatenanfrage zu Werten prüfen",
+    "chapter": "GPKE",
+    "section": "6.25.2: AD: Geschäftsdatenanfrage von LF",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19102"
+    ]
+  },
+  {
+    "ebd_code": "E_0443",
+    "ebd_name": "E_0443_Geschäftsdatenanfrage zu Stammdaten prüfen",
+    "chapter": "GPKE",
+    "section": "6.26.1: AD: Geschäftsdatenanfrage von MSB an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19101",
+      "19104"
+    ]
+  },
+  {
+    "ebd_code": "E_0452",
+    "ebd_name": "E_0452_Nicht-Zahlungsavise prüfen",
+    "chapter": "GPKE",
+    "section": "6.10.3: AD: Netznutzungsabrechnung",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0456",
+    "ebd_name": "E_0456_Lieferschein prüfen",
+    "chapter": "GPKE",
+    "section": "6.9.1: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21035"
+    ]
+  },
+  {
+    "ebd_code": "E_0458",
+    "ebd_name": "E_0458_Weitere Bearbeitung prüfen",
+    "chapter": "GPKE",
+    "section": "6.9.2: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0459",
+    "ebd_name": "E_0459_Prüfen, ob Antwort auf Stornierung erforderlich",
+    "chapter": "GPKE",
+    "section": "6.10.7: AD: Netznutzungsabrechnung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0468",
+    "ebd_name": "E_0468_Stornierung prüfen",
+    "chapter": "GPKE",
+    "section": "6.14.1: AD: Stornieren der Unterbrechung und Wiederherstellung der Anschlussnutzung auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19128",
+      "19129"
+    ]
+  },
+  {
+    "ebd_code": "E_0470",
+    "ebd_name": "E_0470_Sperrauftrag prüfen",
+    "chapter": "GPKE",
+    "section": "6.12.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19116",
+      "19117"
+    ]
+  },
+  {
+    "ebd_code": "E_0472",
+    "ebd_name": "E_0472_Prüfen, ob Sperrauftrag erfolgreich",
+    "chapter": "GPKE",
+    "section": "6.12.4: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21039"
+    ]
+  },
+  {
+    "ebd_code": "E_0487",
+    "ebd_name": "E_0487_Prüfen, ob Entsperrauftrag erfolgreich",
+    "chapter": "GPKE",
+    "section": "6.15.1: AD: Wiederherstellung der Anschlussnutzung bei Lieferbeginn",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21039"
+    ]
+  },
+  {
+    "ebd_code": "E_0488",
+    "ebd_name": "E_0488_Anfrage prüfen",
+    "chapter": "GPKE",
+    "section": "6.12.2: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19118",
+      "19119"
+    ]
+  },
+  {
+    "ebd_code": "E_0497",
+    "ebd_name": "E_0497_Entsperrauftrag prüfen",
+    "chapter": "GPKE",
+    "section": "6.13.1: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19116",
+      "19117"
+    ]
+  },
+  {
+    "ebd_code": "E_0499",
+    "ebd_name": "E_0499_Prüfen, ob Entsperrauftrag erfolgreich",
+    "chapter": "GPKE",
+    "section": "6.13.2: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21039"
+    ]
+  },
+  {
+    "ebd_code": "E_0501",
+    "ebd_name": "E_0501_Ablehnung prüfen, ggf. Clearing durchführen",
+    "chapter": "GPKE",
+    "section": "6.12.3: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21039"
+    ]
+  },
+  {
+    "ebd_code": "E_0503",
+    "ebd_name": "E_0503_Rechnung einer sonstigen Leistung prüfen",
+    "chapter": "GPKE",
+    "section": "6.11.1: AD: Abrechnung einer sonstigen Leistung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0504",
+    "ebd_name": "E_0504_Nicht-Zahlungsavis prüfen",
+    "chapter": "GPKE",
+    "section": "6.11.2: AD: Abrechnung einer sonstigen Leistung",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "29001"
+    ]
+  },
+  {
+    "ebd_code": "E_0505",
+    "ebd_name": "E_0505_erneut Rechnung einer sonstigen Leistung prüfen",
+    "chapter": "GPKE",
+    "section": "6.11.3: AD: Abrechnung einer sonstigen Leistung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0506",
+    "ebd_name": "E_0506_Prüfen, ob Antwort auf Stornierung erforderlich",
+    "chapter": "GPKE",
+    "section": "6.11.4: AD: Abrechnung einer sonstigen Leistung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0510",
+    "ebd_name": "E_0510_Anmeldung prüfen",
+    "chapter": "Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit",
+    "section": "17.1.3: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55239"
+    ]
+  },
+  {
+    "ebd_code": "E_0511",
+    "ebd_name": "E_0511_Beendigung der Zuordnung prüfen",
+    "chapter": "Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit",
+    "section": "17.1.4: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55241"
+    ]
+  },
+  {
+    "ebd_code": "E_0512",
+    "ebd_name": "E_0512_Abmeldung prüfen",
+    "chapter": "Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit",
+    "section": "17.2.1: AD: Abmeldung einer Marktlokation aus dem Modell 2 durch den NB (LPB)",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55243"
+    ]
+  },
+  {
+    "ebd_code": "E_0513",
+    "ebd_name": "E_0513_Prüfen, ob Anmeldung direkt ablehnbar",
+    "chapter": "Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit",
+    "section": "17.1.1: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55239"
+    ]
+  },
+  {
+    "ebd_code": "E_0514",
+    "ebd_name": "E_0514_Beendigung der Zuordnung prüfen",
+    "chapter": "Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit",
+    "section": "17.1.2: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0515",
+    "ebd_name": "E_0515_Rechnung der Leistungen des Preisblatts A prüfen",
+    "chapter": "GPKE",
+    "section": "6.46.1: AD: Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0516",
+    "ebd_name": "E_0516_Nicht-Zahlungsavis prüfen",
+    "chapter": "GPKE",
+    "section": "6.46.2: AD: Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "29001"
+    ]
+  },
+  {
+    "ebd_code": "E_0517",
+    "ebd_name": "E_0517_erneut Rechnung der Leistungen des Preisblatts A prüfen",
+    "chapter": "GPKE",
+    "section": "6.46.3: AD: Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0518",
+    "ebd_name": "E_0518_Prüfen, ob Antwort auf Stornierung erforderlich",
+    "chapter": "GPKE",
+    "section": "6.46.4: AD: Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0519",
+    "ebd_name": "E_0519_Rechnung der Leistungen des Preisblatts A prüfen",
+    "chapter": "GPKE",
+    "section": "6.47.1: AD: Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0520",
+    "ebd_name": "E_0520_Nicht-Zahlungsavis prüfen",
+    "chapter": "GPKE",
+    "section": "6.47.2: AD: Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und LF",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "29001"
+    ]
+  },
+  {
+    "ebd_code": "E_0521",
+    "ebd_name": "E_0521_erneut Rechnung der Leistungen des Preisblatts A prüfen",
+    "chapter": "GPKE",
+    "section": "6.47.3: AD: Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0522",
+    "ebd_name": "E_0522_Prüfen, ob Antwort auf Stornierung erforderlich",
+    "chapter": "GPKE",
+    "section": "6.47.4: AD: Abrechnung Leistungen des Preisblatts A des MSB zwischen MSB und LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0523",
+    "ebd_name": "E_0523_Bestellung prüfen",
+    "chapter": "GPKE",
+    "section": "6.28.1: AD: Bestellung einer Konfiguration vom LF an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19121",
+      "19124"
+    ]
+  },
+  {
+    "ebd_code": "E_0524",
+    "ebd_name": "E_0524_Anfrage prüfen",
+    "chapter": "GPKE",
+    "section": "6.29.1: AD: Bestellung einer Konfiguration vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21033"
+    ]
+  },
+  {
+    "ebd_code": "E_0525",
+    "ebd_name": "E_0525_Angebot bzw. Ablehnung der Anfrage verarbeiten",
+    "chapter": "GPKE",
+    "section": "6.29.2: AD: Bestellung einer Konfiguration vom NB an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0526",
+    "ebd_name": "E_0526_Bestellung prüfen",
+    "chapter": "GPKE",
+    "section": "6.29.3: AD: Bestellung einer Konfiguration vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19120",
+      "19132",
+      "21043"
+    ]
+  },
+  {
+    "ebd_code": "E_0527",
+    "ebd_name": "E_0527_Bestellung",
+    "chapter": "GPKE",
+    "section": "6.29.4: AD: Bestellung einer Konfiguration vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19127",
+      "19132"
+    ]
+  },
+  {
+    "ebd_code": "E_0528",
+    "ebd_name": "E_0528_Umsetzung der Konfiguration prüfen",
+    "chapter": "GPKE",
+    "section": "6.29.5: AD: Bestellung einer Konfiguration vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21043"
+    ]
+  },
+  {
+    "ebd_code": "E_0529",
+    "ebd_name": "E_0529_Bewertung des Gesamtvorgangs",
+    "chapter": "GPKE",
+    "section": "6.29.6: AD: Bestellung einer Konfiguration vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21043"
+    ]
+  },
+  {
+    "ebd_code": "E_0530",
+    "ebd_name": "E_0530_Umsetzung der Konfiguration prüfen",
+    "chapter": "GPKE",
+    "section": "6.29.7: AD: Bestellung einer Konfiguration vom NB an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0531",
+    "ebd_name": "E_0531_Anfrage prüfen",
+    "chapter": "GPKE",
+    "section": "6.30.1: AD: Bestellung einer Konfiguration vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21033"
+    ]
+  },
+  {
+    "ebd_code": "E_0532",
+    "ebd_name": "E_0532_Angebot bzw. Ablehnung der Anfrage verarbeiten",
+    "chapter": "GPKE",
+    "section": "6.30.2: AD: Bestellung einer Konfiguration vom LF an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0533",
+    "ebd_name": "E_0533_Bestellung prüfen",
+    "chapter": "GPKE",
+    "section": "6.30.3: AD: Bestellung einer Konfiguration vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19124",
+      "19132"
+    ]
+  },
+  {
+    "ebd_code": "E_0534",
+    "ebd_name": "E_0534_Bestellung prüfen",
+    "chapter": "GPKE",
+    "section": "6.30.4: AD: Bestellung einer Konfiguration vom LF an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0535",
+    "ebd_name": "E_0535_Umsetzung der Konfiguration prüfen",
+    "chapter": "GPKE",
+    "section": "6.30.5: AD: Bestellung einer Konfiguration vom LF an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": [
+      "21043"
+    ]
+  },
+  {
+    "ebd_code": "E_0536",
+    "ebd_name": "E_0536_Bewertung des Gesamtvorgangs",
+    "chapter": "GPKE",
+    "section": "6.30.6: AD: Bestellung einer Konfiguration vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21043"
+    ]
+  },
+  {
+    "ebd_code": "E_0537",
+    "ebd_name": "E_0537_Umsetzung der Konfiguration prüfen",
+    "chapter": "GPKE",
+    "section": "6.30.7: AD: Bestellung einer Konfiguration vom LF an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0538",
+    "ebd_name": "E_0538_Bestellung Beendigung prüfen",
+    "chapter": "GPKE",
+    "section": "6.31.1: AD: Bestellung Beendigung einer Konfiguration vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19131"
+    ]
+  },
+  {
+    "ebd_code": "E_0539",
+    "ebd_name": "E_0539_Beendigung prüfen",
+    "chapter": "GPKE",
+    "section": "6.31.2: AD: Bestellung Beendigung einer Konfiguration vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19127",
+      "19131"
+    ]
+  },
+  {
+    "ebd_code": "E_0540",
+    "ebd_name": "E_0540_Bestellung Beendigung prüfen",
+    "chapter": "GPKE",
+    "section": "6.32.1: AD: Bestellung Beendigung einer Konfiguration vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19131"
+    ]
+  },
+  {
+    "ebd_code": "E_0541",
+    "ebd_name": "E_0541_Beendigung prüfen",
+    "chapter": "GPKE",
+    "section": "6.32.2: AD: Bestellung Beendigung einer Konfiguration vom LF an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0542",
+    "ebd_name": "E_0542_Bestellung Beendigung prüfen",
+    "chapter": "GPKE",
+    "section": "6.33.1: AD: Bestellung Beendigung einer Konfiguration vom weiteren MSB an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0543",
+    "ebd_name": "E_0543_Beendigung prüfen",
+    "chapter": "GPKE",
+    "section": "6.33.2: AD: Bestellung Beendigung einer Konfiguration vom weiteren MSB an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0544",
+    "ebd_name": "E_0544_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.38.1: AD: Reklamation der Übersicht der Definitionen des NB vom LF an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19123"
+    ]
+  },
+  {
+    "ebd_code": "E_0545",
+    "ebd_name": "E_0545_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.39.1: AD: Reklamation der Übersicht der Definitionen des NB vom MSB an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19123"
+    ]
+  },
+  {
+    "ebd_code": "E_0546",
+    "ebd_name": "E_0546_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.40.1: AD: Reklamation der Übersicht der Definitionen des LF vom NB an LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "19123"
+    ]
+  },
+  {
+    "ebd_code": "E_0547",
+    "ebd_name": "E_0547_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.41.1: AD: Reklamation der Übersicht der Definitionen des LF vom MSB an LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "19123"
+    ]
+  },
+  {
+    "ebd_code": "E_0548",
+    "ebd_name": "E_0548_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.42.1: AD: Reklamation einer Definition des NB vom LF an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19123"
+    ]
+  },
+  {
+    "ebd_code": "E_0549",
+    "ebd_name": "E_0549_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.43.1: AD: Reklamation einer Definition des NB vom MSB an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19123"
+    ]
+  },
+  {
+    "ebd_code": "E_0550",
+    "ebd_name": "E_0550_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.44.1: AD: Reklamation einer Definition des LF vom NB an LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "19123"
+    ]
+  },
+  {
+    "ebd_code": "E_0551",
+    "ebd_name": "E_0551_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.45.1: AD: Reklamation einer Definition des LF vom MSB an LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "19123"
+    ]
+  },
+  {
+    "ebd_code": "E_0552",
+    "ebd_name": "E_0552_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.35.1: AD: Reklamation einer Konfiguration vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19130"
+    ]
+  },
+  {
+    "ebd_code": "E_0553",
+    "ebd_name": "E_0553_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.36.1: AD: Reklamation einer Konfiguration vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19130"
+    ]
+  },
+  {
+    "ebd_code": "E_0554",
+    "ebd_name": "E_0554_Reklamation prüfen",
+    "chapter": "GPKE",
+    "section": "6.37.1: AD: Reklamation einer Konfiguration vom MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19130"
+    ]
+  },
+  {
+    "ebd_code": "E_0562",
+    "ebd_name": "E_0562_Anweisung zum Steuerbefehl prüfen",
+    "chapter": "GPKE",
+    "section": "6.48.1: AD: Steuerbefehl vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0563",
+    "ebd_name": "E_0563_Ergebnis der Anweisung prüfen",
+    "chapter": "GPKE",
+    "section": "6.48.2: AD: Steuerbefehl vom NB an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0564",
+    "ebd_name": "E_0564_Bestellung zum Steuerbefehl prüfen (Basiert auf EBD: E_0562_Anweisung zum Steuerbefehl prüfen)",
+    "chapter": "GPKE",
+    "section": "6.49.1: AD: Steuerbefehl vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0565",
+    "ebd_name": "E_0565_Ergebnis der Bestellung prüfen (Basiert auf EBD: E_0563_Ergebnis der Anweisung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.49.2: AD: Steuerbefehl vom LF an MSB",
+    "role": "MSB",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0566",
+    "ebd_name": "E_0566_Rechnung Messtellenbetrieb mit iMS gegenüber dem NB prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.14.1: AD: Abrechnung Messstellenbetrieb gegenüber dem NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0567",
+    "ebd_name": "E_0567 Nichtzahlungsavis prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.14.2: AD: Abrechnung Messstellenbetrieb gegenüber dem NB",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "29001"
+    ]
+  },
+  {
+    "ebd_code": "E_0568",
+    "ebd_name": "E_0568_erneut Rechnung Messtellenbetrieb mit iMS gegenüber dem NB prüfen",
+    "chapter": "WiM Strom",
+    "section": "8.14.3: AD: Abrechnung Messstellenbetrieb gegenüber dem NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "33003",
+      "33004"
+    ]
+  },
+  {
+    "ebd_code": "E_0569",
+    "ebd_name": "E_0569_Prüfen, ob Antwort auf Stornierung erforderlich",
+    "chapter": "WiM Strom",
+    "section": "8.14.4: AD: Abrechnung Messstellenbetrieb gegenüber dem NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0571",
+    "ebd_name": "E_0571_Beendigung prüfen",
+    "chapter": "GPKE",
+    "section": "6.34.1: AD: Beendigung einer Konfiguration vom MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0572",
+    "ebd_name": "E_0572_Änderung vom NB prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.19.5: AD: Stammdatenänderung vom NB (verantwortlich) ausgehend",
+    "role": "ÜNB",
+    "pruefidentifikatoren": [
+      "55689",
+      "55692"
+    ]
+  },
+  {
+    "ebd_code": "E_0573",
+    "ebd_name": "E_0573_Bestellung zur Stammdatenänderung prüfen",
+    "chapter": "GPKE",
+    "section": "6.22.1: AD: Bestellung zur Stammdatenänderung an NB (verantwortlich)",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0574",
+    "ebd_name": "E_0574_Stammdaten zur Bilanzkreistreue prüfen",
+    "chapter": "GPKE",
+    "section": "6.54.1: AD: Stammdaten zur Bilanzkreistreue",
+    "role": "ÜNB",
+    "pruefidentifikatoren": [
+      "55671"
+    ]
+  },
+  {
+    "ebd_code": "E_0576",
+    "ebd_name": "E_0576_Bestellung zur Stammdatenänderung prüfen (Basiert auf EBD: E_0573_Bestellung zur Stammdatenänderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.22.2: AD: Bestellung zur Stammdatenänderung an NB (verantwortlich)",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0577",
+    "ebd_name": "E_0577_Bestellung zur Stammdatenänderung prüfen (Basiert auf EBD: E_0573_Bestellung zur Stammdatenänderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.22.3: AD: Bestellung zur Stammdatenänderung an NB (verantwortlich)",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0578",
+    "ebd_name": "E_0578_Änderung vom LF prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.20.3: AD: Stammdatenänderung vom LF (verantwortlich) ausgehend",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "55136"
+    ]
+  },
+  {
+    "ebd_code": "E_0579",
+    "ebd_name": "E_0579_Änderung vom LF prüfen",
+    "chapter": "GPKE",
+    "section": "6.20.5: AD: Stammdatenänderung vom LF (verantwortlich) ausgehend",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0583",
+    "ebd_name": "E_0583_Änderung vom MSB prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.21.5: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "55555",
+      "55664",
+      "55665",
+      "55666",
+      "55667",
+      "55669"
+    ]
+  },
+  {
+    "ebd_code": "E_0584",
+    "ebd_name": "E_0584_Bestellung zur Stammdatenänderung prüfen (Basiert auf EBD: E_0573_Bestellung zur Stammdatenänderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.24.1: AD: Bestellung zur Stammdatenänderung an MSB (verantwortlich)",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0585",
+    "ebd_name": "E_0585_Bestellung zur Stammdatenänderung prüfen (Basiert auf EBD: E_0573_Bestellung zur Stammdatenänderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.24.2: AD: Bestellung zur Stammdatenänderung an MSB (verantwortlich)",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0586",
+    "ebd_name": "E_0586_Bestellung zur Stammdatenänderung prüfen (Basiert auf EBD: E_0573_Bestellung zur Stammdatenänderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.24.3: AD: Bestellung zur Stammdatenänderung an MSB (verantwortlich)",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0587",
+    "ebd_name": "E_0587_Bestellung zur Stammdatenänderung prüfen (Basiert auf EBD: E_0573_Bestellung zur Stammdatenänderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.24.4: AD: Bestellung zur Stammdatenänderung an MSB (verantwortlich)",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0588",
+    "ebd_name": "E_0588_Bestellung zur Stammdatenänderung prüfen (Basiert auf EBD: E_0573_Bestellung zur Stammdatenänderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.23.1: AD: Bestellung zur Stammdatenänderung an LF (verantwortlich)",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0589",
+    "ebd_name": "E_0589_Bestellung zur Stammdatenänderung prüfen (Basiert auf EBD: E_0573_Bestellung zur Stammdatenänderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.23.2: AD: Bestellung zur Stammdatenänderung an LF (verantwortlich)",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0590",
+    "ebd_name": "E_0590_Bestellung zur Stammdatenänderung prüfen",
+    "chapter": "GPKE",
+    "section": "6.23.3: AD: Bestellung zur Stammdatenänderung an LF (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0594",
+    "ebd_name": "E_0594_Anfrage vom LF prüfen",
+    "chapter": "GPKE",
+    "section": "6.1.1: AD: Ermittlung der MaLo-ID der Marktlokation",
+    "role": "NB",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0595",
+    "ebd_name": "E_0595_Bestellung prüfen",
+    "chapter": "GPKE",
+    "section": "6.17.1: AD: Bestellung einer Änderung von Abrechnungsdaten von LF an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19133",
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0603",
+    "ebd_name": "E_0603_Zuordnung prüfen",
+    "chapter": "GPKE",
+    "section": "6.50.1: AD: Fall 1: LF-Zuordnung bei EEG-Marktlokation ohne DV-Pflicht bzw. KWKG-Marktlokation ohne DV-Pflicht",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55608",
+      "55609"
+    ]
+  },
+  {
+    "ebd_code": "E_0604",
+    "ebd_name": "E_0604_Zuordnung prüfen",
+    "chapter": "GPKE",
+    "section": "6.51.1: AD: Fall 2: LF-Zuordnung bei EEG-Marktlokation mit DV-Pflicht",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55608",
+      "55609"
+    ]
+  },
+  {
+    "ebd_code": "E_0605",
+    "ebd_name": "E_0605_Zuordnung prüfen",
+    "chapter": "GPKE",
+    "section": "6.52.1: AD: Fall 3: LF-Zuordnung bei KWKG-Marktlokation mit DV-Pflicht bzw. Nicht-EEG-/Nicht-KWKG-Marktlokation und Marktlokation wird nicht-tranchiert abgebildet",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55608",
+      "55609"
+    ]
+  },
+  {
+    "ebd_code": "E_0606",
+    "ebd_name": "E_0606_Zuordnung prüfen",
+    "chapter": "GPKE",
+    "section": "6.53.1: AD: Fall 4: LF-Zuordnung bei KWKG-Marktlokation mit DV-Pflicht bzw. Nicht-EEG-/Nicht-KWKG-Marktlokation und Marktlokation wird tranchiert abgebildet",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55608",
+      "55609"
+    ]
+  },
+  {
+    "ebd_code": "E_0607",
+    "ebd_name": "E_0607_Abmeldung prüfen",
+    "chapter": "GPKE",
+    "section": "6.3.1: AD: Lieferende von LF an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55005",
+      "55006"
+    ]
+  },
+  {
+    "ebd_code": "E_0608",
+    "ebd_name": "E_0608_Anmeldung einer Zuordnung",
+    "chapter": "GPKE",
+    "section": "6.5.1: AD: Neuanlage",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55602",
+      "55603",
+      "55604",
+      "55605"
+    ]
+  },
+  {
+    "ebd_code": "E_0609",
+    "ebd_name": "E_0609_Abmeldung prüfen",
+    "chapter": "GPKE",
+    "section": "6.4.1: AD: Lieferende von NB an LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55008",
+      "55009"
+    ]
+  },
+  {
+    "ebd_code": "E_0610",
+    "ebd_name": "E_0610_Abrechnungsdaten Netznutzungsabrechnung prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.8.1: AD: Abrechnungsdaten Netznutzungsabrechnung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55220"
+    ]
+  },
+  {
+    "ebd_code": "E_0611",
+    "ebd_name": "E_0611_Abrechnungsdaten Bilanzkreisabrechnung prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.16.1: AD: Abrechnungsdaten Bilanzkreisabrechnung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55156",
+      "55673"
+    ]
+  },
+  {
+    "ebd_code": "E_0612",
+    "ebd_name": "E_0612_Abrechnungsdaten Bilanzkreisabrechnung prüfen",
+    "chapter": "GPKE",
+    "section": "6.16.2: AD: Abrechnungsdaten Bilanzkreisabrechnung",
+    "role": "ÜNB",
+    "pruefidentifikatoren": [
+      "55614",
+      "55675"
+    ]
+  },
+  {
+    "ebd_code": "E_0613",
+    "ebd_name": "E_0613_Bestellung prüfen (Basiert auf EBD: E_0573_Bestellung zur Stammdatenänderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.18.1: AD: Bestellung einer Änderung von Abrechnungsdaten zur Bilanzkreisabrechnung von ÜNB an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0614",
+    "ebd_name": "E_0614_Kündigung Vertrag prüfen",
+    "chapter": "GPKE",
+    "section": "6.2.1: AD: Kündigung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55017",
+      "55018"
+    ]
+  },
+  {
+    "ebd_code": "E_0615",
+    "ebd_name": "E_0615_Anmeldung E/G prüfen",
+    "chapter": "GPKE",
+    "section": "6.7.1: AD: Beginn der Ersatz-/Grundversorgung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55014",
+      "55015"
+    ]
+  },
+  {
+    "ebd_code": "E_0616",
+    "ebd_name": "E_0616_Rückmeldung auf Änderung prüfen",
+    "chapter": "GPKE",
+    "section": "6.54.2: AD: Stammdaten zur Bilanzkreistreue",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0618",
+    "ebd_name": "E_0618_Rückmeldung verarbeiten (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.16.4: AD: Abrechnungsdaten Bilanzkreisabrechnung",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0619",
+    "ebd_name": "E_0619 Rückmeldung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.16.3: AD: Abrechnungsdaten Bilanzkreisabrechnung",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0620",
+    "ebd_name": "E_0620_ Rückmeldung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.8.2: AD: Abrechnungsdaten Netznutzungsabrechnung",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0621",
+    "ebd_name": "E_0621_Prüfen, ob Anfrage zur Beendigung der Zuordnung erforderlich",
+    "chapter": "GPKE",
+    "section": "6.6.2: AD: Lieferbeginn",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0622",
+    "ebd_name": "E_0622_Prüfen, ob Anmeldung direkt ablehnbar",
+    "chapter": "GPKE",
+    "section": "6.6.1: AD: Lieferbeginn",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55003",
+      "55080"
+    ]
+  },
+  {
+    "ebd_code": "E_0623",
+    "ebd_name": "E_0623_Lieferbeginn prüfen",
+    "chapter": "GPKE",
+    "section": "6.6.4: AD: Lieferbeginn",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "55002",
+      "55003",
+      "55078",
+      "55080"
+    ]
+  },
+  {
+    "ebd_code": "E_0624",
+    "ebd_name": "E_0624_Anfrage zur Beendigung der Zuordnung prüfen",
+    "chapter": "GPKE",
+    "section": "6.6.3: AD: Lieferbeginn",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "55003",
+      "55011",
+      "55012",
+      "55080"
+    ]
+  },
+  {
+    "ebd_code": "E_0626",
+    "ebd_name": "E_0626_Rückmeldung auf Änderung prüfen",
+    "chapter": "GPKE",
+    "section": "6.19.2: AD: Stammdatenänderung vom NB (verantwortlich) ausgehend",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0627",
+    "ebd_name": "E_0627_Rückmeldung auf Änderung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.19.4: AD: Stammdatenänderung vom NB (verantwortlich) ausgehend",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0628",
+    "ebd_name": "E_0628_Rückmeldung auf Änderung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.19.6: AD: Stammdatenänderung vom NB (verantwortlich) ausgehend",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0629",
+    "ebd_name": "E_0629_Rückmeldung auf Änderung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.20.2: AD: Stammdatenänderung vom LF (verantwortlich) ausgehend",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0630",
+    "ebd_name": "E_0630_Rückmeldung auf Änderung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.20.4: AD: Stammdatenänderung vom LF (verantwortlich) ausgehend",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0631",
+    "ebd_name": "E_0631_Rückmeldung auf Änderung prüfen",
+    "chapter": "GPKE",
+    "section": "6.20.6: AD: Stammdatenänderung vom LF (verantwortlich) ausgehend",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0632",
+    "ebd_name": "E_0632_Rückmeldung auf Änderung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.21.2: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0633",
+    "ebd_name": "E_0633_Rückmeldung auf Änderung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.21.4: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0634",
+    "ebd_name": "E_0634_Rückmeldung auf Änderung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.21.6: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0635",
+    "ebd_name": "E_0635_Rückmeldung auf Änderung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "chapter": "GPKE",
+    "section": "6.21.8: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "21047"
+    ]
+  },
+  {
+    "ebd_code": "E_0639",
+    "ebd_name": "E_0639_Änderung vom MSB prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "chapter": "GPKE",
+    "section": "6.21.7: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "ÜNB",
+    "pruefidentifikatoren": [
+      "55685",
+      "55687"
+    ]
+  },
+  {
+    "ebd_code": "E_0800",
+    "ebd_name": "E_0800_Bestellung prüfen",
+    "chapter": "Prozesse zur Ermittlung und Abrechnung von Mehr-/Mindermengen Strom und Gas",
+    "section": "11.1.1: AD: Bestellung der bilanzierten Menge beim ÜNB",
+    "role": "ÜNB",
+    "pruefidentifikatoren": [
+      "19115"
+    ]
+  },
+  {
+    "ebd_code": "E_0801",
+    "ebd_name": "E_0801_MehrMinderMengen-Rechnung prüfen",
+    "chapter": "Prozesse zur Ermittlung und Abrechnung von Mehr-/Mindermengen Strom und Gas",
+    "section": "11.3.1: AD: Mehr-/Mindermengenabrechnung zwischen NB und LF",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0802",
+    "ebd_name": "E_0802_aggregierte MMM-Rechnung prüfen",
+    "chapter": "Prozesse zur Ermittlung und Abrechnung von Mehr-/Mindermengen Strom und Gas",
+    "section": "11.4.1: AD: Mehr-/Mindermengenabrechnung zwischen NB und MGV",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0803",
+    "ebd_name": "E_0803_Abonnement prüfen",
+    "chapter": "Prozesse zur Ermittlung und Abrechnung von Mehr-/Mindermengen Strom und Gas",
+    "section": "11.2.1: AD: Abonnieren der marktlokationsscharfen Allokationsliste Gas",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_0804",
+    "ebd_name": "E_0804_Prüfen, ob Antwort auf Stornierung erforderlich (Basiert auf Strom EBD: E_0506_Prüfen, ob Antwort auf Stornierung erforderlich)",
+    "chapter": "Prozesse zur Ermittlung und Abrechnung von Mehr-/Mindermengen Strom und Gas",
+    "section": "11.3.2: AD: Mehr-/Mindermengenabrechnung zwischen NB und LF",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0806",
+    "ebd_name": "E_0806_Prüfen, ob Antwort auf Stornierung erforderlich (Basiert auf Strom EBD: E_0506_Prüfen, ob Antwort auf Stornierung erforderlich)",
+    "chapter": "Prozesse zur Ermittlung und Abrechnung von Mehr-/Mindermengen Strom und Gas",
+    "section": "11.4.2: AD: Mehr-/Mindermengenabrechnung zwischen NB und MGV",
+    "role": "MGV",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_0900",
+    "ebd_name": "E_0900_Prüfung der Ausfallarbeit",
+    "chapter": "Redispatch 2.0",
+    "section": "16.1.1: AD: Ermittlung und Abstimmung der abrechnungsrelevanten Ausfallarbeit – Prognosemodell",
+    "role": "BTR",
+    "pruefidentifikatoren": [
+      "21038"
+    ]
+  },
+  {
+    "ebd_code": "E_0901",
+    "ebd_name": "E_0901_Gegenvorschlag prüfen",
+    "chapter": "Redispatch 2.0",
+    "section": "16.1.2: AD: Ermittlung und Abstimmung der abrechnungsrelevanten Ausfallarbeit – Prognosemodell",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21037"
+    ]
+  },
+  {
+    "ebd_code": "E_0902",
+    "ebd_name": "E_0902_Ausfallarbeit unter Einbeziehung Fahrplananteil plausibilisieren",
+    "chapter": "Redispatch 2.0",
+    "section": "16.2.1: AD: Ermittlung und Abstimmung der abrechnungsrelevanten Ausfallarbeit – Planwertmodell",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21037"
+    ]
+  },
+  {
+    "ebd_code": "E_0903",
+    "ebd_name": "E_0903_Antwort verarbeiten",
+    "chapter": "Redispatch 2.0",
+    "section": "16.2.2: AD: Ermittlung und Abstimmung der abrechnungsrelevanten Ausfallarbeit – Planwertmodell",
+    "role": "BTR",
+    "pruefidentifikatoren": [
+      "21038"
+    ]
+  },
+  {
+    "ebd_code": "E_0904",
+    "ebd_name": "E_0904_Prüfung der Anforderung",
+    "chapter": "Redispatch 2.0",
+    "section": "16.3.1: AD: Anforderung der Ausfallarbeit durch den anfNB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_1000",
+    "ebd_name": "E_1000_Sperrauftrag prüfen (Basiert auf Strom EBD: E_0470_Sperrauftrag prüfen)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.2.1: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19116",
+      "19117"
+    ]
+  },
+  {
+    "ebd_code": "E_1001",
+    "ebd_name": "E_1001_Anfrage prüfen (Basiert auf Strom EBD: E_0488_Anfrage prüfen)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.2.2: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "role": "MSB",
+    "pruefidentifikatoren": [
+      "19118",
+      "19119"
+    ]
+  },
+  {
+    "ebd_code": "E_1002",
+    "ebd_name": "E_1002_Ablehnung prüfen, ggf. Clearing durchführen (Basiert auf Strom EBD: E_0501_Ablehnung prüfen, ggf. Clearing durchführen)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.2.3: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21039"
+    ]
+  },
+  {
+    "ebd_code": "E_1003",
+    "ebd_name": "E_1003_Prüfen, ob Sperrauftrag erfolgreich (Basiert auf Strom EBD: E_0472_Prüfen, ob Sperrauftrag erfolgreich)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.2.4: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21039"
+    ]
+  },
+  {
+    "ebd_code": "E_1004",
+    "ebd_name": "E_1004_Entsperrauftrag prüfen (Basiert auf Strom EBD: E_0497_Entsperrauftrag prüfen)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.3.1: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19116",
+      "19117"
+    ]
+  },
+  {
+    "ebd_code": "E_1005",
+    "ebd_name": "E_1005_Prüfen, ob Entsperrauftrag erfolgreich (Basiert auf Strom EBD: E_0499_Prüfen, ob Entsperrauftrag erfolgreich)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.3.2: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21039"
+    ]
+  },
+  {
+    "ebd_code": "E_1006",
+    "ebd_name": "E_1006_Stornierung prüfen (Basiert auf Strom EBD: E_0468_Stornierung prüfen)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.4.1: AD: Stornieren der Unterbrechung und Wiederherstellung der Anschlussnutzung auf Anweisung des LF",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19128",
+      "19129"
+    ]
+  },
+  {
+    "ebd_code": "E_1007",
+    "ebd_name": "E_1007_Rechnung einer sonstigen Leistung prüfen (Basiert auf Strom EBD: E_0503_Rechnung einer sonstigen Leistung prüfen)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.1.1: AD: Abrechnung einer sonstigen Leistung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_1008",
+    "ebd_name": "E_1008_Nicht-Zahlungsavis prüfen (Basiert auf Strom EBD: E_0504_Nicht-Zahlungsavis prüfen)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.1.2: AD: Abrechnung einer sonstigen Leistung",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "29001"
+    ]
+  },
+  {
+    "ebd_code": "E_1009",
+    "ebd_name": "E_1009_erneut Rechnung einer sonstigen Leistung prüfen (Basiert auf Strom EBD: E_0505_erneut Rechnung einer sonstigen Leistung prüfen)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.1.3: AD: Abrechnung einer sonstigen Leistung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_1010",
+    "ebd_name": "E_1010_Prüfen, ob Antwort auf Stornierung erforderlich (Basiert auf Strom EBD: E_0506_Prüfen, ob Antwort auf Stornierung erforderlich)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.1.4: AD: Abrechnung einer sonstigen Leistung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  },
+  {
+    "ebd_code": "E_1020",
+    "ebd_name": "E_1020_Prüfen, ob Entsperrauftrag erfolgreich (Basiert auf Strom EBD: E_0487_Prüfen, ob Entsperrauftrag erfolgreich)",
+    "chapter": "Sperrprozesse Gas",
+    "section": "18.5.1: AD: Wiederherstellung der Anschlussnutzung bei Lieferbeginn",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "21039"
+    ]
+  },
+  {
+    "ebd_code": "E_3001",
+    "ebd_name": "E_3001_Kündigung Gasliefervertrag prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.3.1: AD: Kündigung",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3002",
+    "ebd_name": "E_3002_Abmeldung prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.5.1: AD: Lieferende von NB an LF",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3003",
+    "ebd_name": "E_3003_Geschäftsdatenanfrage zu Stammdaten prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.19.1: AD: Geschäftsdatenanfrage vom LF an NB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3004",
+    "ebd_name": "E_3004_Geschäftsdatenanfrage zu Stammdaten prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.20.1: AD: Geschäftsdatenanfrage vom MSB an NB",
+    "role": "NB",
+    "pruefidentifikatoren": [
+      "19101"
+    ]
+  },
+  {
+    "ebd_code": "E_3005",
+    "ebd_name": "E_3005_Prüfen, ob Anmeldung direkt ablehnbar",
+    "chapter": "GeLi Gas",
+    "section": "13.6.1: AD: Lieferbeginn",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3006",
+    "ebd_name": "E_3006_Prüfen, ob Abmeldeanfrage erforderlich",
+    "chapter": "GeLi Gas",
+    "section": "13.6.2: AD: Lieferbeginn",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3007",
+    "ebd_name": "E_3007_Lieferbeginn prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.6.4: AD: Lieferbeginn",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3008",
+    "ebd_name": "E_3008_Anmeldung E/G prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.7.1: AD: Beginn der Ersatz-/Grundversorgung",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3009",
+    "ebd_name": "E_3009_Anforderung prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.8.1: AD: Anforderung und Bereitstellung von Messwerten",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3010",
+    "ebd_name": "E_3010_Änderung vom NB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.10.1: AD: Stammdatenänderung vom NB (verantwortlich) ausgehend",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3011",
+    "ebd_name": "E_3011_Änderung vom LF prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.11.1: AD: Stammdatenänderung vom LF (verantwortlich) ausgehend",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3012",
+    "ebd_name": "E_3012_Änderung vom MSB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.12.1: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3013",
+    "ebd_name": "E_3013_Anfrage zur Stammdatenänderung prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.13.1: AD: Anfrage zur Stammdatenänderung vom LF an NB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3014",
+    "ebd_name": "E_3014_Anfrage an LF prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.16.2: AD: Anfrage zur Stammdatenänderung vom MSB an LF (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3015",
+    "ebd_name": "E_3015_Antwort auf Anfrage an LF (Weiterleitung) prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.16.3: AD: Anfrage zur Stammdatenänderung vom MSB an LF (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3016",
+    "ebd_name": "E_3016_Anfrage an MSB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.17.2: AD: Anfrage zur Stammdatenänderung vom LF an MSB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3017",
+    "ebd_name": "E_3017_Antwort auf Anfrage an MSB (Weiterleitung) prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.17.3: AD: Anfrage zur Stammdatenänderung vom LF an MSB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3018",
+    "ebd_name": "E_3018_Netznutzungsabrechnung prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.22.1: AD: Abrechnung der Netznutzung",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3019",
+    "ebd_name": "E_3019_Abmeldung prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.4.1: AD: Lieferende von LF an NB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3020",
+    "ebd_name": "E_3020_Abmeldung prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.6.3: AD: Lieferbeginn",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3021",
+    "ebd_name": "E_3021_Änderung vom NB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.10.2: AD: Stammdatenänderung vom NB (verantwortlich) ausgehend",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3022",
+    "ebd_name": "E_3022_Änderung vom LF prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.11.2: AD: Stammdatenänderung vom LF (verantwortlich) ausgehend",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3023",
+    "ebd_name": "E_3023_Änderung vom MSB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.12.2: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3024",
+    "ebd_name": "E_3024_Änderung vom NB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.13.2: AD: Anfrage zur Stammdatenänderung vom LF an NB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3025",
+    "ebd_name": "E_3025_Änderung vom NB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.13.3: AD: Anfrage zur Stammdatenänderung vom LF an NB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3026",
+    "ebd_name": "E_3026_Anfrage zur Stammdatenänderung prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.14.1: AD: Anfrage zur Stammdatenänderung vom MSB an NB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3027",
+    "ebd_name": "E_3027_Änderung vom NB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.14.2: AD: Anfrage zur Stammdatenänderung vom MSB an NB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3028",
+    "ebd_name": "E_3028_Anfrage an LF vom NB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.15.1: AD: Anfrage zur Stammdatenänderung vom NB an LF (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3029",
+    "ebd_name": "E_3029_Änderung vom LF prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.15.2: AD: Anfrage zur Stammdatenänderung vom NB an LF (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3030",
+    "ebd_name": "E_3030_Weiterleitung der Anfrage an LF prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.16.1: AD: Anfrage zur Stammdatenänderung vom MSB an LF (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3031",
+    "ebd_name": "E_3031_Weiterleitung der Anfrage an MSB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.17.1: AD: Anfrage zur Stammdatenänderung vom LF an MSB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3032",
+    "ebd_name": "E_3032_Änderung vom MSB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.17.4: AD: Anfrage zur Stammdatenänderung vom LF an MSB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3033",
+    "ebd_name": "E_3033_Anfrage an MSB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.18.1: AD: Anfrage zur Stammdatenänderung vom NB an MSB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3034",
+    "ebd_name": "E_3034_Änderung vom MSB prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.18.2: AD: Anfrage zur Stammdatenänderung vom NB an MSB (verantwortlich)",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3035",
+    "ebd_name": "E_3035_Prüfung sonstiger für den Abrechnungszeitraum relevante Daten und/oder rückwirkende Meldungen",
+    "chapter": "GeLi Gas",
+    "section": "13.22.2: AD: Abrechnung der Netznutzung",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3036",
+    "ebd_name": "E_3036_erneut Netznutzungsrechnung prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.22.3: AD: Abrechnung der Netznutzung",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3037",
+    "ebd_name": "E_3037_Geschäftsdatenanfrage zu Stammdaten prüfen",
+    "chapter": "GeLi Gas",
+    "section": "13.21.1: AD: Geschäftsdatenanfrage vom NB an MSB",
+    "role": "N/A",
+    "pruefidentifikatoren": []
+  },
+  {
+    "ebd_code": "E_3038",
+    "ebd_name": "E_3038_Prüfen, ob Antwort auf Stornierung erforderlich (Basiert auf Strom EBD: E_0459_Prüfen, ob Antwort auf Stornierung erforderlich)",
+    "chapter": "GeLi Gas",
+    "section": "13.22.4: AD: Abrechnung der Netznutzung",
+    "role": "LF",
+    "pruefidentifikatoren": [
+      "33002"
+    ]
+  }
+]
