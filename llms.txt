@@ -52,7 +52,7 @@ Es werden nur erfolgreich verarbeitete EBDs gelistet; für jeden Eintrag existie
 3. `FV2610/E_0xxx.json` (Struktur; `.puml` für den Graphen, falls vorhanden) über den Roh-URL-Vertrag laden.
 
 **„Welcher EBD prüft die Antwort auf eine Lieferantenwechsel-Anmeldung in der GPKE?":**
-1. Formatversion wählen (i. d. R. `latest`).
+1. Formatversion wählen (i. d. R. die aktuell gültige FV — größtes `valid_from` ≤ heute; siehe `format_versions.json` oben).
 2. `FV<…>/index.json` laden, gegen `ebd_name`/`chapter`/`section` matchen → `ebd_code`.
 3. `<ebd_code>.json`/`.puml` über den Roh-URL-Vertrag laden.
 
