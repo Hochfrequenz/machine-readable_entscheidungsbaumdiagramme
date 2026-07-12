@@ -29,7 +29,11 @@ mit `<FV>` ∈ den Formatversionen aus `format_versions.json`, `<EBD>` = EBD-Ken
 ## Discovery-Dateien (so findest du das Richtige)
 
 - **`/format_versions.json`** — alle verfügbaren Formatversionen + `valid_from` + `latest`.
-  Nimm im Zweifel `latest`, außer der/die Nutzer:in nennt einen Prüfidentifikator/ein Datum, das zu einer älteren FV gehört.
+  Achtung: `latest` ist die **neueste veröffentlichte** Formatversion — die kann **zukunftsdatiert** und
+  damit noch **nicht in Kraft** sein (z. B. eine FV mit `valid_from` in der Zukunft). Für Fragen nach dem
+  **aktuell gültigen** Stand nimm die FV mit dem größten `valid_from`, das **≤ heute** ist; nur wenn der/die
+  Nutzer:in ausdrücklich den neuesten/zukünftigen Stand will, nimm `latest`. Nennt der/die Nutzer:in einen
+  Prüfidentifikator/ein Datum, das zu einer älteren FV gehört, wähle entsprechend diese.
 - **`/<FV>/index.json`** — Katalog je Formatversion: ein **JSON-Array** von Objekten
   `{ ebd_code, ebd_name, chapter, section, role, pruefidentifikatoren }` (Letzteres eine Liste von Prüfi-Strings).
   Nutze `ebd_name`/`chapter`/`section` für die natürlichsprachliche Suche → `ebd_code`.
@@ -52,8 +56,10 @@ Es werden nur erfolgreich verarbeitete EBDs gelistet; für jeden Eintrag existie
 2. `FV<…>/index.json` laden, gegen `ebd_name`/`chapter`/`section` matchen → `ebd_code`.
 3. `<ebd_code>.json`/`.puml` über den Roh-URL-Vertrag laden.
 
-**Formatversionen vergleichen** („Was hat sich an `E_0401` zwischen `FV2410` und `FV2504` geändert?"):
-Beide `<FV>/E_0401.json` laden und anhand des `ebd.schema.json` semantisch vergleichen.
+**Formatversionen vergleichen** („Was hat sich an `E_0623` zwischen `FV2510` und `FV2610` geändert?"):
+Beide `<FV>/E_0623.json` laden und anhand des `ebd.schema.json` semantisch vergleichen.
+(Wähle für einen solchen Vergleich EBD-Kennungen, die in **beiden** Formatversionen existieren — nicht
+jeder EBD kommt in jeder FV vor.)
 
 ## Hinweise
 
