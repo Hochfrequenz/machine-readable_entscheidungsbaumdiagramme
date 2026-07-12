@@ -64,4 +64,7 @@ jeder EBD kommt in jeder FV vor.)
 ## Hinweise
 
 - Zum Argumentieren `.json`/`.puml`/`.dot` verwenden, **nicht** `.svg`.
-- Diese Discovery-Dateien werden automatisch erzeugt (siehe README „Unter der Haube"); nicht von Hand pflegen.
+- Die formatversionsspezifischen Dateien (`index.json`, `pruefi_to_key.json`, `ebd.schema.json`) werden von der
+  EBD Toolchain automatisch erzeugt (siehe README „Unter der Haube"); nicht von Hand pflegen. `format_versions.json`
+  wird nicht von der Toolchain erzeugt (die Formatversionen inkl. `valid_from` stammen aus `efoli`); diese `llms.txt`
+  wird von Hand gepflegt.

@@ -25,7 +25,7 @@ Jeder EBD ist in je bis zu 4 verschiedenen Dateiformaten verfügbar:
 
 ## Maschinelle & KI-Zugänglichkeit
 
-Damit KI-Assistenten (z. B. Claude, GitHub Copilot, opencode) und Programme die EBDs finden und lesen können, ohne das Repository zu durchsuchen, werden automatisch Discovery-Dateien erzeugt:
+Damit KI-Assistenten (z. B. Claude, GitHub Copilot, opencode) und Programme die EBDs finden und lesen können, ohne das Repository zu durchsuchen, stellen wir Discovery-Dateien bereit (die drei formatversionsspezifischen davon werden automatisch erzeugt, siehe unten):
 
 - [`llms.txt`](llms.txt) — Kurzanleitung für KI-Assistenten (Roh-URL-Vertrag, Discovery-Dateien, Beispiele).
 - `format_versions.json` (Repo-Wurzel) — alle Formatversionen inkl. `valid_from` und `latest`.
@@ -35,7 +35,7 @@ Damit KI-Assistenten (z. B. Claude, GitHub Copilot, opencode) und Programme die 
 
 Einzelne Dateien sind stabil über Roh-URLs abrufbar: `https://raw.githubusercontent.com/Hochfrequenz/machine-readable_entscheidungsbaumdiagramme/main/<FV>/<EBD>.<ext>`.
 
-Diese Dateien sind Nebenprodukte der [EBD Toolchain](https://github.com/Hochfrequenz/ebd_toolchain) und werden bei jedem Lauf neu erzeugt — bitte nicht von Hand pflegen.
+Die formatversionsspezifischen Dateien (`<FV>/index.json`, `<FV>/pruefi_to_key.json`, `<FV>/ebd.schema.json`) sind Nebenprodukte der [EBD Toolchain](https://github.com/Hochfrequenz/ebd_toolchain) und werden bei jedem Lauf neu erzeugt — bitte nicht von Hand pflegen. `format_versions.json` (Repo-Wurzel) wird nicht von der Toolchain erzeugt (die Formatversionen inkl. `valid_from` stammen aus `efoli`); `llms.txt` wird von Hand gepflegt.
 
 ## Motivation
 
