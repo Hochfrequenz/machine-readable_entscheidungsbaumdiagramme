@@ -58,4 +58,6 @@ Beide `<FV>/E_0401.json` laden und anhand des `ebd.schema.json` semantisch vergl
 ## Hinweise
 
 - Zum Argumentieren `.json`/`.puml`/`.dot` verwenden, **nicht** `.svg`.
-- Diese Discovery-Dateien werden automatisch erzeugt (siehe README „Unter der Haube"); nicht von Hand pflegen.
+- Die pro-Formatversion-Dateien (`index.json`, `pruefi_to_key.json`, `ebd.schema.json`) werden von der
+  EBD Toolchain automatisch erzeugt (siehe README „Unter der Haube"); nicht von Hand pflegen. `format_versions.json`
+  stammt aus einer separaten Quelle (`efoli`), diese `llms.txt` wird von Hand gepflegt.

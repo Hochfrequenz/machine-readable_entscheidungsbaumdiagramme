@@ -35,7 +35,7 @@ Damit KI-Assistenten (z. B. Claude, GitHub Copilot, opencode) und Programme die 
 
 Einzelne Dateien sind stabil über Roh-URLs abrufbar: `https://raw.githubusercontent.com/Hochfrequenz/machine-readable_entscheidungsbaumdiagramme/main/<FV>/<EBD>.<ext>`.
 
-Diese Dateien sind Nebenprodukte der [EBD Toolchain](https://github.com/Hochfrequenz/ebd_toolchain) und werden bei jedem Lauf neu erzeugt — bitte nicht von Hand pflegen.
+Die pro-Formatversion-Dateien (`<FV>/index.json`, `<FV>/pruefi_to_key.json`, `<FV>/ebd.schema.json`) sind Nebenprodukte der [EBD Toolchain](https://github.com/Hochfrequenz/ebd_toolchain) und werden bei jedem Lauf neu erzeugt — bitte nicht von Hand pflegen. `format_versions.json` (Repo-Wurzel) stammt aus einer separaten Quelle (`efoli`); `llms.txt` wird von Hand gepflegt.
 
 ## Motivation
 
