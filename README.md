@@ -1,10 +1,6 @@
 # machine-readable_entscheidungsbaumdiagramme
 
 Dieses Repository enthält Entscheidungsbaumdiagramme (EBD) in einem maschinenlesbaren Format, das deutlich einfacher zu verarbeiten ist als `.docx` oder `.pdf`.
-Wir pflegen analog zu den hier abgelegten Daten auch:
-* [`machine-readable_message-implementation-guide`](https://github.com/Hochfrequenz/machine-readable_message-implementation-guide) für MIGs
-* [`machine-readable_anwendungshandbuecher`](https://github.com/Hochfrequenz/machine-readable_anwendungshandbuecher/) für AHBs
-* [`edi_energy_ahb_conditions_and_packages`](https://github.com/Hochfrequenz/edi_energy_ahb_conditions_and_packages) für Bedingungen und Paket-Definitionen aus den AHBs
 
 ## Unter der Haube
 
