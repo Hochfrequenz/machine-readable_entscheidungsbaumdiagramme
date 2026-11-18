@@ -45,9 +45,28 @@ mit `<FV>` ∈ den Formatversionen aus `format_versions.json`, `<EBD>` = EBD-Ken
   übrigen. Für eine vollständige Liste `index.json` nach dem Prüfidentifikator durchsuchen.
 - **`/<FV>/ebd.schema.json`** — JSON-Schema der `<EBD>.json`-Dateien (Knoten, Prüfschritte, Ergebnisse).
 - **`/<FV>/ebd_outcomes.schema.json`** — JSON-Schema der `<EBD>.outcomes.json`-Dateien (falls vorhanden).
+- **`/<FV>/export_report.json`** — Bericht der Toolchain, warum Dateien fehlen (siehe „Fehlende Dateien“);
+  JSON-Schema: **`/<FV>/export_report.schema.json`**.
 
 Es werden nur erfolgreich verarbeitete EBDs gelistet; für jeden Eintrag existiert die `<EBD>.json`.
 `.puml`/`.dot`/`.svg`/`.outcomes.json` können fehlen (z. B. bei tabellenlosen oder nicht plotbaren EBDs).
+
+## Fehlende Dateien erklären (`export_report.json`)
+
+Fehlt für einen EBD eine Datei, steht der Grund in `<FV>/export_report.json` (Pydantic-Modell
+`EbdExportReport` der `ebd_toolchain`; Schema in `export_report.schema.json`):
+
+- `ebd_codes_in_document` — alle EBD-Kennungen, die im Quelldokument gefunden wurden (sortiert).
+- `issues` — je Problem ein Eintrag mit `ebd_code`, `ebd_name`, `stage` (`scraping`, `graph_conversion`,
+  `svg_export`, `puml_export`, `outcomes_export`), `severity`, `error_type`, `message` und `missing_files`.
+  `severity: "error"` betrifft die Hauptdateien (`.json`, `.dot`, `.svg`), `"warning"` nur die
+  Nebenprodukte `.puml` und `.outcomes.json`.
+
+Beispiele in `FV2610`: 39 Warnungen, alle `puml_export` (z. B. `E_0023`: `GraphTooComplexForPlantumlError`,
+`missing_files: ["E_0023.puml"]`) – das `.puml` fehlt wegen einer PlantUML-Einschränkung, die übrigen Dateien
+sind vorhanden. Ein Fehler: `E_0060` (`scraping`, `EbdTableNotConvertibleError`, Tabelle nutzt „--“ statt
+„ja/nein“) – dafür gibt es gar keine Dateien. `ebd_codes_in_document` ist also eine Obermenge der in
+`index.json` gelisteten EBDs.
 
 ## Ergebniscode erklären (`<EBD>.outcomes.json`)
 
@@ -88,9 +107,9 @@ Wichtig für die Interpretation:
   von `A**` schon nach Schritt 1 entstehen. In solchen EBDs den wörtlichen Eintrag und `A**` als alternative
   Herkünfte behandeln und nur das als sicher bezeichnen, was für beide gilt.
 - `route_count: 0` mit leeren Schrittlisten heißt **nicht** „keine Prüfung nötig“, sondern: im berechneten
-  Graphen führt kein Weg vom Start zu diesem Ergebnis. Das deutet auf eine Besonderheit der Tabelle hin
-  (bekannt: `E_0407`, dessen Tabelle mit Schritt 0 beginnt; dort fehlt Schritt 0 derzeit in allen Wegen, siehe
-  https://github.com/Hochfrequenz/rebdhuhn/issues/645). Dann die Tabelle in `<EBD>.json` direkt lesen.
+  Graphen führt kein Weg vom Start zu diesem Ergebnis. Das deutet auf eine Besonderheit der Tabelle hin;
+  dann die Tabelle in `<EBD>.json` direkt lesen. In `FV2510`, `FV2604` und `FV2610` kommt das derzeit in
+  keiner `.outcomes.json` vor.
 - Fehlt die `.outcomes.json`, obwohl die Formatversion welche hat, hat der EBD keine Tabelle (`rows` leer).
   Dann steht in `metadata.remark` der `<EBD>.json` meist ein Verweis (z. B. `FV2610/E_0535`: „Es ist das EBD
   E_0528 zu nutzen.“) – diesem Verweis folgen.
