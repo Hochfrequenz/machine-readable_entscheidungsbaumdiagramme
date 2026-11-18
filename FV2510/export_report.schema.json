@@ -1,0 +1,101 @@
+{
+  "$defs": {
+    "EbdExportIssue": {
+      "description": "one thing that went wrong for one EBD, and which of its files are consequently missing",
+      "properties": {
+        "ebd_code": {
+          "description": "the EBD code, e.g. E_0060",
+          "title": "Ebd Code",
+          "type": "string"
+        },
+        "ebd_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "the title from the document if it was known at that point, else null",
+          "title": "Ebd Name"
+        },
+        "error_type": {
+          "description": "class name of the exception, e.g. EbdTableNotConvertibleError",
+          "title": "Error Type",
+          "type": "string"
+        },
+        "message": {
+          "description": "the exception message in a single line, at most 500 characters",
+          "title": "Message",
+          "type": "string"
+        },
+        "missing_files": {
+          "description": "all files of this EBD that were requested by the export types but are absent from the directory (state based: not only the file of this issue's own stage; if the same EBD has several issues, each lists all)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Missing Files",
+          "type": "array"
+        },
+        "severity": {
+          "description": "errors affect the primary outputs, warnings only secondary outputs (.puml, .outcomes.json)",
+          "enum": [
+            "error",
+            "warning"
+          ],
+          "title": "Severity",
+          "type": "string"
+        },
+        "stage": {
+          "description": "the pipeline stage that failed",
+          "enum": [
+            "scraping",
+            "graph_conversion",
+            "svg_export",
+            "puml_export",
+            "outcomes_export"
+          ],
+          "title": "Stage",
+          "type": "string"
+        }
+      },
+      "required": [
+        "ebd_code",
+        "ebd_name",
+        "stage",
+        "severity",
+        "error_type",
+        "message",
+        "missing_files"
+      ],
+      "title": "EbdExportIssue",
+      "type": "object"
+    }
+  },
+  "description": "``export_report.json``: which EBDs/files of the document are missing in the directory and why",
+  "properties": {
+    "ebd_codes_in_document": {
+      "description": "all EBD codes found in the document, sorted",
+      "items": {
+        "type": "string"
+      },
+      "title": "Ebd Codes In Document",
+      "type": "array"
+    },
+    "issues": {
+      "description": "sorted by ebd_code, then by pipeline stage",
+      "items": {
+        "$ref": "#/$defs/EbdExportIssue"
+      },
+      "title": "Issues",
+      "type": "array"
+    }
+  },
+  "required": [
+    "ebd_codes_in_document",
+    "issues"
+  ],
+  "title": "EbdExportReport",
+  "type": "object"
+}
