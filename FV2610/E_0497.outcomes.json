@@ -1,0 +1,458 @@
+{
+  "metadata": {
+    "ebd_code": "E_0497",
+    "chapter": "GPKE",
+    "section": "6.13.1: AD: Wiederherstellung der Anschlussnutzung (Entsperren) auf Anweisung des LF",
+    "ebd_name": "E_0497_Entsperrauftrag prüfen",
+    "role": "NB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "19116"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "19117"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Wurde die Sperrung durch den UC \"Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF\" ausgelöst?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Wäre eine Wiederinbetriebnahme aufgrund eines technischen Verhinderungsrundes (z.B. entspricht nicht den geltenden Rechtsvorschriften, behördlichen Verfügungen, den anerkannten Regeln der Technik, DIN VDE Normen, Technischen Anschlussbedingungen (TAB) oder den sonstigen besonderen Vorschriften des NB) nicht möglich?",
+      "note": null
+    },
+    {
+      "step_number": "3",
+      "question": "Ist zum Zeitpunkt des Nachrichteneingangs die Marktlokation bereits entsperrt?",
+      "note": null
+    },
+    {
+      "step_number": "4",
+      "question": "Liegt bereits ein Entsperrauftrag vor?",
+      "note": null
+    },
+    {
+      "step_number": "5",
+      "question": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Ablehnung\nMarktlokation ist nicht gesperrt."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Cluster: Zustimmung\nZustimmung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Cluster: Ablehnung\nEntsperrauftrag für die Marktlokation liegt bereits vor."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Cluster: Ablehnung\nMarktlokation wurde nicht über den UC (Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF) gesperrt. \nHinweis: Die Entsperrung muss auf konventionellem Weg erfolgen."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Cluster: Ablehnung\nWiederinbetriebnahme wäre technisch nicht möglich\nHinweis:\nDie Marktlokation bzw. die dazugehörigen elektrischen Anlagen kann gemäß NAV und TAB nicht wieder in Betrieb genommen werden. Sie entspricht nicht der geltenden Rechtsvorschriften und behördlichen Verfügungen sowie den anerkannten Regeln der Technik, insbesondere DIN VDE Normen, den Technischen Anschlussbedingungen (TAB) und den sonstigen besonderen Vorschriften des NB."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A99",
+      "result_code": "A99",
+      "notes": [
+        "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.04.2027 00:00 Uhr"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01",
+        "A03",
+        "A04",
+        "A06",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01",
+        "A03",
+        "A04",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

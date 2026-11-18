@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "ebd_code": "E_0443",
+    "chapter": "GPKE",
+    "section": "6.26.1: AD: Geschäftsdatenanfrage von MSB an NB",
+    "ebd_name": "E_0443_Geschäftsdatenanfrage zu Stammdaten prüfen",
+    "role": "NB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "19101"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "19104"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Handelt es sich um einen MSB aus der Sparte Gas?",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Ist der MSB im angefragten Zeitraum der genannten Marktlokation, Messlokation bzw. Tranche zugeordnet?",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "Ist der MSB für den angefragten Zeitraum z. B. aufgrund einer Vollmacht berechtigt die angefragten Stammdaten zu erhalten?",
+      "note": null
+    },
+    {
+      "step_number": "40",
+      "question": "Ist die genannte Adresse dem NB bekannt und ist an dieser Adresse ein Stromanschluss vorhanden?",
+      "note": null
+    },
+    {
+      "step_number": "50",
+      "question": "Ist an der genannten Messlokation ein iMS verbaut?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Keine Berechtigung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Kein iMS verbaut"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "An der genannten Adresse betreibt der NB keinen Stromanschluss."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Stammdaten versenden",
+      "result_code": null,
+      "notes": [
+        "Stammdaten versenden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 3,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "40",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "50",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    }
+  ]
+}

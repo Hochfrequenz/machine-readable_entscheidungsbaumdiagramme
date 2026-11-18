@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "ebd_code": "E_0583",
+    "chapter": "GPKE",
+    "section": "6.21.5: AD: Stammdatenänderung vom MSB (verantwortlich) ausgehend",
+    "ebd_name": "E_0583_Änderung vom MSB prüfen (Basiert auf EBD: E_0408_Änderung vom NB prüfen)",
+    "role": "MSB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55555"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55664"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55665"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55666"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55667"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55669"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Ergibt sich aus der Prüfung, dass der Empfänger in der Qualitätsrückmeldung seine Sicht der Stammdaten mitteilen möchte?\nHinweis:\nDies ist für jeden in der Änderung vorhandenen Verwendungszeitraum der Daten jeweils für den gesamten Zeitraum zu prüfen.",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "Sind noch weitere Verwendungszeiträume zu prüfen?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Der Empfänger übernimmt die Stammdaten.\nEr teilt in der Qualitätsrückmeldung mit, dass er die Stammdaten ohne Anmerkung übernommen hat."
+      ],
+      "has_subsequent_steps": true,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": null,
+      "routes": null
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Der Empfänger übernimmt die Stammdaten.\nEr teilt mit der Qualitätsrückmeldung mit, dass diese Stammdaten aus seiner Sicht nicht korrekt sind. Er gibt die aus seiner Sicht korrekten Stammdaten als Qualitätsrückmeldung zurück."
+      ],
+      "has_subsequent_steps": true,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": null,
+      "routes": null
+    },
+    {
+      "key": "Ende",
+      "result_code": null,
+      "notes": [],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": null,
+      "routes": null
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01",
+        "A02"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01",
+        "A02"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01",
+        "A02"
+      ],
+      "can_reach_end_without_result_code": true
+    }
+  ]
+}

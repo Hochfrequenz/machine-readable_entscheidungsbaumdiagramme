@@ -1,0 +1,1701 @@
+{
+  "metadata": {
+    "ebd_code": "E_0623",
+    "chapter": "GPKE",
+    "section": "6.6.4: AD: Lieferbeginn",
+    "ebd_name": "E_0623_Lieferbeginn prüfen",
+    "role": "NB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55002"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55003"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55078"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55080"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Wurde der Anwendungsfall für eine verbrauchende Marktlokation oder ruhende Marktlokation verwendet?",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Wurde eine Anfrage zur Beendigung der Zuordnung gestellt?",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "Hat der LFA fristgerecht geantwortet?",
+      "note": null
+    },
+    {
+      "step_number": "40",
+      "question": "Hat der LFA der Anfrage zur Beendigung der Zuordnung widersprochen?\nHinweis: Im Fall der Zustimmung ist dem LFA, dem die Anfrage zur Beendigung der Zuordnung zugestellt wurde in jedem Fall eine \"Beendigung der Zuordnung des LFA zur Marktlokation bzw. Tranche\" zuzusenden.",
+      "note": null
+    },
+    {
+      "step_number": "50",
+      "question": "Wurde in der Beantwortung der Anfrage zur Beendigung der Zuordnung der Code A30 „Ablehnung: Die Belieferung wurde zu dem angefragten Termin aus der Anfrage zur Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde.“ verwendet?",
+      "note": null
+    },
+    {
+      "step_number": "60",
+      "question": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "note": null
+    },
+    {
+      "step_number": "400",
+      "question": "Handelt es sich um Geschäftsvorfall 3?",
+      "note": null
+    },
+    {
+      "step_number": "410",
+      "question": "Wurde eine Anfrage zur Beendigung der Zuordnung gestellt?",
+      "note": null
+    },
+    {
+      "step_number": "420",
+      "question": "Hat der LFA fristgerecht geantwortet?",
+      "note": null
+    },
+    {
+      "step_number": "430",
+      "question": "Hat der LFA der Anfrage zur Beendigung der Zuordnung widersprochen?\nHinweis: Im Fall der Zustimmung ist dem LFA, dem die Anfrage zur Beendigung der Zuordnung zugestellt wurde in jedem Fall eine \"Beendigung der Zuordnung des LFA zur Marktlokation bzw. Tranche\" zuzusenden.",
+      "note": null
+    },
+    {
+      "step_number": "440",
+      "question": "Wurde in der Beantwortung der Anfrage zur Beendigung der Zuordnung der Code A41 „Ablehnung: Die Belieferung wurde zu dem angefragten Termin aus der Anfrage zur Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde.“ verwendet?",
+      "note": null
+    },
+    {
+      "step_number": "450",
+      "question": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "note": null
+    },
+    {
+      "step_number": "500",
+      "question": "Wurden Anfragen zur Beendigung der Zuordnung an die zugeordneten Lieferanten der Tranchen, an der Marktlokation gestellt?",
+      "note": null
+    },
+    {
+      "step_number": "510",
+      "question": "Wurde mindestens einer Anfrage zur Beendigung der Zuordnung zugestimmt?",
+      "note": null
+    },
+    {
+      "step_number": "520",
+      "question": "Ist ein ausreichend großer Prozentsatz an der Marktlokation frei geworden?",
+      "note": null
+    },
+    {
+      "step_number": "530",
+      "question": "Verbleibt ein Anteil im Bilanzkreis des Netzbetreibers?",
+      "note": null
+    },
+    {
+      "step_number": "540",
+      "question": "Handelt es sich um eine direktvermarktungspflichtige Marktlokation?",
+      "note": null
+    },
+    {
+      "step_number": "600",
+      "question": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A50",
+      "result_code": "A50",
+      "notes": [
+        "Cluster: Ablehnung\nDer LFA hat der Anfrage zur Beendigung der Zuordnung widersprochen."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A51",
+      "result_code": "A51",
+      "notes": [
+        "Cluster: Zustimmung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "30",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 4,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A53",
+      "result_code": "A53",
+      "notes": [
+        "Cluster: Ablehnung\nDer gewünschte Prozentsatz an der Marktlokation ist nicht frei"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "400",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "500",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "510",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": true
+            },
+            {
+              "step_number": "500",
+              "answer": true
+            },
+            {
+              "step_number": "510",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A54",
+      "result_code": "A54",
+      "notes": [
+        "Cluster: Ablehnung\nDer gewünschte Prozentsatz an der Marktlokation ist nicht frei"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "400",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "500",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "510",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "520",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": true
+            },
+            {
+              "step_number": "500",
+              "answer": true
+            },
+            {
+              "step_number": "510",
+              "answer": true
+            },
+            {
+              "step_number": "520",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A55",
+      "result_code": "A55",
+      "notes": [
+        "Cluster: Zustimmung\nUnter Bildung einer neuen Tranche sowie Info über fehlende Anteile an der Marktlokation in der Bilanzierung\nHinweis: Trigger für Prozess: Herstellung einer 100% LF-Zuordnung zu einer Marktlokation beim NB"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "400",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "500",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "510",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "520",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "530",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "540",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": true
+            },
+            {
+              "step_number": "500",
+              "answer": true
+            },
+            {
+              "step_number": "510",
+              "answer": true
+            },
+            {
+              "step_number": "520",
+              "answer": true
+            },
+            {
+              "step_number": "530",
+              "answer": true
+            },
+            {
+              "step_number": "540",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A56",
+      "result_code": "A56",
+      "notes": [
+        "Cluster: Zustimmung\nUnter Bildung einer neuen Tranche"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "400",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "500",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "600",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "510",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "520",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "530",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "540",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "route_count": 3,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": true
+            },
+            {
+              "step_number": "500",
+              "answer": false
+            },
+            {
+              "step_number": "600",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": true
+            },
+            {
+              "step_number": "500",
+              "answer": true
+            },
+            {
+              "step_number": "510",
+              "answer": true
+            },
+            {
+              "step_number": "520",
+              "answer": true
+            },
+            {
+              "step_number": "530",
+              "answer": false
+            },
+            {
+              "step_number": "600",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": true
+            },
+            {
+              "step_number": "500",
+              "answer": true
+            },
+            {
+              "step_number": "510",
+              "answer": true
+            },
+            {
+              "step_number": "520",
+              "answer": true
+            },
+            {
+              "step_number": "530",
+              "answer": true
+            },
+            {
+              "step_number": "540",
+              "answer": false
+            },
+            {
+              "step_number": "600",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A57",
+      "result_code": "A57",
+      "notes": [
+        "Cluster: Ablehnung\nDer LFA hat der Anfrage zur Beendigung der Zuordnung widersprochen."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "400",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "410",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "420",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "430",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "440",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": false
+            },
+            {
+              "step_number": "410",
+              "answer": true
+            },
+            {
+              "step_number": "420",
+              "answer": true
+            },
+            {
+              "step_number": "430",
+              "answer": true
+            },
+            {
+              "step_number": "440",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A58",
+      "result_code": "A58",
+      "notes": [
+        "Cluster: Zustimmung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "400",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "410",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "450",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "420",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "430",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "440",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 4,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": false
+            },
+            {
+              "step_number": "410",
+              "answer": false
+            },
+            {
+              "step_number": "450",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": false
+            },
+            {
+              "step_number": "410",
+              "answer": true
+            },
+            {
+              "step_number": "420",
+              "answer": false
+            },
+            {
+              "step_number": "450",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": false
+            },
+            {
+              "step_number": "410",
+              "answer": true
+            },
+            {
+              "step_number": "420",
+              "answer": true
+            },
+            {
+              "step_number": "430",
+              "answer": false
+            },
+            {
+              "step_number": "450",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": false
+            },
+            {
+              "step_number": "410",
+              "answer": true
+            },
+            {
+              "step_number": "420",
+              "answer": true
+            },
+            {
+              "step_number": "430",
+              "answer": true
+            },
+            {
+              "step_number": "440",
+              "answer": true
+            },
+            {
+              "step_number": "450",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A99",
+      "result_code": "A99",
+      "notes": [
+        "Cluster: Ablehnung\nSonstiges \nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2027 00:00 Uhr"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "400",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "410",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "420",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "430",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "440",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "450",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "500",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "510",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "520",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "530",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "540",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "600",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 11,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": false
+            },
+            {
+              "step_number": "410",
+              "answer": false
+            },
+            {
+              "step_number": "450",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": false
+            },
+            {
+              "step_number": "410",
+              "answer": true
+            },
+            {
+              "step_number": "420",
+              "answer": false
+            },
+            {
+              "step_number": "450",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": false
+            },
+            {
+              "step_number": "410",
+              "answer": true
+            },
+            {
+              "step_number": "420",
+              "answer": true
+            },
+            {
+              "step_number": "430",
+              "answer": false
+            },
+            {
+              "step_number": "450",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": false
+            },
+            {
+              "step_number": "410",
+              "answer": true
+            },
+            {
+              "step_number": "420",
+              "answer": true
+            },
+            {
+              "step_number": "430",
+              "answer": true
+            },
+            {
+              "step_number": "440",
+              "answer": true
+            },
+            {
+              "step_number": "450",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": true
+            },
+            {
+              "step_number": "500",
+              "answer": false
+            },
+            {
+              "step_number": "600",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": true
+            },
+            {
+              "step_number": "500",
+              "answer": true
+            },
+            {
+              "step_number": "510",
+              "answer": true
+            },
+            {
+              "step_number": "520",
+              "answer": true
+            },
+            {
+              "step_number": "530",
+              "answer": false
+            },
+            {
+              "step_number": "600",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "400",
+              "answer": true
+            },
+            {
+              "step_number": "500",
+              "answer": true
+            },
+            {
+              "step_number": "510",
+              "answer": true
+            },
+            {
+              "step_number": "520",
+              "answer": true
+            },
+            {
+              "step_number": "530",
+              "answer": true
+            },
+            {
+              "step_number": "540",
+              "answer": false
+            },
+            {
+              "step_number": "600",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            },
+            {
+              "step_number": "60",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A53",
+        "A54",
+        "A55",
+        "A56",
+        "A57",
+        "A58",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A50",
+        "A51",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A51",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A50",
+        "A51",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [
+        "A51",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [
+        "A50",
+        "A51",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": false,
+      "reachable_result_codes": [
+        "A51",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": true,
+      "reachable_result_codes": [
+        "A50",
+        "A51",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": false,
+      "reachable_result_codes": [
+        "A50"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": true,
+      "reachable_result_codes": [
+        "A51",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "60",
+      "answer": false,
+      "reachable_result_codes": [
+        "A51"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "60",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "400",
+      "answer": false,
+      "reachable_result_codes": [
+        "A57",
+        "A58",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "400",
+      "answer": true,
+      "reachable_result_codes": [
+        "A53",
+        "A54",
+        "A55",
+        "A56",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "410",
+      "answer": false,
+      "reachable_result_codes": [
+        "A58",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "410",
+      "answer": true,
+      "reachable_result_codes": [
+        "A57",
+        "A58",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "420",
+      "answer": false,
+      "reachable_result_codes": [
+        "A58",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "420",
+      "answer": true,
+      "reachable_result_codes": [
+        "A57",
+        "A58",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "430",
+      "answer": false,
+      "reachable_result_codes": [
+        "A58",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "430",
+      "answer": true,
+      "reachable_result_codes": [
+        "A57",
+        "A58",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "440",
+      "answer": false,
+      "reachable_result_codes": [
+        "A57"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "440",
+      "answer": true,
+      "reachable_result_codes": [
+        "A58",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "450",
+      "answer": false,
+      "reachable_result_codes": [
+        "A58"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "450",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "500",
+      "answer": false,
+      "reachable_result_codes": [
+        "A56",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "500",
+      "answer": true,
+      "reachable_result_codes": [
+        "A53",
+        "A54",
+        "A55",
+        "A56",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "510",
+      "answer": false,
+      "reachable_result_codes": [
+        "A53"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "510",
+      "answer": true,
+      "reachable_result_codes": [
+        "A54",
+        "A55",
+        "A56",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "520",
+      "answer": false,
+      "reachable_result_codes": [
+        "A54"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "520",
+      "answer": true,
+      "reachable_result_codes": [
+        "A55",
+        "A56",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "530",
+      "answer": false,
+      "reachable_result_codes": [
+        "A56",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "530",
+      "answer": true,
+      "reachable_result_codes": [
+        "A55",
+        "A56",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "540",
+      "answer": false,
+      "reachable_result_codes": [
+        "A56",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "540",
+      "answer": true,
+      "reachable_result_codes": [
+        "A55"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "600",
+      "answer": false,
+      "reachable_result_codes": [
+        "A56"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "600",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

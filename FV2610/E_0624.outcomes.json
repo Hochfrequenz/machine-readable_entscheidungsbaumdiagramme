@@ -1,0 +1,1268 @@
+{
+  "metadata": {
+    "ebd_code": "E_0624",
+    "chapter": "GPKE",
+    "section": "6.6.3: AD: Lieferbeginn",
+    "ebd_name": "E_0624_Anfrage zur Beendigung der Zuordnung prüfen",
+    "role": "LF",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55003"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55011"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55012"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55080"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "5",
+      "question": "Ist die Anfrage ausgehend vom ÜT der Lieferanmeldung bis 07:00 Uhr des nächsten Werktages eingegangen?",
+      "note": null
+    },
+    {
+      "step_number": "10",
+      "question": "Wurde der Anwendungsfall für eine verbrauchende Marktlokation verwendet?",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Besteht zum Folgetag des in der Anfrage zur Beendigung der Zuordnung genannten Termins eine Zuordnung für diese Marktlokation?\nHinweis: Ist der Kunde in der E/G, ist diese Frage ebenfalls mit ja zu beantworten",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "Liegt dem LFA bereits eine bestätigtes Zuordnungsende vor?",
+      "note": null
+    },
+    {
+      "step_number": "40",
+      "question": "Liegt in der Anfrage zur Beendigung der Zuordnung der Transaktionsgrund Ein-/ Auszug (Umzug) vor?",
+      "note": null
+    },
+    {
+      "step_number": "50",
+      "question": "Ist der Kunde aus der Anfrage zur Beendigung der Zuordnung identisch mit dem Kunden beim LFA?",
+      "note": null
+    },
+    {
+      "step_number": "60",
+      "question": "Hat der LFA Informationen darüber, dass sein Kunde nicht ausgezogen ist?",
+      "note": null
+    },
+    {
+      "step_number": "70",
+      "question": "Ist der LFA ein Lieferant der auch Grundversorger ist?",
+      "note": null
+    },
+    {
+      "step_number": "80",
+      "question": "Befindet sich die Marktlokation zum Folgetag des Enddatums aus der Anfrage zur Beendigung der Zuordnung in der Ersatz-versorgung?",
+      "note": null
+    },
+    {
+      "step_number": "90",
+      "question": "Bleibt das Vertragsverhältnis des LFA mit dem Kunden an dieser Marktlokation / Tranchen zum Tag nach dem Enddatum aus der Anfrage zur Beendigung der Zuordnung bestehen?",
+      "note": null
+    },
+    {
+      "step_number": "200",
+      "question": "Besteht zum Folgetag des in der Anfrage zur Beendigung der Zuordnung genannten Termins eine Zuordnung für diese Marktlokation / Tranche?",
+      "note": null
+    },
+    {
+      "step_number": "210",
+      "question": "Liegt dem LFA bereits eine bestätigtes Zuordnungsende vor?",
+      "note": null
+    },
+    {
+      "step_number": "220",
+      "question": "Bleibt das Vertragsverhältnis des LFA mit dem Kunden an dieser Marktlokation / Tranche zum Tag nach dem Enddatum aus der Anfrage zur Beendigung der Zuordnung bestehen?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A30",
+      "result_code": "A30",
+      "notes": [
+        "Cluster: Ablehnung\nDie Belieferung wurde zu dem angefragten Ter-min aus der Anfrage zur Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A31",
+      "result_code": "A31",
+      "notes": [
+        "Cluster: Zustimmung\nZustimmung der Anfrage zur Beendigung der Zuordnung zum in der bereits versendeten Abmeldung (welche noch nicht beantwortet wurde) genannten Termin."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A32",
+      "result_code": "A32",
+      "notes": [
+        "Cluster: Ablehnung\nEs handelt sich nicht um einen Einzug, da der Kunde aus der Anfrage zur Beendigung der Zuordnung identisch mit dem Kunden beim LFA ist."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A33",
+      "result_code": "A33",
+      "notes": [
+        "Cluster: Ablehnung\nDer LFA hat die Information, dass der Kunde nicht ausgezogen ist."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A34",
+      "result_code": "A34",
+      "notes": [
+        "Cluster: Zustimmung \nDer LFA beendet die Belieferung und teilt sein Lieferendedatum in der Antwort mit."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A35",
+      "result_code": "A35",
+      "notes": [
+        "Cluster: Ablehnung\nEs besteht eine Vertragsbindung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "90",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "80",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "90",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            },
+            {
+              "step_number": "80",
+              "answer": false
+            },
+            {
+              "step_number": "90",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A36",
+      "result_code": "A36",
+      "notes": [
+        "Cluster: Zustimmung\nVertragsverhältnis wurde zum angefragten oder davor liegenden Termin beendet."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "90",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "80",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "90",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            },
+            {
+              "step_number": "80",
+              "answer": false
+            },
+            {
+              "step_number": "90",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A38",
+      "result_code": "A38",
+      "notes": [
+        "Cluster: Zustimmung\nErsatzversorgung wurde zum angefragten Termin beendet."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "80",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            },
+            {
+              "step_number": "80",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A39",
+      "result_code": "A39",
+      "notes": [
+        "Cluster: Ablehnung\nEs besteht eine Vertragsbindung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "200",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "220",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": true
+            },
+            {
+              "step_number": "220",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A40",
+      "result_code": "A40",
+      "notes": [
+        "Cluster: Zustimmung\nVertragsverhältnis wurde zum angefragten oder davor liegenden Termin beendet."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "200",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "220",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": true
+            },
+            {
+              "step_number": "220",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A41",
+      "result_code": "A41",
+      "notes": [
+        "Cluster: Ablehnung\nDie Belieferung wurde zu dem angefragten Ter-min aus der Anfrage zur Beendigung der Zuordnung bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "200",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "210",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": false
+            },
+            {
+              "step_number": "210",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A42",
+      "result_code": "A42",
+      "notes": [
+        "Cluster: Zustimmung\nZustimmung der Anfrage zur Beendigung der Zuordnung zum in der bereits versendeten Abmeldung (welche noch nicht beantwortet wurde) genannten Termin."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "200",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "210",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": false
+            },
+            {
+              "step_number": "210",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A43",
+      "result_code": "A43",
+      "notes": [
+        "Cluster: Ablehnung\nFristüberschreitung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "5",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "5",
+      "answer": false,
+      "reachable_result_codes": [
+        "A43"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": true,
+      "reachable_result_codes": [
+        "A30",
+        "A31",
+        "A32",
+        "A33",
+        "A34",
+        "A35",
+        "A36",
+        "A38",
+        "A39",
+        "A40",
+        "A41",
+        "A42"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A39",
+        "A40",
+        "A41",
+        "A42"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A30",
+        "A31",
+        "A32",
+        "A33",
+        "A34",
+        "A35",
+        "A36",
+        "A38"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A30",
+        "A31"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A32",
+        "A33",
+        "A34",
+        "A35",
+        "A36",
+        "A38"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [
+        "A31"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [
+        "A30"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": false,
+      "reachable_result_codes": [
+        "A35",
+        "A36",
+        "A38"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": true,
+      "reachable_result_codes": [
+        "A32",
+        "A33",
+        "A34"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": false,
+      "reachable_result_codes": [
+        "A33",
+        "A34"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": true,
+      "reachable_result_codes": [
+        "A32"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "60",
+      "answer": false,
+      "reachable_result_codes": [
+        "A34"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "60",
+      "answer": true,
+      "reachable_result_codes": [
+        "A33"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "70",
+      "answer": false,
+      "reachable_result_codes": [
+        "A35",
+        "A36"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "70",
+      "answer": true,
+      "reachable_result_codes": [
+        "A35",
+        "A36",
+        "A38"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "80",
+      "answer": false,
+      "reachable_result_codes": [
+        "A35",
+        "A36"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "80",
+      "answer": true,
+      "reachable_result_codes": [
+        "A38"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "90",
+      "answer": false,
+      "reachable_result_codes": [
+        "A36"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "90",
+      "answer": true,
+      "reachable_result_codes": [
+        "A35"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "200",
+      "answer": false,
+      "reachable_result_codes": [
+        "A41",
+        "A42"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "200",
+      "answer": true,
+      "reachable_result_codes": [
+        "A39",
+        "A40"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "210",
+      "answer": false,
+      "reachable_result_codes": [
+        "A42"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "210",
+      "answer": true,
+      "reachable_result_codes": [
+        "A41"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "220",
+      "answer": false,
+      "reachable_result_codes": [
+        "A40"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "220",
+      "answer": true,
+      "reachable_result_codes": [
+        "A39"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

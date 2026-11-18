@@ -1,0 +1,693 @@
+{
+  "metadata": {
+    "ebd_code": "E_1003",
+    "chapter": "Sperrprozesse Gas",
+    "section": "17.2.4: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "ebd_name": "E_1003_Prüfen, ob Sperrauftrag erfolgreich (Basiert auf Strom EBD: E_0472_Prüfen, ob Sperrauftrag erfolgreich)",
+    "role": "NB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21039"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "War eine Sperrung aus rechtlichen Gründen nicht möglich (z. B., wenn eine Einstweilige Verfügung vorlag)?",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Wurde der Anschlussnutzer angetroffen?\nHinweis: Es gab keine Anzeichen dafür, dass der Anschlussnutzer anwesend war.",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "War eine Sperrung aus dem Grund „aktive Zutrittsverweigerung“ nicht möglich?\nHinweis: Unter „aktive Zutrittsverweigerung“ ist zu verstehen, dass der Anschlussnutzer angetroffen wurde und dieser den Zugang z. B. durch Drohungen, physische Angriffe, versperren des Zugangs zur Trennstelle unterbunden hat.",
+      "note": null
+    },
+    {
+      "step_number": "40",
+      "question": "War eine Sperrung aus dem Grund „passive Zutrittsverweigerung“ nicht möglich?\nHinweis: Unter „passiver Zutrittsverweigerung“ ist zu verstehen, dass eine Anwesenheit des Anschlussnutzers festgestellt wurde, dieser jedoch seine Anwesenheit verleugnet. (z.B. Anschlussnutzer wurden in der Wohnung gesichtet, öffnet aber die Tür nicht).",
+      "note": null
+    },
+    {
+      "step_number": "50",
+      "question": "War eine Sperrung wegen eines Verhinderungsgrundes nicht möglich?",
+      "note": null
+    },
+    {
+      "step_number": "60",
+      "question": "War eine Sperrung aus einem tatsächlichen Grund nicht möglich?\nUnter tatsächliche Gründe fallen z. B.:\nMarktlokation vor Ort nicht identifizierbar\nZugang zur Marktlokation nicht möglich\nKundenwechsel an der Marktlokation festgestellt\nLieferantenwechsel an der Marktlokation festgestellt und Zuordnungsbeginn des LFN liegt vor dem frühestmöglichen Sperrtermin des LFA.",
+      "note": null
+    },
+    {
+      "step_number": "70",
+      "question": "War eine Sperrung aus einem technischen Grund nicht möglich?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: gescheitert\nMarktlokation wurde nicht gesperrt, da ein rechtlicher Grund vor Ort erkannt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Cluster: gescheitert\nMarktlokation wurde nicht gesperrt, da eine aktive Zutrittsverweigerung vorlag."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Cluster: gescheitert\nMarktlokation wurde nicht gesperrt, da eine passive Zutrittsverweigerung vorlag."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Cluster: gescheitert\nMarktlokation wurde nicht gesperrt, da ein Verhinderungsgrund vorlag.\nHinweis: Im Freitext muss der Verhinderungsgrund mitgeteilt werden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Cluster: gescheitert\nMarktlokation wurde nicht gesperrt, da ein tatsächlicher Grund vorlag.\nHinweis: Im Freitext muss der tatsächliche Grund mitgeteilt werden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Cluster: gescheitert\nMarktlokation wurde nicht gesperrt, da ein technischer Grund vorlag.\nHinweis: Im Freitext muss der technische Grund mitgeteilt werden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A07",
+      "result_code": "A07",
+      "notes": [
+        "Cluster: erfolgreich\nMarktlokation wurde gesperrt."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A08",
+      "result_code": "A08",
+      "notes": [
+        "Cluster: gescheitert\nDer Anschlussnutzer wurde nicht angetroffen. Es gab keine Anzeichen dafür, dass dieser anwesend war."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A08"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "60",
+      "answer": false,
+      "reachable_result_codes": [
+        "A06",
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "60",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "70",
+      "answer": false,
+      "reachable_result_codes": [
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "70",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}
