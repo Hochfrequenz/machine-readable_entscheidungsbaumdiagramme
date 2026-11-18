@@ -11,12 +11,14 @@ Der Gültigkeitsbeginn ist **nicht** aus dem Label ableitbar und **nicht** immer
 (z. B. gilt `FV2504` laut BDEW ab dem 2025-06-06). Der maßgebliche Wert je Formatversion steht als
 `valid_from` in `format_versions.json` (Quelle: `efoli`). Pro Formatversion existiert ein Verzeichnis `FV<JJMM>/`.
 
-Jeder EBD ist über seine **EBD-Kennung** identifiziert (z. B. `E_0401`) und in bis zu vier Formaten abgelegt:
+Jeder EBD ist über seine **EBD-Kennung** identifiziert (z. B. `E_0401`) und in bis zu fünf Dateien abgelegt:
 
 - `<EBD>.json` — die strukturierten Rohdaten (**hierüber sollte eine KI argumentieren**); JSON-Schema siehe unten
 - `<EBD>.puml` — PlantUML des Entscheidungsbaums (gut für KI lesbar, falls vorhanden)
 - `<EBD>.dot`  — Graphviz/DOT (falls das Diagramm nicht zu komplex ist)
 - `<EBD>.svg`  — gerendertes Diagramm (**nur zur Anzeige für Menschen**)
+- `<EBD>.outcomes.json` — vorberechnete Antwort auf „Was bedeutet Ergebniscode X?“ (siehe unten;
+  nur für EBDs mit Tabelle und nur in Formatversionen ab `FV2510`)
 
 ## Roh-URL-Vertrag (stabil)
 
@@ -24,7 +26,7 @@ Jeder EBD ist über seine **EBD-Kennung** identifiziert (z. B. `E_0401`) und in 
 https://raw.githubusercontent.com/Hochfrequenz/machine-readable_entscheidungsbaumdiagramme/main/<FV>/<EBD>.<ext>
 ```
 mit `<FV>` ∈ den Formatversionen aus `format_versions.json`, `<EBD>` = EBD-Kennung (z. B. `E_0401`),
-`<ext>` ∈ {json, puml, dot, svg}.
+`<ext>` ∈ {json, outcomes.json, puml, dot, svg}.
 
 ## Discovery-Dateien (so findest du das Richtige)
 
@@ -40,9 +42,78 @@ mit `<FV>` ∈ den Formatversionen aus `format_versions.json`, `<EBD>` = EBD-Ken
 - **`/<FV>/pruefi_to_key.json`** — **Prüfidentifikator → EBD-Kennung**. Der wichtigste Lookup, denn
   Nutzer:innen zitieren Prüfidentifikatoren (z. B. `55002`) direkt aus AHBs/EDIFACT.
 - **`/<FV>/ebd.schema.json`** — JSON-Schema der `<EBD>.json`-Dateien (Knoten, Prüfschritte, Ergebnisse).
+- **`/<FV>/ebd_outcomes.schema.json`** — JSON-Schema der `<EBD>.outcomes.json`-Dateien (falls vorhanden).
 
 Es werden nur erfolgreich verarbeitete EBDs gelistet; für jeden Eintrag existiert die `<EBD>.json`.
-`.puml`/`.dot`/`.svg` können fehlen (z. B. bei tabellenlosen oder nicht plotbaren EBDs).
+`.puml`/`.dot`/`.svg`/`.outcomes.json` können fehlen (z. B. bei tabellenlosen oder nicht plotbaren EBDs).
+
+## Ergebniscode erklären (`<EBD>.outcomes.json`)
+
+Typische Frage: „Ich habe im EBD `E_0003` den Antwortcode `A02` erhalten – welche Prüfungen sind damit
+durchlaufen worden?“ Dafür muss der Baum **nicht** selbst abgelaufen werden: `<FV>/<EBD>.outcomes.json`
+enthält die Antwort vorberechnet. Antwortcodes sind **nicht** EBD-übergreifend eindeutig (z. B. kommt `A99`
+in Dutzenden EBDs vor) – immer zuerst den EBD bestimmen (Prüfidentifikator → `pruefi_to_key.json`).
+
+Aufbau (Details: `ebd_outcomes.schema.json`):
+
+- `steps` — Legende: jeder Prüfschritt genau einmal mit `step_number`, `question` und ggf. `note`.
+  Alle anderen Stellen verweisen nur per `step_number` darauf.
+- `outcomes` — ein Eintrag je Ergebnis (`result_code`, `notes`; `key` = Code, `"Ende"` oder Hinweistext):
+  - `certain_steps` — Schritte, die auf **jedem** Weg zu diesem Ergebnis durchlaufen wurden, in Reihenfolge,
+    mit `answers` (`[true]` = ja, `[false]` = nein, `[false, true]` = beide Antworten führen dorthin,
+    `[]` = Schritt ohne Entscheidung).
+  - `possible_steps` — Schritte, die nur auf manchen Wegen durchlaufen werden.
+  - `route_count` — Anzahl der Wege; `routes` — die Wege selbst, sofern es höchstens 20 sind (sonst `null`).
+- `decisions` — die Gegenrichtung: je Prüfschritt und Antwort die danach noch erreichbaren
+  `reachable_result_codes`.
+
+Wichtig für die Interpretation:
+
+- Enthält der EBD Schleifen, kann ein Schritt mehrfach durchlaufen werden. Dann ist `route_count`/`routes`
+  ggf. `null`, `answers` meint die Antwort beim **letzten** Durchlauf, und `possible_steps` enthält auch
+  Schritte, die nur über die Schleife erreicht werden.
+- `has_wildcard_outcome: true` heißt: der EBD hat ein Ergebnis mit dem Platzhaltercode `A**` („irgendein Code,
+  siehe Hinweis“). Ein erhaltener Code kann dann auch aus diesem Ergebnis stammen – dessen `notes` und
+  Schritte mitlesen.
+- `multi_step_instructions` (falls nicht `null`) sind Anweisungen, die für mehrere Folgeschritte gelten
+  (z. B. „alle Treffer prüfen, Codes sammeln“). Sie werden durchgereicht, aber **nicht** ausgewertet; die Wege
+  ergeben sich allein aus der Struktur des Baums.
+- Bei `A99` („Sonstiges“) liefert der Absender üblicherweise einen Freitext mit; die Datei sagt nur, welche
+  Prüfungen vorher durchlaufen sein müssen.
+- Große EBDs mit Schleifen (z. B. `E_0406`, `E_0407`) haben Dateien von rund 3 MB – dort gezielt nur den
+  gesuchten `outcomes`-Eintrag auswerten.
+
+## Nutzer:innen auf die Web-Ansicht verweisen
+
+Rohdateien sind für Maschinen. Wenn ein Mensch den Baum ansehen soll, verlinke zusätzlich die Web-Ansicht
+(interaktives Diagramm, Filter, Download):
+
+```
+https://ebd.hochfrequenz.de/ebd/?formatversion=<FV>&ebd=<EBD>
+```
+
+z. B. `https://ebd.hochfrequenz.de/ebd/?formatversion=FV2610&ebd=E_0003`. Statt einer konkreten Formatversion
+kann `formatversion=current` angegeben werden (die aktuell gültige). Die Web-Ansicht zeigt nur EBDs mit
+gerendertem Diagramm (`.svg`), kann dem Datenstand dieses Repositories etwas hinterherhinken und
+erfordert eine Anmeldung.
+
+## Python
+
+Wer Code ausführen kann, muss die JSON-Dateien nicht von Hand auswerten: die Bibliothek
+[`rebdhuhn`](https://github.com/Hochfrequenz/rebdhuhn) (`pip install rebdhuhn`, ab v1.3.0) enthält die
+passenden Pydantic-Modelle und die Graph-Logik.
+
+```python
+import requests
+from rebdhuhn import EbdOutcomes, EbdTable, convert_table_to_graph, explain_outcomes
+
+base = "https://raw.githubusercontent.com/Hochfrequenz/machine-readable_entscheidungsbaumdiagramme/main/FV2610"
+table = EbdTable.model_validate(requests.get(f"{base}/E_0003.json", timeout=30).json())  # typisierte Tabelle
+graph = convert_table_to_graph(table)             # networkx-Graph in graph.graph
+outcomes = explain_outcomes(graph)                # dasselbe wie <EBD>.outcomes.json, selbst berechnet
+# oder die fertige Datei laden (falls vorhanden):
+outcomes = EbdOutcomes.model_validate_json(requests.get(f"{base}/E_0003.outcomes.json", timeout=30).text)
+```
 
 ## Vorgehen (Beispiele)
 
@@ -56,6 +127,14 @@ Es werden nur erfolgreich verarbeitete EBDs gelistet; für jeden Eintrag existie
 2. `FV<…>/index.json` laden, gegen `ebd_name`/`chapter`/`section` matchen → `ebd_code`.
 3. `<ebd_code>.json`/`.puml` über den Roh-URL-Vertrag laden.
 
+**„Ich habe im EBD zu Prüfidentifikator 55002 den Code A05 bekommen – warum?“:**
+1. Formatversion wählen, `FV<…>/pruefi_to_key.json` → `ebd_code`.
+2. `FV<…>/<ebd_code>.outcomes.json` laden, in `outcomes` den Eintrag mit `result_code == "A05"` suchen.
+3. `certain_steps` (mit den Fragen aus `steps`) als „sicher durchlaufen“ erklären, `possible_steps` als
+   „je nach Weg“; `notes` des Ergebnisses nennen; bei `has_wildcard_outcome` den `A**`-Eintrag erwähnen.
+4. Dem/der Nutzer:in den Deep-Link zur Web-Ansicht mitgeben (siehe oben).
+   Fehlt die `.outcomes.json` (ältere Formatversion), den Baum anhand `<ebd_code>.json` selbst ablaufen.
+
 **Formatversionen vergleichen** („Was hat sich an `E_0623` zwischen `FV2510` und `FV2610` geändert?"):
 Beide `<FV>/E_0623.json` laden und anhand des `ebd.schema.json` semantisch vergleichen.
 (Wähle für einen solchen Vergleich EBD-Kennungen, die in **beiden** Formatversionen existieren — nicht
@@ -64,7 +143,8 @@ jeder EBD kommt in jeder FV vor.)
 ## Hinweise
 
 - Zum Argumentieren `.json`/`.puml`/`.dot` verwenden, **nicht** `.svg`.
-- Die formatversionsspezifischen Dateien (`index.json`, `pruefi_to_key.json`, `ebd.schema.json`) werden von der
+- Die formatversionsspezifischen Dateien (`index.json`, `pruefi_to_key.json`, `ebd.schema.json`,
+  `ebd_outcomes.schema.json`) und die `<EBD>.outcomes.json` werden von der
   EBD Toolchain automatisch erzeugt (siehe README „Unter der Haube"); nicht von Hand pflegen. `format_versions.json`
   wird nicht von der Toolchain erzeugt (die Formatversionen inkl. `valid_from` stammen aus `efoli`); diese `llms.txt`
   wird von Hand gepflegt.
