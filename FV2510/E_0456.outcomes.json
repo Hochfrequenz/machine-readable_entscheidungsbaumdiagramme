@@ -1,0 +1,2409 @@
+{
+  "metadata": {
+    "ebd_code": "E_0456",
+    "chapter": "GPKE",
+    "section": "6.9.1: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung",
+    "ebd_name": "E_0456_Lieferschein prüfen",
+    "role": "LF",
+    "remark": null,
+    "release_information": {
+      "version": "4.1",
+      "release_date": "2026-01-16",
+      "original_release_date": "2025-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2510",
+        "pruefidentifikator": "21035"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Handelt es sich bei der Marktlokation um eine verbrauchende Marktlokation?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Liegt das Endedatum des Zeitraums des Lieferscheins in der Zukunft?",
+      "note": null
+    },
+    {
+      "step_number": "3",
+      "question": "Entspricht der Typ dieses Lieferscheins (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis) für den übermittelten Zeit-raum der an der Marktlokation hinterlegten Netznutzungsabrechnungsvariante (Grund-/Arbeitspreis bzw. Arbeits-/Leistungspreis), welche sich aus der Artikel-ID bzw. Gruppenartikel-ID ergibt, falls die Netznutzungsabrech-nungsvariante nicht explizit über entsprechende Codes ausgetauscht wurde?",
+      "note": null
+    },
+    {
+      "step_number": "4",
+      "question": "Handelt es sich um einen Lieferschein vom Typ „Grund-/ Arbeitspreis“?",
+      "note": null
+    },
+    {
+      "step_number": "5",
+      "question": "Liegt in dem Lieferschein genannten Zeitraum mindestens ein Tag eines noch nicht stornierten Lieferscheins?",
+      "note": null
+    },
+    {
+      "step_number": "6",
+      "question": "Handelt es sich um eine Marktlokation mit der Messtechnischen Einordnung „keine Messung“ (pauschale Marktlokation)?",
+      "note": null
+    },
+    {
+      "step_number": "7",
+      "question": "Entspricht die im Lieferschein übermittelte Energiemenge der Energiemenge, welche sich aus der zuvor für den Zeitraum ausgetauschten Jahresverbrauchsprognose ergibt?",
+      "note": null
+    },
+    {
+      "step_number": "8",
+      "question": "Liegen nach Reklamation beim MSB für den korrespondierenden Zeitraum des Lieferscheins die Energiemengen an der Marktlokation vom MSB vor?\nHinweis: Sollten die Energiemengen an der Marktlokation vom MSB für den korrespondierenden Zeitraum nicht vorliegen, müssen diese erst vom LF beim MSB reklamiert worden sein, bevor diese Frage mit nein beantwortet werden darf.",
+      "note": null
+    },
+    {
+      "step_number": "9",
+      "question": "Liegt für den im Lieferschein genannten Zeitraum für eine der genannten OBIS-Kennzahlen eine zusätzliche Energiemenge vor, die noch nicht storniert wurde?",
+      "note": null
+    },
+    {
+      "step_number": "10",
+      "question": "Entspricht die zuvor vom MSB übermittelte Summe der Energiemengen je OBIS-Kennzahl der Summe der Energiemengen der aus dem Lieferschein korrespondierenden OBIS-Kennzahl für den vom Lieferschein abgedeckten Zeitraum?",
+      "note": null
+    },
+    {
+      "step_number": "11",
+      "question": "Handelt es sich um eine Marktlokation, deren Netznutzung aufgrund vertraglicher Vereinbarungen abweichend zu den in GPKE Teil 2 Kapitel 3.2.2 beschriebenen Regelungen abgerechnet wird?",
+      "note": null
+    },
+    {
+      "step_number": "12",
+      "question": "Entspricht die im Lieferschein übermittelte Energiemenge der Energiemenge, welche sich auf Basis der vertraglichen Vereinbarungen ergibt?",
+      "note": null
+    },
+    {
+      "step_number": "13",
+      "question": "Entspricht die zuvor vom MSB übermittelte Summe der Energiemengen der Summe der Energiemengen aus dem Lieferschein für den vom Lieferschein abgedeckten Zeit-raum?",
+      "note": null
+    },
+    {
+      "step_number": "14",
+      "question": "Handelt es sich um eine Marktlokation mit der messtech-nischen Einordnung „keine Messung“ (pauschale Markt-lokation)?",
+      "note": null
+    },
+    {
+      "step_number": "15",
+      "question": "Entspricht die Energiemenge aus dem Lieferschein den bilateral vertraglichen Vereinbarungen?",
+      "note": null
+    },
+    {
+      "step_number": "16",
+      "question": "Liegen nach Reklamation für den korrespondierenden Zeit-raum des Lieferscheins die Lastgänge an der Marktlokation vom MSB und ggf. das Leistungsmaximum (bei iMS vom MSB, bei kME mit RLM aus Lastgang vom LF entnommen und bei einem unterjährigen Lieferantenwechsel vom NB) vor?\nHinweis: Sollten die Lastgänge an der Marktlokation vom MSB für den korrespondierenden Zeitraum des Lieferscheins nicht vorliegen, müssen diese erst vom LF beim MSB reklamiert worden sein, bevor diese Frage mit nein beantwortet werden darf.",
+      "note": null
+    },
+    {
+      "step_number": "17",
+      "question": "Handelt es sich um eine Marktlokation, deren Netznutzung aufgrund vertraglicher Vereinbarungen abweichend zu den in GPKE Teil 2 Kapitel 3.2.2 beschriebenen Regelungen abgerechnet wird?",
+      "note": null
+    },
+    {
+      "step_number": "18",
+      "question": "Entspricht die Energiemenge bzw. das Leistungsmaximum aus dem Lieferschein den bilateral vertraglichen Vereinbarungen?",
+      "note": null
+    },
+    {
+      "step_number": "19",
+      "question": "Handelt es sich um eine Marktlokation mit der Messtechnischen Einordnung „iMS“?",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Entspricht das im Lieferschein übermittelte Leistungsmaximum dem Leistungsmaximum, das zuvor vom MSB über-mittelt wurde oder dem Leistungsmaximum, welches bei einem unterjährigen Lieferantenwechsel vom NB an den LF übermittelt wurde?",
+      "note": null
+    },
+    {
+      "step_number": "21",
+      "question": "Entspricht das im Lieferschein übermittelte Leistungsmaximum dem vorliegenden Leistungsmaximum beim LF, welches aus dem Lastgang vom MSB entnommen oder das Leistungsmaximum, welches bei einem unterjährigen Lieferantenwechsel vom NB an den LF übermittelt wurde?",
+      "note": null
+    },
+    {
+      "step_number": "22",
+      "question": "Entspricht jede auf dem Lieferschein vorkommende Energiemenge je Position (OBIS-Kennzahl und Zeitraum) einer Summe der vom MSB zuvor übermittelten ¼ h-Werte unter Berücksichtigung von möglichen kaufmännischen Rundungen, wobei ggf. die Energiemengen aus den bisher gemessenen Arbeits- und Leistungswerten des NB berücksichtigt wurden?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Ablehnung\nFür diese Marktlokation ist kein Lieferschein zu versenden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Cluster: Ablehnung\nEndedatum liegt in der Zukunft."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Cluster: Ablehnung\nDer Typ des Lieferscheins ist nicht identisch zur Netznutzungsabrechnungsvariante."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Cluster: Ablehnung\nÜberschneidender Zeitraum in noch nicht stornierten Lieferscheinen „Arbeits-/Grundpreis“"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Cluster: Zustimmung\nZustimmung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "12",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "13",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "14",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "16",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "18",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "19",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "21",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "22",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 8,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": false
+            },
+            {
+              "step_number": "16",
+              "answer": true
+            },
+            {
+              "step_number": "17",
+              "answer": false
+            },
+            {
+              "step_number": "19",
+              "answer": false
+            },
+            {
+              "step_number": "21",
+              "answer": true
+            },
+            {
+              "step_number": "22",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": false
+            },
+            {
+              "step_number": "16",
+              "answer": true
+            },
+            {
+              "step_number": "17",
+              "answer": false
+            },
+            {
+              "step_number": "19",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "22",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": false
+            },
+            {
+              "step_number": "16",
+              "answer": true
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "18",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "11",
+              "answer": false
+            },
+            {
+              "step_number": "13",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            },
+            {
+              "step_number": "12",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Cluster: Ablehnung\nEnergiemenge für pauschale Marktlokation stimmt nicht überein."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A07",
+      "result_code": "A07",
+      "notes": [
+        "Cluster: Ablehnung\nEnergiemengen vom MSB an der Marktlokation fehlen und sind beim MSB reklamiert\nHinweis: \nDie Prüfung des Lieferscheins erfolgt für Leistungszeiträume vor dem 01.12.2019 auf Basis der Werte, die vom NB bzw. vom gMSB übermittelt wurden.\nSiehe Mitteilung Nr. 6 zur MaKo 2020 (Az.: BK6-18-032) der Bundesnetzagentur vom 28.01.2020."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A08",
+      "result_code": "A08",
+      "notes": [
+        "Cluster: Ablehnung\nFür einen Zeitabschnitt liegen für mindestens eine OBIS-Kennzahl mehrere Energiemengen vor."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A09",
+      "result_code": "A09",
+      "notes": [
+        "Cluster: Ablehnung\nEnergiemenge widerspricht vertraglich vereinbarter Logik."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "12",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            },
+            {
+              "step_number": "12",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A10",
+      "result_code": "A10",
+      "notes": [
+        "Cluster: Ablehnung\nEnergiemengen stimmen nicht überein."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "13",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "11",
+              "answer": false
+            },
+            {
+              "step_number": "13",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A11",
+      "result_code": "A11",
+      "notes": [
+        "Cluster: Ablehnung\nEnergiemenge für pauschale Marktlokation stimmt nicht überein."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "14",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A12",
+      "result_code": "A12",
+      "notes": [
+        "Cluster: Ablehnung\nLastgänge vom MSB an der Marktlokation fehlen und sind beim MSB reklamiert oder vom NB fehlt die Nachricht „Arbeit und Leistungsmaximum Kalenderjahr vor Lieferbeginn\"."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "14",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "16",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": false
+            },
+            {
+              "step_number": "16",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A13",
+      "result_code": "A13",
+      "notes": [
+        "Cluster: Ablehnung\nEnergiemenge bzw. Leistungsmaximum aus dem Lieferschein entspricht nicht der vertraglich vereinbarten Energiemenge."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "14",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "16",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "18",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": false
+            },
+            {
+              "step_number": "16",
+              "answer": true
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "18",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A14",
+      "result_code": "A14",
+      "notes": [
+        "Cluster: Ablehnung\nLeistungsmaximum aus dem Lieferschein ist nicht identisch zum vorliegenden Leistungsmaximum."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "14",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "16",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "19",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": false
+            },
+            {
+              "step_number": "16",
+              "answer": true
+            },
+            {
+              "step_number": "17",
+              "answer": false
+            },
+            {
+              "step_number": "19",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A15",
+      "result_code": "A15",
+      "notes": [
+        "Cluster: Ablehnung\nLeistungsmaximum unplausibel"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "14",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "16",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "19",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "21",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": false
+            },
+            {
+              "step_number": "16",
+              "answer": true
+            },
+            {
+              "step_number": "17",
+              "answer": false
+            },
+            {
+              "step_number": "19",
+              "answer": false
+            },
+            {
+              "step_number": "21",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A16",
+      "result_code": "A16",
+      "notes": [
+        "Cluster: Ablehnung\nEnergiemenge aus dem Lieferschein entspricht nicht der Summe aus dem Lastgang."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "14",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "16",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "19",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "22",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "21",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": false
+            },
+            {
+              "step_number": "16",
+              "answer": true
+            },
+            {
+              "step_number": "17",
+              "answer": false
+            },
+            {
+              "step_number": "19",
+              "answer": false
+            },
+            {
+              "step_number": "21",
+              "answer": true
+            },
+            {
+              "step_number": "22",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            },
+            {
+              "step_number": "14",
+              "answer": false
+            },
+            {
+              "step_number": "16",
+              "answer": true
+            },
+            {
+              "step_number": "17",
+              "answer": false
+            },
+            {
+              "step_number": "19",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "22",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "6",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "6",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": false,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "8",
+      "answer": false,
+      "reachable_result_codes": [
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "8",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "9",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A09",
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "9",
+      "answer": true,
+      "reachable_result_codes": [
+        "A08"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A09",
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "11",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "11",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A09"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "12",
+      "answer": false,
+      "reachable_result_codes": [
+        "A09"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "12",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "13",
+      "answer": false,
+      "reachable_result_codes": [
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "13",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "14",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "14",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "15",
+      "answer": false,
+      "reachable_result_codes": [
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "15",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "16",
+      "answer": false,
+      "reachable_result_codes": [
+        "A12"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "16",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "17",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A14",
+        "A15",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "17",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "18",
+      "answer": false,
+      "reachable_result_codes": [
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "18",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "19",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A15",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "19",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A14",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A14"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "21",
+      "answer": false,
+      "reachable_result_codes": [
+        "A15"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "21",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "22",
+      "answer": false,
+      "reachable_result_codes": [
+        "A16"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "22",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

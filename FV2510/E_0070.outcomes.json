@@ -1,0 +1,925 @@
+{
+  "metadata": {
+    "ebd_code": "E_0070",
+    "chapter": "MaBiS",
+    "section": "7.48.1: AD: Austausch der Deltazeitreihenübertrag-Liste von ÜNB an NB",
+    "ebd_name": "E_0070_DZÜ-Liste prüfen",
+    "role": "NB",
+    "remark": null,
+    "release_information": {
+      "version": "4.1",
+      "release_date": "2026-01-16",
+      "original_release_date": "2025-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2510",
+        "pruefidentifikator": "55224"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Erfolgt der Eingang der DZÜ-Liste innerhalb der Clearingphase für DZÜ?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Ist die Marktlokation bekannt?",
+      "note": null
+    },
+    {
+      "step_number": "3",
+      "question": "Entspricht das Bilanzierungsgebiet dem zwischen NB und ÜNB ausgetauschten Bilanzierungsgebiet?",
+      "note": null
+    },
+    {
+      "step_number": "4",
+      "question": "Entspricht der Bilanzkreis dem zwischen NB und ÜNB ausgetauschten Bilanzkreis?",
+      "note": null
+    },
+    {
+      "step_number": "5",
+      "question": "Entspricht der Bilanzierungsbeginn der Erwartung des NB?",
+      "note": null
+    },
+    {
+      "step_number": "6",
+      "question": "Entspricht das Bilanzierungsende der Erwartung des NB?",
+      "note": null
+    },
+    {
+      "step_number": "7",
+      "question": "Entspricht das normierte Profil dem zwischen NB und LF ausgetauschten normierten Profil?",
+      "note": null
+    },
+    {
+      "step_number": "8",
+      "question": "Entspricht die Versionsangabe des Profils der zwischen NB und ÜNB für SLS ausgetauschten Version des Profils?",
+      "note": null
+    },
+    {
+      "step_number": "9",
+      "question": "Entspricht die veranschlagte Prognosemenge (JVP) der zwischen NB und LF ausgetauschten Prognosemenge?",
+      "note": null
+    },
+    {
+      "step_number": "10",
+      "question": "Entspricht die tatsächlich bilanzierte Menge der erwarteten bilanzierten Menge (monatlich gemessene Menge auf Basis von 1/4-h-Werten)?",
+      "note": null
+    },
+    {
+      "step_number": "11",
+      "question": "Entspricht der Zeitreihentyp dem zwischen NB und LF ausgetauschten?",
+      "note": null
+    },
+    {
+      "step_number": "12",
+      "question": "Ist der Übertrag der Energiemenge der Marktlokation aus der ÜNB-DZR in die NB-DZR berechtigt?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": [
+    {
+      "first_step_number_affected": "2",
+      "instruction_text": "Je Marktlokation erfolgen die nachfolgenden Prüfungen:"
+    }
+  ],
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Ablehnung der gesamten Liste\nEingang liegt nicht innerhalb der Clearingphase DZÜ"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Cluster: Korrekturliste wegen Ablehnung\nMarktlokation ist nicht bekannt"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Cluster: Korrekturliste wegen Ablehnung\nbilanzierungsrel. Daten nicht korrekt / fehlen \nIst mit Werten des NB zu allen Stammdaten gefüllt"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "4",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "12",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "route_count": 10,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            },
+            {
+              "step_number": "12",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ende",
+      "result_code": null,
+      "notes": [],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "12",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            },
+            {
+              "step_number": "12",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "3",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "4",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "5",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "6",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "6",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "7",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "8",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "8",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "9",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "9",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "11",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "11",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "12",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "12",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    }
+  ]
+}
