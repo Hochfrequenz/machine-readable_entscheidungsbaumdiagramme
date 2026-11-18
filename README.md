@@ -28,10 +28,14 @@ Damit KI-Assistenten (z. B. Claude, GitHub Copilot, opencode) und Programme die 
 - `<FV>/index.json` — Katalog je Formatversion (`ebd_code`, `ebd_name`, `chapter`, `section`, `role`, `pruefidentifikatoren`).
 - `<FV>/pruefi_to_key.json` — Prüfidentifikator → EBD-Kennung (der wichtigste Lookup, da Prüfidentifikatoren direkt aus AHBs/EDIFACT zitiert werden).
 - `<FV>/ebd.schema.json` — JSON-Schema der `<EBD>.json`-Dateien.
+- `<FV>/<EBD>.outcomes.json` — je EBD mit Tabelle: welche Prüfschritte ein Ergebniscode impliziert und welche Codes nach einer Antwort noch erreichbar sind (ab `FV2510`; berechnet mit [`rebdhuhn.explain_outcomes`](https://github.com/Hochfrequenz/rebdhuhn#explain-the-outcomes-which-checks-lead-to-a-result-code)).
+- `<FV>/ebd_outcomes.schema.json` — JSON-Schema der `<EBD>.outcomes.json`-Dateien.
+
+Für Menschen gibt es dieselben Diagramme in der Web-Ansicht, per Deep-Link direkt auf einen EBD: `https://ebd.hochfrequenz.de/ebd/?formatversion=<FV>&ebd=<EBD>` (z. B. [E_0003 in FV2610](https://ebd.hochfrequenz.de/ebd/?formatversion=FV2610&ebd=E_0003)). KI-Assistenten sollten ihren Nutzer:innen neben den Rohdaten diesen Link mitgeben. Die Web-Ansicht erfordert eine Anmeldung; ohne Anmeldung landet der Link auf der Startseite und muss danach erneut geöffnet werden.
 
 Einzelne Dateien sind stabil über Roh-URLs abrufbar: `https://raw.githubusercontent.com/Hochfrequenz/machine-readable_entscheidungsbaumdiagramme/main/<FV>/<EBD>.<ext>`.
 
-Die formatversionsspezifischen Dateien (`<FV>/index.json`, `<FV>/pruefi_to_key.json`, `<FV>/ebd.schema.json`) sind Nebenprodukte der [EBD Toolchain](https://github.com/Hochfrequenz/ebd_toolchain) und werden bei jedem Lauf neu erzeugt — bitte nicht von Hand pflegen. `format_versions.json` (Repo-Wurzel) wird nicht von der Toolchain erzeugt (die Formatversionen inkl. `valid_from` stammen aus `efoli`); `llms.txt` wird von Hand gepflegt.
+Die formatversionsspezifischen Dateien (`<FV>/index.json`, `<FV>/pruefi_to_key.json`, `<FV>/ebd.schema.json`, `<FV>/ebd_outcomes.schema.json`, `<FV>/<EBD>.outcomes.json`) sind Nebenprodukte der [EBD Toolchain](https://github.com/Hochfrequenz/ebd_toolchain) und werden bei jedem Lauf neu erzeugt — bitte nicht von Hand pflegen. `format_versions.json` (Repo-Wurzel) wird nicht von der Toolchain erzeugt (die Formatversionen inkl. `valid_from` stammen aus `efoli`); `llms.txt` wird von Hand gepflegt.
 
 ## Motivation
 
