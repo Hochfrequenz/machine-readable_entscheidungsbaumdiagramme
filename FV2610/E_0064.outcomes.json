@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "ebd_code": "E_0064",
+    "chapter": "MaBiS",
+    "section": "7.44.1: AD: Übermittlung Prüfmitteilung für die Bilanzkreissummenzeitreihe vom BKV an BIKO und ÜNB",
+    "ebd_name": "E_0064_BK_SZR (Kategorie B) prüfen",
+    "role": "BKV",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21003"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21005"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Liegt die Version der Zeitreihe des MaBiS-ZP für diesen Bilanzierungsmonat bereits vor?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Entsprechen die Energiemengen der BK-SZR (Kategorie B) den erwarteten Energiemengen?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Abweisung\nZeitreihe bereits vorhanden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Cluster: Ablehnung\nEnergiemenge falsch / nicht plausibel"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Cluster: Zustimmung\nZeitreihe akzeptiert"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02",
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

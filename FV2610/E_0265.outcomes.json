@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "ebd_code": "E_0265",
+    "chapter": "MaBiS",
+    "section": "7.96.2: AD: Abrechnung einer für den ESA erbrachten Leistung",
+    "ebd_name": "E_0265_Nicht-Zahlungsavis prüfen",
+    "role": "MSB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "29001"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Ergibt die Prüfung der abgelehnten Rechnung, dass die Ablehnung durch den Rechnungsempfänger gerechtfertigt war?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A99",
+      "result_code": "A99",
+      "notes": [
+        "Die Rechnung wird als korrekt angesehen.\nHinweis: Es ist zu begründen, warum die Rechnung korrekt ist. \nNutzungsmöglichkeit Ende: offen"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Versand der Nachricht „Storno der ursprünglichen Rechnung“",
+      "result_code": null,
+      "notes": [
+        "Versand der Nachricht „Storno der ursprünglichen Rechnung“"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    }
+  ]
+}

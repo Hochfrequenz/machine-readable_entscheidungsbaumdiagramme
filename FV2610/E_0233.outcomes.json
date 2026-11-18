@@ -1,0 +1,379 @@
+{
+  "metadata": {
+    "ebd_code": "E_0233",
+    "chapter": "MaBiS",
+    "section": "7.77.2: AD: Ersteinbau eines iMS in eine bestehende Messlokation",
+    "ebd_name": "E_0233_Prüfung Selbsteinbau oder Bestandsschutz nach §19 Abs. 5 MsbG",
+    "role": "MSB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21030"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21031"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Liegt für die für den Rollout vorgesehene Messlokation ein Bestandsschutz gemäß §19 Abs. 5 MsbG vor?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Wird auf den Bestandsschutz gemäß § 19 Abs. 5 MsbG für die Messlokation verzichtet?",
+      "note": null
+    },
+    {
+      "step_number": "3",
+      "question": "Ist der Selbsteinbau eines iMS oder einer mME geplant?",
+      "note": null
+    },
+    {
+      "step_number": "4",
+      "question": "Wird auf den Selbsteinbau eines iMS oder einer mME verzichtet?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Ablehnung\nBestandsschutz gemäß § 19 Abs. 5 MsbG für die Messlokation"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Cluster: Ablehnung\nSelbsteinbau eines iMS oder einer mME geplant"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Cluster: Zustimmung\nAuf Selbsteinbau eines iMS oder einer mME wird verzichtet"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Cluster: Ablehnung\nZum jetzigen Zeitpunkt noch keine Aussage hin-sichtlich Selbsteinbau möglich"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01",
+        "A02",
+        "A03",
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

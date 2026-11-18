@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "ebd_code": "E_0511",
+    "chapter": "Zum Modell 2 zur ladevorgangscharfen bilanziellen Energiemengenzuordnungsmöglichkeit",
+    "section": "16.1.4: AD: Anmeldung einer Marktlokation in das Modell 2 durch den NB (LPB)_neu",
+    "ebd_name": "E_0511_Beendigung der Zuordnung prüfen",
+    "role": "LF",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55241"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Ist ein Fehler aufgetreten?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Zustimmung\nBestätigung der Beendigung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A99",
+      "result_code": "A99",
+      "notes": [
+        "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2027, 00:00 Uhr"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "metadata": {
+    "ebd_code": "E_0026",
+    "chapter": "MaBiS",
+    "section": "7.45.1: AD: Übermittlung Datenstatus für die Bilanzkreissummenzeitreihe vom BIKO an ÜNB und BKV",
+    "ebd_name": "E_0026_Datenstatus nach erfolgter Bilanzkreisabrechnung vergeben",
+    "role": "BIKO",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21003"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21004"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Befindet sich der MaBiS-ZP auf der Aggregationsebene RZ?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Hat der BKV für den BK dieses MaBiS-ZP in diesem Bilanzierungsmonat die Aggregationsebene RZ abbestellt?",
+      "note": null
+    },
+    {
+      "step_number": "3",
+      "question": "Hat der BKV für diesen Bilanzierungsmonat bereits mit-geteilt, dass die weiteren Prüfungen auf Ebene des BG stattfinden müssen?",
+      "note": null
+    },
+    {
+      "step_number": "4",
+      "question": "Ist die BKA (ohne KBKA) erfolgt?",
+      "note": null
+    },
+    {
+      "step_number": "5",
+      "question": "Hat der BKV für diesen Bilanzierungsmonat bereits mit-geteilt, dass die weiteren Prüfungen auf Ebene des BG stattfinden müssen?",
+      "note": null
+    },
+    {
+      "step_number": "6",
+      "question": "Ist die BKA (ohne KBKA) erfolgt?",
+      "note": null
+    },
+    {
+      "step_number": "7",
+      "question": "Hat die zugehörige Version auf der Aggregationsebene RZ den Datenstatus „Abgerechnete Daten“?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": [
+    {
+      "first_step_number_affected": "1",
+      "instruction_text": "Je höchster Version der BK-SZR mit dem Datenstatus „Abrechnungsdaten“ oder „Abrechnungsdaten KBKA“ in diesem Bilanzierungsmonat erfolgen nachfolgende Prüfungen:"
+    },
+    {
+      "first_step_number_affected": "7",
+      "instruction_text": "Die folgenden Aktionen sind je zugehörigem MaBiS-ZP auf der Aggregationsebene BG zu durchlaufen:"
+    }
+  ],
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Datenstatus „Abgerechnete Daten“",
+        "Datenstatus „Abgerechnete Daten“\nSetzen des Datenstatus für die der Version des MaBiS-ZP auf der Aggregationsebene RZ zugehörigen Version des MaBiS-ZP auf der Aggregationsebene BG"
+      ],
+      "has_subsequent_steps": true,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 4,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Datenstatus „Abgerechnete Daten KBKA“",
+        "Datenstatus „Abgerechnete Daten KBKA“\nSetzen des Datenstatus für die der Version des MaBiS-ZP auf der Aggregationsebene RZ zugehörigen Version des MaBiS-ZP auf der Aggregationsebene BG"
+      ],
+      "has_subsequent_steps": true,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "route_count": 4,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ende",
+      "result_code": null,
+      "notes": [],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "3",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": false,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "6",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "6",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": false,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

@@ -1,0 +1,1483 @@
+{
+  "metadata": {
+    "ebd_code": "E_0071",
+    "chapter": "MaBiS",
+    "section": "7.60.1: AD: Aktivierung eines MaBiS-ZP für die mtl. AAÜZ zwischen NB und BKV(LF)",
+    "ebd_name": "E_0071_MaBiS-ZP AAÜZ Aktivierung prüfen",
+    "role": "BIKO",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "55204"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Erfolgt die Aktivierung nach Ablauf der Clearingfrist für die KBKA?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Erfolgt die Aktivierung zum Monatsersten 00:00 Uhr?",
+      "note": null
+    },
+    {
+      "step_number": "3",
+      "question": "Ist die richtige Regelzone angegeben?",
+      "note": null
+    },
+    {
+      "step_number": "4",
+      "question": "Ist das Bilanzierungsgebiet zum Aktivierungsbeginn in der Regelzone des BIKO gültig?",
+      "note": null
+    },
+    {
+      "step_number": "5",
+      "question": "Ist der Redispatch-Bilanzkreis des ANB zum Aktivierungsbeginn in der Regelzone des BIKO gültig?",
+      "note": null
+    },
+    {
+      "step_number": "6",
+      "question": "Ist der Sender zum Aktivierungsbeginn der verantwortliche NB für den angegebenen Redispatch-Bilanzkreis des NB?",
+      "note": null
+    },
+    {
+      "step_number": "7",
+      "question": "Existiert bereits ein abweichendes Tupel aus Bilanzierungs-gebiet, Redispatch-Bilanzkreis des ANB, Bilanzkreis des LF und ZRT unter der ID des MaBiS-ZP?",
+      "note": null
+    },
+    {
+      "step_number": "8",
+      "question": "Existiert bereits für das genannte Tupel aus Bilanzierungs-gebiet, Redispatch-Bilanzkreis des ANB, Bilanzkreis des LF und ZRT eine abweichende ID des MaBiS-ZP?",
+      "note": null
+    },
+    {
+      "step_number": "9",
+      "question": "Ist der Bilanzkreis des LF zum Aktivierungsbeginn gültig?",
+      "note": null
+    },
+    {
+      "step_number": "10",
+      "question": "Ist der NB zur Aktivierung des ZRT berechtigt?",
+      "note": null
+    },
+    {
+      "step_number": "11",
+      "question": "Passt die Angabe des Mediums zum ZRT?",
+      "note": null
+    },
+    {
+      "step_number": "12",
+      "question": "Ist der MaBiS-ZP zum Zeitpunkt der Aktivierung bereits aktiviert?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Ablehnung\nFristüberschreitung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Cluster: Ablehnung\nGewählter Zeitpunkt nicht zulässig"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Cluster: Ablehnung\nRegelzone falsch"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Cluster: Ablehnung\nBilanzierungsgebiet nicht gültig"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Cluster: Ablehnung\nRedispatch-Bilanzkreis des ANB nicht gültig"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Cluster: Ablehnung\nKeine Berechtigung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A07",
+      "result_code": "A07",
+      "notes": [
+        "Cluster: Ablehnung\nAbweichender MaBiS-ZP bereits vorhanden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A08",
+      "result_code": "A08",
+      "notes": [
+        "Cluster: Ablehnung\nAbweichende ID zum MaBiS-ZP bereits vorhanden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A09",
+      "result_code": "A09",
+      "notes": [
+        "Cluster: Ablehnung\nBilanzkreis nicht gültig"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A10",
+      "result_code": "A10",
+      "notes": [
+        "Cluster: Ablehnung\nZRT Aktivierung nicht berechtigt"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A11",
+      "result_code": "A11",
+      "notes": [
+        "Cluster: Ablehnung\nMedium nicht passend"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A12",
+      "result_code": "A12",
+      "notes": [
+        "Cluster: Ablehnung\nMaBiS-ZP bereits aktiviert"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "12",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            },
+            {
+              "step_number": "12",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A13",
+      "result_code": "A13",
+      "notes": [
+        "Cluster: Zustimmung\nAktivierung durchgeführt"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "12",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            },
+            {
+              "step_number": "12",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "6",
+      "answer": false,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "6",
+      "answer": true,
+      "reachable_result_codes": [
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": false,
+      "reachable_result_codes": [
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": true,
+      "reachable_result_codes": [
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "8",
+      "answer": false,
+      "reachable_result_codes": [
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "8",
+      "answer": true,
+      "reachable_result_codes": [
+        "A08"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "9",
+      "answer": false,
+      "reachable_result_codes": [
+        "A09"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "9",
+      "answer": true,
+      "reachable_result_codes": [
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "11",
+      "answer": false,
+      "reachable_result_codes": [
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "11",
+      "answer": true,
+      "reachable_result_codes": [
+        "A12",
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "12",
+      "answer": false,
+      "reachable_result_codes": [
+        "A13"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "12",
+      "answer": true,
+      "reachable_result_codes": [
+        "A12"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

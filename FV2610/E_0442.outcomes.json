@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "ebd_code": "E_0442",
+    "chapter": "GPKE",
+    "section": "6.25.2: AD: Geschäftsdatenanfrage von LF",
+    "ebd_name": "E_0442_Geschäftsdatenanfrage zu Werten prüfen",
+    "role": "MSB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "19102"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Ist der LF im angefragten Zeitraum der genannten Marktlokation, Messlokation bzw. Tranche zugeordnet?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Ist der LF für den angefragten Zeitraum berechtigt die angefragten Werte in der angefragten Granularität zu erhalten?\nAuflistung, siehe WiM Strom Teil 2, Kapitel „Darstellung der zu übermittelnden Werte“ in der jeweils gültigen Fassung.",
+      "note": null
+    },
+    {
+      "step_number": "3",
+      "question": "Mussten die angefragten Werte in Art und Umfang in der Vergangenheit erfasst werden?",
+      "note": null
+    },
+    {
+      "step_number": "4",
+      "question": "Wurden die angefragten Werte auf der genannten Marktlokation, Messlokation oder Tranche erfasst?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Falscher Prozess\nHinweis: WiM Geschäftsprozess „Reklamation von Werten beim MSB“ ist zu verwenden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Keine Berechtigung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Es wurden Werte angefragt, die es auf der ge-nannten Marktlokation, Messlokation oder Tranche nicht geben kann."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Die angefragten Werte sind nicht vorhanden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Werte versenden",
+      "result_code": null,
+      "notes": [
+        "Werte versenden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A04"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "3",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "4",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    }
+  ]
+}

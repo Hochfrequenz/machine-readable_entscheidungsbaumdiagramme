@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "ebd_code": "E_0539",
+    "chapter": "GPKE",
+    "section": "6.31.2: AD: Bestellung Beendigung einer Konfiguration vom NB an MSB",
+    "ebd_name": "E_0539_Beendigung prüfen",
+    "role": "MSB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "19127"
+      },
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "19131"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "15",
+      "question": "Wurden die Vorlauffristen eingehalten?\nHinweis: Es ist die maximale und die minimale Vorlauffrist zu prüfen.",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Handelt es sich um eine kostenpflichtige Bestellung?",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "Handelt es sich um eine Bestellung, die beendet werden kann?",
+      "note": null
+    },
+    {
+      "step_number": "40",
+      "question": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Cluster: Ablehnung\nEs handelt sich um eine Bestellung, die nicht beendet werden kann."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "15",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "15",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Cluster: Zustimmung\nBestätigung der Beendigung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "15",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "15",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "15",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Cluster: Ablehnung\nDie Vorlauffrist wurde nicht eingehalten."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "15",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A99",
+      "result_code": "A99",
+      "notes": [
+        "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2027 00:00 Uhr"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "15",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "15",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "15",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "15",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "15",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

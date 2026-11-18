@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "ebd_code": "E_1002",
+    "chapter": "Sperrprozesse Gas",
+    "section": "17.2.3: AD: Unterbrechung der Anschlussnutzung (Sperren) auf Anweisung des LF",
+    "ebd_name": "E_1002_Ablehnung prüfen, ggf. Clearing durchführen (Basiert auf Strom EBD: E_0501_Ablehnung prüfen, ggf. Clearing durchführen)",
+    "role": "NB",
+    "remark": null,
+    "release_information": {
+      "version": "4.3",
+      "release_date": "2026-06-23",
+      "original_release_date": "2026-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2610",
+        "pruefidentifikator": "21039"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Teilt der NB (ggf. nach erfolgtem Clearing mit dem MSB) die Ansicht des MSB, dass keine Sperrung erfolgen darf/kann?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Ablehnung\nDer Antwortgrund des MSB aus „E_1001_Anfrage prüfen“ muss dem LF mitgeteilt werden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Sperrauftrag durchführen.",
+      "result_code": null,
+      "notes": [
+        "Sperrauftrag durchführen."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}
