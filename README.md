@@ -30,6 +30,7 @@ Damit KI-Assistenten (z. B. Claude, GitHub Copilot, opencode) und Programme die 
 - `<FV>/ebd.schema.json` — JSON-Schema der `<EBD>.json`-Dateien.
 - `<FV>/<EBD>.outcomes.json` — je EBD mit Tabelle: welche Prüfschritte ein Ergebniscode impliziert und welche Codes nach einer Antwort noch erreichbar sind (ab `FV2510`; berechnet mit [`rebdhuhn.explain_outcomes`](https://github.com/Hochfrequenz/rebdhuhn#explain-the-outcomes-which-checks-lead-to-a-result-code)).
 - `<FV>/ebd_outcomes.schema.json` — JSON-Schema der `<EBD>.outcomes.json`-Dateien.
+- `<FV>/export_report.json` (+ `export_report.schema.json`) — Bericht der EBD Toolchain, welche EBDs/Dateien des Quelldokuments fehlen und warum (z. B. kein `.puml` wegen einer PlantUML-Einschränkung oder gar keine Dateien für `E_0060`, dessen Tabelle nicht gescraped werden konnte).
 
 Für Menschen gibt es dieselben Diagramme in der Web-Ansicht, per Deep-Link direkt auf einen EBD: `https://ebd.hochfrequenz.de/ebd/?formatversion=<FV>&ebd=<EBD>` (z. B. [E_0003 in FV2610](https://ebd.hochfrequenz.de/ebd/?formatversion=FV2610&ebd=E_0003)). KI-Assistenten sollten ihren Nutzer:innen neben den Rohdaten diesen Link mitgeben. Die Web-Ansicht erfordert eine Anmeldung; ohne Anmeldung landet der Link auf der Startseite und muss danach erneut geöffnet werden.
 
