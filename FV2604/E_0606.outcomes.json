@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "ebd_code": "E_0606",
+    "chapter": "GPKE",
+    "section": "6.53.1: AD: Fall 4: LF-Zuordnung bei KWKG-Marktlokation mit DV-Pflicht bzw. Nicht-EEG-/Nicht-KWKG-Marktlokation und Marktlokation wird tranchiert abgebildet",
+    "ebd_name": "E_0606_Zuordnung prüfen",
+    "role": "LF",
+    "remark": null,
+    "release_information": {
+      "version": "4.2",
+      "release_date": "2026-06-23",
+      "original_release_date": "2025-10-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "55608"
+      },
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "55609"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Zustimmung\nZustimmung"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A99",
+      "result_code": "A99",
+      "notes": [
+        "Cluster: Ablehnung \nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: offen"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

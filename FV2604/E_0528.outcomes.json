@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "ebd_code": "E_0528",
+    "chapter": "GPKE",
+    "section": "6.29.5: AD: Bestellung einer Konfiguration vom NB an MSB",
+    "ebd_name": "E_0528_Umsetzung der Konfiguration prüfen",
+    "role": "MSB",
+    "remark": null,
+    "release_information": {
+      "version": "4.2",
+      "release_date": "2026-06-23",
+      "original_release_date": "2025-10-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "21043"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Konnte die Konfiguration an allen Lokationen umgesetzt werden?",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Ablehnung\nDie Konfiguration konnte nicht an allen Lokationen umgesetzt werden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Cluster: Zustimmung\nKonfiguration konnte an allen Lokationen umgesetzt werden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A99",
+      "result_code": "A99",
+      "notes": [
+        "Cluster: Ablehnung\nSonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

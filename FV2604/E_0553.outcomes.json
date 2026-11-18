@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "ebd_code": "E_0553",
+    "chapter": "GPKE",
+    "section": "6.36.1: AD: Reklamation einer Konfiguration vom LF an MSB",
+    "ebd_name": "E_0553_Reklamation prüfen",
+    "role": "MSB",
+    "remark": null,
+    "release_information": {
+      "version": "4.2",
+      "release_date": "2026-06-23",
+      "original_release_date": "2025-10-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "19130"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "20",
+      "question": "Ist der Wirkungszeitraum bereits eingetreten?",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "Ist die Reklamation der Konfiguration berechtigt?",
+      "note": null
+    },
+    {
+      "step_number": "40",
+      "question": "Kann die Konfiguration korrigiert werden?",
+      "note": null
+    },
+    {
+      "step_number": "50",
+      "question": "Kann die Konfiguration sofort korrigiert werden?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Cluster: Ablehnung\nWirkungszeitraum noch nicht eingetreten"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "20",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Cluster: Ablehnung\nReklamation unbegründet. Bestellte Konfiguration ist eingerichtet"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Cluster: Ablehnung\nKonfiguration kann trotz Bestellung nicht vorgenommen werden\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Cluster: Zustimmung\nKonfiguration wurde sofort angepasst"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Cluster: Zustimmung\nKonfiguration konnte nicht sofort korrigiert werden.\nHinweis: Geplanter Behebungszeitpunkt muss angegeben werden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": false,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

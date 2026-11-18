@@ -1,0 +1,942 @@
+{
+  "metadata": {
+    "ebd_code": "E_0544",
+    "chapter": "GPKE",
+    "section": "6.38.1: AD: Reklamation der Übersicht der Definitionen des NB vom LF an NB",
+    "ebd_name": "E_0544_Reklamation prüfen",
+    "role": "NB",
+    "remark": null,
+    "release_information": {
+      "version": "4.2",
+      "release_date": "2026-06-23",
+      "original_release_date": "2025-10-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "19123"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Reklamiert der Anfragende eine fehlende Übersicht der Zählzeitdefinition?",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Wurde die Übersicht der Zählzeitdefinition an den Anfragenden versendet?",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "Reklamiert der Anfragende eine fehlende Übersicht der Schaltzeitdefinitionen?",
+      "note": null
+    },
+    {
+      "step_number": "40",
+      "question": "Wurde die Übersicht der Schaltzeitdefinitionen an den Anfragenden versendet?",
+      "note": null
+    },
+    {
+      "step_number": "50",
+      "question": "Reklamiert der Anfragende eine fehlende Übersicht der Leistungskurvendefinitionen?",
+      "note": null
+    },
+    {
+      "step_number": "60",
+      "question": "Wurde die Übersicht der Leistungskurvendefinitionen an den Anfragenden versendet?",
+      "note": null
+    },
+    {
+      "step_number": "70",
+      "question": "Reklamiert der Anfragende eine unplausible Übersicht der Zählzeitdefinition?",
+      "note": null
+    },
+    {
+      "step_number": "80",
+      "question": "Ist die versendete Übersicht der Zählzeitdefinition plausibel?",
+      "note": null
+    },
+    {
+      "step_number": "90",
+      "question": "Reklamiert der Anfragende eine unplausible Übersicht der Schaltzeitdefinitionen?",
+      "note": null
+    },
+    {
+      "step_number": "100",
+      "question": "Ist die versendete Übersicht der Schaltzeitdefinitionen plausibel?",
+      "note": null
+    },
+    {
+      "step_number": "110",
+      "question": "Ist die versendete Übersicht der Leistungskurvendefinitionen plausibel?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Übersicht der Zählzeitdefinition wurde versendet\n\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die Übersicht der Definition übermittelt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Übersicht der Schaltzeitdefinitionen wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die Übersicht der Definition übermittelt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Übersicht der Leistungskurvendefinitionen wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die Übersicht der Definition übermittelt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            },
+            {
+              "step_number": "60",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Übersicht der Zählzeitdefinition ist plausibel"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "80",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            },
+            {
+              "step_number": "80",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Übersicht der Schaltzeitdefinitionen ist plausibel"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "90",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "90",
+              "answer": true
+            },
+            {
+              "step_number": "100",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Übersicht der Leistungskurvendefinitionen ist plausibel"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "90",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "110",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "90",
+              "answer": false
+            },
+            {
+              "step_number": "110",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Korrigierte Übersicht der Zählzeitdefinition versenden",
+      "result_code": null,
+      "notes": [
+        "Korrigierte Übersicht der Zählzeitdefinition versenden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "80",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            },
+            {
+              "step_number": "80",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Übersicht der Leistungskurvendefinitionen versenden",
+      "result_code": null,
+      "notes": [
+        "Übersicht der Leistungskurvendefinitionen versenden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "90",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "110",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "90",
+              "answer": false
+            },
+            {
+              "step_number": "110",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Übersicht der Schaltzeitdefinitionen versenden",
+      "result_code": null,
+      "notes": [
+        "Übersicht der Schaltzeitdefinitionen versenden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "90",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "90",
+              "answer": true
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Übersicht der Zählzeitdefinition versenden",
+      "result_code": null,
+      "notes": [
+        "Übersicht der Zählzeitdefinition versenden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "40",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "40",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "50",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "60",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "60",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "70",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "70",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "80",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "80",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "90",
+      "answer": false,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "90",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "100",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "100",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "110",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "110",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

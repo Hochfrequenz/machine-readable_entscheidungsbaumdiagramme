@@ -1,0 +1,1862 @@
+{
+  "metadata": {
+    "ebd_code": "E_0256",
+    "chapter": "WiM Strom",
+    "section": "8.25.3: AD: Anfrage und Bestellung von Werten durch den ESA",
+    "ebd_name": "E_0256_Bestellung prüfen",
+    "role": "MSB",
+    "remark": null,
+    "release_information": {
+      "version": "4.2",
+      "release_date": "2026-06-23",
+      "original_release_date": "2025-10-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "19011"
+      },
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "19012"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Ist die Bindungsfrist des Angebots abgelaufen?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Akzeptiert der MSB die Bestellung auch bei abgelaufener Bindungsfrist?",
+      "note": null
+    },
+    {
+      "step_number": "3",
+      "question": "Handelt es sich bei der Bestellung um ein Abo?",
+      "note": null
+    },
+    {
+      "step_number": "4",
+      "question": "Bietet der MSB das gewünschte Messprodukt zum Zeitraum / Zeitpunkt der Messwertermittlung als Abo an?",
+      "note": null
+    },
+    {
+      "step_number": "5",
+      "question": "Bietet der MSB das gewünschte Messprodukt zum Zeitraum / Zeitpunkt der Messwertermittlung als einmalige Übermittlung an?",
+      "note": null
+    },
+    {
+      "step_number": "6",
+      "question": "Ist die vertragliche Grundlage zur Anfrage und Übermittlung der Werte und Abrechnung der erbrachten Dienstleistung vom MSB an den ESA beim MSB zum Zeitraum / Zeitpunkt der Messwertermittlung noch gültig?",
+      "note": null
+    },
+    {
+      "step_number": "7",
+      "question": "Ist der MSB für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung der entsprechenden Lokation zugeordnet?",
+      "note": null
+    },
+    {
+      "step_number": "8",
+      "question": "Ist die dem MSB vorliegende datenschutzrechtliche Einwilligung (wie z. B. das BDEW-Muster „Einwilligungserklärung in die Verarbeitung personenbezogener Daten nach DS-GVO - \nAnfrage und Übermittlung von Messprodukten \ngemäß BNetzA-Festlegung BK6-20-160“) zur Anfrage und Übermittlung von Messprodukten zum Zeitraum / Zeitpunkt der Messwertermittlung weiterhin gültig?",
+      "note": null
+    },
+    {
+      "step_number": "9",
+      "question": "Ermöglicht die vorhandene Gerätetechnik zum Zeitraum / Zeitpunkt der Messwertermittlung die Übermittlung der angefragten Werte entsprechend dem Messprodukt?",
+      "note": null
+    },
+    {
+      "step_number": "10",
+      "question": "Handelt es sich um eine Bestellung von Werten auf Ebene der Marktlokation / Tranche / Netzlokation?",
+      "note": null
+    },
+    {
+      "step_number": "11",
+      "question": "Ist der MSB zum Zeitraum / Zeitpunkt der Messwertermittlung an allen der Marktlokation (inkl. Tranche) / Netzlokation zugeordneten Messlokationen auch der MSB der Messlokation?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Cluster: Ablehnung\nDie Bindungsfrist des Angebots ist abgelaufen."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Cluster: Ablehnung\nDer MSB sieht für das gewünschte Messprodukt keine Übermittlung als Abo vor."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Cluster: Ablehnung\nDer MSB sieht für das gewünschte Messprodukt keine einmalige Übermittlung vor."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Cluster: Ablehnung\nDie vertragliche Grundlage zwischen dem MSB und dem ESA ist nicht mehr gültig."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 4,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A07",
+      "result_code": "A07",
+      "notes": [
+        "Cluster: Ablehnung\nDer MSB ist der Lokation für den im Angebot spezifizierten Zeitraum / Zeitpunkt der Messwertermittlung nicht zugeordnet."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 4,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A08",
+      "result_code": "A08",
+      "notes": [
+        "Cluster: Ablehnung\nDer Anschlussnutzer hat gegenüber dem ESA seine Einwilligung widerrufen oder ihre Gültigkeit ist abgelaufen."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 4,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A09",
+      "result_code": "A09",
+      "notes": [
+        "Cluster: Ablehnung\nDie Gerätetechnik misst die angeforderten Messwerte nicht."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 4,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A10",
+      "result_code": "A10",
+      "notes": [
+        "Cluster: Ablehnung\nDer MSB der Marktlokation /Netzlokation ist nicht zeitgleich der allen Messlokationen zugeordnete MSB."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 4,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A11",
+      "result_code": "A11",
+      "notes": [
+        "Cluster: Zustimmung\nBestellung ist angenommen."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "8",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "9",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "10",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "11",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 8,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            },
+            {
+              "step_number": "8",
+              "answer": true
+            },
+            {
+              "step_number": "9",
+              "answer": true
+            },
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "11",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "6",
+      "answer": false,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "6",
+      "answer": true,
+      "reachable_result_codes": [
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": false,
+      "reachable_result_codes": [
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": true,
+      "reachable_result_codes": [
+        "A08",
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "8",
+      "answer": false,
+      "reachable_result_codes": [
+        "A08"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "8",
+      "answer": true,
+      "reachable_result_codes": [
+        "A09",
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "9",
+      "answer": false,
+      "reachable_result_codes": [
+        "A09"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "9",
+      "answer": true,
+      "reachable_result_codes": [
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A10",
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "11",
+      "answer": false,
+      "reachable_result_codes": [
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "11",
+      "answer": true,
+      "reachable_result_codes": [
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}
