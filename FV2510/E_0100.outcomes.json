@@ -1,0 +1,612 @@
+{
+  "metadata": {
+    "ebd_code": "E_0100",
+    "chapter": "MaBiS",
+    "section": "7.11.1: AD: Übermittlung von normierten Profilen und Profilscharen vom NB an LF",
+    "ebd_name": "E_0100 Profile bzw. Profilscharen prüfen",
+    "role": "LF",
+    "remark": null,
+    "release_information": {
+      "version": "4.1",
+      "release_date": "2026-01-16",
+      "original_release_date": "2025-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2510",
+        "pruefidentifikator": "17211"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Gehört das empfangene Profil bzw. die Profilschar zu einer zuvor abonnierten Profilgruppe aus der Liste der Profildefinitionen?",
+      "note": null
+    },
+    {
+      "step_number": "2",
+      "question": "Wurde eine Profilschar empfangen?",
+      "note": null
+    },
+    {
+      "step_number": "3",
+      "question": "Ist die übermittelte Version des Profils für den übermittelten Zeitraum höher als die bisher höchste verarbeitete Version des Profils des gleichen Zeitraums?",
+      "note": null
+    },
+    {
+      "step_number": "4",
+      "question": "Ist die übermittelte Version der Profilschar für den übermittelten Beginnzeitpunkt höher als die bisher höchste verarbeitete Version der Profilschar zu diesem Zeitpunkt?",
+      "note": null
+    },
+    {
+      "step_number": "5",
+      "question": "Stimmt die angegebene Maßeinheit der verwendeten OBIS-Kennzahl mit der Maßeinheit des Normierungsfaktors aus der Liste der Profildefinitionen überein?",
+      "note": null
+    },
+    {
+      "step_number": "6",
+      "question": "Entspricht die niedrigste Temperaturmaßzahl der Profilschar der Begrenzungskonstante aus der Liste der Profildefinitionen?",
+      "note": null
+    },
+    {
+      "step_number": "7",
+      "question": "Entspricht die Anzahl der Temperaturmaßzahlen der Profilschar der erwarteten Anzahl der Temperaturmaßzahlen gemäß der Bezugstemperatur und der Begrenzungskonstante aus der Liste der Profildefinition?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Profil bzw. Profilschar gehört nicht zu einer zuvor abonnierten Profilgruppe"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Version des Profils nicht zugelassen"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "3",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Version der Profilschar nicht zugelassen"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Maßeinheit weicht von Liste der Profildefinitionen ab"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Niedrigste Temperaturmaßzahl weicht von Liste der Profildefinitionen ab"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Anzahl der Temperaturmaßzahlen weicht von Liste der Profildefinitionen ab"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ende",
+      "result_code": null,
+      "notes": [],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "2",
+          "answers": [
+            false,
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "3",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "4",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "5",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "6",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "7",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "route_count": 2,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": false
+            },
+            {
+              "step_number": "3",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            },
+            {
+              "step_number": "2",
+              "answer": true
+            },
+            {
+              "step_number": "4",
+              "answer": true
+            },
+            {
+              "step_number": "5",
+              "answer": true
+            },
+            {
+              "step_number": "6",
+              "answer": true
+            },
+            {
+              "step_number": "7",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "2",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "2",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "3",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "3",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "4",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "4",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "5",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "5",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "6",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "6",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "7",
+      "answer": false,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "7",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    }
+  ]
+}

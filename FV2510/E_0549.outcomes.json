@@ -1,0 +1,1986 @@
+{
+  "metadata": {
+    "ebd_code": "E_0549",
+    "chapter": "GPKE",
+    "section": "6.43.1: AD: Reklamation einer Definition des NB vom MSB an NB",
+    "ebd_name": "E_0549_Reklamation prüfen",
+    "role": "NB",
+    "remark": null,
+    "release_information": {
+      "version": "4.1",
+      "release_date": "2026-01-16",
+      "original_release_date": "2025-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2510",
+        "pruefidentifikator": "19123"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Reklamiert der Anfragende das Fehlen der ausgerollten Zählzeitdefinition?",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Entspricht der Code der Zählzeitdefinition einem Code aus der für den reklamierten Zeitraum gültigen Übersicht der Zählzeitdefinitionen?",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "Wurde die ausgerollte Zählzeitdefinition an den Anfragenden versendet?",
+      "note": null
+    },
+    {
+      "step_number": "40",
+      "question": "Reklamiert der Anfragende eine unplausible ausgerollte Zählzeitdefinition?",
+      "note": null
+    },
+    {
+      "step_number": "50",
+      "question": "Wurde mit dem Code der Zählzeitdefinition bereits eine ausgerollte Zählzeitdefinition mit einer höheren Version versendet?",
+      "note": null
+    },
+    {
+      "step_number": "60",
+      "question": "Ist die versendete ausgerollte Zählzeitdefinition plausibel?",
+      "note": null
+    },
+    {
+      "step_number": "70",
+      "question": "Reklamiert der Anfragende das Fehlen der ausgerollten Schaltzeitdefinition?",
+      "note": null
+    },
+    {
+      "step_number": "80",
+      "question": "Entspricht der Code der Schaltzeitdefinition einem Code aus der für den reklamierten Zeitraum gültigen Übersicht der Schaltzeitdefinitionen?",
+      "note": null
+    },
+    {
+      "step_number": "90",
+      "question": "Wurde die ausgerollte Schaltzeitdefinition an den Anfragenden versendet?",
+      "note": null
+    },
+    {
+      "step_number": "100",
+      "question": "Reklamiert der MSB eine unplausible ausgerollte Schaltzeitdefinition?",
+      "note": null
+    },
+    {
+      "step_number": "110",
+      "question": "Wurde mit dem Code der Schaltzeitdefinition bereits eine ausgerollte Schaltzeitdefinition mit einer höheren Version versendet?",
+      "note": null
+    },
+    {
+      "step_number": "120",
+      "question": "Ist die versendete ausgerollte Schaltzeitdefinition plausibel?",
+      "note": null
+    },
+    {
+      "step_number": "130",
+      "question": "Reklamiert der Anfragende das Fehlen der ausgerollten Leistungskurvendefinition?",
+      "note": null
+    },
+    {
+      "step_number": "140",
+      "question": "Entspricht der Code der Leistungskurvendefinition einem Code aus der für den reklamierten Zeitraum gültigen Übersicht der Leistungskurvendefinition?",
+      "note": null
+    },
+    {
+      "step_number": "150",
+      "question": "Wurde die ausgerollte Leistungskurvendefinition an den Anfragenden versendet?",
+      "note": null
+    },
+    {
+      "step_number": "160",
+      "question": "Reklamiert der Anfragende eine unplausible ausgerollte Leistungskurvendefinition?",
+      "note": null
+    },
+    {
+      "step_number": "170",
+      "question": "Wurde mit dem Code der Leistungskurvendefinition bereits eine ausgerollte Leistungskurvendefinition mit einer höheren Version versendet?",
+      "note": null
+    },
+    {
+      "step_number": "180",
+      "question": "Ist die versendete ausgerollte Leistungskurvendefinition plausibel?",
+      "note": null
+    },
+    {
+      "step_number": "200",
+      "question": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Code der Zählzeitdefinition wird nicht verwendet"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Ausgerollte Zählzeitdefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Zählzeitdefinition übermittelt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Es wurde bereits eine ausgerollte Zählzeitdefinition für den Code der Zählzeitdefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Zählzeitdefinition übermittelt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Ausgerollte Zählzeitdefinition ist plausibel"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Code der Schaltzeitdefinition wird nicht verwendet"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "80",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            },
+            {
+              "step_number": "80",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Ausgerollte Schaltzeitdefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Schaltzeitdefinition übermittelt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "80",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "90",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            },
+            {
+              "step_number": "80",
+              "answer": true
+            },
+            {
+              "step_number": "90",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A07",
+      "result_code": "A07",
+      "notes": [
+        "Es wurde bereits eine ausgerollte Schaltzeitdefinition für den Code der Schaltzeitdefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Schaltzeitdefinition übermittelt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "110",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": true
+            },
+            {
+              "step_number": "110",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A08",
+      "result_code": "A08",
+      "notes": [
+        "Ausgerollte Schaltzeitdefinition ist plausibel"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "110",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "120",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": true
+            },
+            {
+              "step_number": "110",
+              "answer": false
+            },
+            {
+              "step_number": "120",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A09",
+      "result_code": "A09",
+      "notes": [
+        "Code der Leistungskurvendefinition wird nicht verwendet"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "130",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "140",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": true
+            },
+            {
+              "step_number": "140",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A10",
+      "result_code": "A10",
+      "notes": [
+        "Ausgerollte Leistungskurvendefinition wurde versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Leistungskurvendefinition übermittelt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "130",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "140",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "150",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": true
+            },
+            {
+              "step_number": "140",
+              "answer": true
+            },
+            {
+              "step_number": "150",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A11",
+      "result_code": "A11",
+      "notes": [
+        "Es wurde bereits eine ausgerollte Leistungskurvendefinition für den Code der Leistungskurvendefinition mit einer höheren Version versendet\nHinweis: Es ist als Referenz der Geschäftsvorfall zu benennen, mit welchem die ausgerollte Leistungskurvendefinition übermittelt wurde."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "130",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "160",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "170",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": false
+            },
+            {
+              "step_number": "160",
+              "answer": true
+            },
+            {
+              "step_number": "170",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A12",
+      "result_code": "A12",
+      "notes": [
+        "Ausgerollte Leistungskurvendefinition ist plausibel"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "130",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "160",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "170",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "180",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": false
+            },
+            {
+              "step_number": "160",
+              "answer": true
+            },
+            {
+              "step_number": "170",
+              "answer": false
+            },
+            {
+              "step_number": "180",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A99",
+      "result_code": "A99",
+      "notes": [
+        "Ablehnung Sonstiges\nHinweis: Das identifizierte Problem ist in der Antwort zu beschreiben/benennen.\nNutzungsmöglichkeit Ende: 01.04.2026 00:00 Uhr"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "200",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "80",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "90",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "110",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "120",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "130",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "140",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "150",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "160",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "170",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "180",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "route_count": 7,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": false
+            },
+            {
+              "step_number": "160",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": false
+            },
+            {
+              "step_number": "160",
+              "answer": true
+            },
+            {
+              "step_number": "170",
+              "answer": false
+            },
+            {
+              "step_number": "180",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": true
+            },
+            {
+              "step_number": "140",
+              "answer": true
+            },
+            {
+              "step_number": "150",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": true
+            },
+            {
+              "step_number": "110",
+              "answer": false
+            },
+            {
+              "step_number": "120",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            },
+            {
+              "step_number": "80",
+              "answer": true
+            },
+            {
+              "step_number": "90",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Korrektur der Definition und die erneute Übermittlung durchführen.",
+      "result_code": null,
+      "notes": [
+        "Korrektur der Definition und die erneute Übermittlung durchführen."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "200",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "80",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "90",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "100",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "110",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "120",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "130",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "140",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "150",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "160",
+          "answers": [
+            false,
+            true
+          ]
+        },
+        {
+          "step_number": "170",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "180",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "route_count": 7,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": false
+            },
+            {
+              "step_number": "160",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": false
+            },
+            {
+              "step_number": "160",
+              "answer": true
+            },
+            {
+              "step_number": "170",
+              "answer": false
+            },
+            {
+              "step_number": "180",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": false
+            },
+            {
+              "step_number": "130",
+              "answer": true
+            },
+            {
+              "step_number": "140",
+              "answer": true
+            },
+            {
+              "step_number": "150",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "100",
+              "answer": true
+            },
+            {
+              "step_number": "110",
+              "answer": false
+            },
+            {
+              "step_number": "120",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            },
+            {
+              "step_number": "80",
+              "answer": true
+            },
+            {
+              "step_number": "90",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            },
+            {
+              "step_number": "200",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A01",
+        "A02",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "40",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "50",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "50",
+      "answer": true,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "60",
+      "answer": false,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "60",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "70",
+      "answer": false,
+      "reachable_result_codes": [
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "70",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A06",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "80",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "80",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "90",
+      "answer": false,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "90",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "100",
+      "answer": false,
+      "reachable_result_codes": [
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "100",
+      "answer": true,
+      "reachable_result_codes": [
+        "A07",
+        "A08",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "110",
+      "answer": false,
+      "reachable_result_codes": [
+        "A08",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "110",
+      "answer": true,
+      "reachable_result_codes": [
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "120",
+      "answer": false,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "120",
+      "answer": true,
+      "reachable_result_codes": [
+        "A08"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "130",
+      "answer": false,
+      "reachable_result_codes": [
+        "A11",
+        "A12",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "130",
+      "answer": true,
+      "reachable_result_codes": [
+        "A09",
+        "A10",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "140",
+      "answer": false,
+      "reachable_result_codes": [
+        "A09"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "140",
+      "answer": true,
+      "reachable_result_codes": [
+        "A10",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "150",
+      "answer": false,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "150",
+      "answer": true,
+      "reachable_result_codes": [
+        "A10"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "160",
+      "answer": false,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "160",
+      "answer": true,
+      "reachable_result_codes": [
+        "A11",
+        "A12",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "170",
+      "answer": false,
+      "reachable_result_codes": [
+        "A12",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "170",
+      "answer": true,
+      "reachable_result_codes": [
+        "A11"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "180",
+      "answer": false,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "180",
+      "answer": true,
+      "reachable_result_codes": [
+        "A12"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "200",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "200",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    }
+  ]
+}

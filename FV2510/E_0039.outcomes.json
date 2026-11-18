@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "ebd_code": "E_0039",
+    "chapter": "MaBiS",
+    "section": "7.39.1: AD: Anforderung und Übermittlung Bilanzkreiszuordnungsliste zwischen ÜNB und BKV (Einzelanforderung)",
+    "ebd_name": "E_0039_Einzelanforderung prüfen",
+    "role": "ÜNB",
+    "remark": null,
+    "release_information": {
+      "version": "4.1",
+      "release_date": "2026-01-16",
+      "original_release_date": "2025-04-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2510",
+        "pruefidentifikator": "55067"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "1",
+      "question": "Sind in dem angefragten Gebiet (Bilanzierungsgebiet oder Regelzone) für diesen Bilanzkreis LF-SZR zum angegebenen Zeitpunkt gültig?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Kein Lieferant zugeordnet"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ende",
+      "result_code": null,
+      "notes": [],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "1",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "1",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "1",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "1",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    }
+  ]
+}
