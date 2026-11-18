@@ -10,7 +10,7 @@
       "version": "4.3",
       "release_date": "2026-06-23",
       "original_release_date": "2026-04-01",
-      "rebdhuhn_version": "v1.3.0",
+      "rebdhuhn_version": "v1.3.1",
       "ebdamame_version": "v1.0.1"
     },
     "pruefidentifikatoren": [
@@ -1111,6 +1111,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             false
@@ -1122,6 +1128,10 @@
       "routes": [
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": false
@@ -1138,6 +1148,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -1156,6 +1172,10 @@
       "routes": [
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -1176,6 +1196,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -1201,6 +1227,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -1224,6 +1254,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -1255,6 +1291,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -1282,6 +1322,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -1319,6 +1365,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -1350,6 +1400,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -1457,6 +1513,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -1500,6 +1560,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -1557,6 +1621,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -1608,6 +1676,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -1672,6 +1744,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -1724,6 +1800,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -1797,6 +1877,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -1866,6 +1952,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -1897,6 +1987,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -1937,6 +2031,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -1985,6 +2083,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -2067,6 +2171,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -2106,6 +2214,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -2154,6 +2266,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -2210,6 +2326,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -2311,6 +2433,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -2350,6 +2476,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -2403,6 +2533,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -2450,6 +2584,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -2510,6 +2648,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -2558,6 +2700,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -2626,6 +2772,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -2745,6 +2897,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -2796,6 +2952,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -2861,6 +3021,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -2920,6 +3084,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -2992,6 +3160,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -3052,6 +3224,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -3132,6 +3308,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -3251,6 +3433,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -3302,6 +3488,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -3367,6 +3557,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -3426,6 +3620,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -3498,6 +3696,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -3558,6 +3760,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -3638,6 +3844,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -3782,6 +3994,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -3846,6 +4062,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -3909,6 +4129,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -3986,6 +4210,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -4061,6 +4289,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -4134,6 +4366,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -4205,6 +4441,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -4290,6 +4530,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -4373,6 +4617,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -4446,6 +4694,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -4517,6 +4769,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -4601,6 +4857,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -4693,6 +4953,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -4862,6 +5128,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -5037,6 +5309,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -5224,6 +5502,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -5424,6 +5708,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -5631,6 +5921,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -5862,6 +6158,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -6113,6 +6415,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -7379,6 +7687,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -8651,6 +8965,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -9926,6 +10246,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -11199,6 +11525,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -12474,6 +12806,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -13746,6 +14084,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -15020,6 +15364,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -16293,6 +16643,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -17563,6 +17919,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -18830,6 +19192,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -20099,6 +20467,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -21366,6 +21740,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -22635,6 +23015,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -23901,6 +24287,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -25169,6 +25561,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -26434,6 +26832,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -27703,6 +28107,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -28971,6 +29381,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -30242,6 +30658,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -31507,6 +31929,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -32776,6 +33204,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -34047,6 +34481,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -35317,6 +35757,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -36586,6 +37032,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -37852,6 +38304,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -39124,6 +39582,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -40395,6 +40859,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -41665,6 +42135,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -42931,6 +43407,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -44200,6 +44682,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -45471,6 +45959,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -46740,6 +47234,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -48008,6 +48508,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -49274,6 +49780,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -50546,6 +51058,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -51814,6 +52332,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -53168,6 +53692,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -54519,6 +55049,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -55872,6 +56408,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -57224,6 +57766,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -58584,6 +59132,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -59951,6 +60505,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -61325,6 +61885,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -62725,6 +63291,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -64117,6 +64689,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -65531,6 +66109,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -66937,6 +67521,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -68205,6 +68795,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -69499,6 +70095,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -69636,6 +70238,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -69696,6 +70302,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -69755,6 +70365,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -69828,6 +70442,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -69899,6 +70517,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -69968,6 +70590,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -70035,6 +70661,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -70116,6 +70746,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -70195,6 +70829,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -70264,6 +70902,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -70331,6 +70973,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -70411,6 +71057,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -70499,6 +71149,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -70643,6 +71299,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -70707,6 +71367,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -70770,6 +71434,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -70847,6 +71515,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -70922,6 +71594,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -70995,6 +71671,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -71066,6 +71746,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -71151,6 +71835,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -71234,6 +71922,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -71307,6 +71999,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -71378,6 +72074,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -71462,6 +72162,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -71554,6 +72258,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -72828,6 +73538,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -74101,6 +74817,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -75372,6 +76094,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -76645,6 +77373,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -77916,6 +78650,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -79184,6 +79924,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -80456,6 +81202,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -81723,6 +82475,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -81982,6 +82740,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -82131,6 +82895,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -82199,6 +82967,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -82266,6 +83038,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -82347,6 +83123,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -82426,6 +83206,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -82503,6 +83287,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -82578,6 +83366,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -82667,6 +83459,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -82754,6 +83550,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -82831,6 +83631,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -82906,6 +83710,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -82994,6 +83802,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -83090,6 +83902,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -84521,6 +85339,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -85796,6 +86620,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -87061,6 +87891,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -88330,6 +89166,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -89597,6 +90439,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -90869,6 +91717,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -92138,6 +92992,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -93405,6 +94265,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -94669,6 +95535,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -95938,6 +96810,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -97210,6 +98088,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -98478,6 +99362,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -99745,6 +100635,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -101017,6 +101913,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -102283,6 +103185,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -103551,6 +104459,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -104817,10 +105731,26 @@
         "Cluster: Ablehnung auf Kopfebene \nDer LF lehnt die Zahlung der Rechnung weiterhin ab, da der NB nicht alle Einwände des LF entkräften konnte.\nHinweis: Der Einwand ist in der Antwort zu beschreiben."
       ],
       "has_subsequent_steps": false,
-      "certain_steps": [],
+      "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            false
+          ]
+        }
+      ],
       "possible_steps": [],
-      "route_count": 0,
-      "routes": []
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "0",
+              "answer": false
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "AC2",
@@ -104830,6 +105760,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -106098,6 +107034,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -107451,6 +108393,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -108802,6 +109750,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -110196,6 +111150,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -111463,6 +112423,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -111550,6 +112516,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -111593,6 +112563,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -111645,6 +112619,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -111705,6 +112683,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -111799,6 +112783,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -111846,6 +112834,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -111902,6 +112894,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -111966,6 +112962,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -113236,6 +114238,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -114503,6 +115511,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -115772,6 +116786,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -117072,6 +118092,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -118335,6 +119361,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -119600,6 +120632,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -120864,6 +121902,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -122132,6 +123176,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -123398,6 +124448,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -124662,6 +125718,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -125931,6 +126993,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -126118,6 +127186,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -126261,6 +127335,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -126325,6 +127403,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -126388,6 +127470,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -126465,6 +127551,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -126540,6 +127630,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -126613,6 +127707,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -126684,6 +127782,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -126769,6 +127871,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -126852,6 +127958,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -126925,6 +128035,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -126996,6 +128110,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -127080,6 +128198,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -127172,6 +128294,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -128438,6 +129566,12 @@
       ],
       "has_subsequent_steps": true,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -129706,6 +130840,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -130973,6 +132113,12 @@
       "has_subsequent_steps": true,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -132235,6 +133381,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -132289,6 +133441,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -132332,6 +133488,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -132565,6 +133727,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -132619,6 +133787,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -132662,6 +133834,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -134100,6 +135278,12 @@
       "has_subsequent_steps": false,
       "certain_steps": [
         {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
+        {
           "step_number": "1",
           "answers": [
             true
@@ -134249,6 +135433,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -134317,6 +135505,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -134384,6 +135576,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -134465,6 +135661,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -134544,6 +135744,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -134621,6 +135825,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -134696,6 +135904,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -134785,6 +135997,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -134872,6 +136088,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -134949,6 +136169,10 @@
         {
           "steps": [
             {
+              "step_number": "0",
+              "answer": true
+            },
+            {
               "step_number": "1",
               "answer": true
             },
@@ -135024,6 +136248,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -135112,6 +136340,10 @@
         },
         {
           "steps": [
+            {
+              "step_number": "0",
+              "answer": true
+            },
             {
               "step_number": "1",
               "answer": true
@@ -135208,6 +136440,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
@@ -136645,6 +137883,12 @@
       ],
       "has_subsequent_steps": false,
       "certain_steps": [
+        {
+          "step_number": "0",
+          "answers": [
+            true
+          ]
+        },
         {
           "step_number": "1",
           "answers": [
