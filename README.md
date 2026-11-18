@@ -31,7 +31,7 @@ Damit KI-Assistenten (z. B. Claude, GitHub Copilot, opencode) und Programme die 
 - `<FV>/<EBD>.outcomes.json` — je EBD mit Tabelle: welche Prüfschritte ein Ergebniscode impliziert und welche Codes nach einer Antwort noch erreichbar sind (ab `FV2510`; berechnet mit [`rebdhuhn.explain_outcomes`](https://github.com/Hochfrequenz/rebdhuhn#explain-the-outcomes-which-checks-lead-to-a-result-code)).
 - `<FV>/ebd_outcomes.schema.json` — JSON-Schema der `<EBD>.outcomes.json`-Dateien.
 
-Für Menschen gibt es dieselben Diagramme in der Web-Ansicht, per Deep-Link direkt auf einen EBD: `https://ebd.hochfrequenz.de/ebd/?formatversion=<FV>&ebd=<EBD>` (z. B. [E_0003 in FV2610](https://ebd.hochfrequenz.de/ebd/?formatversion=FV2610&ebd=E_0003)). KI-Assistenten sollten ihren Nutzer:innen neben den Rohdaten diesen Link mitgeben.
+Für Menschen gibt es dieselben Diagramme in der Web-Ansicht, per Deep-Link direkt auf einen EBD: `https://ebd.hochfrequenz.de/ebd/?formatversion=<FV>&ebd=<EBD>` (z. B. [E_0003 in FV2610](https://ebd.hochfrequenz.de/ebd/?formatversion=FV2610&ebd=E_0003)). KI-Assistenten sollten ihren Nutzer:innen neben den Rohdaten diesen Link mitgeben. Die Web-Ansicht erfordert eine Anmeldung; ohne Anmeldung landet der Link auf der Startseite und muss danach erneut geöffnet werden.
 
 Einzelne Dateien sind stabil über Roh-URLs abrufbar: `https://raw.githubusercontent.com/Hochfrequenz/machine-readable_entscheidungsbaumdiagramme/main/<FV>/<EBD>.<ext>`.
 

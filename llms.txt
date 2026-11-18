@@ -41,6 +41,8 @@ mit `<FV>` ∈ den Formatversionen aus `format_versions.json`, `<EBD>` = EBD-Ken
   Nutze `ebd_name`/`chapter`/`section` für die natürlichsprachliche Suche → `ebd_code`.
 - **`/<FV>/pruefi_to_key.json`** — **Prüfidentifikator → EBD-Kennung**. Der wichtigste Lookup, denn
   Nutzer:innen zitieren Prüfidentifikatoren (z. B. `55002`) direkt aus AHBs/EDIFACT.
+  Achtung: je Prüfidentifikator steht hier nur **ein** EBD; gehört er zu mehreren (häufig!), fehlen die
+  übrigen. Für eine vollständige Liste `index.json` nach dem Prüfidentifikator durchsuchen.
 - **`/<FV>/ebd.schema.json`** — JSON-Schema der `<EBD>.json`-Dateien (Knoten, Prüfschritte, Ergebnisse).
 - **`/<FV>/ebd_outcomes.schema.json`** — JSON-Schema der `<EBD>.outcomes.json`-Dateien (falls vorhanden).
 
@@ -50,9 +52,15 @@ Es werden nur erfolgreich verarbeitete EBDs gelistet; für jeden Eintrag existie
 ## Ergebniscode erklären (`<EBD>.outcomes.json`)
 
 Typische Frage: „Ich habe im EBD `E_0003` den Antwortcode `A02` erhalten – welche Prüfungen sind damit
-durchlaufen worden?“ Dafür muss der Baum **nicht** selbst abgelaufen werden: `<FV>/<EBD>.outcomes.json`
-enthält die Antwort vorberechnet. Antwortcodes sind **nicht** EBD-übergreifend eindeutig (z. B. kommt `A99`
-in Dutzenden EBDs vor) – immer zuerst den EBD bestimmen (Prüfidentifikator → `pruefi_to_key.json`).
+durchlaufen worden?“ `<FV>/<EBD>.outcomes.json` enthält die Antwort vorberechnet, sodass der Baum in der
+Regel nicht selbst abgelaufen werden muss (Grenzen siehe „Wichtig für die Interpretation“).
+
+Antwortcodes sind **nicht** EBD-übergreifend eindeutig (z. B. kommt `A99` in Dutzenden EBDs vor, mit je
+eigener Bedeutung) – immer zuerst den EBD bestimmen. Vorsicht beim Weg über den Prüfidentifikator:
+`pruefi_to_key.json` nennt je Prüfidentifikator nur **einen** EBD, obwohl viele Prüfidentifikatoren zu
+mehreren EBDs gehören (in `FV2610` z. B. `21043` → `E_0526`, `E_0528`, `E_0529`, `E_0535`, `E_0536`).
+Deshalb in `index.json` alle Einträge suchen, deren `pruefidentifikatoren` den Wert enthalten, und bei
+mehreren Kandidaten anhand von Prozess/Rolle (`ebd_name`, `section`, `role`) auswählen oder nachfragen.
 
 Aufbau (Details: `ebd_outcomes.schema.json`):
 
@@ -72,14 +80,27 @@ Wichtig für die Interpretation:
 - Enthält der EBD Schleifen, kann ein Schritt mehrfach durchlaufen werden. Dann ist `route_count`/`routes`
   ggf. `null`, `answers` meint die Antwort beim **letzten** Durchlauf, und `possible_steps` enthält auch
   Schritte, die nur über die Schleife erreicht werden.
-- `has_wildcard_outcome: true` heißt: der EBD hat ein Ergebnis mit dem Platzhaltercode `A**` („irgendein Code,
-  siehe Hinweis“). Ein erhaltener Code kann dann auch aus diesem Ergebnis stammen – dessen `notes` und
-  Schritte mitlesen.
+- `has_wildcard_outcome: true` heißt: der EBD hat ein Ergebnis mit dem Platzhaltercode `A**` („wird durch
+  den richtigen Code ersetzt“, die möglichen Codes stehen in dessen `notes`). Ein erhaltener Code kann dann
+  **auch** aus diesem Ergebnis stammen, manche Codes gibt es sogar nur dort. Die Einträge werden rein nach
+  dem wörtlichen Code gebildet: `certain_steps` des Eintrags `A01` gelten nur für den Knoten, an dem wörtlich
+  `A01` steht. Beispiel `FV2610/E_0061`: `A01` nennt die Schritte 1–3 als sicher, `A01` kann aber laut `notes`
+  von `A**` schon nach Schritt 1 entstehen. In solchen EBDs den wörtlichen Eintrag und `A**` als alternative
+  Herkünfte behandeln und nur das als sicher bezeichnen, was für beide gilt.
+- `route_count: 0` mit leeren Schrittlisten heißt **nicht** „keine Prüfung nötig“, sondern: im berechneten
+  Graphen führt kein Weg vom Start zu diesem Ergebnis. Das deutet auf eine Besonderheit der Tabelle hin
+  (bekannt: `E_0407`, dessen Tabelle mit Schritt 0 beginnt; dort fehlt Schritt 0 derzeit in allen Wegen, siehe
+  https://github.com/Hochfrequenz/rebdhuhn/issues/645). Dann die Tabelle in `<EBD>.json` direkt lesen.
+- Fehlt die `.outcomes.json`, obwohl die Formatversion welche hat, hat der EBD keine Tabelle (`rows` leer).
+  Dann steht in `metadata.remark` der `<EBD>.json` meist ein Verweis (z. B. `FV2610/E_0535`: „Es ist das EBD
+  E_0528 zu nutzen.“) – diesem Verweis folgen.
 - `multi_step_instructions` (falls nicht `null`) sind Anweisungen, die für mehrere Folgeschritte gelten
   (z. B. „alle Treffer prüfen, Codes sammeln“). Sie werden durchgereicht, aber **nicht** ausgewertet; die Wege
   ergeben sich allein aus der Struktur des Baums.
-- Bei `A99` („Sonstiges“) liefert der Absender üblicherweise einen Freitext mit; die Datei sagt nur, welche
-  Prüfungen vorher durchlaufen sein müssen.
+- Die Bedeutung eines Codes steht in den `notes` des jeweiligen Ergebnisses und gilt nur für diesen EBD.
+  `A99` ist oft „Sonstiges“ (dann liefert der Absender üblicherweise einen Freitext mit), aber nicht immer:
+  in `FV2610/E_0516` bedeutet `A99` „Die Rechnung wird als korrekt angesehen“. Nie aus dem Code allein auf die
+  Bedeutung schließen.
 - Große EBDs mit Schleifen (z. B. `E_0406`, `E_0407`) haben Dateien von rund 3 MB – dort gezielt nur den
   gesuchten `outcomes`-Eintrag auswerten.
 
@@ -92,10 +113,15 @@ Rohdateien sind für Maschinen. Wenn ein Mensch den Baum ansehen soll, verlinke 
 https://ebd.hochfrequenz.de/ebd/?formatversion=<FV>&ebd=<EBD>
 ```
 
-z. B. `https://ebd.hochfrequenz.de/ebd/?formatversion=FV2610&ebd=E_0003`. Statt einer konkreten Formatversion
-kann `formatversion=current` angegeben werden (die aktuell gültige). Die Web-Ansicht zeigt nur EBDs mit
-gerendertem Diagramm (`.svg`), kann dem Datenstand dieses Repositories etwas hinterherhinken und
-erfordert eine Anmeldung.
+z. B. `https://ebd.hochfrequenz.de/ebd/?formatversion=FV2610&ebd=E_0003`.
+
+- Immer die **konkrete** Formatversion verlinken, auf die sich die Antwort bezieht. `formatversion=current`
+  gibt es zwar, die Web-Ansicht weicht aber auf ihre neueste vorhandene Formatversion aus, wenn sie die
+  aktuell gültige noch nicht enthält – dann sähe der Mensch einen anderen Stand als den erklärten.
+- Die Web-Ansicht erfordert eine Anmeldung. Ohne Anmeldung landet der Link auf der Startseite; darauf
+  hinweisen, den Link **nach** der Anmeldung erneut zu öffnen.
+- Sie zeigt nur EBDs mit gerendertem Diagramm (`.svg`) und kann dem Datenstand dieses Repositories etwas
+  hinterherhinken.
 
 ## Python
 
@@ -127,13 +153,20 @@ outcomes = EbdOutcomes.model_validate_json(requests.get(f"{base}/E_0003.outcomes
 2. `FV<…>/index.json` laden, gegen `ebd_name`/`chapter`/`section` matchen → `ebd_code`.
 3. `<ebd_code>.json`/`.puml` über den Roh-URL-Vertrag laden.
 
-**„Ich habe im EBD zu Prüfidentifikator 55002 den Code A05 bekommen – warum?“:**
-1. Formatversion wählen, `FV<…>/pruefi_to_key.json` → `ebd_code`.
-2. `FV<…>/<ebd_code>.outcomes.json` laden, in `outcomes` den Eintrag mit `result_code == "A05"` suchen.
-3. `certain_steps` (mit den Fragen aus `steps`) als „sicher durchlaufen“ erklären, `possible_steps` als
-   „je nach Weg“; `notes` des Ergebnisses nennen; bei `has_wildcard_outcome` den `A**`-Eintrag erwähnen.
-4. Dem/der Nutzer:in den Deep-Link zur Web-Ansicht mitgeben (siehe oben).
-   Fehlt die `.outcomes.json` (ältere Formatversion), den Baum anhand `<ebd_code>.json` selbst ablaufen.
+**„Ich habe zu Prüfidentifikator 55002 den Code A50 bekommen – warum?“ (Stand `FV2610`):**
+1. `FV2610/index.json` nach Einträgen mit `55002` in `pruefidentifikatoren` durchsuchen → hier genau
+   `E_0623` (bei mehreren Treffern auswählen/nachfragen, siehe oben).
+2. `FV2610/E_0623.outcomes.json` laden, in `outcomes` den Eintrag mit `result_code == "A50"` suchen.
+3. Ergebnis erklären: `notes` („Der LFA hat der Anfrage zur Beendigung der Zuordnung widersprochen“),
+   `certain_steps` mit den Fragen aus `steps` (hier Schritte 10, 20, 30, 40 mit „ja“, Schritt 50 mit „nein“;
+   `route_count` 1, also genau ein Weg). `possible_steps` wären „je nach Weg“. `has_wildcard_outcome` und
+   `multi_step_instructions` prüfen (hier `false`/`null`).
+4. Den Deep-Link mitgeben: `https://ebd.hochfrequenz.de/ebd/?formatversion=FV2610&ebd=E_0623`.
+
+Ältere Formatversionen (vor `FV2510`) haben weder `.outcomes.json` noch `index.json`/`pruefi_to_key.json`.
+Dort steht die Zuordnung, sofern vorhanden, nur in `metadata.pruefidentifikatoren` der einzelnen
+`<EBD>.json`; die EBD-Kennung also vom/von der Nutzer:in erfragen oder aus einer neueren Formatversion
+ableiten und prüfen, ob `<FV>/<EBD>.json` existiert. Den Baum dann anhand der `rows` selbst ablaufen.
 
 **Formatversionen vergleichen** („Was hat sich an `E_0623` zwischen `FV2510` und `FV2610` geändert?"):
 Beide `<FV>/E_0623.json` laden und anhand des `ebd.schema.json` semantisch vergleichen.
