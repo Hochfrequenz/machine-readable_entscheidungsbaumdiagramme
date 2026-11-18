@@ -1,0 +1,1100 @@
+{
+  "metadata": {
+    "ebd_code": "E_0804",
+    "chapter": "Prozesse zur Ermittlung und Abrechnung von Mehr-/Mindermengen Strom und Gas",
+    "section": "11.3.2: AD: Mehr-/Mindermengenabrechnung zwischen NB und LF",
+    "ebd_name": "E_0804_Prüfen, ob Antwort auf Stornierung erforderlich (Basiert auf Strom EBD: E_0506_Prüfen, ob Antwort auf Stornierung erforderlich)",
+    "role": "LF",
+    "remark": null,
+    "release_information": {
+      "version": "4.2",
+      "release_date": "2026-06-23",
+      "original_release_date": "2025-10-01",
+      "rebdhuhn_version": "v1.3.0",
+      "ebdamame_version": "v1.0.1"
+    },
+    "pruefidentifikatoren": [
+      {
+        "format_version": "FV2604",
+        "pruefidentifikator": "33002"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step_number": "10",
+      "question": "Ist die zu stornierende Rechnung beim Empfänger bekannt?",
+      "note": null
+    },
+    {
+      "step_number": "15",
+      "question": "Liegt vom Rechnungssteller die in dieser Rechnung verwendete Rechnungsnummer bereits vor?",
+      "note": null
+    },
+    {
+      "step_number": "17",
+      "question": "Erfüllt die Rechnung weitere Anforderungen gem. §14 Abs. 4 UStG?",
+      "note": null
+    },
+    {
+      "step_number": "20",
+      "question": "Wurde die zu stornierende Rechnung bereits storniert?",
+      "note": null
+    },
+    {
+      "step_number": "30",
+      "question": "Ist der Rechnungstyp der Stornorechnung identisch mit dem Rechnungstyp der ursprünglichen Rechnung?",
+      "note": null
+    },
+    {
+      "step_number": "40",
+      "question": "Ist der Abrechnungszeitraum bzw. das Ausführungsdatum der Stornorechnung identisch mit dem Abrechnungszeitraum bzw. dem Ausführungsdatum der ursprünglichen Rechnung?",
+      "note": null
+    },
+    {
+      "step_number": "50",
+      "question": "Sind die mit (-1) multiplizierten Beträge der Stornorechnung mit den Beträgen der ursprünglichen Rechnung identisch?\n\nHinweis:\nAls Betrag ist der jeweilige Wert des jeweiligen MOA-Segments zu verstehen.",
+      "note": null
+    },
+    {
+      "step_number": "60",
+      "question": "Ist ein zuvor nicht spezifizierter Fehler aufgetreten?",
+      "note": null
+    },
+    {
+      "step_number": "70",
+      "question": "Wurde der ursprünglichen Rechnung zugestimmt?",
+      "note": null
+    },
+    {
+      "step_number": "80",
+      "question": "Wurde die ursprüngliche Rechnung abgelehnt?",
+      "note": null
+    }
+  ],
+  "multi_step_instructions": null,
+  "has_wildcard_outcome": false,
+  "outcomes": [
+    {
+      "key": "A01",
+      "result_code": "A01",
+      "notes": [
+        "Die zu stornierende Rechnung ist nicht vorhanden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "result_code": "A02",
+      "notes": [
+        "Die zu stornierende Rechnung wurde bereits storniert."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "result_code": "A03",
+      "notes": [
+        "Der Rechnungstyp der Stornorechnung ist nicht identisch mit dem Rechnungstyp der ursprünglichen Rechnung."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "result_code": "A04",
+      "notes": [
+        "Der Abrechnungszeitraum bzw. das Ausführungsdatum der Stornorechnung ist nicht identisch mit dem Abrechnungszeitraum bzw. dem Ausführungsdatum der ursprünglichen Rechnung."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "result_code": "A05",
+      "notes": [
+        "Mindestens ein Betrag der Stornorechnung passt nicht zu dem Betrag der ursprünglichen Rechnung."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "result_code": "A06",
+      "notes": [
+        "Rechnungsnummer wurde bereits verwendet."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A07",
+      "result_code": "A07",
+      "notes": [
+        "Rechnung entspricht nicht §14 Abs. 4 UStG"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            },
+            {
+              "step_number": "17",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A99",
+      "result_code": "A99",
+      "notes": [
+        "Ablehnung Sonstiges\n\nHinweis: \n\nDas identifizierte Problem ist in der Antwort zu beschreiben/benennen. \nNutzungsmöglichkeit Ende: 01.10.2026 00:00 Uhr"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            },
+            {
+              "step_number": "60",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Hinweis: \nWurde die ursprüngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden",
+      "result_code": null,
+      "notes": [
+        "Hinweis: \nWurde die ursprüngliche Rechnung mit einem Nichtzahlungsavis abgelehnt, dann ist auf die Stornorechnung keine Antwort zu senden"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "80",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "80",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Hinweis: \nWurde die ursprüngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden.",
+      "result_code": null,
+      "notes": [
+        "Hinweis: \nWurde die ursprüngliche Rechnung noch nicht beantwortet, weder mit einem Zahlungsavis noch mit einem Nichtzahlungsavis, dann ist weder auf die Rechnung noch auf die Stornorechnung eine Antwort zu senden."
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "80",
+          "answers": [
+            false
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": false
+            },
+            {
+              "step_number": "80",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Stornorechnung zustimmen und im Zahlungslauf berücksichtigen",
+      "result_code": null,
+      "notes": [
+        "Stornorechnung zustimmen und im Zahlungslauf berücksichtigen"
+      ],
+      "has_subsequent_steps": false,
+      "certain_steps": [
+        {
+          "step_number": "10",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "15",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "17",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "20",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "30",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "40",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "50",
+          "answers": [
+            true
+          ]
+        },
+        {
+          "step_number": "60",
+          "answers": [
+            false
+          ]
+        },
+        {
+          "step_number": "70",
+          "answers": [
+            true
+          ]
+        }
+      ],
+      "possible_steps": [],
+      "route_count": 1,
+      "routes": [
+        {
+          "steps": [
+            {
+              "step_number": "10",
+              "answer": true
+            },
+            {
+              "step_number": "15",
+              "answer": false
+            },
+            {
+              "step_number": "17",
+              "answer": true
+            },
+            {
+              "step_number": "20",
+              "answer": false
+            },
+            {
+              "step_number": "30",
+              "answer": true
+            },
+            {
+              "step_number": "40",
+              "answer": true
+            },
+            {
+              "step_number": "50",
+              "answer": true
+            },
+            {
+              "step_number": "60",
+              "answer": false
+            },
+            {
+              "step_number": "70",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "step_number": "10",
+      "answer": false,
+      "reachable_result_codes": [
+        "A01"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "10",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "15",
+      "answer": false,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A07",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "15",
+      "answer": true,
+      "reachable_result_codes": [
+        "A06"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "17",
+      "answer": false,
+      "reachable_result_codes": [
+        "A07"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "17",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "20",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03",
+        "A04",
+        "A05",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "20",
+      "answer": true,
+      "reachable_result_codes": [
+        "A02"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": false,
+      "reachable_result_codes": [
+        "A03"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "30",
+      "answer": true,
+      "reachable_result_codes": [
+        "A04",
+        "A05",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "40",
+      "answer": false,
+      "reachable_result_codes": [
+        "A04"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "40",
+      "answer": true,
+      "reachable_result_codes": [
+        "A05",
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "50",
+      "answer": false,
+      "reachable_result_codes": [
+        "A05"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "50",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "60",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "60",
+      "answer": true,
+      "reachable_result_codes": [
+        "A99"
+      ],
+      "can_reach_end_without_result_code": false
+    },
+    {
+      "step_number": "70",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "70",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "80",
+      "answer": false,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    },
+    {
+      "step_number": "80",
+      "answer": true,
+      "reachable_result_codes": [],
+      "can_reach_end_without_result_code": true
+    }
+  ]
+}
