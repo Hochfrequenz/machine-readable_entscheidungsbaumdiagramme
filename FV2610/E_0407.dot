@@ -385,7 +385,7 @@ Hinweis: Alle erkannten Antwortcodes aus der Summenebene sind zu übermitteln." 
     "Cluster: Zustimmung 
 Zahlung der Rechnung avisieren und im Zahlungslauf berücksichtigen." [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#c4cac1", label=<<FONT>Cluster: Zustimmung<BR align="left"/>Zahlung der Rechnung avisieren und im Zahlungslauf berücksichtigen.<BR align="left"/></FONT>>, fontname="Roboto, sans-serif"];
 
-    "Start" -> "1" [color="#88a0d6"];
+    "Start" -> "0" [color="#88a0d6"];
     "0" -> "AC1" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "0" -> "1" [label=<<B>JA</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
     "1" -> "A01" [label=<<B>NEIN</B>>, color="#88a0d6", fontname="Roboto, sans-serif"];
