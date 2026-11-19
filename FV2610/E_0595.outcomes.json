@@ -8,7 +8,7 @@
     "remark": null,
     "release_information": {
       "version": "4.3",
-      "release_date": "2026-06-23",
+      "release_date": "2026-11-19",
       "original_release_date": "2026-04-01",
       "rebdhuhn_version": "v1.3.1",
       "ebdamame_version": "v1.0.1"
@@ -77,7 +77,7 @@
     },
     {
       "step_number": "90",
-      "question": "Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose?",
+      "question": "Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose bzw. spezifische Arbeit?",
       "note": null
     },
     {
@@ -826,7 +826,7 @@
       "key": "A22",
       "result_code": "A22",
       "notes": [
-        "Cluster: keine Änderung der Daten\nDie Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose wurde nicht eingehalten."
+        "Cluster: keine Änderung der Daten\nDie Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose oder spezifische Arbeit wurde nicht eingehalten."
       ],
       "has_subsequent_steps": false,
       "certain_steps": [

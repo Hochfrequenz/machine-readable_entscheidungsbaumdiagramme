@@ -20,7 +20,7 @@ header
 endheader
 
 footer
-v4.3 | 23.06.2026 (urspr. 01.04.2026) | ebdamame v1.0.1 | rebdhuhn v1.3.1
+v4.3 | 19.11.2026 (urspr. 01.04.2026) | ebdamame v1.0.1 | rebdhuhn v1.3.1
 endfooter
 
 title
@@ -135,13 +135,13 @@ Hinweis: Wenn der Marktlokation zum Zeitpunkt der bestellten Änderung die Sonde
             else (nein)
             endif
         else (nein)
-            if (<b>90: </b> Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose?) then (ja)
+            if (<b>90: </b> Handelt es sich um eine Bestellung Änderung Bilanzkreis bzw. Jahresverbrauchsprognose bzw. spezifische Arbeit?) then (ja)
                 if (<b>100: </b> Wurde die Vorlauffrist von mindestens 7 WT vor dem Änderungszeitpunkt eingehalten?) then (ja)
                 else (nein)
                     :A22;
                     note left
                         Cluster: keine Änderung der Daten
-                        Die Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose wurde nicht eingehalten.
+                        Die Frist zur Änderung von Bilanzkreis oder Jahresverbrauchsprognose oder spezifische Arbeit wurde nicht eingehalten.
                     endnote
                     kill;
                 endif
