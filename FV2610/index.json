@@ -554,7 +554,7 @@
   },
   {
     "ebd_code": "E_0064",
-    "ebd_name": "E_0064_BK_SZR (Kategorie B) prüfen",
+    "ebd_name": "E_0064_BK-SZR (Kategorie B) prüfen",
     "chapter": "MaBiS",
     "section": "7.44.1: AD: Übermittlung Prüfmitteilung für die Bilanzkreissummenzeitreihe vom BKV an BIKO und ÜNB",
     "role": "BKV",
@@ -838,7 +838,7 @@
   },
   {
     "ebd_code": "E_0100",
-    "ebd_name": "E_0100 Profile bzw. Profilscharen prüfen",
+    "ebd_name": "E_0100_Profile bzw. Profilscharen prüfen",
     "chapter": "MaBiS",
     "section": "7.11.1: AD: Übermittlung von normierten Profilen und Profilscharen vom NB an LF",
     "role": "LF",
@@ -991,7 +991,7 @@
   },
   {
     "ebd_code": "E_0211",
-    "ebd_name": "E_0211_Nicht-Zahlungsavise prüfen",
+    "ebd_name": "E_0211_Nicht-Zahlungsavis prüfen",
     "chapter": "MaBiS",
     "section": "7.82.2: AD: Abrechnung Messstellenbetrieb gegenüber dem LF",
     "role": "N/A",
@@ -1204,7 +1204,7 @@
   },
   {
     "ebd_code": "E_0251",
-    "ebd_name": "E_0251_Mitteilung über Gesamtvorgang prüfen",
+    "ebd_name": "E_0251_Reklamation prüfen",
     "chapter": "MaBiS",
     "section": "7.93.1: AD: MSB der Marktlokation stellt selbst Reklamationsbedarf fest",
     "role": "N/A",
@@ -1222,7 +1222,7 @@
   },
   {
     "ebd_code": "E_0253",
-    "ebd_name": "E_0253_Angebot zur Anfrage prüfen",
+    "ebd_name": "E_0253_Angebot zur Ablehnung der Anfrage prüfen",
     "chapter": "MaBiS",
     "section": "7.94.2: AD: Anfrage und Bestellung von Werten durch den ESA",
     "role": "N/A",
@@ -1634,7 +1634,7 @@
   },
   {
     "ebd_code": "E_0452",
-    "ebd_name": "E_0452_Nicht-Zahlungsavise prüfen",
+    "ebd_name": "E_0452_Nicht-Zahlungsavis prüfen",
     "chapter": "GPKE",
     "section": "6.10.3: AD: Netznutzungsabrechnung",
     "role": "N/A",
@@ -1652,7 +1652,7 @@
   },
   {
     "ebd_code": "E_0458",
-    "ebd_name": "E_0458_Weitere Bearbeitung prüfen",
+    "ebd_name": "E_0458_weitere Bearbeitung prüfen",
     "chapter": "GPKE",
     "section": "6.9.2: AD: Übermittlung des Lieferscheins zur Netznutzungsabrechnung",
     "role": "N/A",
@@ -2557,7 +2557,7 @@
   },
   {
     "ebd_code": "E_0609",
-    "ebd_name": "E_0609_Abmeldung prüfen",
+    "ebd_name": "E_0609_ Ankündigung der Beendigung der Zuordnung prüfen",
     "chapter": "GPKE",
     "section": "6.4.1: AD: Lieferende von NB an LF",
     "role": "LF",
@@ -2621,7 +2621,7 @@
   },
   {
     "ebd_code": "E_0615",
-    "ebd_name": "E_0615_Anmeldung E/G prüfen",
+    "ebd_name": "E_0615_Ankündigung der Zuordnung prüfen",
     "chapter": "GPKE",
     "section": "6.7.1: AD: Beginn der Ersatz-/Grundversorgung",
     "role": "LF",
@@ -2652,7 +2652,7 @@
   },
   {
     "ebd_code": "E_0619",
-    "ebd_name": "E_0619 Rückmeldung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "ebd_name": "E_0619_Rückmeldung verarbeiten (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
     "chapter": "GPKE",
     "section": "6.16.3: AD: Abrechnungsdaten Bilanzkreisabrechnung",
     "role": "NB",
@@ -2662,7 +2662,7 @@
   },
   {
     "ebd_code": "E_0620",
-    "ebd_name": "E_0620_ Rückmeldung prüfen (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
+    "ebd_name": "E_0620_Rückmeldung verarbeiten (Basiert auf EBD: E_0626_Rückmeldung auf Änderung prüfen)",
     "chapter": "GPKE",
     "section": "6.8.2: AD: Abrechnungsdaten Netznutzungsabrechnung",
     "role": "NB",
@@ -2826,7 +2826,7 @@
   },
   {
     "ebd_code": "E_0801",
-    "ebd_name": "E_0801_MehrMinderMengen-Rechnung prüfen",
+    "ebd_name": "E_0801_MMM-Rechnung prüfen",
     "chapter": "Prozesse zur Ermittlung und Abrechnung von Mehr-/Mindermengen Strom und Gas",
     "section": "10.2.1: AD: Mehr-/Mindermengenabrechnung zwischen NB und LF",
     "role": "N/A",
@@ -3052,7 +3052,7 @@
     "ebd_code": "E_2002",
     "ebd_name": "Anmeldung Messstellenbetrieb prüfen",
     "chapter": "WiM Gas",
-    "section": "13.2.2: AD: Beginn Messstellenbetrieb",
+    "section": "13.2.5: AD: Beginn Messstellenbetrieb",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3060,7 +3060,7 @@
     "ebd_code": "E_2003",
     "ebd_name": "E_2003_Mitteilung über Gesamtvorgang prüfen",
     "chapter": "WiM Gas",
-    "section": "13.2.3: AD: Beginn Messstellenbetrieb",
+    "section": "13.2.1: AD: Beginn Messstellenbetrieb",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3068,7 +3068,7 @@
     "ebd_code": "E_2004",
     "ebd_name": "E_2004_Weiterverpflichtung prüfen",
     "chapter": "WiM Gas",
-    "section": "13.3.6: AD: Ende Messstellenbetrieb vom MSB an NB",
+    "section": "13.3.2: AD: Ende Messstellenbetrieb vom MSB an NB",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3076,15 +3076,15 @@
     "ebd_code": "E_2005",
     "ebd_name": "Abmeldung Messstellenbetrieb prüfen",
     "chapter": "WiM Gas",
-    "section": "13.3.4: AD: Ende Messstellenbetrieb vom MSB an NB",
+    "section": "13.3.1: AD: Ende Messstellenbetrieb vom MSB an NB",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
   {
     "ebd_code": "E_2006",
-    "ebd_name": "E_2006_Weiterverpflichtung prüfen",
+    "ebd_name": "E_2006_Verpflichtungsanfrage prüfen",
     "chapter": "WiM Gas",
-    "section": "13.3.3: AD: Ende Messstellenbetrieb vom MSB an NB",
+    "section": "13.3.1: AD: Ende Messstellenbetrieb vom MSB an NB",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3092,7 +3092,7 @@
     "ebd_code": "E_2007",
     "ebd_name": "Anzeige Gerätewechselabsicht prüfen und E_2008_Prüfen, ob Eigenausbau gewünscht",
     "chapter": "WiM Gas",
-    "section": "13.4.8: AD: Gerätewechsel",
+    "section": "13.4.2: AD: Gerätewechsel",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3124,7 +3124,7 @@
     "ebd_code": "E_2014",
     "ebd_name": "E_2014_Rechnung verarbeiten",
     "chapter": "WiM Gas",
-    "section": "13.6.4: AD: Störungsbehebung in der Messlokation",
+    "section": "13.6.1: AD: Störungsbehebung in der Messlokation",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3132,7 +3132,7 @@
     "ebd_code": "E_2015",
     "ebd_name": "E_2015_Rechnung verarbeiten",
     "chapter": "WiM Gas",
-    "section": "13.6.5: AD: Störungsbehebung in der Messlokation",
+    "section": "13.6.2: AD: Störungsbehebung in der Messlokation",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3140,15 +3140,15 @@
     "ebd_code": "E_2016",
     "ebd_name": "E_2016_Rechnung verarbeiten",
     "chapter": "WiM Gas",
-    "section": "13.6.6: AD: Störungsbehebung in der Messlokation",
+    "section": "13.6.3: AD: Störungsbehebung in der Messlokation",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
   {
     "ebd_code": "E_2017",
-    "ebd_name": "E_2017_Nichtzahlungsavis prüfen",
+    "ebd_name": "E_2017_Nicht-Zahlungsavis prüfen",
     "chapter": "WiM Gas",
-    "section": "13.6.7: AD: Störungsbehebung in der Messlokation",
+    "section": "13.6.4: AD: Störungsbehebung in der Messlokation",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3156,7 +3156,7 @@
     "ebd_code": "E_2018",
     "ebd_name": "E_2018_Storno verarbeiten",
     "chapter": "WiM Gas",
-    "section": "13.6.8: AD: Störungsbehebung in der Messlokation",
+    "section": "13.6.5: AD: Störungsbehebung in der Messlokation",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3164,7 +3164,7 @@
     "ebd_code": "E_2019",
     "ebd_name": "E_2019_Storno verarbeiten",
     "chapter": "WiM Gas",
-    "section": "13.6.9: AD: Störungsbehebung in der Messlokation",
+    "section": "13.6.6: AD: Störungsbehebung in der Messlokation",
     "role": "N/A",
     "pruefidentifikatoren": []
   },
@@ -3186,7 +3186,7 @@
   },
   {
     "ebd_code": "E_3003",
-    "ebd_name": "E_3003_Geschäftsdatenanfrage zu Stammdaten prüfen",
+    "ebd_name": "E_3003_Geschäftsdatenanfrage prüfen",
     "chapter": "GeLi Gas",
     "section": "12.19.1: AD: Geschäftsdatenanfrage vom LF an NB",
     "role": "N/A",
@@ -3460,7 +3460,7 @@
   },
   {
     "ebd_code": "E_3037",
-    "ebd_name": "E_3037_Geschäftsdatenanfrage zu Stammdaten prüfen",
+    "ebd_name": "E_3037_Geschäftsdatenanfrage prüfen",
     "chapter": "GeLi Gas",
     "section": "12.21.1: AD: Geschäftsdatenanfrage vom NB an MSB",
     "role": "N/A",
