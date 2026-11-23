@@ -10,7 +10,7 @@
       "version": "4.2",
       "release_date": "2026-06-23",
       "original_release_date": "2025-10-01",
-      "rebdhuhn_version": "v1.3.3",
+      "rebdhuhn_version": "v1.4.0",
       "ebdamame_version": "v1.0.2"
     },
     "pruefidentifikatoren": [
@@ -48,6 +48,8 @@
   ],
   "multi_step_instructions": null,
   "has_wildcard_outcome": false,
+  "assumed_answers": [],
+  "unreachable_steps": [],
   "outcomes": [
     {
       "key": "A02",
