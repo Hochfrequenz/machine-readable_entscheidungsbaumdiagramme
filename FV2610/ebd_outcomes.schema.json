@@ -1,5 +1,25 @@
 {
   "$defs": {
+    "AssumedAnswer": {
+      "additionalProperties": false,
+      "description": "An answer assumed for a decision step (what-if), see `explain_outcomes(assume=...)`.",
+      "properties": {
+        "answer": {
+          "title": "Answer",
+          "type": "boolean"
+        },
+        "step_number": {
+          "title": "Step Number",
+          "type": "string"
+        }
+      },
+      "required": [
+        "step_number",
+        "answer"
+      ],
+      "title": "AssumedAnswer",
+      "type": "object"
+    },
     "DecisionConsequence": {
       "additionalProperties": false,
       "description": "The forward direction: which result codes are still reachable after a given answer to a decision step.",
@@ -417,6 +437,14 @@
   "additionalProperties": false,
   "description": "The outcome lookup of one EBD.",
   "properties": {
+    "assumed_answers": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/AssumedAnswer"
+      },
+      "title": "Assumed Answers",
+      "type": "array"
+    },
     "decisions": {
       "items": {
         "$ref": "#/$defs/DecisionConsequence"
@@ -458,6 +486,14 @@
         "$ref": "#/$defs/StepDescription"
       },
       "title": "Steps",
+      "type": "array"
+    },
+    "unreachable_steps": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Unreachable Steps",
       "type": "array"
     }
   },
