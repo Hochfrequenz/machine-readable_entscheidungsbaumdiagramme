@@ -1,6 +1,6 @@
 digraph D {
     labelloc="t";
-    label=<<B><FONT POINT-SIZE="18">WiM Gas</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">13.3.3: AD: Ende Messstellenbetrieb vom MSB an NB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
+    label=<<B><FONT POINT-SIZE="18">WiM Gas</FONT></B><BR align="left"/><BR/><B><FONT POINT-SIZE="16">13.3.1: AD: Ende Messstellenbetrieb vom MSB an NB</FONT></B><BR align="left"/><BR/><BR/><BR/>>;
     ratio="compress";
     concentrate=true;
     pack=true;
@@ -9,7 +9,8 @@ digraph D {
     size="20,20";
     fontsize=12;
     pad=0.25;
-    "Empty" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_2006</B><BR align="center"/>>, fontname="Roboto, sans-serif"];
+    "Empty" [margin="0.2,0.12", shape=box, style="filled,rounded", penwidth=0.0, fillcolor="#7a8da1", label=<<B>E_2006</B><BR align="center"/><FONT>G_0070_Bestätigung Verpflichtungsanfrage
+G_0071_Ablehnung Verpflichtungsanfrage</FONT><BR align="center"/>>, fontname="Roboto, sans-serif"];
 
 
     bgcolor="transparent";
