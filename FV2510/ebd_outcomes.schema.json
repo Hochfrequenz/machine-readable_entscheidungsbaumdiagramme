@@ -173,7 +173,7 @@
     },
     "EbdPruefidentifikator": {
       "additionalProperties": false,
-      "description": "A Pruefidentifikator paired with its Edifact format version,\nallowing generation of links to ahb-tabellen.hochfrequenz.de.",
+      "description": "A Pruefidentifikator paired with its Edifact format version,\nallowing generation of links to ahb-tabellen.hochfrequenz.app.",
       "properties": {
         "format_version": {
           "$ref": "#/$defs/EdifactFormatVersion"
